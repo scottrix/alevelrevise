@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matrices and Linear Transformations - A-Level Further Mathematics Revision Notes</title>
+<meta name="description" content="2D/3D matrix transformations, determinants, inverses, eigenvalues, eigenvectors, systems of equations. Complete revision notes for A-Level Further Mathematics.">
+<meta name="keywords" content="A-Level Further Mathematics, Matrices and Linear Transformations, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<meta property="og:title" content="Matrices and Linear Transformations - A-Level Further Mathematics">
+<meta property="og:description" content="2D/3D matrix transformations, determinants, inverses, eigenvalues, eigenvectors, systems of equations. Complete revision notes for A-Level Further Mathematics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/further-mathematics/matrices-and-linear-transformations.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/further-mathematics/matrices-and-linear-transformations.html">
+<meta property="og:site_name" content="A-Level Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Matrices and Linear Transformations">
+<meta name="twitter:description" content="2D/3D matrix transformations, determinants, inverses, eigenvalues, eigenvectors, systems of equations.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Find inverse of [[1, 2], [3, 4]].", "acceptedAnswer": {"@type": "Answer", "text": "det = -2. Inverse = -½ [[4, -2], [-3, 1]] = [[-2, 1], [1.5, -0.5]]."}}, {"@type": "Question", "name": "Explain geometric meaning of det(M) = -1.", "acceptedAnswer": {"@type": "Answer", "text": "Area scale factor is 1, but orientation is reversed (reflection)."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../further-mathematics.html">Further Mathematics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../further-mathematics.html">Further Mathematics</a> <span>›</span>
+<a href="../../further-mathematics.html#further-pure-mathematics">Further Pure Mathematics</a> <span>›</span>
+<span>Matrices and Linear Transformations</span>
+</nav>
+
+<article class="topic-header">
+<h1>FM2: Matrices and Linear Transformations</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
+</div>
+<p class="topic-desc">2D/3D matrix transformations, determinants, inverses, eigenvalues, eigenvectors, systems of equations.</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Determinant:</strong> Scalar scale factor for area/volume. det(A) = ad - bc for 2x2.</div>
+<div class="key-point"><strong>Eigenvector:</strong> Non-zero vector v satisfying Av = λv for eigenvalue λ.</div>
+</section>
+
+<section class="section">
+<h2>🔍 Key Principles & Specification Requirements</h2>
+<ul>
+<li>Rotation by θ: [[cos θ, -sin θ], [sin θ, cos θ]]. Reflection in y = x tan θ: [[cos 2θ, sin 2θ], [sin 2θ, -cos 2θ]].</li>
+<li>System of 3 planes Ax = b: unique solution if det A ≠ 0; inconsistent (prism) or line of solutions (sheaf) if det A = 0.</li>
+<li>Diagonalisation: A = PDP⁻¹ where D is diagonal eigenvalue matrix and P is eigenvector matrix.</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>💡 Worked Example Question</h2>
+<div class="example">
+<div class="example-title">Exam-Style Question</div>
+<p><strong>Question:</strong></p>
+<p>Find eigenvalues of A = [[4, 1], [2, 3]].</p>
+<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
+<p><strong>Model Solution & Mark Scheme:</strong></p>
+<pre style="white-space: pre-wrap; font-family: inherit; color: var(--text-primary);">det(A - λI) = (4 - λ)(3 - λ) - 2 = λ² - 7λ + 10 = (λ - 2)(λ - 5) = 0.
+Eigenvalues: λ₁ = 2, λ₂ = 5.</pre>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<div class="practice-questions">
+<div class="question">
+  <p><strong>Q1:</strong> Find inverse of [[1, 2], [3, 4]].</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> det = -2. Inverse = -½ [[4, -2], [-3, 1]] = [[-2, 1], [1.5, -0.5]].</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Explain geometric meaning of det(M) = -1.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Area scale factor is 1, but orientation is reversed (reflection).</p>
+    </div>
+  </details>
+</div>
+</div>
+</section>
+
+<div class="topic-nav">
+<a href="../../further-mathematics.html">← Back to Further Mathematics Overview</a>
+<a href="../../index.html">All Subjects →</a>
+</div>
+</main>
+</body>
+</html>

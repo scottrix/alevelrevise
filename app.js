@@ -1,4 +1,4 @@
-// GCSE Revise - Main Application
+// A-Level Revise - Main Application
 
 let subjectsData = [];
 let searchIndex = null;
@@ -396,16 +396,16 @@ function toggleTheme() {
   if (root.classList.contains('light-mode')) {
     root.classList.remove('light-mode');
     if (icon) icon.textContent = '🌙';
-    localStorage.setItem('gcserevise-theme', 'dark');
+    localStorage.setItem('alevelrevise-theme', 'dark');
   } else {
     root.classList.add('light-mode');
     if (icon) icon.textContent = '☀️';
-    localStorage.setItem('gcserevise-theme', 'light');
+    localStorage.setItem('alevelrevise-theme', 'light');
   }
 }
 
 function loadTheme() {
-  const savedTheme = localStorage.getItem('gcserevise-theme');
+  const savedTheme = localStorage.getItem('alevelrevise-theme');
   const icon = document.getElementById('theme-toggle');
   if (savedTheme === 'light') {
     document.documentElement.classList.add('light-mode');

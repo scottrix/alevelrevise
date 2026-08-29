@@ -1,4 +1,4 @@
-// GCSE Revise - Sidebar Navigation
+// A-Level Revise - Sidebar Navigation
 (function() {
 var SUBJ_DATA = [
 {id:'mathematics',name:'Maths'},{id:'english-language',name:'English Lang'},

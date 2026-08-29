@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculus: Differentiation and Integration - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Chain, product, quotient rules, implicit/parametric differentiation, integration by parts and substitution. Complete revision notes for A-Level Mathematics.">
+<meta name="keywords" content="A-Level Mathematics, Calculus: Differentiation and Integration, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<meta property="og:title" content="Calculus: Differentiation and Integration - A-Level Mathematics">
+<meta property="og:description" content="Chain, product, quotient rules, implicit/parametric differentiation, integration by parts and substitution. Complete revision notes for A-Level Mathematics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/mathematics/calculus-differentiation-and-integration.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/mathematics/calculus-differentiation-and-integration.html">
+<meta property="og:site_name" content="A-Level Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Calculus: Differentiation and Integration">
+<meta name="twitter:description" content="Chain, product, quotient rules, implicit/parametric differentiation, integration by parts and substitution.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Differentiate y = (x² + 1) e³ˣ.", "acceptedAnswer": {"@type": "Answer", "text": "dy/dx = 2x e³ˣ + 3(x² + 1) e³ˣ = e³ˣ(3x² + 2x + 3)."}}, {"@type": "Question", "name": "Solve dy/dx = 2xy with y(0) = 3.", "acceptedAnswer": {"@type": "Answer", "text": "∫ (1/y) dy = ∫ 2x dx => ln y = x² + C => y = 3e^{x²}."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../mathematics.html">Mathematics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="../../mathematics.html#pure-mathematics">Pure Mathematics</a> <span>›</span>
+<span>Calculus: Differentiation and Integration</span>
+</nav>
+
+<article class="topic-header">
+<h1>M3: Calculus: Differentiation and Integration</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
+</div>
+<p class="topic-desc">Chain, product, quotient rules, implicit/parametric differentiation, integration by parts and substitution.</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Product Rule:</strong> d/dx[uv] = u(dv/dx) + v(du/dx).</div>
+<div class="key-point"><strong>Integration by Parts:</strong> ∫ u (dv/dx) dx = uv - ∫ v (du/dx) dx.</div>
+</section>
+
+<section class="section">
+<h2>🔍 Key Principles & Specification Requirements</h2>
+<ul>
+<li>Standard derivatives: d/dx[e^{kx}] = k e^{kx}, d/dx[ln x] = 1/x, d/dx[tan kx] = k sec² kx.</li>
+<li>Parametric: dy/dx = (dy/dt) / (dx/dt); d²y/dx² = [d/dt(dy/dx)] / (dx/dt).</li>
+<li>Separable differential equations: ∫ (1/g(y)) dy = ∫ f(x) dx + C.</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>💡 Worked Example Question</h2>
+<div class="example">
+<div class="example-title">Exam-Style Question</div>
+<p><strong>Question:</strong></p>
+<p>Evaluate ∫₀¹ x e²ˣ dx using integration by parts.</p>
+<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
+<p><strong>Model Solution & Mark Scheme:</strong></p>
+<pre style="white-space: pre-wrap; font-family: inherit; color: var(--text-primary);">u = x => du = dx; dv = e²ˣ dx => v = ½e²ˣ.
+[½x e²ˣ]₀¹ - ∫₀¹ ½e²ˣ dx = ½e² - [¼e²ˣ]₀¹ = ¼e² + ¼.</pre>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<div class="practice-questions">
+<div class="question">
+  <p><strong>Q1:</strong> Differentiate y = (x² + 1) e³ˣ.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> dy/dx = 2x e³ˣ + 3(x² + 1) e³ˣ = e³ˣ(3x² + 2x + 3).</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Solve dy/dx = 2xy with y(0) = 3.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> ∫ (1/y) dy = ∫ 2x dx => ln y = x² + C => y = 3e^{x²}.</p>
+    </div>
+  </details>
+</div>
+</div>
+</section>
+
+<div class="topic-nav">
+<a href="../../mathematics.html">← Back to Mathematics Overview</a>
+<a href="../../index.html">All Subjects →</a>
+</div>
+</main>
+</body>
+</html>

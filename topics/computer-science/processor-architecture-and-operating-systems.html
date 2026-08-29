@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Processor Architecture and Operating Systems - A-Level Computer Science Revision Notes</title>
+<meta name="description" content="Von Neumann vs Harvard, Fetch-Decode-Execute cycle, ALU, registers, pipelining, RISC vs CISC, memory management. Complete revision notes for A-Level Computer Science.">
+<meta name="keywords" content="A-Level Computer Science, Processor Architecture and Operating Systems, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<meta property="og:title" content="Processor Architecture and Operating Systems - A-Level Computer Science">
+<meta property="og:description" content="Von Neumann vs Harvard, Fetch-Decode-Execute cycle, ALU, registers, pipelining, RISC vs CISC, memory management. Complete revision notes for A-Level Computer Science.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/computer-science/processor-architecture-and-operating-systems.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/computer-science/processor-architecture-and-operating-systems.html">
+<meta property="og:site_name" content="A-Level Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Processor Architecture and Operating Systems">
+<meta name="twitter:description" content="Von Neumann vs Harvard, Fetch-Decode-Execute cycle, ALU, registers, pipelining, RISC vs CISC, memory management.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Explain the significance of Processor Architecture and Operating Systems in A-Level examination contexts.", "acceptedAnswer": {"@type": "Answer", "text": "Demonstrate clear conceptual understanding of Processor Architecture and Operating Systems, defining core terminology and citing relevant principles or case examples."}}, {"@type": "Question", "name": "Evaluate key arguments or methodologies concerning Processor Architecture and Operating Systems.", "acceptedAnswer": {"@type": "Answer", "text": "Contrast competing perspectives, discuss empirical evidence or theoretical limitations, and synthesize a balanced, well-reasoned conclusion."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../computer-science.html">Computer Science</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<a href="../../computer-science.html#systems-and-architecture">Systems and Architecture</a> <span>›</span>
+<span>Processor Architecture and Operating Systems</span>
+</nav>
+
+<article class="topic-header">
+<h1>CS1: Processor Architecture and Operating Systems</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
+</div>
+<p class="topic-desc">Von Neumann vs Harvard, Fetch-Decode-Execute cycle, ALU, registers, pipelining, RISC vs CISC, memory management.</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Von Neumann Architecture:</strong> Computer architecture where instructions and data share the same memory space and system bus.</div>
+<div class="key-point"><strong>Pipelining:</strong> Instruction execution technique where multiple instruction phases (Fetch, Decode, Execute) overlap concurrently.</div>
+</section>
+
+<section class="section">
+<h2>🔍 Key Principles & Specification Requirements</h2>
+<ul>
+<li>Registers: PC (Program Counter), MAR (Memory Address), MDR (Memory Data), CIR (Current Instruction), ACC (Accumulator).</li>
+<li>RISC (simple single-cycle instructions, more RAM, pipelining friendly) vs CISC (complex hardware instructions, compact code).</li>
+<li>Operating system roles: Process scheduling (Round Robin, SRT), virtual memory (paging/segmentation), interrupt handling.</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>💡 Worked Example Question</h2>
+<div class="example">
+<div class="example-title">Exam-Style Question</div>
+<p><strong>Question:</strong></p>
+<p>Explain the Fetch-Decode-Execute cycle step-by-step with register transfers.</p>
+<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
+<p><strong>Model Solution & Mark Scheme:</strong></p>
+<pre style="white-space: pre-wrap; font-family: inherit; color: var(--text-primary);">1. Fetch: PC contents copied to MAR (MAR ← [PC]). PC incremented (PC ← [PC] + 1). Instruction fetched from RAM via data bus into MDR (MDR ← [[MAR]]). Instruction moved to CIR (CIR ← [MDR]).
+2. Decode: CIR splits instruction into opcode and operand; Control Unit decodes.
+3. Execute: ALU executes arithmetic/logic or data is loaded/stored; flags updated.</pre>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<div class="practice-questions">
+<div class="question">
+  <p><strong>Q1:</strong> Explain the significance of Processor Architecture and Operating Systems in A-Level examination contexts.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Demonstrate clear conceptual understanding of Processor Architecture and Operating Systems, defining core terminology and citing relevant principles or case examples.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Evaluate key arguments or methodologies concerning Processor Architecture and Operating Systems.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Contrast competing perspectives, discuss empirical evidence or theoretical limitations, and synthesize a balanced, well-reasoned conclusion.</p>
+    </div>
+  </details>
+</div>
+</div>
+</section>
+
+<div class="topic-nav">
+<a href="../../computer-science.html">← Back to Computer Science Overview</a>
+<a href="../../index.html">All Subjects →</a>
+</div>
+</main>
+</body>
+</html>

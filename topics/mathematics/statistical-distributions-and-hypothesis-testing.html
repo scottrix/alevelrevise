@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Statistical Distributions and Hypothesis Testing - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Binomial and Normal distributions, central limit theorem, one- and two-tailed hypothesis tests. Complete revision notes for A-Level Mathematics.">
+<meta name="keywords" content="A-Level Mathematics, Statistical Distributions and Hypothesis Testing, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<meta property="og:title" content="Statistical Distributions and Hypothesis Testing - A-Level Mathematics">
+<meta property="og:description" content="Binomial and Normal distributions, central limit theorem, one- and two-tailed hypothesis tests. Complete revision notes for A-Level Mathematics.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/mathematics/statistical-distributions-and-hypothesis-testing.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/mathematics/statistical-distributions-and-hypothesis-testing.html">
+<meta property="og:site_name" content="A-Level Revise">
+<meta property="og:locale" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Statistical Distributions and Hypothesis Testing">
+<meta name="twitter:description" content="Binomial and Normal distributions, central limit theorem, one- and two-tailed hypothesis tests.">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "If X ~ N(100, 15²), find P(85 < X < 115).", "acceptedAnswer": {"@type": "Answer", "text": "Z = ±1. P(-1 < Z < 1) = 0.8413 - 0.1587 = 0.6826 (68.3%)."}}, {"@type": "Question", "name": "State conditions for binomial modeling.", "acceptedAnswer": {"@type": "Answer", "text": "Fixed number of trials n, two outcomes, constant probability p, independent trials."}}]}</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../mathematics.html">Mathematics</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../mathematics.html">Mathematics</a> <span>›</span>
+<a href="../../mathematics.html#statistics-and-mechanics">Statistics and Mechanics</a> <span>›</span>
+<span>Statistical Distributions and Hypothesis Testing</span>
+</nav>
+
+<article class="topic-header">
+<h1>M4: Statistical Distributions and Hypothesis Testing</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
+</div>
+<p class="topic-desc">Binomial and Normal distributions, central limit theorem, one- and two-tailed hypothesis tests.</p>
+</article>
+
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Binomial Distribution:</strong> X ~ B(n, p) for n independent trials with constant success probability p.</div>
+<div class="key-point"><strong>Normal Distribution:</strong> X ~ N(μ, σ²) continuous symmetric distribution standardised via Z = (X - μ)/σ.</div>
+</section>
+
+<section class="section">
+<h2>🔍 Key Principles & Specification Requirements</h2>
+<ul>
+<li>Binomial P(X = r) = ⁿCᵣ pʳ (1-p)ⁿ⁻ʳ.</li>
+<li>Reject H₀ if test statistic falls within critical region or p-value < significance level α.</li>
+<li>Normal distribution 68-95-99.7 rule: ~68.3% within 1σ, ~95.4% within 2σ, ~99.7% within 3σ.</li>
+</ul>
+</section>
+
+<section class="section">
+<h2>💡 Worked Example Question</h2>
+<div class="example">
+<div class="example-title">Exam-Style Question</div>
+<p><strong>Question:</strong></p>
+<p>A fair coin is tossed 20 times. 15 heads are observed. Test at 5% level if the coin is biased.</p>
+<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
+<p><strong>Model Solution & Mark Scheme:</strong></p>
+<pre style="white-space: pre-wrap; font-family: inherit; color: var(--text-primary);">H₀: p = 0.5, H₁: p ≠ 0.5 (two-tailed, α = 0.025 per tail).
+X ~ B(20, 0.5). P(X ≥ 15) = 1 - P(X ≤ 14) = 0.0207.
+0.0207 < 0.025 => Reject H₀; significant evidence of bias.</pre>
+</div>
+</div>
+</section>
+
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<div class="practice-questions">
+<div class="question">
+  <p><strong>Q1:</strong> If X ~ N(100, 15²), find P(85 < X < 115).</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Z = ±1. P(-1 < Z < 1) = 0.8413 - 0.1587 = 0.6826 (68.3%).</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> State conditions for binomial modeling.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Fixed number of trials n, two outcomes, constant probability p, independent trials.</p>
+    </div>
+  </details>
+</div>
+</div>
+</section>
+
+<div class="topic-nav">
+<a href="../../mathematics.html">← Back to Mathematics Overview</a>
+<a href="../../index.html">All Subjects →</a>
+</div>
+</main>
+</body>
+</html>
