@@ -693,7 +693,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "mathematics",
+      "category": "Core"
     },
     {
       "name": "Further Mathematics",
@@ -1278,7 +1280,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "further-mathematics",
+      "category": "Core"
     },
     {
       "name": "Physics",
@@ -1863,7 +1867,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "physics",
+      "category": "Core"
     },
     {
       "name": "Chemistry",
@@ -2443,7 +2449,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "chemistry",
+      "category": "Core"
     },
     {
       "name": "Biology",
@@ -3023,7 +3031,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "biology",
+      "category": "Core"
     },
     {
       "name": "English Literature",
@@ -3498,7 +3508,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "english-literature",
+      "category": "Core"
     },
     {
       "name": "History",
@@ -3968,7 +3980,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "history",
+      "category": "Core"
     },
     {
       "name": "Geography",
@@ -4438,7 +4452,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "geography",
+      "category": "Core"
     },
     {
       "name": "Economics",
@@ -4908,7 +4924,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "economics",
+      "category": "Core"
     },
     {
       "name": "Business Studies",
@@ -5488,7 +5506,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "business-studies",
+      "category": "Core"
     },
     {
       "name": "Computer Science",
@@ -6068,7 +6088,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "computer-science",
+      "category": "Core"
     },
     {
       "name": "Psychology",
@@ -6648,7 +6670,9 @@
             }
           ]
         }
-      ]
+      ],
+      "id": "psychology",
+      "category": "Core"
     }
   ]
 }
