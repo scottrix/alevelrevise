@@ -65,6 +65,8 @@ jobs:
             devtools)           PREFIX="/devtools" ;;
             fintools)           PREFIX="/fintools" ;;
             gcserevise)         PREFIX="/gcserevise" ;;
+            alevelrevise)       PREFIX="/alevelrevise" ;;
+            alevellessons)      PREFIX="/alevellessons" ;;
             *) echo "Unknown repo: $REPO"; exit 1 ;;
           esac
           # Submit every URL listed in the fresh sitemap to IndexNow in batches of 10K.

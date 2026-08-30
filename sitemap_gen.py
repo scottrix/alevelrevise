@@ -66,12 +66,19 @@ def enumerate_html(repo_root):
         'devtools':           '/devtools',
         'fintools':           '/fintools',
         'gcserevise':         '/gcserevise',
+        'alevelrevise':       '/alevelrevise',
+        'alevellessons':      '/alevellessons',
     }
     if repo_name not in subpath_map:
         raise SystemExit(f'Unknown repo: {repo_name}')
     subpath = subpath_map[repo_name]
     is_gcserevise = (repo_name == 'gcserevise')
     is_root = (repo_name == 'scottrix.github.io')
+
+    # Multi-page content repos (gcserevise, alevelrevise, alevellessons) share
+    # the same URL priority scheme: home 1.0, privacy 0.3, topics/ 0.7,
+    # subject + other pages 0.8.
+    is_content_repo = repo_name in ('gcserevise', 'alevelrevise', 'alevellessons')
 
     files = sorted(p for p in repo_root.rglob('*.html') if not is_skippable(p, repo_root))
     # Sort by priority (desc) then URL (asc): home first, privacy last.
@@ -88,7 +95,7 @@ def enumerate_html(repo_root):
             public = f'{BASE_URL}{subpath}/{rel}'
 
         # Determine priority
-        if is_gcserevise:
+        if is_content_repo:
             if rel == 'index.html':
                 prio = '1.0'
             elif rel == 'privacy.html':
@@ -191,7 +198,7 @@ def generate_for_repo(repo_root, check_only=False):
         plan.append((repo_root / 'sitemap.xml',
                      render_urlset(entries, indent='    ', changefreq=True)))
 
-    elif repo_name == 'gcserevise':
+    elif repo_name in ('gcserevise', 'alevelrevise', 'alevellessons'):
         entries = []
         for p, public, prio, cf in enumerate_html(repo_root):
             lm = git_last_date(p, repo_root)
