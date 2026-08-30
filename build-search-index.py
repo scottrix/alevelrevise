@@ -54,34 +54,31 @@ def build_index(site):
             'category': s.get('category', 'Core'),
             'aliases': ALIASES.get(sid, []),
             'boards': [b['board'] if isinstance(b, dict) else b for b in s.get('boards', [])],
-            'papers': 0,
+            'papers': s.get('papers', 0),
             'url': s.get('url') or f"{sid}.html",
         }
         subjects_index.append(subject_entry)
 
-        for board in s.get('boards', []):
-            board_name = board['board'] if isinstance(board, dict) else board
-            for t in board.get('topics', []):
-                title = t['title']
-                page = t.get('page', '')
-                search_text = ' '.join(filter(None, [
-                    s['name'], title,
-                    t.get('boardNote', ''),
-                    ' '.join(t.get('learningObjectives', []) or []),
-                    ' '.join(t.get('keyPoints', []) or []),
-                    ' '.join(t.get('practiceQuestions', []) or []),
-                ]))
-                topics_index.append({
-                    'id': None,
-                    'name': title,
-                    'strandId': None,
-                    'strandName': None,
-                    'subject': sid,
-                    'subjectName': s['name'],
-                    'category': s.get('category', 'Core'),
-                    'url': page,
-                    'searchText': re.sub(r'\s+', ' ', search_text).strip().lower(),
-                })
+        for t in s.get('topics', []):
+            title = t['title']
+            page = t.get('page', '')
+            search_text = ' '.join(filter(None, [
+                s['name'], title,
+                ' '.join(t.get('learningObjectives', []) or []),
+                ' '.join(t.get('keyPoints', []) or []),
+                ' '.join(t.get('practiceQuestions', []) or []),
+            ]))
+            topics_index.append({
+                'id': None,
+                'name': title,
+                'strandId': None,
+                'strandName': None,
+                'subject': sid,
+                'subjectName': s['name'],
+                'category': s.get('category', 'Core'),
+                'url': page,
+                'searchText': re.sub(r'\s+', ' ', search_text).strip().lower(),
+            })
 
     # Deduplicate topics by URL (a subject may list the same page via multiple
     # boards if wired twice — e.g. generated per-board + rich general topics).

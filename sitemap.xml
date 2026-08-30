@@ -261,6 +261,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/biology/biochemistry-and-respiration.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/biology/biological-molecules-and-enzyme-kinetics.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -291,8 +296,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/biology/cell-structure-and-function.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/biology/cell-structure-transport-and-immunology.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/biology/ecology-and-ecosystems.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -321,8 +336,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/biology/genetics-and-inheritance.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/biology/genetics-gene-expression-and-recombinant-dna.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/biology/homeostasis-and-the-nervous-system.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -456,6 +481,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/finance-and-accounts.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/marketing.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/ocr/finance-and-accounts.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -481,8 +516,23 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/operations-management.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/people-and-leadership.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/strategic-management-financial-analysis-and-marketing.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/business-studies/strategy-and-the-external-environment.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -541,6 +591,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/atomic-structure-and-bonding.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/ccea/atomic-structure-and-bonding.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -591,8 +646,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/energetics.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/equilibria-kp-ph-and-buffer-solutions.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/kinetics-and-equilibria.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -621,8 +686,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/organic-chemistry.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/organic-synthesis-and-spectroscopic-analysis.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/chemistry/redox-and-electrochemistry.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -681,6 +756,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/boolean-logic-and-relational-databases.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/ccea/boolean-logic-and-relational-databases.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -706,8 +786,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/computer-systems-and-architecture.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/data-structures-algorithms-and-complexity.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/data-structures-and-algorithms.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -733,6 +823,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/edexcel/programming-fundamentals.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/networks-and-internet.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -763,6 +858,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/processor-architecture-and-operating-systems.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/computer-science/programming-fundamentals.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -856,13 +956,33 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/economics/international-trade-and-development.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/economics/macroeconomic-policy-inflation-and-globalisation.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/economics/macroeconomics.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/economics/market-failure-and-government-intervention.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/economics/market-mechanisms-elasticity-and-market-failure.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/economics/microeconomics-and-markets.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -951,6 +1071,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/english-literature/critical-writing-and-context.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/english-literature/drama-and-shakespeare.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/english-literature/edexcel/critical-writing-and-context.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -988,6 +1118,16 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/english-literature/ocr/prose-and-the-novel.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/english-literature/poetry-analysis.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/english-literature/prose-and-the-novel.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1076,6 +1216,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/complex-numbers.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/edexcel/complex-numbers.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -1101,8 +1246,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/hyperbolic-functions.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/matrices-and-linear-transformations.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/matrices.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1128,6 +1283,16 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/ocr/vectors.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/polar-coordinates.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/further-mathematics/vectors.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1216,6 +1381,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/geography/fieldwork-and-data-collection.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/geography/hazards-and-global-issues.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/geography/human-geography.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/geography/ocr/fieldwork-and-data-collection.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -1233,6 +1413,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/geography/ocr/physical-geography.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/geography/physical-geography.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1306,6 +1491,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/history/depth-study:-a-period-in-detail.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/history/edexcel/depth-study:-a-period-in-detail.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -1323,6 +1513,16 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/history/edexcel/themed-study:-key-eras.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/history/historical-enquiry-and-essay-skills.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/history/interpretation-and-sources.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1348,6 +1548,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/history/revolutions-authoritarianism-and-historical-historiography.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/history/themed-study:-key-eras.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1378,6 +1583,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/law/the-english-legal-system-criminal-and-tort-law.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/algebraic-expressions.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1456,6 +1666,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/coordinate-geometry.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/differentiation.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/edexcel/algebraic-expressions.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -1483,6 +1703,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/edexcel/trigonometry.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/integration.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1521,8 +1746,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/quadratic-equations.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/statistical-distributions-and-hypothesis-testing.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/mathematics/trigonometry.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1651,8 +1886,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physics/electricity-and-circuits.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/physics/gravitational-electric-and-magnetic-fields.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physics/mechanics-and-motion.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1691,8 +1936,23 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physics/particles-and-quantum-physics.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physics/thermal-physics.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/physics/waves-optics-and-superposition.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physics/waves.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1723,6 +1983,11 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/politics/uk-and-us-government-constitutions-and-ideologies.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/psychology/approaches-and-perspectives.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1801,6 +2066,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/psychology/memory-and-cognitive-psychology.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/psychology/ocr/approaches-and-perspectives.html</loc>
     <lastmod>2026-08-29</lastmod>
     <priority>0.7</priority>
@@ -1823,6 +2093,21 @@
   <url>
     <loc>https://scottrix.github.io/alevelrevise/topics/psychology/ocr/social-influence-and-attachment.html</loc>
     <lastmod>2026-08-29</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/psychology/psychopathology.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/psychology/research-methods.html</loc>
+    <lastmod>2026-08-30</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/psychology/social-influence-and-attachment.html</loc>
+    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
