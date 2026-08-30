@@ -72,7 +72,7 @@ function subjectCard(subject) {
       <h3>${escapeHtml(subject.name)}</h3>
       <div class="paper-count">${subject.papers || 0} paper${(subject.papers || 0) > 1 ? 's' : ''}</div>
       <div class="board-badges">
-        ${(subject.boards || []).map(b => `<span class="board-badge">${escapeHtml(b)}</span>`).join('')}
+        ${(subject.boards || []).map(b => `<span class="board-badge">${escapeHtml(typeof b === 'string' ? b : b.board)}</span>`).join('')}
       </div>
     </a>`;
 }
@@ -356,7 +356,7 @@ function closeMobileMenu() {
 function filterByBoard(board) {
   const grid = document.getElementById('subjects-grid');
   if (!grid) return;
-  const filtered = subjectsData.filter(s => (s.boards || []).includes(board));
+  const filtered = subjectsData.filter(s => (s.boards || []).some(b => (typeof b === 'string' ? b : b.board) === board));
 
   grid.innerHTML = filtered.map(s => `
     <a href="${s.id}.html" class="subject-card">
