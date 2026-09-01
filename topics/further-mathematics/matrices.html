@@ -16,7 +16,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Matrices">
-<meta name="twitter:description" content="Matrices — A-Level Further Mathematics revision notes.">
+<meta name="twitter:description" content="Matrices -- A-Level Further Mathematics revision notes.">
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 </header>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -50,26 +50,26 @@
 </article>
 
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
 <h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Matrix multiplication is non-commutative</div><div class="key-point"><strong>Key Fact:</strong> det(A) for 2x2 = ad−bc</div><div class="key-point"><strong>Key Fact:</strong> A⁻¹ = (1/det) adj(A)</div>
+<div class="key-point"><strong>Key Fact:</strong> Multiplication: (AB)_{ij} = Σₖ A_{ik}B_{kj} -- non-commutative, associative, distributive</div><div class="key-point"><strong>Key Fact:</strong> det 2x2: |a b; c d| = ad - bc; det 3x3: cofactor expansion or Sarrus</div><div class="key-point"><strong>Key Fact:</strong> Inverse 2x2: A⁻¹ = (1/det)[d -b; -c a]; 3x3: adj(A)/det(A) via minors/cofactors</div><div class="key-point"><strong>Key Fact:</strong> System AX = B: if det(A) != 0, X = A⁻¹B (unique solution); if det(A) = 0, either no solution or infinite</div><div class="key-point"><strong>Key Fact:</strong> Transformations: reflection in x-axis [1 0; 0 -1], rotation by θ [cosθ -sinθ; sinθ cosθ]</div><div class="key-point"><strong>Key Fact:</strong> Eigenvalues λ: det(A - λI) = 0; Eigenvectors: (A - λI)v = 0</div><div class="key-point"><strong>Key Fact:</strong> Diagonalisation: P⁻¹AP = D (D diagonal) if A has n linearly independent eigenvectors</div>
 </section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Add and multiply matrices</li><li>Compute determinants and inverses</li><li>Solve systems with matrices</li></ul>
+<ul><li>Perform matrix addition, subtraction and multiplication</li><li>Find determinants of 2x2 and 3x3 matrices</li><li>Find inverses of 2x2 and 3x3 matrices using adjugate or row reduction</li><li>Solve systems of linear equations using inverse matrices</li><li>Understand singular matrices and consistency of systems</li><li>Apply matrices to geometric transformations (reflection, rotation, enlargement)</li><li>Find eigenvalues and eigenvectors of 2x2 matrices</li><li>Diagonalise symmetric matrices</li></ul>
 </section>
 
 <section class="section">
 <h2>💡 Worked Example</h2>
 <div class="example">
 <div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Find determinant of [[2,3],[1,4]]</p>
+<p><strong>Question:</strong> Find eigenvalues and eigenvectors of A = [3 2; 1 4]. Diagonalise A</p>
 <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
 <p><strong>Model Answer:</strong></p>
-<p>8 − 3 = 5</p>
+<p>det(A-λI) = (3-λ)(4-λ)-2 = λ^2-7λ+10 = (λ-5)(λ-2)=0 -&gt; λ=5,2. λ=5: [−2 2; 1 −1]v=0 -&gt; v₁=[1;1]. λ=2: [1 2; 1 2]v=0 -&gt; v₂=[2;−1]. P=[1 2; 1 −1], D=[5 0; 0 2]. Check P⁻¹AP=D</p>
 </div>
 </div>
 </section>
@@ -78,7 +78,7 @@
 <div class="practice-questions">
 <div class="question">
 <p><strong>Questions:</strong></p>
-<ul><li>Multiply [[1,2],[3,4]] by [[5],[6]]</li><li>Find the inverse of [[2,0],[0,3]]</li><li>Solve 2x+3y=5, y=1 using matrices</li></ul>
+<ul><li>Find det and inverse of [2 1 3; 0 1 4; 5 6 0]</li><li>Solve using matrix inverse: 2x+y-z=1, x+2y+z=2, 3x-y+2z=3</li><li>Find matrix for rotation by 90 deg  about origin followed by reflection in y=x</li><li>Find eigenvalues of [4 1; 2 3] and corresponding eigenvectors</li><li>Show [1 2; 2 1] is diagonalisable</li></ul>
 </div>
 </div>
 </section>
@@ -86,14 +86,14 @@
 
 <nav class="topic-nav">
 <a href="../../further-mathematics.html">← Back to Further Mathematics Overview</a>
-<a href="../../index.html">All Subjects →</a>
+<a href="../../index.html">All Subjects -></a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -124,9 +124,9 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-desc">CGP and other revision guides</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
-<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail — Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
-<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot — Domain Registration →</div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
-<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet — UK Broadband →</div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
 </aside>
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>

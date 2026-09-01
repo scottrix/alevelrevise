@@ -15,127 +15,205 @@
         {
           "title": "Algebraic Expressions",
           "learningObjectives": [
-            "Simplify algebraic expressions",
-            "Expand brackets",
-            "Factorise quadratic expressions"
+            "Simplify algebraic expressions by collecting like terms",
+            "Expand single and double brackets using distributive law",
+            "Factorise quadratic expressions including difference of two squares",
+            "Manipulate algebraic fractions with numerical and algebraic denominators",
+            "Apply index laws to simplify expressions with powers",
+            "Use the factor theorem and remainder theorem for polynomial division"
           ],
           "keyPoints": [
-            "Collecting like terms",
-            "Difference of two squares",
-            "Factorising by grouping"
+            "Collecting like terms: only terms with identical variables and powers can be combined",
+            "Expanding brackets: multiply each term inside by the term outside (FOIL for double brackets)",
+            "Difference of two squares: a^2 - b^2 = (a + b)(a - b)",
+            "Perfect square trinomials: a^2 +/- 2ab + b^2 = (a +/- b)^2",
+            "Factorising by grouping: pair terms to extract common factors",
+            "Algebraic fractions: factorise numerator and denominator first, then cancel common factors",
+            "Index laws: xᵃ x xᵇ = xᵃ⁺ᵇ, xᵃ ÷ xᵇ = xᵃ⁻ᵇ, (xᵃ)ᵇ = xᵃᵇ, x⁰ = 1, x⁻ᵃ = 1/xᵃ",
+            "Polynomial long division: dividend = divisor x quotient + remainder",
+            "Factor theorem: if f(a) = 0 then (x - a) is a factor of f(x)"
           ],
-          "exampleQuestion": "Simplify (2x + 3)(x - 4)",
-          "modelAnswer": "2x² - 5x - 12",
+          "exampleQuestion": "Simplify fully: (2x^2 + 3x - 2)/(x + 2) - (x^2 - 4)/(x - 2)",
+          "modelAnswer": "Factorise: (2x-1)(x+2)/(x+2) - (x-2)(x+2)/(x-2) = (2x-1) - (x+2) = x - 3",
           "practiceQuestions": [
-            "Expand (x + 5)(x - 2)",
-            "Factorise x² + 6x + 9",
-            "Simplify (3a²b)(4ab³)"
+            "Expand and simplify (3x - 2)(x + 4) - (x - 1)^2",
+            "Factorise completely: 6x^2 + 13x + 6",
+            "Simplify: (x^3 - 8)/(x^2 - 4)",
+            "Divide 2x^3 - 5x^2 + 3x - 1 by (x - 2) using polynomial division",
+            "Given f(x) = x^3 - 6x^2 + 11x - 6, show (x-1) is a factor and factorise fully",
+            "Simplify: (2x^2y⁻^3)^3 ÷ (4x⁻¹y^2)^2"
           ],
           "page": "topics/mathematics/algebraic-expressions.html"
         },
         {
           "title": "Quadratic Equations",
           "learningObjectives": [
-            "Solve by factorising",
-            "Complete the square",
-            "Use the quadratic formula"
+            "Solve quadratic equations by factorising",
+            "Solve by completing the square",
+            "Use the quadratic formula for any quadratic",
+            "Interpret the discriminant to determine number and nature of roots",
+            "Solve quadratic inequalities graphically and algebraically",
+            "Form and solve quadratic equations from word problems",
+            "Understand the relationship between roots and coefficients (sum/product)"
           ],
           "keyPoints": [
-            "Factorising when a=1",
-            "Completing the square (x + p)² + q",
-            "Quadratic formula x = (−b ± √(b²−4ac)) / 2a"
+            "Standard form: ax^2 + bx + c = 0 (a != 0)",
+            "Factorising when a=1: find two numbers with product c and sum b",
+            "Factorising when a!=1: use AC method or trial and error",
+            "Completing the square: x^2 + bx = (x + b/2)^2 - (b/2)^2",
+            "Quadratic formula: x = (-b +/- sqrt(b^2-4ac)) / 2a",
+            "Discriminant Delta = b^2 - 4ac: Delta > 0 -> two distinct real roots; Delta = 0 -> one repeated root; Delta < 0 -> no real roots",
+            "Quadratic inequalities: sketch parabola or use sign analysis of factors",
+            "Sum of roots = -b/a, product of roots = c/a",
+            "Hidden quadratics: substitute u = x^2, u = eˣ, etc."
           ],
-          "exampleQuestion": "Solve x² - 5x + 6 = 0",
-          "modelAnswer": "x = 2 or x = 3",
+          "exampleQuestion": "Solve 2x^2 - 5x - 3 = 0 and hence solve 2sin^2θ - 5sinθ - 3 = 0 for 0 <= θ < 2pi",
+          "modelAnswer": "2x^2 - 5x - 3 = (2x+1)(x-3) = 0 -> x = -½ or x = 3. Since sinθ ∈ [-1,1], sinθ = -½ -> θ = 7pi/6, 11pi/6",
           "practiceQuestions": [
-            "Solve 2x² + 7x + 3 = 0",
-            "Complete the square for x² + 4x - 5",
-            "Use the quadratic formula for 3x² - x - 2 = 0"
+            "Solve 3x^2 + 10x - 8 = 0 by factorising",
+            "Solve x^2 - 6x + 2 = 0 by completing the square",
+            "Use the quadratic formula for 5x^2 - 3x - 1 = 0, leave in surd form",
+            "Find the range of k for which kx^2 + 4x + k = 0 has real roots",
+            "Solve the inequality x^2 - 5x + 6 > 0",
+            "A rectangle has area 24 cm^2 and perimeter 20 cm. Find its dimensions"
           ],
           "page": "topics/mathematics/quadratic-equations.html"
         },
         {
           "title": "Coordinate Geometry",
           "learningObjectives": [
-            "Find the equation of a line",
-            "Compute distance and midpoint",
-            "Handle parallel and perpendicular lines"
+            "Find the equation of a line given gradient and point, or two points",
+            "Compute distance between two points and midpoint of a segment",
+            "Determine parallel and perpendicular lines using gradients",
+            "Find intersection of two lines algebraically",
+            "Understand equation of a circle (x-a)^2 + (y-b)^2 = r^2",
+            "Find tangents and normals to circles and curves",
+            "Apply coordinate geometry to solve geometric problems"
           ],
           "keyPoints": [
-            "Gradient m = (y₂−y₁)/(x₂−x₁)",
-            "Line y = mx + c",
-            "Distance √((x₂−x₁)²+(y₂−y₁)²)",
-            "Midpoint ((x₁+x₂)/2,(y₁+y₂)/2)"
+            "Gradient m = (y₂ - y₁)/(x₂ - x₁)",
+            "Line equations: y - y₁ = m(x - x₁) or y = mx + c",
+            "Distance d = sqrt((x₂ - x₁)^2 + (y₂ - y₁)^2)",
+            "Midpoint M = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+            "Parallel lines: equal gradients (m₁ = m₂)",
+            "Perpendicular lines: product of gradients = -1 (m₁ x m₂ = -1)",
+            "Circle: (x - a)^2 + (y - b)^2 = r^2, centre (a,b), radius r",
+            "Circle properties: radius ⟂ tangent, perpendicular bisector of chord passes through centre",
+            "Intersection: solve simultaneous equations of line and circle/line"
           ],
-          "exampleQuestion": "Find the equation of the line through (1,2) and (3,6)",
-          "modelAnswer": "y = 2x",
+          "exampleQuestion": "Find the equation of the circle with diameter endpoints A(1,2) and B(5,6). Find the tangent at A.",
+          "modelAnswer": "Centre = midpoint of AB = (3,4). Radius = half of AB = ½sqrt((5-1)^2+(6-2)^2) = ½sqrt32 = 2sqrt2. Circle: (x-3)^2+(y-4)^2=8. Gradient of radius OA = (2-4)/(1-3)=1. Tangent gradient = -1. Tangent at A: y-2 = -1(x-1) -> y = -x+3",
           "practiceQuestions": [
-            "Find line through (0,0) and (2,5)",
-            "Are y=2x+1 and y=2x−3 parallel?",
-            "Find intersection of y=x+1 and y=−x+3"
+            "Find the line through (-2,3) perpendicular to 2x + 3y = 6",
+            "Find intersection of y = 2x - 1 and 3x + y = 7",
+            "Circle C: (x-2)^2 + (y+1)^2 = 25. Find tangent at (5,3)",
+            "Points A(1,1), B(4,5), C(6,2). Show triangle ABC is right-angled",
+            "Find the locus of points equidistant from (2,3) and the line y = -1"
           ],
           "page": "topics/mathematics/coordinate-geometry.html"
         },
         {
           "title": "Differentiation",
           "learningObjectives": [
-            "Differentiate polynomials",
-            "Find gradients and stationary points",
-            "Apply the second derivative test"
+            "Differentiate polynomials, rational and negative powers from first principles",
+            "Apply sum/difference, product, quotient and chain rules",
+            "Find gradients of tangents and normals to curves",
+            "Find and classify stationary points (maxima, minima, inflection)",
+            "Apply second derivative test for nature of stationary points",
+            "Solve optimisation problems (max/min area, volume, cost)",
+            "Use implicit differentiation for curves not in y = f(x) form",
+            "Understand connected rates of change"
           ],
           "keyPoints": [
-            "Power rule d/dx(xⁿ)=nxⁿ⁻¹",
-            "Stationary point where f′(x)=0",
-            "Second derivative classifies max/min"
+            "Power rule: d/dx(xⁿ) = nxⁿ⁻¹ for all real n",
+            "Sum/difference: d/dx(f+/-g) = f' +/- g'",
+            "Product rule: d/dx(fg) = f'g + fg'",
+            "Quotient rule: d/dx(f/g) = (f'g - fg')/g^2",
+            "Chain rule: d/dx(f(g(x))) = f'(g(x))·g'(x)",
+            "Stationary points: f'(x) = 0. Max: f'' < 0; Min: f'' > 0; Inflection: f'' = 0 with sign change",
+            "Tangent: y - y₁ = f'(x₁)(x - x₁); Normal gradient = -1/f'(x₁)",
+            "Optimisation: find critical points, check endpoints, justify global max/min",
+            "Implicit: differentiate term-by-term w.r.t x, solve for dy/dx",
+            "Connected rates: dy/dt = dy/dx · dx/dt"
           ],
-          "exampleQuestion": "Differentiate y = 3x⁴ - 2x³ + x",
-          "modelAnswer": "dy/dx = 12x³ - 6x² + 1",
+          "exampleQuestion": "Find the stationary points of y = x^3 - 3x^2 - 9x + 5 and determine their nature",
+          "modelAnswer": "y' = 3x^2 - 6x - 9 = 3(x^2 - 2x - 3) = 3(x-3)(x+1) = 0 -> x = 3 or x = -1. y'' = 6x - 6. At x = 3: y'' = 12 > 0 -> minimum at (3, -22). At x = -1: y'' = -12 < 0 -> maximum at (-1, 10)",
           "practiceQuestions": [
-            "Differentiate x⁵ - 4x³",
-            "Find stationary points of y = x³ - 3x",
-            "Classify with the second derivative"
+            "Differentiate: xsqrt(x+2) using product rule",
+            "Find the equation of the normal to y = x^2 - 4x + 3 at x = 2",
+            "A rectangular box with square base has volume 500 cm^3. Find minimum surface area",
+            "For x^2 + y^2 = 25, find dy/dx when x = 3 (implicit)",
+            "Radius of a sphere increases at 0.5 cm/s. Rate of volume increase when r = 10 cm?"
           ],
           "page": "topics/mathematics/differentiation.html"
         },
         {
           "title": "Integration",
           "learningObjectives": [
-            "Integrate polynomials",
-            "Evaluate definite integrals",
-            "Find area under a curve"
+            "Integrate polynomials, rational and negative powers",
+            "Use reverse chain rule for composite functions",
+            "Integrate trigonometric, exponential and logarithmic functions",
+            "Apply substitution and integration by parts",
+            "Evaluate definite integrals and find area under curves",
+            "Find area between two curves",
+            "Calculate volumes of revolution (disc/washer method)",
+            "Solve differential equations by separation of variables"
           ],
           "keyPoints": [
-            "Increase power by 1 then divide",
-            "∫axⁿ dx = axⁿ⁺¹/(n+1) + C",
-            "∫ₐᵇ f(x)dx = F(b)−F(a)"
+            "Power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n != -1)",
+            "Special: ∫1/x dx = ln|x| + C, ∫eˣ dx = eˣ + C",
+            "Trig: ∫sin x dx = -cos x + C, ∫cos x dx = sin x + C, ∫sec^2x dx = tan x + C",
+            "Reverse chain: ∫f'(x)[f(x)]ⁿ dx = [f(x)]ⁿ⁺¹/(n+1) + C",
+            "Substitution: let u = f(x), dx = du/f'(x), change limits if definite",
+            "By parts: ∫u dv = uv - ∫v du (LIATE for choosing u)",
+            "Definite: ∫ₐᵇ f(x)dx = F(b) - F(a), area = ∫|f(x)|dx",
+            "Area between curves: ∫(top - bottom)dx over intersection interval",
+            "Volume of revolution: V = pi∫y^2 dx (about x-axis) or pi∫x^2 dy (about y-axis)"
           ],
-          "exampleQuestion": "Integrate ∫(2x³ - 5x) dx",
-          "modelAnswer": "x⁴/2 - 5x²/2 + C",
+          "exampleQuestion": "Evaluate ∫₀^2 xsqrt(4 - x^2) dx using substitution u = 4 - x^2",
+          "modelAnswer": "u = 4 - x^2, du = -2x dx -> x dx = -½ du. Limits: x=0->u=4, x=2->u=0. ∫₄⁰ sqrtu (-½)du = ½∫₀⁴ u^½ du = ½[⅔u^⅔]₀⁴ = ⅓(8) = 8/3",
           "practiceQuestions": [
-            "∫(4x² + 3x) dx",
-            "Evaluate ∫₀² (x² + 1) dx",
-            "Area under y = x from x=0 to x=3"
+            "∫(3x^2 - 2x + 5)e^{x^3-x^2+5x} dx",
+            "∫x cos x dx (by parts)",
+            "∫₀¹ x/(1+x^2)^2 dx",
+            "Area between y = x^2 and y = 2x - x^2",
+            "Volume when y = sqrtx, 0<=x<=4 rotated about x-axis",
+            "Solve dy/dx = 2xy, y(0)=3"
           ],
           "page": "topics/mathematics/integration.html"
         },
         {
           "title": "Trigonometry",
           "learningObjectives": [
-            "Use sine and cosine rules",
-            "Sketch trig graphs",
-            "Solve trig equations"
+            "Use exact values for 0 deg , 30 deg , 45 deg , 60 deg , 90 deg  and radian equivalents",
+            "Apply compound angle, double angle, and half-angle formulae",
+            "Solve trigonometric equations in given intervals",
+            "Prove trigonometric identities",
+            "Apply sine rule, cosine rule, and area = ½ab sin C",
+            "Sketch graphs of sin, cos, tan and their transformations",
+            "Understand inverse trigonometric functions and their domains/ranges",
+            "Express a sin θ +/- b cos θ in the form R sin(θ +/- α)"
           ],
           "keyPoints": [
-            "SOH CAH TOA",
-            "sin²θ + cos²θ = 1",
-            "Graph period and amplitude"
+            "Exact values table: sin/cos/tan for 0, pi/6, pi/4, pi/3, pi/2",
+            "Compound angles: sin(A+/-B), cos(A+/-B), tan(A+/-B)",
+            "Double angle: sin 2A = 2 sin A cos A, cos 2A = cos^2A - sin^2A = 2cos^2A-1 = 1-2sin^2A",
+            "R-formula: a sin θ + b cos θ = R sin(θ + α) where R = sqrt(a^2+b^2), tan α = b/a",
+            "Sine rule: a/sin A = b/sin B = c/sin C (ambiguous case SSA)",
+            "Cosine rule: a^2 = b^2 + c^2 - 2bc cos A",
+            "Area = ½ab sin C = ½bc sin A = ½ca sin B",
+            "Graph transformations: y = a sin(bx + c) + d: amplitude |a|, period 2pi/|b|, phase -c/b, vertical shift d",
+            "Inverse: arcsin x ∈ [-pi/2, pi/2], arccos x ∈ [0, pi], arctan x ∈ (-pi/2, pi/2)"
           ],
-          "exampleQuestion": "Solve sinθ = √3/2 for 0 ≤ θ < 2π",
-          "modelAnswer": "θ = π/3, 2π/3",
+          "exampleQuestion": "Solve 2 sin 2θ = sqrt3 cos θ for 0 <= θ < 2pi",
+          "modelAnswer": "2(2 sin θ cos θ) = sqrt3 cos θ -> cos θ(4 sin θ - sqrt3) = 0. cos θ = 0 -> θ = pi/2, 3pi/2. sin θ = sqrt3/4 ≈ 0.433 -> θ ≈ 0.448, 2.694",
           "practiceQuestions": [
-            "Solve cosθ = −1/2",
-            "Sketch y = 2 sin x for 0≤x≤2π",
-            "Find a side using the sine rule"
+            "Prove: tan 2θ = 2tan θ/(1 - tan^2θ)",
+            "Solve 3 cos 2θ + sin θ = 1 for 0 <= θ < 360 deg ",
+            "Express 3 sin θ + 4 cos θ as R sin(θ + α)",
+            "In triangle ABC, a=7, b=9, ∠C=60 deg . Find c and area",
+            "Sketch y = 2 cos(2x - pi/3) for 0 <= x <= 2pi",
+            "Find exact value: sin(arcsin ⅗ + arccos ⁴/₅)"
           ],
           "page": "topics/mathematics/trigonometry.html"
         },
@@ -206,106 +284,155 @@
         {
           "title": "Complex Numbers",
           "learningObjectives": [
-            "Work with complex arithmetic",
-            "Represent numbers on the Argand diagram",
-            "Solve polynomial equations with complex roots"
+            "Perform arithmetic with complex numbers in cartesian and polar form",
+            "Represent complex numbers on the Argand diagram",
+            "Find modulus and argument of complex numbers",
+            "Apply de Moivre's theorem for powers and roots",
+            "Solve polynomial equations with complex roots",
+            "Understand loci on the Argand diagram (circles, lines, half-lines)",
+            "Use complex numbers to solve geometric problems"
           ],
           "keyPoints": [
-            "z = a + bi",
-            "Conjugate z̄ = a − bi",
-            "Argand diagram and modulus/argument",
-            "Roots of quadratics come in conjugate pairs"
+            "Cartesian form: z = a + bi; Polar form: z = r(cos θ + i sin θ) = re^{iθ}",
+            "Modulus |z| = sqrt(a^2+b^2); Argument arg(z) = arctan(b/a) (adjust for quadrant)",
+            "Conjugate: z̄ = a - bi = re^{-iθ}; Properties: z + z̄ = 2a, z z̄ = |z|^2",
+            "de Moivre: (cos θ + i sin θ)ⁿ = cos nθ + i sin nθ; (re^{iθ})ⁿ = rⁿe^{inθ}",
+            "n-th roots: r^{1/n} e^{i(θ+2kpi)/n} for k = 0,1,...,n-1 (n distinct roots)",
+            "Complex roots of real polynomials occur in conjugate pairs",
+            "Loci: |z - a| = r (circle), arg(z - a) = α (half-line), |z - a| = |z - b| (perp bisector)",
+            "Euler's formula: e^{iθ} = cos θ + i sin θ; cos θ = ½(e^{iθ}+e^{-iθ}), sin θ = (e^{iθ}-e^{-iθ})/(2i)"
           ],
-          "exampleQuestion": "Solve z² + 4 = 0",
-          "modelAnswer": "z = ±2i",
+          "exampleQuestion": "Solve z^3 = -8. Plot the roots on an Argand diagram and show they form an equilateral triangle",
+          "modelAnswer": "z^3 = 8e^{ipi} -> z = 2e^{i(pi+2kpi)/3} for k=0,1,2. Roots: 2e^{ipi/3} = 1+isqrt3, 2e^{ipi} = -2, 2e^{i5pi/3} = 1-isqrt3. Distance between any two = sqrt((1-(-2))^2+(sqrt3-0)^2) = sqrt(9+3) = 2sqrt3 -- all equal, equilateral triangle",
           "practiceQuestions": [
-            "Add 3+4i and 5−2i",
-            "Multiply (2+i)(3−i)",
-            "Solve z² + 2z + 5 = 0"
+            "Express (1+isqrt3)⁶ in polar form",
+            "Find all solutions to z⁴ = -16",
+            "Solve z^2 + 4z + 13 = 0, plot roots",
+            "Show that |z-3| = 2|z+3| is a circle, find its centre and radius",
+            "If z = cos θ + i sin θ, express cos 3θ in terms of cos θ"
           ],
           "page": "topics/further-mathematics/complex-numbers.html"
         },
         {
           "title": "Matrices",
           "learningObjectives": [
-            "Add and multiply matrices",
-            "Compute determinants and inverses",
-            "Solve systems with matrices"
+            "Perform matrix addition, subtraction and multiplication",
+            "Find determinants of 2x2 and 3x3 matrices",
+            "Find inverses of 2x2 and 3x3 matrices using adjugate or row reduction",
+            "Solve systems of linear equations using inverse matrices",
+            "Understand singular matrices and consistency of systems",
+            "Apply matrices to geometric transformations (reflection, rotation, enlargement)",
+            "Find eigenvalues and eigenvectors of 2x2 matrices",
+            "Diagonalise symmetric matrices"
           ],
           "keyPoints": [
-            "Matrix multiplication is non-commutative",
-            "det(A) for 2x2 = ad−bc",
-            "A⁻¹ = (1/det) adj(A)"
+            "Multiplication: (AB)_{ij} = Σₖ A_{ik}B_{kj} -- non-commutative, associative, distributive",
+            "det 2x2: |a b; c d| = ad - bc; det 3x3: cofactor expansion or Sarrus",
+            "Inverse 2x2: A⁻¹ = (1/det)[d -b; -c a]; 3x3: adj(A)/det(A) via minors/cofactors",
+            "System AX = B: if det(A) != 0, X = A⁻¹B (unique solution); if det(A) = 0, either no solution or infinite",
+            "Transformations: reflection in x-axis [1 0; 0 -1], rotation by θ [cosθ -sinθ; sinθ cosθ]",
+            "Eigenvalues λ: det(A - λI) = 0; Eigenvectors: (A - λI)v = 0",
+            "Diagonalisation: P⁻¹AP = D (D diagonal) if A has n linearly independent eigenvectors"
           ],
-          "exampleQuestion": "Find determinant of [[2,3],[1,4]]",
-          "modelAnswer": "8 − 3 = 5",
+          "exampleQuestion": "Find eigenvalues and eigenvectors of A = [3 2; 1 4]. Diagonalise A",
+          "modelAnswer": "det(A-λI) = (3-λ)(4-λ)-2 = λ^2-7λ+10 = (λ-5)(λ-2)=0 -> λ=5,2. λ=5: [−2 2; 1 −1]v=0 -> v₁=[1;1]. λ=2: [1 2; 1 2]v=0 -> v₂=[2;−1]. P=[1 2; 1 −1], D=[5 0; 0 2]. Check P⁻¹AP=D",
           "practiceQuestions": [
-            "Multiply [[1,2],[3,4]] by [[5],[6]]",
-            "Find the inverse of [[2,0],[0,3]]",
-            "Solve 2x+3y=5, y=1 using matrices"
+            "Find det and inverse of [2 1 3; 0 1 4; 5 6 0]",
+            "Solve using matrix inverse: 2x+y-z=1, x+2y+z=2, 3x-y+2z=3",
+            "Find matrix for rotation by 90 deg  about origin followed by reflection in y=x",
+            "Find eigenvalues of [4 1; 2 3] and corresponding eigenvectors",
+            "Show [1 2; 2 1] is diagonalisable"
           ],
           "page": "topics/further-mathematics/matrices.html"
         },
         {
           "title": "Vectors",
           "learningObjectives": [
-            "Use vector arithmetic and notation",
-            "Compute scalar and vector products",
-            "Work with lines in 3D"
+            "Perform vector operations in 2D and 3D",
+            "Use scalar (dot) product to find angles and test perpendicularity",
+            "Use vector (cross) product to find area and normal vectors",
+            "Find equations of lines in vector and cartesian form",
+            "Find equations of planes in vector, cartesian and parametric form",
+            "Calculate distances: point-to-line, point-to-plane, line-to-line, line-to-plane",
+            "Find intersections of lines and planes",
+            "Apply vectors to mechanics problems"
           ],
           "keyPoints": [
-            "Position vectors r = a + λb",
-            "Dot product for angle cosθ = (a·b)/(|a||b|)",
-            "Scalar product of perpendicular vectors is zero"
+            "Vector form: r = a + λb (line), r = a + λb + μc (plane)",
+            "Dot product: a·b = |a||b|cosθ = a₁b₁+a₂b₂+a₃b₃; perpendicular iff a·b = 0",
+            "Cross product: axb = |a||b|sinθ n̂ = det[i j k; a₁ a₂ a₃; b₁ b₂ b₃]",
+            "Area: triangle = ½|axb|; parallelogram = |axb|; volume = |a·(bxc)|",
+            "Line eqn: r = a + λb; Cartesian: (x-x₁)/l = (y-y₁)/m = (z-z₁)/n",
+            "Plane eqn: r·n = d (normal n, distance d/|n| from origin) or n₁x+n₂y+n₃z = d",
+            "Intersection: substitute line into plane, solve for λ",
+            "Distance point to plane: |ax₀+by₀+cz₀-d|/sqrt(a^2+b^2+c^2); point to line: |bx(a-p)|/|b|"
           ],
-          "exampleQuestion": "Find cosθ between (1,2) and (3,4)",
-          "modelAnswer": "(1·3+2·4)/(√5·5) = 11/(5√5)",
+          "exampleQuestion": "Find the intersection of line r = [1; 2; 3] + λ[2; -1; 4] with plane 2x - y + 3z = 10",
+          "modelAnswer": "Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -> 2+4λ-2+λ+9+12λ=10 -> 17λ+9=10 -> λ=1/17. Point: [19/17; 33/17; 55/17]",
           "practiceQuestions": [
-            "Dot (2,−1,3) with (1,0,2)",
-            "Are (1,2) and (−4,2) perpendicular?",
-            "Write the line through two points in vector form"
+            "Find angle between lines r = [1; 0; -1] + λ[2; 1; 3] and r = [0; 1; 1] + μ[1; -2; 2]",
+            "Find equation of plane through (1,2,3) perpendicular to vector [2; -1; 1]",
+            "Distance from point (1,2,3) to plane 2x - 3y + 6z = 10",
+            "Find shortest distance between skew lines r = [1; 0; 0] + λ[1; 1; 0] and r = [0; 1; 1] + μ[0; 1; 1]",
+            "Volume of tetrahedron with vertices (0,0,0), (1,0,0), (0,2,0), (0,0,3)"
           ],
           "page": "topics/further-mathematics/vectors.html"
         },
         {
           "title": "Polar Coordinates",
           "learningObjectives": [
-            "Convert between polar and Cartesian",
-            "Sketch simple polar curves",
-            "Find areas in polar form"
+            "Convert between polar (r,θ) and Cartesian (x,y) coordinates",
+            "Sketch standard polar curves: circles, cardioids, roses, spirals, lemniscates",
+            "Find area enclosed by polar curves",
+            "Find tangents to polar curves (horizontal/vertical)",
+            "Understand symmetry in polar graphs"
           ],
           "keyPoints": [
-            "x = r cosθ, y = r sinθ",
-            "r² = x² + y²",
-            "Area = ½∫r² dθ"
+            "x = r cos θ, y = r sin θ; r = sqrt(x^2+y^2), tan θ = y/x (check quadrant)",
+            "r = a (circle centred at origin), r = 2a cos θ (circle on x-axis), r = 2a sin θ (circle on y-axis)",
+            "r = a(1 + cos θ) (cardioid), r = a cos(nθ) (n-petal rose if n odd, 2n-petal if n even)",
+            "r = aθ (Archimedean spiral), r^2 = a^2 cos 2θ (lemniscate)",
+            "Area = ½∫_{α}^{β} r^2 dθ; Area between curves = ½∫(r₁^2 - r₂^2) dθ",
+            "Tangents: dy/dθ = sin θ dr/dθ + r cos θ, dx/dθ = cos θ dr/dθ - r sin θ; dy/dx = (dy/dθ)/(dx/dθ)",
+            "Horizontal tangent: dy/dθ = 0 (r cos θ + sin θ dr/dθ = 0); Vertical: dx/dθ = 0"
           ],
-          "exampleQuestion": "Convert r = 2 to Cartesian",
-          "modelAnswer": "x² + y² = 4 (a circle)",
+          "exampleQuestion": "Find the area enclosed by one petal of r = 2 cos 3θ",
+          "modelAnswer": "r = 0 when cos 3θ = 0 -> 3θ = pi/2 -> θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3",
           "practiceQuestions": [
-            "Convert (2, π/3) to Cartesian",
-            "Sketch r = 2 cosθ",
-            "Area enclosed by r = 3 from 0 to π"
+            "Convert r = 2 sin θ to Cartesian, identify the curve",
+            "Sketch r = 1 + 2 cos θ",
+            "Area inside r = 2 and outside r = 1 + cos θ",
+            "Find horizontal tangents of r = 2 sin 2θ",
+            "Area of one loop of r^2 = 4 cos 2θ"
           ],
           "page": "topics/further-mathematics/polar-coordinates.html"
         },
         {
           "title": "Hyperbolic Functions",
           "learningObjectives": [
-            "Define sinh, cosh, tanh",
-            "Use their identities",
-            "Solve simple hyperbolic equations"
+            "Define sinh, cosh, tanh, sech, cosech, coth in terms of exponentials",
+            "Prove and use hyperbolic identities (analogous to trig identities)",
+            "Differentiate and integrate hyperbolic functions",
+            "Solve equations involving hyperbolic functions",
+            "Use inverse hyperbolic functions and their logarithmic forms",
+            "Apply hyperbolic functions to calculus problems (e.g. catenary)"
           ],
           "keyPoints": [
-            "sinh x = (eˣ − e⁻ˣ)/2",
-            "cosh x = (eˣ + e⁻ˣ)/2",
-            "cosh²x − sinh²x = 1"
+            "sinh x = (eˣ - e⁻ˣ)/2, cosh x = (eˣ + e⁻ˣ)/2, tanh x = sinh x/cosh x",
+            "Identities: cosh^2x - sinh^2x = 1, 1 - tanh^2x = sech^2x, sinh 2x = 2 sinh x cosh x, cosh 2x = cosh^2x + sinh^2x",
+            "Derivatives: d/dx(sinh x) = cosh x, d/dx(cosh x) = sinh x, d/dx(tanh x) = sech^2x",
+            "Integrals: ∫sinh x dx = cosh x + C, ∫cosh x dx = sinh x + C, ∫sech^2x dx = tanh x + C",
+            "Inverse functions: arsinh x = ln(x + sqrt(x^2+1)), arcosh x = ln(x + sqrt(x^2-1)) (x>=1), artanh x = ½ ln((1+x)/(1-x)) (|x|<1)",
+            "Osborn's rule: trig identity -> hyperbolic by changing sign of sin^2 terms"
           ],
-          "exampleQuestion": "Evaluate cosh 0",
-          "modelAnswer": "cosh 0 = 1",
+          "exampleQuestion": "Solve 2 cosh x - 3 sinh x = 1",
+          "modelAnswer": "2(eˣ+e⁻ˣ)/2 - 3(eˣ-e⁻ˣ)/2 = 1 -> eˣ+e⁻ˣ - 1.5(eˣ-e⁻ˣ) = 1 -> -0.5eˣ + 2.5e⁻ˣ = 1 -> multiply 2eˣ: -e^2ˣ + 5 = 2eˣ -> e^2ˣ + 2eˣ - 5 = 0 -> eˣ = -1 +/- sqrt6 -> eˣ = sqrt6 - 1 -> x = ln(sqrt6 - 1)",
           "practiceQuestions": [
-            "Show cosh²x − sinh²x = 1",
-            "Solve sinh x = 2",
-            "Evaluate tanh x for large x"
+            "Prove: cosh 2x = 2cosh^2x - 1 = 1 + 2sinh^2x",
+            "∫ sinh^2x dx",
+            "Solve: tanh x = ½",
+            "Find arsinh(2)",
+            "Show that the catenary y = cosh x has arc length ∫cosh x dx from a to b"
           ],
           "page": "topics/further-mathematics/hyperbolic-functions.html"
         },
@@ -346,85 +473,113 @@
         {
           "title": "Poetry Analysis",
           "learningObjectives": [
-            "Analyse language and imagery",
-            "Understand form and structure",
-            "Compare poems"
+            "Analyse poetic language: imagery, metaphor, simile, personification, symbolism",
+            "Understand form and structure: stanza, rhyme scheme, metre, enjambment, caesura",
+            "Interpret tone, mood, and voice",
+            "Compare poems across themes, techniques, and contexts",
+            "Write critical appreciations with textual evidence"
           ],
           "keyPoints": [
-            "Metaphor, simile, personification",
-            "Rhyme, rhythm, stanza",
-            "Themes and personal response",
-            "Compare across the anthology"
+            "Metaphor (direct comparison), simile (like/as), personification (human qualities to non-human)",
+            "Imagery: visual, auditory, tactile, olfactory, gustatory; extended metaphors",
+            "Sound devices: alliteration, assonance, consonance, onomatopoeia, sibilance",
+            "Structure: stanza types, rhyme (ABAB, AABB, free verse), metre (iambic, trochaic), line breaks",
+            "Enjambment (run-on lines), caesura (mid-line pause), volta (turn)",
+            "Tone: attitude of speaker; Mood: atmosphere created; Voice: persona adopted",
+            "Themes: love, death, nature, time, identity, power, conflict"
           ],
-          "exampleQuestion": "What effect does a metaphor create?",
-          "modelAnswer": "It creates a vivid comparison that deepens meaning",
+          "exampleQuestion": "Analyse how the poet uses structure and language to convey the theme of loss in 'When You Are Old' by Yeats",
+          "modelAnswer": "Three stanzas move from present to past to future. Iambic pentameter creates reflective tone. 'Glad grace' (alliteration) contrasts with 'pilgrim soul' (metaphor). Final stanza 'bending down beside the glowing bars' -- imagery of ageing/regret. ABBA rhyme encloses memory",
           "practiceQuestions": [
-            "Identify three poetic techniques in a given poem",
-            "Discuss how structure affects meaning",
-            "Compare two poems on a shared theme"
+            "Identify and explain the effect of caesura in a given line",
+            "Compare how two poets present nature",
+            "Analyse an extended metaphor across a poem",
+            "Discuss how rhyme scheme contributes to meaning",
+            "Write a paragraph on tone shift in a poem"
           ],
           "page": "topics/english-literature/poetry-analysis.html"
         },
         {
           "title": "Prose and the Novel",
           "learningObjectives": [
-            "Analyse characters and themes",
-            "Understand narrative voice",
-            "Contextualise the novel"
+            "Analyse characterisation: flat/round, static/dynamic, foils",
+            "Understand narrative voice: 1st, 3rd limited, 3rd omniscient, unreliable narrator",
+            "Explore themes through plot, setting, and symbolism",
+            "Contextualise novels: historical, social, cultural, biographical",
+            "Evaluate critical interpretations and theoretical approaches"
           ],
           "keyPoints": [
-            "Character development",
-            "Narrator and point of view",
-            "Social and historical context"
+            "Character: direct/indirect presentation; protagonist/antagonist; character arc",
+            "Narrative perspective: 1st (intimate, biased), 3rd limited (one consciousness), omniscient (all-knowing), stream of consciousness",
+            "Setting: time, place, atmosphere; pathetic fallacy; symbolic settings",
+            "Themes: developed through motifs, recurring images, contrasts, parallels",
+            "Context: author's life, period (Victorian, Modernist, Postcolonial), reception history",
+            "Critical lenses: feminist, Marxist, psychoanalytic, postcolonial, eco-critical"
           ],
-          "exampleQuestion": "How does the narrator shape the reader's view?",
-          "modelAnswer": "Through biased or limited narration that guides sympathy",
+          "exampleQuestion": "Discuss how the first-person narration in 'The Great Gatsby' shapes our understanding of Gatsby",
+          "modelAnswer": "Nick as participant-observer creates intimacy but limits access to Gatsby's interiority. His judgement 'Gatsby turned out all right' frames our view. Unreliable moments (drunk at party) and admiration create ambivalence. We see Gatsby through Nick's romanticisation",
           "practiceQuestions": [
-            "Trace a theme across a novel",
-            "Explain the role of the setting",
-            "Discuss how context influences meaning"
+            "Compare 1st vs 3rd person narration effects",
+            "Analyse a character foil pair",
+            "Discuss symbolic significance of a setting",
+            "Evaluate a feminist reading of a novel",
+            "Trace a motif across a text"
           ],
           "page": "topics/english-literature/prose-and-the-novel.html"
         },
         {
           "title": "Drama and Shakespeare",
           "learningObjectives": [
-            "Analyse dramatic techniques",
-            "Interpret Shakespearean language",
-            "Evaluate staging and performance"
+            "Analyse dramatic techniques: soliloquy, aside, dramatic irony, foil, subplot",
+            "Interpret Shakespearean language: blank verse, prose, imagery, wordplay",
+            "Evaluate staging: set, lighting, costume, movement, directorial choices",
+            "Explore themes: power, ambition, love, betrayal, appearance vs reality",
+            "Understand Elizabethan/Jacobean context and theatrical conventions"
           ],
           "keyPoints": [
-            "Soliloquy, aside, dramatic irony",
-            "Iambic pentameter, blank verse",
-            "Stage directions and staging choices"
+            "Soliloquy: character alone, reveals inner thoughts; Aside: to audience, others don't hear",
+            "Dramatic irony: audience knows more than characters; creates tension",
+            "Blank verse: unrhymed iambic pentameter (nobles); Prose: lower status, madness, intimacy",
+            "Shakespearean imagery: clothing, blood, disease, nature, light/dark",
+            "Stagecraft: minimal sets, emphasis on language; modern: lighting, sound, multimedia",
+            "Tragedy: hamartia, peripeteia, anagnorisis, catharsis; Comedy: marriage, mistaken identity"
           ],
-          "exampleQuestion": "Why does Shakespeare use soliloquy?",
-          "modelAnswer": "To reveal a character's private thoughts directly to the audience",
+          "exampleQuestion": "How does the 'dagger soliloquy' (Macbeth 2.1) reveal Macbeth's state of mind?",
+          "modelAnswer": "Hallucinated dagger shows guilt before action. 'Is this a dagger which I see before me?' -- rhetorical question. 'Bloody business' -- euphemism. 'Hecate's offer' -- supernatural. 'Words to the heat of deeds too cold breath gives' -- hesitation. Rhyme 'knell/summon' = finality",
           "practiceQuestions": [
-            "Explain the effect of dramatic irony",
-            "Analyse a key soliloquy",
-            "Discuss how staging conveys theme"
+            "Analyse dramatic irony in a key scene",
+            "Compare verse vs prose for a character",
+            "Discuss how staging affects interpretation",
+            "Explore the tragic hero archetype",
+            "Analyse a key image cluster"
           ],
           "page": "topics/english-literature/drama-and-shakespeare.html"
         },
         {
           "title": "Critical Writing and Context",
           "learningObjectives": [
-            "Structure a critical essay",
-            "Use textual evidence",
-            "Link text to wider context"
+            "Structure thesis-led essays using PEEL/PEAL paragraphs",
+            "Select and analyse quotations effectively (not dumping)",
+            "Integrate context (AO3) without bolt-on paragraphs",
+            "Evaluate alternative interpretations and critical views",
+            "Write comparative essays across texts"
           ],
           "keyPoints": [
-            "Thesis-led paragraphs (PEEL)",
-            "Quotation analysis not quotation dumping",
-            "Context, author's intent, reader response"
+            "PEEL: Point, Evidence, Explanation, Link back to question",
+            "Quote analysis: technique + meaning + effect + link to argument",
+            "Context: woven into analysis (AO3) not separate; historical, literary, biographical",
+            "AO5: alternative readings (e.g. feminist, Marxist); critical quotations as springboards",
+            "Comparison: integrated structure (point by point) not text by text; similarities/differences",
+            "Exam technique: plan 5 mins, write 45 mins, check 5 mins; answer the question set"
           ],
-          "exampleQuestion": "How should an exam essay be structured?",
-          "modelAnswer": "Introduction stating a thesis, developed points with evidence, conclusion",
+          "exampleQuestion": "Write a thesis statement for: 'Explore how Shakespeare presents ambition in Macbeth'",
+          "modelAnswer": "Shakespeare presents ambition as a corrupting force that destroys moral order, using Macbeth's hamartia and Lady Macbeth's manipulation to show how unchecked desire for power leads to tyranny and self-destruction, ultimately restored by divine retribution",
           "practiceQuestions": [
-            "Write a topic sentence for a thesis",
-            "Analyse a short quotation closely",
-            "Link a novel to its historical context"
+            "Write PEEL paragraph on a given theme",
+            "Integrate context into a quotation analysis",
+            "Plan a comparative essay structure",
+            "Evaluate a critical viewpoint",
+            "Practise exam timing"
           ],
           "page": "topics/english-literature/critical-writing-and-context.html"
         },
@@ -474,105 +629,136 @@
         {
           "title": "Cell Structure and Function",
           "learningObjectives": [
-            "Describe cell organelles",
-            "Compare prokaryotic and eukaryotic cells",
-            "Understand membrane transport"
+            "Describe structure and function of all major eukaryotic organelles",
+            "Compare prokaryotic and eukaryotic cells in detail",
+            "Explain membrane structure (fluid mosaic model) and transport mechanisms",
+            "Describe cell cycle, mitosis, and meiosis with significance",
+            "Understand cell specialisation and tissue organisation"
           ],
           "keyPoints": [
-            "Nucleus, mitochondria, ribosomes",
-            "Prokaryotes lack a nucleus",
-            "Diffusion, osmosis, active transport"
+            "Nucleus: DNA, nucleolus; Mitochondria: respiration, cristae; RER/SER: protein/lipid synthesis; Golgi: modification, packaging; Lysosomes: hydrolytic enzymes; Chloroplasts: photosynthesis; Vacuole: turgor",
+            "Prokaryotes: no nucleus, 70S ribosomes, circular DNA, plasmids, cell wall (peptidoglycan); Eukaryotes: 80S ribosomes, linear DNA, membrane-bound organelles",
+            "Fluid mosaic: phospholipid bilayer, proteins (integral/peripheral), cholesterol, glycoproteins; Transport: simple diffusion, facilitated (channel/carrier), active (Na⁺/K⁺ pump), endo/exocytosis",
+            "Cell cycle: interphase (G₁,S,G₂), M phase (mitosis: PMAT), cytokinesis; Meiosis: two divisions, crossing over (prophase I), independent assortment -> genetic variation",
+            "Tissues: groups of similar cells; Organs: multiple tissues; Systems: multiple organs"
           ],
-          "exampleQuestion": "Which organelle carries out respiration?",
-          "modelAnswer": "Mitochondria",
+          "exampleQuestion": "Explain how the structure of the mitochondria enables efficient aerobic respiration",
+          "modelAnswer": "Double membrane: outer permeable, inner folded into cristae (large SA for ETC). Matrix contains Krebs cycle enzymes. Intermembrane space accumulates H⁺ for chemiosmosis. Own DNA/ribosomes for some ETC proteins",
           "practiceQuestions": [
-            "Name the organelle for protein synthesis",
-            "List two differences between plant and animal cells",
-            "Define osmosis"
+            "Compare 70S vs 80S ribosomes",
+            "Describe Na⁺/K⁺ pump mechanism",
+            "Explain significance of crossing over in meiosis I",
+            "Why do plant cells have larger vacuoles than animal cells?"
           ],
           "page": "topics/biology/cell-structure-and-function.html"
         },
         {
           "title": "Genetics and Inheritance",
           "learningObjectives": [
-            "Explain DNA structure and replication",
-            "Use Punnett squares",
-            "Describe gene expression"
+            "Describe DNA structure, replication (semi-conservative), and the genetic code",
+            "Explain transcription, translation, and post-transcriptional modification",
+            "Apply Mendelian genetics: monohybrid, dihybrid, test crosses",
+            "Understand gene linkage, crossing over, and epistasis",
+            "Apply chi-squared test to genetic ratios",
+            "Describe mutations: gene (point, frameshift) and chromosome (structural, numerical)"
           ],
           "keyPoints": [
-            "DNA double helix, base pairing",
-            "Alleles, dominant and recessive",
-            "Punnett squares predict ratios"
+            "DNA: antiparallel strands, complementary base pairing (A-T, G-C), sugar-phosphate backbone; Replication: helicase, DNA polymerase, Okazaki fragments, ligase",
+            "Transcription: RNA pol, promoter, mRNA; Translation: tRNA, ribosome, codon-anticodon, start/stop codons; Eukaryotes: splicing (introns/exons), 5' cap, poly-A tail",
+            "Mendel: segregation, independent assortment; Punnett squares; Test cross: unknown x homozygous recessive",
+            "Linkage: genes on same chromosome; recombination frequency ∝ distance; Epistasis: one gene masks another (e.g. 9:3:4, 12:3:1, 9:7 ratios)",
+            "Chi-squared: χ^2 = Σ(O-E)^2/E; df = n-1; p>0.05 = accept null (observed = expected)",
+            "Mutations: substitution (silent/missense/nonsense), insertion/deletion (frameshift); Chromosomal: deletion, duplication, inversion, translocation, non-disjunction"
           ],
-          "exampleQuestion": "For a cross of two heterozygotes (Aa x Aa), phenotypic ratio?",
-          "modelAnswer": "3:1 dominant to recessive",
+          "exampleQuestion": "In sweet peas, flower colour is controlled by two genes (C and P). Both dominant alleles needed for purple flowers. Cross CcPp x CcPp. Find phenotypic ratio",
+          "modelAnswer": "Both genes needed for purple. C_P_ = purple (9/16); ccP_ = white (3/16); C_pp = white (3/16); ccpp = white (1/16). Ratio = 9 purple : 7 white (complementary epistasis)",
           "practiceQuestions": [
-            "State the bases that pair with A and C",
-            "Define genotype vs phenotype",
-            "Use a Punnett square for Aa x aa"
+            "Describe semi-conservative replication",
+            "A cross gives 9:3:3:1. What does this indicate?",
+            "Chi-squared test: observed 52:18, expected 3:1 ratio. Calculate χ^2",
+            "Explain how a frameshift mutation affects protein"
           ],
           "page": "topics/biology/genetics-and-inheritance.html"
         },
         {
           "title": "Biochemistry and Respiration",
           "learningObjectives": [
-            "Describe the biochemistry of respiration",
-            "Understand enzymes",
-            "Explain the electron transport chain"
+            "Detail glycolysis, link reaction, Krebs cycle, oxidative phosphorylation",
+            "Explain substrate-level phosphorylation and oxidative phosphorylation (chemiosmosis)",
+            "Calculate ATP yield per glucose (theoretical vs actual)",
+            "Describe anaerobic respiration in animals (lactate) and yeast (ethanol)",
+            "Explain enzyme structure, mechanism (lock-and-key, induced fit), factors affecting activity",
+            "Understand metabolic pathways regulation: feedback inhibition, allosteric regulation"
           ],
           "keyPoints": [
-            "Glycolysis, Krebs cycle",
-            "ATP as energy currency",
-            "Enzymes lower activation energy"
+            "Glycolysis: glucose -> 2 pyruvate (cytoplasm); net 2 ATP, 2 NADH; Link: pyruvate -> acetyl CoA + CO₂ + NADH (mito matrix); Krebs: acetyl CoA + 3NAD⁺ + FAD + GDP -> 2CO₂ + 3NADH + FADH₂ + GTP; ETC: NADH/FADH₂ -> H⁺ gradient -> ATP synthase -> ATP",
+            "SLP: direct phosphate transfer (glycolysis, Krebs); OxPhos: H⁺ pumped across inner membrane, flow through ATP synthase",
+            "Theoretical: 10 NADH (2.5 each) + 2 FADH₂ (1.5 each) + 4 ATP = 32 ATP; Actual ~30-32",
+            "Anaerobic: animals: pyruvate + NADH -> lactate + NAD⁺ (lactate dehydrogenase); Yeast: pyruvate -> acetaldehyde + CO₂ -> ethanol + NAD⁺",
+            "Enzymes: globular proteins, active site, specific; Induced fit: substrate binding changes shape; Factors: temp, pH, [substrate], inhibitors (competitive/non-competitive)",
+            "Feedback inhibition: end product inhibits early enzyme; Allosteric: effector binds site != active site, changes conformation"
           ],
-          "exampleQuestion": "Where does glycolysis occur?",
-          "modelAnswer": "In the cytoplasm",
+          "exampleQuestion": "Calculate total ATP from one glucose via aerobic respiration. Explain why yield is often less than theoretical",
+          "modelAnswer": "Glycolysis: 2 ATP + 2 NADH (3-5 ATP); Link: 2 NADH (5 ATP); Krebs: 2 ATP + 6 NADH (15 ATP) + 2 FADH₂ (3 ATP) = 25-30 + 4 = 29-32 ATP. Less because: proton leak, shuttle costs (glycerol-3-P shuttle vs malate-aspartate), ATP for transport",
           "practiceQuestions": [
-            "Name the products of glycolysis",
-            "What is the role of ATP?",
-            "Define active site"
+            "Where does each stage of respiration occur?",
+            "Why does anaerobic respiration produce less ATP?",
+            "Explain induced fit model",
+            "How does cyanide affect respiration?"
           ],
           "page": "topics/biology/biochemistry-and-respiration.html"
         },
         {
           "title": "Ecology and Ecosystems",
           "learningObjectives": [
-            "Describe energy flow through ecosystems",
-            "Understand nutrient cycles",
-            "Explain population dynamics"
+            "Describe energy flow: productivity (GPP, NPP), ecological efficiency, pyramids of number/biomass/energy",
+            "Explain carbon and nitrogen cycles in detail",
+            "Understand population dynamics: growth curves, limiting factors, predator-prey cycles",
+            "Explain succession: primary vs secondary, climax community",
+            "Understand human impacts: climate change, eutrophication, conservation"
           ],
           "keyPoints": [
-            "Trophic levels and food chains",
-            "Carbon and nitrogen cycles",
-            "Carrying capacity"
+            "GPP = total photosynthesis; NPP = GPP - R (respiration); Efficiency = energy transferred/total available x100% (typically 10%); Pyramids: energy always upright; biomass can be inverted",
+            "Carbon: photosynthesis, respiration, combustion, decomposition, ocean uptake; Nitrogen: fixation (lightning, bacteria), nitrification (ammonia->nitrite->nitrate), assimilation, denitrification",
+            "Growth curves: lag, log, stationary, death; Carrying capacity K; r/K selection; Predator-prey: Lotka-Volterra cycles",
+            "Succession: pioneer -> intermediate -> climax; each stage modifies environment for next; Deflected succession: human interference",
+            "Climate change: greenhouse effect, CO₂, CH₄; Eutrophication: nitrates/phosphates -> algal bloom -> decomposition -> O₂ depletion -> dead zones"
           ],
-          "exampleQuestion": "What happens to energy at each trophic level?",
-          "modelAnswer": "Some is lost as heat, so less is available",
+          "exampleQuestion": "Explain why only ~10% of energy transfers between trophic levels",
+          "modelAnswer": "Energy lost as: heat (respiration), faeces (undigested), urine (excretion), uneaten parts. Only energy in consumed biomass available to next level. 2nd law of thermodynamics: entropy increases",
           "practiceQuestions": [
-            "Name two greenhouse gases",
-            "Describe the carbon cycle in three steps",
-            "Define a trophic level"
+            "Define GPP and NPP",
+            "Describe nitrogen fixation",
+            "Draw logistic growth curve, label K and r",
+            "What is a climax community?",
+            "Explain ocean acidification mechanism"
           ],
           "page": "topics/biology/ecology-and-ecosystems.html"
         },
         {
           "title": "Homeostasis and the Nervous System",
           "learningObjectives": [
-            "Explain homeostasis",
-            "Describe the nervous system",
-            "Understand hormonal control"
+            "Explain homeostasis: set point, receptors, effectors, negative/positive feedback",
+            "Detail kidney structure and osmoregulation (ADH, loop of Henle)",
+            "Describe nervous system: CNS/PNS, neurone types, resting/action potential, synapses",
+            "Explain hormonal control: endocrine glands, insulin/glucagon, adrenaline, thyroxine",
+            "Understand temperature regulation: hypothalamus, vasodilation/constriction, sweating, shivering"
           ],
           "keyPoints": [
-            "Negative feedback maintains balance",
-            "Neurones transmit impulses",
-            "Hormones travel in the blood"
+            "Negative feedback: deviation -> correction (e.g. blood glucose, temp, water); Positive: amplifies (e.g. oxytocin in childbirth)",
+            "Kidney: cortex/medulla; nephron (Bowman's capsule, PCT, loop of Henle, DCT, collecting duct); ADH: increases water permeability of DCT/CD; Loop: counter-current multiplier creates medullary gradient",
+            "Neurones: sensory, relay, motor; Resting potential -70mV (Na⁺/K⁺ pump, K⁺ leak); Action potential: depolarisation (Na⁺ in), repolarisation (K⁺ out), refractory period",
+            "Synapse: Ca^2⁺ -> vesicle fusion -> neurotransmitter -> receptor -> depolarisation; Summation: temporal/spatial",
+            "Hormones: insulin (β-cells, lowers glucose), glucagon (α-cells, raises glucose), adrenaline (fight/flight), thyroxine (metabolic rate); Diabetes: type 1 (no insulin), type 2 (insulin resistance)"
           ],
-          "exampleQuestion": "What controls blood glucose?",
-          "modelAnswer": "Insulin (and glucagon)",
+          "exampleQuestion": "Describe how the loop of Henle creates a water potential gradient in the kidney medulla",
+          "modelAnswer": "Descending limb: permeable to water, impermeable to ions -> water leaves by osmosis. Ascending limb: impermeable to water, active Na⁺/Cl⁻ transport out -> filtrate diluted, medulla concentrated. Counter-current multiplier: flow in opposite directions maintains gradient",
           "practiceQuestions": [
             "Define homeostasis",
-            "Name the parts of a neurone",
-            "What is the role of adrenaline?"
+            "Explain action potential phases",
+            "How does insulin lower blood glucose?",
+            "Role of hypothalamus in thermoregulation",
+            "Difference between type 1 and type 2 diabetes"
           ],
           "page": "topics/biology/homeostasis-and-the-nervous-system.html"
         },
@@ -633,105 +819,157 @@
         {
           "title": "Atomic Structure and Bonding",
           "learningObjectives": [
-            "Describe atomic structure",
-            "Explain ionic and covalent bonding",
-            "Use electronegativity"
+            "Describe atomic structure: subatomic particles, isotopes, electron configuration",
+            "Explain ionisation energies and trends across periods/down groups",
+            "Understand ionic, covalent, metallic, and hydrogen bonding",
+            "Use electronegativity to predict bond polarity and type",
+            "Describe shapes of molecules using VSEPR theory",
+            "Understand intermolecular forces: van der Waals, dipole-dipole, hydrogen bonding",
+            "Relate structure and bonding to physical properties (melting point, conductivity, solubility)"
           ],
           "keyPoints": [
-            "Protons, neutrons, electrons",
-            "Ionic vs covalent bonds",
-            "Electronegativity trends across the period"
+            "Atomic structure: p⁺, n⁰, e⁻; isotopes = same Z, different A; electron config: 1s^22s^22p⁶...",
+            "Ionisation energy: increases across period (↑Z_eff), decreases down group (↑shielding, ↑n)",
+            "Ionic: metal + non-metal, electron transfer, lattice; Covalent: non-metal + non-metal, sharing",
+            "Electronegativity (Pauling): increases across, decreases down; >1.7 ionic, <0.4 non-polar covalent",
+            "VSEPR: electron pairs repel; 2bp -> linear, 3bp -> trigonal planar, 4bp -> tetrahedral, lone pairs reduce angles",
+            "IMFs: London (all molecules, ∝ electrons), dipole-dipole (polar), H-bonding (H on N,O,F)",
+            "Properties: Giant ionic/covalent/metallic -> high MP; Simple molecular -> low MP; H-bonding -> higher MP/BP"
           ],
-          "exampleQuestion": "Number of protons in carbon-14?",
-          "modelAnswer": "6 (atomic number is 6)",
+          "exampleQuestion": "Explain why H₂O has a higher boiling point than H₂S despite similar molecular mass",
+          "modelAnswer": "H₂O has H-bonding (O is highly electronegative, lone pairs); H₂S has only dipole-dipole and London forces. H-bonding is much stronger -> more energy to separate molecules -> higher BP",
           "practiceQuestions": [
-            "State the charge of a neutron",
-            "Give an example of an ionic compound",
-            "Which element is most electronegative?"
+            "Write electron configuration of Fe^2⁺ (Z=26)",
+            "Predict shape and bond angle of NH₃, CO₂, SF₆",
+            "Rank boiling points: CH₄, NH₃, H₂O, HF -- explain",
+            "Why does MgO have higher MP than NaCl?",
+            "Explain conductivity of graphite vs diamond"
           ],
           "page": "topics/chemistry/atomic-structure-and-bonding.html"
         },
         {
           "title": "Energetics",
           "learningObjectives": [
-            "Define enthalpy changes",
-            "Use Hess's law",
-            "Compute bond enthalpies"
+            "Define standard enthalpy changes: formation, combustion, neutralisation, atomisation",
+            "Apply Hess's Law to calculate enthalpy changes",
+            "Use Born-Haber cycles for lattice enthalpies",
+            "Calculate enthalpy changes from bond enthalpies",
+            "Understand enthalpy of solution and hydration",
+            "Use mean bond enthalpies and their limitations",
+            "Interpret energy level diagrams"
           ],
           "keyPoints": [
-            "Enthalpy change ΔH",
-            "Hess's law: path independent",
-            "ΔH = Σ(bonds broken) − Σ(bonds formed)"
+            "Standard conditions: 100 kPa, 298 K, 1 mol dm⁻^3; DeltaH_f deg  elements = 0",
+            "Hess: DeltaH_total = ΣDeltaH_steps (path independent); Cycle: formation = atomisation + ionisation + electron affinity + lattice",
+            "Born-Haber: DeltaH_f deg  = DeltaH_atom + ΣIE + ΣEA + DeltaH_lattice (for ionic compounds)",
+            "Bond enthalpies: DeltaH = Σ(bonds broken) - Σ(bonds formed); mean values, gaseous only",
+            "Solution: DeltaH_soln = DeltaH_lattice + DeltaH_hydration; hydration exothermic",
+            "Energy level diagrams: reactants -> products; exo: products lower; endo: products higher"
           ],
-          "exampleQuestion": "Is an exothermic reaction ΔH positive or negative?",
-          "modelAnswer": "Negative (heat released)",
+          "exampleQuestion": "Use Born-Haber cycle to calculate lattice enthalpy of NaCl given: DeltaH_f deg (NaCl) = -411, DeltaH_at(Na)=+107, DeltaH_at(Cl)=+122, IE(Na)=+496, EA(Cl)=-349 kJ/mol",
+          "modelAnswer": "DeltaH_f = DeltaH_at(Na) + DeltaH_at(Cl) + IE(Na) + EA(Cl) + LE. -411 = 107 + 122 + 496 - 349 + LE -> LE = -411 - 376 = -787 kJ/mol. Lattice enthalpy = +787 kJ/mol (endothermic to break)",
           "practiceQuestions": [
-            "Define standard enthalpy of formation",
-            "Sketch an exothermic energy profile",
-            "Compute ΔH from bond energies"
+            "Define standard enthalpy of combustion",
+            "Calculate DeltaH for reaction using bond enthalpies: H₂ + Cl₂ -> 2HCl",
+            "Why are mean bond enthalpies less accurate than formation data?",
+            "Explain trend in hydration enthalpy down Group 1",
+            "Sketch energy profile for exothermic reaction with catalyst"
           ],
           "page": "topics/chemistry/energetics.html"
         },
         {
           "title": "Kinetics and Equilibria",
           "learningObjectives": [
-            "Explain factors affecting rate",
-            "Understand activation energy",
-            "Apply Le Chatelier's principle"
+            "Explain collision theory and factors affecting rate: concentration, temperature, catalyst, surface area",
+            "Use Maxwell-Boltzmann distribution to explain temperature effect",
+            "Derive and use rate equations: rate = k[A]ᵐ[B]ⁿ; determine order experimentally",
+            "Calculate rate constant k and half-life for 1st order reactions",
+            "Understand activation energy and Arrhenius equation: k = Ae^(-Ea/RT)",
+            "Apply Le Chatelier's principle to changes in concentration, pressure, temperature",
+            "Write Kc and Kp expressions; relate Kp = Kc(RT)^(Deltan)",
+            "Understand effect of catalysts on rate and equilibrium position"
           ],
           "keyPoints": [
-            "Rate ∝ concentration collisions",
-            "Catalyst lowers activation energy",
-            "Le Chatelier: equilibrium shifts to oppose change"
+            "Rate = Delta[conc]/Deltat; collision theory: effective collisions need E >= Ea and correct orientation",
+            "Maxwell-Boltzmann: at higher T, more molecules exceed Ea -> exponentially more effective collisions",
+            "Rate law: rate = k[A]ᵐ[B]ⁿ; m,n = order (not necessarily stoichiometric); overall order = m+n",
+            "1st order: rate = k[A]; t½ = ln2/k (constant); ln[A] = -kt + ln[A]₀",
+            "Arrhenius: ln k = -Ea/RT + ln A; plot ln k vs 1/T gives slope -Ea/R",
+            "Le Chatelier: system shifts to oppose change. Conc: shift to consume added; Pressure: shift to fewer gas moles; Temp: exo shifts left on heating",
+            "Kc = [products]/[reactants] (equilibrium conc, powers = coeffs); Kp uses partial pressures",
+            "Kp = Kc(RT)^Deltan where Deltan = moles gas products - moles gas reactants",
+            "Catalyst: lowers Ea, increases rate equally both directions; NO effect on K or equilibrium position"
           ],
-          "exampleQuestion": "Effect of increasing temperature on equilibrium?",
-          "modelAnswer": "Shifts in the endothermic direction",
+          "exampleQuestion": "For N₂ + 3H₂ ⇌ 2NH₃, DeltaH = -92 kJ/mol. Predict effect on yield of: (a) increasing pressure, (b) increasing temperature, (c) adding Fe catalyst",
+          "modelAnswer": "(a) 4 mol gas -> 2 mol gas: shift right -> higher yield. (b) Exothermic: heating shifts left -> lower yield. (c) Catalyst speeds up both forward/reverse equally -> no effect on yield, reaches equilibrium faster",
           "practiceQuestions": [
-            "How does a catalyst affect equilibrium position?",
-            "Explain why increasing concentration raises rate",
-            "State what activation energy is"
+            "Rate = k[A][B]^2. If [A] doubled and [B] tripled, rate factor?",
+            "Half-life of 1st order reaction is 10 min. k = ?",
+            "For 2SO₂ + O₂ ⇌ 2SO₃, write Kp. If P_total doubled, effect on yield?",
+            "Why does increasing temperature increase rate constant?",
+            "Explain why catalyst doesn't change equilibrium constant"
           ],
           "page": "topics/chemistry/kinetics-and-equilibria.html"
         },
         {
           "title": "Organic Chemistry",
           "learningObjectives": [
-            "Name organic compounds",
-            "Identify functional groups",
-            "Understand reaction mechanisms"
+            "Name and draw structural formulae for alkanes, alkenes, alcohols, halogenoalkanes, carbonyls, carboxylic acids, esters, amines, amides",
+            "Understand reaction mechanisms: free radical substitution, electrophilic addition, nucleophilic substitution (SN1/SN2), elimination, nucleophilic addition, oxidation/reduction",
+            "Apply Markovnikov's rule and understand carbocation stability",
+            "Distinguish primary, secondary, tertiary alcohols and their oxidation products",
+            "Understand esterification, hydrolysis, and uses of esters",
+            "Use IR spectroscopy and mass spectrometry for structure determination",
+            "Plan multi-step syntheses using retrosynthetic analysis"
           ],
           "keyPoints": [
-            "Alkanes, alkenes, alcohols, carboxylic acids",
-            "Naming rules (IUPAC)",
-            "Substitution and addition reactions"
+            "IUPAC: longest chain, number for lowest locants, prefixes for substituents, suffix for functional group",
+            "Mechanisms: curly arrows show electron pair movement; SN1: carbocation intermediate (3 deg  > 2 deg  > 1 deg ); SN2: concerted backside attack (1 deg  favoured)",
+            "Markovnikov: H adds to carbon with more H's (forms more stable carbocation)",
+            "Oxidation: 1 deg  alcohol -> aldehyde -> carboxylic acid; 2 deg  -> ketone; 3 deg  resistant",
+            "Esters: RCOOR'; formed from acid + alcohol (conc H₂SO₄); hydrolysis: acid or base (saponification)",
+            "IR: C=O ~1700, O-H ~3300, C-H ~2900 cm⁻¹; MS: M⁺ peak, fragmentation pattern",
+            "Retrosynthesis: work backwards from target; identify disconnections; choose reagents"
           ],
-          "exampleQuestion": "Functional group of an alcohol?",
-          "modelAnswer": "−OH (hydroxyl)",
+          "exampleQuestion": "Propose a mechanism for the reaction of 2-methylpropene with HBr",
+          "modelAnswer": "Electrophilic addition. H⁺ adds to less substituted C (Markovnikov) -> more stable 3 deg  carbocation (CH₃)₃C⁺. Br⁻ attacks carbocation -> 2-bromo-2-methylpropane. Curly arrows: pi bond to H, H-Br bond to Br",
           "practiceQuestions": [
-            "Name CH₃CH₂CH₃",
-            "Draw the structure of ethanol",
-            "What type of reaction is an addition reaction?"
+            "Name: CH₃CH₂CH(OH)CH₃",
+            "Mechanism for SN2 hydrolysis of CH₃CH₂Br with OH⁻",
+            "Product of oxidation of CH₃CH₂CH₂OH with acidified K₂Cr₂O₇",
+            "IR peaks for CH₃COOH",
+            "Retrosynthesis of CH₃CH₂COOCH₂CH₃ from simple precursors"
           ],
           "page": "topics/chemistry/organic-chemistry.html"
         },
         {
           "title": "Redox and Electrochemistry",
           "learningObjectives": [
-            "Assign oxidation states",
-            "Balance redox equations",
-            "Use electrochemical series"
+            "Assign oxidation states using rules",
+            "Balance redox half-equations and full equations in acidic/alkaline conditions",
+            "Understand electrochemical cells: half-cells, salt bridge, cell notation",
+            "Calculate E deg _cell = E deg _cathode - E deg _anode; predict feasibility",
+            "Apply Nernst equation for non-standard conditions",
+            "Understand commercial cells: fuel cells, rechargeable batteries",
+            "Use standard electrode potentials to predict reaction direction"
           ],
           "keyPoints": [
-            "Oxidation number rules",
-            "Redox = reduction and oxidation",
-            "Standard electrode potentials"
+            "Oxidation = loss of e⁻ (OIL RIG); Oxidation state rules: element=0, Group 1=+1, O=-2 (exc peroxides), H=+1 (exc hydrides)",
+            "Half-equations: balance atoms (O with H₂O, H with H⁺), then charge with e⁻",
+            "Cell: anode (oxidation) || cathode (reduction); E deg _cell = E deg _red(cathode) - E deg _red(anode)",
+            "Feasible if E deg _cell > 0; Equilibrium: E deg _cell = 0.059/n log K at 298K",
+            "Nernst: E = E deg  - 0.059/n log Q; concentration cells generate voltage from conc difference",
+            "Fuel cell: H₂ + ½O₂ -> H₂O; H₂ oxidised at anode, O₂ reduced at cathode; high efficiency",
+            "Rechargeable: Li-ion (LiCoO₂/Li), NiMH, lead-acid; reversible redox"
           ],
-          "exampleQuestion": "Oxidation state of Mn in MnO₄⁻?",
-          "modelAnswer": "+7",
+          "exampleQuestion": "Calculate E deg  for: Zn | Zn^2⁺ || Cu^2⁺ | Cu. E deg (Zn^2⁺/Zn) = -0.76V, E deg (Cu^2⁺/Cu) = +0.34V. Is reaction spontaneous?",
+          "modelAnswer": "E deg _cell = 0.34 - (-0.76) = +1.10 V > 0 -> spontaneous. Zn oxidised (anode), Cu^2⁺ reduced (cathode). Reaction: Zn + Cu^2⁺ -> Zn^2⁺ + Cu",
           "practiceQuestions": [
-            "Assign oxidation states in H₂O",
-            "Balance Zn → Zn²⁺ + 2e⁻",
-            "Which metal is more reactive in the series?"
+            "Balance in acid: MnO₄⁻ + Fe^2⁺ -> Mn^2⁺ + Fe^3⁺",
+            "E deg (Ag⁺/Ag) = +0.80V, E deg (Cu^2⁺/Cu) = +0.34V. Which is stronger oxidising agent?",
+            "Write Nernst equation for Cu | Cu^2⁺(0.1M) || Ag⁺(0.01M) | Ag",
+            "Why can't E deg  predict reaction rate?",
+            "Half-reaction for O₂ + 4H⁺ + 4e⁻ in fuel cell"
           ],
           "page": "topics/chemistry/redox-and-electrochemistry.html"
         },
@@ -792,106 +1030,167 @@
         {
           "title": "Mechanics and Motion",
           "learningObjectives": [
-            "Use SUVAT equations",
-            "Apply Newton's laws",
-            "Work with momentum and energy"
+            "Apply SUVAT equations for constant acceleration",
+            "Use Newton's three laws of motion for dynamics problems",
+            "Calculate momentum, impulse, and apply conservation of momentum",
+            "Analyse work, energy and power including conservation of energy",
+            "Solve projectile motion problems by separating horizontal/vertical components",
+            "Analyse circular motion: centripetal force, angular velocity, period",
+            "Understand moments, couples and equilibrium of rigid bodies",
+            "Apply Hooke's law and elastic potential energy"
           ],
           "keyPoints": [
-            "v = u + at, s = ut + ½at²",
-            "F = ma",
-            "p = mv, KE = ½mv²",
-            "Conservation of momentum"
+            "SUVAT: v = u + at, s = ut + ½at^2, v^2 = u^2 + 2as, s = ½(u+v)t -- only for constant a",
+            "Newton's 1st: equilibrium -> net force zero; 2nd: F = ma (vector); 3rd: action-reaction pairs equal/opposite",
+            "Momentum p = mv; Impulse J = FDeltat = Deltap; Conservation: Σp_before = Σp_after (isolated system)",
+            "Work W = F·s = Fs cos θ; KE = ½mv^2; GPE = mgh; Elastic PE = ½kx^2; Power = W/t = Fv",
+            "Projectiles: horizontal v constant, vertical a = -g; range = u^2sin2θ/g, max height = u^2sin^2θ/(2g)",
+            "Circular: a = v^2/r = ω^2r, F = mv^2/r = mω^2r, ω = 2pi/T = 2pif, v = ωr",
+            "Moments: M = F x d (perpendicular distance); Couple: two equal/opposite forces separated by d",
+            "Equilibrium: ΣF = 0 and ΣM = 0; Centre of mass: weighted mean of positions",
+            "Hooke: F = kx (within limit of proportionality); EPE = ½kx^2 = ½Fx"
           ],
-          "exampleQuestion": "A car accelerates from rest at 2 m/s² for 5 s. Distance?",
-          "modelAnswer": "s = ½(2)(25) = 25 m",
+          "exampleQuestion": "A 0.5 kg ball is projected at 20 m/s at 30 deg  to horizontal. Find maximum height, range, and speed at impact",
+          "modelAnswer": "uₓ = 20cos30 deg  = 10sqrt3 ≈ 17.32 m/s; uᵧ = 20sin30 deg  = 10 m/s. Max height: vᵧ^2 = uᵧ^2 - 2gh -> 0 = 100 - 19.6h -> h = 5.10 m. Time of flight: t = 2uᵧ/g = 20/9.8 = 2.04 s. Range = uₓ x t = 17.32 x 2.04 = 35.3 m. At impact: vᵧ = -10 m/s, v = sqrt(17.32^2 + 10^2) = 20 m/s",
           "practiceQuestions": [
-            "A ball falls from 20 m for 2 s, find its speed",
-            "Force of 6 N on a 2 kg mass, find acceleration",
-            "Two balls collide, find final momentum"
+            "A car accelerates from rest at 3 m/s^2 for 8 s. Find final speed and distance",
+            "A 1200 kg car hits a stationary 800 kg car. They couple. Find speed after impact",
+            "A projectile launched at 45 deg  has range 100 m. Find initial speed",
+            "A 2 kg mass moves in a circle of radius 0.5 m at 4 m/s. Find centripetal force",
+            "A uniform beam 4 m long, mass 20 kg, rests on supports at 0.5 m and 3.5 m from ends. Find reactions"
           ],
           "page": "topics/physics/mechanics-and-motion.html"
         },
         {
           "title": "Electricity and Circuits",
           "learningObjectives": [
-            "Apply Ohm's law",
-            "Combine resistors in series and parallel",
-            "Work with power and energy"
+            "Apply Ohm's law and understand I-V characteristics",
+            "Analyse series and parallel circuits with resistors",
+            "Calculate power and energy in DC circuits",
+            "Use Kirchhoff's laws for complex circuits",
+            "Understand internal resistance and EMF of cells",
+            "Analyse potential divider circuits",
+            "Understand AC circuits: RMS values, phase, reactance, impedance",
+            "Use oscilloscopes to measure voltage, frequency, phase"
           ],
           "keyPoints": [
-            "V = IR",
-            "Series R = R₁+R₂, parallel 1/R = 1/R₁+1/R₂",
-            "P = IV = I²R"
+            "Ohm: V = IR (ohmic) vs non-ohmic (filament, diode); I-V curves",
+            "Series: I same, V splits, R_total = ΣR; Parallel: V same, I splits, 1/R_total = Σ1/R",
+            "Power: P = IV = I^2R = V^2/R; Energy: E = Pt = IVt",
+            "Kirchhoff 1st (junction): ΣI_in = ΣI_out (charge conservation); 2nd (loop): ΣV = 0 (energy conservation)",
+            "EMF ε = I(R + r); Terminal PD V = ε - Ir; r = internal resistance",
+            "Potential divider: V_out = V_in x R₂/(R₁+R₂); used for sensors",
+            "AC: I = I₀sin(ωt), V = V₀sin(ωt+φ); V_rms = V₀/sqrt2, I_rms = I₀/sqrt2",
+            "Capacitive reactance Xc = 1/(ωC); Inductive Xl = ωL; Impedance Z = sqrt(R^2+(Xl-Xc)^2)",
+            "Resonance: Xl = Xc -> Z_min = R, ω₀ = 1/sqrt(LC)"
           ],
-          "exampleQuestion": "Current through a 6 V, 12 Ω lamp?",
-          "modelAnswer": "I = 6/12 = 0.5 A",
+          "exampleQuestion": "A 12 V battery with internal resistance 0.5 Ω is connected to a 5.5 Ω resistor. Find current, terminal PD, power delivered to load, and power wasted in battery",
+          "modelAnswer": "Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2",
           "practiceQuestions": [
-            "Two 4 Ω resistors in series, total resistance?",
-            "Power of a 2 A device at 12 V",
-            "Voltage across a 3 Ω resistor carrying 2 A"
+            "Three resistors 2Ω, 3Ω, 6Ω in parallel. Find equivalent resistance",
+            "In a potential divider, V_in=12V, R₁=2kΩ, R₂=4kΩ. Find V_out",
+            "An AC supply 230V RMS, 50Hz. Find peak voltage and period",
+            "A 10 μF capacitor connected to 240V RMS, 50Hz. Find reactance and current",
+            "At resonance, a series RLC circuit has R=10Ω, L=0.1H. Find C and Q-factor"
           ],
           "page": "topics/physics/electricity-and-circuits.html"
         },
         {
           "title": "Waves",
           "learningObjectives": [
-            "Describe wave properties",
-            "Use the wave equation",
-            "Apply the Doppler effect"
+            "Describe wave properties: amplitude, wavelength, frequency, period, phase",
+            "Use the wave equation v = fλ",
+            "Explain superposition, interference (constructive/destructive), standing waves",
+            "Describe diffraction and single/double slit patterns",
+            "Understand polarisation of transverse waves",
+            "Apply the Doppler effect for sound and light",
+            "Describe optical fibres: total internal reflection, critical angle",
+            "Understand refractive index and Snell's law"
           ],
           "keyPoints": [
-            "v = fλ",
-            "Longitudinal vs transverse",
-            "Doppler shift Δf = f·v/c"
+            "Wave eqn: v = fλ; phase difference Deltaφ = 2piDeltax/λ = 2pift",
+            "Superposition: y_total = y₁ + y₂; constructive: Deltaφ = 2npi; destructive: Deltaφ = (2n+1)pi",
+            "Standing waves: nodes (A=0) at fixed ends; antinodes (A=max) at λ/4 intervals",
+            "Double slit: fringe spacing w = λD/s; single slit: first minima at a sinθ = λ",
+            "Polarisation: only transverse waves; Malus's law I = I₀cos^2θ",
+            "Doppler: f' = f(v +/- v_o)/(v ∓ v_s) for sound; Deltaf/f = v/c for light (non-relativistic)",
+            "TIR: occurs when n₁ > n₂ and θ > θ_c = arcsin(n₂/n₁); optical fibres use TIR",
+            "Refractive index: n = c/v = c₁/c₂; Snell: n₁sinθ₁ = n₂sinθ₂"
           ],
-          "exampleQuestion": "Speed of a wave with f = 50 Hz and λ = 6 m?",
-          "modelAnswer": "v = 50 × 6 = 300 m/s",
+          "exampleQuestion": "Light of wavelength 500 nm passes through double slits 0.2 mm apart. Fringes observed on screen 2.5 m away. Find fringe spacing",
+          "modelAnswer": "w = λD/s = (500x10⁻⁹ x 2.5) / (0.2x10⁻^3) = 6.25x10⁻^3 m = 6.25 mm",
           "practiceQuestions": [
-            "Find λ if v=340 m/s and f=100 Hz",
-            "Is light transverse or longitudinal?",
-            "Describe how frequency changes for a moving source"
+            "A wave travels at 340 m/s with frequency 170 Hz. Find wavelength",
+            "Two coherent sources 1.5 mm apart produce fringes 4 mm apart at 3 m. Find λ",
+            "Find critical angle for glass-air interface (n_glass = 1.5)",
+            "A police siren at 800 Hz approaches at 30 m/s. Find frequency heard (v_sound=340 m/s)",
+            "Explain why sound waves cannot be polarised"
           ],
           "page": "topics/physics/waves.html"
         },
         {
           "title": "Particles and Quantum Physics",
           "learningObjectives": [
-            "Describe fundamental particles",
-            "Detect radiation",
-            "Apply the photon model"
+            "Describe the standard model: quarks, leptons, gauge bosons",
+            "Understand particle interactions: strong, weak, electromagnetic, gravitational",
+            "Apply conservation laws: charge, baryon number, lepton number, strangeness",
+            "Use the photon model: E = hf = hc/λ, momentum p = h/λ",
+            "Explain the photoelectric effect and Einstein's equation",
+            "Understand wave-particle duality: de Broglie wavelength λ = h/p",
+            "Describe atomic line spectra and energy levels",
+            "Understand particle detectors: cloud chamber, bubble chamber, semiconductor detectors"
           ],
           "keyPoints": [
-            "Photon energy E = hf",
-            "Quarks and leptons",
-            "Radioactive decay and halflife"
+            "Quarks (u,d,s,c,b,t) in baryons (3) and mesons (q q̄); Leptons (e,μ,τ,νₑ,ν_μ,ν_τ)",
+            "Interactions: strong (gluons, q-q), weak (W+/-, Z⁰, β decay), EM (γ, charged), gravity (negligible)",
+            "Conservation: charge, B, L, S in strong/EM; only charge, B-L in weak",
+            "Photoelectric: hf = φ + KE_max; threshold f₀ = φ/h; no time lag; intensity ∝ number of photons",
+            "de Broglie: λ = h/p = h/sqrt(2meV) for electrons; diffraction proves wave nature",
+            "Line spectra: electrons move between discrete levels; emission (excited->ground), absorption (ground->excited)",
+            "Energy levels: E_n = -13.6/n^2 eV (hydrogen); transitions give DeltaE = hf",
+            "Detectors: ionisation trails in cloud/bubble chambers; Si detectors measure energy"
           ],
-          "exampleQuestion": "Energy of a photon with f = 10¹⁵ Hz (h = 6.63×10⁻³⁴)",
-          "modelAnswer": "E = 6.63×10⁻¹⁹ J",
+          "exampleQuestion": "Electrons accelerated through 150 V. Find de Broglie wavelength and explain if diffraction observable",
+          "modelAnswer": "λ = h/sqrt(2meV) = 6.63x10⁻^3⁴ / sqrt(2x9.11x10⁻^3¹x1.6x10⁻¹⁹x150) ≈ 1.0x10⁻¹⁰ m = 0.1 nm. Comparable to atomic spacing -> diffraction observable (e.g. Davisson-Germer)",
           "practiceQuestions": [
-            "Find f of a photon with E = 3.3×10⁻¹⁹ J",
-            "Name two leptons",
-            "How many half-lives for 1/8 to remain?"
+            "Energy of photon with λ = 400 nm",
+            "In β⁻ decay: n -> p + e⁻ + ν̄ₑ. Check conservation laws",
+            "Find de Broglie λ for electron at 100 eV",
+            "Explain why photoelectric effect supports photon model over wave model",
+            "Hydrogen transition n=3->2. Find λ and colour"
           ],
           "page": "topics/physics/particles-and-quantum-physics.html"
         },
         {
           "title": "Thermal Physics",
           "learningObjectives": [
-            "Explain temperature and heat",
-            "Use specific heat capacity",
-            "Apply the gas laws"
+            "Distinguish heat, internal energy, and temperature",
+            "Use specific heat capacity c and specific latent heat L",
+            "Apply first law: DeltaU = Q + W (sign conventions)",
+            "Use ideal gas laws: Boyle, Charles, Pressure, Combined, PV = nRT",
+            "Understand kinetic theory: pressure from molecular collisions",
+            "Relate microscopic (molecular) to macroscopic (PV=nRT)",
+            "Calculate root-mean-square speed: c_rms = sqrt(3RT/M)",
+            "Understand degrees of freedom and equipartition of energy"
           ],
           "keyPoints": [
-            "Q = mcΔθ",
-            "Ideal gas PV = nRT",
-            "Kinetic theory and absolute zero"
+            "Internal energy U = Σ(KE + PE) of molecules; Temperature ∝ mean KE per molecule",
+            "Q = mcDeltaθ (no phase change); Q = mL (phase change); L_fusion, L_vaporisation",
+            "1st law: DeltaU = Q + W; W = ∫PdV (work done ON gas); Q +ve into system, W +ve on system",
+            "Ideal gas: pV = nRT = NkT; Boyle p∝1/V (isothermal), Charles V∝T (isobaric), Pressure p∝T (isochoric)",
+            "Kinetic theory: pV = ⅓Nm<c^2> -> p = ⅓ρ<c^2>; <c^2> = 3RT/M",
+            "RMS speed: c_rms = sqrt(3RT/M); M = molar mass in kg/mol",
+            "Degrees of freedom: monatomic 3 (translational); diatomic 5 (+2 rotational) at room temp",
+            "Equipartition: each quadratic term contributes ½kT per molecule"
           ],
-          "exampleQuestion": "Heat to raise 2 kg of water by 10 K (c=4200 J/kgK)?",
-          "modelAnswer": "Q = 2 × 4200 × 10 = 84 kJ",
+          "exampleQuestion": "2 moles of ideal gas at 300 K compressed isothermally from 0.02 m^3 to 0.01 m^3. Find work done",
+          "modelAnswer": "Isothermal: W = ∫PdV = ∫(nRT/V)dV = nRT ln(V₂/V₁) = 2x8.31x300xln(0.5) = -3457 J. Work done ON gas = +3457 J",
           "practiceQuestions": [
-            "Heat to melt 0.5 kg of ice (specific latent heat 334 kJ/kg)",
-            "State units of R",
-            "Explain temperature in kinetic terms"
+            "Heat to raise 500 g water from 20 deg C to 80 deg C (c=4180)",
+            "1 mole gas at 27 deg C, V=0.022 m^3. Find pressure",
+            "Explain why C_p > C_v for ideal gas",
+            "RMS speed of N₂ at 300 K (M=0.028 kg/mol)",
+            "Derive pV = ⅓Nm<c^2> from momentum change on wall"
           ],
           "page": "topics/physics/thermal-physics.html"
         },
@@ -952,105 +1251,152 @@
         {
           "title": "Programming Fundamentals",
           "learningObjectives": [
-            "Use variables and data types",
-            "Control program flow",
-            "Write functions"
+            "Use variables, constants, and data types (integer, real, boolean, character, string)",
+            "Implement control structures: sequence, selection (if/else, switch), iteration (for, while, do-while)",
+            "Design and use functions/procedures: parameters (value/reference), return values, scope",
+            "Handle input/output: file I/O, exceptions, validation",
+            "Apply string manipulation: concatenation, slicing, searching, formatting",
+            "Use random number generation and libraries"
           ],
           "keyPoints": [
-            "Integer, float, string, boolean",
-            "If/else and loops",
-            "Functions and parameters"
+            "Data types: int, float, bool, char, string; type casting; constants vs variables",
+            "Selection: if/elif/else, switch/case (match in Python 3.10+); nested conditions",
+            "Iteration: for (definite), while (indefinite), do-while (at least once); break/continue",
+            "Functions: definition, call, parameters (positional, keyword, default), return, recursion",
+            "Scope: local, global, nonlocal; shadowing; modules and imports",
+            "String: len, index, slice, split, join, replace, format, f-strings, regex basics",
+            "File: open/close, read/write modes, with statement, try/except/else/finally"
           ],
-          "exampleQuestion": "What data type stores true/false?",
-          "modelAnswer": "Boolean",
+          "exampleQuestion": "Write a function that reads a file of integers and returns the median",
+          "modelAnswer": "def median_from_file(filename):\n    with open(filename) as f:\n        nums = sorted(int(line.strip()) for line in f if line.strip())\n    n = len(nums)\n    if n == 0: return None\n    mid = n // 2\n    return nums[mid] if n % 2 else (nums[mid-1] + nums[mid]) / 2",
           "practiceQuestions": [
-            "Write a loop to print 1-5",
-            "Declare a string variable",
-            "Write a function that adds two numbers"
+            "Write a program that validates email format using regex",
+            "Implement a recursive factorial function",
+            "Create a menu-driven calculator with functions",
+            "Write a function to count word frequencies in a text file",
+            "Handle division by zero with try/except"
           ],
           "page": "topics/computer-science/programming-fundamentals.html"
         },
         {
           "title": "Data Structures and Algorithms",
           "learningObjectives": [
-            "Use arrays and lists",
-            "Trace search and sort algorithms",
-            "Analyse complexity"
+            "Implement and use arrays, lists, stacks, queues, linked lists, trees, graphs, hash tables",
+            "Analyse time and space complexity using Big-O notation",
+            "Implement and trace search algorithms: linear, binary, hash-based",
+            "Implement and trace sorting algorithms: bubble, insertion, merge, quick, heap",
+            "Understand recursion and divide-and-conquer; apply to tree/graph traversals",
+            "Apply algorithms to problems: shortest path (Dijkstra), MST (Prim/Kruskal), topological sort"
           ],
           "keyPoints": [
-            "Arrays and linked lists",
-            "Linear/binary search, bubble/merge sort",
-            "Big-O notation"
+            "Arrays: contiguous, O(1) access; Lists: dynamic, O(1) append amortised; Stacks: LIFO, push/pop; Queues: FIFO, enqueue/dequeue",
+            "Linked lists: singly/doubly, O(1) insert/delete at known position, O(n) access",
+            "Trees: binary, BST (left<root<right), AVL/Red-Black (balanced); traversals: pre/in/post-order, level-order",
+            "Graphs: adjacency matrix/list; directed/undirected, weighted/unweighted; BFS/DFS",
+            "Hash tables: O(1) average, collisions (chaining, open addressing), load factor",
+            "Big-O: O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2ⁿ); best/average/worst case",
+            "Search: linear O(n), binary O(log n) sorted, hash O(1); Sort: bubble/insertion O(n^2), merge/quick/heap O(n log n)",
+            "Recursion: base case, recursive case; Tree traversals; Graph: Dijkstra (shortest path), Prim/Kruskal (MST), Topological sort (DAG)"
           ],
-          "exampleQuestion": "Which search is faster on sorted data?",
-          "modelAnswer": "Binary search (O(log n) vs O(n))",
+          "exampleQuestion": "Trace quicksort on [3, 6, 8, 10, 1, 2, 1] with pivot as first element",
+          "modelAnswer": "Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -> [1] + [1] + [2]. Right: pivot=6 -> [] + [6] + [8,10] -> pivot=8 -> [] + [8] + [10]. Result: [1,1,2,3,6,8,10]",
           "practiceQuestions": [
-            "Trace a binary search",
-            "Describe a bubble sort pass",
-            "State the complexity of linear search"
+            "Implement stack using list",
+            "Write binary search recursive",
+            "Trace merge sort on [38,27,43,3,9,82,10]",
+            "Implement BFS for shortest path in unweighted graph",
+            "Design hash function for string keys"
           ],
           "page": "topics/computer-science/data-structures-and-algorithms.html"
         },
         {
           "title": "Computer Systems and Architecture",
           "learningObjectives": [
-            "Explain the CPU and fetch-decode-execute cycle",
-            "Understand memory",
-            "Describe storage"
+            "Explain CPU architecture: ALU, CU, registers (PC, ACC, MAR, MDR, CIR, SR)",
+            "Describe fetch-decode-execute cycle and pipelining",
+            "Understand memory hierarchy: registers, cache (L1/L2/L3), RAM, virtual memory, secondary storage",
+            "Compare CISC vs RISC, parallel processing (SIMD, MIMD, multicore)",
+            "Understand instruction sets: addressing modes, instruction formats, assembly basics",
+            "Analyse performance: clock speed, CPI, IPC, Amdahl's law"
           ],
           "keyPoints": [
-            "ALU, CU, registers",
-            "RAM vs ROM",
-            "Virtual memory and cache"
+            "CPU: ALU (arithmetic/logic), CU (control signals), Registers: PC (next instruction), ACC (results), MAR (address), MDR (data), CIR (instruction), SR (flags)",
+            "FDE: Fetch (PC to MAR, memory to MDR/CIR, PC++), Decode (CU interprets CIR), Execute (ALU/control)",
+            "Pipelining: fetch/decode/execute overlap; hazards (data, control, structural)",
+            "Memory: Registers > L1 cache > L2 > L3 > RAM > SSD > HDD; Virtual memory: paging, page table, TLB, page fault",
+            "CISC: complex instructions, variable length, microcode; RISC: simple, fixed length, load/store, more registers",
+            "Parallel: SIMD (single instruction, multiple data), MIMD (multicore); Amdahl: speedup = 1/((1-p) + p/n)"
           ],
-          "exampleQuestion": "What does the ALU do?",
-          "modelAnswer": "Performs arithmetic and logic operations",
+          "exampleQuestion": "A program has 20 percent serial code. Max speedup on 4 cores?",
+          "modelAnswer": "Amdahl: speedup = 1/((1-0.8) + 0.8/4) = 1/(0.2 + 0.2) = 2.5x. Even infinite cores: 1/0.2 = 5x",
           "practiceQuestions": [
-            "Order the FDE cycle steps",
-            "Compare RAM and ROM",
-            "Why is cache used?"
+            "List registers and their purposes",
+            "Draw FDE cycle diagram",
+            "Explain cache hit/miss",
+            "Compare CISC vs RISC",
+            "Calculate speedup: 30 percent serial, 8 cores"
           ],
           "page": "topics/computer-science/computer-systems-and-architecture.html"
         },
         {
           "title": "Networks and Internet",
           "learningObjectives": [
-            "Explain network topologies",
-            "Understand protocols",
-            "Describe cybersecurity threats"
+            "Compare network topologies: star, mesh, bus, ring, hybrid",
+            "Understand TCP/IP stack: Application, Transport, Internet, Link layers",
+            "Analyse key protocols: HTTP/HTTPS, DNS, TCP, UDP, IP, DHCP, FTP, SSH",
+            "Understand IP addressing: IPv4 (classes, subnetting, CIDR), IPv6",
+            "Describe cybersecurity threats: malware, phishing, DoS, MITM, SQL injection, XSS",
+            "Apply security: encryption (symmetric/asymmetric, TLS/SSL), firewalls, VPNs, authentication"
           ],
           "keyPoints": [
-            "LAN vs WAN, topology",
-            "TCP/IP, HTTP, DNS",
-            "Malware, phishing, encryption"
+            "Topologies: Star (central hub), Mesh (all connected), Bus (shared cable), Ring (token passing)",
+            "TCP/IP: App (HTTP, DNS, FTP), Transport (TCP reliable, UDP fast), Internet (IP routing), Link (Ethernet, WiFi)",
+            "TCP: 3-way handshake, sequencing, flow control, congestion control; UDP: connectionless, low latency",
+            "DNS: hierarchical (root, TLD, authoritative); recursive/iterative queries; records (A, AAAA, MX, CNAME)",
+            "IPv4: 32-bit, dotted decimal, classes A/B/C, subnet mask, CIDR (/24); IPv6: 128-bit, hex, no NAT needed",
+            "Threats: malware (virus, worm, ransomware), phishing, DoS/DDoS, MITM, SQLi (input sanitisation), XSS (output encoding)",
+            "Encryption: Symmetric (AES, same key), Asymmetric (RSA, public/private); TLS: handshake, certificates, CA; Firewall: packet filter, stateful, application; VPN: encrypted tunnel; Auth: MFA, OAuth, JWT"
           ],
-          "exampleQuestion": "What does HTTP do?",
-          "modelAnswer": "Transfers web pages over the internet",
+          "exampleQuestion": "Explain the TLS handshake process",
+          "modelAnswer": "1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted communication begins",
           "practiceQuestions": [
-            "Compare topologies",
-            "Explain the role of DNS",
-            "Name two cyber threats"
+            "Subnet 192.168.1.0/24 into 4 subnets",
+            "Compare TCP vs UDP for video streaming",
+            "Explain DNS resolution steps",
+            "Describe SQL injection prevention",
+            "How does RSA key exchange work?"
           ],
           "page": "topics/computer-science/networks-and-internet.html"
         },
         {
           "title": "Boolean Logic and Relational Databases",
           "learningObjectives": [
-            "Use logic gates",
-            "Normalise databases",
-            "Query with SQL"
+            "Construct and simplify Boolean expressions using laws (De Morgan, distribution, absorption)",
+            "Design combinational logic circuits: adders, multiplexers, decoders",
+            "Understand sequential logic: flip-flops (SR, D, JK), registers, counters",
+            "Design relational databases: ER modelling, normalisation (1NF, 2NF, 3NF, BCNF)",
+            "Write SQL: DDL (CREATE, ALTER), DML (SELECT, INSERT, UPDATE, DELETE), joins, aggregation",
+            "Understand ACID properties, transactions, concurrency control, indexing"
           ],
           "keyPoints": [
-            "AND, OR, NOT gates",
-            "Entities, attributes, primary keys",
-            "SELECT, FROM, WHERE"
+            "Boolean laws: Identity, Null, Idempotent, Complement, Commutative, Associative, Distributive, De Morgan, Absorption",
+            "K-maps: 2-4 variables, groups of 1s (SOP) or 0s (POS); don't cares",
+            "Circuits: Half adder (XOR+AND), Full adder (2 half + OR), MUX (select), Decoder (binary->one-hot)",
+            "Flip-flops: SR (set/reset), D (data), JK (toggle); Registers: shift, storage; Counters: async/sync",
+            "ER: entities, attributes, relationships (1:1, 1:N, M:N), keys (PK, FK, CK)",
+            "Normalisation: 1NF (atomic), 2NF (no partial FD), 3NF (no transitive FD), BCNF (det⇒cand key)",
+            "SQL: SELECT...FROM...WHERE...GROUP BY...HAVING...ORDER BY; JOINs (INNER, LEFT, RIGHT, FULL)",
+            "Aggregation: COUNT, SUM, AVG, MIN, MAX; Subqueries; ACID: Atomicity, Consistency, Isolation, Durability",
+            "Concurrency: locks (shared/exclusive), deadlock, 2PL; Indexes: B-tree, hash; Query optimisation"
           ],
-          "exampleQuestion": "Output of AND gate with inputs 1 and 0?",
-          "modelAnswer": "0",
+          "exampleQuestion": "Normalise to 3NF: Student(StudentID, Name, CourseID, CourseName, TutorID, TutorName)",
+          "modelAnswer": "FDs: StudentID->Name, CourseID->CourseName, TutorID, TutorID->TutorName. 1NF: atomic. 2NF: remove partial FD (CourseID->CourseName). Course(CourseID, CourseName, TutorID), Tutor(TutorID, TutorName), Student(StudentID, Name, CourseID). 3NF: remove transitive FD (TutorID->TutorName). Already in 3NF",
           "practiceQuestions": [
-            "Draw a truth table for OR",
-            "Define a primary key",
-            "Write a basic SQL SELECT query"
+            "Simplify: A·(A+B) + A·B",
+            "Design full adder from half adders",
+            "Draw ER for library system",
+            "Write SQL: students with avg grade > 70",
+            "Explain ACID with examples"
           ],
           "page": "topics/computer-science/boolean-logic-and-relational-databases.html"
         },
@@ -1091,84 +1437,122 @@
         {
           "title": "Microeconomics and Markets",
           "learningObjectives": [
-            "Explain supply and demand",
-            "Analyse market equilibrium",
-            "Understand elasticity"
+            "Analyse demand and supply: shifts vs movements, determinants",
+            "Determine market equilibrium and disequilibrium (excess demand/supply)",
+            "Calculate and interpret elasticities: PED, YED, XED, PES",
+            "Understand consumer and producer surplus, allocative efficiency",
+            "Evaluate market structures: perfect competition, monopoly, monopolistic competition, oligopoly",
+            "Analyse labour markets: derived demand, MRP, wage determination, trade unions",
+            "Evaluate government intervention: max/min prices, taxes, subsidies, regulation"
           ],
           "keyPoints": [
-            "Demand and supply curves",
-            "Equilibrium price and quantity",
-            "Price elasticity of demand = %ΔQd/%ΔP"
+            "Demand: P↓->Qd↑ (law); Determinants: income, tastes, related goods, expectations, #buyers",
+            "Supply: P↑->Qs↑; Determinants: input prices, technology, expectations, #sellers, taxes/subsidies",
+            "Equilibrium: Qd=Qs; Shortage: P<P* -> Qd>Qs; Surplus: P>P* -> Qs>Qd",
+            "PED = %DeltaQd/%DeltaP; elastic (>1), inelastic (<1), unitary (=1); factors: substitutes, necessity, time, %income",
+            "YED: normal (>0), inferior (<0); XED: substitutes (>0), complements (<0); PES: time, spare capacity",
+            "Surplus: CS = area under D above P; PS = area above S below P; Deadweight loss from intervention",
+            "Market structures: PC (many, homogeneous, free entry); Monopoly (one, barriers); MC (many, differentiated); Oligopoly (few, interdependence)",
+            "Labour: D = MRP; S = workers; Wage = MRP = MRC in PC; Monopsony: MRC > S; Unions: collective bargaining"
           ],
-          "exampleQuestion": "What happens to price when supply rises?",
-          "modelAnswer": "Price falls if demand is unchanged",
+          "exampleQuestion": "A monopolist faces demand P = 100 - 2Q and has MC = 20. Find profit-maximising output, price, and profit",
+          "modelAnswer": "MR = 100 - 4Q. Set MR = MC: 100 - 4Q = 20 -> Q = 20. P = 100 - 2(20) = 60. Profit = (P - ATC)Q. ATC = TC/Q. If TC = 20Q + 100, ATC = 20 + 5 = 25. Profit = (60-25)x20 = 700",
           "practiceQuestions": [
-            "Draw shifts in demand",
-            "Calculate PED",
-            "Explain the effect of a price ceiling"
+            "If PED = -0.5 and price rises 10%, %DeltaQd?",
+            "Explain why monopolies produce less than PC",
+            "Calculate CS at P=50, Q=100 for linear demand P=100-Q",
+            "Evaluate minimum wage using monopsony model",
+            "Why is PES more elastic in long run?"
           ],
           "page": "topics/economics/microeconomics-and-markets.html"
         },
         {
           "title": "Macroeconomics",
           "learningObjectives": [
-            "Measure economic growth",
-            "Explain inflation and unemployment",
-            "Use fiscal and monetary policy"
+            "Measure economic activity: GDP (expenditure, income, output), real vs nominal, GDP deflator",
+            "Analyse aggregate demand (C+I+G+X-M) and aggregate supply (SRAS, LRAS)",
+            "Understand inflation: causes (demand-pull, cost-push), costs, CPI/RPI",
+            "Explain unemployment: types (frictional, structural, cyclical, seasonal), natural rate",
+            "Evaluate fiscal policy: discretionary vs automatic stabilisers, multiplier, crowding out",
+            "Evaluate monetary policy: interest rates, QE, transmission mechanism, inflation targeting",
+            "Analyse exchange rates: determination, appreciation/depreciation effects, BOP",
+            "Understand supply-side policies: interventionist vs market-based, time lags"
           ],
           "keyPoints": [
-            "GDP as a measure of output",
-            "Inflation = sustained price rise",
-            "Fiscal (tax/spending) and monetary (interest rates) policy"
+            "GDP = C+I+G+(X-M); Real = nominal/deflatorx100; Deflator = nominal/realx100",
+            "AD: C (wealth, confidence, rates), I (confidence, rates, tech), G (policy), X-M (exchange rate, world income)",
+            "SRAS: sticky wages/prices; LRAS: vertical at Yf (classical) or upward (Keynesian); AS shifts: costs, productivity",
+            "Inflation: demand-pull (AD>AS), cost-push (AS left); CPI basket vs RPI (housing); costs: menu, shoe-leather, uncertainty",
+            "Unemployment: frictional (search), structural (skills mismatch), cyclical (AD deficient), natural = frictional+structural",
+            "Fiscal: G↑/T↓ -> AD↑; Multiplier = 1/(1-MPC); Crowding out: G↑->r↑->I↓",
+            "Monetary: Bank Rate -> market rates -> AD; QE: buy bonds -> money supply↑; Inflation target 2%",
+            "Exchange rate: floating (market), fixed (peg); Appreciation: X↓ M↑ -> AD↓; BOP: current + capital + financial account"
           ],
-          "exampleQuestion": "Name a cost of inflation",
-          "modelAnswer": "Reduced purchasing power / uncertainty",
+          "exampleQuestion": "Using AD/AS, analyse the effect of a rise in oil prices on price level and real output",
+          "modelAnswer": "Oil price rise -> production costs ↑ -> SRAS shifts left. Result: price level rises (cost-push inflation), real output falls (stagflation). If central bank accommodates (AD↑), output restored but inflation higher. If not, recession",
           "practiceQuestions": [
-            "Define GDP",
-            "Explain why unemployment matters",
-            "Give an example of fiscal policy"
+            "Calculate GDP deflator: nominal=GBP 2.2T, real=GBP 2T",
+            "Draw AD/AS for recessionary gap",
+            "Explain multiplier with MPC=0.8",
+            "Why might fiscal policy be ineffective in open economy?",
+            "Analyse effect of GBP  depreciation on BOP"
           ],
           "page": "topics/economics/macroeconomics.html"
         },
         {
           "title": "Market Failure and Government Intervention",
           "learningObjectives": [
-            "Identify types of market failure",
-            "Explain externalities",
-            "Evaluate government policies"
+            "Identify sources of market failure: externalities, public goods, information asymmetry, market power",
+            "Analyse negative/positive externalities: MSC=MPC+MEC, MSB=MPB+MEB",
+            "Evaluate policies: Pigouvian taxes, subsidies, tradable permits, regulation, nudges",
+            "Understand public goods: non-excludable, non-rival; free-rider problem",
+            "Analyse information asymmetry: adverse selection, moral hazard; solutions",
+            "Evaluate competition policy: monopolies, mergers, cartels, regulation"
           ],
           "keyPoints": [
-            "Public goods, externalities, monopoly",
-            "Negative and positive externalities",
-            "Taxes, subsidies, regulation"
+            "Externalities: divergence private/social costs/benefits; Negative: MSC>MPC (pollution); Positive: MSB>MPB (education)",
+            "Pigouvian tax = MEC at optimum; Subsidy = MEB; Tradable permits: cap-and-trade; Regulation: standards/bans",
+            "Public goods: non-excludable (can't stop use), non-rival (one's use doesn't reduce other's) -> free rider -> underprovision",
+            "Info asymmetry: adverse selection (pre-contract, hidden info), moral hazard (post-contract, hidden action); Solutions: signalling, screening, regulation",
+            "Competition: CMA investigates mergers (SLC test), cartels (price-fixing), abuse of dominance; Regulation: price caps (RPI-X), profit caps"
           ],
-          "exampleQuestion": "What is a negative externality?",
-          "modelAnswer": "A cost to a third party, e.g. pollution",
+          "exampleQuestion": "A factory pollutes a river. MPC = 20+Q, MEC = 5, MPB = 100-Q. Find market output, social optimum, and tax",
+          "modelAnswer": "Market: MPC=MPB -> 20+Q=100-Q -> Q=40. Social: MSC=MSB -> 20+Q+5=100-Q -> 2Q=75 -> Q=37.5. Tax = MEC = 5 per unit. At Q=37.5, P=100-37.5=62.5. Tax revenue = 5x37.5=187.5",
           "practiceQuestions": [
-            "Give an example of a public good",
-            "Explain how a tax corrects pollution",
-            "Evaluate a subsidy"
+            "Why is clean air a public good?",
+            "Draw MSC/MPC for negative externality",
+            "Explain adverse selection in insurance",
+            "Evaluate tradable permits vs carbon tax",
+            "Why regulate natural monopolies?"
           ],
           "page": "topics/economics/market-failure-and-government-intervention.html"
         },
         {
           "title": "International Trade and Development",
           "learningObjectives": [
-            "Explain comparative advantage",
-            "Analyse globalisation",
-            "Understand development indicators"
+            "Explain absolute and comparative advantage; gains from trade",
+            "Analyse protectionism: tariffs, quotas, subsidies, VERs; costs/benefits",
+            "Understand exchange rate systems: fixed, floating, managed; PPP theory",
+            "Analyse globalisation: drivers, benefits, costs; WTO, trade blocs",
+            "Evaluate development strategies: import substitution vs export-led, aid, FDI, debt",
+            "Use development indicators: HDI, MDGs/SDGs, inequality (Gini, Lorenz)"
           ],
           "keyPoints": [
-            "Comparative advantage",
-            "Free trade and protectionism",
-            "Exchange rates"
+            "Absolute: produce more with same resources; Comparative: lower opportunity cost -> specialise -> trade",
+            "Tariff: tax on imports -> domestic P↑, Qd↓, Qs↑, govt revenue, DWL; Quota: quantity limit; Subsidy: domestic producers",
+            "Floating: market; Fixed: central bank intervention; Managed: dirty float; PPP: identical goods same price in common currency",
+            "Globalisation: trade↑, capital flows↑, migration↑, tech diffusion; WTO: rules, disputes; Blocs: EU, USMCA, ASEAN",
+            "Development: import substitution (protect infant industries) vs export-led (E Asian tigers); Aid: tied/untied; Debt: HIPC initiative",
+            "HDI: life expectancy, education (mean/expected yrs), GNI pc; Gini: 0=perfect equality, 1=perfect inequality; Lorenz curve"
           ],
-          "exampleQuestion": "Why do countries trade?",
-          "modelAnswer": "To specialise and gain from comparative advantage",
+          "exampleQuestion": "Country A: 10 labour hours for 1 cloth or 5 wine. Country B: 6 cloth or 4 wine. Who has comparative advantage in what?",
+          "modelAnswer": "A: OC 1 cloth = 2 wine (10/5), 1 wine = 0.5 cloth. B: OC 1 cloth = 0.67 wine (6/4), 1 wine = 1.5 cloth. B has CA in cloth (lower OC), A has CA in wine. A exports wine, B exports cloth. Both gain",
           "practiceQuestions": [
-            "Explain an exchange rate change effect",
-            "Describe a benefit of free trade",
-            "State a development indicator"
+            "Calculate opportunity costs for CA",
+            "Draw tariff diagram showing DWL",
+            "Explain J-curve effect",
+            "Evaluate export-led vs import substitution",
+            "Interpret Lorenz curve and Gini"
           ],
           "page": "topics/economics/international-trade-and-development.html"
         },
@@ -1209,105 +1593,144 @@
         {
           "title": "Approaches and Perspectives",
           "learningObjectives": [
-            "Compare psychological approaches",
-            "Evaluate the biological approach",
-            "Understand behaviourism"
+            "Compare and evaluate the major psychological approaches: biological, cognitive, behaviourist, psychodynamic, humanistic",
+            "Understand the biological approach: genetics, neurochemistry, brain structure, evolution",
+            "Evaluate the cognitive approach: schema, information processing, cognitive neuroscience",
+            "Analyse behaviourism: classical conditioning, operant conditioning, social learning theory",
+            "Understand the psychodynamic approach: unconscious, psychosexual stages, defence mechanisms",
+            "Evaluate the humanistic approach: self-actualisation, free will, congruence, conditions of worth"
           ],
           "keyPoints": [
-            "Biological, cognitive, behaviourist, psychodynamic, humanistic",
-            "Nature vs nurture",
-            "Determinism vs free will"
+            "Biological: genes, neurotransmitters (dopamine, serotonin), brain localisation, evolution, twin/adoption studies",
+            "Cognitive: schema, mental models, computer analogy, cognitive neuroscience (fMRI, PET)",
+            "Behaviourist: Pavlov (classical: NS->CS), Skinner (operant: reinforcement/punishment), Bandura (SLT: observation, modelling)",
+            "Psychodynamic: Freud (id/ego/superego, psychosexual stages, defence mechanisms), unconscious motivation",
+            "Humanistic: Maslow (hierarchy), Rogers (self-concept, congruence, unconditional positive regard), free will",
+            "Debates: Nature vs nurture, determinism vs free will, reductionism vs holism, nomothetic vs idiographic"
           ],
-          "exampleQuestion": "What does the biological approach focus on?",
-          "modelAnswer": "Genes, brain structure and neurotransmitters",
+          "exampleQuestion": "Explain how the biological and cognitive approaches differ in explaining depression",
+          "modelAnswer": "Biological: genetic predisposition, serotonin/noradrenaline deficit, hippocampal atrophy -> treatment: SSRIs, ECT. Cognitive: Beck's negative triad (self, world, future), cognitive distortions, schema -> treatment: CBT (challenge thoughts). Biological = reductionist, medical; Cognitive = mental processes, empowerment",
           "practiceQuestions": [
-            "Outline behaviourism",
-            "Evaluate the cognitive approach",
-            "Explain the nature-nurture debate"
+            "Compare SLT vs operant conditioning",
+            "Evaluate twin studies for nature/nurture",
+            "Explain Freud's defence mechanisms with examples",
+            "Apply Maslow to workplace motivation",
+            "Evaluate cognitive neuroscience as reductionist"
           ],
           "page": "topics/psychology/approaches-and-perspectives.html"
         },
         {
           "title": "Research Methods",
           "learningObjectives": [
-            "Design experiments",
-            "Use sampling techniques",
-            "Analyse data"
+            "Design experiments: lab, field, natural, quasi; IV, DV, controls, counterbalancing, randomisation",
+            "Understand sampling: random, stratified, systematic, opportunity, volunteer; generalisability",
+            "Analyse data: descriptive (mean, median, mode, SD, range), inferential (parametric/non-parametric tests)",
+            "Understand ethics: BPS guidelines, informed consent, deception, debrief, right to withdraw, confidentiality",
+            "Evaluate reliability (test-retest, inter-rater) and validity (internal, external, ecological, construct)",
+            "Write psychological reports: abstract, intro, method, results, discussion, references (APA)"
           ],
           "keyPoints": [
-            "Independent and dependent variables",
-            "Random and stratified sampling",
-            "Measures of central tendency"
+            "Experimental designs: independent measures, repeated measures, matched pairs; controls: standardisation, counterbalancing, random allocation",
+            "Sampling: random (unbiased), stratified (proportional subgroups), systematic (interval), opportunity (convenience), volunteer (self-select)",
+            "Descriptive: mean (parametric), median (skewed), mode (nominal), SD (spread), range; Inferential: t-test, Mann-Whitney, Wilcoxon, Chi-squared, Spearman, Pearson",
+            "Ethics: consent, deception (cost-benefit), debrief, withdrawal, confidentiality, protection from harm; BPS code",
+            "Reliability: consistency (test-retest, inter-rater, split-half); Validity: internal (IV->DV), external (generalisable), ecological (real-life), construct (measures concept)",
+            "Report structure: Abstract (150w), Intro (lit review, hypothesis), Method (design, sample, materials, procedure), Results (stats, tables), Discussion (interpret, eval, implications), Refs (APA)"
           ],
-          "exampleQuestion": "What is the independent variable?",
-          "modelAnswer": "The variable the researcher manipulates",
+          "exampleQuestion": "Design an experiment to test if caffeine improves reaction time. Identify IV, DV, design, controls, sampling, ethics",
+          "modelAnswer": "IV: caffeine (200mg vs placebo). DV: reaction time (ms) on computer task. Design: repeated measures (counterbalanced). Controls: same time of day, same task, blind. Sampling: volunteer students (opportunity). Ethics: consent, right to withdraw, debrief, medical screening for caffeine sensitivity",
           "practiceQuestions": [
-            "Write a hypothesis",
-            "Describe random sampling",
-            "State the mode of a data set"
+            "Choose test: compare 2 independent groups, ordinal data",
+            "Explain counterbalancing",
+            "When to use Spearman vs Pearson",
+            "Evaluate opportunity sampling",
+            "Write APA reference for journal article"
           ],
           "page": "topics/psychology/research-methods.html"
         },
         {
           "title": "Memory and Cognitive Psychology",
           "learningObjectives": [
-            "Explain multi-store model",
-            "Describe short and long-term memory",
-            "Understand forgetting"
+            "Explain and evaluate the Multi-Store Model (Atkinson-Shiffrin): sensory, STM, LTM",
+            "Understand Working Memory Model (Baddeley-Hitch): central executive, phonological loop, visuospatial sketchpad, episodic buffer",
+            "Explain LTM types: episodic, semantic, procedural; encoding, storage, retrieval",
+            "Analyse forgetting: interference (proactive/retroactive), retrieval failure, decay, motivated forgetting",
+            "Evaluate eyewitness testimony: misleading information, anxiety, cognitive interview",
+            "Understand cognitive development: Piaget (stages), Vygotsky (ZPD, scaffolding)"
           ],
           "keyPoints": [
-            "Sensory, short-term, long-term memory",
-            "Capacity and duration",
-            "Forgetting: interference and decay"
+            "MSM: Sensory (iconic/echoic, <1s) -> attention -> STM (acoustic, 7+/-2, 18-30s) -> rehearsal -> LTM (semantic, unlimited); WMM: CE (attention), PL (speech), VSSP (visual), EB (integration); LTM: episodic (events), semantic (facts), procedural (skills)",
+            "Encoding: acoustic (STM), semantic (LTM); Storage: consolidation; Retrieval: recall, recognition, relearning",
+            "Forgetting: Proactive (old->new), Retroactive (new->old), Retrieval failure (cue-dependent), Decay (trace fades), Motivated (repression)",
+            "EWT: Loftus & Palmer (leading questions), anxiety (weapon focus), Cognitive interview (context reinstatement, report everything, reverse order, change perspective)",
+            "Piaget: sensorimotor, preoperational, concrete, formal; schemas, assimilation, accommodation; Vygotsky: ZPD, scaffolding, social interaction"
           ],
-          "exampleQuestion": "Typical capacity of short-term memory?",
-          "modelAnswer": "7 ± 2 items",
+          "exampleQuestion": "Explain how the Working Memory Model accounts for dual-task performance better than the Multi-Store Model",
+          "modelAnswer": "MSM: single STM store -> two verbal tasks interfere. WMM: separate stores (PL for verbal, VSSP for visual) -> can do verbal + visual simultaneously. Evidence: Baddeley (verbal reasoning + tracking). PL overload impairs both if both verbal",
           "practiceQuestions": [
-            "Outline the multi-store model",
-            "Describe a forgetting theory",
-            "Give an example of interference"
+            "Compare MSM vs WMM",
+            "Explain retrieval failure with example",
+            "Evaluate cognitive interview",
+            "Apply Piaget to conservation task",
+            "Evaluate Loftus & Palmer methodology"
           ],
           "page": "topics/psychology/memory-and-cognitive-psychology.html"
         },
         {
           "title": "Social Influence and Attachment",
           "learningObjectives": [
-            "Explain conformity and obedience",
-            "Describe types of attachment",
-            "Evaluate research studies"
+            "Explain conformity: types (compliance, identification, internalisation), Asch, Zimbardo",
+            "Explain obedience: Milgram, situational vs dispositional factors, agency theory",
+            "Understand resistance to social influence: social support, locus of control",
+            "Explain minority influence: Moscovici, consistency, commitment, flexibility",
+            "Understand attachment: Bowlby (monotropy, critical period, internal working model), Ainsworth (Strange Situation, types)",
+            "Evaluate cultural variations in attachment, Romanian orphan studies, institutionalisation"
           ],
           "keyPoints": [
-            "Conformity and obedience",
-            "Secure and insecure attachment",
-            "Evaluation of key studies"
+            "Conformity: Compliance (public only), Identification (group membership), Internalisation (true belief); Asch (line length, 32% conform), Zimbardo (Stanford prison)",
+            "Obedience: Milgram (65% to 450V), agency theory (agentic/autonomous state), legitimacy of authority, gradual commitment",
+            "Resistance: social support (ally), locus of control (internal resist); Minority influence: consistency, commitment, flexibility, snowball effect",
+            "Attachment: Bowlby (evolutionary, monotropy, critical period 0-2.5yrs, IWM), Ainsworth: Secure (B), Insecure-avoidant (A), Insecure-resistant (C); Disorganised (D)",
+            "Cultural: van IJzendoorn (meta-analysis, secure universal but variations), Romanian orphans (Rutter, ERA study, privation effects)",
+            "Influence on later relationships: IWM -> parenting, peer, romantic (Hazan & Shaver)"
           ],
-          "exampleQuestion": "What is conformity?",
-          "modelAnswer": "Changing behaviour to match the group",
+          "exampleQuestion": "Explain why Milgram's participants obeyed using agency theory",
+          "modelAnswer": "Agentic state: individual sees self as agent of authority, not responsible. Autonomous state: self-directed. Shift triggered by: legitimate authority, institutional context, gradual commitment (15V steps), buffers (victim not visible). Dispositional: authoritarian personality (Adorno)",
           "practiceQuestions": [
-            "Give an example of obedience",
-            "Describe secure attachment",
-            "Evaluate a famous study"
+            "Distinguish compliance vs internalisation",
+            "Evaluate Zimbardo ethics",
+            "Explain internal working model",
+            "Compare attachment types in Strange Situation",
+            "Evaluate Romanian orphan study"
           ],
           "page": "topics/psychology/social-influence-and-attachment.html"
         },
         {
           "title": "Psychopathology",
           "learningObjectives": [
-            "Define abnormality",
-            "Explain mental disorders",
-            "Evaluate treatments"
+            "Define abnormality: statistical infrequency, deviation from social norms, failure to function adequately, deviation from ideal mental health",
+            "Understand phobias: behavioural (classical conditioning, two-process), cognitive (irrational thoughts), biological (preparedness)",
+            "Explain depression: biological (genetics, neurotransmitters, neuroendocrine), cognitive (Beck's triad, learned helplessness), psychological treatments",
+            "Understand OCD: biological (genetics, basal ganglia, serotonin), cognitive (intrusive thoughts, inflated responsibility), treatments",
+            "Evaluate treatments: biological (SSRIs, benzodiazepines, ECT), psychological (CBT, exposure, systematic desensitisation)",
+            "Understand diagnosis and classification: DSM-5, ICD-11, reliability/validity issues, comorbidity, cultural bias"
           ],
           "keyPoints": [
-            "Statistical and social norms definitions",
-            "Phobias, depression, OCD",
-            "Biological and psychological treatments"
+            "Definitions: Statistical (rare, e.g. IQ<70), Social norms (culture-specific), FFAD (distress, dysfunction), Ideal MH (Jahoda: autonomy, reality perception, etc.)",
+            "Phobias: Two-process (classical: fear acquisition, operant: avoidance maintenance); Preparedness (Seligman: evolved fears); CBT: exposure, cognitive restructuring",
+            "Depression: Biological (5-HTT gene, serotonin, cortisol/HPA axis); Cognitive (Beck: negative triad, schema, cognitive distortions); Learned helplessness (Seligman); Treatments: SSRIs (6-8 weeks), CBT (behavioural activation, cognitive restructuring)",
+            "OCD: Obsessions (intrusive), Compulsions (repetitive); Biological (COMT, SLC1A1, basal ganglia, serotonin); Cognitive (inflated responsibility, thought-action fusion); ERP (exposure response prevention)",
+            "Treatments: SSRIs (fluoxetine), Benzos (short-term), ECT (severe, resistant); CBT (gold standard for anxiety/depression); ERP (OCD)",
+            "Classification: DSM-5 (APA), ICD-11 (WHO); Reliability (inter-rater), Validity (construct, predictive); Comorbidity (e.g. depression+anxiety); Culture-bound syndromes"
           ],
-          "exampleQuestion": "What is a phobia?",
-          "modelAnswer": "An irrational, persistent fear of an object or situation",
+          "exampleQuestion": "Explain the two-process model of phobias and evaluate it",
+          "modelAnswer": "Classical: neutral stimulus (spider) paired with fear (trauma) -> CS elicits CR (fear). Operant: avoidance reduces fear -> negative reinforcement maintains phobia. Evaluation: explains acquisition/maintenance; ignores cognition (irrational thoughts), preparedness (why spiders not flowers?), individual differences; CBT addresses limitations",
           "practiceQuestions": [
-            "Define clinical depression",
-            "Name a behavioural treatment for phobias",
-            "Evaluate a biological treatment"
+            "Compare four definitions of abnormality",
+            "Explain Beck's negative triad",
+            "Evaluate SSRIs for depression",
+            "Describe ERP for OCD",
+            "Discuss cultural bias in DSM-5"
           ],
           "page": "topics/psychology/psychopathology.html"
         },
@@ -1357,105 +1780,150 @@
         {
           "title": "Marketing",
           "learningObjectives": [
-            "Segment markets",
-            "Use the marketing mix",
-            "Analyse pricing strategies"
+            "Analyse market segmentation: geographic, demographic, psychographic, behavioural",
+            "Apply the marketing mix (7 Ps): Product, Price, Place, Promotion, People, Process, Physical evidence",
+            "Evaluate pricing strategies: penetration, skimming, psychological, competitive, cost-plus, dynamic",
+            "Understand product life cycle and extension strategies",
+            "Analyse promotion: above/below the line, digital marketing, promotional mix",
+            "Evaluate place/distribution channels: direct, indirect, omnichannel"
           ],
           "keyPoints": [
-            "Market segmentation",
-            "The 4 Ps: Product, Price, Place, Promotion",
-            "Pricing strategies"
+            "Segmentation: geo (location), demo (age, gender, income), psycho (lifestyle, values), behavioural (usage, loyalty)",
+            "7 Ps: Product (features, quality, branding), Price (strategies), Place (channels), Promotion (mix), People (service), Process (delivery), Physical evidence (tangibles)",
+            "Pricing: penetration (low, gain share), skimming (high, early adopters), psychological (GBP 9.99), competitive (match), cost-plus (markup), dynamic (real-time)",
+            "PLC: introduction, growth, maturity, decline; Extension: new markets, new uses, repositioning",
+            "Promotion: ATL (TV, radio), BTL (direct, PR, sales promotion), Digital (SEO, PPC, social, email)",
+            "Distribution: direct (manufacturer->consumer), indirect (wholesaler/retailer), omnichannel (integrated)"
           ],
-          "exampleQuestion": "Define market segmentation",
-          "modelAnswer": "Dividing a market into groups with common needs",
+          "exampleQuestion": "A new energy drink targets 18-25 males. Propose segmentation, pricing, and promotion strategy",
+          "modelAnswer": "Segmentation: demographic (18-25, male), psychographic (active, risk-takers), behavioural (gym-goers). Pricing: penetration (GBP 1.50) to gain share quickly. Promotion: social media influencers, gym sponsorships, sampling at events. Place: gyms, convenience stores, online subscription",
           "practiceQuestions": [
-            "Segment a phone market",
-            "Explain the marketing mix",
-            "Compare pricing strategies"
+            "Segment the electric car market",
+            "Compare penetration vs skimming for new iPhone",
+            "Design promotional mix for local bakery",
+            "Evaluate omnichannel for fashion retailer",
+            "Apply PLC to DVD players"
           ],
           "page": "topics/business-studies/marketing.html"
         },
         {
           "title": "Finance and Accounts",
           "learningObjectives": [
-            "Interpret financial statements",
-            "Calculate profitability",
-            "Manage cash flow"
+            "Interpret financial statements: income statement, balance sheet, cash flow statement",
+            "Calculate and interpret profitability, liquidity, efficiency, gearing ratios",
+            "Analyse break-even: contribution, margin of safety, target profit",
+            "Understand sources of finance: internal (retained profit) vs external (debt, equity)",
+            "Evaluate investment appraisal: payback, ARR, NPV, IRR",
+            "Understand budgets: purpose, types (zero-based, incremental), variance analysis"
           ],
           "keyPoints": [
-            "Profit = revenue − costs",
-            "Break-even point",
-            "Liquidity and cash flow"
+            "Income statement: revenue, COGS, gross profit, expenses, operating profit, profit for year",
+            "Balance sheet: non-current assets, current assets, current liabilities, non-current liabilities, equity",
+            "Cash flow: operating, investing, financing; free cash flow",
+            "Ratios: Gross/Net margin, ROCE, Current/Acid test, Inventory/Payables/Receivables days, Gearing (debt/equity)",
+            "Break-even: FC / (P - VC); Margin of safety = actual - BE; Target profit = (FC + target) / contribution",
+            "Finance: internal (retained profit, asset sale); external: debt (loans, bonds, overdraft), equity (shares, venture capital)",
+            "Investment: Payback (time), ARR (avg profit/avg investment), NPV (discounted CF), IRR (discount rate for NPV=0)",
+            "Budgets: plan, coordinate, control; Zero-based (justify all), Incremental (last year +/-); Variance: adverse/favourable"
           ],
-          "exampleQuestion": "Profit if revenue £10k, costs £6k?",
-          "modelAnswer": "£4k",
+          "exampleQuestion": "FC=GBP 50,000, VC=GBP 5/unit, P=GBP 15. Find break-even, margin of safety at 12,000 units, units for GBP 30,000 profit",
+          "modelAnswer": "Contribution = 15-5=10. BE = 50,000/10 = 5,000 units. MoS = 12,000 - 5,000 = 7,000 units (58%). Target: (50,000+30,000)/10 = 8,000 units",
           "practiceQuestions": [
-            "Calculate gross profit",
-            "Work out the break-even quantity",
-            "Explain the importance of cash flow"
+            "Calculate gross/net margin from income statement",
+            "Interpret current ratio 1.5 vs 0.8",
+            "NPV: GBP 100k initial, GBP 30k/yr 5yrs, 10% discount",
+            "Compare debt vs equity finance",
+            "Calculate adverse variance: budget GBP 20k, actual GBP 25k"
           ],
           "page": "topics/business-studies/finance-and-accounts.html"
         },
         {
           "title": "Operations Management",
           "learningObjectives": [
-            "Explain production methods",
-            "Manage quality",
-            "Understand supply chains"
+            "Compare production methods: job, batch, flow, cell, mass customisation",
+            "Evaluate quality management: QC vs QA, TQM, Kaizen, Six Sigma, benchmarking",
+            "Analyse capacity utilisation, efficiency, productivity",
+            "Understand lean production: JIT, Kanban, waste reduction (Muda), 5S",
+            "Analyse supply chain: procurement, logistics, outsourcing, supplier relationships",
+            "Evaluate technology impact: automation, AI, IoT, Industry 4.0"
           ],
           "keyPoints": [
-            "Job, batch, flow production",
-            "Quality control and assurance",
-            "Lean production"
+            "Job: one-off, high skill, high cost; Batch: groups, flexible; Flow: continuous, high volume, low variety; Cell: U-shape, multi-skilled; Mass custom: flow + flexibility",
+            "QC (inspection) vs QA (prevention); TQM: culture, continuous improvement; Kaizen: small incremental; Six Sigma: DMAIC, 3.4 defects/million; Benchmarking: best practice",
+            "Capacity utilisation = actual/max x100%; Efficiency = standard hours/actual hours; Productivity = output/input",
+            "Lean: eliminate Muda (overproduction, waiting, transport, over-processing, inventory, motion, defects); JIT: pull system; Kanban: visual signal; 5S: Sort, Set, Shine, Standardise, Sustain",
+            "Supply chain: procurement (supplier selection), logistics (transport, warehousing), outsourcing (core vs non-core), supplier development",
+            "Industry 4.0: cyber-physical systems, IoT, big data, AI, additive manufacturing, digital twins"
           ],
-          "exampleQuestion": "Define lean production",
-          "modelAnswer": "Minimising waste to improve efficiency",
+          "exampleQuestion": "A furniture maker switches from batch to flow production. Analyse implications for cost, quality, flexibility",
+          "modelAnswer": "Cost: lower unit cost (economies of scale, less setup), but high capital investment. Quality: more consistent (standardised), but defects affect large volumes. Flexibility: reduced (dedicated line), harder to customise. Workforce: deskilling, potential redundancy. Inventory: lower WIP with JIT",
           "practiceQuestions": [
-            "Compare job and flow production",
-            "Explain total quality management",
-            "State a benefit of good stock control"
+            "Compare job vs flow for bespoke vs standard products",
+            "Explain DMAIC in Six Sigma",
+            "Calculate capacity utilisation: actual 800, max 1000",
+            "List 7 wastes (Muda) with examples",
+            "Evaluate outsourcing IT support"
           ],
           "page": "topics/business-studies/operations-management.html"
         },
         {
           "title": "People and Leadership",
           "learningObjectives": [
-            "Explain motivation theories",
-            "Describe leadership styles",
-            "Manage recruitment"
+            "Evaluate motivation theories: Taylor, Mayo, Maslow, Herzberg, McClelland, Vroom, Adams",
+            "Analyse leadership styles: autocratic, democratic, laissez-faire, situational (Hersey-Blanchard), transformational",
+            "Understand organisational structures: tall/flat, centralised/decentralised, matrix, network",
+            "Evaluate recruitment/selection: job analysis, person spec, methods (interviews, tests, assessment centres)",
+            "Understand training/development: on/off job, induction, CPD, appraisal (360 deg , MBO)",
+            "Analyse employee relations: trade unions, collective bargaining, industrial action, ACAS"
           ],
           "keyPoints": [
-            "Maslow and Herzberg",
-            "Autocratic, democratic, laissez-faire",
-            "Recruitment and selection process"
+            "Content theories: Maslow (hierarchy), Herzberg (hygiene/motivators), McClelland (need achiev/affil/power); Process: Vroom (expectancy), Adams (equity)",
+            "Styles: Autocratic (decides alone), Democratic (consults), Laissez-faire (delegates); Situational: telling/selling/participating/delegating; Transformational: inspire, intellectually stimulate",
+            "Tall: many layers, narrow span; Flat: few layers, wide span; Centralised: top decides; Decentralised: delegated; Matrix: dual reporting",
+            "Recruitment: job description, person spec; Internal vs external; Selection: CV, interview (structured/unstructured), psychometric, assessment centre",
+            "Training: on-job (shadowing, coaching), off-job (courses, e-learning); Appraisal: 360 deg  (multi-source), MBO (objectives)",
+            "Unions: represent workers, collective bargaining, industrial action (strike, work-to-rule); ACAS: conciliation, arbitration, advisory"
           ],
-          "exampleQuestion": "Name one motivator",
-          "modelAnswer": "Recognition, achievement, autonomy, pay",
+          "exampleQuestion": "Apply Herzberg to a call centre with high turnover. Propose changes",
+          "modelAnswer": "Hygiene factors: pay, conditions, supervision, policy -> ensure competitive pay, ergonomic chairs, supportive managers, fair policies. Motivators: achievement, recognition, responsibility, growth -> team targets with bonuses, employee of month, job enrichment (team leader roles), career path to management",
           "practiceQuestions": [
-            "Apply Maslow's hierarchy to a firm",
-            "Compare leadership styles",
-            "List recruitment stages"
+            "Compare Maslow vs Herzberg",
+            "Apply Vroom expectancy to sales commission",
+            "Evaluate transformational leadership in crisis",
+            "Design selection process for graduate scheme",
+            "Analyse pros/cons of matrix structure"
           ],
           "page": "topics/business-studies/people-and-leadership.html"
         },
         {
           "title": "Strategy and the External Environment",
           "learningObjectives": [
-            "Use SWOT and PESTEL",
-            "Analyse competition",
-            "Evaluate growth strategies"
+            "Apply strategic analysis: SWOT, PESTEL, Porter's Five Forces, Core Competences, Boston Matrix",
+            "Evaluate strategic direction: Ansoff Matrix (market penetration, development, product development, diversification)",
+            "Analyse competitive strategy: Porter's Generic (cost leadership, differentiation, focus)",
+            "Evaluate growth methods: organic (internal) vs inorganic (M&A, alliances, franchising)",
+            "Understand strategic implementation: resource allocation, change management (Kotter, Lewin), KPIs",
+            "Analyse business ethics and CSR: Carroll's pyramid, stakeholders vs shareholders"
           ],
           "keyPoints": [
-            "SWOT and PESTEL analysis",
-            "Competitive advantage",
-            "Organic vs inorganic growth"
+            "SWOT: internal S/W, external O/T; PESTEL: Political, Economic, Social, Technological, Environmental, Legal",
+            "Porter 5 Forces: rivalry, new entrants, substitutes, buyer power, supplier power",
+            "Core competences: valuable, rare, inimitable, non-substitutable (VRIN)",
+            "Boston Matrix: Stars (high share, high growth), Cash Cows (high share, low growth), Question Marks (low share, high growth), Dogs (low share, low growth)",
+            "Ansoff: existing/new products x existing/new markets -> 4 strategies",
+            "Porter Generic: Cost leadership (lowest cost), Differentiation (unique value), Focus (niche)",
+            "Organic: internal investment; Inorganic: M&A (horizontal, vertical, conglomerate), strategic alliances, joint ventures, franchising",
+            "Change: Kotter 8 steps (urgency, coalition, vision, communicate, empower, wins, consolidate, anchor); Lewin: unfreeze, change, refreeze",
+            "CSR: Carroll (economic, legal, ethical, philanthropic); Stakeholder theory vs shareholder primacy; Triple bottom line (people, planet, profit)"
           ],
-          "exampleQuestion": "What does SWOT stand for?",
-          "modelAnswer": "Strengths, Weaknesses, Opportunities, Threats",
+          "exampleQuestion": "Use Porter's Five Forces to analyse the UK supermarket industry",
+          "modelAnswer": "Rivalry: high (Tesco, Sainsbury, Asda, Morrisons, Aldi, Lidl -- price wars). New entrants: low (high capital, established supply chains, brand loyalty). Substitutes: medium (convenience stores, online, markets). Buyer power: high (price-sensitive, low switching cost, loyalty cards). Supplier power: medium (large buyers, but branded goods have power). Overall: low profitability",
           "practiceQuestions": [
-            "Build a SWOT for a firm",
-            "Explain a PESTEL factor",
-            "Compare organic and inorganic growth"
+            "Apply PESTEL to electric vehicle industry",
+            "Place Apple products in Boston Matrix",
+            "Compare cost leadership vs differentiation for Ryanair vs BA",
+            "Evaluate M&A vs organic growth for tech startup",
+            "Apply Kotter to digital transformation"
           ],
           "page": "topics/business-studies/strategy-and-the-external-environment.html"
         },
@@ -1524,84 +1992,108 @@
         {
           "title": "Interpretation and Sources",
           "learningObjectives": [
-            "Evaluate historical sources",
-            "Understand historical interpretations",
-            "Build arguments from evidence"
+            "Evaluate primary and secondary sources using provenance, content, and context",
+            "Understand historiography: different schools of interpretation (Whig, Marxist, Revisionist, Postmodern)",
+            "Assess utility and reliability: purpose, audience, bias, corroboration",
+            "Apply source analysis frameworks (OPVL: Origin, Purpose, Value, Limitation)",
+            "Build evidence-based arguments acknowledging counter-arguments"
           ],
           "keyPoints": [
-            "Primary vs secondary sources",
-            "Utility and reliability",
-            "Different interpretations of events"
+            "Primary: contemporary to event (documents, artefacts, oral testimony); Secondary: later analysis by historians",
+            "OPVL: Origin (who, when, where), Purpose (why created), Value (what it reveals), Limitation (what it omits/distorts)",
+            "Reliability: accuracy, bias, typicality; Utility: usefulness for specific enquiry",
+            "Historiography: Whig (progress), Marxist (class struggle), Revisionist (challenge orthodoxy), Postmodern (multiple truths)",
+            "Corroboration: cross-reference multiple sources; Triangulation: different types of evidence"
           ],
-          "exampleQuestion": "Why are two historians' accounts different?",
-          "modelAnswer": "Different evidence, perspectives, or historiographical schools",
+          "exampleQuestion": "Evaluate the utility of a 1917 Bolshevik poster for a historian studying propaganda in the Russian Revolution",
+          "modelAnswer": "Origin: Bolshevik party, 1917. Purpose: mobilise support, demonise opponents. Value: reveals Bolshevik messaging, visual rhetoric, target audience (workers/soldiers). Limitation: one-sided, omit failures, not objective. Utility: high for studying propaganda techniques, low for factual accuracy of events",
           "practiceQuestions": [
-            "Assess the reliability of a source",
-            "Compare two interpretations of a war",
-            "Explain why sources disagree"
+            "Apply OPVL to a diary entry from WWI",
+            "Compare two historians' views on the causes of the English Civil War",
+            "Explain the difference between reliability and utility",
+            "Identify historiographical school of a given extract",
+            "Use three sources to corroborate a claim"
           ],
           "page": "topics/history/interpretation-and-sources.html"
         },
         {
           "title": "Themed Study: Key Eras",
           "learningObjectives": [
-            "Explain causes and consequences",
-            "Identify turning points",
-            "Evaluate change and continuity"
+            "Analyse long-term and short-term causes of major historical events",
+            "Identify and evaluate turning points and their significance",
+            "Assess change and continuity across extended periods",
+            "Understand structural vs contingent factors in historical change",
+            "Compare experiences across regions/social groups"
           ],
           "keyPoints": [
-            "Causes and consequences of events",
-            "Turning points and significance",
-            "Change vs continuity over time"
+            "Causes: long-term (structural: economic, social, ideological) vs short-term (triggers, contingent events)",
+            "Turning points: moments of decisive change; evaluate extent of change vs continuity after",
+            "Change vs continuity: what changed, what stayed same; rate, direction, depth of change",
+            "Structural forces: demography, economy, geography; Contingent: individual decisions, accidents, weather",
+            "Comparative: elites vs ordinary people; centre vs periphery; gender, class, ethnicity perspectives"
           ],
-          "exampleQuestion": "Why is an event a 'turning point'?",
-          "modelAnswer": "It leads to significant, lasting change in society or policy",
+          "exampleQuestion": "To what extent was 1066 a turning point in English history?",
+          "modelAnswer": "Significant change: Norman elite replaced Anglo-Saxon, feudalism introduced, language (French influence), church reform, castle-building, Domesday Book. Continuity: shire system, common law roots, parish structure, monarchy institution. Assessment: political/cultural rupture but administrative continuity",
           "practiceQuestions": [
-            "List causes of a key event",
-            "Describe a major consequence",
-            "Compare two periods for change and continuity"
+            "Analyse causes of the French Revolution: long-term vs short-term",
+            "Was 1918 a turning point for women in Britain?",
+            "Compare change/continuity in Tudor religious policy",
+            "Evaluate significance of the Industrial Revolution for working-class lives",
+            "Identify structural vs contingent factors in fall of Berlin Wall"
           ],
           "page": "topics/history/themed-study:-key-eras.html"
         },
         {
           "title": "Depth Study: a Period in Detail",
           "learningObjectives": [
-            "Explain detailed chronology",
-            "Analyse key figures",
-            "Assess significance"
+            "Construct detailed chronological frameworks",
+            "Analyse key individuals: agency vs structural constraints",
+            "Evaluate significance of events, policies, and movements",
+            "Use detailed factual knowledge to support nuanced arguments",
+            "Engage with historiographical debates specific to the period"
           ],
           "keyPoints": [
-            "Chronology of events",
-            "Key individuals and their impact",
-            "Short-term vs long-term significance"
+            "Chronology: precise dates, sequence, duration, contemporaneity",
+            "Key figures: biography, ideology, agency, constraints, legacy, historiographical reputation",
+            "Significance: immediate impact, long-term consequences, symbolic importance, scale/depth",
+            "Nuanced argument: avoid determinism; weigh multiple factors; qualify judgements",
+            "Debates: e.g. intentionalist vs functionalist (Holocaust), revisionist vs traditional (Cold War)"
           ],
-          "exampleQuestion": "How significant was a single ruler?",
-          "modelAnswer": "Assess personal impact against wider structural forces",
+          "exampleQuestion": "Assess the significance of Lenin in the Bolshevik consolidation of power 1917-1924",
+          "modelAnswer": "Crucial: April Theses redirected party; Oct Revolution leadership; Treaty of Brest-Litovsk (pragmatism); War Communism/NEP (ideological flexibility); suppressed opposition (Cheka, ban on factions). But: structural factors (war, economic collapse, peasant resistance) also critical. Historiography: Service (central) vs Figes (contingent)",
           "practiceQuestions": [
-            "Give a timeline of 5 key events",
-            "Evaluate one leader's role",
-            "Weigh short vs long-term significance"
+            "Create timeline of key events 1917-1924",
+            "Evaluate role of Trotsky vs Lenin",
+            "Debate: was NEP betrayal or necessity?",
+            "Analyse impact of Kronstadt rebellion",
+            "Compare Soviet vs Western interpretations"
           ],
           "page": "topics/history/depth-study:-a-period-in-detail.html"
         },
         {
           "title": "Historical Enquiry and Essay Skills",
           "learningObjectives": [
-            "Plan a focused inquiry",
-            "Use evidence effectively",
-            "Write balanced conclusions"
+            "Formulate focused, answerable historical questions",
+            "Plan and structure analytical essays with sustained argument",
+            "Select, deploy, and weigh evidence effectively",
+            "Write balanced conclusions with substantiated judgements",
+            "Reference and cite sources appropriately"
           ],
           "keyPoints": [
-            "Framing a historical question",
-            "Evidence weighting",
-            "Balance and judgement in conclusions"
+            "Good question: specific, debatable, evidence-based, manageable scope (not 'Why WWI?' but 'How far did German naval policy cause WWI?')",
+            "Essay structure: intro (thesis + line of argument), themed paragraphs (PEEL), conclusion (judgement + significance)",
+            "Evidence: select best, not all; deploy precisely (dates, stats, quotes); weigh (corroboration, provenance)",
+            "Judgement: 'ultimately', 'more significantly', 'on balance'; avoid fence-sitting; relative significance",
+            "Citation: footnotes (Chicago) or in-text; bibliography; primary/secondary distinction"
           ],
-          "exampleQuestion": "What makes a good conclusion?",
-          "modelAnswer": "A justified judgement supported by the strongest evidence",
+          "exampleQuestion": "Write an essay introduction for: 'How far was economic crisis the main cause of the French Revolution?'",
+          "modelAnswer": "The French Revolution (1789) resulted from a convergence of fiscal collapse, social tension, and Enlightenment ideas. While economic crisis -- state bankruptcy, grain shortages, regressive taxation -- provided the immediate catalyst, this essay argues that structural weaknesses of the Ancien Régime (privilege, absolutism, lack of representation) made revolution probable, with Enlightenment providing the intellectual framework. Economic crisis was the spark, not the fuel",
           "practiceQuestions": [
-            "Formulate an inquiry question",
-            "Select two pieces of strong evidence",
-            "Write a balanced judgement"
+            "Formulate 3 enquiry questions on a topic",
+            "Plan a 45-min essay",
+            "Write a conclusion with nuanced judgement",
+            "Practise weighing two pieces of evidence",
+            "Reference a primary source correctly"
           ],
           "page": "topics/history/historical-enquiry-and-essay-skills.html"
         },
@@ -1632,84 +2124,115 @@
         {
           "title": "Physical Geography",
           "learningObjectives": [
-            "Explain coastal processes",
-            "Describe plate tectonics",
-            "Understand river systems"
+            "Explain coastal processes: erosion (hydraulic action, abrasion, attrition, solution), transportation (longshore drift), deposition",
+            "Describe coastal landforms: erosional (headlands, cliffs, caves, arches, stacks, stumps) and depositional (beaches, spits, bars, tombolos)",
+            "Understand plate tectonics: plate boundaries (constructive, destructive, conservative, collision), associated hazards (earthquakes, volcanoes, tsunamis)",
+            "Analyse river processes: erosion (vertical/lateral), transportation (traction, saltation, suspension, solution), deposition",
+            "Describe river landforms: upper (V-valleys, waterfalls), middle (meanders, oxbow lakes), lower (floodplains, levees, deltas)",
+            "Explain flooding: causes (physical/human), hydrographs, flood management (hard/soft engineering)"
           ],
           "keyPoints": [
-            "Erosion, deposition, transportation",
-            "Plate boundaries and hazards",
-            "Drainage basins and flooding"
+            "Coastal erosion: hydraulic action (air pressure), abrasion (rock hurling), attrition (rock collision), solution (dissolving)",
+            "Longshore drift: prevailing wind -> swash angle -> backwash perpendicular -> zigzag transport",
+            "Landforms: headland (resistant rock), bay (weak rock), cave -> arch -> stack -> stump",
+            "Plate boundaries: constructive (mid-ocean ridges), destructive (subduction, volcanoes), conservative (transform, earthquakes), collision (fold mountains)",
+            "River erosion: hydraulic action, abrasion, attrition, solution; vertical (upper), lateral (middle/lower)",
+            "River landforms: waterfall (hard/soft rock), meander (erosion outer, deposition inner), oxbow (cut-off), levees (deposition floods), delta (deposition at mouth)",
+            "Flood hydrograph: lag time, peak discharge, rising/falling limb; Management: dams, channel straightening, afforestation, floodplain zoning"
           ],
-          "exampleQuestion": "Name a coastal erosional landform",
-          "modelAnswer": "Cliffs, headlands, bays, arches, stacks",
+          "exampleQuestion": "Explain the formation of a waterfall and gorge using geological structure",
+          "modelAnswer": "River flows over hard rock (cap rock) onto soft rock below. Soft rock erodes faster (hydraulic action, abrasion) creating plunge pool and undercutting. Hard rock collapses -> waterfall retreats upstream -> steep-sided gorge left behind. Cap rock provides resistant layer",
           "practiceQuestions": [
-            "Describe how an arch forms",
-            "Explain the impact of a plate boundary",
-            "List causes of flooding in a river basin"
+            "Describe formation of a spit",
+            "Compare constructive vs destructive plate margins",
+            "Explain factors affecting lag time on hydrograph",
+            "Evaluate hard vs soft engineering for flood management",
+            "Annotate a river long profile with processes/landforms"
           ],
           "page": "topics/geography/physical-geography.html"
         },
         {
           "title": "Human Geography",
           "learningObjectives": [
-            "Explain urbanisation",
-            "Analyse population change",
-            "Understand development"
+            "Analyse urbanisation trends: megacities, counterurbanisation, reurbanisation, suburbanisation",
+            "Understand population change: demographic transition model, population pyramids, migration (push/pull)",
+            "Evaluate development indicators: HDI, GNI, literacy, life expectancy; inequalities",
+            "Explain globalisation: flows of capital, labour, goods, ideas; TNCs, supply chains",
+            "Assess sustainability: ecological footprint, SDGs, resource management"
           ],
           "keyPoints": [
-            "Urbanisation and counterurbanisation",
-            "Population pyramids and migration",
-            "Indicators of development"
+            "Urbanisation: % urban pop increasing; megacities >10M; counterurbanisation (rich to rural); reurbanisation (gentrification)",
+            "DTM: Stage 1 (high BR/DR), 2 (falling DR), 3 (falling BR), 4 (low BR/DR), 5 (BR<DR); Pyramids: expanding, stationary, contracting",
+            "Migration: push (war, poverty, enviro) vs pull (jobs, safety, services); Lee's model",
+            "Development: HDI (health, education, income); GNI per capita; inequality (Gini, Lorenz)",
+            "Globalisation: time-space compression; TNCs; global supply chains; winners/losers",
+            "Sustainability: Brundtland def; ecological footprint; SDGs 17 goals"
           ],
-          "exampleQuestion": "Define urbanisation",
-          "modelAnswer": "The increasing proportion of people living in towns and cities",
+          "exampleQuestion": "Explain how a country's position in the Demographic Transition Model affects its population pyramid shape",
+          "modelAnswer": "Stage 2 (e.g. Nigeria): high BR, falling DR -> wide base (many young), narrow top (few elderly), pyramidal. Stage 4 (e.g. UK): low BR, low DR -> narrower base, wider top, columnar. Stage 5 (e.g. Japan): BR<DR -> contracting base, bulge at top, inverted pyramid",
           "practiceQuestions": [
-            "Explain why migration happens",
-            "Interpret an age-sex pyramid",
-            "State two measures of development"
+            "Compare urbanisation in LIC vs HIC",
+            "Interpret a population pyramid for Stage 3",
+            "Explain push/pull factors for rural-urban migration",
+            "Evaluate HDI vs GNI as development measures",
+            "Assess impacts of a TNC in a host country"
           ],
           "page": "topics/geography/human-geography.html"
         },
         {
           "title": "Fieldwork and Data Collection",
           "learningObjectives": [
-            "Design fieldwork methods",
-            "Collect and record data",
-            "Analyse results"
+            "Design geographical enquiries: hypothesis, aims, risk assessment, ethics",
+            "Select appropriate sampling: random, systematic, stratified, opportunistic",
+            "Collect primary data (surveys, measurements, observations) and secondary data (GIS, census, reports)",
+            "Present data: graphs (bar, line, scatter, choropleth), maps, annotated photos, cross-sections",
+            "Analyse: statistical tests (Spearman's, chi-squared, Mann-Whitney), qualitative coding",
+            "Conclude and evaluate: limitations, reliability, validity, improvements"
           ],
           "keyPoints": [
-            "Hypotheses and methods",
-            "Sampling techniques",
-            "Data presentation (graphs, maps)"
+            "Enquiry: hypothesis (testable), sub-questions, risk assessment, ethical considerations (consent, privacy)",
+            "Sampling: random (unbiased), systematic (interval), stratified (proportional subgroups), opportunistic (pragmatic)",
+            "Primary: questionnaires, EQ surveys, sediment analysis, velocity, infiltration; Secondary: OS maps, census, Met Office, academic papers",
+            "Presentation: proportional circles, choropleth, scatter with trend line, rose diagrams, cross-sections",
+            "Stats: Spearman's (correlation, ordinal), Chi-squared (categorical association), Mann-Whitney (difference, ordinal)",
+            "Evaluation: limitations (sample size, bias, equipment), reliability (repeatable), validity (measures what intended)"
           ],
-          "exampleQuestion": "Why use systematic sampling?",
-          "modelAnswer": "To reduce bias and get representative data",
+          "exampleQuestion": "Design a hypothesis and sampling strategy to investigate how footpath erosion varies with distance from a car park in a national park",
+          "modelAnswer": "Hypothesis: Footpath erosion decreases with distance from car park due to visitor pressure decay. Systematic sampling: measure path width, depth, vegetation cover every 50m along 1km transect. Risk: weather, terrain. Ethics: minimise disturbance",
           "practiceQuestions": [
-            "Write a hypothesis",
-            "Describe a sampling method",
-            "Choose a suitable graph for data"
+            "Write a hypothesis for river velocity vs distance downstream",
+            "Choose sampling for urban land use survey",
+            "Select graph for population vs distance from CBD",
+            "Explain when to use Spearman's vs Chi-squared",
+            "Identify limitations of a given fieldwork method"
           ],
           "page": "topics/geography/fieldwork-and-data-collection.html"
         },
         {
           "title": "Hazards and Global Issues",
           "learningObjectives": [
-            "Explain natural hazards",
-            "Analyse climate change impacts",
-            "Evaluate management strategies"
+            "Classify hazards: tectonic (earthquakes, volcanoes, tsunamis), climatic (storms, droughts, heatwaves), geomorphological (landslides)",
+            "Analyse hazard risk: probability x magnitude x vulnerability; risk equation",
+            "Explain climate change: evidence (ice cores, temp records), causes (anthropogenic GHG), impacts (sea level, extremes, ecosystems)",
+            "Evaluate management: prediction, preparation, prevention; adaptation vs mitigation",
+            "Understand global governance: Paris Agreement, UNFCCC, Sendai Framework, climate justice"
           ],
           "keyPoints": [
-            "Tectonic and climatic hazards",
-            "Vulnerability and resilience",
-            "Adaptation and mitigation"
+            "Tectonic: plate boundaries; Climatic: atmospheric; Geomorphological: slope failure",
+            "Risk = Hazard x Vulnerability / Capacity to cope; PAR model (Pressure And Release)",
+            "Evidence: Keeling curve, IPCC reports, proxy data (ice cores, tree rings); GHG: CO₂, CH₄, N₂O",
+            "Impacts: sea level rise (thermal expansion, ice melt), extreme weather, biome shifts, ocean acidification",
+            "Adaptation: adjust to effects (sea walls, drought crops); Mitigation: reduce causes (renewables, reforestation, CCS)",
+            "Paris 2015: <2 deg C, pursue 1.5 deg C; NDCs; climate finance; Loss and Damage; CBDR (common but differentiated responsibilities)"
           ],
-          "exampleQuestion": "What is mitigation in climate change?",
-          "modelAnswer": "Actions to reduce the causes, e.g. cutting emissions",
+          "exampleQuestion": "Explain why vulnerability is a key component of hazard risk",
+          "modelAnswer": "Same magnitude earthquake: Haiti 2010 (M7.0, 230k deaths) vs Chile 2010 (M8.8, 500 deaths). Haiti: poor building codes, dense informal housing, weak governance -> high vulnerability. Chile: strict codes, preparedness, wealth -> low vulnerability. Risk depends on vulnerability not just hazard",
           "practiceQuestions": [
-            "Classify a hazard as tectonic or climatic",
-            "Explain a climate change impact",
-            "Evaluate one mitigation strategy"
+            "Classify 2004 Indian Ocean tsunami",
+            "Explain greenhouse effect mechanism",
+            "Compare adaptation vs mitigation examples",
+            "Evaluate Paris Agreement effectiveness",
+            "Apply PAR model to a case study"
           ],
           "page": "topics/geography/hazards-and-global-issues.html"
         },

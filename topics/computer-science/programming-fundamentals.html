@@ -16,7 +16,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Programming Fundamentals">
-<meta name="twitter:description" content="Programming Fundamentals — A-Level Computer Science revision notes.">
+<meta name="twitter:description" content="Programming Fundamentals -- A-Level Computer Science revision notes.">
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 </header>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -50,26 +50,32 @@
 </article>
 
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
 <h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Integer, float, string, boolean</div><div class="key-point"><strong>Key Fact:</strong> If/else and loops</div><div class="key-point"><strong>Key Fact:</strong> Functions and parameters</div>
+<div class="key-point"><strong>Key Fact:</strong> Data types: int, float, bool, char, string; type casting; constants vs variables</div><div class="key-point"><strong>Key Fact:</strong> Selection: if/elif/else, switch/case (match in Python 3.10+); nested conditions</div><div class="key-point"><strong>Key Fact:</strong> Iteration: for (definite), while (indefinite), do-while (at least once); break/continue</div><div class="key-point"><strong>Key Fact:</strong> Functions: definition, call, parameters (positional, keyword, default), return, recursion</div><div class="key-point"><strong>Key Fact:</strong> Scope: local, global, nonlocal; shadowing; modules and imports</div><div class="key-point"><strong>Key Fact:</strong> String: len, index, slice, split, join, replace, format, f-strings, regex basics</div><div class="key-point"><strong>Key Fact:</strong> File: open/close, read/write modes, with statement, try/except/else/finally</div>
 </section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Use variables and data types</li><li>Control program flow</li><li>Write functions</li></ul>
+<ul><li>Use variables, constants, and data types (integer, real, boolean, character, string)</li><li>Implement control structures: sequence, selection (if/else, switch), iteration (for, while, do-while)</li><li>Design and use functions/procedures: parameters (value/reference), return values, scope</li><li>Handle input/output: file I/O, exceptions, validation</li><li>Apply string manipulation: concatenation, slicing, searching, formatting</li><li>Use random number generation and libraries</li></ul>
 </section>
 
 <section class="section">
 <h2>💡 Worked Example</h2>
 <div class="example">
 <div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> What data type stores true/false?</p>
+<p><strong>Question:</strong> Write a function that reads a file of integers and returns the median</p>
 <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
 <p><strong>Model Answer:</strong></p>
-<p>Boolean</p>
+<p>def median_from_file(filename):
+    with open(filename) as f:
+        nums = sorted(int(line.strip()) for line in f if line.strip())
+    n = len(nums)
+    if n == 0: return None
+    mid = n // 2
+    return nums[mid] if n % 2 else (nums[mid-1] + nums[mid]) / 2</p>
 </div>
 </div>
 </section>
@@ -78,7 +84,7 @@
 <div class="practice-questions">
 <div class="question">
 <p><strong>Questions:</strong></p>
-<ul><li>Write a loop to print 1-5</li><li>Declare a string variable</li><li>Write a function that adds two numbers</li></ul>
+<ul><li>Write a program that validates email format using regex</li><li>Implement a recursive factorial function</li><li>Create a menu-driven calculator with functions</li><li>Write a function to count word frequencies in a text file</li><li>Handle division by zero with try/except</li></ul>
 </div>
 </div>
 </section>
@@ -86,14 +92,14 @@
 
 <nav class="topic-nav">
 <a href="../../computer-science.html">← Back to Computer Science Overview</a>
-<a href="../../index.html">All Subjects →</a>
+<a href="../../index.html">All Subjects -></a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -124,9 +130,9 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-desc">For programming projects</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
-<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail — Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
-<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot — Domain Registration →</div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
-<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet — UK Broadband →</div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
 </aside>
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>

@@ -16,7 +16,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Networks and Internet">
-<meta name="twitter:description" content="Networks and Internet — A-Level Computer Science revision notes.">
+<meta name="twitter:description" content="Networks and Internet -- A-Level Computer Science revision notes.">
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 </header>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -50,26 +50,26 @@
 </article>
 
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
 <h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> LAN vs WAN, topology</div><div class="key-point"><strong>Key Fact:</strong> TCP/IP, HTTP, DNS</div><div class="key-point"><strong>Key Fact:</strong> Malware, phishing, encryption</div>
+<div class="key-point"><strong>Key Fact:</strong> Topologies: Star (central hub), Mesh (all connected), Bus (shared cable), Ring (token passing)</div><div class="key-point"><strong>Key Fact:</strong> TCP/IP: App (HTTP, DNS, FTP), Transport (TCP reliable, UDP fast), Internet (IP routing), Link (Ethernet, WiFi)</div><div class="key-point"><strong>Key Fact:</strong> TCP: 3-way handshake, sequencing, flow control, congestion control; UDP: connectionless, low latency</div><div class="key-point"><strong>Key Fact:</strong> DNS: hierarchical (root, TLD, authoritative); recursive/iterative queries; records (A, AAAA, MX, CNAME)</div><div class="key-point"><strong>Key Fact:</strong> IPv4: 32-bit, dotted decimal, classes A/B/C, subnet mask, CIDR (/24); IPv6: 128-bit, hex, no NAT needed</div><div class="key-point"><strong>Key Fact:</strong> Threats: malware (virus, worm, ransomware), phishing, DoS/DDoS, MITM, SQLi (input sanitisation), XSS (output encoding)</div><div class="key-point"><strong>Key Fact:</strong> Encryption: Symmetric (AES, same key), Asymmetric (RSA, public/private); TLS: handshake, certificates, CA; Firewall: packet filter, stateful, application; VPN: encrypted tunnel; Auth: MFA, OAuth, JWT</div>
 </section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Explain network topologies</li><li>Understand protocols</li><li>Describe cybersecurity threats</li></ul>
+<ul><li>Compare network topologies: star, mesh, bus, ring, hybrid</li><li>Understand TCP/IP stack: Application, Transport, Internet, Link layers</li><li>Analyse key protocols: HTTP/HTTPS, DNS, TCP, UDP, IP, DHCP, FTP, SSH</li><li>Understand IP addressing: IPv4 (classes, subnetting, CIDR), IPv6</li><li>Describe cybersecurity threats: malware, phishing, DoS, MITM, SQL injection, XSS</li><li>Apply security: encryption (symmetric/asymmetric, TLS/SSL), firewalls, VPNs, authentication</li></ul>
 </section>
 
 <section class="section">
 <h2>💡 Worked Example</h2>
 <div class="example">
 <div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> What does HTTP do?</p>
+<p><strong>Question:</strong> Explain the TLS handshake process</p>
 <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
 <p><strong>Model Answer:</strong></p>
-<p>Transfers web pages over the internet</p>
+<p>1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted communication begins</p>
 </div>
 </div>
 </section>
@@ -78,7 +78,7 @@
 <div class="practice-questions">
 <div class="question">
 <p><strong>Questions:</strong></p>
-<ul><li>Compare topologies</li><li>Explain the role of DNS</li><li>Name two cyber threats</li></ul>
+<ul><li>Subnet 192.168.1.0/24 into 4 subnets</li><li>Compare TCP vs UDP for video streaming</li><li>Explain DNS resolution steps</li><li>Describe SQL injection prevention</li><li>How does RSA key exchange work?</li></ul>
 </div>
 </div>
 </section>
@@ -86,14 +86,14 @@
 
 <nav class="topic-nav">
 <a href="../../computer-science.html">← Back to Computer Science Overview</a>
-<a href="../../index.html">All Subjects →</a>
+<a href="../../index.html">All Subjects -></a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -124,9 +124,9 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-desc">For programming projects</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
-<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail — Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
-<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot — Domain Registration →</div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
-<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet — UK Broadband →</div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
 </aside>
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>

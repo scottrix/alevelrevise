@@ -16,7 +16,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Data Structures and Algorithms">
-<meta name="twitter:description" content="Data Structures and Algorithms — A-Level Computer Science revision notes.">
+<meta name="twitter:description" content="Data Structures and Algorithms -- A-Level Computer Science revision notes.">
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -32,7 +32,7 @@
 </header>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -50,26 +50,26 @@
 </article>
 
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
 <section class="section">
 <h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Arrays and linked lists</div><div class="key-point"><strong>Key Fact:</strong> Linear/binary search, bubble/merge sort</div><div class="key-point"><strong>Key Fact:</strong> Big-O notation</div>
+<div class="key-point"><strong>Key Fact:</strong> Arrays: contiguous, O(1) access; Lists: dynamic, O(1) append amortised; Stacks: LIFO, push/pop; Queues: FIFO, enqueue/dequeue</div><div class="key-point"><strong>Key Fact:</strong> Linked lists: singly/doubly, O(1) insert/delete at known position, O(n) access</div><div class="key-point"><strong>Key Fact:</strong> Trees: binary, BST (left&lt;root&lt;right), AVL/Red-Black (balanced); traversals: pre/in/post-order, level-order</div><div class="key-point"><strong>Key Fact:</strong> Graphs: adjacency matrix/list; directed/undirected, weighted/unweighted; BFS/DFS</div><div class="key-point"><strong>Key Fact:</strong> Hash tables: O(1) average, collisions (chaining, open addressing), load factor</div><div class="key-point"><strong>Key Fact:</strong> Big-O: O(1) &lt; O(log n) &lt; O(n) &lt; O(n log n) &lt; O(n^2) &lt; O(2ⁿ); best/average/worst case</div><div class="key-point"><strong>Key Fact:</strong> Search: linear O(n), binary O(log n) sorted, hash O(1); Sort: bubble/insertion O(n^2), merge/quick/heap O(n log n)</div><div class="key-point"><strong>Key Fact:</strong> Recursion: base case, recursive case; Tree traversals; Graph: Dijkstra (shortest path), Prim/Kruskal (MST), Topological sort (DAG)</div>
 </section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Use arrays and lists</li><li>Trace search and sort algorithms</li><li>Analyse complexity</li></ul>
+<ul><li>Implement and use arrays, lists, stacks, queues, linked lists, trees, graphs, hash tables</li><li>Analyse time and space complexity using Big-O notation</li><li>Implement and trace search algorithms: linear, binary, hash-based</li><li>Implement and trace sorting algorithms: bubble, insertion, merge, quick, heap</li><li>Understand recursion and divide-and-conquer; apply to tree/graph traversals</li><li>Apply algorithms to problems: shortest path (Dijkstra), MST (Prim/Kruskal), topological sort</li></ul>
 </section>
 
 <section class="section">
 <h2>💡 Worked Example</h2>
 <div class="example">
 <div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Which search is faster on sorted data?</p>
+<p><strong>Question:</strong> Trace quicksort on [3, 6, 8, 10, 1, 2, 1] with pivot as first element</p>
 <div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
 <p><strong>Model Answer:</strong></p>
-<p>Binary search (O(log n) vs O(n))</p>
+<p>Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -&gt; [1] + [1] + [2]. Right: pivot=6 -&gt; [] + [6] + [8,10] -&gt; pivot=8 -&gt; [] + [8] + [10]. Result: [1,1,2,3,6,8,10]</p>
 </div>
 </div>
 </section>
@@ -78,7 +78,7 @@
 <div class="practice-questions">
 <div class="question">
 <p><strong>Questions:</strong></p>
-<ul><li>Trace a binary search</li><li>Describe a bubble sort pass</li><li>State the complexity of linear search</li></ul>
+<ul><li>Implement stack using list</li><li>Write binary search recursive</li><li>Trace merge sort on [38,27,43,3,9,82,10]</li><li>Implement BFS for shortest path in unweighted graph</li><li>Design hash function for string keys</li></ul>
 </div>
 </div>
 </section>
@@ -86,14 +86,14 @@
 
 <nav class="topic-nav">
 <a href="../../computer-science.html">← Back to Computer Science Overview</a>
-<a href="../../index.html">All Subjects →</a>
+<a href="../../index.html">All Subjects -></a>
 </nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -124,9 +124,9 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 <div class="affiliate-card-desc">For programming projects</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
-<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail — Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
-<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot — Domain Registration →</div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
-<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet — UK Broadband →</div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
 </aside>
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
