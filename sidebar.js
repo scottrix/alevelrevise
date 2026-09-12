@@ -104,8 +104,16 @@ return '<li><a href="' + s.id + '.html">' + s.name + '</a></li>';
 }).join('') + '</ul>';
 }
 
-// Append sidebar to body (it's position:fixed, so it doesn't need to be inside main)
+// Append sidebar to body (it's position:fixed, so it doesn't need to be inside main).
+// Topic pages with a static server-rendered sidebar reuse it instead of
+// injecting a duplicate nav.
+var staticBar = document.querySelector('div.sidebar');
+if (staticBar) {
+nav = staticBar;
+if (!nav.id) nav.id = 'sidebar-nav';
+} else {
 document.body.appendChild(nav);
+}
 
 // Right-side ad rail (only if not already in HTML)
 if (!document.querySelector('aside.ad-right')) {
