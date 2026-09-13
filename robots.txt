@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://scottrix.github.io/gcserevise/sitemap.xml
+Sitemap: https://www.scottrix.co.uk/alevelrevise/sitemap.xml
