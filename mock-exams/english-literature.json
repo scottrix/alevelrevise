@@ -1,0 +1,57 @@
+{
+ "subject": "english-literature",
+ "topic": "mock-exam",
+ "topicName": "English-Literature Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "english-literature-mock",
+   "name": "A-Level English-Literature Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 28,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Critical Writing and Context] Write a thesis statement for: 'Explore how Shakespeare presents ambition in Macbeth'",
+     "correctAnswer": "Shakespeare presents ambition as a corrupting force that destroys moral order, using Macbeth's hamartia and Lady Macbeth's manipulation to show how unchecked desire for power leads to tyranny and self-destruction, ultimately restored by divine retribution",
+     "explanation": "Shakespeare presents ambition as a corrupting force that destroys moral order, using Macbeth's hamartia and Lady Macbeth's manipulation to show how unchecked desire for power leads to tyranny and self-destruction, ultimately restored by divine retribution",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Drama and Shakespeare] How does the 'dagger soliloquy' (Macbeth 2.1) reveal Macbeth's state of mind?",
+     "correctAnswer": "Hallucinated dagger shows guilt before action. 'Is this a dagger which I see before me?' -- rhetorical question. 'Bloody business' -- euphemism. 'Hecate's offer' -- supernatural. 'Words to the heat of deeds too cold breath gives' -- hesitation. Rhyme 'knell/summon' = finality",
+     "explanation": "Hallucinated dagger shows guilt before action. 'Is this a dagger which I see before me?' -- rhetorical question. 'Bloody business' -- euphemism. 'Hecate's offer' -- supernatural. 'Words to the heat of deeds too cold breath gives' -- hesitation. Rhyme 'knell/summon' = finality",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Poetry Analysis] Analyse how the poet uses structure and language to convey the theme of loss in 'When You Are Old' by Yeats",
+     "correctAnswer": "Three stanzas move from present to past to future. Iambic pentameter creates reflective tone. 'Glad grace' (alliteration) contrasts with 'pilgrim soul' (metaphor). Final stanza 'bending down beside the glowing bars' -- imagery of ageing/regret. ABBA rhyme encloses memory",
+     "explanation": "Three stanzas move from present to past to future. Iambic pentameter creates reflective tone. 'Glad grace' (alliteration) contrasts with 'pilgrim soul' (metaphor). Final stanza 'bending down beside the glowing bars' -- imagery of ageing/regret. ABBA rhyme encloses memory",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Prose and the Novel] Discuss how the first-person narration in 'The Great Gatsby' shapes our understanding of Gatsby",
+     "correctAnswer": "Nick as participant-observer creates intimacy but limits access to Gatsby's interiority. His judgement 'Gatsby turned out all right' frames our view. Unreliable moments (drunk at party) and admiration create ambivalence. We see Gatsby through Nick's romanticisation",
+     "explanation": "Nick as participant-observer creates intimacy but limits access to Gatsby's interiority. His judgement 'Gatsby turned out all right' frames our view. Unreliable moments (drunk at party) and admiration create ambivalence. We see Gatsby through Nick's romanticisation",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

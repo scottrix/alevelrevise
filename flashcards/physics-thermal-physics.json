@@ -1,0 +1,72 @@
+{
+ "subject": "physics",
+ "topic": "thermal-physics",
+ "topicName": "Thermal Physics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "thermal-physics-fc1",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "Internal energy U = Σ(KE + PE) of molecules; Temperature ∝ mean KE per molecule",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc2",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "Q = mcDeltaθ (no phase change); Q = mL (phase change); L_fusion, L_vaporisation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc3",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "1st law: DeltaU = Q + W; W = ∫PdV (work done ON gas); Q +ve into system, W +ve on system",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc4",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "Ideal gas: pV = nRT = NkT; Boyle p∝1/V (isothermal), Charles V∝T (isobaric), Pressure p∝T (isochoric)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc5",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "Kinetic theory: pV = ⅓Nm<c^2> -> p = ⅓ρ<c^2>; <c^2> = 3RT/M",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc6",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "RMS speed: c_rms = sqrt(3RT/M); M = molar mass in kg/mol",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc7",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "Degrees of freedom: monatomic 3 (translational); diatomic 5 (+2 rotational) at room temp",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermal-physics-fc8",
+   "front": "Recall a key point about Thermal Physics",
+   "back": "Equipartition: each quadratic term contributes ½kT per molecule",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

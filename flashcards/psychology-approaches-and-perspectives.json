@@ -1,0 +1,56 @@
+{
+ "subject": "psychology",
+ "topic": "approaches-and-perspectives",
+ "topicName": "Approaches and Perspectives",
+ "version": 1,
+ "cards": [
+  {
+   "id": "approaches-and-perspectives-fc1",
+   "front": "Recall a key point about Approaches and Perspectives",
+   "back": "Biological: genes, neurotransmitters (dopamine, serotonin), brain localisation, evolution, twin/adoption studies",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "approaches-and-perspectives-fc2",
+   "front": "Recall a key point about Approaches and Perspectives",
+   "back": "Cognitive: schema, mental models, computer analogy, cognitive neuroscience (fMRI, PET)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "approaches-and-perspectives-fc3",
+   "front": "Recall a key point about Approaches and Perspectives",
+   "back": "Behaviourist: Pavlov (classical: NS->CS), Skinner (operant: reinforcement/punishment), Bandura (SLT: observation, modelling)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "approaches-and-perspectives-fc4",
+   "front": "Recall a key point about Approaches and Perspectives",
+   "back": "Psychodynamic: Freud (id/ego/superego, psychosexual stages, defence mechanisms), unconscious motivation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "approaches-and-perspectives-fc5",
+   "front": "Recall a key point about Approaches and Perspectives",
+   "back": "Humanistic: Maslow (hierarchy), Rogers (self-concept, congruence, unconditional positive regard), free will",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "approaches-and-perspectives-fc6",
+   "front": "Recall a key point about Approaches and Perspectives",
+   "back": "Debates: Nature vs nurture, determinism vs free will, reductionism vs holism, nomothetic vs idiographic",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

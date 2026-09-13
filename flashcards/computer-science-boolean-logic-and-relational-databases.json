@@ -1,0 +1,80 @@
+{
+ "subject": "computer-science",
+ "topic": "boolean-logic-and-relational-databases",
+ "topicName": "Boolean Logic and Relational Databases",
+ "version": 1,
+ "cards": [
+  {
+   "id": "boolean-logic-and-relational-databases-fc1",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "Boolean laws: Identity, Null, Idempotent, Complement, Commutative, Associative, Distributive, De Morgan, Absorption",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc2",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "K-maps: 2-4 variables, groups of 1s (SOP) or 0s (POS); don't cares",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc3",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "Circuits: Half adder (XOR+AND), Full adder (2 half + OR), MUX (select), Decoder (binary->one-hot)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc4",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "Flip-flops: SR (set/reset), D (data), JK (toggle); Registers: shift, storage; Counters: async/sync",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc5",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "ER: entities, attributes, relationships (1:1, 1:N, M:N), keys (PK, FK, CK)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc6",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "Normalisation: 1NF (atomic), 2NF (no partial FD), 3NF (no transitive FD), BCNF (det⇒cand key)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc7",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "SQL: SELECT...FROM...WHERE...GROUP BY...HAVING...ORDER BY; JOINs (INNER, LEFT, RIGHT, FULL)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc8",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "Aggregation: COUNT, SUM, AVG, MIN, MAX; Subqueries; ACID: Atomicity, Consistency, Isolation, Durability",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-fc9",
+   "front": "Recall a key point about Boolean Logic and Relational Databases",
+   "back": "Concurrency: locks (shared/exclusive), deadlock, 2PL; Indexes: B-tree, hash; Query optimisation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

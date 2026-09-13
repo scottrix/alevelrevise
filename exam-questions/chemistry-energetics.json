@@ -1,0 +1,26 @@
+{
+ "subject": "chemistry",
+ "topic": "energetics",
+ "topicName": "Energetics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "energetics-exam1",
+   "type": "extended",
+   "question": "Use Born-Haber cycle to calculate lattice enthalpy of NaCl given: DeltaH_f deg (NaCl) = -411, DeltaH_at(Na)=+107, DeltaH_at(Cl)=+122, IE(Na)=+496, EA(Cl)=-349 kJ/mol",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "DeltaH_f = DeltaH_at(Na) + DeltaH_at(Cl) + IE(Na) + EA(Cl) + LE. -411 = 107 + 122 + 496 - 349 + LE -> LE = -411 - 376 = -787 kJ/mol. Lattice enthalpy = +787 kJ/mol (endothermic to break)",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "DeltaH_f = DeltaH_at(Na) + DeltaH_at(Cl) + IE(Na) + EA(Cl) + LE. -411 = 107 + 122 + 496 - 349 + LE -> LE = -411 - 376 = -787 kJ/mol. Lattice enthalpy = +787 kJ/mol (endothermic to break)"
+   }
+  }
+ ]
+}

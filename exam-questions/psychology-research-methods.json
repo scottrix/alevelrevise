@@ -1,0 +1,26 @@
+{
+ "subject": "psychology",
+ "topic": "research-methods",
+ "topicName": "Research Methods",
+ "version": 1,
+ "questions": [
+  {
+   "id": "research-methods-exam1",
+   "type": "extended",
+   "question": "Design an experiment to test if caffeine improves reaction time. Identify IV, DV, design, controls, sampling, ethics",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "IV: caffeine (200mg vs placebo). DV: reaction time (ms) on computer task. Design: repeated measures (counterbalanced). Controls: same time of day, same task, blind. Sampling: volunteer students (opportunity). Ethics: consent, right to withdraw, debrief, medical screening for caffeine sensitivity",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "IV: caffeine (200mg vs placebo). DV: reaction time (ms) on computer task. Design: repeated measures (counterbalanced). Controls: same time of day, same task, blind. Sampling: volunteer students (opportunity). Ethics: consent, right to withdraw, debrief, medical screening for caffeine sensitivity"
+   }
+  }
+ ]
+}

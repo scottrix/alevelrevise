@@ -1,0 +1,20 @@
+{
+ "subject": "sociology",
+ "topic": "sociological-theories-education-and-crime",
+ "topicName": "Sociological Theories, Education and Crime",
+ "version": 1,
+ "steps": [
+  {
+   "id": "sociological-theories-education-and-crime-s1",
+   "kind": "learn",
+   "title": "Cultural Capital",
+   "body": "Bourdieu's concept of cultural assets (knowledge, taste, language) passed down by middle-class parents that enhance educational success."
+  },
+  {
+   "id": "sociological-theories-education-and-crime-s2",
+   "kind": "learn",
+   "title": "Labelling Theory",
+   "body": "Interactionist theory (Becker) stating that deviance is not inherent in an act, but is a consequence of social reactions and labels applied by authority."
+  }
+ ]
+}

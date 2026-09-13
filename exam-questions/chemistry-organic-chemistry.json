@@ -1,0 +1,26 @@
+{
+ "subject": "chemistry",
+ "topic": "organic-chemistry",
+ "topicName": "Organic Chemistry",
+ "version": 1,
+ "questions": [
+  {
+   "id": "organic-chemistry-exam1",
+   "type": "extended",
+   "question": "Propose a mechanism for the reaction of 2-methylpropene with HBr",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Electrophilic addition. H⁺ adds to less substituted C (Markovnikov) -> more stable 3 deg carbocation (CH₃)₃C⁺. Br⁻ attacks carbocation -> 2-bromo-2-methylpropane. Curly arrows: pi bond to H, H-Br bond to Br",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Electrophilic addition. H⁺ adds to less substituted C (Markovnikov) -> more stable 3 deg carbocation (CH₃)₃C⁺. Br⁻ attacks carbocation -> 2-bromo-2-methylpropane. Curly arrows: pi bond to H, H-Br bond to Br"
+   }
+  }
+ ]
+}

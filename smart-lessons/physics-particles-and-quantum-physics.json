@@ -1,0 +1,44 @@
+{
+ "subject": "physics",
+ "topic": "particles-and-quantum-physics",
+ "topicName": "Particles and Quantum Physics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "particles-and-quantum-physics-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Quarks (u,d,s,c,b,t) in baryons (3) and mesons (q q̄); Leptons (e,μ,τ,νₑ,ν_μ,ν_τ)"
+  },
+  {
+   "id": "particles-and-quantum-physics-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Interactions: strong (gluons, q-q), weak (W+/-, Z⁰, β decay), EM (γ, charged), gravity (negligible)"
+  },
+  {
+   "id": "particles-and-quantum-physics-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Conservation: charge, B, L, S in strong/EM; only charge, B-L in weak"
+  },
+  {
+   "id": "particles-and-quantum-physics-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Photoelectric: hf = φ + KE_max; threshold f₀ = φ/h; no time lag; intensity ∝ number of photons"
+  },
+  {
+   "id": "particles-and-quantum-physics-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Electrons accelerated through 150 V. Find de Broglie wavelength and explain if diffraction observable --- Solution: λ = h/sqrt(2meV) = 6.63x10⁻^3⁴ / sqrt(2x9.11x10⁻^3¹x1.6x10⁻¹⁹x150) ≈ 1.0x10⁻¹⁰ m = 0.1 nm. Comparable to atomic spacing -> diffraction observable (e.g. Davisson-Germer)"
+  },
+  {
+   "id": "particles-and-quantum-physics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Energy of photon with λ = 400 nm | In β⁻ decay: n -> p + e⁻ + ν̄ₑ. Check conservation laws | Find de Broglie λ for electron at 100 eV"
+  }
+ ]
+}

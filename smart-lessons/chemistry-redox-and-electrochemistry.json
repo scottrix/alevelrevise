@@ -1,0 +1,44 @@
+{
+ "subject": "chemistry",
+ "topic": "redox-and-electrochemistry",
+ "topicName": "Redox and Electrochemistry",
+ "version": 1,
+ "steps": [
+  {
+   "id": "redox-and-electrochemistry-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Oxidation = loss of e⁻ (OIL RIG); Oxidation state rules: element=0, Group 1=+1, O=-2 (exc peroxides), H=+1 (exc hydrides)"
+  },
+  {
+   "id": "redox-and-electrochemistry-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Half-equations: balance atoms (O with H₂O, H with H⁺), then charge with e⁻"
+  },
+  {
+   "id": "redox-and-electrochemistry-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cell: anode (oxidation) || cathode (reduction); E deg _cell = E deg _red(cathode) - E deg _red(anode)"
+  },
+  {
+   "id": "redox-and-electrochemistry-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Feasible if E deg _cell > 0; Equilibrium: E deg _cell = 0.059/n log K at 298K"
+  },
+  {
+   "id": "redox-and-electrochemistry-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Calculate E deg for: Zn | Zn^2⁺ || Cu^2⁺ | Cu. E deg (Zn^2⁺/Zn) = -0.76V, E deg (Cu^2⁺/Cu) = +0.34V. Is reaction spontaneous? --- Solution: E deg _cell = 0.34 - (-0.76) = +1.10 V > 0 -> spontaneous. Zn oxidised (anode), Cu^2⁺ reduced (cathode). Reaction: Zn + Cu^2⁺ -> Zn^2⁺ + Cu"
+  },
+  {
+   "id": "redox-and-electrochemistry-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Balance in acid: MnO₄⁻ + Fe^2⁺ -> Mn^2⁺ + Fe^3⁺ | E deg (Ag⁺/Ag) = +0.80V, E deg (Cu^2⁺/Cu) = +0.34V. Which is stronger oxidising agent? | Write Nernst equation for Cu | Cu^2⁺(0.1M) || Ag⁺(0.01M) | Ag"
+  }
+ ]
+}

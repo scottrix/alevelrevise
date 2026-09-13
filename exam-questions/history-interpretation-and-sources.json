@@ -1,0 +1,26 @@
+{
+ "subject": "history",
+ "topic": "interpretation-and-sources",
+ "topicName": "Interpretation and Sources",
+ "version": 1,
+ "questions": [
+  {
+   "id": "interpretation-and-sources-exam1",
+   "type": "extended",
+   "question": "Evaluate the utility of a 1917 Bolshevik poster for a historian studying propaganda in the Russian Revolution",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Origin: Bolshevik party, 1917. Purpose: mobilise support, demonise opponents. Value: reveals Bolshevik messaging, visual rhetoric, target audience (workers/soldiers). Limitation: one-sided, omit failures, not objective. Utility: high for studying propaganda techniques, low for factual accuracy of events",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Origin: Bolshevik party, 1917. Purpose: mobilise support, demonise opponents. Value: reveals Bolshevik messaging, visual rhetoric, target audience (workers/soldiers). Limitation: one-sided, omit failures, not objective. Utility: high for studying propaganda techniques, low for factual accuracy of events"
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "subject": "computer-science",
+ "topic": "data-structures-and-algorithms",
+ "topicName": "Data Structures and Algorithms",
+ "version": 1,
+ "questions": [
+  {
+   "id": "data-structures-and-algorithms-exam1",
+   "type": "extended",
+   "question": "Trace quicksort on [3, 6, 8, 10, 1, 2, 1] with pivot as first element",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -> [1] + [1] + [2]. Right: pivot=6 -> [] + [6] + [8,10] -> pivot=8 -> [] + [8] + [10]. Result: [1,1,2,3,6,8,10]",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -> [1] + [1] + [2]. Right: pivot=6 -> [] + [6] + [8,10] -> pivot=8 -> [] + [8] + [10]. Result: [1,1,2,3,6,8,10]"
+   }
+  }
+ ]
+}

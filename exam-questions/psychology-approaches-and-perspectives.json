@@ -1,0 +1,26 @@
+{
+ "subject": "psychology",
+ "topic": "approaches-and-perspectives",
+ "topicName": "Approaches and Perspectives",
+ "version": 1,
+ "questions": [
+  {
+   "id": "approaches-and-perspectives-exam1",
+   "type": "extended",
+   "question": "Explain how the biological and cognitive approaches differ in explaining depression",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Biological: genetic predisposition, serotonin/noradrenaline deficit, hippocampal atrophy -> treatment: SSRIs, ECT. Cognitive: Beck's negative triad (self, world, future), cognitive distortions, schema -> treatment: CBT (challenge thoughts). Biological = reductionist, medical; Cognitive = mental processes, empowerment",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Biological: genetic predisposition, serotonin/noradrenaline deficit, hippocampal atrophy -> treatment: SSRIs, ECT. Cognitive: Beck's negative triad (self, world, future), cognitive distortions, schema -> treatment: CBT (challenge thoughts). Biological = reductionist, medical; Cognitive = mental processes, empowerment"
+   }
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "business-studies",
+ "topic": "mock-exam",
+ "topicName": "Business-Studies Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "business-studies-mock",
+   "name": "A-Level Business-Studies Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Finance and Accounts] FC=GBP 50,000, VC=GBP 5/unit, P=GBP 15. Find break-even, margin of safety at 12,000 units, units for GBP 30,000 profit",
+     "correctAnswer": "Contribution = 15-5=10. BE = 50,000/10 = 5,000 units. MoS = 12,000 - 5,000 = 7,000 units (58%). Target: (50,000+30,000)/10 = 8,000 units",
+     "explanation": "Contribution = 15-5=10. BE = 50,000/10 = 5,000 units. MoS = 12,000 - 5,000 = 7,000 units (58%). Target: (50,000+30,000)/10 = 8,000 units",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Marketing] A new energy drink targets 18-25 males. Propose segmentation, pricing, and promotion strategy",
+     "correctAnswer": "Segmentation: demographic (18-25, male), psychographic (active, risk-takers), behavioural (gym-goers). Pricing: penetration (GBP 1.50) to gain share quickly. Promotion: social media influencers, gym sponsorships, sampling at events. Place: gyms, convenience stores, online subscription",
+     "explanation": "Segmentation: demographic (18-25, male), psychographic (active, risk-takers), behavioural (gym-goers). Pricing: penetration (GBP 1.50) to gain share quickly. Promotion: social media influencers, gym sponsorships, sampling at events. Place: gyms, convenience stores, online subscription",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Operations Management] A furniture maker switches from batch to flow production. Analyse implications for cost, quality, flexibility",
+     "correctAnswer": "Cost: lower unit cost (economies of scale, less setup), but high capital investment. Quality: more consistent (standardised), but defects affect large volumes. Flexibility: reduced (dedicated line), harder to customise. Workforce: deskilling, potential redundancy. Inventory: lower WIP with JIT",
+     "explanation": "Cost: lower unit cost (economies of scale, less setup), but high capital investment. Quality: more consistent (standardised), but defects affect large volumes. Flexibility: reduced (dedicated line), harder to customise. Workforce: deskilling, potential redundancy. Inventory: lower WIP with JIT",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[People and Leadership] Apply Herzberg to a call centre with high turnover. Propose changes",
+     "correctAnswer": "Hygiene factors: pay, conditions, supervision, policy -> ensure competitive pay, ergonomic chairs, supportive managers, fair policies. Motivators: achievement, recognition, responsibility, growth -> team targets with bonuses, employee of month, job enrichment (team leader roles), career path to mana",
+     "explanation": "Hygiene factors: pay, conditions, supervision, policy -> ensure competitive pay, ergonomic chairs, supportive managers, fair policies. Motivators: achievement, recognition, responsibility, growth -> team targets with bonuses, employee of month, job enrichment (team leader roles), career path to mana",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Strategy and the External Environment] Use Porter's Five Forces to analyse the UK supermarket industry",
+     "correctAnswer": "Rivalry: high (Tesco, Sainsbury, Asda, Morrisons, Aldi, Lidl -- price wars). New entrants: low (high capital, established supply chains, brand loyalty). Substitutes: medium (convenience stores, online, markets). Buyer power: high (price-sensitive, low switching cost, loyalty cards). Supplier power: ",
+     "explanation": "Rivalry: high (Tesco, Sainsbury, Asda, Morrisons, Aldi, Lidl -- price wars). New entrants: low (high capital, established supply chains, brand loyalty). Substitutes: medium (convenience stores, online, markets). Buyer power: high (price-sensitive, low switching cost, loyalty cards). Supplier power: ",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

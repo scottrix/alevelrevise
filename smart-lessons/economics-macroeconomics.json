@@ -1,0 +1,44 @@
+{
+ "subject": "economics",
+ "topic": "macroeconomics",
+ "topicName": "Macroeconomics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "macroeconomics-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "GDP = C+I+G+(X-M); Real = nominal/deflatorx100; Deflator = nominal/realx100"
+  },
+  {
+   "id": "macroeconomics-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "AD: C (wealth, confidence, rates), I (confidence, rates, tech), G (policy), X-M (exchange rate, world income)"
+  },
+  {
+   "id": "macroeconomics-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "SRAS: sticky wages/prices; LRAS: vertical at Yf (classical) or upward (Keynesian); AS shifts: costs, productivity"
+  },
+  {
+   "id": "macroeconomics-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Inflation: demand-pull (AD>AS), cost-push (AS left); CPI basket vs RPI (housing); costs: menu, shoe-leather, uncertainty"
+  },
+  {
+   "id": "macroeconomics-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Using AD/AS, analyse the effect of a rise in oil prices on price level and real output --- Solution: Oil price rise -> production costs ↑ -> SRAS shifts left. Result: price level rises (cost-push inflation), real output falls (stagflation). If central bank accommodates (AD↑), output restored but inflation higher. If not, recession"
+  },
+  {
+   "id": "macroeconomics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate GDP deflator: nominal=GBP 2.2T, real=GBP 2T | Draw AD/AS for recessionary gap | Explain multiplier with MPC=0.8"
+  }
+ ]
+}

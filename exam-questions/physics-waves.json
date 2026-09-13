@@ -1,0 +1,26 @@
+{
+ "subject": "physics",
+ "topic": "waves",
+ "topicName": "Waves",
+ "version": 1,
+ "questions": [
+  {
+   "id": "waves-exam1",
+   "type": "extended",
+   "question": "Light of wavelength 500 nm passes through double slits 0.2 mm apart. Fringes observed on screen 2.5 m away. Find fringe spacing",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "w = λD/s = (500x10⁻⁹ x 2.5) / (0.2x10⁻^3) = 6.25x10⁻^3 m = 6.25 mm",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "w = λD/s = (500x10⁻⁹ x 2.5) / (0.2x10⁻^3) = 6.25x10⁻^3 m = 6.25 mm"
+   }
+  }
+ ]
+}

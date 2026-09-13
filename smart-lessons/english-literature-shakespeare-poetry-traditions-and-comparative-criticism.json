@@ -1,0 +1,20 @@
+{
+ "subject": "english-literature",
+ "topic": "shakespeare-poetry-traditions-and-comparative-criticism",
+ "topicName": "Shakespeare, Poetry Traditions and Comparative Criticism",
+ "version": 1,
+ "steps": [
+  {
+   "id": "shakespeare-poetry-traditions-and-comparative-criticism-s1",
+   "kind": "learn",
+   "title": "Hamartia",
+   "body": "A fatal flaw leading to the downfall of a tragic hero in classical and Shakespearean drama."
+  },
+  {
+   "id": "shakespeare-poetry-traditions-and-comparative-criticism-s2",
+   "kind": "learn",
+   "title": "Free Indirect Discourse",
+   "body": "A narrative technique presenting a character's inner thoughts while retaining third-person narration."
+  }
+ ]
+}

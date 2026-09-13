@@ -1,0 +1,72 @@
+{
+ "subject": "economics",
+ "topic": "macroeconomics",
+ "topicName": "Macroeconomics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "macroeconomics-fc1",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "GDP = C+I+G+(X-M); Real = nominal/deflatorx100; Deflator = nominal/realx100",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc2",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "AD: C (wealth, confidence, rates), I (confidence, rates, tech), G (policy), X-M (exchange rate, world income)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc3",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "SRAS: sticky wages/prices; LRAS: vertical at Yf (classical) or upward (Keynesian); AS shifts: costs, productivity",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc4",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "Inflation: demand-pull (AD>AS), cost-push (AS left); CPI basket vs RPI (housing); costs: menu, shoe-leather, uncertainty",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc5",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "Unemployment: frictional (search), structural (skills mismatch), cyclical (AD deficient), natural = frictional+structural",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc6",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "Fiscal: G↑/T↓ -> AD↑; Multiplier = 1/(1-MPC); Crowding out: G↑->r↑->I↓",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc7",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "Monetary: Bank Rate -> market rates -> AD; QE: buy bonds -> money supply↑; Inflation target 2%",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "macroeconomics-fc8",
+   "front": "Recall a key point about Macroeconomics",
+   "back": "Exchange rate: floating (market), fixed (peg); Appreciation: X↓ M↑ -> AD↓; BOP: current + capital + financial account",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

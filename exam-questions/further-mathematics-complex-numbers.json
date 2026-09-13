@@ -1,0 +1,26 @@
+{
+ "subject": "further-mathematics",
+ "topic": "complex-numbers",
+ "topicName": "Complex Numbers",
+ "version": 1,
+ "questions": [
+  {
+   "id": "complex-numbers-exam1",
+   "type": "extended",
+   "question": "Solve z^3 = -8. Plot the roots on an Argand diagram and show they form an equilateral triangle",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "z^3 = 8e^{ipi} -> z = 2e^{i(pi+2kpi)/3} for k=0,1,2. Roots: 2e^{ipi/3} = 1+isqrt3, 2e^{ipi} = -2, 2e^{i5pi/3} = 1-isqrt3. Distance between any two = sqrt((1-(-2))^2+(sqrt3-0)^2) = sqrt(9+3) = 2sqrt3 -- all equal, equilateral triangle",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "z^3 = 8e^{ipi} -> z = 2e^{i(pi+2kpi)/3} for k=0,1,2. Roots: 2e^{ipi/3} = 1+isqrt3, 2e^{ipi} = -2, 2e^{i5pi/3} = 1-isqrt3. Distance between any two = sqrt((1-(-2))^2+(sqrt3-0)^2) = sqrt(9+3) = 2sqrt3 -- all equal, equilateral triangle"
+   }
+  }
+ ]
+}

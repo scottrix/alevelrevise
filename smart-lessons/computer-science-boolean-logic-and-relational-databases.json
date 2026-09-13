@@ -1,0 +1,44 @@
+{
+ "subject": "computer-science",
+ "topic": "boolean-logic-and-relational-databases",
+ "topicName": "Boolean Logic and Relational Databases",
+ "version": 1,
+ "steps": [
+  {
+   "id": "boolean-logic-and-relational-databases-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Boolean laws: Identity, Null, Idempotent, Complement, Commutative, Associative, Distributive, De Morgan, Absorption"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "K-maps: 2-4 variables, groups of 1s (SOP) or 0s (POS); don't cares"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Circuits: Half adder (XOR+AND), Full adder (2 half + OR), MUX (select), Decoder (binary->one-hot)"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Flip-flops: SR (set/reset), D (data), JK (toggle); Registers: shift, storage; Counters: async/sync"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Normalise to 3NF: Student(StudentID, Name, CourseID, CourseName, TutorID, TutorName) --- Solution: FDs: StudentID->Name, CourseID->CourseName, TutorID, TutorID->TutorName. 1NF: atomic. 2NF: remove partial FD (CourseID->CourseName). Course(CourseID, CourseName, TutorID), Tutor(TutorID, TutorName), Student(StudentID, Name, CourseID). 3NF: remove transitive FD (TutorID->TutorName). Already in 3NF"
+  },
+  {
+   "id": "boolean-logic-and-relational-databases-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Simplify: A·(A+B) + A·B | Design full adder from half adders | Draw ER for library system"
+  }
+ ]
+}

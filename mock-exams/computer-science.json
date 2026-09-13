@@ -1,0 +1,67 @@
+{
+ "subject": "computer-science",
+ "topic": "mock-exam",
+ "topicName": "Computer-Science Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "computer-science-mock",
+   "name": "A-Level Computer-Science Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Boolean Logic and Relational Databases] Normalise to 3NF: Student(StudentID, Name, CourseID, CourseName, TutorID, TutorName)",
+     "correctAnswer": "FDs: StudentID->Name, CourseID->CourseName, TutorID, TutorID->TutorName. 1NF: atomic. 2NF: remove partial FD (CourseID->CourseName). Course(CourseID, CourseName, TutorID), Tutor(TutorID, TutorName), Student(StudentID, Name, CourseID). 3NF: remove transitive FD (TutorID->TutorName). Already in 3NF",
+     "explanation": "FDs: StudentID->Name, CourseID->CourseName, TutorID, TutorID->TutorName. 1NF: atomic. 2NF: remove partial FD (CourseID->CourseName). Course(CourseID, CourseName, TutorID), Tutor(TutorID, TutorName), Student(StudentID, Name, CourseID). 3NF: remove transitive FD (TutorID->TutorName). Already in 3NF",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Computer Systems and Architecture] A program has 20 percent serial code. Max speedup on 4 cores?",
+     "correctAnswer": "Amdahl: speedup = 1/((1-0.8) + 0.8/4) = 1/(0.2 + 0.2) = 2.5x. Even infinite cores: 1/0.2 = 5x",
+     "explanation": "Amdahl: speedup = 1/((1-0.8) + 0.8/4) = 1/(0.2 + 0.2) = 2.5x. Even infinite cores: 1/0.2 = 5x",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Data Structures and Algorithms] Trace quicksort on [3, 6, 8, 10, 1, 2, 1] with pivot as first element",
+     "correctAnswer": "Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -> [1] + [1] + [2]. Right: pivot=6 -> [] + [6] + [8,10] -> pivot=8 -> [] + [8] + [10]. Result: [1,1,2,3,6,8,10]",
+     "explanation": "Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -> [1] + [1] + [2]. Right: pivot=6 -> [] + [6] + [8,10] -> pivot=8 -> [] + [8] + [10]. Result: [1,1,2,3,6,8,10]",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Networks and Internet] Explain the TLS handshake process",
+     "correctAnswer": "1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted comm",
+     "explanation": "1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted comm",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Programming Fundamentals] Write a function that reads a file of integers and returns the median",
+     "correctAnswer": "def median_from_file(filename): with open(filename) as f: nums = sorted(int(line.strip()) for line in f if line.strip()) n = len(nums) if n == 0: return None mid = n // 2 return nums[mid] if n % 2 else (nums[mid-1] + nums[mid]) / 2",
+     "explanation": "def median_from_file(filename): with open(filename) as f: nums = sorted(int(line.strip()) for line in f if line.strip()) n = len(nums) if n == 0: return None mid = n // 2 return nums[mid] if n % 2 else (nums[mid-1] + nums[mid]) / 2",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

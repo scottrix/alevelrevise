@@ -1,0 +1,26 @@
+{
+ "subject": "history",
+ "topic": "historical-enquiry-and-essay-skills",
+ "topicName": "Historical Enquiry and Essay Skills",
+ "version": 1,
+ "questions": [
+  {
+   "id": "historical-enquiry-and-essay-skills-exam1",
+   "type": "extended",
+   "question": "Write an essay introduction for: 'How far was economic crisis the main cause of the French Revolution?'",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "The French Revolution (1789) resulted from a convergence of fiscal collapse, social tension, and Enlightenment ideas. While economic crisis -- state bankruptcy, grain shortages, regressive taxation -- provided the immediate catalyst, this essay argues that structural weaknesses of the Ancien Régime (privilege, absolutism, lack of representation) made revolution probable, with Enlightenment providing the intellectual framework. Economic crisis was the spark, not the fuel",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "The French Revolution (1789) resulted from a convergence of fiscal collapse, social tension, and Enlightenment ideas. While economic crisis -- state bankruptcy, grain shortages, regressive taxation -- provided the immediate catalyst, this essay argues that structural weaknesses of the Ancien Régime (privilege, absolutism, lack of representation) made revolution probable, with Enlightenment providing the intellectual framework. Economic crisis was the spark, not the fuel"
+   }
+  }
+ ]
+}

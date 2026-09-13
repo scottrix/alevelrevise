@@ -1,0 +1,44 @@
+{
+ "subject": "business-studies",
+ "topic": "marketing",
+ "topicName": "Marketing",
+ "version": 1,
+ "steps": [
+  {
+   "id": "marketing-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Segmentation: geo (location), demo (age, gender, income), psycho (lifestyle, values), behavioural (usage, loyalty)"
+  },
+  {
+   "id": "marketing-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "7 Ps: Product (features, quality, branding), Price (strategies), Place (channels), Promotion (mix), People (service), Process (delivery), Physical evidence (tangibles)"
+  },
+  {
+   "id": "marketing-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Pricing: penetration (low, gain share), skimming (high, early adopters), psychological (GBP 9.99), competitive (match), cost-plus (markup), dynamic (real-time)"
+  },
+  {
+   "id": "marketing-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "PLC: introduction, growth, maturity, decline; Extension: new markets, new uses, repositioning"
+  },
+  {
+   "id": "marketing-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: A new energy drink targets 18-25 males. Propose segmentation, pricing, and promotion strategy --- Solution: Segmentation: demographic (18-25, male), psychographic (active, risk-takers), behavioural (gym-goers). Pricing: penetration (GBP 1.50) to gain share quickly. Promotion: social media influencers, gym sponsorships, sampling at events. Place: gyms, convenience stores, online subscription"
+  },
+  {
+   "id": "marketing-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Segment the electric car market | Compare penetration vs skimming for new iPhone | Design promotional mix for local bakery"
+  }
+ ]
+}

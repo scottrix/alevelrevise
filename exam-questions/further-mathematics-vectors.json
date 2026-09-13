@@ -1,0 +1,26 @@
+{
+ "subject": "further-mathematics",
+ "topic": "vectors",
+ "topicName": "Vectors",
+ "version": 1,
+ "questions": [
+  {
+   "id": "vectors-exam1",
+   "type": "extended",
+   "question": "Find the intersection of line r = [1; 2; 3] + λ[2; -1; 4] with plane 2x - y + 3z = 10",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -> 2+4λ-2+λ+9+12λ=10 -> 17λ+9=10 -> λ=1/17. Point: [19/17; 33/17; 55/17]",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -> 2+4λ-2+λ+9+12λ=10 -> 17λ+9=10 -> λ=1/17. Point: [19/17; 33/17; 55/17]"
+   }
+  }
+ ]
+}

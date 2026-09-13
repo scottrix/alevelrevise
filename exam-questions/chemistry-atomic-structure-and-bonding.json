@@ -1,0 +1,26 @@
+{
+ "subject": "chemistry",
+ "topic": "atomic-structure-and-bonding",
+ "topicName": "Atomic Structure and Bonding",
+ "version": 1,
+ "questions": [
+  {
+   "id": "atomic-structure-and-bonding-exam1",
+   "type": "extended",
+   "question": "Explain why H₂O has a higher boiling point than H₂S despite similar molecular mass",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "H₂O has H-bonding (O is highly electronegative, lone pairs); H₂S has only dipole-dipole and London forces. H-bonding is much stronger -> more energy to separate molecules -> higher BP",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "H₂O has H-bonding (O is highly electronegative, lone pairs); H₂S has only dipole-dipole and London forces. H-bonding is much stronger -> more energy to separate molecules -> higher BP"
+   }
+  }
+ ]
+}

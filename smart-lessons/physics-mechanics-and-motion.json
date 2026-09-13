@@ -1,0 +1,44 @@
+{
+ "subject": "physics",
+ "topic": "mechanics-and-motion",
+ "topicName": "Mechanics and Motion",
+ "version": 1,
+ "steps": [
+  {
+   "id": "mechanics-and-motion-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "SUVAT: v = u + at, s = ut + ½at^2, v^2 = u^2 + 2as, s = ½(u+v)t -- only for constant a"
+  },
+  {
+   "id": "mechanics-and-motion-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Newton's 1st: equilibrium -> net force zero; 2nd: F = ma (vector); 3rd: action-reaction pairs equal/opposite"
+  },
+  {
+   "id": "mechanics-and-motion-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Momentum p = mv; Impulse J = FDeltat = Deltap; Conservation: Σp_before = Σp_after (isolated system)"
+  },
+  {
+   "id": "mechanics-and-motion-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Work W = F·s = Fs cos θ; KE = ½mv^2; GPE = mgh; Elastic PE = ½kx^2; Power = W/t = Fv"
+  },
+  {
+   "id": "mechanics-and-motion-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: A 0.5 kg ball is projected at 20 m/s at 30 deg to horizontal. Find maximum height, range, and speed at impact --- Solution: uₓ = 20cos30 deg = 10sqrt3 ≈ 17.32 m/s; uᵧ = 20sin30 deg = 10 m/s. Max height: vᵧ^2 = uᵧ^2 - 2gh -> 0 = 100 - 19.6h -> h = 5.10 m. Time of flight: t = 2uᵧ/g = 20/9.8 = 2.04 s. Range = uₓ x t = 17.32 x 2.04 = 35.3 m. At impact: vᵧ = -10 m/s, v = sqrt(17.32^2 + 10^2) = 20 m/s"
+  },
+  {
+   "id": "mechanics-and-motion-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "A car accelerates from rest at 3 m/s^2 for 8 s. Find final speed and distance | A 1200 kg car hits a stationary 800 kg car. They couple. Find speed after impact | A projectile launched at 45 deg has range 100 m. Find initial speed"
+  }
+ ]
+}

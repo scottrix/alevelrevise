@@ -1,0 +1,80 @@
+{
+ "subject": "chemistry",
+ "topic": "kinetics-and-equilibria",
+ "topicName": "Kinetics and Equilibria",
+ "version": 1,
+ "cards": [
+  {
+   "id": "kinetics-and-equilibria-fc1",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Rate = Delta[conc]/Deltat; collision theory: effective collisions need E >= Ea and correct orientation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc2",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Maxwell-Boltzmann: at higher T, more molecules exceed Ea -> exponentially more effective collisions",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc3",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Rate law: rate = k[A]ᵐ[B]ⁿ; m,n = order (not necessarily stoichiometric); overall order = m+n",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc4",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "1st order: rate = k[A]; t½ = ln2/k (constant); ln[A] = -kt + ln[A]₀",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc5",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Arrhenius: ln k = -Ea/RT + ln A; plot ln k vs 1/T gives slope -Ea/R",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc6",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Le Chatelier: system shifts to oppose change. Conc: shift to consume added; Pressure: shift to fewer gas moles; Temp: exo shifts left on heating",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc7",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Kc = [products]/[reactants] (equilibrium conc, powers = coeffs); Kp uses partial pressures",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc8",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Kp = Kc(RT)^Deltan where Deltan = moles gas products - moles gas reactants",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "kinetics-and-equilibria-fc9",
+   "front": "Recall a key point about Kinetics and Equilibria",
+   "back": "Catalyst: lowers Ea, increases rate equally both directions; NO effect on K or equilibrium position",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

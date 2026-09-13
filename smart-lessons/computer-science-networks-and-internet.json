@@ -1,0 +1,44 @@
+{
+ "subject": "computer-science",
+ "topic": "networks-and-internet",
+ "topicName": "Networks and Internet",
+ "version": 1,
+ "steps": [
+  {
+   "id": "networks-and-internet-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Topologies: Star (central hub), Mesh (all connected), Bus (shared cable), Ring (token passing)"
+  },
+  {
+   "id": "networks-and-internet-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "TCP/IP: App (HTTP, DNS, FTP), Transport (TCP reliable, UDP fast), Internet (IP routing), Link (Ethernet, WiFi)"
+  },
+  {
+   "id": "networks-and-internet-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "TCP: 3-way handshake, sequencing, flow control, congestion control; UDP: connectionless, low latency"
+  },
+  {
+   "id": "networks-and-internet-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "DNS: hierarchical (root, TLD, authoritative); recursive/iterative queries; records (A, AAAA, MX, CNAME)"
+  },
+  {
+   "id": "networks-and-internet-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain the TLS handshake process --- Solution: 1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted communication begins"
+  },
+  {
+   "id": "networks-and-internet-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Subnet 192.168.1.0/24 into 4 subnets | Compare TCP vs UDP for video streaming | Explain DNS resolution steps"
+  }
+ ]
+}

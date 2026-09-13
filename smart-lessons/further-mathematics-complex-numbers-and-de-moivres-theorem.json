@@ -1,0 +1,20 @@
+{
+ "subject": "further-mathematics",
+ "topic": "complex-numbers-and-de-moivres-theorem",
+ "topicName": "Complex Numbers and De Moivre's Theorem",
+ "version": 1,
+ "steps": [
+  {
+   "id": "complex-numbers-and-de-moivres-theorem-s1",
+   "kind": "learn",
+   "title": "De Moivre's Theorem",
+   "body": "[r(cos θ + i sin θ)]ⁿ = rⁿ(cos nθ + i sin nθ) for all n ∈ ℤ."
+  },
+  {
+   "id": "complex-numbers-and-de-moivres-theorem-s2",
+   "kind": "learn",
+   "title": "Roots of Unity",
+   "body": "Solutions to zⁿ = 1: z_k = e^{i 2kπ/n} for k = 0, 1, ..., n-1."
+  }
+ ]
+}

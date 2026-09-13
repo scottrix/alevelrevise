@@ -1,0 +1,67 @@
+{
+ "subject": "biology",
+ "topic": "mock-exam",
+ "topicName": "Biology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "biology-mock",
+   "name": "A-Level Biology Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Biochemistry and Respiration] Calculate total ATP from one glucose via aerobic respiration. Explain why yield is often less than theoretical",
+     "correctAnswer": "Glycolysis: 2 ATP + 2 NADH (3-5 ATP); Link: 2 NADH (5 ATP); Krebs: 2 ATP + 6 NADH (15 ATP) + 2 FADH₂ (3 ATP) = 25-30 + 4 = 29-32 ATP. Less because: proton leak, shuttle costs (glycerol-3-P shuttle vs malate-aspartate), ATP for transport",
+     "explanation": "Glycolysis: 2 ATP + 2 NADH (3-5 ATP); Link: 2 NADH (5 ATP); Krebs: 2 ATP + 6 NADH (15 ATP) + 2 FADH₂ (3 ATP) = 25-30 + 4 = 29-32 ATP. Less because: proton leak, shuttle costs (glycerol-3-P shuttle vs malate-aspartate), ATP for transport",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Cell Structure and Function] Explain how the structure of the mitochondria enables efficient aerobic respiration",
+     "correctAnswer": "Double membrane: outer permeable, inner folded into cristae (large SA for ETC). Matrix contains Krebs cycle enzymes. Intermembrane space accumulates H⁺ for chemiosmosis. Own DNA/ribosomes for some ETC proteins",
+     "explanation": "Double membrane: outer permeable, inner folded into cristae (large SA for ETC). Matrix contains Krebs cycle enzymes. Intermembrane space accumulates H⁺ for chemiosmosis. Own DNA/ribosomes for some ETC proteins",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Ecology and Ecosystems] Explain why only ~10% of energy transfers between trophic levels",
+     "correctAnswer": "Energy lost as: heat (respiration), faeces (undigested), urine (excretion), uneaten parts. Only energy in consumed biomass available to next level. 2nd law of thermodynamics: entropy increases",
+     "explanation": "Energy lost as: heat (respiration), faeces (undigested), urine (excretion), uneaten parts. Only energy in consumed biomass available to next level. 2nd law of thermodynamics: entropy increases",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Genetics and Inheritance] In sweet peas, flower colour is controlled by two genes (C and P). Both dominant alleles needed for purple flowers. Cross CcPp x CcPp. Find phenotypic ratio",
+     "correctAnswer": "Both genes needed for purple. C_P_ = purple (9/16); ccP_ = white (3/16); C_pp = white (3/16); ccpp = white (1/16). Ratio = 9 purple : 7 white (complementary epistasis)",
+     "explanation": "Both genes needed for purple. C_P_ = purple (9/16); ccP_ = white (3/16); C_pp = white (3/16); ccpp = white (1/16). Ratio = 9 purple : 7 white (complementary epistasis)",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Homeostasis and the Nervous System] Describe how the loop of Henle creates a water potential gradient in the kidney medulla",
+     "correctAnswer": "Descending limb: permeable to water, impermeable to ions -> water leaves by osmosis. Ascending limb: impermeable to water, active Na⁺/Cl⁻ transport out -> filtrate diluted, medulla concentrated. Counter-current multiplier: flow in opposite directions maintains gradient",
+     "explanation": "Descending limb: permeable to water, impermeable to ions -> water leaves by osmosis. Ascending limb: impermeable to water, active Na⁺/Cl⁻ transport out -> filtrate diluted, medulla concentrated. Counter-current multiplier: flow in opposite directions maintains gradient",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subject": "economics",
+ "topic": "macroeconomic-policy-inflation-and-globalisation",
+ "topicName": "Macroeconomic Policy, Inflation and Globalisation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "macroeconomic-policy-inflation-and-globalisation-s1",
+   "kind": "learn",
+   "title": "Aggregate Demand (AD)",
+   "body": "Total spending on domestic output: AD = C + I + G + (X - M)."
+  },
+  {
+   "id": "macroeconomic-policy-inflation-and-globalisation-s2",
+   "kind": "learn",
+   "title": "Monetary Policy",
+   "body": "Central bank actions managing interest rates (base rate), quantitative easing, and money supply to meet inflation targets."
+  }
+ ]
+}

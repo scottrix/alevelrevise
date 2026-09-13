@@ -1,0 +1,26 @@
+{
+ "subject": "english-literature",
+ "topic": "prose-and-the-novel",
+ "topicName": "Prose and the Novel",
+ "version": 1,
+ "questions": [
+  {
+   "id": "prose-and-the-novel-exam1",
+   "type": "extended",
+   "question": "Discuss how the first-person narration in 'The Great Gatsby' shapes our understanding of Gatsby",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Nick as participant-observer creates intimacy but limits access to Gatsby's interiority. His judgement 'Gatsby turned out all right' frames our view. Unreliable moments (drunk at party) and admiration create ambivalence. We see Gatsby through Nick's romanticisation",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Nick as participant-observer creates intimacy but limits access to Gatsby's interiority. His judgement 'Gatsby turned out all right' frames our view. Unreliable moments (drunk at party) and admiration create ambivalence. We see Gatsby through Nick's romanticisation"
+   }
+  }
+ ]
+}

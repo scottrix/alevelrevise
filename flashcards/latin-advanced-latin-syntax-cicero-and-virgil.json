@@ -1,0 +1,24 @@
+{
+ "subject": "latin",
+ "topic": "advanced-latin-syntax-cicero-and-virgil",
+ "topicName": "Advanced Latin Syntax, Cicero and Virgil",
+ "version": 1,
+ "cards": [
+  {
+   "id": "advanced-latin-syntax-cicero-and-virgil-fc1",
+   "front": "What should you know about ablative absolute?",
+   "back": "A participial construction in the ablative case functioning as a standalone adverbial clause (noun + participle).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "advanced-latin-syntax-cicero-and-virgil-fc2",
+   "front": "What should you know about dactylic hexameter?",
+   "back": "The classical epic metre consisting of six metrical feet (dactyls -uu and spondees --).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

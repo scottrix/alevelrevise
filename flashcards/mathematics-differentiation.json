@@ -1,0 +1,88 @@
+{
+ "subject": "mathematics",
+ "topic": "differentiation",
+ "topicName": "Differentiation",
+ "version": 1,
+ "cards": [
+  {
+   "id": "differentiation-fc1",
+   "front": "Recall a key point about Differentiation",
+   "back": "Power rule: d/dx(xⁿ) = nxⁿ⁻¹ for all real n",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc2",
+   "front": "Recall a key point about Differentiation",
+   "back": "Sum/difference: d/dx(f+/-g) = f' +/- g'",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc3",
+   "front": "Recall a key point about Differentiation",
+   "back": "Product rule: d/dx(fg) = f'g + fg'",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc4",
+   "front": "Recall a key point about Differentiation",
+   "back": "Quotient rule: d/dx(f/g) = (f'g - fg')/g^2",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc5",
+   "front": "Recall a key point about Differentiation",
+   "back": "Chain rule: d/dx(f(g(x))) = f'(g(x))·g'(x)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc6",
+   "front": "Recall a key point about Differentiation",
+   "back": "Stationary points: f'(x) = 0. Max: f'' < 0; Min: f'' > 0; Inflection: f'' = 0 with sign change",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc7",
+   "front": "Recall a key point about Differentiation",
+   "back": "Tangent: y - y₁ = f'(x₁)(x - x₁); Normal gradient = -1/f'(x₁)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc8",
+   "front": "Recall a key point about Differentiation",
+   "back": "Optimisation: find critical points, check endpoints, justify global max/min",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc9",
+   "front": "Recall a key point about Differentiation",
+   "back": "Implicit: differentiate term-by-term w.r.t x, solve for dy/dx",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "differentiation-fc10",
+   "front": "Recall a key point about Differentiation",
+   "back": "Connected rates: dy/dt = dy/dx · dx/dt",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "subject": "chemistry",
+ "topic": "kinetics-and-equilibria",
+ "topicName": "Kinetics and Equilibria",
+ "version": 1,
+ "steps": [
+  {
+   "id": "kinetics-and-equilibria-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Rate = Delta[conc]/Deltat; collision theory: effective collisions need E >= Ea and correct orientation"
+  },
+  {
+   "id": "kinetics-and-equilibria-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Maxwell-Boltzmann: at higher T, more molecules exceed Ea -> exponentially more effective collisions"
+  },
+  {
+   "id": "kinetics-and-equilibria-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Rate law: rate = k[A]ᵐ[B]ⁿ; m,n = order (not necessarily stoichiometric); overall order = m+n"
+  },
+  {
+   "id": "kinetics-and-equilibria-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "1st order: rate = k[A]; t½ = ln2/k (constant); ln[A] = -kt + ln[A]₀"
+  },
+  {
+   "id": "kinetics-and-equilibria-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: For N₂ + 3H₂ ⇌ 2NH₃, DeltaH = -92 kJ/mol. Predict effect on yield of: (a) increasing pressure, (b) increasing temperature, (c) adding Fe catalyst --- Solution: (a) 4 mol gas -> 2 mol gas: shift right -> higher yield. (b) Exothermic: heating shifts left -> lower yield. (c) Catalyst speeds up both forward/reverse equally -> no effect on yield, reaches equilibrium faster"
+  },
+  {
+   "id": "kinetics-and-equilibria-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Rate = k[A][B]^2. If [A] doubled and [B] tripled, rate factor? | Half-life of 1st order reaction is 10 min. k = ? | For 2SO₂ + O₂ ⇌ 2SO₃, write Kp. If P_total doubled, effect on yield?"
+  }
+ ]
+}

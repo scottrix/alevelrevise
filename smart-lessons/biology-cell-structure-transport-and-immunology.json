@@ -1,0 +1,20 @@
+{
+ "subject": "biology",
+ "topic": "cell-structure-transport-and-immunology",
+ "topicName": "Cell Structure, Transport and Immunology",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cell-structure-transport-and-immunology-s1",
+   "kind": "learn",
+   "title": "Fluid Mosaic Model",
+   "body": "Phospholipid bilayer with lateral mobility of lipids and embedded mosaic of transport/receptor proteins."
+  },
+  {
+   "id": "cell-structure-transport-and-immunology-s2",
+   "kind": "learn",
+   "title": "Antigen",
+   "body": "A cell-surface glycoprotein or macromolecule that triggers an immune response."
+  }
+ ]
+}

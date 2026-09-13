@@ -1,0 +1,48 @@
+{
+ "subject": "history",
+ "topic": "interpretation-and-sources",
+ "topicName": "Interpretation and Sources",
+ "version": 1,
+ "cards": [
+  {
+   "id": "interpretation-and-sources-fc1",
+   "front": "Recall a key point about Interpretation and Sources",
+   "back": "Primary: contemporary to event (documents, artefacts, oral testimony); Secondary: later analysis by historians",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "interpretation-and-sources-fc2",
+   "front": "Recall a key point about Interpretation and Sources",
+   "back": "OPVL: Origin (who, when, where), Purpose (why created), Value (what it reveals), Limitation (what it omits/distorts)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "interpretation-and-sources-fc3",
+   "front": "Recall a key point about Interpretation and Sources",
+   "back": "Reliability: accuracy, bias, typicality; Utility: usefulness for specific enquiry",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "interpretation-and-sources-fc4",
+   "front": "Recall a key point about Interpretation and Sources",
+   "back": "Historiography: Whig (progress), Marxist (class struggle), Revisionist (challenge orthodoxy), Postmodern (multiple truths)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "interpretation-and-sources-fc5",
+   "front": "Recall a key point about Interpretation and Sources",
+   "back": "Corroboration: cross-reference multiple sources; Triangulation: different types of evidence",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

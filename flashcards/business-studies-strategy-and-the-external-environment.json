@@ -1,0 +1,80 @@
+{
+ "subject": "business-studies",
+ "topic": "strategy-and-the-external-environment",
+ "topicName": "Strategy and the External Environment",
+ "version": 1,
+ "cards": [
+  {
+   "id": "strategy-and-the-external-environment-fc1",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "SWOT: internal S/W, external O/T; PESTEL: Political, Economic, Social, Technological, Environmental, Legal",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc2",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Porter 5 Forces: rivalry, new entrants, substitutes, buyer power, supplier power",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc3",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Core competences: valuable, rare, inimitable, non-substitutable (VRIN)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc4",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Boston Matrix: Stars (high share, high growth), Cash Cows (high share, low growth), Question Marks (low share, high growth), Dogs (low share, low growth)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc5",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Ansoff: existing/new products x existing/new markets -> 4 strategies",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc6",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Porter Generic: Cost leadership (lowest cost), Differentiation (unique value), Focus (niche)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc7",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Organic: internal investment; Inorganic: M&A (horizontal, vertical, conglomerate), strategic alliances, joint ventures, franchising",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc8",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "Change: Kotter 8 steps (urgency, coalition, vision, communicate, empower, wins, consolidate, anchor); Lewin: unfreeze, change, refreeze",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategy-and-the-external-environment-fc9",
+   "front": "Recall a key point about Strategy and the External Environment",
+   "back": "CSR: Carroll (economic, legal, ethical, philanthropic); Stakeholder theory vs shareholder primacy; Triple bottom line (people, planet, profit)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

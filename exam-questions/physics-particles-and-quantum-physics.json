@@ -1,0 +1,26 @@
+{
+ "subject": "physics",
+ "topic": "particles-and-quantum-physics",
+ "topicName": "Particles and Quantum Physics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "particles-and-quantum-physics-exam1",
+   "type": "extended",
+   "question": "Electrons accelerated through 150 V. Find de Broglie wavelength and explain if diffraction observable",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "λ = h/sqrt(2meV) = 6.63x10⁻^3⁴ / sqrt(2x9.11x10⁻^3¹x1.6x10⁻¹⁹x150) ≈ 1.0x10⁻¹⁰ m = 0.1 nm. Comparable to atomic spacing -> diffraction observable (e.g. Davisson-Germer)",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "λ = h/sqrt(2meV) = 6.63x10⁻^3⁴ / sqrt(2x9.11x10⁻^3¹x1.6x10⁻¹⁹x150) ≈ 1.0x10⁻¹⁰ m = 0.1 nm. Comparable to atomic spacing -> diffraction observable (e.g. Davisson-Germer)"
+   }
+  }
+ ]
+}

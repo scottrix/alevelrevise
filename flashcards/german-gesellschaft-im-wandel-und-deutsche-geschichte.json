@@ -1,0 +1,24 @@
+{
+ "subject": "german",
+ "topic": "gesellschaft-im-wandel-und-deutsche-geschichte",
+ "topicName": "Gesellschaft im Wandel und Deutsche Geschichte",
+ "version": 1,
+ "cards": [
+  {
+   "id": "gesellschaft-im-wandel-und-deutsche-geschichte-fc1",
+   "front": "What should you know about die wiedervereinigung?",
+   "back": "Der historische Prozess der Vereinigung von BRD und DDR am 3. Oktober 1990.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "gesellschaft-im-wandel-und-deutsche-geschichte-fc2",
+   "front": "What should you know about die energiewende?",
+   "back": "Der Übergang Deutschlands zu nachhaltigen und erneuerbaren Energieträgern.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

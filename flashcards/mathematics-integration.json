@@ -1,0 +1,80 @@
+{
+ "subject": "mathematics",
+ "topic": "integration",
+ "topicName": "Integration",
+ "version": 1,
+ "cards": [
+  {
+   "id": "integration-fc1",
+   "front": "Recall a key point about Integration",
+   "back": "Power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n != -1)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc2",
+   "front": "Recall a key point about Integration",
+   "back": "Special: ∫1/x dx = ln|x| + C, ∫eˣ dx = eˣ + C",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc3",
+   "front": "Recall a key point about Integration",
+   "back": "Trig: ∫sin x dx = -cos x + C, ∫cos x dx = sin x + C, ∫sec^2x dx = tan x + C",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc4",
+   "front": "Recall a key point about Integration",
+   "back": "Reverse chain: ∫f'(x)[f(x)]ⁿ dx = [f(x)]ⁿ⁺¹/(n+1) + C",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc5",
+   "front": "Recall a key point about Integration",
+   "back": "Substitution: let u = f(x), dx = du/f'(x), change limits if definite",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc6",
+   "front": "Recall a key point about Integration",
+   "back": "By parts: ∫u dv = uv - ∫v du (LIATE for choosing u)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc7",
+   "front": "Recall a key point about Integration",
+   "back": "Definite: ∫ₐᵇ f(x)dx = F(b) - F(a), area = ∫|f(x)|dx",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc8",
+   "front": "Recall a key point about Integration",
+   "back": "Area between curves: ∫(top - bottom)dx over intersection interval",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "integration-fc9",
+   "front": "Recall a key point about Integration",
+   "back": "Volume of revolution: V = pi∫y^2 dx (about x-axis) or pi∫x^2 dy (about y-axis)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

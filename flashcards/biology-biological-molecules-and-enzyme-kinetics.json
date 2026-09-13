@@ -1,0 +1,24 @@
+{
+ "subject": "biology",
+ "topic": "biological-molecules-and-enzyme-kinetics",
+ "topicName": "Biological Molecules and Enzyme Kinetics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "biological-molecules-and-enzyme-kinetics-fc1",
+   "front": "What should you know about induced fit model?",
+   "back": "Substrate binding causes conformational change in enzyme's active site, lowering activation energy.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biological-molecules-and-enzyme-kinetics-fc2",
+   "front": "What should you know about primary structure?",
+   "back": "Unique sequence of amino acids linked by covalent peptide bonds in a polypeptide.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

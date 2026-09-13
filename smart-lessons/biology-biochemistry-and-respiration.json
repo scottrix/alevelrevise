@@ -1,0 +1,44 @@
+{
+ "subject": "biology",
+ "topic": "biochemistry-and-respiration",
+ "topicName": "Biochemistry and Respiration",
+ "version": 1,
+ "steps": [
+  {
+   "id": "biochemistry-and-respiration-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Glycolysis: glucose -> 2 pyruvate (cytoplasm); net 2 ATP, 2 NADH; Link: pyruvate -> acetyl CoA + CO₂ + NADH (mito matrix); Krebs: acetyl CoA + 3NAD⁺ + FAD + GDP -> 2CO₂ + 3NADH + FADH₂ + GTP; ETC: NADH/FADH₂ -> H⁺ gradient -> ATP synthase -> ATP"
+  },
+  {
+   "id": "biochemistry-and-respiration-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "SLP: direct phosphate transfer (glycolysis, Krebs); OxPhos: H⁺ pumped across inner membrane, flow through ATP synthase"
+  },
+  {
+   "id": "biochemistry-and-respiration-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Theoretical: 10 NADH (2.5 each) + 2 FADH₂ (1.5 each) + 4 ATP = 32 ATP; Actual ~30-32"
+  },
+  {
+   "id": "biochemistry-and-respiration-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Anaerobic: animals: pyruvate + NADH -> lactate + NAD⁺ (lactate dehydrogenase); Yeast: pyruvate -> acetaldehyde + CO₂ -> ethanol + NAD⁺"
+  },
+  {
+   "id": "biochemistry-and-respiration-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Calculate total ATP from one glucose via aerobic respiration. Explain why yield is often less than theoretical --- Solution: Glycolysis: 2 ATP + 2 NADH (3-5 ATP); Link: 2 NADH (5 ATP); Krebs: 2 ATP + 6 NADH (15 ATP) + 2 FADH₂ (3 ATP) = 25-30 + 4 = 29-32 ATP. Less because: proton leak, shuttle costs (glycerol-3-P shuttle vs malate-aspartate), ATP for transport"
+  },
+  {
+   "id": "biochemistry-and-respiration-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Where does each stage of respiration occur? | Why does anaerobic respiration produce less ATP? | Explain induced fit model"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "biology",
+ "topic": "respiration-photosynthesis-and-bioenergetics",
+ "topicName": "Respiration, Photosynthesis and Bioenergetics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "respiration-photosynthesis-and-bioenergetics-fc1",
+   "front": "What should you know about chemiosmosis?",
+   "back": "ATP synthesis driven by proton electrochemical gradient across inner mitochondrial/thylakoid membrane through ATP synthase.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "respiration-photosynthesis-and-bioenergetics-fc2",
+   "front": "What should you know about photolysis?",
+   "back": "Light-dependent splitting of water in PSII: 2H₂O → 4H⁺ + 4e⁻ + O₂.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "subject": "further-mathematics",
+ "topic": "complex-numbers",
+ "topicName": "Complex Numbers",
+ "version": 1,
+ "cards": [
+  {
+   "id": "complex-numbers-fc1",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "Cartesian form: z = a + bi; Polar form: z = r(cos θ + i sin θ) = re^{iθ}",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc2",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "Modulus |z| = sqrt(a^2+b^2); Argument arg(z) = arctan(b/a) (adjust for quadrant)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc3",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "Conjugate: z̄ = a - bi = re^{-iθ}; Properties: z + z̄ = 2a, z z̄ = |z|^2",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc4",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "de Moivre: (cos θ + i sin θ)ⁿ = cos nθ + i sin nθ; (re^{iθ})ⁿ = rⁿe^{inθ}",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc5",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "n-th roots: r^{1/n} e^{i(θ+2kpi)/n} for k = 0,1,...,n-1 (n distinct roots)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc6",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "Complex roots of real polynomials occur in conjugate pairs",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc7",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "Loci: |z - a| = r (circle), arg(z - a) = α (half-line), |z - a| = |z - b| (perp bisector)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "complex-numbers-fc8",
+   "front": "Recall a key point about Complex Numbers",
+   "back": "Euler's formula: e^{iθ} = cos θ + i sin θ; cos θ = ½(e^{iθ}+e^{-iθ}), sin θ = (e^{iθ}-e^{-iθ})/(2i)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

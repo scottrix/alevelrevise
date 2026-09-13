@@ -1,0 +1,26 @@
+{
+ "subject": "computer-science",
+ "topic": "networks-and-internet",
+ "topicName": "Networks and Internet",
+ "version": 1,
+ "questions": [
+  {
+   "id": "networks-and-internet-exam1",
+   "type": "extended",
+   "question": "Explain the TLS handshake process",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted communication begins",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "1. Client hello (supported ciphers). 2. Server hello (chosen cipher) + certificate (public key, CA signed). 3. Client verifies cert (CA trusted, not expired, domain matches). 4. Client generates pre-master secret, encrypts with server public key, sends. 5. Both derive session keys. 6. Encrypted communication begins"
+   }
+  }
+ ]
+}

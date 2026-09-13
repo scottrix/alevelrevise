@@ -1,0 +1,44 @@
+{
+ "subject": "history",
+ "topic": "historical-enquiry-and-essay-skills",
+ "topicName": "Historical Enquiry and Essay Skills",
+ "version": 1,
+ "steps": [
+  {
+   "id": "historical-enquiry-and-essay-skills-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Good question: specific, debatable, evidence-based, manageable scope (not 'Why WWI?' but 'How far did German naval policy cause WWI?')"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Essay structure: intro (thesis + line of argument), themed paragraphs (PEEL), conclusion (judgement + significance)"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Evidence: select best, not all; deploy precisely (dates, stats, quotes); weigh (corroboration, provenance)"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Judgement: 'ultimately', 'more significantly', 'on balance'; avoid fence-sitting; relative significance"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Write an essay introduction for: 'How far was economic crisis the main cause of the French Revolution?' --- Solution: The French Revolution (1789) resulted from a convergence of fiscal collapse, social tension, and Enlightenment ideas. While economic crisis -- state bankruptcy, grain shortages, regressive taxation -- provided the immediate catalyst, this essay argues that structural weaknesses of the Ancien Régime (privilege, absolutism, lack of representation) made revolution probable, with Enlightenment providing the intellectual framework. Economic crisis was the spark, not the fuel"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Formulate 3 enquiry questions on a topic | Plan a 45-min essay | Write a conclusion with nuanced judgement"
+  }
+ ]
+}

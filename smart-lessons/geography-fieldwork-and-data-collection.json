@@ -1,0 +1,44 @@
+{
+ "subject": "geography",
+ "topic": "fieldwork-and-data-collection",
+ "topicName": "Fieldwork and Data Collection",
+ "version": 1,
+ "steps": [
+  {
+   "id": "fieldwork-and-data-collection-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Enquiry: hypothesis (testable), sub-questions, risk assessment, ethical considerations (consent, privacy)"
+  },
+  {
+   "id": "fieldwork-and-data-collection-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sampling: random (unbiased), systematic (interval), stratified (proportional subgroups), opportunistic (pragmatic)"
+  },
+  {
+   "id": "fieldwork-and-data-collection-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Primary: questionnaires, EQ surveys, sediment analysis, velocity, infiltration; Secondary: OS maps, census, Met Office, academic papers"
+  },
+  {
+   "id": "fieldwork-and-data-collection-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Presentation: proportional circles, choropleth, scatter with trend line, rose diagrams, cross-sections"
+  },
+  {
+   "id": "fieldwork-and-data-collection-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Design a hypothesis and sampling strategy to investigate how footpath erosion varies with distance from a car park in a national park --- Solution: Hypothesis: Footpath erosion decreases with distance from car park due to visitor pressure decay. Systematic sampling: measure path width, depth, vegetation cover every 50m along 1km transect. Risk: weather, terrain. Ethics: minimise disturbance"
+  },
+  {
+   "id": "fieldwork-and-data-collection-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Write a hypothesis for river velocity vs distance downstream | Choose sampling for urban land use survey | Select graph for population vs distance from CBD"
+  }
+ ]
+}

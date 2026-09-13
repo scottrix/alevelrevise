@@ -1,0 +1,24 @@
+{
+ "subject": "computer-science",
+ "topic": "data-structures-algorithms-and-complexity",
+ "topicName": "Data Structures, Algorithms and Complexity",
+ "version": 1,
+ "cards": [
+  {
+   "id": "data-structures-algorithms-and-complexity-fc1",
+   "front": "What should you know about big-o notation?",
+   "back": "Mathematical classification of algorithmic efficiency in terms of time and space scaling with input size n.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-algorithms-and-complexity-fc2",
+   "front": "What should you know about dijkstra's algorithm?",
+   "back": "Single-source shortest path algorithm on weighted graphs using a priority queue.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

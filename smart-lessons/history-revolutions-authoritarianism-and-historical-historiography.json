@@ -1,0 +1,20 @@
+{
+ "subject": "history",
+ "topic": "revolutions-authoritarianism-and-historical-historiography",
+ "topicName": "Revolutions, Authoritarianism and Historical Historiography",
+ "version": 1,
+ "steps": [
+  {
+   "id": "revolutions-authoritarianism-and-historical-historiography-s1",
+   "kind": "learn",
+   "title": "Historiography",
+   "body": "The study of the methodology and changing interpretations of past historical events by different schools of thought."
+  },
+  {
+   "id": "revolutions-authoritarianism-and-historical-historiography-s2",
+   "kind": "learn",
+   "title": "Source Provenance",
+   "body": "Evaluating author, date, purpose, and context to assess reliability, bias, and historical value."
+  }
+ ]
+}

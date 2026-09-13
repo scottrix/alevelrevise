@@ -1,0 +1,44 @@
+{
+ "subject": "business-studies",
+ "topic": "people-and-leadership",
+ "topicName": "People and Leadership",
+ "version": 1,
+ "steps": [
+  {
+   "id": "people-and-leadership-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Content theories: Maslow (hierarchy), Herzberg (hygiene/motivators), McClelland (need achiev/affil/power); Process: Vroom (expectancy), Adams (equity)"
+  },
+  {
+   "id": "people-and-leadership-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Styles: Autocratic (decides alone), Democratic (consults), Laissez-faire (delegates); Situational: telling/selling/participating/delegating; Transformational: inspire, intellectually stimulate"
+  },
+  {
+   "id": "people-and-leadership-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tall: many layers, narrow span; Flat: few layers, wide span; Centralised: top decides; Decentralised: delegated; Matrix: dual reporting"
+  },
+  {
+   "id": "people-and-leadership-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Recruitment: job description, person spec; Internal vs external; Selection: CV, interview (structured/unstructured), psychometric, assessment centre"
+  },
+  {
+   "id": "people-and-leadership-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Apply Herzberg to a call centre with high turnover. Propose changes --- Solution: Hygiene factors: pay, conditions, supervision, policy -> ensure competitive pay, ergonomic chairs, supportive managers, fair policies. Motivators: achievement, recognition, responsibility, growth -> team targets with bonuses, employee of month, job enrichment (team leader roles), career path to management"
+  },
+  {
+   "id": "people-and-leadership-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare Maslow vs Herzberg | Apply Vroom expectancy to sales commission | Evaluate transformational leadership in crisis"
+  }
+ ]
+}

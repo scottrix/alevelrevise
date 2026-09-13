@@ -1,0 +1,72 @@
+{
+ "subject": "computer-science",
+ "topic": "data-structures-and-algorithms",
+ "topicName": "Data Structures and Algorithms",
+ "version": 1,
+ "cards": [
+  {
+   "id": "data-structures-and-algorithms-fc1",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Arrays: contiguous, O(1) access; Lists: dynamic, O(1) append amortised; Stacks: LIFO, push/pop; Queues: FIFO, enqueue/dequeue",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc2",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Linked lists: singly/doubly, O(1) insert/delete at known position, O(n) access",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc3",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Trees: binary, BST (left<root<right), AVL/Red-Black (balanced); traversals: pre/in/post-order, level-order",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc4",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Graphs: adjacency matrix/list; directed/undirected, weighted/unweighted; BFS/DFS",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc5",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Hash tables: O(1) average, collisions (chaining, open addressing), load factor",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc6",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Big-O: O(1) < O(log n) < O(n) < O(n log n) < O(n^2) < O(2ⁿ); best/average/worst case",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc7",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Search: linear O(n), binary O(log n) sorted, hash O(1); Sort: bubble/insertion O(n^2), merge/quick/heap O(n log n)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "data-structures-and-algorithms-fc8",
+   "front": "Recall a key point about Data Structures and Algorithms",
+   "back": "Recursion: base case, recursive case; Tree traversals; Graph: Dijkstra (shortest path), Prim/Kruskal (MST), Topological sort (DAG)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

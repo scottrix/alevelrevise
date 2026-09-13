@@ -1,0 +1,26 @@
+{
+ "subject": "physics",
+ "topic": "mechanics-and-motion",
+ "topicName": "Mechanics and Motion",
+ "version": 1,
+ "questions": [
+  {
+   "id": "mechanics-and-motion-exam1",
+   "type": "extended",
+   "question": "A 0.5 kg ball is projected at 20 m/s at 30 deg to horizontal. Find maximum height, range, and speed at impact",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "uₓ = 20cos30 deg = 10sqrt3 ≈ 17.32 m/s; uᵧ = 20sin30 deg = 10 m/s. Max height: vᵧ^2 = uᵧ^2 - 2gh -> 0 = 100 - 19.6h -> h = 5.10 m. Time of flight: t = 2uᵧ/g = 20/9.8 = 2.04 s. Range = uₓ x t = 17.32 x 2.04 = 35.3 m. At impact: vᵧ = -10 m/s, v = sqrt(17.32^2 + 10^2) = 20 m/s",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "uₓ = 20cos30 deg = 10sqrt3 ≈ 17.32 m/s; uᵧ = 20sin30 deg = 10 m/s. Max height: vᵧ^2 = uᵧ^2 - 2gh -> 0 = 100 - 19.6h -> h = 5.10 m. Time of flight: t = 2uᵧ/g = 20/9.8 = 2.04 s. Range = uₓ x t = 17.32 x 2.04 = 35.3 m. At impact: vᵧ = -10 m/s, v = sqrt(17.32^2 + 10^2) = 20 m/s"
+   }
+  }
+ ]
+}

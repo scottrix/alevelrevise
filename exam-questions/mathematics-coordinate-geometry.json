@@ -1,0 +1,26 @@
+{
+ "subject": "mathematics",
+ "topic": "coordinate-geometry",
+ "topicName": "Coordinate Geometry",
+ "version": 1,
+ "questions": [
+  {
+   "id": "coordinate-geometry-exam1",
+   "type": "extended",
+   "question": "Find the equation of the circle with diameter endpoints A(1,2) and B(5,6). Find the tangent at A.",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Centre = midpoint of AB = (3,4). Radius = half of AB = ½sqrt((5-1)^2+(6-2)^2) = ½sqrt32 = 2sqrt2. Circle: (x-3)^2+(y-4)^2=8. Gradient of radius OA = (2-4)/(1-3)=1. Tangent gradient = -1. Tangent at A: y-2 = -1(x-1) -> y = -x+3",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Centre = midpoint of AB = (3,4). Radius = half of AB = ½sqrt((5-1)^2+(6-2)^2) = ½sqrt32 = 2sqrt2. Circle: (x-3)^2+(y-4)^2=8. Gradient of radius OA = (2-4)/(1-3)=1. Tangent gradient = -1. Tangent at A: y-2 = -1(x-1) -> y = -x+3"
+   }
+  }
+ ]
+}

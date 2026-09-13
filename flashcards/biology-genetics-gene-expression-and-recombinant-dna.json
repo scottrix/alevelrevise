@@ -1,0 +1,24 @@
+{
+ "subject": "biology",
+ "topic": "genetics-gene-expression-and-recombinant-dna",
+ "topicName": "Genetics, Gene Expression and Recombinant DNA",
+ "version": 1,
+ "cards": [
+  {
+   "id": "genetics-gene-expression-and-recombinant-dna-fc1",
+   "front": "What should you know about epigenetics?",
+   "back": "Heritable changes in gene expression without changes to the underlying DNA base sequence (e.g. DNA methylation, histone acetylation).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "genetics-gene-expression-and-recombinant-dna-fc2",
+   "front": "What should you know about pcr?",
+   "back": "Polymerase Chain Reaction: in vitro DNA amplification via denaturation (95°C), annealing (55°C), extension (72°C).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

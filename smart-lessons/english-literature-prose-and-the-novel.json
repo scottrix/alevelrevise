@@ -1,0 +1,44 @@
+{
+ "subject": "english-literature",
+ "topic": "prose-and-the-novel",
+ "topicName": "Prose and the Novel",
+ "version": 1,
+ "steps": [
+  {
+   "id": "prose-and-the-novel-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Character: direct/indirect presentation; protagonist/antagonist; character arc"
+  },
+  {
+   "id": "prose-and-the-novel-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Narrative perspective: 1st (intimate, biased), 3rd limited (one consciousness), omniscient (all-knowing), stream of consciousness"
+  },
+  {
+   "id": "prose-and-the-novel-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Setting: time, place, atmosphere; pathetic fallacy; symbolic settings"
+  },
+  {
+   "id": "prose-and-the-novel-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Themes: developed through motifs, recurring images, contrasts, parallels"
+  },
+  {
+   "id": "prose-and-the-novel-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Discuss how the first-person narration in 'The Great Gatsby' shapes our understanding of Gatsby --- Solution: Nick as participant-observer creates intimacy but limits access to Gatsby's interiority. His judgement 'Gatsby turned out all right' frames our view. Unreliable moments (drunk at party) and admiration create ambivalence. We see Gatsby through Nick's romanticisation"
+  },
+  {
+   "id": "prose-and-the-novel-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare 1st vs 3rd person narration effects | Analyse a character foil pair | Discuss symbolic significance of a setting"
+  }
+ ]
+}

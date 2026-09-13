@@ -1,0 +1,26 @@
+{
+ "subject": "physics",
+ "topic": "thermal-physics",
+ "topicName": "Thermal Physics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "thermal-physics-exam1",
+   "type": "extended",
+   "question": "2 moles of ideal gas at 300 K compressed isothermally from 0.02 m^3 to 0.01 m^3. Find work done",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Isothermal: W = ∫PdV = ∫(nRT/V)dV = nRT ln(V₂/V₁) = 2x8.31x300xln(0.5) = -3457 J. Work done ON gas = +3457 J",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Isothermal: W = ∫PdV = ∫(nRT/V)dV = nRT ln(V₂/V₁) = 2x8.31x300xln(0.5) = -3457 J. Work done ON gas = +3457 J"
+   }
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "subject": "geography",
+ "topic": "hazards-and-global-issues",
+ "topicName": "Hazards and Global Issues",
+ "version": 1,
+ "cards": [
+  {
+   "id": "hazards-and-global-issues-fc1",
+   "front": "Recall a key point about Hazards and Global Issues",
+   "back": "Tectonic: plate boundaries; Climatic: atmospheric; Geomorphological: slope failure",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "hazards-and-global-issues-fc2",
+   "front": "Recall a key point about Hazards and Global Issues",
+   "back": "Risk = Hazard x Vulnerability / Capacity to cope; PAR model (Pressure And Release)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "hazards-and-global-issues-fc3",
+   "front": "Recall a key point about Hazards and Global Issues",
+   "back": "Evidence: Keeling curve, IPCC reports, proxy data (ice cores, tree rings); GHG: CO₂, CH₄, N₂O",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "hazards-and-global-issues-fc4",
+   "front": "Recall a key point about Hazards and Global Issues",
+   "back": "Impacts: sea level rise (thermal expansion, ice melt), extreme weather, biome shifts, ocean acidification",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "hazards-and-global-issues-fc5",
+   "front": "Recall a key point about Hazards and Global Issues",
+   "back": "Adaptation: adjust to effects (sea walls, drought crops); Mitigation: reduce causes (renewables, reforestation, CCS)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "hazards-and-global-issues-fc6",
+   "front": "Recall a key point about Hazards and Global Issues",
+   "back": "Paris 2015: <2 deg C, pursue 1.5 deg C; NDCs; climate finance; Loss and Damage; CBDR (common but differentiated responsibilities)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "subject": "mathematics",
+ "topic": "trigonometry",
+ "topicName": "Trigonometry",
+ "version": 1,
+ "steps": [
+  {
+   "id": "trigonometry-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Exact values table: sin/cos/tan for 0, pi/6, pi/4, pi/3, pi/2"
+  },
+  {
+   "id": "trigonometry-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Compound angles: sin(A+/-B), cos(A+/-B), tan(A+/-B)"
+  },
+  {
+   "id": "trigonometry-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Double angle: sin 2A = 2 sin A cos A, cos 2A = cos^2A - sin^2A = 2cos^2A-1 = 1-2sin^2A"
+  },
+  {
+   "id": "trigonometry-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "R-formula: a sin θ + b cos θ = R sin(θ + α) where R = sqrt(a^2+b^2), tan α = b/a"
+  },
+  {
+   "id": "trigonometry-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Solve 2 sin 2θ = sqrt3 cos θ for 0 <= θ < 2pi --- Solution: 2(2 sin θ cos θ) = sqrt3 cos θ -> cos θ(4 sin θ - sqrt3) = 0. cos θ = 0 -> θ = pi/2, 3pi/2. sin θ = sqrt3/4 ≈ 0.433 -> θ ≈ 0.448, 2.694"
+  },
+  {
+   "id": "trigonometry-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Prove: tan 2θ = 2tan θ/(1 - tan^2θ) | Solve 3 cos 2θ + sin θ = 1 for 0 <= θ < 360 deg | Express 3 sin θ + 4 cos θ as R sin(θ + α)"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "subject": "mathematics",
+ "topic": "differentiation",
+ "topicName": "Differentiation",
+ "version": 1,
+ "questions": [
+  {
+   "id": "differentiation-exam1",
+   "type": "extended",
+   "question": "Find the stationary points of y = x^3 - 3x^2 - 9x + 5 and determine their nature",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "y' = 3x^2 - 6x - 9 = 3(x^2 - 2x - 3) = 3(x-3)(x+1) = 0 -> x = 3 or x = -1. y'' = 6x - 6. At x = 3: y'' = 12 > 0 -> minimum at (3, -22). At x = -1: y'' = -12 < 0 -> maximum at (-1, 10)",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "y' = 3x^2 - 6x - 9 = 3(x^2 - 2x - 3) = 3(x-3)(x+1) = 0 -> x = 3 or x = -1. y'' = 6x - 6. At x = 3: y'' = 12 > 0 -> minimum at (3, -22). At x = -1: y'' = -12 < 0 -> maximum at (-1, 10)"
+   }
+  }
+ ]
+}

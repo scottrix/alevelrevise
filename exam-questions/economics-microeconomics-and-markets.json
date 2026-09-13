@@ -1,0 +1,26 @@
+{
+ "subject": "economics",
+ "topic": "microeconomics-and-markets",
+ "topicName": "Microeconomics and Markets",
+ "version": 1,
+ "questions": [
+  {
+   "id": "microeconomics-and-markets-exam1",
+   "type": "extended",
+   "question": "A monopolist faces demand P = 100 - 2Q and has MC = 20. Find profit-maximising output, price, and profit",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "MR = 100 - 4Q. Set MR = MC: 100 - 4Q = 20 -> Q = 20. P = 100 - 2(20) = 60. Profit = (P - ATC)Q. ATC = TC/Q. If TC = 20Q + 100, ATC = 20 + 5 = 25. Profit = (60-25)x20 = 700",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "MR = 100 - 4Q. Set MR = MC: 100 - 4Q = 20 -> Q = 20. P = 100 - 2(20) = 60. Profit = (P - ATC)Q. ATC = TC/Q. If TC = 20Q + 100, ATC = 20 + 5 = 25. Profit = (60-25)x20 = 700"
+   }
+  }
+ ]
+}

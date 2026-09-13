@@ -1,0 +1,44 @@
+{
+ "subject": "further-mathematics",
+ "topic": "complex-numbers",
+ "topicName": "Complex Numbers",
+ "version": 1,
+ "steps": [
+  {
+   "id": "complex-numbers-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cartesian form: z = a + bi; Polar form: z = r(cos θ + i sin θ) = re^{iθ}"
+  },
+  {
+   "id": "complex-numbers-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Modulus |z| = sqrt(a^2+b^2); Argument arg(z) = arctan(b/a) (adjust for quadrant)"
+  },
+  {
+   "id": "complex-numbers-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Conjugate: z̄ = a - bi = re^{-iθ}; Properties: z + z̄ = 2a, z z̄ = |z|^2"
+  },
+  {
+   "id": "complex-numbers-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "de Moivre: (cos θ + i sin θ)ⁿ = cos nθ + i sin nθ; (re^{iθ})ⁿ = rⁿe^{inθ}"
+  },
+  {
+   "id": "complex-numbers-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Solve z^3 = -8. Plot the roots on an Argand diagram and show they form an equilateral triangle --- Solution: z^3 = 8e^{ipi} -> z = 2e^{i(pi+2kpi)/3} for k=0,1,2. Roots: 2e^{ipi/3} = 1+isqrt3, 2e^{ipi} = -2, 2e^{i5pi/3} = 1-isqrt3. Distance between any two = sqrt((1-(-2))^2+(sqrt3-0)^2) = sqrt(9+3) = 2sqrt3 -- all equal, equilateral triangle"
+  },
+  {
+   "id": "complex-numbers-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Express (1+isqrt3)⁶ in polar form | Find all solutions to z⁴ = -16 | Solve z^2 + 4z + 13 = 0, plot roots"
+  }
+ ]
+}

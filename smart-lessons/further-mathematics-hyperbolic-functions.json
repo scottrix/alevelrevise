@@ -1,0 +1,44 @@
+{
+ "subject": "further-mathematics",
+ "topic": "hyperbolic-functions",
+ "topicName": "Hyperbolic Functions",
+ "version": 1,
+ "steps": [
+  {
+   "id": "hyperbolic-functions-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "sinh x = (eˣ - e⁻ˣ)/2, cosh x = (eˣ + e⁻ˣ)/2, tanh x = sinh x/cosh x"
+  },
+  {
+   "id": "hyperbolic-functions-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Identities: cosh^2x - sinh^2x = 1, 1 - tanh^2x = sech^2x, sinh 2x = 2 sinh x cosh x, cosh 2x = cosh^2x + sinh^2x"
+  },
+  {
+   "id": "hyperbolic-functions-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Derivatives: d/dx(sinh x) = cosh x, d/dx(cosh x) = sinh x, d/dx(tanh x) = sech^2x"
+  },
+  {
+   "id": "hyperbolic-functions-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Integrals: ∫sinh x dx = cosh x + C, ∫cosh x dx = sinh x + C, ∫sech^2x dx = tanh x + C"
+  },
+  {
+   "id": "hyperbolic-functions-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Solve 2 cosh x - 3 sinh x = 1 --- Solution: 2(eˣ+e⁻ˣ)/2 - 3(eˣ-e⁻ˣ)/2 = 1 -> eˣ+e⁻ˣ - 1.5(eˣ-e⁻ˣ) = 1 -> -0.5eˣ + 2.5e⁻ˣ = 1 -> multiply 2eˣ: -e^2ˣ + 5 = 2eˣ -> e^2ˣ + 2eˣ - 5 = 0 -> eˣ = -1 +/- sqrt6 -> eˣ = sqrt6 - 1 -> x = ln(sqrt6 - 1)"
+  },
+  {
+   "id": "hyperbolic-functions-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Prove: cosh 2x = 2cosh^2x - 1 = 1 + 2sinh^2x | ∫ sinh^2x dx | Solve: tanh x = ½"
+  }
+ ]
+}

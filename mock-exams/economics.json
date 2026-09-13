@@ -1,0 +1,57 @@
+{
+ "subject": "economics",
+ "topic": "mock-exam",
+ "topicName": "Economics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "economics-mock",
+   "name": "A-Level Economics Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 28,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[International Trade and Development] Country A: 10 labour hours for 1 cloth or 5 wine. Country B: 6 cloth or 4 wine. Who has comparative advantage in what?",
+     "correctAnswer": "A: OC 1 cloth = 2 wine (10/5), 1 wine = 0.5 cloth. B: OC 1 cloth = 0.67 wine (6/4), 1 wine = 1.5 cloth. B has CA in cloth (lower OC), A has CA in wine. A exports wine, B exports cloth. Both gain",
+     "explanation": "A: OC 1 cloth = 2 wine (10/5), 1 wine = 0.5 cloth. B: OC 1 cloth = 0.67 wine (6/4), 1 wine = 1.5 cloth. B has CA in cloth (lower OC), A has CA in wine. A exports wine, B exports cloth. Both gain",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Macroeconomics] Using AD/AS, analyse the effect of a rise in oil prices on price level and real output",
+     "correctAnswer": "Oil price rise -> production costs ↑ -> SRAS shifts left. Result: price level rises (cost-push inflation), real output falls (stagflation). If central bank accommodates (AD↑), output restored but inflation higher. If not, recession",
+     "explanation": "Oil price rise -> production costs ↑ -> SRAS shifts left. Result: price level rises (cost-push inflation), real output falls (stagflation). If central bank accommodates (AD↑), output restored but inflation higher. If not, recession",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Market Failure and Government Intervention] A factory pollutes a river. MPC = 20+Q, MEC = 5, MPB = 100-Q. Find market output, social optimum, and tax",
+     "correctAnswer": "Market: MPC=MPB -> 20+Q=100-Q -> Q=40. Social: MSC=MSB -> 20+Q+5=100-Q -> 2Q=75 -> Q=37.5. Tax = MEC = 5 per unit. At Q=37.5, P=100-37.5=62.5. Tax revenue = 5x37.5=187.5",
+     "explanation": "Market: MPC=MPB -> 20+Q=100-Q -> Q=40. Social: MSC=MSB -> 20+Q+5=100-Q -> 2Q=75 -> Q=37.5. Tax = MEC = 5 per unit. At Q=37.5, P=100-37.5=62.5. Tax revenue = 5x37.5=187.5",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Microeconomics and Markets] A monopolist faces demand P = 100 - 2Q and has MC = 20. Find profit-maximising output, price, and profit",
+     "correctAnswer": "MR = 100 - 4Q. Set MR = MC: 100 - 4Q = 20 -> Q = 20. P = 100 - 2(20) = 60. Profit = (P - ATC)Q. ATC = TC/Q. If TC = 20Q + 100, ATC = 20 + 5 = 25. Profit = (60-25)x20 = 700",
+     "explanation": "MR = 100 - 4Q. Set MR = MC: 100 - 4Q = 20 -> Q = 20. P = 100 - 2(20) = 60. Profit = (P - ATC)Q. ATC = TC/Q. If TC = 20Q + 100, ATC = 20 + 5 = 25. Profit = (60-25)x20 = 700",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

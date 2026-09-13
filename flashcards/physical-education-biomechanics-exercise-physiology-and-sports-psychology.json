@@ -1,0 +1,24 @@
+{
+ "subject": "physical-education",
+ "topic": "biomechanics-exercise-physiology-and-sports-psychology",
+ "topicName": "Biomechanics, Exercise Physiology and Sports Psychology",
+ "version": 1,
+ "cards": [
+  {
+   "id": "biomechanics-exercise-physiology-and-sports-psychology-fc1",
+   "front": "What should you know about vo2 max?",
+   "back": "The maximum volume of oxygen an individual can uptake, transport, and utilise per minute during maximal exercise.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biomechanics-exercise-physiology-and-sports-psychology-fc2",
+   "front": "What should you know about inverted-u theory?",
+   "back": "Arousal theory stating performance increases with arousal up to an optimal midpoint, beyond which performance deteriorates.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

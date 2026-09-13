@@ -1,0 +1,26 @@
+{
+ "subject": "business-studies",
+ "topic": "finance-and-accounts",
+ "topicName": "Finance and Accounts",
+ "version": 1,
+ "questions": [
+  {
+   "id": "finance-and-accounts-exam1",
+   "type": "extended",
+   "question": "FC=GBP 50,000, VC=GBP 5/unit, P=GBP 15. Find break-even, margin of safety at 12,000 units, units for GBP 30,000 profit",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Contribution = 15-5=10. BE = 50,000/10 = 5,000 units. MoS = 12,000 - 5,000 = 7,000 units (58%). Target: (50,000+30,000)/10 = 8,000 units",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Contribution = 15-5=10. BE = 50,000/10 = 5,000 units. MoS = 12,000 - 5,000 = 7,000 units (58%). Target: (50,000+30,000)/10 = 8,000 units"
+   }
+  }
+ ]
+}

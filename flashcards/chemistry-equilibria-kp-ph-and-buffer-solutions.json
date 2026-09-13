@@ -1,0 +1,24 @@
+{
+ "subject": "chemistry",
+ "topic": "equilibria-kp-ph-and-buffer-solutions",
+ "topicName": "Equilibria, Kp, pH and Buffer Solutions",
+ "version": 1,
+ "cards": [
+  {
+   "id": "equilibria-kp-ph-and-buffer-solutions-fc1",
+   "front": "What should you know about buffer solution?",
+   "back": "A solution that maintains approximately constant pH when small quantities of acid or base are added.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "equilibria-kp-ph-and-buffer-solutions-fc2",
+   "front": "What should you know about acid dissociation constant (ka)?",
+   "back": "Ka = [H⁺][A⁻]/[HA]; pKa = -log₁₀ Ka.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

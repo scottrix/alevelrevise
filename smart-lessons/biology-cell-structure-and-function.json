@@ -1,0 +1,44 @@
+{
+ "subject": "biology",
+ "topic": "cell-structure-and-function",
+ "topicName": "Cell Structure and Function",
+ "version": 1,
+ "steps": [
+  {
+   "id": "cell-structure-and-function-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Nucleus: DNA, nucleolus; Mitochondria: respiration, cristae; RER/SER: protein/lipid synthesis; Golgi: modification, packaging; Lysosomes: hydrolytic enzymes; Chloroplasts: photosynthesis; Vacuole: turgor"
+  },
+  {
+   "id": "cell-structure-and-function-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Prokaryotes: no nucleus, 70S ribosomes, circular DNA, plasmids, cell wall (peptidoglycan); Eukaryotes: 80S ribosomes, linear DNA, membrane-bound organelles"
+  },
+  {
+   "id": "cell-structure-and-function-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Fluid mosaic: phospholipid bilayer, proteins (integral/peripheral), cholesterol, glycoproteins; Transport: simple diffusion, facilitated (channel/carrier), active (Na⁺/K⁺ pump), endo/exocytosis"
+  },
+  {
+   "id": "cell-structure-and-function-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cell cycle: interphase (G₁,S,G₂), M phase (mitosis: PMAT), cytokinesis; Meiosis: two divisions, crossing over (prophase I), independent assortment -> genetic variation"
+  },
+  {
+   "id": "cell-structure-and-function-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain how the structure of the mitochondria enables efficient aerobic respiration --- Solution: Double membrane: outer permeable, inner folded into cristae (large SA for ETC). Matrix contains Krebs cycle enzymes. Intermembrane space accumulates H⁺ for chemiosmosis. Own DNA/ribosomes for some ETC proteins"
+  },
+  {
+   "id": "cell-structure-and-function-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare 70S vs 80S ribosomes | Describe Na⁺/K⁺ pump mechanism | Explain significance of crossing over in meiosis I"
+  }
+ ]
+}

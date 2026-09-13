@@ -1,0 +1,48 @@
+{
+ "subject": "biology",
+ "topic": "cell-structure-and-function",
+ "topicName": "Cell Structure and Function",
+ "version": 1,
+ "cards": [
+  {
+   "id": "cell-structure-and-function-fc1",
+   "front": "Recall a key point about Cell Structure and Function",
+   "back": "Nucleus: DNA, nucleolus; Mitochondria: respiration, cristae; RER/SER: protein/lipid synthesis; Golgi: modification, packaging; Lysosomes: hydrolytic enzymes; Chloroplasts: photosynthesis; Vacuole: turgor",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cell-structure-and-function-fc2",
+   "front": "Recall a key point about Cell Structure and Function",
+   "back": "Prokaryotes: no nucleus, 70S ribosomes, circular DNA, plasmids, cell wall (peptidoglycan); Eukaryotes: 80S ribosomes, linear DNA, membrane-bound organelles",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cell-structure-and-function-fc3",
+   "front": "Recall a key point about Cell Structure and Function",
+   "back": "Fluid mosaic: phospholipid bilayer, proteins (integral/peripheral), cholesterol, glycoproteins; Transport: simple diffusion, facilitated (channel/carrier), active (Na⁺/K⁺ pump), endo/exocytosis",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cell-structure-and-function-fc4",
+   "front": "Recall a key point about Cell Structure and Function",
+   "back": "Cell cycle: interphase (G₁,S,G₂), M phase (mitosis: PMAT), cytokinesis; Meiosis: two divisions, crossing over (prophase I), independent assortment -> genetic variation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "cell-structure-and-function-fc5",
+   "front": "Recall a key point about Cell Structure and Function",
+   "back": "Tissues: groups of similar cells; Organs: multiple tissues; Systems: multiple organs",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

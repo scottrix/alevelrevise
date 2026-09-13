@@ -1,0 +1,26 @@
+{
+ "subject": "history",
+ "topic": "themed-study:-key-eras",
+ "topicName": "Themed Study: Key Eras",
+ "version": 1,
+ "questions": [
+  {
+   "id": "themed-study-key-eras-exam1",
+   "type": "extended",
+   "question": "To what extent was 1066 a turning point in English history?",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Significant change: Norman elite replaced Anglo-Saxon, feudalism introduced, language (French influence), church reform, castle-building, Domesday Book. Continuity: shire system, common law roots, parish structure, monarchy institution. Assessment: political/cultural rupture but administrative continuity",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Significant change: Norman elite replaced Anglo-Saxon, feudalism introduced, language (French influence), church reform, castle-building, Domesday Book. Continuity: shire system, common law roots, parish structure, monarchy institution. Assessment: political/cultural rupture but administrative continuity"
+   }
+  }
+ ]
+}

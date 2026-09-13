@@ -1,0 +1,26 @@
+{
+ "subject": "geography",
+ "topic": "fieldwork-and-data-collection",
+ "topicName": "Fieldwork and Data Collection",
+ "version": 1,
+ "questions": [
+  {
+   "id": "fieldwork-and-data-collection-exam1",
+   "type": "extended",
+   "question": "Design a hypothesis and sampling strategy to investigate how footpath erosion varies with distance from a car park in a national park",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hypothesis: Footpath erosion decreases with distance from car park due to visitor pressure decay. Systematic sampling: measure path width, depth, vegetation cover every 50m along 1km transect. Risk: weather, terrain. Ethics: minimise disturbance",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Hypothesis: Footpath erosion decreases with distance from car park due to visitor pressure decay. Systematic sampling: measure path width, depth, vegetation cover every 50m along 1km transect. Risk: weather, terrain. Ethics: minimise disturbance"
+   }
+  }
+ ]
+}

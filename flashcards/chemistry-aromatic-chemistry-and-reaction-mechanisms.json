@@ -1,0 +1,24 @@
+{
+ "subject": "chemistry",
+ "topic": "aromatic-chemistry-and-reaction-mechanisms",
+ "topicName": "Aromatic Chemistry and Reaction Mechanisms",
+ "version": 1,
+ "cards": [
+  {
+   "id": "aromatic-chemistry-and-reaction-mechanisms-fc1",
+   "front": "What should you know about electrophilic aromatic substitution?",
+   "back": "Reaction where electrophile replaces H on benzene ring, preserving the stable delocalised π-system.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "aromatic-chemistry-and-reaction-mechanisms-fc2",
+   "front": "What should you know about delocalisation energy?",
+   "back": "152 kJ/mol extra stability of benzene over theoretical cyclohexa-1,3,5-triene.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

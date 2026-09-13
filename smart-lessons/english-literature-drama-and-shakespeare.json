@@ -1,0 +1,44 @@
+{
+ "subject": "english-literature",
+ "topic": "drama-and-shakespeare",
+ "topicName": "Drama and Shakespeare",
+ "version": 1,
+ "steps": [
+  {
+   "id": "drama-and-shakespeare-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Soliloquy: character alone, reveals inner thoughts; Aside: to audience, others don't hear"
+  },
+  {
+   "id": "drama-and-shakespeare-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Dramatic irony: audience knows more than characters; creates tension"
+  },
+  {
+   "id": "drama-and-shakespeare-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Blank verse: unrhymed iambic pentameter (nobles); Prose: lower status, madness, intimacy"
+  },
+  {
+   "id": "drama-and-shakespeare-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Shakespearean imagery: clothing, blood, disease, nature, light/dark"
+  },
+  {
+   "id": "drama-and-shakespeare-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: How does the 'dagger soliloquy' (Macbeth 2.1) reveal Macbeth's state of mind? --- Solution: Hallucinated dagger shows guilt before action. 'Is this a dagger which I see before me?' -- rhetorical question. 'Bloody business' -- euphemism. 'Hecate's offer' -- supernatural. 'Words to the heat of deeds too cold breath gives' -- hesitation. Rhyme 'knell/summon' = finality"
+  },
+  {
+   "id": "drama-and-shakespeare-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Analyse dramatic irony in a key scene | Compare verse vs prose for a character | Discuss how staging affects interpretation"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "music",
+ "topic": "western-classical-harmony-sonata-form-and-score-analysis",
+ "topicName": "Western Classical Harmony, Sonata Form and Score Analysis",
+ "version": 1,
+ "cards": [
+  {
+   "id": "western-classical-harmony-sonata-form-and-score-analysis-fc1",
+   "front": "What should you know about sonata form?",
+   "back": "A tripartite musical structure comprising Exposition (Theme 1 in tonic, Theme 2 in dominant), Development, and Recapitulation.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "western-classical-harmony-sonata-form-and-score-analysis-fc2",
+   "front": "What should you know about circle of fifths?",
+   "back": "Geometric representation of chromatic relationships among the 12 pitch classes and corresponding key signatures.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

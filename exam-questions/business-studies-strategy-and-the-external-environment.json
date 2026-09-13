@@ -1,0 +1,26 @@
+{
+ "subject": "business-studies",
+ "topic": "strategy-and-the-external-environment",
+ "topicName": "Strategy and the External Environment",
+ "version": 1,
+ "questions": [
+  {
+   "id": "strategy-and-the-external-environment-exam1",
+   "type": "extended",
+   "question": "Use Porter's Five Forces to analyse the UK supermarket industry",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Rivalry: high (Tesco, Sainsbury, Asda, Morrisons, Aldi, Lidl -- price wars). New entrants: low (high capital, established supply chains, brand loyalty). Substitutes: medium (convenience stores, online, markets). Buyer power: high (price-sensitive, low switching cost, loyalty cards). Supplier power: medium (large buyers, but branded goods have power). Overall: low profitability",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Rivalry: high (Tesco, Sainsbury, Asda, Morrisons, Aldi, Lidl -- price wars). New entrants: low (high capital, established supply chains, brand loyalty). Substitutes: medium (convenience stores, online, markets). Buyer power: high (price-sensitive, low switching cost, loyalty cards). Supplier power: medium (large buyers, but branded goods have power). Overall: low profitability"
+   }
+  }
+ ]
+}

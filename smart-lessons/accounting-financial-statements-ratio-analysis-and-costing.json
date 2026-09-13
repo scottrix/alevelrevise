@@ -1,0 +1,20 @@
+{
+ "subject": "accounting",
+ "topic": "financial-statements-ratio-analysis-and-costing",
+ "topicName": "Financial Statements, Ratio Analysis and Costing",
+ "version": 1,
+ "steps": [
+  {
+   "id": "financial-statements-ratio-analysis-and-costing-s1",
+   "kind": "learn",
+   "title": "Double-Entry System",
+   "body": "Every financial transaction affects at least two accounts with equal and opposite Debit and Credit entries (Assets = Liabilities + Equity)."
+  },
+  {
+   "id": "financial-statements-ratio-analysis-and-costing-s2",
+   "kind": "learn",
+   "title": "Break-Even Point",
+   "body": "The level of output where total revenue equals total costs: Fixed Costs / Contribution per unit."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "subject": "geography",
+ "topic": "human-geography",
+ "topicName": "Human Geography",
+ "version": 1,
+ "cards": [
+  {
+   "id": "human-geography-fc1",
+   "front": "Recall a key point about Human Geography",
+   "back": "Urbanisation: % urban pop increasing; megacities >10M; counterurbanisation (rich to rural); reurbanisation (gentrification)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "human-geography-fc2",
+   "front": "Recall a key point about Human Geography",
+   "back": "DTM: Stage 1 (high BR/DR), 2 (falling DR), 3 (falling BR), 4 (low BR/DR), 5 (BR<DR); Pyramids: expanding, stationary, contracting",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "human-geography-fc3",
+   "front": "Recall a key point about Human Geography",
+   "back": "Migration: push (war, poverty, enviro) vs pull (jobs, safety, services); Lee's model",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "human-geography-fc4",
+   "front": "Recall a key point about Human Geography",
+   "back": "Development: HDI (health, education, income); GNI per capita; inequality (Gini, Lorenz)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "human-geography-fc5",
+   "front": "Recall a key point about Human Geography",
+   "back": "Globalisation: time-space compression; TNCs; global supply chains; winners/losers",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "human-geography-fc6",
+   "front": "Recall a key point about Human Geography",
+   "back": "Sustainability: Brundtland def; ecological footprint; SDGs 17 goals",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

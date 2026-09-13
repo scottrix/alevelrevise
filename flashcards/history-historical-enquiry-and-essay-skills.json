@@ -1,0 +1,48 @@
+{
+ "subject": "history",
+ "topic": "historical-enquiry-and-essay-skills",
+ "topicName": "Historical Enquiry and Essay Skills",
+ "version": 1,
+ "cards": [
+  {
+   "id": "historical-enquiry-and-essay-skills-fc1",
+   "front": "Recall a key point about Historical Enquiry and Essay Skills",
+   "back": "Good question: specific, debatable, evidence-based, manageable scope (not 'Why WWI?' but 'How far did German naval policy cause WWI?')",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-fc2",
+   "front": "Recall a key point about Historical Enquiry and Essay Skills",
+   "back": "Essay structure: intro (thesis + line of argument), themed paragraphs (PEEL), conclusion (judgement + significance)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-fc3",
+   "front": "Recall a key point about Historical Enquiry and Essay Skills",
+   "back": "Evidence: select best, not all; deploy precisely (dates, stats, quotes); weigh (corroboration, provenance)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-fc4",
+   "front": "Recall a key point about Historical Enquiry and Essay Skills",
+   "back": "Judgement: 'ultimately', 'more significantly', 'on balance'; avoid fence-sitting; relative significance",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "historical-enquiry-and-essay-skills-fc5",
+   "front": "Recall a key point about Historical Enquiry and Essay Skills",
+   "back": "Citation: footnotes (Chicago) or in-text; bibliography; primary/secondary distinction",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

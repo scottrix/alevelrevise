@@ -1,0 +1,26 @@
+{
+ "subject": "english-literature",
+ "topic": "critical-writing-and-context",
+ "topicName": "Critical Writing and Context",
+ "version": 1,
+ "questions": [
+  {
+   "id": "critical-writing-and-context-exam1",
+   "type": "extended",
+   "question": "Write a thesis statement for: 'Explore how Shakespeare presents ambition in Macbeth'",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Shakespeare presents ambition as a corrupting force that destroys moral order, using Macbeth's hamartia and Lady Macbeth's manipulation to show how unchecked desire for power leads to tyranny and self-destruction, ultimately restored by divine retribution",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Shakespeare presents ambition as a corrupting force that destroys moral order, using Macbeth's hamartia and Lady Macbeth's manipulation to show how unchecked desire for power leads to tyranny and self-destruction, ultimately restored by divine retribution"
+   }
+  }
+ ]
+}

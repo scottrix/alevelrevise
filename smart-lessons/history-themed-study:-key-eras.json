@@ -1,0 +1,44 @@
+{
+ "subject": "history",
+ "topic": "themed-study:-key-eras",
+ "topicName": "Themed Study: Key Eras",
+ "version": 1,
+ "steps": [
+  {
+   "id": "themed-study-key-eras-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Causes: long-term (structural: economic, social, ideological) vs short-term (triggers, contingent events)"
+  },
+  {
+   "id": "themed-study-key-eras-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Turning points: moments of decisive change; evaluate extent of change vs continuity after"
+  },
+  {
+   "id": "themed-study-key-eras-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Change vs continuity: what changed, what stayed same; rate, direction, depth of change"
+  },
+  {
+   "id": "themed-study-key-eras-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Structural forces: demography, economy, geography; Contingent: individual decisions, accidents, weather"
+  },
+  {
+   "id": "themed-study-key-eras-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: To what extent was 1066 a turning point in English history? --- Solution: Significant change: Norman elite replaced Anglo-Saxon, feudalism introduced, language (French influence), church reform, castle-building, Domesday Book. Continuity: shire system, common law roots, parish structure, monarchy institution. Assessment: political/cultural rupture but administrative continuity"
+  },
+  {
+   "id": "themed-study-key-eras-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Analyse causes of the French Revolution: long-term vs short-term | Was 1918 a turning point for women in Britain? | Compare change/continuity in Tudor religious policy"
+  }
+ ]
+}

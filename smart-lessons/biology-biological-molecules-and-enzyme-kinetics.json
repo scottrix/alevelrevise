@@ -1,0 +1,20 @@
+{
+ "subject": "biology",
+ "topic": "biological-molecules-and-enzyme-kinetics",
+ "topicName": "Biological Molecules and Enzyme Kinetics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "biological-molecules-and-enzyme-kinetics-s1",
+   "kind": "learn",
+   "title": "Induced Fit Model",
+   "body": "Substrate binding causes conformational change in enzyme's active site, lowering activation energy."
+  },
+  {
+   "id": "biological-molecules-and-enzyme-kinetics-s2",
+   "kind": "learn",
+   "title": "Primary Structure",
+   "body": "Unique sequence of amino acids linked by covalent peptide bonds in a polypeptide."
+  }
+ ]
+}

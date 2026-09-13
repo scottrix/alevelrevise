@@ -1,0 +1,20 @@
+{
+ "subject": "law",
+ "topic": "the-english-legal-system-criminal-and-tort-law",
+ "topicName": "The English Legal System, Criminal and Tort Law",
+ "version": 1,
+ "steps": [
+  {
+   "id": "the-english-legal-system-criminal-and-tort-law-s1",
+   "kind": "learn",
+   "title": "Stare Decisis",
+   "body": "The legal principle of adhering to established precedent in subsequent similar cases."
+  },
+  {
+   "id": "the-english-legal-system-criminal-and-tort-law-s2",
+   "kind": "learn",
+   "title": "Mens Rea",
+   "body": "The guilty mind or fault element required for criminal liability (intention or subjective recklessness)."
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "psychology",
+ "topic": "social-influence-and-memory-models",
+ "topicName": "Social Influence and Memory Models",
+ "version": 1,
+ "cards": [
+  {
+   "id": "social-influence-and-memory-models-fc1",
+   "front": "What should you know about conformity?",
+   "back": "A change in a person's behaviour or opinion as a result of real or imagined group pressure (NSI vs ISI).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "social-influence-and-memory-models-fc2",
+   "front": "What should you know about working memory model?",
+   "back": "Multi-component active memory model comprising Central Executive, Phonological Loop, Visuo-Spatial Sketchpad, Episodic Buffer.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

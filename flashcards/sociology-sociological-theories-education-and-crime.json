@@ -1,0 +1,24 @@
+{
+ "subject": "sociology",
+ "topic": "sociological-theories-education-and-crime",
+ "topicName": "Sociological Theories, Education and Crime",
+ "version": 1,
+ "cards": [
+  {
+   "id": "sociological-theories-education-and-crime-fc1",
+   "front": "What should you know about cultural capital?",
+   "back": "Bourdieu's concept of cultural assets (knowledge, taste, language) passed down by middle-class parents that enhance educational success.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sociological-theories-education-and-crime-fc2",
+   "front": "What should you know about labelling theory?",
+   "back": "Interactionist theory (Becker) stating that deviance is not inherent in an act, but is a consequence of social reactions and labels applied by authority.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subject": "mathematics",
+ "topic": "algebraic-methods-and-proof",
+ "topicName": "Algebraic Methods and Proof",
+ "version": 1,
+ "steps": [
+  {
+   "id": "algebraic-methods-and-proof-s1",
+   "kind": "learn",
+   "title": "Proof by Contradiction",
+   "body": "Establishing truth by demonstrating that assuming the statement to be false leads to a logical contradiction."
+  },
+  {
+   "id": "algebraic-methods-and-proof-s2",
+   "kind": "learn",
+   "title": "Partial Fractions",
+   "body": "Decomposing rational fractions P(x)/Q(x) into sums of simpler terms with linear or quadratic denominators."
+  }
+ ]
+}

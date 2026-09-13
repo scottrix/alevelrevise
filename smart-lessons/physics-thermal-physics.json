@@ -1,0 +1,44 @@
+{
+ "subject": "physics",
+ "topic": "thermal-physics",
+ "topicName": "Thermal Physics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "thermal-physics-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Internal energy U = Σ(KE + PE) of molecules; Temperature ∝ mean KE per molecule"
+  },
+  {
+   "id": "thermal-physics-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Q = mcDeltaθ (no phase change); Q = mL (phase change); L_fusion, L_vaporisation"
+  },
+  {
+   "id": "thermal-physics-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "1st law: DeltaU = Q + W; W = ∫PdV (work done ON gas); Q +ve into system, W +ve on system"
+  },
+  {
+   "id": "thermal-physics-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ideal gas: pV = nRT = NkT; Boyle p∝1/V (isothermal), Charles V∝T (isobaric), Pressure p∝T (isochoric)"
+  },
+  {
+   "id": "thermal-physics-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: 2 moles of ideal gas at 300 K compressed isothermally from 0.02 m^3 to 0.01 m^3. Find work done --- Solution: Isothermal: W = ∫PdV = ∫(nRT/V)dV = nRT ln(V₂/V₁) = 2x8.31x300xln(0.5) = -3457 J. Work done ON gas = +3457 J"
+  },
+  {
+   "id": "thermal-physics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Heat to raise 500 g water from 20 deg C to 80 deg C (c=4180) | 1 mole gas at 27 deg C, V=0.022 m^3. Find pressure | Explain why C_p > C_v for ideal gas"
+  }
+ ]
+}

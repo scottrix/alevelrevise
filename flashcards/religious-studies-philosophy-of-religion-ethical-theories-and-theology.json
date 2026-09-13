@@ -1,0 +1,24 @@
+{
+ "subject": "religious-studies",
+ "topic": "philosophy-of-religion-ethical-theories-and-theology",
+ "topicName": "Philosophy of Religion, Ethical Theories and Theology",
+ "version": 1,
+ "cards": [
+  {
+   "id": "philosophy-of-religion-ethical-theories-and-theology-fc1",
+   "front": "What should you know about teleological argument?",
+   "back": "Argument for God's existence based on evidence of design, purpose, and order in the universe (Paley's Watchmaker).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "philosophy-of-religion-ethical-theories-and-theology-fc2",
+   "front": "What should you know about categorical imperative?",
+   "back": "Kant's deontological moral command: act only according to maxims you can universalise as universal law.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "chemistry",
+ "topic": "thermodynamics-and-born-haber-cycles",
+ "topicName": "Thermodynamics and Born-Haber Cycles",
+ "version": 1,
+ "cards": [
+  {
+   "id": "thermodynamics-and-born-haber-cycles-fc1",
+   "front": "What should you know about lattice enthalpy?",
+   "back": "Enthalpy change when one mole of solid ionic lattice forms from gaseous ions under standard conditions (exothermic).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "thermodynamics-and-born-haber-cycles-fc2",
+   "front": "What should you know about gibbs free energy?",
+   "back": "ΔG = ΔH - TΔS. A reaction is thermodynamically feasible when ΔG ≤ 0.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

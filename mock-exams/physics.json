@@ -1,0 +1,67 @@
+{
+ "subject": "physics",
+ "topic": "mock-exam",
+ "topicName": "Physics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "physics-mock",
+   "name": "A-Level Physics Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Electricity and Circuits] A 12 V battery with internal resistance 0.5 Ω is connected to a 5.5 Ω resistor. Find current, terminal PD, power delivered to load, and power wasted in battery",
+     "correctAnswer": "Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2",
+     "explanation": "Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Mechanics and Motion] A 0.5 kg ball is projected at 20 m/s at 30 deg to horizontal. Find maximum height, range, and speed at impact",
+     "correctAnswer": "uₓ = 20cos30 deg = 10sqrt3 ≈ 17.32 m/s; uᵧ = 20sin30 deg = 10 m/s. Max height: vᵧ^2 = uᵧ^2 - 2gh -> 0 = 100 - 19.6h -> h = 5.10 m. Time of flight: t = 2uᵧ/g = 20/9.8 = 2.04 s. Range = uₓ x t = 17.32 x 2.04 = 35.3 m. At impact: vᵧ = -10 m/s, v = sqrt(17.32^2 + 10^2) = 20 m/s",
+     "explanation": "uₓ = 20cos30 deg = 10sqrt3 ≈ 17.32 m/s; uᵧ = 20sin30 deg = 10 m/s. Max height: vᵧ^2 = uᵧ^2 - 2gh -> 0 = 100 - 19.6h -> h = 5.10 m. Time of flight: t = 2uᵧ/g = 20/9.8 = 2.04 s. Range = uₓ x t = 17.32 x 2.04 = 35.3 m. At impact: vᵧ = -10 m/s, v = sqrt(17.32^2 + 10^2) = 20 m/s",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Particles and Quantum Physics] Electrons accelerated through 150 V. Find de Broglie wavelength and explain if diffraction observable",
+     "correctAnswer": "λ = h/sqrt(2meV) = 6.63x10⁻^3⁴ / sqrt(2x9.11x10⁻^3¹x1.6x10⁻¹⁹x150) ≈ 1.0x10⁻¹⁰ m = 0.1 nm. Comparable to atomic spacing -> diffraction observable (e.g. Davisson-Germer)",
+     "explanation": "λ = h/sqrt(2meV) = 6.63x10⁻^3⁴ / sqrt(2x9.11x10⁻^3¹x1.6x10⁻¹⁹x150) ≈ 1.0x10⁻¹⁰ m = 0.1 nm. Comparable to atomic spacing -> diffraction observable (e.g. Davisson-Germer)",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Thermal Physics] 2 moles of ideal gas at 300 K compressed isothermally from 0.02 m^3 to 0.01 m^3. Find work done",
+     "correctAnswer": "Isothermal: W = ∫PdV = ∫(nRT/V)dV = nRT ln(V₂/V₁) = 2x8.31x300xln(0.5) = -3457 J. Work done ON gas = +3457 J",
+     "explanation": "Isothermal: W = ∫PdV = ∫(nRT/V)dV = nRT ln(V₂/V₁) = 2x8.31x300xln(0.5) = -3457 J. Work done ON gas = +3457 J",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Waves] Light of wavelength 500 nm passes through double slits 0.2 mm apart. Fringes observed on screen 2.5 m away. Find fringe spacing",
+     "correctAnswer": "w = λD/s = (500x10⁻⁹ x 2.5) / (0.2x10⁻^3) = 6.25x10⁻^3 m = 6.25 mm",
+     "explanation": "w = λD/s = (500x10⁻⁹ x 2.5) / (0.2x10⁻^3) = 6.25x10⁻^3 m = 6.25 mm",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

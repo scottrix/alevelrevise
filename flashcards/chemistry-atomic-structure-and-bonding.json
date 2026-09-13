@@ -1,0 +1,64 @@
+{
+ "subject": "chemistry",
+ "topic": "atomic-structure-and-bonding",
+ "topicName": "Atomic Structure and Bonding",
+ "version": 1,
+ "cards": [
+  {
+   "id": "atomic-structure-and-bonding-fc1",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "Atomic structure: p⁺, n⁰, e⁻; isotopes = same Z, different A; electron config: 1s^22s^22p⁶...",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "atomic-structure-and-bonding-fc2",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "Ionisation energy: increases across period (↑Z_eff), decreases down group (↑shielding, ↑n)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "atomic-structure-and-bonding-fc3",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "Ionic: metal + non-metal, electron transfer, lattice; Covalent: non-metal + non-metal, sharing",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "atomic-structure-and-bonding-fc4",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "Electronegativity (Pauling): increases across, decreases down; >1.7 ionic, <0.4 non-polar covalent",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "atomic-structure-and-bonding-fc5",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "VSEPR: electron pairs repel; 2bp -> linear, 3bp -> trigonal planar, 4bp -> tetrahedral, lone pairs reduce angles",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "atomic-structure-and-bonding-fc6",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "IMFs: London (all molecules, ∝ electrons), dipole-dipole (polar), H-bonding (H on N,O,F)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "atomic-structure-and-bonding-fc7",
+   "front": "Recall a key point about Atomic Structure and Bonding",
+   "back": "Properties: Giant ionic/covalent/metallic -> high MP; Simple molecular -> low MP; H-bonding -> higher MP/BP",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "mathematics",
+ "topic": "statistical-distributions-and-hypothesis-testing",
+ "topicName": "Statistical Distributions and Hypothesis Testing",
+ "version": 1,
+ "cards": [
+  {
+   "id": "statistical-distributions-and-hypothesis-testing-fc1",
+   "front": "What should you know about binomial distribution?",
+   "back": "X ~ B(n, p) for n independent trials with constant success probability p.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "statistical-distributions-and-hypothesis-testing-fc2",
+   "front": "What should you know about normal distribution?",
+   "back": "X ~ N(μ, σ²) continuous symmetric distribution standardised via Z = (X - μ)/σ.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

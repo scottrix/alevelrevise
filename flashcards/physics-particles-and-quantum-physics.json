@@ -1,0 +1,72 @@
+{
+ "subject": "physics",
+ "topic": "particles-and-quantum-physics",
+ "topicName": "Particles and Quantum Physics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "particles-and-quantum-physics-fc1",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Quarks (u,d,s,c,b,t) in baryons (3) and mesons (q q̄); Leptons (e,μ,τ,νₑ,ν_μ,ν_τ)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc2",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Interactions: strong (gluons, q-q), weak (W+/-, Z⁰, β decay), EM (γ, charged), gravity (negligible)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc3",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Conservation: charge, B, L, S in strong/EM; only charge, B-L in weak",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc4",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Photoelectric: hf = φ + KE_max; threshold f₀ = φ/h; no time lag; intensity ∝ number of photons",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc5",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "de Broglie: λ = h/p = h/sqrt(2meV) for electrons; diffraction proves wave nature",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc6",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Line spectra: electrons move between discrete levels; emission (excited->ground), absorption (ground->excited)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc7",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Energy levels: E_n = -13.6/n^2 eV (hydrogen); transitions give DeltaE = hf",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particles-and-quantum-physics-fc8",
+   "front": "Recall a key point about Particles and Quantum Physics",
+   "back": "Detectors: ionisation trails in cloud/bubble chambers; Si detectors measure energy",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

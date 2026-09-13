@@ -1,0 +1,56 @@
+{
+ "subject": "computer-science",
+ "topic": "computer-systems-and-architecture",
+ "topicName": "Computer Systems and Architecture",
+ "version": 1,
+ "cards": [
+  {
+   "id": "computer-systems-and-architecture-fc1",
+   "front": "Recall a key point about Computer Systems and Architecture",
+   "back": "CPU: ALU (arithmetic/logic), CU (control signals), Registers: PC (next instruction), ACC (results), MAR (address), MDR (data), CIR (instruction), SR (flags)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "computer-systems-and-architecture-fc2",
+   "front": "Recall a key point about Computer Systems and Architecture",
+   "back": "FDE: Fetch (PC to MAR, memory to MDR/CIR, PC++), Decode (CU interprets CIR), Execute (ALU/control)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "computer-systems-and-architecture-fc3",
+   "front": "Recall a key point about Computer Systems and Architecture",
+   "back": "Pipelining: fetch/decode/execute overlap; hazards (data, control, structural)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "computer-systems-and-architecture-fc4",
+   "front": "Recall a key point about Computer Systems and Architecture",
+   "back": "Memory: Registers > L1 cache > L2 > L3 > RAM > SSD > HDD; Virtual memory: paging, page table, TLB, page fault",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "computer-systems-and-architecture-fc5",
+   "front": "Recall a key point about Computer Systems and Architecture",
+   "back": "CISC: complex instructions, variable length, microcode; RISC: simple, fixed length, load/store, more registers",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "computer-systems-and-architecture-fc6",
+   "front": "Recall a key point about Computer Systems and Architecture",
+   "back": "Parallel: SIMD (single instruction, multiple data), MIMD (multicore); Amdahl: speedup = 1/((1-p) + p/n)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

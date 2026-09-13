@@ -1,0 +1,48 @@
+{
+ "subject": "economics",
+ "topic": "market-failure-and-government-intervention",
+ "topicName": "Market Failure and Government Intervention",
+ "version": 1,
+ "cards": [
+  {
+   "id": "market-failure-and-government-intervention-fc1",
+   "front": "Recall a key point about Market Failure and Government Intervention",
+   "back": "Externalities: divergence private/social costs/benefits; Negative: MSC>MPC (pollution); Positive: MSB>MPB (education)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "market-failure-and-government-intervention-fc2",
+   "front": "Recall a key point about Market Failure and Government Intervention",
+   "back": "Pigouvian tax = MEC at optimum; Subsidy = MEB; Tradable permits: cap-and-trade; Regulation: standards/bans",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "market-failure-and-government-intervention-fc3",
+   "front": "Recall a key point about Market Failure and Government Intervention",
+   "back": "Public goods: non-excludable (can't stop use), non-rival (one's use doesn't reduce other's) -> free rider -> underprovision",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "market-failure-and-government-intervention-fc4",
+   "front": "Recall a key point about Market Failure and Government Intervention",
+   "back": "Info asymmetry: adverse selection (pre-contract, hidden info), moral hazard (post-contract, hidden action); Solutions: signalling, screening, regulation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "market-failure-and-government-intervention-fc5",
+   "front": "Recall a key point about Market Failure and Government Intervention",
+   "back": "Competition: CMA investigates mergers (SLC test), cartels (price-fixing), abuse of dominance; Regulation: price caps (RPI-X), profit caps",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

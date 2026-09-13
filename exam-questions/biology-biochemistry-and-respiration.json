@@ -1,0 +1,26 @@
+{
+ "subject": "biology",
+ "topic": "biochemistry-and-respiration",
+ "topicName": "Biochemistry and Respiration",
+ "version": 1,
+ "questions": [
+  {
+   "id": "biochemistry-and-respiration-exam1",
+   "type": "extended",
+   "question": "Calculate total ATP from one glucose via aerobic respiration. Explain why yield is often less than theoretical",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Glycolysis: 2 ATP + 2 NADH (3-5 ATP); Link: 2 NADH (5 ATP); Krebs: 2 ATP + 6 NADH (15 ATP) + 2 FADH₂ (3 ATP) = 25-30 + 4 = 29-32 ATP. Less because: proton leak, shuttle costs (glycerol-3-P shuttle vs malate-aspartate), ATP for transport",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Glycolysis: 2 ATP + 2 NADH (3-5 ATP); Link: 2 NADH (5 ATP); Krebs: 2 ATP + 6 NADH (15 ATP) + 2 FADH₂ (3 ATP) = 25-30 + 4 = 29-32 ATP. Less because: proton leak, shuttle costs (glycerol-3-P shuttle vs malate-aspartate), ATP for transport"
+   }
+  }
+ ]
+}

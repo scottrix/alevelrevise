@@ -1,0 +1,44 @@
+{
+ "subject": "physics",
+ "topic": "waves",
+ "topicName": "Waves",
+ "version": 1,
+ "steps": [
+  {
+   "id": "waves-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Wave eqn: v = fλ; phase difference Deltaφ = 2piDeltax/λ = 2pift"
+  },
+  {
+   "id": "waves-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Superposition: y_total = y₁ + y₂; constructive: Deltaφ = 2npi; destructive: Deltaφ = (2n+1)pi"
+  },
+  {
+   "id": "waves-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Standing waves: nodes (A=0) at fixed ends; antinodes (A=max) at λ/4 intervals"
+  },
+  {
+   "id": "waves-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Double slit: fringe spacing w = λD/s; single slit: first minima at a sinθ = λ"
+  },
+  {
+   "id": "waves-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Light of wavelength 500 nm passes through double slits 0.2 mm apart. Fringes observed on screen 2.5 m away. Find fringe spacing --- Solution: w = λD/s = (500x10⁻⁹ x 2.5) / (0.2x10⁻^3) = 6.25x10⁻^3 m = 6.25 mm"
+  },
+  {
+   "id": "waves-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "A wave travels at 340 m/s with frequency 170 Hz. Find wavelength | Two coherent sources 1.5 mm apart produce fringes 4 mm apart at 3 m. Find λ | Find critical angle for glass-air interface (n_glass = 1.5)"
+  }
+ ]
+}

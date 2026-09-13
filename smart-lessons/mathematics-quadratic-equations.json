@@ -1,0 +1,44 @@
+{
+ "subject": "mathematics",
+ "topic": "quadratic-equations",
+ "topicName": "Quadratic Equations",
+ "version": 1,
+ "steps": [
+  {
+   "id": "quadratic-equations-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Standard form: ax^2 + bx + c = 0 (a != 0)"
+  },
+  {
+   "id": "quadratic-equations-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Factorising when a=1: find two numbers with product c and sum b"
+  },
+  {
+   "id": "quadratic-equations-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Factorising when a!=1: use AC method or trial and error"
+  },
+  {
+   "id": "quadratic-equations-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Completing the square: x^2 + bx = (x + b/2)^2 - (b/2)^2"
+  },
+  {
+   "id": "quadratic-equations-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Solve 2x^2 - 5x - 3 = 0 and hence solve 2sin^2θ - 5sinθ - 3 = 0 for 0 <= θ < 2pi --- Solution: 2x^2 - 5x - 3 = (2x+1)(x-3) = 0 -> x = -½ or x = 3. Since sinθ ∈ [-1,1], sinθ = -½ -> θ = 7pi/6, 11pi/6"
+  },
+  {
+   "id": "quadratic-equations-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Solve 3x^2 + 10x - 8 = 0 by factorising | Solve x^2 - 6x + 2 = 0 by completing the square | Use the quadratic formula for 5x^2 - 3x - 1 = 0, leave in surd form"
+  }
+ ]
+}

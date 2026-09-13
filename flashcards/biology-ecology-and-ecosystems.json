@@ -1,0 +1,48 @@
+{
+ "subject": "biology",
+ "topic": "ecology-and-ecosystems",
+ "topicName": "Ecology and Ecosystems",
+ "version": 1,
+ "cards": [
+  {
+   "id": "ecology-and-ecosystems-fc1",
+   "front": "Recall a key point about Ecology and Ecosystems",
+   "back": "GPP = total photosynthesis; NPP = GPP - R (respiration); Efficiency = energy transferred/total available x100% (typically 10%); Pyramids: energy always upright; biomass can be inverted",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ecology-and-ecosystems-fc2",
+   "front": "Recall a key point about Ecology and Ecosystems",
+   "back": "Carbon: photosynthesis, respiration, combustion, decomposition, ocean uptake; Nitrogen: fixation (lightning, bacteria), nitrification (ammonia->nitrite->nitrate), assimilation, denitrification",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ecology-and-ecosystems-fc3",
+   "front": "Recall a key point about Ecology and Ecosystems",
+   "back": "Growth curves: lag, log, stationary, death; Carrying capacity K; r/K selection; Predator-prey: Lotka-Volterra cycles",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ecology-and-ecosystems-fc4",
+   "front": "Recall a key point about Ecology and Ecosystems",
+   "back": "Succession: pioneer -> intermediate -> climax; each stage modifies environment for next; Deflected succession: human interference",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "ecology-and-ecosystems-fc5",
+   "front": "Recall a key point about Ecology and Ecosystems",
+   "back": "Climate change: greenhouse effect, CO₂, CH₄; Eutrophication: nitrates/phosphates -> algal bloom -> decomposition -> O₂ depletion -> dead zones",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

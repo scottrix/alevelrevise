@@ -1,0 +1,24 @@
+{
+ "subject": "mathematics",
+ "topic": "coordinate-geometry-and-circles",
+ "topicName": "Coordinate Geometry and Circles",
+ "version": 1,
+ "cards": [
+  {
+   "id": "coordinate-geometry-and-circles-fc1",
+   "front": "What should you know about circle equation?",
+   "back": "(x - a)² + (y - b)² = r² with centre (a, b) and radius r.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-and-circles-fc2",
+   "front": "What should you know about tangent?",
+   "back": "A straight line perpendicular to the radius at the point of contact.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

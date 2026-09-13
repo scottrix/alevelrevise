@@ -1,0 +1,26 @@
+{
+ "subject": "further-mathematics",
+ "topic": "matrices",
+ "topicName": "Matrices",
+ "version": 1,
+ "questions": [
+  {
+   "id": "matrices-exam1",
+   "type": "extended",
+   "question": "Find eigenvalues and eigenvectors of A = [3 2; 1 4]. Diagonalise A",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "det(A-λI) = (3-λ)(4-λ)-2 = λ^2-7λ+10 = (λ-5)(λ-2)=0 -> λ=5,2. λ=5: [−2 2; 1 −1]v=0 -> v₁=[1;1]. λ=2: [1 2; 1 2]v=0 -> v₂=[2;−1]. P=[1 2; 1 −1], D=[5 0; 0 2]. Check P⁻¹AP=D",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "det(A-λI) = (3-λ)(4-λ)-2 = λ^2-7λ+10 = (λ-5)(λ-2)=0 -> λ=5,2. λ=5: [−2 2; 1 −1]v=0 -> v₁=[1;1]. λ=2: [1 2; 1 2]v=0 -> v₂=[2;−1]. P=[1 2; 1 −1], D=[5 0; 0 2]. Check P⁻¹AP=D"
+   }
+  }
+ ]
+}

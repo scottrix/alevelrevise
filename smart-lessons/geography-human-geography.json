@@ -1,0 +1,44 @@
+{
+ "subject": "geography",
+ "topic": "human-geography",
+ "topicName": "Human Geography",
+ "version": 1,
+ "steps": [
+  {
+   "id": "human-geography-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Urbanisation: % urban pop increasing; megacities >10M; counterurbanisation (rich to rural); reurbanisation (gentrification)"
+  },
+  {
+   "id": "human-geography-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "DTM: Stage 1 (high BR/DR), 2 (falling DR), 3 (falling BR), 4 (low BR/DR), 5 (BR<DR); Pyramids: expanding, stationary, contracting"
+  },
+  {
+   "id": "human-geography-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Migration: push (war, poverty, enviro) vs pull (jobs, safety, services); Lee's model"
+  },
+  {
+   "id": "human-geography-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Development: HDI (health, education, income); GNI per capita; inequality (Gini, Lorenz)"
+  },
+  {
+   "id": "human-geography-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain how a country's position in the Demographic Transition Model affects its population pyramid shape --- Solution: Stage 2 (e.g. Nigeria): high BR, falling DR -> wide base (many young), narrow top (few elderly), pyramidal. Stage 4 (e.g. UK): low BR, low DR -> narrower base, wider top, columnar. Stage 5 (e.g. Japan): BR<DR -> contracting base, bulge at top, inverted pyramid"
+  },
+  {
+   "id": "human-geography-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare urbanisation in LIC vs HIC | Interpret a population pyramid for Stage 3 | Explain push/pull factors for rural-urban migration"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subject": "biology",
+ "topic": "genetics-gene-expression-and-recombinant-dna",
+ "topicName": "Genetics, Gene Expression and Recombinant DNA",
+ "version": 1,
+ "steps": [
+  {
+   "id": "genetics-gene-expression-and-recombinant-dna-s1",
+   "kind": "learn",
+   "title": "Epigenetics",
+   "body": "Heritable changes in gene expression without changes to the underlying DNA base sequence (e.g. DNA methylation, histone acetylation)."
+  },
+  {
+   "id": "genetics-gene-expression-and-recombinant-dna-s2",
+   "kind": "learn",
+   "title": "PCR",
+   "body": "Polymerase Chain Reaction: in vitro DNA amplification via denaturation (95°C), annealing (55°C), extension (72°C)."
+  }
+ ]
+}

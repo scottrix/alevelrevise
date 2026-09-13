@@ -1,0 +1,56 @@
+{
+ "subject": "biology",
+ "topic": "biochemistry-and-respiration",
+ "topicName": "Biochemistry and Respiration",
+ "version": 1,
+ "cards": [
+  {
+   "id": "biochemistry-and-respiration-fc1",
+   "front": "Recall a key point about Biochemistry and Respiration",
+   "back": "Glycolysis: glucose -> 2 pyruvate (cytoplasm); net 2 ATP, 2 NADH; Link: pyruvate -> acetyl CoA + CO₂ + NADH (mito matrix); Krebs: acetyl CoA + 3NAD⁺ + FAD + GDP -> 2CO₂ + 3NADH + FADH₂ + GTP; ETC: NADH/FADH₂ -> H⁺ gradient -> ATP synthase -> ATP",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biochemistry-and-respiration-fc2",
+   "front": "Recall a key point about Biochemistry and Respiration",
+   "back": "SLP: direct phosphate transfer (glycolysis, Krebs); OxPhos: H⁺ pumped across inner membrane, flow through ATP synthase",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biochemistry-and-respiration-fc3",
+   "front": "Recall a key point about Biochemistry and Respiration",
+   "back": "Theoretical: 10 NADH (2.5 each) + 2 FADH₂ (1.5 each) + 4 ATP = 32 ATP; Actual ~30-32",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biochemistry-and-respiration-fc4",
+   "front": "Recall a key point about Biochemistry and Respiration",
+   "back": "Anaerobic: animals: pyruvate + NADH -> lactate + NAD⁺ (lactate dehydrogenase); Yeast: pyruvate -> acetaldehyde + CO₂ -> ethanol + NAD⁺",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biochemistry-and-respiration-fc5",
+   "front": "Recall a key point about Biochemistry and Respiration",
+   "back": "Enzymes: globular proteins, active site, specific; Induced fit: substrate binding changes shape; Factors: temp, pH, [substrate], inhibitors (competitive/non-competitive)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "biochemistry-and-respiration-fc6",
+   "front": "Recall a key point about Biochemistry and Respiration",
+   "back": "Feedback inhibition: end product inhibits early enzyme; Allosteric: effector binds site != active site, changes conformation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

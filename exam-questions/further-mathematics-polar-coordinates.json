@@ -1,0 +1,26 @@
+{
+ "subject": "further-mathematics",
+ "topic": "polar-coordinates",
+ "topicName": "Polar Coordinates",
+ "version": 1,
+ "questions": [
+  {
+   "id": "polar-coordinates-exam1",
+   "type": "extended",
+   "question": "Find the area enclosed by one petal of r = 2 cos 3θ",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "r = 0 when cos 3θ = 0 -> 3θ = pi/2 -> θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "r = 0 when cos 3θ = 0 -> 3θ = pi/2 -> θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3"
+   }
+  }
+ ]
+}

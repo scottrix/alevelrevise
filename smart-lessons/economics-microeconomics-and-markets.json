@@ -1,0 +1,44 @@
+{
+ "subject": "economics",
+ "topic": "microeconomics-and-markets",
+ "topicName": "Microeconomics and Markets",
+ "version": 1,
+ "steps": [
+  {
+   "id": "microeconomics-and-markets-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Demand: P↓->Qd↑ (law); Determinants: income, tastes, related goods, expectations, #buyers"
+  },
+  {
+   "id": "microeconomics-and-markets-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Supply: P↑->Qs↑; Determinants: input prices, technology, expectations, #sellers, taxes/subsidies"
+  },
+  {
+   "id": "microeconomics-and-markets-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Equilibrium: Qd=Qs; Shortage: P<P* -> Qd>Qs; Surplus: P>P* -> Qs>Qd"
+  },
+  {
+   "id": "microeconomics-and-markets-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "PED = %DeltaQd/%DeltaP; elastic (>1), inelastic (<1), unitary (=1); factors: substitutes, necessity, time, %income"
+  },
+  {
+   "id": "microeconomics-and-markets-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: A monopolist faces demand P = 100 - 2Q and has MC = 20. Find profit-maximising output, price, and profit --- Solution: MR = 100 - 4Q. Set MR = MC: 100 - 4Q = 20 -> Q = 20. P = 100 - 2(20) = 60. Profit = (P - ATC)Q. ATC = TC/Q. If TC = 20Q + 100, ATC = 20 + 5 = 25. Profit = (60-25)x20 = 700"
+  },
+  {
+   "id": "microeconomics-and-markets-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "If PED = -0.5 and price rises 10%, %DeltaQd? | Explain why monopolies produce less than PC | Calculate CS at P=50, Q=100 for linear demand P=100-Q"
+  }
+ ]
+}

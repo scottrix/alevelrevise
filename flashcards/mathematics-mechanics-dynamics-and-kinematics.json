@@ -1,0 +1,24 @@
+{
+ "subject": "mathematics",
+ "topic": "mechanics-dynamics-and-kinematics",
+ "topicName": "Mechanics: Dynamics and Kinematics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "mechanics-dynamics-and-kinematics-fc1",
+   "front": "What should you know about newton's 2nd law?",
+   "back": "Resultant Force ΣF = ma (in Newtons).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-dynamics-and-kinematics-fc2",
+   "front": "What should you know about friction?",
+   "back": "F_max = μR where μ is coefficient of friction and R is normal reaction.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

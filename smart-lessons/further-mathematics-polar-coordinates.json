@@ -1,0 +1,44 @@
+{
+ "subject": "further-mathematics",
+ "topic": "polar-coordinates",
+ "topicName": "Polar Coordinates",
+ "version": 1,
+ "steps": [
+  {
+   "id": "polar-coordinates-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "x = r cos θ, y = r sin θ; r = sqrt(x^2+y^2), tan θ = y/x (check quadrant)"
+  },
+  {
+   "id": "polar-coordinates-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "r = a (circle centred at origin), r = 2a cos θ (circle on x-axis), r = 2a sin θ (circle on y-axis)"
+  },
+  {
+   "id": "polar-coordinates-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "r = a(1 + cos θ) (cardioid), r = a cos(nθ) (n-petal rose if n odd, 2n-petal if n even)"
+  },
+  {
+   "id": "polar-coordinates-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "r = aθ (Archimedean spiral), r^2 = a^2 cos 2θ (lemniscate)"
+  },
+  {
+   "id": "polar-coordinates-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Find the area enclosed by one petal of r = 2 cos 3θ --- Solution: r = 0 when cos 3θ = 0 -> 3θ = pi/2 -> θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3"
+  },
+  {
+   "id": "polar-coordinates-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Convert r = 2 sin θ to Cartesian, identify the curve | Sketch r = 1 + 2 cos θ | Area inside r = 2 and outside r = 1 + cos θ"
+  }
+ ]
+}

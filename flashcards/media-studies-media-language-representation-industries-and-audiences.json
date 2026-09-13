@@ -1,0 +1,24 @@
+{
+ "subject": "media-studies",
+ "topic": "media-language-representation-industries-and-audiences",
+ "topicName": "Media Language, Representation, Industries and Audiences",
+ "version": 1,
+ "cards": [
+  {
+   "id": "media-language-representation-industries-and-audiences-fc1",
+   "front": "What should you know about stuart hall's reception theory?",
+   "back": "Media texts are encoded by producers with preferred meanings, but decoded by audiences as Preferred, Negotiated, or Oppositional.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "media-language-representation-industries-and-audiences-fc2",
+   "front": "What should you know about semiotic denotation and connotation?",
+   "back": "Denotation is the literal meaning of a sign; connotation is the associated cultural and emotional interpretation.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "subject": "chemistry",
+ "topic": "energetics",
+ "topicName": "Energetics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "energetics-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Standard conditions: 100 kPa, 298 K, 1 mol dm⁻^3; DeltaH_f deg elements = 0"
+  },
+  {
+   "id": "energetics-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Hess: DeltaH_total = ΣDeltaH_steps (path independent); Cycle: formation = atomisation + ionisation + electron affinity + lattice"
+  },
+  {
+   "id": "energetics-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Born-Haber: DeltaH_f deg = DeltaH_atom + ΣIE + ΣEA + DeltaH_lattice (for ionic compounds)"
+  },
+  {
+   "id": "energetics-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Bond enthalpies: DeltaH = Σ(bonds broken) - Σ(bonds formed); mean values, gaseous only"
+  },
+  {
+   "id": "energetics-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Use Born-Haber cycle to calculate lattice enthalpy of NaCl given: DeltaH_f deg (NaCl) = -411, DeltaH_at(Na)=+107, DeltaH_at(Cl)=+122, IE(Na)=+496, EA(Cl)=-349 kJ/mol --- Solution: DeltaH_f = DeltaH_at(Na) + DeltaH_at(Cl) + IE(Na) + EA(Cl) + LE. -411 = 107 + 122 + 496 - 349 + LE -> LE = -411 - 376 = -787 kJ/mol. Lattice enthalpy = +787 kJ/mol (endothermic to break)"
+  },
+  {
+   "id": "energetics-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define standard enthalpy of combustion | Calculate DeltaH for reaction using bond enthalpies: H₂ + Cl₂ -> 2HCl | Why are mean bond enthalpies less accurate than formation data?"
+  }
+ ]
+}

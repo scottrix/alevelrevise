@@ -1,0 +1,64 @@
+{
+ "subject": "computer-science",
+ "topic": "programming-fundamentals",
+ "topicName": "Programming Fundamentals",
+ "version": 1,
+ "cards": [
+  {
+   "id": "programming-fundamentals-fc1",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "Data types: int, float, bool, char, string; type casting; constants vs variables",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "programming-fundamentals-fc2",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "Selection: if/elif/else, switch/case (match in Python 3.10+); nested conditions",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "programming-fundamentals-fc3",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "Iteration: for (definite), while (indefinite), do-while (at least once); break/continue",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "programming-fundamentals-fc4",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "Functions: definition, call, parameters (positional, keyword, default), return, recursion",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "programming-fundamentals-fc5",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "Scope: local, global, nonlocal; shadowing; modules and imports",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "programming-fundamentals-fc6",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "String: len, index, slice, split, join, replace, format, f-strings, regex basics",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "programming-fundamentals-fc7",
+   "front": "Recall a key point about Programming Fundamentals",
+   "back": "File: open/close, read/write modes, with statement, try/except/else/finally",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

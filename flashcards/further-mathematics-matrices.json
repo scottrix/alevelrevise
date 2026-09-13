@@ -1,0 +1,64 @@
+{
+ "subject": "further-mathematics",
+ "topic": "matrices",
+ "topicName": "Matrices",
+ "version": 1,
+ "cards": [
+  {
+   "id": "matrices-fc1",
+   "front": "Recall a key point about Matrices",
+   "back": "Multiplication: (AB)_{ij} = Σₖ A_{ik}B_{kj} -- non-commutative, associative, distributive",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-fc2",
+   "front": "Recall a key point about Matrices",
+   "back": "det 2x2: |a b; c d| = ad - bc; det 3x3: cofactor expansion or Sarrus",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-fc3",
+   "front": "Recall a key point about Matrices",
+   "back": "Inverse 2x2: A⁻¹ = (1/det)[d -b; -c a]; 3x3: adj(A)/det(A) via minors/cofactors",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-fc4",
+   "front": "Recall a key point about Matrices",
+   "back": "System AX = B: if det(A) != 0, X = A⁻¹B (unique solution); if det(A) = 0, either no solution or infinite",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-fc5",
+   "front": "Recall a key point about Matrices",
+   "back": "Transformations: reflection in x-axis [1 0; 0 -1], rotation by θ [cosθ -sinθ; sinθ cosθ]",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-fc6",
+   "front": "Recall a key point about Matrices",
+   "back": "Eigenvalues λ: det(A - λI) = 0; Eigenvectors: (A - λI)v = 0",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-fc7",
+   "front": "Recall a key point about Matrices",
+   "back": "Diagonalisation: P⁻¹AP = D (D diagonal) if A has n linearly independent eigenvectors",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

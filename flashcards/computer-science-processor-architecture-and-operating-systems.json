@@ -1,0 +1,24 @@
+{
+ "subject": "computer-science",
+ "topic": "processor-architecture-and-operating-systems",
+ "topicName": "Processor Architecture and Operating Systems",
+ "version": 1,
+ "cards": [
+  {
+   "id": "processor-architecture-and-operating-systems-fc1",
+   "front": "What should you know about von neumann architecture?",
+   "back": "Computer architecture where instructions and data share the same memory space and system bus.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "processor-architecture-and-operating-systems-fc2",
+   "front": "What should you know about pipelining?",
+   "back": "Instruction execution technique where multiple instruction phases (Fetch, Decode, Execute) overlap concurrently.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

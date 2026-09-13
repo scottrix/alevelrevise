@@ -1,0 +1,26 @@
+{
+ "subject": "geography",
+ "topic": "human-geography",
+ "topicName": "Human Geography",
+ "version": 1,
+ "questions": [
+  {
+   "id": "human-geography-exam1",
+   "type": "extended",
+   "question": "Explain how a country's position in the Demographic Transition Model affects its population pyramid shape",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Stage 2 (e.g. Nigeria): high BR, falling DR -> wide base (many young), narrow top (few elderly), pyramidal. Stage 4 (e.g. UK): low BR, low DR -> narrower base, wider top, columnar. Stage 5 (e.g. Japan): BR<DR -> contracting base, bulge at top, inverted pyramid",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Stage 2 (e.g. Nigeria): high BR, falling DR -> wide base (many young), narrow top (few elderly), pyramidal. Stage 4 (e.g. UK): low BR, low DR -> narrower base, wider top, columnar. Stage 5 (e.g. Japan): BR<DR -> contracting base, bulge at top, inverted pyramid"
+   }
+  }
+ ]
+}

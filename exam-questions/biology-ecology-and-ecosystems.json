@@ -1,0 +1,26 @@
+{
+ "subject": "biology",
+ "topic": "ecology-and-ecosystems",
+ "topicName": "Ecology and Ecosystems",
+ "version": 1,
+ "questions": [
+  {
+   "id": "ecology-and-ecosystems-exam1",
+   "type": "extended",
+   "question": "Explain why only ~10% of energy transfers between trophic levels",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Energy lost as: heat (respiration), faeces (undigested), urine (excretion), uneaten parts. Only energy in consumed biomass available to next level. 2nd law of thermodynamics: entropy increases",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Energy lost as: heat (respiration), faeces (undigested), urine (excretion), uneaten parts. Only energy in consumed biomass available to next level. 2nd law of thermodynamics: entropy increases"
+   }
+  }
+ ]
+}

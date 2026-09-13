@@ -1,0 +1,20 @@
+{
+ "subject": "mathematics",
+ "topic": "coordinate-geometry-and-circles",
+ "topicName": "Coordinate Geometry and Circles",
+ "version": 1,
+ "steps": [
+  {
+   "id": "coordinate-geometry-and-circles-s1",
+   "kind": "learn",
+   "title": "Circle Equation",
+   "body": "(x - a)² + (y - b)² = r² with centre (a, b) and radius r."
+  },
+  {
+   "id": "coordinate-geometry-and-circles-s2",
+   "kind": "learn",
+   "title": "Tangent",
+   "body": "A straight line perpendicular to the radius at the point of contact."
+  }
+ ]
+}

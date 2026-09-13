@@ -1,0 +1,44 @@
+{
+ "subject": "further-mathematics",
+ "topic": "vectors",
+ "topicName": "Vectors",
+ "version": 1,
+ "steps": [
+  {
+   "id": "vectors-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Vector form: r = a + λb (line), r = a + λb + μc (plane)"
+  },
+  {
+   "id": "vectors-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Dot product: a·b = |a||b|cosθ = a₁b₁+a₂b₂+a₃b₃; perpendicular iff a·b = 0"
+  },
+  {
+   "id": "vectors-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cross product: axb = |a||b|sinθ n̂ = det[i j k; a₁ a₂ a₃; b₁ b₂ b₃]"
+  },
+  {
+   "id": "vectors-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Area: triangle = ½|axb|; parallelogram = |axb|; volume = |a·(bxc)|"
+  },
+  {
+   "id": "vectors-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Find the intersection of line r = [1; 2; 3] + λ[2; -1; 4] with plane 2x - y + 3z = 10 --- Solution: Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -> 2+4λ-2+λ+9+12λ=10 -> 17λ+9=10 -> λ=1/17. Point: [19/17; 33/17; 55/17]"
+  },
+  {
+   "id": "vectors-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Find angle between lines r = [1; 0; -1] + λ[2; 1; 3] and r = [0; 1; 1] + μ[1; -2; 2] | Find equation of plane through (1,2,3) perpendicular to vector [2; -1; 1] | Distance from point (1,2,3) to plane 2x - 3y + 6z = 10"
+  }
+ ]
+}

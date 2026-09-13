@@ -1,0 +1,44 @@
+{
+ "subject": "english-literature",
+ "topic": "poetry-analysis",
+ "topicName": "Poetry Analysis",
+ "version": 1,
+ "steps": [
+  {
+   "id": "poetry-analysis-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Metaphor (direct comparison), simile (like/as), personification (human qualities to non-human)"
+  },
+  {
+   "id": "poetry-analysis-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Imagery: visual, auditory, tactile, olfactory, gustatory; extended metaphors"
+  },
+  {
+   "id": "poetry-analysis-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sound devices: alliteration, assonance, consonance, onomatopoeia, sibilance"
+  },
+  {
+   "id": "poetry-analysis-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Structure: stanza types, rhyme (ABAB, AABB, free verse), metre (iambic, trochaic), line breaks"
+  },
+  {
+   "id": "poetry-analysis-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Analyse how the poet uses structure and language to convey the theme of loss in 'When You Are Old' by Yeats --- Solution: Three stanzas move from present to past to future. Iambic pentameter creates reflective tone. 'Glad grace' (alliteration) contrasts with 'pilgrim soul' (metaphor). Final stanza 'bending down beside the glowing bars' -- imagery of ageing/regret. ABBA rhyme encloses memory"
+  },
+  {
+   "id": "poetry-analysis-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Identify and explain the effect of caesura in a given line | Compare how two poets present nature | Analyse an extended metaphor across a poem"
+  }
+ ]
+}

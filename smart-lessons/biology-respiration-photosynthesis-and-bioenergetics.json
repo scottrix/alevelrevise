@@ -1,0 +1,20 @@
+{
+ "subject": "biology",
+ "topic": "respiration-photosynthesis-and-bioenergetics",
+ "topicName": "Respiration, Photosynthesis and Bioenergetics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "respiration-photosynthesis-and-bioenergetics-s1",
+   "kind": "learn",
+   "title": "Chemiosmosis",
+   "body": "ATP synthesis driven by proton electrochemical gradient across inner mitochondrial/thylakoid membrane through ATP synthase."
+  },
+  {
+   "id": "respiration-photosynthesis-and-bioenergetics-s2",
+   "kind": "learn",
+   "title": "Photolysis",
+   "body": "Light-dependent splitting of water in PSII: 2H₂O → 4H⁺ + 4e⁻ + O₂."
+  }
+ ]
+}

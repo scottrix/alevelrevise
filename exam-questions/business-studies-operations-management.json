@@ -1,0 +1,26 @@
+{
+ "subject": "business-studies",
+ "topic": "operations-management",
+ "topicName": "Operations Management",
+ "version": 1,
+ "questions": [
+  {
+   "id": "operations-management-exam1",
+   "type": "extended",
+   "question": "A furniture maker switches from batch to flow production. Analyse implications for cost, quality, flexibility",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Cost: lower unit cost (economies of scale, less setup), but high capital investment. Quality: more consistent (standardised), but defects affect large volumes. Flexibility: reduced (dedicated line), harder to customise. Workforce: deskilling, potential redundancy. Inventory: lower WIP with JIT",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Cost: lower unit cost (economies of scale, less setup), but high capital investment. Quality: more consistent (standardised), but defects affect large volumes. Flexibility: reduced (dedicated line), harder to customise. Workforce: deskilling, potential redundancy. Inventory: lower WIP with JIT"
+   }
+  }
+ ]
+}

@@ -1,0 +1,67 @@
+{
+ "subject": "chemistry",
+ "topic": "mock-exam",
+ "topicName": "Chemistry Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "chemistry-mock",
+   "name": "A-Level Chemistry Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Atomic Structure and Bonding] Explain why H₂O has a higher boiling point than H₂S despite similar molecular mass",
+     "correctAnswer": "H₂O has H-bonding (O is highly electronegative, lone pairs); H₂S has only dipole-dipole and London forces. H-bonding is much stronger -> more energy to separate molecules -> higher BP",
+     "explanation": "H₂O has H-bonding (O is highly electronegative, lone pairs); H₂S has only dipole-dipole and London forces. H-bonding is much stronger -> more energy to separate molecules -> higher BP",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Energetics] Use Born-Haber cycle to calculate lattice enthalpy of NaCl given: DeltaH_f deg (NaCl) = -411, DeltaH_at(Na)=+107, DeltaH_at(Cl)=+122, IE(Na)=+496, EA(Cl)=-349 kJ/mol",
+     "correctAnswer": "DeltaH_f = DeltaH_at(Na) + DeltaH_at(Cl) + IE(Na) + EA(Cl) + LE. -411 = 107 + 122 + 496 - 349 + LE -> LE = -411 - 376 = -787 kJ/mol. Lattice enthalpy = +787 kJ/mol (endothermic to break)",
+     "explanation": "DeltaH_f = DeltaH_at(Na) + DeltaH_at(Cl) + IE(Na) + EA(Cl) + LE. -411 = 107 + 122 + 496 - 349 + LE -> LE = -411 - 376 = -787 kJ/mol. Lattice enthalpy = +787 kJ/mol (endothermic to break)",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Kinetics and Equilibria] For N₂ + 3H₂ ⇌ 2NH₃, DeltaH = -92 kJ/mol. Predict effect on yield of: (a) increasing pressure, (b) increasing temperature, (c) adding Fe catalyst",
+     "correctAnswer": "(a) 4 mol gas -> 2 mol gas: shift right -> higher yield. (b) Exothermic: heating shifts left -> lower yield. (c) Catalyst speeds up both forward/reverse equally -> no effect on yield, reaches equilibrium faster",
+     "explanation": "(a) 4 mol gas -> 2 mol gas: shift right -> higher yield. (b) Exothermic: heating shifts left -> lower yield. (c) Catalyst speeds up both forward/reverse equally -> no effect on yield, reaches equilibrium faster",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Organic Chemistry] Propose a mechanism for the reaction of 2-methylpropene with HBr",
+     "correctAnswer": "Electrophilic addition. H⁺ adds to less substituted C (Markovnikov) -> more stable 3 deg carbocation (CH₃)₃C⁺. Br⁻ attacks carbocation -> 2-bromo-2-methylpropane. Curly arrows: pi bond to H, H-Br bond to Br",
+     "explanation": "Electrophilic addition. H⁺ adds to less substituted C (Markovnikov) -> more stable 3 deg carbocation (CH₃)₃C⁺. Br⁻ attacks carbocation -> 2-bromo-2-methylpropane. Curly arrows: pi bond to H, H-Br bond to Br",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Redox and Electrochemistry] Calculate E deg for: Zn | Zn^2⁺ || Cu^2⁺ | Cu. E deg (Zn^2⁺/Zn) = -0.76V, E deg (Cu^2⁺/Cu) = +0.34V. Is reaction spontaneous?",
+     "correctAnswer": "E deg _cell = 0.34 - (-0.76) = +1.10 V > 0 -> spontaneous. Zn oxidised (anode), Cu^2⁺ reduced (cathode). Reaction: Zn + Cu^2⁺ -> Zn^2⁺ + Cu",
+     "explanation": "E deg _cell = 0.34 - (-0.76) = +1.10 V > 0 -> spontaneous. Zn oxidised (anode), Cu^2⁺ reduced (cathode). Reaction: Zn + Cu^2⁺ -> Zn^2⁺ + Cu",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

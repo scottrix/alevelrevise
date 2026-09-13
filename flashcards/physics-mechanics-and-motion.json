@@ -1,0 +1,80 @@
+{
+ "subject": "physics",
+ "topic": "mechanics-and-motion",
+ "topicName": "Mechanics and Motion",
+ "version": 1,
+ "cards": [
+  {
+   "id": "mechanics-and-motion-fc1",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "SUVAT: v = u + at, s = ut + ½at^2, v^2 = u^2 + 2as, s = ½(u+v)t -- only for constant a",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc2",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Newton's 1st: equilibrium -> net force zero; 2nd: F = ma (vector); 3rd: action-reaction pairs equal/opposite",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc3",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Momentum p = mv; Impulse J = FDeltat = Deltap; Conservation: Σp_before = Σp_after (isolated system)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc4",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Work W = F·s = Fs cos θ; KE = ½mv^2; GPE = mgh; Elastic PE = ½kx^2; Power = W/t = Fv",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc5",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Projectiles: horizontal v constant, vertical a = -g; range = u^2sin2θ/g, max height = u^2sin^2θ/(2g)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc6",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Circular: a = v^2/r = ω^2r, F = mv^2/r = mω^2r, ω = 2pi/T = 2pif, v = ωr",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc7",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Moments: M = F x d (perpendicular distance); Couple: two equal/opposite forces separated by d",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc8",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Equilibrium: ΣF = 0 and ΣM = 0; Centre of mass: weighted mean of positions",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "mechanics-and-motion-fc9",
+   "front": "Recall a key point about Mechanics and Motion",
+   "back": "Hooke: F = kx (within limit of proportionality); EPE = ½kx^2 = ½Fx",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

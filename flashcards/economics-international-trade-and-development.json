@@ -1,0 +1,56 @@
+{
+ "subject": "economics",
+ "topic": "international-trade-and-development",
+ "topicName": "International Trade and Development",
+ "version": 1,
+ "cards": [
+  {
+   "id": "international-trade-and-development-fc1",
+   "front": "Recall a key point about International Trade and Development",
+   "back": "Absolute: produce more with same resources; Comparative: lower opportunity cost -> specialise -> trade",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "international-trade-and-development-fc2",
+   "front": "Recall a key point about International Trade and Development",
+   "back": "Tariff: tax on imports -> domestic P↑, Qd↓, Qs↑, govt revenue, DWL; Quota: quantity limit; Subsidy: domestic producers",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "international-trade-and-development-fc3",
+   "front": "Recall a key point about International Trade and Development",
+   "back": "Floating: market; Fixed: central bank intervention; Managed: dirty float; PPP: identical goods same price in common currency",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "international-trade-and-development-fc4",
+   "front": "Recall a key point about International Trade and Development",
+   "back": "Globalisation: trade↑, capital flows↑, migration↑, tech diffusion; WTO: rules, disputes; Blocs: EU, USMCA, ASEAN",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "international-trade-and-development-fc5",
+   "front": "Recall a key point about International Trade and Development",
+   "back": "Development: import substitution (protect infant industries) vs export-led (E Asian tigers); Aid: tied/untied; Debt: HIPC initiative",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "international-trade-and-development-fc6",
+   "front": "Recall a key point about International Trade and Development",
+   "back": "HDI: life expectancy, education (mean/expected yrs), GNI pc; Gini: 0=perfect equality, 1=perfect inequality; Lorenz curve",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

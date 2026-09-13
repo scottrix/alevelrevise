@@ -1,0 +1,44 @@
+{
+ "subject": "computer-science",
+ "topic": "data-structures-and-algorithms",
+ "topicName": "Data Structures and Algorithms",
+ "version": 1,
+ "steps": [
+  {
+   "id": "data-structures-and-algorithms-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Arrays: contiguous, O(1) access; Lists: dynamic, O(1) append amortised; Stacks: LIFO, push/pop; Queues: FIFO, enqueue/dequeue"
+  },
+  {
+   "id": "data-structures-and-algorithms-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Linked lists: singly/doubly, O(1) insert/delete at known position, O(n) access"
+  },
+  {
+   "id": "data-structures-and-algorithms-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Trees: binary, BST (left<root<right), AVL/Red-Black (balanced); traversals: pre/in/post-order, level-order"
+  },
+  {
+   "id": "data-structures-and-algorithms-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Graphs: adjacency matrix/list; directed/undirected, weighted/unweighted; BFS/DFS"
+  },
+  {
+   "id": "data-structures-and-algorithms-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Trace quicksort on [3, 6, 8, 10, 1, 2, 1] with pivot as first element --- Solution: Pivot=3. Partition: [1,2,1] + [3] + [6,8,10]. Recurse left: pivot=1 -> [1] + [1] + [2]. Right: pivot=6 -> [] + [6] + [8,10] -> pivot=8 -> [] + [8] + [10]. Result: [1,1,2,3,6,8,10]"
+  },
+  {
+   "id": "data-structures-and-algorithms-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Implement stack using list | Write binary search recursive | Trace merge sort on [38,27,43,3,9,82,10]"
+  }
+ ]
+}

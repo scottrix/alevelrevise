@@ -1,0 +1,44 @@
+{
+ "subject": "chemistry",
+ "topic": "organic-chemistry",
+ "topicName": "Organic Chemistry",
+ "version": 1,
+ "steps": [
+  {
+   "id": "organic-chemistry-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "IUPAC: longest chain, number for lowest locants, prefixes for substituents, suffix for functional group"
+  },
+  {
+   "id": "organic-chemistry-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Mechanisms: curly arrows show electron pair movement; SN1: carbocation intermediate (3 deg > 2 deg > 1 deg ); SN2: concerted backside attack (1 deg favoured)"
+  },
+  {
+   "id": "organic-chemistry-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Markovnikov: H adds to carbon with more H's (forms more stable carbocation)"
+  },
+  {
+   "id": "organic-chemistry-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Oxidation: 1 deg alcohol -> aldehyde -> carboxylic acid; 2 deg -> ketone; 3 deg resistant"
+  },
+  {
+   "id": "organic-chemistry-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Propose a mechanism for the reaction of 2-methylpropene with HBr --- Solution: Electrophilic addition. H⁺ adds to less substituted C (Markovnikov) -> more stable 3 deg carbocation (CH₃)₃C⁺. Br⁻ attacks carbocation -> 2-bromo-2-methylpropane. Curly arrows: pi bond to H, H-Br bond to Br"
+  },
+  {
+   "id": "organic-chemistry-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Name: CH₃CH₂CH(OH)CH₃ | Mechanism for SN2 hydrolysis of CH₃CH₂Br with OH⁻ | Product of oxidation of CH₃CH₂CH₂OH with acidified K₂Cr₂O₇"
+  }
+ ]
+}

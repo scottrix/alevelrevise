@@ -1,0 +1,44 @@
+{
+ "subject": "psychology",
+ "topic": "social-influence-and-attachment",
+ "topicName": "Social Influence and Attachment",
+ "version": 1,
+ "steps": [
+  {
+   "id": "social-influence-and-attachment-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Conformity: Compliance (public only), Identification (group membership), Internalisation (true belief); Asch (line length, 32% conform), Zimbardo (Stanford prison)"
+  },
+  {
+   "id": "social-influence-and-attachment-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Obedience: Milgram (65% to 450V), agency theory (agentic/autonomous state), legitimacy of authority, gradual commitment"
+  },
+  {
+   "id": "social-influence-and-attachment-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Resistance: social support (ally), locus of control (internal resist); Minority influence: consistency, commitment, flexibility, snowball effect"
+  },
+  {
+   "id": "social-influence-and-attachment-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Attachment: Bowlby (evolutionary, monotropy, critical period 0-2.5yrs, IWM), Ainsworth: Secure (B), Insecure-avoidant (A), Insecure-resistant (C); Disorganised (D)"
+  },
+  {
+   "id": "social-influence-and-attachment-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain why Milgram's participants obeyed using agency theory --- Solution: Agentic state: individual sees self as agent of authority, not responsible. Autonomous state: self-directed. Shift triggered by: legitimate authority, institutional context, gradual commitment (15V steps), buffers (victim not visible). Dispositional: authoritarian personality (Adorno)"
+  },
+  {
+   "id": "social-influence-and-attachment-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Distinguish compliance vs internalisation | Evaluate Zimbardo ethics | Explain internal working model"
+  }
+ ]
+}

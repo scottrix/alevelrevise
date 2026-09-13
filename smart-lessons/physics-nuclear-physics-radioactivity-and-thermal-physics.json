@@ -1,0 +1,20 @@
+{
+ "subject": "physics",
+ "topic": "nuclear-physics-radioactivity-and-thermal-physics",
+ "topicName": "Nuclear Physics, Radioactivity and Thermal Physics",
+ "version": 1,
+ "steps": [
+  {
+   "id": "nuclear-physics-radioactivity-and-thermal-physics-s1",
+   "kind": "learn",
+   "title": "Binding Energy",
+   "body": "Energy required to disassemble a nucleus into its constituent protons and neutrons (E = Δm c²)."
+  },
+  {
+   "id": "nuclear-physics-radioactivity-and-thermal-physics-s2",
+   "kind": "learn",
+   "title": "Decay Law",
+   "body": "Activity A = λN; N(t) = N₀ e^{-λt}; half-life t_{1/2} = ln 2 / λ."
+  }
+ ]
+}

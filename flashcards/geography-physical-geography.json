@@ -1,0 +1,64 @@
+{
+ "subject": "geography",
+ "topic": "physical-geography",
+ "topicName": "Physical Geography",
+ "version": 1,
+ "cards": [
+  {
+   "id": "physical-geography-fc1",
+   "front": "Recall a key point about Physical Geography",
+   "back": "Coastal erosion: hydraulic action (air pressure), abrasion (rock hurling), attrition (rock collision), solution (dissolving)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "physical-geography-fc2",
+   "front": "Recall a key point about Physical Geography",
+   "back": "Longshore drift: prevailing wind -> swash angle -> backwash perpendicular -> zigzag transport",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "physical-geography-fc3",
+   "front": "Recall a key point about Physical Geography",
+   "back": "Landforms: headland (resistant rock), bay (weak rock), cave -> arch -> stack -> stump",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "physical-geography-fc4",
+   "front": "Recall a key point about Physical Geography",
+   "back": "Plate boundaries: constructive (mid-ocean ridges), destructive (subduction, volcanoes), conservative (transform, earthquakes), collision (fold mountains)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "physical-geography-fc5",
+   "front": "Recall a key point about Physical Geography",
+   "back": "River erosion: hydraulic action, abrasion, attrition, solution; vertical (upper), lateral (middle/lower)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "physical-geography-fc6",
+   "front": "Recall a key point about Physical Geography",
+   "back": "River landforms: waterfall (hard/soft rock), meander (erosion outer, deposition inner), oxbow (cut-off), levees (deposition floods), delta (deposition at mouth)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "physical-geography-fc7",
+   "front": "Recall a key point about Physical Geography",
+   "back": "Flood hydrograph: lag time, peak discharge, rising/falling limb; Management: dams, channel straightening, afforestation, floodplain zoning",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

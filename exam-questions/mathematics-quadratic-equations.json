@@ -1,0 +1,26 @@
+{
+ "subject": "mathematics",
+ "topic": "quadratic-equations",
+ "topicName": "Quadratic Equations",
+ "version": 1,
+ "questions": [
+  {
+   "id": "quadratic-equations-exam1",
+   "type": "extended",
+   "question": "Solve 2x^2 - 5x - 3 = 0 and hence solve 2sin^2θ - 5sinθ - 3 = 0 for 0 <= θ < 2pi",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "2x^2 - 5x - 3 = (2x+1)(x-3) = 0 -> x = -½ or x = 3. Since sinθ ∈ [-1,1], sinθ = -½ -> θ = 7pi/6, 11pi/6",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "2x^2 - 5x - 3 = (2x+1)(x-3) = 0 -> x = -½ or x = 3. Since sinθ ∈ [-1,1], sinθ = -½ -> θ = 7pi/6, 11pi/6"
+   }
+  }
+ ]
+}

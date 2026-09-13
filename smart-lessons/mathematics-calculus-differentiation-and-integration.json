@@ -1,0 +1,20 @@
+{
+ "subject": "mathematics",
+ "topic": "calculus-differentiation-and-integration",
+ "topicName": "Calculus: Differentiation and Integration",
+ "version": 1,
+ "steps": [
+  {
+   "id": "calculus-differentiation-and-integration-s1",
+   "kind": "learn",
+   "title": "Product Rule",
+   "body": "d/dx[uv] = u(dv/dx) + v(du/dx)."
+  },
+  {
+   "id": "calculus-differentiation-and-integration-s2",
+   "kind": "learn",
+   "title": "Integration by Parts",
+   "body": "∫ u (dv/dx) dx = uv - ∫ v (du/dx) dx."
+  }
+ ]
+}

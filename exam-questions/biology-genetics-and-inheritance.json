@@ -1,0 +1,26 @@
+{
+ "subject": "biology",
+ "topic": "genetics-and-inheritance",
+ "topicName": "Genetics and Inheritance",
+ "version": 1,
+ "questions": [
+  {
+   "id": "genetics-and-inheritance-exam1",
+   "type": "extended",
+   "question": "In sweet peas, flower colour is controlled by two genes (C and P). Both dominant alleles needed for purple flowers. Cross CcPp x CcPp. Find phenotypic ratio",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Both genes needed for purple. C_P_ = purple (9/16); ccP_ = white (3/16); C_pp = white (3/16); ccpp = white (1/16). Ratio = 9 purple : 7 white (complementary epistasis)",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Both genes needed for purple. C_P_ = purple (9/16); ccP_ = white (3/16); C_pp = white (3/16); ccpp = white (1/16). Ratio = 9 purple : 7 white (complementary epistasis)"
+   }
+  }
+ ]
+}

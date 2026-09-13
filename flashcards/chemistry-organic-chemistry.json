@@ -1,0 +1,64 @@
+{
+ "subject": "chemistry",
+ "topic": "organic-chemistry",
+ "topicName": "Organic Chemistry",
+ "version": 1,
+ "cards": [
+  {
+   "id": "organic-chemistry-fc1",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "IUPAC: longest chain, number for lowest locants, prefixes for substituents, suffix for functional group",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-chemistry-fc2",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "Mechanisms: curly arrows show electron pair movement; SN1: carbocation intermediate (3 deg > 2 deg > 1 deg ); SN2: concerted backside attack (1 deg favoured)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-chemistry-fc3",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "Markovnikov: H adds to carbon with more H's (forms more stable carbocation)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-chemistry-fc4",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "Oxidation: 1 deg alcohol -> aldehyde -> carboxylic acid; 2 deg -> ketone; 3 deg resistant",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-chemistry-fc5",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "Esters: RCOOR'; formed from acid + alcohol (conc H₂SO₄); hydrolysis: acid or base (saponification)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-chemistry-fc6",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "IR: C=O ~1700, O-H ~3300, C-H ~2900 cm⁻¹; MS: M⁺ peak, fragmentation pattern",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-chemistry-fc7",
+   "front": "Recall a key point about Organic Chemistry",
+   "back": "Retrosynthesis: work backwards from target; identify disconnections; choose reagents",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

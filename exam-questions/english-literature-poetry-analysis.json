@@ -1,0 +1,26 @@
+{
+ "subject": "english-literature",
+ "topic": "poetry-analysis",
+ "topicName": "Poetry Analysis",
+ "version": 1,
+ "questions": [
+  {
+   "id": "poetry-analysis-exam1",
+   "type": "extended",
+   "question": "Analyse how the poet uses structure and language to convey the theme of loss in 'When You Are Old' by Yeats",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Three stanzas move from present to past to future. Iambic pentameter creates reflective tone. 'Glad grace' (alliteration) contrasts with 'pilgrim soul' (metaphor). Final stanza 'bending down beside the glowing bars' -- imagery of ageing/regret. ABBA rhyme encloses memory",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Three stanzas move from present to past to future. Iambic pentameter creates reflective tone. 'Glad grace' (alliteration) contrasts with 'pilgrim soul' (metaphor). Final stanza 'bending down beside the glowing bars' -- imagery of ageing/regret. ABBA rhyme encloses memory"
+   }
+  }
+ ]
+}

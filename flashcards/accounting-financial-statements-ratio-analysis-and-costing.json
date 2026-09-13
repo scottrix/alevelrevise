@@ -1,0 +1,24 @@
+{
+ "subject": "accounting",
+ "topic": "financial-statements-ratio-analysis-and-costing",
+ "topicName": "Financial Statements, Ratio Analysis and Costing",
+ "version": 1,
+ "cards": [
+  {
+   "id": "financial-statements-ratio-analysis-and-costing-fc1",
+   "front": "What should you know about double-entry system?",
+   "back": "Every financial transaction affects at least two accounts with equal and opposite Debit and Credit entries (Assets = Liabilities + Equity).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "financial-statements-ratio-analysis-and-costing-fc2",
+   "front": "What should you know about break-even point?",
+   "back": "The level of output where total revenue equals total costs: Fixed Costs / Contribution per unit.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

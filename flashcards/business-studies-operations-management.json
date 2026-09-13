@@ -1,0 +1,56 @@
+{
+ "subject": "business-studies",
+ "topic": "operations-management",
+ "topicName": "Operations Management",
+ "version": 1,
+ "cards": [
+  {
+   "id": "operations-management-fc1",
+   "front": "Recall a key point about Operations Management",
+   "back": "Job: one-off, high skill, high cost; Batch: groups, flexible; Flow: continuous, high volume, low variety; Cell: U-shape, multi-skilled; Mass custom: flow + flexibility",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operations-management-fc2",
+   "front": "Recall a key point about Operations Management",
+   "back": "QC (inspection) vs QA (prevention); TQM: culture, continuous improvement; Kaizen: small incremental; Six Sigma: DMAIC, 3.4 defects/million; Benchmarking: best practice",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operations-management-fc3",
+   "front": "Recall a key point about Operations Management",
+   "back": "Capacity utilisation = actual/max x100%; Efficiency = standard hours/actual hours; Productivity = output/input",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operations-management-fc4",
+   "front": "Recall a key point about Operations Management",
+   "back": "Lean: eliminate Muda (overproduction, waiting, transport, over-processing, inventory, motion, defects); JIT: pull system; Kanban: visual signal; 5S: Sort, Set, Shine, Standardise, Sustain",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operations-management-fc5",
+   "front": "Recall a key point about Operations Management",
+   "back": "Supply chain: procurement (supplier selection), logistics (transport, warehousing), outsourcing (core vs non-core), supplier development",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "operations-management-fc6",
+   "front": "Recall a key point about Operations Management",
+   "back": "Industry 4.0: cyber-physical systems, IoT, big data, AI, additive manufacturing, digital twins",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

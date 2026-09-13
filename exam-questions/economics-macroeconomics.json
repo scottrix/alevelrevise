@@ -1,0 +1,26 @@
+{
+ "subject": "economics",
+ "topic": "macroeconomics",
+ "topicName": "Macroeconomics",
+ "version": 1,
+ "questions": [
+  {
+   "id": "macroeconomics-exam1",
+   "type": "extended",
+   "question": "Using AD/AS, analyse the effect of a rise in oil prices on price level and real output",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Oil price rise -> production costs ↑ -> SRAS shifts left. Result: price level rises (cost-push inflation), real output falls (stagflation). If central bank accommodates (AD↑), output restored but inflation higher. If not, recession",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Oil price rise -> production costs ↑ -> SRAS shifts left. Result: price level rises (cost-push inflation), real output falls (stagflation). If central bank accommodates (AD↑), output restored but inflation higher. If not, recession"
+   }
+  }
+ ]
+}

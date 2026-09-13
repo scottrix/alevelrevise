@@ -1,0 +1,72 @@
+{
+ "subject": "economics",
+ "topic": "microeconomics-and-markets",
+ "topicName": "Microeconomics and Markets",
+ "version": 1,
+ "cards": [
+  {
+   "id": "microeconomics-and-markets-fc1",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "Demand: P↓->Qd↑ (law); Determinants: income, tastes, related goods, expectations, #buyers",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc2",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "Supply: P↑->Qs↑; Determinants: input prices, technology, expectations, #sellers, taxes/subsidies",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc3",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "Equilibrium: Qd=Qs; Shortage: P<P* -> Qd>Qs; Surplus: P>P* -> Qs>Qd",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc4",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "PED = %DeltaQd/%DeltaP; elastic (>1), inelastic (<1), unitary (=1); factors: substitutes, necessity, time, %income",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc5",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "YED: normal (>0), inferior (<0); XED: substitutes (>0), complements (<0); PES: time, spare capacity",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc6",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "Surplus: CS = area under D above P; PS = area above S below P; Deadweight loss from intervention",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc7",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "Market structures: PC (many, homogeneous, free entry); Monopoly (one, barriers); MC (many, differentiated); Oligopoly (few, interdependence)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "microeconomics-and-markets-fc8",
+   "front": "Recall a key point about Microeconomics and Markets",
+   "back": "Labour: D = MRP; S = workers; Wage = MRP = MRC in PC; Monopsony: MRC > S; Unions: collective bargaining",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

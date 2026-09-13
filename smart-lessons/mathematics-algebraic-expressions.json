@@ -1,0 +1,44 @@
+{
+ "subject": "mathematics",
+ "topic": "algebraic-expressions",
+ "topicName": "Algebraic Expressions",
+ "version": 1,
+ "steps": [
+  {
+   "id": "algebraic-expressions-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Collecting like terms: only terms with identical variables and powers can be combined"
+  },
+  {
+   "id": "algebraic-expressions-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Expanding brackets: multiply each term inside by the term outside (FOIL for double brackets)"
+  },
+  {
+   "id": "algebraic-expressions-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Difference of two squares: a^2 - b^2 = (a + b)(a - b)"
+  },
+  {
+   "id": "algebraic-expressions-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Perfect square trinomials: a^2 +/- 2ab + b^2 = (a +/- b)^2"
+  },
+  {
+   "id": "algebraic-expressions-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Simplify fully: (2x^2 + 3x - 2)/(x + 2) - (x^2 - 4)/(x - 2) --- Solution: Factorise: (2x-1)(x+2)/(x+2) - (x-2)(x+2)/(x-2) = (2x-1) - (x+2) = x - 3"
+  },
+  {
+   "id": "algebraic-expressions-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Expand and simplify (3x - 2)(x + 4) - (x - 1)^2 | Factorise completely: 6x^2 + 13x + 6 | Simplify: (x^3 - 8)/(x^2 - 4)"
+  }
+ ]
+}

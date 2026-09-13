@@ -1,0 +1,44 @@
+{
+ "subject": "history",
+ "topic": "interpretation-and-sources",
+ "topicName": "Interpretation and Sources",
+ "version": 1,
+ "steps": [
+  {
+   "id": "interpretation-and-sources-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Primary: contemporary to event (documents, artefacts, oral testimony); Secondary: later analysis by historians"
+  },
+  {
+   "id": "interpretation-and-sources-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "OPVL: Origin (who, when, where), Purpose (why created), Value (what it reveals), Limitation (what it omits/distorts)"
+  },
+  {
+   "id": "interpretation-and-sources-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Reliability: accuracy, bias, typicality; Utility: usefulness for specific enquiry"
+  },
+  {
+   "id": "interpretation-and-sources-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Historiography: Whig (progress), Marxist (class struggle), Revisionist (challenge orthodoxy), Postmodern (multiple truths)"
+  },
+  {
+   "id": "interpretation-and-sources-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Evaluate the utility of a 1917 Bolshevik poster for a historian studying propaganda in the Russian Revolution --- Solution: Origin: Bolshevik party, 1917. Purpose: mobilise support, demonise opponents. Value: reveals Bolshevik messaging, visual rhetoric, target audience (workers/soldiers). Limitation: one-sided, omit failures, not objective. Utility: high for studying propaganda techniques, low for factual accuracy of events"
+  },
+  {
+   "id": "interpretation-and-sources-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Apply OPVL to a diary entry from WWI | Compare two historians' views on the causes of the English Civil War | Explain the difference between reliability and utility"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subject": "chemistry",
+ "topic": "thermodynamics-and-born-haber-cycles",
+ "topicName": "Thermodynamics and Born-Haber Cycles",
+ "version": 1,
+ "steps": [
+  {
+   "id": "thermodynamics-and-born-haber-cycles-s1",
+   "kind": "learn",
+   "title": "Lattice Enthalpy",
+   "body": "Enthalpy change when one mole of solid ionic lattice forms from gaseous ions under standard conditions (exothermic)."
+  },
+  {
+   "id": "thermodynamics-and-born-haber-cycles-s2",
+   "kind": "learn",
+   "title": "Gibbs Free Energy",
+   "body": "ΔG = ΔH - TΔS. A reaction is thermodynamically feasible when ΔG ≤ 0."
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "subject": "geography",
+ "topic": "fieldwork-and-data-collection",
+ "topicName": "Fieldwork and Data Collection",
+ "version": 1,
+ "cards": [
+  {
+   "id": "fieldwork-and-data-collection-fc1",
+   "front": "Recall a key point about Fieldwork and Data Collection",
+   "back": "Enquiry: hypothesis (testable), sub-questions, risk assessment, ethical considerations (consent, privacy)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "fieldwork-and-data-collection-fc2",
+   "front": "Recall a key point about Fieldwork and Data Collection",
+   "back": "Sampling: random (unbiased), systematic (interval), stratified (proportional subgroups), opportunistic (pragmatic)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "fieldwork-and-data-collection-fc3",
+   "front": "Recall a key point about Fieldwork and Data Collection",
+   "back": "Primary: questionnaires, EQ surveys, sediment analysis, velocity, infiltration; Secondary: OS maps, census, Met Office, academic papers",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "fieldwork-and-data-collection-fc4",
+   "front": "Recall a key point about Fieldwork and Data Collection",
+   "back": "Presentation: proportional circles, choropleth, scatter with trend line, rose diagrams, cross-sections",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "fieldwork-and-data-collection-fc5",
+   "front": "Recall a key point about Fieldwork and Data Collection",
+   "back": "Stats: Spearman's (correlation, ordinal), Chi-squared (categorical association), Mann-Whitney (difference, ordinal)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "fieldwork-and-data-collection-fc6",
+   "front": "Recall a key point about Fieldwork and Data Collection",
+   "back": "Evaluation: limitations (sample size, bias, equipment), reliability (repeatable), validity (measures what intended)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,80 @@
+{
+ "subject": "mathematics",
+ "topic": "coordinate-geometry",
+ "topicName": "Coordinate Geometry",
+ "version": 1,
+ "cards": [
+  {
+   "id": "coordinate-geometry-fc1",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Gradient m = (y₂ - y₁)/(x₂ - x₁)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc2",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Line equations: y - y₁ = m(x - x₁) or y = mx + c",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc3",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Distance d = sqrt((x₂ - x₁)^2 + (y₂ - y₁)^2)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc4",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Midpoint M = ((x₁ + x₂)/2, (y₁ + y₂)/2)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc5",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Parallel lines: equal gradients (m₁ = m₂)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc6",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Perpendicular lines: product of gradients = -1 (m₁ x m₂ = -1)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc7",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Circle: (x - a)^2 + (y - b)^2 = r^2, centre (a,b), radius r",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc8",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Circle properties: radius ⟂ tangent, perpendicular bisector of chord passes through centre",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "coordinate-geometry-fc9",
+   "front": "Recall a key point about Coordinate Geometry",
+   "back": "Intersection: solve simultaneous equations of line and circle/line",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

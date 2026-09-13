@@ -1,0 +1,56 @@
+{
+ "subject": "psychology",
+ "topic": "social-influence-and-attachment",
+ "topicName": "Social Influence and Attachment",
+ "version": 1,
+ "cards": [
+  {
+   "id": "social-influence-and-attachment-fc1",
+   "front": "Recall a key point about Social Influence and Attachment",
+   "back": "Conformity: Compliance (public only), Identification (group membership), Internalisation (true belief); Asch (line length, 32% conform), Zimbardo (Stanford prison)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "social-influence-and-attachment-fc2",
+   "front": "Recall a key point about Social Influence and Attachment",
+   "back": "Obedience: Milgram (65% to 450V), agency theory (agentic/autonomous state), legitimacy of authority, gradual commitment",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "social-influence-and-attachment-fc3",
+   "front": "Recall a key point about Social Influence and Attachment",
+   "back": "Resistance: social support (ally), locus of control (internal resist); Minority influence: consistency, commitment, flexibility, snowball effect",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "social-influence-and-attachment-fc4",
+   "front": "Recall a key point about Social Influence and Attachment",
+   "back": "Attachment: Bowlby (evolutionary, monotropy, critical period 0-2.5yrs, IWM), Ainsworth: Secure (B), Insecure-avoidant (A), Insecure-resistant (C); Disorganised (D)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "social-influence-and-attachment-fc5",
+   "front": "Recall a key point about Social Influence and Attachment",
+   "back": "Cultural: van IJzendoorn (meta-analysis, secure universal but variations), Romanian orphans (Rutter, ERA study, privation effects)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "social-influence-and-attachment-fc6",
+   "front": "Recall a key point about Social Influence and Attachment",
+   "back": "Influence on later relationships: IWM -> parenting, peer, romantic (Hazan & Shaver)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,64 @@
+{
+ "subject": "chemistry",
+ "topic": "redox-and-electrochemistry",
+ "topicName": "Redox and Electrochemistry",
+ "version": 1,
+ "cards": [
+  {
+   "id": "redox-and-electrochemistry-fc1",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Oxidation = loss of e⁻ (OIL RIG); Oxidation state rules: element=0, Group 1=+1, O=-2 (exc peroxides), H=+1 (exc hydrides)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "redox-and-electrochemistry-fc2",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Half-equations: balance atoms (O with H₂O, H with H⁺), then charge with e⁻",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "redox-and-electrochemistry-fc3",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Cell: anode (oxidation) || cathode (reduction); E deg _cell = E deg _red(cathode) - E deg _red(anode)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "redox-and-electrochemistry-fc4",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Feasible if E deg _cell > 0; Equilibrium: E deg _cell = 0.059/n log K at 298K",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "redox-and-electrochemistry-fc5",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Nernst: E = E deg - 0.059/n log Q; concentration cells generate voltage from conc difference",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "redox-and-electrochemistry-fc6",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Fuel cell: H₂ + ½O₂ -> H₂O; H₂ oxidised at anode, O₂ reduced at cathode; high efficiency",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "redox-and-electrochemistry-fc7",
+   "front": "Recall a key point about Redox and Electrochemistry",
+   "back": "Rechargeable: Li-ion (LiCoO₂/Li), NiMH, lead-acid; reversible redox",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "business-studies",
+ "topic": "strategic-management-financial-analysis-and-marketing",
+ "topicName": "Strategic Management, Financial Analysis and Marketing",
+ "version": 1,
+ "cards": [
+  {
+   "id": "strategic-management-financial-analysis-and-marketing-fc1",
+   "front": "What should you know about return on capital employed (roce)?",
+   "back": "Operating Profit / Total Capital Employed × 100%. Measures business capital efficiency.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "strategic-management-financial-analysis-and-marketing-fc2",
+   "front": "What should you know about net present value (npv)?",
+   "back": "The sum of discounted future cash flows minus initial capital outlay.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

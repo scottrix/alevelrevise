@@ -1,0 +1,20 @@
+{
+ "subject": "business-studies",
+ "topic": "strategic-management-financial-analysis-and-marketing",
+ "topicName": "Strategic Management, Financial Analysis and Marketing",
+ "version": 1,
+ "steps": [
+  {
+   "id": "strategic-management-financial-analysis-and-marketing-s1",
+   "kind": "learn",
+   "title": "Return on Capital Employed (ROCE)",
+   "body": "Operating Profit / Total Capital Employed × 100%. Measures business capital efficiency."
+  },
+  {
+   "id": "strategic-management-financial-analysis-and-marketing-s2",
+   "kind": "learn",
+   "title": "Net Present Value (NPV)",
+   "body": "The sum of discounted future cash flows minus initial capital outlay."
+  }
+ ]
+}

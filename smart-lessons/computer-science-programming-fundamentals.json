@@ -1,0 +1,44 @@
+{
+ "subject": "computer-science",
+ "topic": "programming-fundamentals",
+ "topicName": "Programming Fundamentals",
+ "version": 1,
+ "steps": [
+  {
+   "id": "programming-fundamentals-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Data types: int, float, bool, char, string; type casting; constants vs variables"
+  },
+  {
+   "id": "programming-fundamentals-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Selection: if/elif/else, switch/case (match in Python 3.10+); nested conditions"
+  },
+  {
+   "id": "programming-fundamentals-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Iteration: for (definite), while (indefinite), do-while (at least once); break/continue"
+  },
+  {
+   "id": "programming-fundamentals-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Functions: definition, call, parameters (positional, keyword, default), return, recursion"
+  },
+  {
+   "id": "programming-fundamentals-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Write a function that reads a file of integers and returns the median --- Solution: def median_from_file(filename): with open(filename) as f: nums = sorted(int(line.strip()) for line in f if line.strip()) n = len(nums) if n == 0: return None mid = n // 2 return nums[mid] if n % 2 else (nums[mid-1] + nums[mid]) / 2"
+  },
+  {
+   "id": "programming-fundamentals-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Write a program that validates email format using regex | Implement a recursive factorial function | Create a menu-driven calculator with functions"
+  }
+ ]
+}

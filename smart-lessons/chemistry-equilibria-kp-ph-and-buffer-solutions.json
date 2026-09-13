@@ -1,0 +1,20 @@
+{
+ "subject": "chemistry",
+ "topic": "equilibria-kp-ph-and-buffer-solutions",
+ "topicName": "Equilibria, Kp, pH and Buffer Solutions",
+ "version": 1,
+ "steps": [
+  {
+   "id": "equilibria-kp-ph-and-buffer-solutions-s1",
+   "kind": "learn",
+   "title": "Buffer Solution",
+   "body": "A solution that maintains approximately constant pH when small quantities of acid or base are added."
+  },
+  {
+   "id": "equilibria-kp-ph-and-buffer-solutions-s2",
+   "kind": "learn",
+   "title": "Acid Dissociation Constant (Ka)",
+   "body": "Ka = [H⁺][A⁻]/[HA]; pKa = -log₁₀ Ka."
+  }
+ ]
+}

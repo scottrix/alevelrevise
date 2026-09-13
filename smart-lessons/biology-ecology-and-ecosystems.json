@@ -1,0 +1,44 @@
+{
+ "subject": "biology",
+ "topic": "ecology-and-ecosystems",
+ "topicName": "Ecology and Ecosystems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "ecology-and-ecosystems-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "GPP = total photosynthesis; NPP = GPP - R (respiration); Efficiency = energy transferred/total available x100% (typically 10%); Pyramids: energy always upright; biomass can be inverted"
+  },
+  {
+   "id": "ecology-and-ecosystems-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Carbon: photosynthesis, respiration, combustion, decomposition, ocean uptake; Nitrogen: fixation (lightning, bacteria), nitrification (ammonia->nitrite->nitrate), assimilation, denitrification"
+  },
+  {
+   "id": "ecology-and-ecosystems-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Growth curves: lag, log, stationary, death; Carrying capacity K; r/K selection; Predator-prey: Lotka-Volterra cycles"
+  },
+  {
+   "id": "ecology-and-ecosystems-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Succession: pioneer -> intermediate -> climax; each stage modifies environment for next; Deflected succession: human interference"
+  },
+  {
+   "id": "ecology-and-ecosystems-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain why only ~10% of energy transfers between trophic levels --- Solution: Energy lost as: heat (respiration), faeces (undigested), urine (excretion), uneaten parts. Only energy in consumed biomass available to next level. 2nd law of thermodynamics: entropy increases"
+  },
+  {
+   "id": "ecology-and-ecosystems-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define GPP and NPP | Describe nitrogen fixation | Draw logistic growth curve, label K and r"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "subject": "mathematics",
+ "topic": "integration",
+ "topicName": "Integration",
+ "version": 1,
+ "questions": [
+  {
+   "id": "integration-exam1",
+   "type": "extended",
+   "question": "Evaluate ∫₀^2 xsqrt(4 - x^2) dx using substitution u = 4 - x^2",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "u = 4 - x^2, du = -2x dx -> x dx = -½ du. Limits: x=0->u=4, x=2->u=0. ∫₄⁰ sqrtu (-½)du = ½∫₀⁴ u^½ du = ½[⅔u^⅔]₀⁴ = ⅓(8) = 8/3",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "u = 4 - x^2, du = -2x dx -> x dx = -½ du. Limits: x=0->u=4, x=2->u=0. ∫₄⁰ sqrtu (-½)du = ½∫₀⁴ u^½ du = ½[⅔u^⅔]₀⁴ = ⅓(8) = 8/3"
+   }
+  }
+ ]
+}

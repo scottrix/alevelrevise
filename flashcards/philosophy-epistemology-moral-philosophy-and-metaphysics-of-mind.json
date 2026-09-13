@@ -1,0 +1,24 @@
+{
+ "subject": "philosophy",
+ "topic": "epistemology-moral-philosophy-and-metaphysics-of-mind",
+ "topicName": "Epistemology, Moral Philosophy and Metaphysics of Mind",
+ "version": 1,
+ "cards": [
+  {
+   "id": "epistemology-moral-philosophy-and-metaphysics-of-mind-fc1",
+   "front": "What should you know about justified true belief (jtb)?",
+   "back": "The classical tripartite definition of propositional knowledge: S knows that p iff p is true, S believes that p, and S is justified in believing p.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "epistemology-moral-philosophy-and-metaphysics-of-mind-fc2",
+   "front": "What should you know about substance dualism?",
+   "back": "Descartes' metaphysical thesis that mind and body are two distinct fundamental substances: thinking non-extended res cogitans and extended physical res extensa.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

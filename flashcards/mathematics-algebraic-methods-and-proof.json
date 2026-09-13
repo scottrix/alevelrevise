@@ -1,0 +1,24 @@
+{
+ "subject": "mathematics",
+ "topic": "algebraic-methods-and-proof",
+ "topicName": "Algebraic Methods and Proof",
+ "version": 1,
+ "cards": [
+  {
+   "id": "algebraic-methods-and-proof-fc1",
+   "front": "What should you know about proof by contradiction?",
+   "back": "Establishing truth by demonstrating that assuming the statement to be false leads to a logical contradiction.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-methods-and-proof-fc2",
+   "front": "What should you know about partial fractions?",
+   "back": "Decomposing rational fractions P(x)/Q(x) into sums of simpler terms with linear or quadratic denominators.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

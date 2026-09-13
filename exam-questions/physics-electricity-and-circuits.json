@@ -1,0 +1,26 @@
+{
+ "subject": "physics",
+ "topic": "electricity-and-circuits",
+ "topicName": "Electricity and Circuits",
+ "version": 1,
+ "questions": [
+  {
+   "id": "electricity-and-circuits-exam1",
+   "type": "extended",
+   "question": "A 12 V battery with internal resistance 0.5 Ω is connected to a 5.5 Ω resistor. Find current, terminal PD, power delivered to load, and power wasted in battery",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2"
+   }
+  }
+ ]
+}

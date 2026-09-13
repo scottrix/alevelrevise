@@ -1,0 +1,80 @@
+{
+ "subject": "mathematics",
+ "topic": "algebraic-expressions",
+ "topicName": "Algebraic Expressions",
+ "version": 1,
+ "cards": [
+  {
+   "id": "algebraic-expressions-fc1",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Collecting like terms: only terms with identical variables and powers can be combined",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc2",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Expanding brackets: multiply each term inside by the term outside (FOIL for double brackets)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc3",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Difference of two squares: a^2 - b^2 = (a + b)(a - b)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc4",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Perfect square trinomials: a^2 +/- 2ab + b^2 = (a +/- b)^2",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc5",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Factorising by grouping: pair terms to extract common factors",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc6",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Algebraic fractions: factorise numerator and denominator first, then cancel common factors",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc7",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Index laws: xᵃ x xᵇ = xᵃ⁺ᵇ, xᵃ ÷ xᵇ = xᵃ⁻ᵇ, (xᵃ)ᵇ = xᵃᵇ, x⁰ = 1, x⁻ᵃ = 1/xᵃ",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc8",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Polynomial long division: dividend = divisor x quotient + remainder",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "algebraic-expressions-fc9",
+   "front": "Recall a key point about Algebraic Expressions",
+   "back": "Factor theorem: if f(a) = 0 then (x - a) is a factor of f(x)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

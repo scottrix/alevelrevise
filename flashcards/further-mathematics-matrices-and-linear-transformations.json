@@ -1,0 +1,24 @@
+{
+ "subject": "further-mathematics",
+ "topic": "matrices-and-linear-transformations",
+ "topicName": "Matrices and Linear Transformations",
+ "version": 1,
+ "cards": [
+  {
+   "id": "matrices-and-linear-transformations-fc1",
+   "front": "What should you know about determinant?",
+   "back": "Scalar scale factor for area/volume. det(A) = ad - bc for 2x2.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "matrices-and-linear-transformations-fc2",
+   "front": "What should you know about eigenvector?",
+   "back": "Non-zero vector v satisfying Av = λv for eigenvalue λ.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

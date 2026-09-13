@@ -1,0 +1,44 @@
+{
+ "subject": "business-studies",
+ "topic": "finance-and-accounts",
+ "topicName": "Finance and Accounts",
+ "version": 1,
+ "steps": [
+  {
+   "id": "finance-and-accounts-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Income statement: revenue, COGS, gross profit, expenses, operating profit, profit for year"
+  },
+  {
+   "id": "finance-and-accounts-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Balance sheet: non-current assets, current assets, current liabilities, non-current liabilities, equity"
+  },
+  {
+   "id": "finance-and-accounts-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cash flow: operating, investing, financing; free cash flow"
+  },
+  {
+   "id": "finance-and-accounts-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ratios: Gross/Net margin, ROCE, Current/Acid test, Inventory/Payables/Receivables days, Gearing (debt/equity)"
+  },
+  {
+   "id": "finance-and-accounts-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: FC=GBP 50,000, VC=GBP 5/unit, P=GBP 15. Find break-even, margin of safety at 12,000 units, units for GBP 30,000 profit --- Solution: Contribution = 15-5=10. BE = 50,000/10 = 5,000 units. MoS = 12,000 - 5,000 = 7,000 units (58%). Target: (50,000+30,000)/10 = 8,000 units"
+  },
+  {
+   "id": "finance-and-accounts-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate gross/net margin from income statement | Interpret current ratio 1.5 vs 0.8 | NPV: GBP 100k initial, GBP 30k/yr 5yrs, 10% discount"
+  }
+ ]
+}

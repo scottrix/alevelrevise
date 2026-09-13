@@ -1,0 +1,80 @@
+{
+ "subject": "mathematics",
+ "topic": "quadratic-equations",
+ "topicName": "Quadratic Equations",
+ "version": 1,
+ "cards": [
+  {
+   "id": "quadratic-equations-fc1",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Standard form: ax^2 + bx + c = 0 (a != 0)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc2",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Factorising when a=1: find two numbers with product c and sum b",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc3",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Factorising when a!=1: use AC method or trial and error",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc4",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Completing the square: x^2 + bx = (x + b/2)^2 - (b/2)^2",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc5",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Quadratic formula: x = (-b +/- sqrt(b^2-4ac)) / 2a",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc6",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Discriminant Delta = b^2 - 4ac: Delta > 0 -> two distinct real roots; Delta = 0 -> one repeated root; Delta < 0 -> no real roots",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc7",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Quadratic inequalities: sketch parabola or use sign analysis of factors",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc8",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Sum of roots = -b/a, product of roots = c/a",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "quadratic-equations-fc9",
+   "front": "Recall a key point about Quadratic Equations",
+   "back": "Hidden quadratics: substitute u = x^2, u = eˣ, etc.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

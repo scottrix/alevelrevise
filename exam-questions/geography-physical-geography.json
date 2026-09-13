@@ -1,0 +1,26 @@
+{
+ "subject": "geography",
+ "topic": "physical-geography",
+ "topicName": "Physical Geography",
+ "version": 1,
+ "questions": [
+  {
+   "id": "physical-geography-exam1",
+   "type": "extended",
+   "question": "Explain the formation of a waterfall and gorge using geological structure",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "River flows over hard rock (cap rock) onto soft rock below. Soft rock erodes faster (hydraulic action, abrasion) creating plunge pool and undercutting. Hard rock collapses -> waterfall retreats upstream -> steep-sided gorge left behind. Cap rock provides resistant layer",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "River flows over hard rock (cap rock) onto soft rock below. Soft rock erodes faster (hydraulic action, abrasion) creating plunge pool and undercutting. Hard rock collapses -> waterfall retreats upstream -> steep-sided gorge left behind. Cap rock provides resistant layer"
+   }
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "subject": "business-studies",
+ "topic": "marketing",
+ "topicName": "Marketing",
+ "version": 1,
+ "questions": [
+  {
+   "id": "marketing-exam1",
+   "type": "extended",
+   "question": "A new energy drink targets 18-25 males. Propose segmentation, pricing, and promotion strategy",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Segmentation: demographic (18-25, male), psychographic (active, risk-takers), behavioural (gym-goers). Pricing: penetration (GBP 1.50) to gain share quickly. Promotion: social media influencers, gym sponsorships, sampling at events. Place: gyms, convenience stores, online subscription",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Segmentation: demographic (18-25, male), psychographic (active, risk-takers), behavioural (gym-goers). Pricing: penetration (GBP 1.50) to gain share quickly. Promotion: social media influencers, gym sponsorships, sampling at events. Place: gyms, convenience stores, online subscription"
+   }
+  }
+ ]
+}

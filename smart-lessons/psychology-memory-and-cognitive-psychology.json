@@ -1,0 +1,44 @@
+{
+ "subject": "psychology",
+ "topic": "memory-and-cognitive-psychology",
+ "topicName": "Memory and Cognitive Psychology",
+ "version": 1,
+ "steps": [
+  {
+   "id": "memory-and-cognitive-psychology-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "MSM: Sensory (iconic/echoic, <1s) -> attention -> STM (acoustic, 7+/-2, 18-30s) -> rehearsal -> LTM (semantic, unlimited); WMM: CE (attention), PL (speech), VSSP (visual), EB (integration); LTM: episodic (events), semantic (facts), procedural (skills)"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Encoding: acoustic (STM), semantic (LTM); Storage: consolidation; Retrieval: recall, recognition, relearning"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Forgetting: Proactive (old->new), Retroactive (new->old), Retrieval failure (cue-dependent), Decay (trace fades), Motivated (repression)"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "EWT: Loftus & Palmer (leading questions), anxiety (weapon focus), Cognitive interview (context reinstatement, report everything, reverse order, change perspective)"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain how the Working Memory Model accounts for dual-task performance better than the Multi-Store Model --- Solution: MSM: single STM store -> two verbal tasks interfere. WMM: separate stores (PL for verbal, VSSP for visual) -> can do verbal + visual simultaneously. Evidence: Baddeley (verbal reasoning + tracking). PL overload impairs both if both verbal"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare MSM vs WMM | Explain retrieval failure with example | Evaluate cognitive interview"
+  }
+ ]
+}

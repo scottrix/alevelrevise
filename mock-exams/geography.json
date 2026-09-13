@@ -1,0 +1,57 @@
+{
+ "subject": "geography",
+ "topic": "mock-exam",
+ "topicName": "Geography Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "geography-mock",
+   "name": "A-Level Geography Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 28,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Fieldwork and Data Collection] Design a hypothesis and sampling strategy to investigate how footpath erosion varies with distance from a car park in a national park",
+     "correctAnswer": "Hypothesis: Footpath erosion decreases with distance from car park due to visitor pressure decay. Systematic sampling: measure path width, depth, vegetation cover every 50m along 1km transect. Risk: weather, terrain. Ethics: minimise disturbance",
+     "explanation": "Hypothesis: Footpath erosion decreases with distance from car park due to visitor pressure decay. Systematic sampling: measure path width, depth, vegetation cover every 50m along 1km transect. Risk: weather, terrain. Ethics: minimise disturbance",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Hazards and Global Issues] Explain why vulnerability is a key component of hazard risk",
+     "correctAnswer": "Same magnitude earthquake: Haiti 2010 (M7.0, 230k deaths) vs Chile 2010 (M8.8, 500 deaths). Haiti: poor building codes, dense informal housing, weak governance -> high vulnerability. Chile: strict codes, preparedness, wealth -> low vulnerability. Risk depends on vulnerability not just hazard",
+     "explanation": "Same magnitude earthquake: Haiti 2010 (M7.0, 230k deaths) vs Chile 2010 (M8.8, 500 deaths). Haiti: poor building codes, dense informal housing, weak governance -> high vulnerability. Chile: strict codes, preparedness, wealth -> low vulnerability. Risk depends on vulnerability not just hazard",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Human Geography] Explain how a country's position in the Demographic Transition Model affects its population pyramid shape",
+     "correctAnswer": "Stage 2 (e.g. Nigeria): high BR, falling DR -> wide base (many young), narrow top (few elderly), pyramidal. Stage 4 (e.g. UK): low BR, low DR -> narrower base, wider top, columnar. Stage 5 (e.g. Japan): BR<DR -> contracting base, bulge at top, inverted pyramid",
+     "explanation": "Stage 2 (e.g. Nigeria): high BR, falling DR -> wide base (many young), narrow top (few elderly), pyramidal. Stage 4 (e.g. UK): low BR, low DR -> narrower base, wider top, columnar. Stage 5 (e.g. Japan): BR<DR -> contracting base, bulge at top, inverted pyramid",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Physical Geography] Explain the formation of a waterfall and gorge using geological structure",
+     "correctAnswer": "River flows over hard rock (cap rock) onto soft rock below. Soft rock erodes faster (hydraulic action, abrasion) creating plunge pool and undercutting. Hard rock collapses -> waterfall retreats upstream -> steep-sided gorge left behind. Cap rock provides resistant layer",
+     "explanation": "River flows over hard rock (cap rock) onto soft rock below. Soft rock erodes faster (hydraulic action, abrasion) creating plunge pool and undercutting. Hard rock collapses -> waterfall retreats upstream -> steep-sided gorge left behind. Cap rock provides resistant layer",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

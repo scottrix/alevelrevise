@@ -1,0 +1,44 @@
+{
+ "subject": "mathematics",
+ "topic": "differentiation",
+ "topicName": "Differentiation",
+ "version": 1,
+ "steps": [
+  {
+   "id": "differentiation-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Power rule: d/dx(xⁿ) = nxⁿ⁻¹ for all real n"
+  },
+  {
+   "id": "differentiation-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sum/difference: d/dx(f+/-g) = f' +/- g'"
+  },
+  {
+   "id": "differentiation-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Product rule: d/dx(fg) = f'g + fg'"
+  },
+  {
+   "id": "differentiation-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Quotient rule: d/dx(f/g) = (f'g - fg')/g^2"
+  },
+  {
+   "id": "differentiation-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Find the stationary points of y = x^3 - 3x^2 - 9x + 5 and determine their nature --- Solution: y' = 3x^2 - 6x - 9 = 3(x^2 - 2x - 3) = 3(x-3)(x+1) = 0 -> x = 3 or x = -1. y'' = 6x - 6. At x = 3: y'' = 12 > 0 -> minimum at (3, -22). At x = -1: y'' = -12 < 0 -> maximum at (-1, 10)"
+  },
+  {
+   "id": "differentiation-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Differentiate: xsqrt(x+2) using product rule | Find the equation of the normal to y = x^2 - 4x + 3 at x = 2 | A rectangular box with square base has volume 500 cm^3. Find minimum surface area"
+  }
+ ]
+}

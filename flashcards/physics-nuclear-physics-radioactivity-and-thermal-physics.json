@@ -1,0 +1,24 @@
+{
+ "subject": "physics",
+ "topic": "nuclear-physics-radioactivity-and-thermal-physics",
+ "topicName": "Nuclear Physics, Radioactivity and Thermal Physics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "nuclear-physics-radioactivity-and-thermal-physics-fc1",
+   "front": "What should you know about binding energy?",
+   "back": "Energy required to disassemble a nucleus into its constituent protons and neutrons (E = Δm c²).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "nuclear-physics-radioactivity-and-thermal-physics-fc2",
+   "front": "What should you know about decay law?",
+   "back": "Activity A = λN; N(t) = N₀ e^{-λt}; half-life t_{1/2} = ln 2 / λ.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

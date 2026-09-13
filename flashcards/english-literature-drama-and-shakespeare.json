@@ -1,0 +1,56 @@
+{
+ "subject": "english-literature",
+ "topic": "drama-and-shakespeare",
+ "topicName": "Drama and Shakespeare",
+ "version": 1,
+ "cards": [
+  {
+   "id": "drama-and-shakespeare-fc1",
+   "front": "Recall a key point about Drama and Shakespeare",
+   "back": "Soliloquy: character alone, reveals inner thoughts; Aside: to audience, others don't hear",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "drama-and-shakespeare-fc2",
+   "front": "Recall a key point about Drama and Shakespeare",
+   "back": "Dramatic irony: audience knows more than characters; creates tension",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "drama-and-shakespeare-fc3",
+   "front": "Recall a key point about Drama and Shakespeare",
+   "back": "Blank verse: unrhymed iambic pentameter (nobles); Prose: lower status, madness, intimacy",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "drama-and-shakespeare-fc4",
+   "front": "Recall a key point about Drama and Shakespeare",
+   "back": "Shakespearean imagery: clothing, blood, disease, nature, light/dark",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "drama-and-shakespeare-fc5",
+   "front": "Recall a key point about Drama and Shakespeare",
+   "back": "Stagecraft: minimal sets, emphasis on language; modern: lighting, sound, multimedia",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "drama-and-shakespeare-fc6",
+   "front": "Recall a key point about Drama and Shakespeare",
+   "back": "Tragedy: hamartia, peripeteia, anagnorisis, catharsis; Comedy: marriage, mistaken identity",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

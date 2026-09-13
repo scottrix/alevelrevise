@@ -1,0 +1,26 @@
+{
+ "subject": "psychology",
+ "topic": "psychopathology",
+ "topicName": "Psychopathology",
+ "version": 1,
+ "questions": [
+  {
+   "id": "psychopathology-exam1",
+   "type": "extended",
+   "question": "Explain the two-process model of phobias and evaluate it",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Classical: neutral stimulus (spider) paired with fear (trauma) -> CS elicits CR (fear). Operant: avoidance reduces fear -> negative reinforcement maintains phobia. Evaluation: explains acquisition/maintenance; ignores cognition (irrational thoughts), preparedness (why spiders not flowers?), individual differences; CBT addresses limitations",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Classical: neutral stimulus (spider) paired with fear (trauma) -> CS elicits CR (fear). Operant: avoidance reduces fear -> negative reinforcement maintains phobia. Evaluation: explains acquisition/maintenance; ignores cognition (irrational thoughts), preparedness (why spiders not flowers?), individual differences; CBT addresses limitations"
+   }
+  }
+ ]
+}

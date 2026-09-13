@@ -1,0 +1,26 @@
+{
+ "subject": "biology",
+ "topic": "homeostasis-and-the-nervous-system",
+ "topicName": "Homeostasis and the Nervous System",
+ "version": 1,
+ "questions": [
+  {
+   "id": "homeostasis-and-the-nervous-system-exam1",
+   "type": "extended",
+   "question": "Describe how the loop of Henle creates a water potential gradient in the kidney medulla",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Descending limb: permeable to water, impermeable to ions -> water leaves by osmosis. Ascending limb: impermeable to water, active Na⁺/Cl⁻ transport out -> filtrate diluted, medulla concentrated. Counter-current multiplier: flow in opposite directions maintains gradient",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Descending limb: permeable to water, impermeable to ions -> water leaves by osmosis. Ascending limb: impermeable to water, active Na⁺/Cl⁻ transport out -> filtrate diluted, medulla concentrated. Counter-current multiplier: flow in opposite directions maintains gradient"
+   }
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "subject": "psychology",
+ "topic": "research-methods",
+ "topicName": "Research Methods",
+ "version": 1,
+ "cards": [
+  {
+   "id": "research-methods-fc1",
+   "front": "Recall a key point about Research Methods",
+   "back": "Experimental designs: independent measures, repeated measures, matched pairs; controls: standardisation, counterbalancing, random allocation",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "research-methods-fc2",
+   "front": "Recall a key point about Research Methods",
+   "back": "Sampling: random (unbiased), stratified (proportional subgroups), systematic (interval), opportunity (convenience), volunteer (self-select)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "research-methods-fc3",
+   "front": "Recall a key point about Research Methods",
+   "back": "Descriptive: mean (parametric), median (skewed), mode (nominal), SD (spread), range; Inferential: t-test, Mann-Whitney, Wilcoxon, Chi-squared, Spearman, Pearson",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "research-methods-fc4",
+   "front": "Recall a key point about Research Methods",
+   "back": "Ethics: consent, deception (cost-benefit), debrief, withdrawal, confidentiality, protection from harm; BPS code",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "research-methods-fc5",
+   "front": "Recall a key point about Research Methods",
+   "back": "Reliability: consistency (test-retest, inter-rater, split-half); Validity: internal (IV->DV), external (generalisable), ecological (real-life), construct (measures concept)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "research-methods-fc6",
+   "front": "Recall a key point about Research Methods",
+   "back": "Report structure: Abstract (150w), Intro (lit review, hypothesis), Method (design, sample, materials, procedure), Results (stats, tables), Discussion (interpret, eval, implications), Refs (APA)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "history",
+ "topic": "revolutions-authoritarianism-and-historical-historiography",
+ "topicName": "Revolutions, Authoritarianism and Historical Historiography",
+ "version": 1,
+ "cards": [
+  {
+   "id": "revolutions-authoritarianism-and-historical-historiography-fc1",
+   "front": "What should you know about historiography?",
+   "back": "The study of the methodology and changing interpretations of past historical events by different schools of thought.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "revolutions-authoritarianism-and-historical-historiography-fc2",
+   "front": "What should you know about source provenance?",
+   "back": "Evaluating author, date, purpose, and context to assess reliability, bias, and historical value.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

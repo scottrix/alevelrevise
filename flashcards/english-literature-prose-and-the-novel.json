@@ -1,0 +1,56 @@
+{
+ "subject": "english-literature",
+ "topic": "prose-and-the-novel",
+ "topicName": "Prose and the Novel",
+ "version": 1,
+ "cards": [
+  {
+   "id": "prose-and-the-novel-fc1",
+   "front": "Recall a key point about Prose and the Novel",
+   "back": "Character: direct/indirect presentation; protagonist/antagonist; character arc",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "prose-and-the-novel-fc2",
+   "front": "Recall a key point about Prose and the Novel",
+   "back": "Narrative perspective: 1st (intimate, biased), 3rd limited (one consciousness), omniscient (all-knowing), stream of consciousness",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "prose-and-the-novel-fc3",
+   "front": "Recall a key point about Prose and the Novel",
+   "back": "Setting: time, place, atmosphere; pathetic fallacy; symbolic settings",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "prose-and-the-novel-fc4",
+   "front": "Recall a key point about Prose and the Novel",
+   "back": "Themes: developed through motifs, recurring images, contrasts, parallels",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "prose-and-the-novel-fc5",
+   "front": "Recall a key point about Prose and the Novel",
+   "back": "Context: author's life, period (Victorian, Modernist, Postcolonial), reception history",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "prose-and-the-novel-fc6",
+   "front": "Recall a key point about Prose and the Novel",
+   "back": "Critical lenses: feminist, Marxist, psychoanalytic, postcolonial, eco-critical",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

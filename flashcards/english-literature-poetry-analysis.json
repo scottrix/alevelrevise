@@ -1,0 +1,64 @@
+{
+ "subject": "english-literature",
+ "topic": "poetry-analysis",
+ "topicName": "Poetry Analysis",
+ "version": 1,
+ "cards": [
+  {
+   "id": "poetry-analysis-fc1",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Metaphor (direct comparison), simile (like/as), personification (human qualities to non-human)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "poetry-analysis-fc2",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Imagery: visual, auditory, tactile, olfactory, gustatory; extended metaphors",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "poetry-analysis-fc3",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Sound devices: alliteration, assonance, consonance, onomatopoeia, sibilance",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "poetry-analysis-fc4",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Structure: stanza types, rhyme (ABAB, AABB, free verse), metre (iambic, trochaic), line breaks",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "poetry-analysis-fc5",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Enjambment (run-on lines), caesura (mid-line pause), volta (turn)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "poetry-analysis-fc6",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Tone: attitude of speaker; Mood: atmosphere created; Voice: persona adopted",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "poetry-analysis-fc7",
+   "front": "Recall a key point about Poetry Analysis",
+   "back": "Themes: love, death, nature, time, identity, power, conflict",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

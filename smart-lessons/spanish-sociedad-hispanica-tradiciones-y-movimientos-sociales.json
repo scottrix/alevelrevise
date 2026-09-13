@@ -1,0 +1,20 @@
+{
+ "subject": "spanish",
+ "topic": "sociedad-hispanica-tradiciones-y-movimientos-sociales",
+ "topicName": "Sociedad Hispánica, Tradiciones y Movimientos Sociales",
+ "version": 1,
+ "steps": [
+  {
+   "id": "sociedad-hispanica-tradiciones-y-movimientos-sociales-s1",
+   "kind": "learn",
+   "title": "Machismo",
+   "body": "Actitud o comportamiento de prepotencia de los varones respecto de las mujeres arraigado tradicionalmente."
+  },
+  {
+   "id": "sociedad-hispanica-tradiciones-y-movimientos-sociales-s2",
+   "kind": "learn",
+   "title": "El Desempleo Juvenil",
+   "body": "El alto porcentaje de jóvenes en edad de trabajar sin empleo, fenómeno notable en España."
+  }
+ ]
+}

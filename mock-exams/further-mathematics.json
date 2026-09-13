@@ -1,0 +1,67 @@
+{
+ "subject": "further-mathematics",
+ "topic": "mock-exam",
+ "topicName": "Further-Mathematics Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "further-mathematics-mock",
+   "name": "A-Level Further-Mathematics Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Complex Numbers] Solve z^3 = -8. Plot the roots on an Argand diagram and show they form an equilateral triangle",
+     "correctAnswer": "z^3 = 8e^{ipi} -> z = 2e^{i(pi+2kpi)/3} for k=0,1,2. Roots: 2e^{ipi/3} = 1+isqrt3, 2e^{ipi} = -2, 2e^{i5pi/3} = 1-isqrt3. Distance between any two = sqrt((1-(-2))^2+(sqrt3-0)^2) = sqrt(9+3) = 2sqrt3 -- all equal, equilateral triangle",
+     "explanation": "z^3 = 8e^{ipi} -> z = 2e^{i(pi+2kpi)/3} for k=0,1,2. Roots: 2e^{ipi/3} = 1+isqrt3, 2e^{ipi} = -2, 2e^{i5pi/3} = 1-isqrt3. Distance between any two = sqrt((1-(-2))^2+(sqrt3-0)^2) = sqrt(9+3) = 2sqrt3 -- all equal, equilateral triangle",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Hyperbolic Functions] Solve 2 cosh x - 3 sinh x = 1",
+     "correctAnswer": "2(eˣ+e⁻ˣ)/2 - 3(eˣ-e⁻ˣ)/2 = 1 -> eˣ+e⁻ˣ - 1.5(eˣ-e⁻ˣ) = 1 -> -0.5eˣ + 2.5e⁻ˣ = 1 -> multiply 2eˣ: -e^2ˣ + 5 = 2eˣ -> e^2ˣ + 2eˣ - 5 = 0 -> eˣ = -1 +/- sqrt6 -> eˣ = sqrt6 - 1 -> x = ln(sqrt6 - 1)",
+     "explanation": "2(eˣ+e⁻ˣ)/2 - 3(eˣ-e⁻ˣ)/2 = 1 -> eˣ+e⁻ˣ - 1.5(eˣ-e⁻ˣ) = 1 -> -0.5eˣ + 2.5e⁻ˣ = 1 -> multiply 2eˣ: -e^2ˣ + 5 = 2eˣ -> e^2ˣ + 2eˣ - 5 = 0 -> eˣ = -1 +/- sqrt6 -> eˣ = sqrt6 - 1 -> x = ln(sqrt6 - 1)",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Matrices] Find eigenvalues and eigenvectors of A = [3 2; 1 4]. Diagonalise A",
+     "correctAnswer": "det(A-λI) = (3-λ)(4-λ)-2 = λ^2-7λ+10 = (λ-5)(λ-2)=0 -> λ=5,2. λ=5: [−2 2; 1 −1]v=0 -> v₁=[1;1]. λ=2: [1 2; 1 2]v=0 -> v₂=[2;−1]. P=[1 2; 1 −1], D=[5 0; 0 2]. Check P⁻¹AP=D",
+     "explanation": "det(A-λI) = (3-λ)(4-λ)-2 = λ^2-7λ+10 = (λ-5)(λ-2)=0 -> λ=5,2. λ=5: [−2 2; 1 −1]v=0 -> v₁=[1;1]. λ=2: [1 2; 1 2]v=0 -> v₂=[2;−1]. P=[1 2; 1 −1], D=[5 0; 0 2]. Check P⁻¹AP=D",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Polar Coordinates] Find the area enclosed by one petal of r = 2 cos 3θ",
+     "correctAnswer": "r = 0 when cos 3θ = 0 -> 3θ = pi/2 -> θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3",
+     "explanation": "r = 0 when cos 3θ = 0 -> 3θ = pi/2 -> θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Vectors] Find the intersection of line r = [1; 2; 3] + λ[2; -1; 4] with plane 2x - y + 3z = 10",
+     "correctAnswer": "Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -> 2+4λ-2+λ+9+12λ=10 -> 17λ+9=10 -> λ=1/17. Point: [19/17; 33/17; 55/17]",
+     "explanation": "Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -> 2+4λ-2+λ+9+12λ=10 -> 17λ+9=10 -> λ=1/17. Point: [19/17; 33/17; 55/17]",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

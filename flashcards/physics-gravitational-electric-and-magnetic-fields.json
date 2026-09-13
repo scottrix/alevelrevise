@@ -1,0 +1,24 @@
+{
+ "subject": "physics",
+ "topic": "gravitational-electric-and-magnetic-fields",
+ "topicName": "Gravitational, Electric and Magnetic Fields",
+ "version": 1,
+ "cards": [
+  {
+   "id": "gravitational-electric-and-magnetic-fields-fc1",
+   "front": "What should you know about faraday's law?",
+   "back": "Induced emf is proportional to rate of change of magnetic flux linkage: ε = -N(dΦ/dt).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "gravitational-electric-and-magnetic-fields-fc2",
+   "front": "What should you know about lenz's law?",
+   "back": "Direction of induced emf opposes the change in flux causing it.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

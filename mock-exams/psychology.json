@@ -1,0 +1,67 @@
+{
+ "subject": "psychology",
+ "topic": "mock-exam",
+ "topicName": "Psychology Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "psychology-mock",
+   "name": "A-Level Psychology Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 36,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Approaches and Perspectives] Explain how the biological and cognitive approaches differ in explaining depression",
+     "correctAnswer": "Biological: genetic predisposition, serotonin/noradrenaline deficit, hippocampal atrophy -> treatment: SSRIs, ECT. Cognitive: Beck's negative triad (self, world, future), cognitive distortions, schema -> treatment: CBT (challenge thoughts). Biological = reductionist, medical; Cognitive = mental proc",
+     "explanation": "Biological: genetic predisposition, serotonin/noradrenaline deficit, hippocampal atrophy -> treatment: SSRIs, ECT. Cognitive: Beck's negative triad (self, world, future), cognitive distortions, schema -> treatment: CBT (challenge thoughts). Biological = reductionist, medical; Cognitive = mental proc",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Memory and Cognitive Psychology] Explain how the Working Memory Model accounts for dual-task performance better than the Multi-Store Model",
+     "correctAnswer": "MSM: single STM store -> two verbal tasks interfere. WMM: separate stores (PL for verbal, VSSP for visual) -> can do verbal + visual simultaneously. Evidence: Baddeley (verbal reasoning + tracking). PL overload impairs both if both verbal",
+     "explanation": "MSM: single STM store -> two verbal tasks interfere. WMM: separate stores (PL for verbal, VSSP for visual) -> can do verbal + visual simultaneously. Evidence: Baddeley (verbal reasoning + tracking). PL overload impairs both if both verbal",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Psychopathology] Explain the two-process model of phobias and evaluate it",
+     "correctAnswer": "Classical: neutral stimulus (spider) paired with fear (trauma) -> CS elicits CR (fear). Operant: avoidance reduces fear -> negative reinforcement maintains phobia. Evaluation: explains acquisition/maintenance; ignores cognition (irrational thoughts), preparedness (why spiders not flowers?), individu",
+     "explanation": "Classical: neutral stimulus (spider) paired with fear (trauma) -> CS elicits CR (fear). Operant: avoidance reduces fear -> negative reinforcement maintains phobia. Evaluation: explains acquisition/maintenance; ignores cognition (irrational thoughts), preparedness (why spiders not flowers?), individu",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Research Methods] Design an experiment to test if caffeine improves reaction time. Identify IV, DV, design, controls, sampling, ethics",
+     "correctAnswer": "IV: caffeine (200mg vs placebo). DV: reaction time (ms) on computer task. Design: repeated measures (counterbalanced). Controls: same time of day, same task, blind. Sampling: volunteer students (opportunity). Ethics: consent, right to withdraw, debrief, medical screening for caffeine sensitivity",
+     "explanation": "IV: caffeine (200mg vs placebo). DV: reaction time (ms) on computer task. Design: repeated measures (counterbalanced). Controls: same time of day, same task, blind. Sampling: volunteer students (opportunity). Ethics: consent, right to withdraw, debrief, medical screening for caffeine sensitivity",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-5",
+     "type": "short-answer",
+     "question": "[Social Influence and Attachment] Explain why Milgram's participants obeyed using agency theory",
+     "correctAnswer": "Agentic state: individual sees self as agent of authority, not responsible. Autonomous state: self-directed. Shift triggered by: legitimate authority, institutional context, gradual commitment (15V steps), buffers (victim not visible). Dispositional: authoritarian personality (Adorno)",
+     "explanation": "Agentic state: individual sees self as agent of authority, not responsible. Autonomous state: self-directed. Shift triggered by: legitimate authority, institutional context, gradual commitment (15V steps), buffers (victim not visible). Dispositional: authoritarian personality (Adorno)",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

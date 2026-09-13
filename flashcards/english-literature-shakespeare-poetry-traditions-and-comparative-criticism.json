@@ -1,0 +1,24 @@
+{
+ "subject": "english-literature",
+ "topic": "shakespeare-poetry-traditions-and-comparative-criticism",
+ "topicName": "Shakespeare, Poetry Traditions and Comparative Criticism",
+ "version": 1,
+ "cards": [
+  {
+   "id": "shakespeare-poetry-traditions-and-comparative-criticism-fc1",
+   "front": "What should you know about hamartia?",
+   "back": "A fatal flaw leading to the downfall of a tragic hero in classical and Shakespearean drama.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "shakespeare-poetry-traditions-and-comparative-criticism-fc2",
+   "front": "What should you know about free indirect discourse?",
+   "back": "A narrative technique presenting a character's inner thoughts while retaining third-person narration.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

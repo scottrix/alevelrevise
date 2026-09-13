@@ -1,0 +1,44 @@
+{
+ "subject": "psychology",
+ "topic": "research-methods",
+ "topicName": "Research Methods",
+ "version": 1,
+ "steps": [
+  {
+   "id": "research-methods-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Experimental designs: independent measures, repeated measures, matched pairs; controls: standardisation, counterbalancing, random allocation"
+  },
+  {
+   "id": "research-methods-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Sampling: random (unbiased), stratified (proportional subgroups), systematic (interval), opportunity (convenience), volunteer (self-select)"
+  },
+  {
+   "id": "research-methods-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Descriptive: mean (parametric), median (skewed), mode (nominal), SD (spread), range; Inferential: t-test, Mann-Whitney, Wilcoxon, Chi-squared, Spearman, Pearson"
+  },
+  {
+   "id": "research-methods-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ethics: consent, deception (cost-benefit), debrief, withdrawal, confidentiality, protection from harm; BPS code"
+  },
+  {
+   "id": "research-methods-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Design an experiment to test if caffeine improves reaction time. Identify IV, DV, design, controls, sampling, ethics --- Solution: IV: caffeine (200mg vs placebo). DV: reaction time (ms) on computer task. Design: repeated measures (counterbalanced). Controls: same time of day, same task, blind. Sampling: volunteer students (opportunity). Ethics: consent, right to withdraw, debrief, medical screening for caffeine sensitivity"
+  },
+  {
+   "id": "research-methods-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Choose test: compare 2 independent groups, ordinal data | Explain counterbalancing | When to use Spearman vs Pearson"
+  }
+ ]
+}

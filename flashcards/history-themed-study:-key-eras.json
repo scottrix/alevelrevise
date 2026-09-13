@@ -1,0 +1,48 @@
+{
+ "subject": "history",
+ "topic": "themed-study:-key-eras",
+ "topicName": "Themed Study: Key Eras",
+ "version": 1,
+ "cards": [
+  {
+   "id": "themed-study-key-eras-fc1",
+   "front": "Recall a key point about Themed Study: Key Eras",
+   "back": "Causes: long-term (structural: economic, social, ideological) vs short-term (triggers, contingent events)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "themed-study-key-eras-fc2",
+   "front": "Recall a key point about Themed Study: Key Eras",
+   "back": "Turning points: moments of decisive change; evaluate extent of change vs continuity after",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "themed-study-key-eras-fc3",
+   "front": "Recall a key point about Themed Study: Key Eras",
+   "back": "Change vs continuity: what changed, what stayed same; rate, direction, depth of change",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "themed-study-key-eras-fc4",
+   "front": "Recall a key point about Themed Study: Key Eras",
+   "back": "Structural forces: demography, economy, geography; Contingent: individual decisions, accidents, weather",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "themed-study-key-eras-fc5",
+   "front": "Recall a key point about Themed Study: Key Eras",
+   "back": "Comparative: elites vs ordinary people; centre vs periphery; gender, class, ethnicity perspectives",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

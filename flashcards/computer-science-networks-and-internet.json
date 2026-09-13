@@ -1,0 +1,64 @@
+{
+ "subject": "computer-science",
+ "topic": "networks-and-internet",
+ "topicName": "Networks and Internet",
+ "version": 1,
+ "cards": [
+  {
+   "id": "networks-and-internet-fc1",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "Topologies: Star (central hub), Mesh (all connected), Bus (shared cable), Ring (token passing)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "networks-and-internet-fc2",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "TCP/IP: App (HTTP, DNS, FTP), Transport (TCP reliable, UDP fast), Internet (IP routing), Link (Ethernet, WiFi)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "networks-and-internet-fc3",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "TCP: 3-way handshake, sequencing, flow control, congestion control; UDP: connectionless, low latency",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "networks-and-internet-fc4",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "DNS: hierarchical (root, TLD, authoritative); recursive/iterative queries; records (A, AAAA, MX, CNAME)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "networks-and-internet-fc5",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "IPv4: 32-bit, dotted decimal, classes A/B/C, subnet mask, CIDR (/24); IPv6: 128-bit, hex, no NAT needed",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "networks-and-internet-fc6",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "Threats: malware (virus, worm, ransomware), phishing, DoS/DDoS, MITM, SQLi (input sanitisation), XSS (output encoding)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "networks-and-internet-fc7",
+   "front": "Recall a key point about Networks and Internet",
+   "back": "Encryption: Symmetric (AES, same key), Asymmetric (RSA, public/private); TLS: handshake, certificates, CA; Firewall: packet filter, stateful, application; VPN: encrypted tunnel; Auth: MFA, OAuth, JWT",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

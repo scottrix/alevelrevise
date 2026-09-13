@@ -1,0 +1,20 @@
+{
+ "subject": "german",
+ "topic": "gesellschaft-im-wandel-und-deutsche-geschichte",
+ "topicName": "Gesellschaft im Wandel und Deutsche Geschichte",
+ "version": 1,
+ "steps": [
+  {
+   "id": "gesellschaft-im-wandel-und-deutsche-geschichte-s1",
+   "kind": "learn",
+   "title": "Die Wiedervereinigung",
+   "body": "Der historische Prozess der Vereinigung von BRD und DDR am 3. Oktober 1990."
+  },
+  {
+   "id": "gesellschaft-im-wandel-und-deutsche-geschichte-s2",
+   "kind": "learn",
+   "title": "Die Energiewende",
+   "body": "Der Übergang Deutschlands zu nachhaltigen und erneuerbaren Energieträgern."
+  }
+ ]
+}

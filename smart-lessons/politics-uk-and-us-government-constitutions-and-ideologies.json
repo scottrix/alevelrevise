@@ -1,0 +1,20 @@
+{
+ "subject": "politics",
+ "topic": "uk-and-us-government-constitutions-and-ideologies",
+ "topicName": "UK and US Government, Constitutions and Ideologies",
+ "version": 1,
+ "steps": [
+  {
+   "id": "uk-and-us-government-constitutions-and-ideologies-s1",
+   "kind": "learn",
+   "title": "Parliamentary Sovereignty",
+   "body": "The supreme legal authority of the UK Parliament to enact or repeal any law, with no parliament binding its successor."
+  },
+  {
+   "id": "uk-and-us-government-constitutions-and-ideologies-s2",
+   "kind": "learn",
+   "title": "Separation of Powers",
+   "body": "Constitutional doctrine dividing government authority between distinct legislative, executive, and judicial branches with checks and balances."
+  }
+ ]
+}

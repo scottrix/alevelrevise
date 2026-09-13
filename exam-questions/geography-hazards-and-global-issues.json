@@ -1,0 +1,26 @@
+{
+ "subject": "geography",
+ "topic": "hazards-and-global-issues",
+ "topicName": "Hazards and Global Issues",
+ "version": 1,
+ "questions": [
+  {
+   "id": "hazards-and-global-issues-exam1",
+   "type": "extended",
+   "question": "Explain why vulnerability is a key component of hazard risk",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Same magnitude earthquake: Haiti 2010 (M7.0, 230k deaths) vs Chile 2010 (M8.8, 500 deaths). Haiti: poor building codes, dense informal housing, weak governance -> high vulnerability. Chile: strict codes, preparedness, wealth -> low vulnerability. Risk depends on vulnerability not just hazard",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Same magnitude earthquake: Haiti 2010 (M7.0, 230k deaths) vs Chile 2010 (M8.8, 500 deaths). Haiti: poor building codes, dense informal housing, weak governance -> high vulnerability. Chile: strict codes, preparedness, wealth -> low vulnerability. Risk depends on vulnerability not just hazard"
+   }
+  }
+ ]
+}

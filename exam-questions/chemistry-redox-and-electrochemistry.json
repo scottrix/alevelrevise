@@ -1,0 +1,26 @@
+{
+ "subject": "chemistry",
+ "topic": "redox-and-electrochemistry",
+ "topicName": "Redox and Electrochemistry",
+ "version": 1,
+ "questions": [
+  {
+   "id": "redox-and-electrochemistry-exam1",
+   "type": "extended",
+   "question": "Calculate E deg for: Zn | Zn^2⁺ || Cu^2⁺ | Cu. E deg (Zn^2⁺/Zn) = -0.76V, E deg (Cu^2⁺/Cu) = +0.34V. Is reaction spontaneous?",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "E deg _cell = 0.34 - (-0.76) = +1.10 V > 0 -> spontaneous. Zn oxidised (anode), Cu^2⁺ reduced (cathode). Reaction: Zn + Cu^2⁺ -> Zn^2⁺ + Cu",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "E deg _cell = 0.34 - (-0.76) = +1.10 V > 0 -> spontaneous. Zn oxidised (anode), Cu^2⁺ reduced (cathode). Reaction: Zn + Cu^2⁺ -> Zn^2⁺ + Cu"
+   }
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "subject": "biology",
+ "topic": "homeostasis-and-the-nervous-system",
+ "topicName": "Homeostasis and the Nervous System",
+ "version": 1,
+ "cards": [
+  {
+   "id": "homeostasis-and-the-nervous-system-fc1",
+   "front": "Recall a key point about Homeostasis and the Nervous System",
+   "back": "Negative feedback: deviation -> correction (e.g. blood glucose, temp, water); Positive: amplifies (e.g. oxytocin in childbirth)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-fc2",
+   "front": "Recall a key point about Homeostasis and the Nervous System",
+   "back": "Kidney: cortex/medulla; nephron (Bowman's capsule, PCT, loop of Henle, DCT, collecting duct); ADH: increases water permeability of DCT/CD; Loop: counter-current multiplier creates medullary gradient",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-fc3",
+   "front": "Recall a key point about Homeostasis and the Nervous System",
+   "back": "Neurones: sensory, relay, motor; Resting potential -70mV (Na⁺/K⁺ pump, K⁺ leak); Action potential: depolarisation (Na⁺ in), repolarisation (K⁺ out), refractory period",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-fc4",
+   "front": "Recall a key point about Homeostasis and the Nervous System",
+   "back": "Synapse: Ca^2⁺ -> vesicle fusion -> neurotransmitter -> receptor -> depolarisation; Summation: temporal/spatial",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-fc5",
+   "front": "Recall a key point about Homeostasis and the Nervous System",
+   "back": "Hormones: insulin (β-cells, lowers glucose), glucagon (α-cells, raises glucose), adrenaline (fight/flight), thyroxine (metabolic rate); Diabetes: type 1 (no insulin), type 2 (insulin resistance)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

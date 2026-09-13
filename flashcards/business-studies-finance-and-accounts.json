@@ -1,0 +1,72 @@
+{
+ "subject": "business-studies",
+ "topic": "finance-and-accounts",
+ "topicName": "Finance and Accounts",
+ "version": 1,
+ "cards": [
+  {
+   "id": "finance-and-accounts-fc1",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Income statement: revenue, COGS, gross profit, expenses, operating profit, profit for year",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc2",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Balance sheet: non-current assets, current assets, current liabilities, non-current liabilities, equity",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc3",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Cash flow: operating, investing, financing; free cash flow",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc4",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Ratios: Gross/Net margin, ROCE, Current/Acid test, Inventory/Payables/Receivables days, Gearing (debt/equity)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc5",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Break-even: FC / (P - VC); Margin of safety = actual - BE; Target profit = (FC + target) / contribution",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc6",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Finance: internal (retained profit, asset sale); external: debt (loans, bonds, overdraft), equity (shares, venture capital)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc7",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Investment: Payback (time), ARR (avg profit/avg investment), NPV (discounted CF), IRR (discount rate for NPV=0)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "finance-and-accounts-fc8",
+   "front": "Recall a key point about Finance and Accounts",
+   "back": "Budgets: plan, coordinate, control; Zero-based (justify all), Incremental (last year +/-); Variance: adverse/favourable",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

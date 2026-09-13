@@ -1,0 +1,44 @@
+{
+ "subject": "economics",
+ "topic": "international-trade-and-development",
+ "topicName": "International Trade and Development",
+ "version": 1,
+ "steps": [
+  {
+   "id": "international-trade-and-development-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Absolute: produce more with same resources; Comparative: lower opportunity cost -> specialise -> trade"
+  },
+  {
+   "id": "international-trade-and-development-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tariff: tax on imports -> domestic P↑, Qd↓, Qs↑, govt revenue, DWL; Quota: quantity limit; Subsidy: domestic producers"
+  },
+  {
+   "id": "international-trade-and-development-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Floating: market; Fixed: central bank intervention; Managed: dirty float; PPP: identical goods same price in common currency"
+  },
+  {
+   "id": "international-trade-and-development-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Globalisation: trade↑, capital flows↑, migration↑, tech diffusion; WTO: rules, disputes; Blocs: EU, USMCA, ASEAN"
+  },
+  {
+   "id": "international-trade-and-development-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Country A: 10 labour hours for 1 cloth or 5 wine. Country B: 6 cloth or 4 wine. Who has comparative advantage in what? --- Solution: A: OC 1 cloth = 2 wine (10/5), 1 wine = 0.5 cloth. B: OC 1 cloth = 0.67 wine (6/4), 1 wine = 1.5 cloth. B has CA in cloth (lower OC), A has CA in wine. A exports wine, B exports cloth. Both gain"
+  },
+  {
+   "id": "international-trade-and-development-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Calculate opportunity costs for CA | Draw tariff diagram showing DWL | Explain J-curve effect"
+  }
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "subject": "biology",
+ "topic": "cell-structure-and-function",
+ "topicName": "Cell Structure and Function",
+ "version": 1,
+ "questions": [
+  {
+   "id": "cell-structure-and-function-exam1",
+   "type": "extended",
+   "question": "Explain how the structure of the mitochondria enables efficient aerobic respiration",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Double membrane: outer permeable, inner folded into cristae (large SA for ETC). Matrix contains Krebs cycle enzymes. Intermembrane space accumulates H⁺ for chemiosmosis. Own DNA/ribosomes for some ETC proteins",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Double membrane: outer permeable, inner folded into cristae (large SA for ETC). Matrix contains Krebs cycle enzymes. Intermembrane space accumulates H⁺ for chemiosmosis. Own DNA/ribosomes for some ETC proteins"
+   }
+  }
+ ]
+}

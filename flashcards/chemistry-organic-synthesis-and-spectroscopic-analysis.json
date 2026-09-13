@@ -1,0 +1,24 @@
+{
+ "subject": "chemistry",
+ "topic": "organic-synthesis-and-spectroscopic-analysis",
+ "topicName": "Organic Synthesis and Spectroscopic Analysis",
+ "version": 1,
+ "cards": [
+  {
+   "id": "organic-synthesis-and-spectroscopic-analysis-fc1",
+   "front": "What should you know about chemical shift (δ)?",
+   "back": "Resonant frequency position relative to TMS standard at δ = 0 ppm in ppm.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "organic-synthesis-and-spectroscopic-analysis-fc2",
+   "front": "What should you know about spin-spin splitting?",
+   "back": "(n+1) rule: proton signal split into n+1 peaks by n non-equivalent adjacent protons.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

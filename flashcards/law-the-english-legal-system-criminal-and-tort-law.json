@@ -1,0 +1,24 @@
+{
+ "subject": "law",
+ "topic": "the-english-legal-system-criminal-and-tort-law",
+ "topicName": "The English Legal System, Criminal and Tort Law",
+ "version": 1,
+ "cards": [
+  {
+   "id": "the-english-legal-system-criminal-and-tort-law-fc1",
+   "front": "What should you know about stare decisis?",
+   "back": "The legal principle of adhering to established precedent in subsequent similar cases.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "the-english-legal-system-criminal-and-tort-law-fc2",
+   "front": "What should you know about mens rea?",
+   "back": "The guilty mind or fault element required for criminal liability (intention or subjective recklessness).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subject": "french",
+ "topic": "la-societe-francaise-immigration-et-culture",
+ "topicName": "La Société Française, Immigration et Culture",
+ "version": 1,
+ "steps": [
+  {
+   "id": "la-societe-francaise-immigration-et-culture-s1",
+   "kind": "learn",
+   "title": "Laïcité",
+   "body": "Principe constitutionnel républicain français de stricte séparation de l'État et des institutions religieuses."
+  },
+  {
+   "id": "la-societe-francaise-immigration-et-culture-s2",
+   "kind": "learn",
+   "title": "Le Bénévolat",
+   "body": "L'engagement volontaire non rémunéré au service de l'intérêt général et des associations caritatives."
+  }
+ ]
+}

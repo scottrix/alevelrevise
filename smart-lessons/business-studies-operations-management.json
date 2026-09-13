@@ -1,0 +1,44 @@
+{
+ "subject": "business-studies",
+ "topic": "operations-management",
+ "topicName": "Operations Management",
+ "version": 1,
+ "steps": [
+  {
+   "id": "operations-management-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Job: one-off, high skill, high cost; Batch: groups, flexible; Flow: continuous, high volume, low variety; Cell: U-shape, multi-skilled; Mass custom: flow + flexibility"
+  },
+  {
+   "id": "operations-management-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "QC (inspection) vs QA (prevention); TQM: culture, continuous improvement; Kaizen: small incremental; Six Sigma: DMAIC, 3.4 defects/million; Benchmarking: best practice"
+  },
+  {
+   "id": "operations-management-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Capacity utilisation = actual/max x100%; Efficiency = standard hours/actual hours; Productivity = output/input"
+  },
+  {
+   "id": "operations-management-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Lean: eliminate Muda (overproduction, waiting, transport, over-processing, inventory, motion, defects); JIT: pull system; Kanban: visual signal; 5S: Sort, Set, Shine, Standardise, Sustain"
+  },
+  {
+   "id": "operations-management-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: A furniture maker switches from batch to flow production. Analyse implications for cost, quality, flexibility --- Solution: Cost: lower unit cost (economies of scale, less setup), but high capital investment. Quality: more consistent (standardised), but defects affect large volumes. Flexibility: reduced (dedicated line), harder to customise. Workforce: deskilling, potential redundancy. Inventory: lower WIP with JIT"
+  },
+  {
+   "id": "operations-management-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare job vs flow for bespoke vs standard products | Explain DMAIC in Six Sigma | Calculate capacity utilisation: actual 800, max 1000"
+  }
+ ]
+}

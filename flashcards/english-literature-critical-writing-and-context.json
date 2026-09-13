@@ -1,0 +1,56 @@
+{
+ "subject": "english-literature",
+ "topic": "critical-writing-and-context",
+ "topicName": "Critical Writing and Context",
+ "version": 1,
+ "cards": [
+  {
+   "id": "critical-writing-and-context-fc1",
+   "front": "Recall a key point about Critical Writing and Context",
+   "back": "PEEL: Point, Evidence, Explanation, Link back to question",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "critical-writing-and-context-fc2",
+   "front": "Recall a key point about Critical Writing and Context",
+   "back": "Quote analysis: technique + meaning + effect + link to argument",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "critical-writing-and-context-fc3",
+   "front": "Recall a key point about Critical Writing and Context",
+   "back": "Context: woven into analysis (AO3) not separate; historical, literary, biographical",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "critical-writing-and-context-fc4",
+   "front": "Recall a key point about Critical Writing and Context",
+   "back": "AO5: alternative readings (e.g. feminist, Marxist); critical quotations as springboards",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "critical-writing-and-context-fc5",
+   "front": "Recall a key point about Critical Writing and Context",
+   "back": "Comparison: integrated structure (point by point) not text by text; similarities/differences",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "critical-writing-and-context-fc6",
+   "front": "Recall a key point about Critical Writing and Context",
+   "back": "Exam technique: plan 5 mins, write 45 mins, check 5 mins; answer the question set",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "subject": "physics",
+ "topic": "particle-physics-and-quantum-phenomena",
+ "topicName": "Particle Physics and Quantum Phenomena",
+ "version": 1,
+ "cards": [
+  {
+   "id": "particle-physics-and-quantum-phenomena-fc1",
+   "front": "What should you know about photoelectric effect?",
+   "back": "Emission of electrons from metal surface when irradiated with EM radiation above threshold frequency f₀.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "particle-physics-and-quantum-phenomena-fc2",
+   "front": "What should you know about work function (φ)?",
+   "back": "Minimum photon energy required to liberate an electron from metal surface: hf₀ = Φ.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

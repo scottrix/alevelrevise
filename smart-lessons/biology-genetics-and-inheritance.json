@@ -1,0 +1,44 @@
+{
+ "subject": "biology",
+ "topic": "genetics-and-inheritance",
+ "topicName": "Genetics and Inheritance",
+ "version": 1,
+ "steps": [
+  {
+   "id": "genetics-and-inheritance-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "DNA: antiparallel strands, complementary base pairing (A-T, G-C), sugar-phosphate backbone; Replication: helicase, DNA polymerase, Okazaki fragments, ligase"
+  },
+  {
+   "id": "genetics-and-inheritance-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Transcription: RNA pol, promoter, mRNA; Translation: tRNA, ribosome, codon-anticodon, start/stop codons; Eukaryotes: splicing (introns/exons), 5' cap, poly-A tail"
+  },
+  {
+   "id": "genetics-and-inheritance-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Mendel: segregation, independent assortment; Punnett squares; Test cross: unknown x homozygous recessive"
+  },
+  {
+   "id": "genetics-and-inheritance-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Linkage: genes on same chromosome; recombination frequency ∝ distance; Epistasis: one gene masks another (e.g. 9:3:4, 12:3:1, 9:7 ratios)"
+  },
+  {
+   "id": "genetics-and-inheritance-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: In sweet peas, flower colour is controlled by two genes (C and P). Both dominant alleles needed for purple flowers. Cross CcPp x CcPp. Find phenotypic ratio --- Solution: Both genes needed for purple. C_P_ = purple (9/16); ccP_ = white (3/16); C_pp = white (3/16); ccpp = white (1/16). Ratio = 9 purple : 7 white (complementary epistasis)"
+  },
+  {
+   "id": "genetics-and-inheritance-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Describe semi-conservative replication | A cross gives 9:3:3:1. What does this indicate? | Chi-squared test: observed 52:18, expected 3:1 ratio. Calculate χ^2"
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "subject": "economics",
+ "topic": "market-mechanisms-elasticity-and-market-failure",
+ "topicName": "Market Mechanisms, Elasticity and Market Failure",
+ "version": 1,
+ "steps": [
+  {
+   "id": "market-mechanisms-elasticity-and-market-failure-s1",
+   "kind": "learn",
+   "title": "Price Elasticity of Demand (PED)",
+   "body": "%Δ in Quantity Demanded / %Δ in Price. Measures consumer responsiveness to price changes."
+  },
+  {
+   "id": "market-mechanisms-elasticity-and-market-failure-s2",
+   "kind": "learn",
+   "title": "Negative Externality",
+   "body": "A cost imposed on a third party external to the market transaction (Social Cost > Private Cost)."
+  }
+ ]
+}

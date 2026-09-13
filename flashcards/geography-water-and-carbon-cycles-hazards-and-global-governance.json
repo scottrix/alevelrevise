@@ -1,0 +1,24 @@
+{
+ "subject": "geography",
+ "topic": "water-and-carbon-cycles-hazards-and-global-governance",
+ "topicName": "Water and Carbon Cycles, Hazards and Global Governance",
+ "version": 1,
+ "cards": [
+  {
+   "id": "water-and-carbon-cycles-hazards-and-global-governance-fc1",
+   "front": "What should you know about carbon sink?",
+   "back": "A natural or artificial reservoir that absorbs and stores more carbon than it releases (e.g. tropical rainforests, oceans).",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "water-and-carbon-cycles-hazards-and-global-governance-fc2",
+   "front": "What should you know about hazard vulnerability?",
+   "back": "The conditions determined by physical, social, economic, and environmental factors which increase the susceptibility of a community to hazard impacts.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

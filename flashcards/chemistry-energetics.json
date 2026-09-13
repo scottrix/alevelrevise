@@ -1,0 +1,56 @@
+{
+ "subject": "chemistry",
+ "topic": "energetics",
+ "topicName": "Energetics",
+ "version": 1,
+ "cards": [
+  {
+   "id": "energetics-fc1",
+   "front": "Recall a key point about Energetics",
+   "back": "Standard conditions: 100 kPa, 298 K, 1 mol dm⁻^3; DeltaH_f deg elements = 0",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "energetics-fc2",
+   "front": "Recall a key point about Energetics",
+   "back": "Hess: DeltaH_total = ΣDeltaH_steps (path independent); Cycle: formation = atomisation + ionisation + electron affinity + lattice",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "energetics-fc3",
+   "front": "Recall a key point about Energetics",
+   "back": "Born-Haber: DeltaH_f deg = DeltaH_atom + ΣIE + ΣEA + DeltaH_lattice (for ionic compounds)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "energetics-fc4",
+   "front": "Recall a key point about Energetics",
+   "back": "Bond enthalpies: DeltaH = Σ(bonds broken) - Σ(bonds formed); mean values, gaseous only",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "energetics-fc5",
+   "front": "Recall a key point about Energetics",
+   "back": "Solution: DeltaH_soln = DeltaH_lattice + DeltaH_hydration; hydration exothermic",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "energetics-fc6",
+   "front": "Recall a key point about Energetics",
+   "back": "Energy level diagrams: reactants -> products; exo: products lower; endo: products higher",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

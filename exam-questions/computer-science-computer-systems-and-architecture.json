@@ -1,0 +1,26 @@
+{
+ "subject": "computer-science",
+ "topic": "computer-systems-and-architecture",
+ "topicName": "Computer Systems and Architecture",
+ "version": 1,
+ "questions": [
+  {
+   "id": "computer-systems-and-architecture-exam1",
+   "type": "extended",
+   "question": "A program has 20 percent serial code. Max speedup on 4 cores?",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Amdahl: speedup = 1/((1-0.8) + 0.8/4) = 1/(0.2 + 0.2) = 2.5x. Even infinite cores: 1/0.2 = 5x",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Amdahl: speedup = 1/((1-0.8) + 0.8/4) = 1/(0.2 + 0.2) = 2.5x. Even infinite cores: 1/0.2 = 5x"
+   }
+  }
+ ]
+}

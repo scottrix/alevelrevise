@@ -1,0 +1,26 @@
+{
+ "subject": "economics",
+ "topic": "international-trade-and-development",
+ "topicName": "International Trade and Development",
+ "version": 1,
+ "questions": [
+  {
+   "id": "international-trade-and-development-exam1",
+   "type": "extended",
+   "question": "Country A: 10 labour hours for 1 cloth or 5 wine. Country B: 6 cloth or 4 wine. Who has comparative advantage in what?",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "A: OC 1 cloth = 2 wine (10/5), 1 wine = 0.5 cloth. B: OC 1 cloth = 0.67 wine (6/4), 1 wine = 1.5 cloth. B has CA in cloth (lower OC), A has CA in wine. A exports wine, B exports cloth. Both gain",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "A: OC 1 cloth = 2 wine (10/5), 1 wine = 0.5 cloth. B: OC 1 cloth = 0.67 wine (6/4), 1 wine = 1.5 cloth. B has CA in cloth (lower OC), A has CA in wine. A exports wine, B exports cloth. Both gain"
+   }
+  }
+ ]
+}

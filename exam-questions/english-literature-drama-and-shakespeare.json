@@ -1,0 +1,26 @@
+{
+ "subject": "english-literature",
+ "topic": "drama-and-shakespeare",
+ "topicName": "Drama and Shakespeare",
+ "version": 1,
+ "questions": [
+  {
+   "id": "drama-and-shakespeare-exam1",
+   "type": "extended",
+   "question": "How does the 'dagger soliloquy' (Macbeth 2.1) reveal Macbeth's state of mind?",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hallucinated dagger shows guilt before action. 'Is this a dagger which I see before me?' -- rhetorical question. 'Bloody business' -- euphemism. 'Hecate's offer' -- supernatural. 'Words to the heat of deeds too cold breath gives' -- hesitation. Rhyme 'knell/summon' = finality",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Hallucinated dagger shows guilt before action. 'Is this a dagger which I see before me?' -- rhetorical question. 'Bloody business' -- euphemism. 'Hecate's offer' -- supernatural. 'Words to the heat of deeds too cold breath gives' -- hesitation. Rhyme 'knell/summon' = finality"
+   }
+  }
+ ]
+}

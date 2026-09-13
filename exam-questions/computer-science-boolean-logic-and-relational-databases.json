@@ -1,0 +1,26 @@
+{
+ "subject": "computer-science",
+ "topic": "boolean-logic-and-relational-databases",
+ "topicName": "Boolean Logic and Relational Databases",
+ "version": 1,
+ "questions": [
+  {
+   "id": "boolean-logic-and-relational-databases-exam1",
+   "type": "extended",
+   "question": "Normalise to 3NF: Student(StudentID, Name, CourseID, CourseName, TutorID, TutorName)",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "FDs: StudentID->Name, CourseID->CourseName, TutorID, TutorID->TutorName. 1NF: atomic. 2NF: remove partial FD (CourseID->CourseName). Course(CourseID, CourseName, TutorID), Tutor(TutorID, TutorName), Student(StudentID, Name, CourseID). 3NF: remove transitive FD (TutorID->TutorName). Already in 3NF",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "FDs: StudentID->Name, CourseID->CourseName, TutorID, TutorID->TutorName. 1NF: atomic. 2NF: remove partial FD (CourseID->CourseName). Course(CourseID, CourseName, TutorID), Tutor(TutorID, TutorName), Student(StudentID, Name, CourseID). 3NF: remove transitive FD (TutorID->TutorName). Already in 3NF"
+   }
+  }
+ ]
+}

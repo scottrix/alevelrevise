@@ -1,0 +1,20 @@
+{
+ "subject": "computer-science",
+ "topic": "processor-architecture-and-operating-systems",
+ "topicName": "Processor Architecture and Operating Systems",
+ "version": 1,
+ "steps": [
+  {
+   "id": "processor-architecture-and-operating-systems-s1",
+   "kind": "learn",
+   "title": "Von Neumann Architecture",
+   "body": "Computer architecture where instructions and data share the same memory space and system bus."
+  },
+  {
+   "id": "processor-architecture-and-operating-systems-s2",
+   "kind": "learn",
+   "title": "Pipelining",
+   "body": "Instruction execution technique where multiple instruction phases (Fetch, Decode, Execute) overlap concurrently."
+  }
+ ]
+}

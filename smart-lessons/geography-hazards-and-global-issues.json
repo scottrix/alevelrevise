@@ -1,0 +1,44 @@
+{
+ "subject": "geography",
+ "topic": "hazards-and-global-issues",
+ "topicName": "Hazards and Global Issues",
+ "version": 1,
+ "steps": [
+  {
+   "id": "hazards-and-global-issues-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Tectonic: plate boundaries; Climatic: atmospheric; Geomorphological: slope failure"
+  },
+  {
+   "id": "hazards-and-global-issues-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Risk = Hazard x Vulnerability / Capacity to cope; PAR model (Pressure And Release)"
+  },
+  {
+   "id": "hazards-and-global-issues-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Evidence: Keeling curve, IPCC reports, proxy data (ice cores, tree rings); GHG: CO₂, CH₄, N₂O"
+  },
+  {
+   "id": "hazards-and-global-issues-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Impacts: sea level rise (thermal expansion, ice melt), extreme weather, biome shifts, ocean acidification"
+  },
+  {
+   "id": "hazards-and-global-issues-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain why vulnerability is a key component of hazard risk --- Solution: Same magnitude earthquake: Haiti 2010 (M7.0, 230k deaths) vs Chile 2010 (M8.8, 500 deaths). Haiti: poor building codes, dense informal housing, weak governance -> high vulnerability. Chile: strict codes, preparedness, wealth -> low vulnerability. Risk depends on vulnerability not just hazard"
+  },
+  {
+   "id": "hazards-and-global-issues-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Classify 2004 Indian Ocean tsunami | Explain greenhouse effect mechanism | Compare adaptation vs mitigation examples"
+  }
+ ]
+}

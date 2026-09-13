@@ -1,0 +1,44 @@
+{
+ "subject": "psychology",
+ "topic": "approaches-and-perspectives",
+ "topicName": "Approaches and Perspectives",
+ "version": 1,
+ "steps": [
+  {
+   "id": "approaches-and-perspectives-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Biological: genes, neurotransmitters (dopamine, serotonin), brain localisation, evolution, twin/adoption studies"
+  },
+  {
+   "id": "approaches-and-perspectives-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Cognitive: schema, mental models, computer analogy, cognitive neuroscience (fMRI, PET)"
+  },
+  {
+   "id": "approaches-and-perspectives-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Behaviourist: Pavlov (classical: NS->CS), Skinner (operant: reinforcement/punishment), Bandura (SLT: observation, modelling)"
+  },
+  {
+   "id": "approaches-and-perspectives-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Psychodynamic: Freud (id/ego/superego, psychosexual stages, defence mechanisms), unconscious motivation"
+  },
+  {
+   "id": "approaches-and-perspectives-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain how the biological and cognitive approaches differ in explaining depression --- Solution: Biological: genetic predisposition, serotonin/noradrenaline deficit, hippocampal atrophy -> treatment: SSRIs, ECT. Cognitive: Beck's negative triad (self, world, future), cognitive distortions, schema -> treatment: CBT (challenge thoughts). Biological = reductionist, medical; Cognitive = mental processes, empowerment"
+  },
+  {
+   "id": "approaches-and-perspectives-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare SLT vs operant conditioning | Evaluate twin studies for nature/nurture | Explain Freud's defence mechanisms with examples"
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+ "subject": "business-studies",
+ "topic": "marketing",
+ "topicName": "Marketing",
+ "version": 1,
+ "cards": [
+  {
+   "id": "marketing-fc1",
+   "front": "Recall a key point about Marketing",
+   "back": "Segmentation: geo (location), demo (age, gender, income), psycho (lifestyle, values), behavioural (usage, loyalty)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "marketing-fc2",
+   "front": "Recall a key point about Marketing",
+   "back": "7 Ps: Product (features, quality, branding), Price (strategies), Place (channels), Promotion (mix), People (service), Process (delivery), Physical evidence (tangibles)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "marketing-fc3",
+   "front": "Recall a key point about Marketing",
+   "back": "Pricing: penetration (low, gain share), skimming (high, early adopters), psychological (GBP 9.99), competitive (match), cost-plus (markup), dynamic (real-time)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "marketing-fc4",
+   "front": "Recall a key point about Marketing",
+   "back": "PLC: introduction, growth, maturity, decline; Extension: new markets, new uses, repositioning",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "marketing-fc5",
+   "front": "Recall a key point about Marketing",
+   "back": "Promotion: ATL (TV, radio), BTL (direct, PR, sales promotion), Digital (SEO, PPC, social, email)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "marketing-fc6",
+   "front": "Recall a key point about Marketing",
+   "back": "Distribution: direct (manufacturer->consumer), indirect (wholesaler/retailer), omnichannel (integrated)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

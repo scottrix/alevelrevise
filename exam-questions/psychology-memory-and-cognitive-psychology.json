@@ -1,0 +1,26 @@
+{
+ "subject": "psychology",
+ "topic": "memory-and-cognitive-psychology",
+ "topicName": "Memory and Cognitive Psychology",
+ "version": 1,
+ "questions": [
+  {
+   "id": "memory-and-cognitive-psychology-exam1",
+   "type": "extended",
+   "question": "Explain how the Working Memory Model accounts for dual-task performance better than the Multi-Store Model",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "MSM: single STM store -> two verbal tasks interfere. WMM: separate stores (PL for verbal, VSSP for visual) -> can do verbal + visual simultaneously. Evidence: Baddeley (verbal reasoning + tracking). PL overload impairs both if both verbal",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "MSM: single STM store -> two verbal tasks interfere. WMM: separate stores (PL for verbal, VSSP for visual) -> can do verbal + visual simultaneously. Evidence: Baddeley (verbal reasoning + tracking). PL overload impairs both if both verbal"
+   }
+  }
+ ]
+}

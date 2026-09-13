@@ -1,0 +1,44 @@
+{
+ "subject": "geography",
+ "topic": "physical-geography",
+ "topicName": "Physical Geography",
+ "version": 1,
+ "steps": [
+  {
+   "id": "physical-geography-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Coastal erosion: hydraulic action (air pressure), abrasion (rock hurling), attrition (rock collision), solution (dissolving)"
+  },
+  {
+   "id": "physical-geography-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Longshore drift: prevailing wind -> swash angle -> backwash perpendicular -> zigzag transport"
+  },
+  {
+   "id": "physical-geography-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Landforms: headland (resistant rock), bay (weak rock), cave -> arch -> stack -> stump"
+  },
+  {
+   "id": "physical-geography-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Plate boundaries: constructive (mid-ocean ridges), destructive (subduction, volcanoes), conservative (transform, earthquakes), collision (fold mountains)"
+  },
+  {
+   "id": "physical-geography-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain the formation of a waterfall and gorge using geological structure --- Solution: River flows over hard rock (cap rock) onto soft rock below. Soft rock erodes faster (hydraulic action, abrasion) creating plunge pool and undercutting. Hard rock collapses -> waterfall retreats upstream -> steep-sided gorge left behind. Cap rock provides resistant layer"
+  },
+  {
+   "id": "physical-geography-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Describe formation of a spit | Compare constructive vs destructive plate margins | Explain factors affecting lag time on hydrograph"
+  }
+ ]
+}

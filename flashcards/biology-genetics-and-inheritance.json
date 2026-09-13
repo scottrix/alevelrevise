@@ -1,0 +1,56 @@
+{
+ "subject": "biology",
+ "topic": "genetics-and-inheritance",
+ "topicName": "Genetics and Inheritance",
+ "version": 1,
+ "cards": [
+  {
+   "id": "genetics-and-inheritance-fc1",
+   "front": "Recall a key point about Genetics and Inheritance",
+   "back": "DNA: antiparallel strands, complementary base pairing (A-T, G-C), sugar-phosphate backbone; Replication: helicase, DNA polymerase, Okazaki fragments, ligase",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "genetics-and-inheritance-fc2",
+   "front": "Recall a key point about Genetics and Inheritance",
+   "back": "Transcription: RNA pol, promoter, mRNA; Translation: tRNA, ribosome, codon-anticodon, start/stop codons; Eukaryotes: splicing (introns/exons), 5' cap, poly-A tail",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "genetics-and-inheritance-fc3",
+   "front": "Recall a key point about Genetics and Inheritance",
+   "back": "Mendel: segregation, independent assortment; Punnett squares; Test cross: unknown x homozygous recessive",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "genetics-and-inheritance-fc4",
+   "front": "Recall a key point about Genetics and Inheritance",
+   "back": "Linkage: genes on same chromosome; recombination frequency ∝ distance; Epistasis: one gene masks another (e.g. 9:3:4, 12:3:1, 9:7 ratios)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "genetics-and-inheritance-fc5",
+   "front": "Recall a key point about Genetics and Inheritance",
+   "back": "Chi-squared: χ^2 = Σ(O-E)^2/E; df = n-1; p>0.05 = accept null (observed = expected)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "genetics-and-inheritance-fc6",
+   "front": "Recall a key point about Genetics and Inheritance",
+   "back": "Mutations: substitution (silent/missense/nonsense), insertion/deletion (frameshift); Chromosomal: deletion, duplication, inversion, translocation, non-disjunction",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

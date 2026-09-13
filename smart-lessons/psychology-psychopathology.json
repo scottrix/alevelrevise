@@ -1,0 +1,44 @@
+{
+ "subject": "psychology",
+ "topic": "psychopathology",
+ "topicName": "Psychopathology",
+ "version": 1,
+ "steps": [
+  {
+   "id": "psychopathology-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Definitions: Statistical (rare, e.g. IQ<70), Social norms (culture-specific), FFAD (distress, dysfunction), Ideal MH (Jahoda: autonomy, reality perception, etc.)"
+  },
+  {
+   "id": "psychopathology-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Phobias: Two-process (classical: fear acquisition, operant: avoidance maintenance); Preparedness (Seligman: evolved fears); CBT: exposure, cognitive restructuring"
+  },
+  {
+   "id": "psychopathology-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Depression: Biological (5-HTT gene, serotonin, cortisol/HPA axis); Cognitive (Beck: negative triad, schema, cognitive distortions); Learned helplessness (Seligman); Treatments: SSRIs (6-8 weeks), CBT (behavioural activation, cognitive restructuring)"
+  },
+  {
+   "id": "psychopathology-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "OCD: Obsessions (intrusive), Compulsions (repetitive); Biological (COMT, SLC1A1, basal ganglia, serotonin); Cognitive (inflated responsibility, thought-action fusion); ERP (exposure response prevention)"
+  },
+  {
+   "id": "psychopathology-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain the two-process model of phobias and evaluate it --- Solution: Classical: neutral stimulus (spider) paired with fear (trauma) -> CS elicits CR (fear). Operant: avoidance reduces fear -> negative reinforcement maintains phobia. Evaluation: explains acquisition/maintenance; ignores cognition (irrational thoughts), preparedness (why spiders not flowers?), individual differences; CBT addresses limitations"
+  },
+  {
+   "id": "psychopathology-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Compare four definitions of abnormality | Explain Beck's negative triad | Evaluate SSRIs for depression"
+  }
+ ]
+}

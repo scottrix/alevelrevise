@@ -1,0 +1,64 @@
+{
+ "subject": "further-mathematics",
+ "topic": "polar-coordinates",
+ "topicName": "Polar Coordinates",
+ "version": 1,
+ "cards": [
+  {
+   "id": "polar-coordinates-fc1",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "x = r cos θ, y = r sin θ; r = sqrt(x^2+y^2), tan θ = y/x (check quadrant)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "polar-coordinates-fc2",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "r = a (circle centred at origin), r = 2a cos θ (circle on x-axis), r = 2a sin θ (circle on y-axis)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "polar-coordinates-fc3",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "r = a(1 + cos θ) (cardioid), r = a cos(nθ) (n-petal rose if n odd, 2n-petal if n even)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "polar-coordinates-fc4",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "r = aθ (Archimedean spiral), r^2 = a^2 cos 2θ (lemniscate)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "polar-coordinates-fc5",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "Area = ½∫_{α}^{β} r^2 dθ; Area between curves = ½∫(r₁^2 - r₂^2) dθ",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "polar-coordinates-fc6",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "Tangents: dy/dθ = sin θ dr/dθ + r cos θ, dx/dθ = cos θ dr/dθ - r sin θ; dy/dx = (dy/dθ)/(dx/dθ)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "polar-coordinates-fc7",
+   "front": "Recall a key point about Polar Coordinates",
+   "back": "Horizontal tangent: dy/dθ = 0 (r cos θ + sin θ dr/dθ = 0); Vertical: dx/dθ = 0",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

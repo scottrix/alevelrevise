@@ -1,0 +1,44 @@
+{
+ "subject": "mathematics",
+ "topic": "integration",
+ "topicName": "Integration",
+ "version": 1,
+ "steps": [
+  {
+   "id": "integration-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n != -1)"
+  },
+  {
+   "id": "integration-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Special: ∫1/x dx = ln|x| + C, ∫eˣ dx = eˣ + C"
+  },
+  {
+   "id": "integration-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Trig: ∫sin x dx = -cos x + C, ∫cos x dx = sin x + C, ∫sec^2x dx = tan x + C"
+  },
+  {
+   "id": "integration-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Reverse chain: ∫f'(x)[f(x)]ⁿ dx = [f(x)]ⁿ⁺¹/(n+1) + C"
+  },
+  {
+   "id": "integration-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Evaluate ∫₀^2 xsqrt(4 - x^2) dx using substitution u = 4 - x^2 --- Solution: u = 4 - x^2, du = -2x dx -> x dx = -½ du. Limits: x=0->u=4, x=2->u=0. ∫₄⁰ sqrtu (-½)du = ½∫₀⁴ u^½ du = ½[⅔u^⅔]₀⁴ = ⅓(8) = 8/3"
+  },
+  {
+   "id": "integration-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "∫(3x^2 - 2x + 5)e^{x^3-x^2+5x} dx | ∫x cos x dx (by parts) | ∫₀¹ x/(1+x^2)^2 dx"
+  }
+ ]
+}

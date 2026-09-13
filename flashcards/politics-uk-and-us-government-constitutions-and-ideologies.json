@@ -1,0 +1,24 @@
+{
+ "subject": "politics",
+ "topic": "uk-and-us-government-constitutions-and-ideologies",
+ "topicName": "UK and US Government, Constitutions and Ideologies",
+ "version": 1,
+ "cards": [
+  {
+   "id": "uk-and-us-government-constitutions-and-ideologies-fc1",
+   "front": "What should you know about parliamentary sovereignty?",
+   "back": "The supreme legal authority of the UK Parliament to enact or repeal any law, with no parliament binding its successor.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "uk-and-us-government-constitutions-and-ideologies-fc2",
+   "front": "What should you know about separation of powers?",
+   "back": "Constitutional doctrine dividing government authority between distinct legislative, executive, and judicial branches with checks and balances.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

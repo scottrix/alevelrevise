@@ -1,0 +1,44 @@
+{
+ "subject": "biology",
+ "topic": "homeostasis-and-the-nervous-system",
+ "topicName": "Homeostasis and the Nervous System",
+ "version": 1,
+ "steps": [
+  {
+   "id": "homeostasis-and-the-nervous-system-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Negative feedback: deviation -> correction (e.g. blood glucose, temp, water); Positive: amplifies (e.g. oxytocin in childbirth)"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Kidney: cortex/medulla; nephron (Bowman's capsule, PCT, loop of Henle, DCT, collecting duct); ADH: increases water permeability of DCT/CD; Loop: counter-current multiplier creates medullary gradient"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Neurones: sensory, relay, motor; Resting potential -70mV (Na⁺/K⁺ pump, K⁺ leak); Action potential: depolarisation (Na⁺ in), repolarisation (K⁺ out), refractory period"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Synapse: Ca^2⁺ -> vesicle fusion -> neurotransmitter -> receptor -> depolarisation; Summation: temporal/spatial"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Describe how the loop of Henle creates a water potential gradient in the kidney medulla --- Solution: Descending limb: permeable to water, impermeable to ions -> water leaves by osmosis. Ascending limb: impermeable to water, active Na⁺/Cl⁻ transport out -> filtrate diluted, medulla concentrated. Counter-current multiplier: flow in opposite directions maintains gradient"
+  },
+  {
+   "id": "homeostasis-and-the-nervous-system-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Define homeostasis | Explain action potential phases | How does insulin lower blood glucose?"
+  }
+ ]
+}

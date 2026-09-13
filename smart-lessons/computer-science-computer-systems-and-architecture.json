@@ -1,0 +1,44 @@
+{
+ "subject": "computer-science",
+ "topic": "computer-systems-and-architecture",
+ "topicName": "Computer Systems and Architecture",
+ "version": 1,
+ "steps": [
+  {
+   "id": "computer-systems-and-architecture-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "CPU: ALU (arithmetic/logic), CU (control signals), Registers: PC (next instruction), ACC (results), MAR (address), MDR (data), CIR (instruction), SR (flags)"
+  },
+  {
+   "id": "computer-systems-and-architecture-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "FDE: Fetch (PC to MAR, memory to MDR/CIR, PC++), Decode (CU interprets CIR), Execute (ALU/control)"
+  },
+  {
+   "id": "computer-systems-and-architecture-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Pipelining: fetch/decode/execute overlap; hazards (data, control, structural)"
+  },
+  {
+   "id": "computer-systems-and-architecture-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Memory: Registers > L1 cache > L2 > L3 > RAM > SSD > HDD; Virtual memory: paging, page table, TLB, page fault"
+  },
+  {
+   "id": "computer-systems-and-architecture-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: A program has 20 percent serial code. Max speedup on 4 cores? --- Solution: Amdahl: speedup = 1/((1-0.8) + 0.8/4) = 1/(0.2 + 0.2) = 2.5x. Even infinite cores: 1/0.2 = 5x"
+  },
+  {
+   "id": "computer-systems-and-architecture-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "List registers and their purposes | Draw FDE cycle diagram | Explain cache hit/miss"
+  }
+ ]
+}

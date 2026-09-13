@@ -1,0 +1,44 @@
+{
+ "subject": "physics",
+ "topic": "electricity-and-circuits",
+ "topicName": "Electricity and Circuits",
+ "version": 1,
+ "steps": [
+  {
+   "id": "electricity-and-circuits-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ohm: V = IR (ohmic) vs non-ohmic (filament, diode); I-V curves"
+  },
+  {
+   "id": "electricity-and-circuits-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Series: I same, V splits, R_total = ΣR; Parallel: V same, I splits, 1/R_total = Σ1/R"
+  },
+  {
+   "id": "electricity-and-circuits-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Power: P = IV = I^2R = V^2/R; Energy: E = Pt = IVt"
+  },
+  {
+   "id": "electricity-and-circuits-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Kirchhoff 1st (junction): ΣI_in = ΣI_out (charge conservation); 2nd (loop): ΣV = 0 (energy conservation)"
+  },
+  {
+   "id": "electricity-and-circuits-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: A 12 V battery with internal resistance 0.5 Ω is connected to a 5.5 Ω resistor. Find current, terminal PD, power delivered to load, and power wasted in battery --- Solution: Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2"
+  },
+  {
+   "id": "electricity-and-circuits-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Three resistors 2Ω, 3Ω, 6Ω in parallel. Find equivalent resistance | In a potential divider, V_in=12V, R₁=2kΩ, R₂=4kΩ. Find V_out | An AC supply 230V RMS, 50Hz. Find peak voltage and period"
+  }
+ ]
+}

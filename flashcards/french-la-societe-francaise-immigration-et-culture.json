@@ -1,0 +1,24 @@
+{
+ "subject": "french",
+ "topic": "la-societe-francaise-immigration-et-culture",
+ "topicName": "La Société Française, Immigration et Culture",
+ "version": 1,
+ "cards": [
+  {
+   "id": "la-societe-francaise-immigration-et-culture-fc1",
+   "front": "What should you know about laïcité?",
+   "back": "Principe constitutionnel républicain français de stricte séparation de l'État et des institutions religieuses.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "la-societe-francaise-immigration-et-culture-fc2",
+   "front": "What should you know about le bénévolat?",
+   "back": "L'engagement volontaire non rémunéré au service de l'intérêt général et des associations caritatives.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "subject": "english-literature",
+ "topic": "critical-writing-and-context",
+ "topicName": "Critical Writing and Context",
+ "version": 1,
+ "steps": [
+  {
+   "id": "critical-writing-and-context-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "PEEL: Point, Evidence, Explanation, Link back to question"
+  },
+  {
+   "id": "critical-writing-and-context-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Quote analysis: technique + meaning + effect + link to argument"
+  },
+  {
+   "id": "critical-writing-and-context-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Context: woven into analysis (AO3) not separate; historical, literary, biographical"
+  },
+  {
+   "id": "critical-writing-and-context-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "AO5: alternative readings (e.g. feminist, Marxist); critical quotations as springboards"
+  },
+  {
+   "id": "critical-writing-and-context-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Write a thesis statement for: 'Explore how Shakespeare presents ambition in Macbeth' --- Solution: Shakespeare presents ambition as a corrupting force that destroys moral order, using Macbeth's hamartia and Lady Macbeth's manipulation to show how unchecked desire for power leads to tyranny and self-destruction, ultimately restored by divine retribution"
+  },
+  {
+   "id": "critical-writing-and-context-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Write PEEL paragraph on a given theme | Integrate context into a quotation analysis | Plan a comparative essay structure"
+  }
+ ]
+}

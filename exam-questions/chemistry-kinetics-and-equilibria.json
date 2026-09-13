@@ -1,0 +1,26 @@
+{
+ "subject": "chemistry",
+ "topic": "kinetics-and-equilibria",
+ "topicName": "Kinetics and Equilibria",
+ "version": 1,
+ "questions": [
+  {
+   "id": "kinetics-and-equilibria-exam1",
+   "type": "extended",
+   "question": "For N₂ + 3H₂ ⇌ 2NH₃, DeltaH = -92 kJ/mol. Predict effect on yield of: (a) increasing pressure, (b) increasing temperature, (c) adding Fe catalyst",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "(a) 4 mol gas -> 2 mol gas: shift right -> higher yield. (b) Exothermic: heating shifts left -> lower yield. (c) Catalyst speeds up both forward/reverse equally -> no effect on yield, reaches equilibrium faster",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "(a) 4 mol gas -> 2 mol gas: shift right -> higher yield. (b) Exothermic: heating shifts left -> lower yield. (c) Catalyst speeds up both forward/reverse equally -> no effect on yield, reaches equilibrium faster"
+   }
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+{
+ "subject": "history",
+ "topic": "mock-exam",
+ "topicName": "History Mock Exam",
+ "version": 1,
+ "tests": [
+  {
+   "id": "history-mock",
+   "name": "A-Level History Mock Exam",
+   "description": "Timed mock assembled from worked examples across the course",
+   "timeLimit": 28,
+   "passMark": 60,
+   "questions": [
+    {
+     "id": "mock-1",
+     "type": "short-answer",
+     "question": "[Depth Study: a Period in Detail] Assess the significance of Lenin in the Bolshevik consolidation of power 1917-1924",
+     "correctAnswer": "Crucial: April Theses redirected party; Oct Revolution leadership; Treaty of Brest-Litovsk (pragmatism); War Communism/NEP (ideological flexibility); suppressed opposition (Cheka, ban on factions). But: structural factors (war, economic collapse, peasant resistance) also critical. Historiography: Se",
+     "explanation": "Crucial: April Theses redirected party; Oct Revolution leadership; Treaty of Brest-Litovsk (pragmatism); War Communism/NEP (ideological flexibility); suppressed opposition (Cheka, ban on factions). But: structural factors (war, economic collapse, peasant resistance) also critical. Historiography: Se",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-2",
+     "type": "short-answer",
+     "question": "[Historical Enquiry and Essay Skills] Write an essay introduction for: 'How far was economic crisis the main cause of the French Revolution?'",
+     "correctAnswer": "The French Revolution (1789) resulted from a convergence of fiscal collapse, social tension, and Enlightenment ideas. While economic crisis -- state bankruptcy, grain shortages, regressive taxation -- provided the immediate catalyst, this essay argues that structural weaknesses of the Ancien Régime ",
+     "explanation": "The French Revolution (1789) resulted from a convergence of fiscal collapse, social tension, and Enlightenment ideas. While economic crisis -- state bankruptcy, grain shortages, regressive taxation -- provided the immediate catalyst, this essay argues that structural weaknesses of the Ancien Régime ",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-3",
+     "type": "short-answer",
+     "question": "[Interpretation and Sources] Evaluate the utility of a 1917 Bolshevik poster for a historian studying propaganda in the Russian Revolution",
+     "correctAnswer": "Origin: Bolshevik party, 1917. Purpose: mobilise support, demonise opponents. Value: reveals Bolshevik messaging, visual rhetoric, target audience (workers/soldiers). Limitation: one-sided, omit failures, not objective. Utility: high for studying propaganda techniques, low for factual accuracy of ev",
+     "explanation": "Origin: Bolshevik party, 1917. Purpose: mobilise support, demonise opponents. Value: reveals Bolshevik messaging, visual rhetoric, target audience (workers/soldiers). Limitation: one-sided, omit failures, not objective. Utility: high for studying propaganda techniques, low for factual accuracy of ev",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    },
+    {
+     "id": "mock-4",
+     "type": "short-answer",
+     "question": "[Themed Study: Key Eras] To what extent was 1066 a turning point in English history?",
+     "correctAnswer": "Significant change: Norman elite replaced Anglo-Saxon, feudalism introduced, language (French influence), church reform, castle-building, Domesday Book. Continuity: shire system, common law roots, parish structure, monarchy institution. Assessment: political/cultural rupture but administrative conti",
+     "explanation": "Significant change: Norman elite replaced Anglo-Saxon, feudalism introduced, language (French influence), church reform, castle-building, Domesday Book. Continuity: shire system, common law roots, parish structure, monarchy institution. Assessment: political/cultural rupture but administrative conti",
+     "marks": 6,
+     "difficulty": 4,
+     "ao": "AO2"
+    }
+   ]
+  }
+ ]
+}

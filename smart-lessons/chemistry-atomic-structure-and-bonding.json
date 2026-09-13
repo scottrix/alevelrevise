@@ -1,0 +1,44 @@
+{
+ "subject": "chemistry",
+ "topic": "atomic-structure-and-bonding",
+ "topicName": "Atomic Structure and Bonding",
+ "version": 1,
+ "steps": [
+  {
+   "id": "atomic-structure-and-bonding-s1",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Atomic structure: p⁺, n⁰, e⁻; isotopes = same Z, different A; electron config: 1s^22s^22p⁶..."
+  },
+  {
+   "id": "atomic-structure-and-bonding-s2",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ionisation energy: increases across period (↑Z_eff), decreases down group (↑shielding, ↑n)"
+  },
+  {
+   "id": "atomic-structure-and-bonding-s3",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Ionic: metal + non-metal, electron transfer, lattice; Covalent: non-metal + non-metal, sharing"
+  },
+  {
+   "id": "atomic-structure-and-bonding-s4",
+   "kind": "learn",
+   "title": "Key Fact",
+   "body": "Electronegativity (Pauling): increases across, decreases down; >1.7 ionic, <0.4 non-polar covalent"
+  },
+  {
+   "id": "atomic-structure-and-bonding-ex",
+   "kind": "example",
+   "title": "Worked example",
+   "body": "Q: Explain why H₂O has a higher boiling point than H₂S despite similar molecular mass --- Solution: H₂O has H-bonding (O is highly electronegative, lone pairs); H₂S has only dipole-dipole and London forces. H-bonding is much stronger -> more energy to separate molecules -> higher BP"
+  },
+  {
+   "id": "atomic-structure-and-bonding-try",
+   "kind": "try",
+   "title": "Try it yourself",
+   "body": "Write electron configuration of Fe^2⁺ (Z=26) | Predict shape and bond angle of NH₃, CO₂, SF₆ | Rank boiling points: CH₄, NH₃, H₂O, HF -- explain"
+  }
+ ]
+}

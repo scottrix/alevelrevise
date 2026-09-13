@@ -1,0 +1,72 @@
+{
+ "subject": "further-mathematics",
+ "topic": "vectors",
+ "topicName": "Vectors",
+ "version": 1,
+ "cards": [
+  {
+   "id": "vectors-fc1",
+   "front": "Recall a key point about Vectors",
+   "back": "Vector form: r = a + λb (line), r = a + λb + μc (plane)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc2",
+   "front": "Recall a key point about Vectors",
+   "back": "Dot product: a·b = |a||b|cosθ = a₁b₁+a₂b₂+a₃b₃; perpendicular iff a·b = 0",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc3",
+   "front": "Recall a key point about Vectors",
+   "back": "Cross product: axb = |a||b|sinθ n̂ = det[i j k; a₁ a₂ a₃; b₁ b₂ b₃]",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc4",
+   "front": "Recall a key point about Vectors",
+   "back": "Area: triangle = ½|axb|; parallelogram = |axb|; volume = |a·(bxc)|",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc5",
+   "front": "Recall a key point about Vectors",
+   "back": "Line eqn: r = a + λb; Cartesian: (x-x₁)/l = (y-y₁)/m = (z-z₁)/n",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc6",
+   "front": "Recall a key point about Vectors",
+   "back": "Plane eqn: r·n = d (normal n, distance d/|n| from origin) or n₁x+n₂y+n₃z = d",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc7",
+   "front": "Recall a key point about Vectors",
+   "back": "Intersection: substitute line into plane, solve for λ",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "vectors-fc8",
+   "front": "Recall a key point about Vectors",
+   "back": "Distance point to plane: |ax₀+by₀+cz₀-d|/sqrt(a^2+b^2+c^2); point to line: |bx(a-p)|/|b|",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

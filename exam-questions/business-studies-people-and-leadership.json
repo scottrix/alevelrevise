@@ -1,0 +1,26 @@
+{
+ "subject": "business-studies",
+ "topic": "people-and-leadership",
+ "topicName": "People and Leadership",
+ "version": 1,
+ "questions": [
+  {
+   "id": "people-and-leadership-exam1",
+   "type": "extended",
+   "question": "Apply Herzberg to a call centre with high turnover. Propose changes",
+   "marks": 6,
+   "commandWord": "explain",
+   "ao": "AO2",
+   "difficulty": 4,
+   "markScheme": {
+    "points": [
+     {
+      "text": "Hygiene factors: pay, conditions, supervision, policy -> ensure competitive pay, ergonomic chairs, supportive managers, fair policies. Motivators: achievement, recognition, responsibility, growth -> team targets with bonuses, employee of month, job enrichment (team leader roles), career path to management",
+      "marks": 6
+     }
+    ],
+    "exemplarAnswer": "Hygiene factors: pay, conditions, supervision, policy -> ensure competitive pay, ergonomic chairs, supportive managers, fair policies. Motivators: achievement, recognition, responsibility, growth -> team targets with bonuses, employee of month, job enrichment (team leader roles), career path to management"
+   }
+  }
+ ]
+}

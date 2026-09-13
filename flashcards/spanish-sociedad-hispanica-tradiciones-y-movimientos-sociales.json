@@ -1,0 +1,24 @@
+{
+ "subject": "spanish",
+ "topic": "sociedad-hispanica-tradiciones-y-movimientos-sociales",
+ "topicName": "Sociedad Hispánica, Tradiciones y Movimientos Sociales",
+ "version": 1,
+ "cards": [
+  {
+   "id": "sociedad-hispanica-tradiciones-y-movimientos-sociales-fc1",
+   "front": "What should you know about machismo?",
+   "back": "Actitud o comportamiento de prepotencia de los varones respecto de las mujeres arraigado tradicionalmente.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "sociedad-hispanica-tradiciones-y-movimientos-sociales-fc2",
+   "front": "What should you know about el desempleo juvenil?",
+   "back": "El alto porcentaje de jóvenes en edad de trabajar sin empleo, fenómeno notable en España.",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}

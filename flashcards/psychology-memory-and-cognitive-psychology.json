@@ -1,0 +1,48 @@
+{
+ "subject": "psychology",
+ "topic": "memory-and-cognitive-psychology",
+ "topicName": "Memory and Cognitive Psychology",
+ "version": 1,
+ "cards": [
+  {
+   "id": "memory-and-cognitive-psychology-fc1",
+   "front": "Recall a key point about Memory and Cognitive Psychology",
+   "back": "MSM: Sensory (iconic/echoic, <1s) -> attention -> STM (acoustic, 7+/-2, 18-30s) -> rehearsal -> LTM (semantic, unlimited); WMM: CE (attention), PL (speech), VSSP (visual), EB (integration); LTM: episodic (events), semantic (facts), procedural (skills)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-fc2",
+   "front": "Recall a key point about Memory and Cognitive Psychology",
+   "back": "Encoding: acoustic (STM), semantic (LTM); Storage: consolidation; Retrieval: recall, recognition, relearning",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-fc3",
+   "front": "Recall a key point about Memory and Cognitive Psychology",
+   "back": "Forgetting: Proactive (old->new), Retroactive (new->old), Retrieval failure (cue-dependent), Decay (trace fades), Motivated (repression)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-fc4",
+   "front": "Recall a key point about Memory and Cognitive Psychology",
+   "back": "EWT: Loftus & Palmer (leading questions), anxiety (weapon focus), Cognitive interview (context reinstatement, report everything, reverse order, change perspective)",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  },
+  {
+   "id": "memory-and-cognitive-psychology-fc5",
+   "front": "Recall a key point about Memory and Cognitive Psychology",
+   "back": "Piaget: sensorimotor, preoperational, concrete, formal; schemas, assimilation, accommodation; Vygotsky: ZPD, scaffolding, social interaction",
+   "tags": [],
+   "difficulty": 2,
+   "ao": "AO1"
+  }
+ ]
+}
