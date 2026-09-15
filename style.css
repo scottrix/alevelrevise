@@ -1408,3 +1408,21 @@ padding-right: 1rem;
 .related-topics li a:hover {
   border-color: var(--primary, #4A90D9);
 }
+
+/* Unanswered practice question marker */
+.q-no-answer {
+    display: inline-block;
+    font-size: 0.72rem;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    border: 1px dashed var(--border);
+    border-radius: 4px;
+    padding: 0.05rem 0.45rem;
+    margin-left: 0.45rem;
+    white-space: nowrap;
+}
+.q-note {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+}
