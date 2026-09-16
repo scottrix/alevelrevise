@@ -596,10 +596,10 @@ function initTopicTargetTests() {
 
   const topic = topicFile.replace('.html', '');
   const tierPart = tier ? '-' + tier.toLowerCase() : '';
-  const testUrl = `/alevelrevise/target-tests/${subject}-${board}${tierPart}-${topic}.json`;
+  const testUrl = `/alevelrevise/target-tests/${subject}-${topic}.json`;
 
   const renderer = new TargetTestsRenderer('#target-tests-container', { showTimer: true });
-  renderer.loadTests(testUrl, `${subject}-${board}${tierPart}-${topic}`).then(tests => {
+  renderer.loadTests(testUrl, `${subject}-${topic}`).then(tests => {
     if (tests.length > 0) {
       renderer.render();
     } else {
