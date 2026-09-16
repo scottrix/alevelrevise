@@ -236,62 +236,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/aqa/biochemistry-and-respiration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/aqa/cell-structure-and-function.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/aqa/ecology-and-ecosystems.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/aqa/genetics-and-inheritance.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/aqa/homeostasis-and-the-nervous-system.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/biochemistry-and-respiration.html</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/biological-molecules-and-enzyme-kinetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ccea/biochemistry-and-respiration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ccea/cell-structure-and-function.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ccea/ecology-and-ecosystems.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ccea/genetics-and-inheritance.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ccea/homeostasis-and-the-nervous-system.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -311,31 +261,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/edexcel/biochemistry-and-respiration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/edexcel/cell-structure-and-function.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/edexcel/ecology-and-ecosystems.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/edexcel/genetics-and-inheritance.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/edexcel/homeostasis-and-the-nervous-system.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/genetics-and-inheritance.html</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.7</priority>
@@ -351,132 +276,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ocr/biochemistry-and-respiration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ocr/cell-structure-and-function.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ocr/ecology-and-ecosystems.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ocr/genetics-and-inheritance.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/ocr/homeostasis-and-the-nervous-system.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/respiration-photosynthesis-and-bioenergetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/wjec/biochemistry-and-respiration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/wjec/cell-structure-and-function.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/wjec/ecology-and-ecosystems.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/wjec/genetics-and-inheritance.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/biology/wjec/homeostasis-and-the-nervous-system.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/aqa/finance-and-accounts.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/aqa/marketing.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/aqa/operations-management.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/aqa/people-and-leadership.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/aqa/strategy-and-the-external-environment.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ccea/finance-and-accounts.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ccea/marketing.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ccea/operations-management.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ccea/people-and-leadership.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ccea/strategy-and-the-external-environment.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/edexcel/finance-and-accounts.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/edexcel/marketing.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/edexcel/operations-management.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/edexcel/people-and-leadership.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/edexcel/strategy-and-the-external-environment.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -488,31 +288,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/marketing.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ocr/finance-and-accounts.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ocr/marketing.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ocr/operations-management.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ocr/people-and-leadership.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/ocr/strategy-and-the-external-environment.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -536,56 +311,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/wjec/finance-and-accounts.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/wjec/marketing.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/wjec/operations-management.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/wjec/people-and-leadership.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/business-studies/wjec/strategy-and-the-external-environment.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/aqa/atomic-structure-and-bonding.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/aqa/energetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/aqa/kinetics-and-equilibria.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/aqa/organic-chemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/aqa/redox-and-electrochemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/aromatic-chemistry-and-reaction-mechanisms.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
@@ -593,56 +318,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/atomic-structure-and-bonding.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ccea/atomic-structure-and-bonding.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ccea/energetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ccea/kinetics-and-equilibria.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ccea/organic-chemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ccea/redox-and-electrochemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/edexcel/atomic-structure-and-bonding.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/edexcel/energetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/edexcel/kinetics-and-equilibria.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/edexcel/organic-chemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/edexcel/redox-and-electrochemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -658,31 +333,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/kinetics-and-equilibria.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ocr/atomic-structure-and-bonding.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ocr/energetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ocr/kinetics-and-equilibria.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ocr/organic-chemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/ocr/redox-and-electrochemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -706,83 +356,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/wjec/atomic-structure-and-bonding.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/wjec/energetics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/wjec/kinetics-and-equilibria.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/wjec/organic-chemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/chemistry/wjec/redox-and-electrochemistry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/aqa/boolean-logic-and-relational-databases.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/aqa/computer-systems-and-architecture.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/aqa/data-structures-and-algorithms.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/aqa/networks-and-internet.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/aqa/programming-fundamentals.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/boolean-logic-and-relational-databases.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ccea/boolean-logic-and-relational-databases.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ccea/computer-systems-and-architecture.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ccea/data-structures-and-algorithms.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ccea/networks-and-internet.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ccea/programming-fundamentals.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -801,58 +376,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/edexcel/boolean-logic-and-relational-databases.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/edexcel/computer-systems-and-architecture.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/edexcel/data-structures-and-algorithms.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/edexcel/networks-and-internet.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/edexcel/programming-fundamentals.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/networks-and-internet.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ocr/boolean-logic-and-relational-databases.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ocr/computer-systems-and-architecture.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ocr/data-structures-and-algorithms.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ocr/networks-and-internet.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/ocr/programming-fundamentals.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -866,92 +391,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/wjec/boolean-logic-and-relational-databases.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/wjec/computer-systems-and-architecture.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/wjec/data-structures-and-algorithms.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/wjec/networks-and-internet.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/computer-science/wjec/programming-fundamentals.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/drama-and-theatre/theatre-practitioners-devising-and-textual-interpretation.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/aqa/international-trade-and-development.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/aqa/macroeconomics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/aqa/market-failure-and-government-intervention.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/aqa/microeconomics-and-markets.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ccea/international-trade-and-development.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ccea/macroeconomics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ccea/market-failure-and-government-intervention.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ccea/microeconomics-and-markets.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/edexcel/international-trade-and-development.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/edexcel/macroeconomics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/edexcel/market-failure-and-government-intervention.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/edexcel/microeconomics-and-markets.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -986,87 +426,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ocr/international-trade-and-development.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ocr/macroeconomics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ocr/market-failure-and-government-intervention.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/ocr/microeconomics-and-markets.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/wjec/international-trade-and-development.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/wjec/macroeconomics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/wjec/market-failure-and-government-intervention.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/economics/wjec/microeconomics-and-markets.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-language/language-diversity-sociolects-and-child-acquisition.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/aqa/critical-writing-and-context.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/aqa/drama-and-shakespeare.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/aqa/poetry-analysis.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/aqa/prose-and-the-novel.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ccea/critical-writing-and-context.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ccea/drama-and-shakespeare.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ccea/poetry-analysis.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ccea/prose-and-the-novel.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1078,46 +438,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/drama-and-shakespeare.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/edexcel/critical-writing-and-context.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/edexcel/drama-and-shakespeare.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/edexcel/poetry-analysis.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/edexcel/prose-and-the-novel.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ocr/critical-writing-and-context.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ocr/drama-and-shakespeare.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ocr/poetry-analysis.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/ocr/prose-and-the-novel.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1136,77 +456,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/wjec/critical-writing-and-context.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/wjec/drama-and-shakespeare.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/wjec/poetry-analysis.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/english-literature/wjec/prose-and-the-novel.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/french/la-societe-francaise-immigration-et-culture.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/aqa/complex-numbers.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/aqa/hyperbolic-functions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/aqa/matrices.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/aqa/polar-coordinates.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/aqa/vectors.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ccea/complex-numbers.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ccea/hyperbolic-functions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ccea/matrices.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ccea/polar-coordinates.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ccea/vectors.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1218,31 +468,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/complex-numbers.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/edexcel/complex-numbers.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/edexcel/hyperbolic-functions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/edexcel/matrices.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/edexcel/polar-coordinates.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/edexcel/vectors.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1261,31 +486,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ocr/complex-numbers.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ocr/hyperbolic-functions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ocr/matrices.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ocr/polar-coordinates.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/ocr/vectors.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/polar-coordinates.html</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.7</priority>
@@ -1293,91 +493,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/vectors.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/wjec/complex-numbers.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/wjec/hyperbolic-functions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/wjec/matrices.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/wjec/polar-coordinates.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/further-mathematics/wjec/vectors.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/aqa/fieldwork-and-data-collection.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/aqa/hazards-and-global-issues.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/aqa/human-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/aqa/physical-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ccea/fieldwork-and-data-collection.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ccea/hazards-and-global-issues.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ccea/human-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ccea/physical-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/edexcel/fieldwork-and-data-collection.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/edexcel/hazards-and-global-issues.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/edexcel/human-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/edexcel/physical-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1396,26 +511,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ocr/fieldwork-and-data-collection.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ocr/hazards-and-global-issues.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ocr/human-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/ocr/physical-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/physical-geography.html</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.7</priority>
@@ -1426,93 +521,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/wjec/fieldwork-and-data-collection.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/wjec/hazards-and-global-issues.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/wjec/human-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/geography/wjec/physical-geography.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/german/gesellschaft-im-wandel-und-deutsche-geschichte.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/aqa/depth-study:-a-period-in-detail.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/aqa/historical-enquiry-and-essay-skills.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/aqa/interpretation-and-sources.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/aqa/themed-study:-key-eras.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ccea/depth-study:-a-period-in-detail.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ccea/historical-enquiry-and-essay-skills.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ccea/interpretation-and-sources.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ccea/themed-study:-key-eras.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/depth-study:-a-period-in-detail.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/edexcel/depth-study:-a-period-in-detail.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/edexcel/historical-enquiry-and-essay-skills.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/edexcel/interpretation-and-sources.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/edexcel/themed-study:-key-eras.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1526,26 +541,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ocr/depth-study:-a-period-in-detail.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ocr/historical-enquiry-and-essay-skills.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ocr/interpretation-and-sources.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/ocr/themed-study:-key-eras.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/revolutions-authoritarianism-and-historical-historiography.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
@@ -1553,26 +548,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/themed-study:-key-eras.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/wjec/depth-study:-a-period-in-detail.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/wjec/historical-enquiry-and-essay-skills.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/wjec/interpretation-and-sources.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/history/wjec/themed-study:-key-eras.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1596,67 +571,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/aqa/algebraic-expressions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/aqa/coordinate-geometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/aqa/differentiation.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/aqa/integration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/aqa/quadratic-equations.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/aqa/trigonometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/calculus-differentiation-and-integration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ccea/algebraic-expressions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ccea/coordinate-geometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ccea/differentiation.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ccea/integration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ccea/quadratic-equations.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ccea/trigonometry.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1676,72 +591,12 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/edexcel/algebraic-expressions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/edexcel/coordinate-geometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/edexcel/differentiation.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/edexcel/integration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/edexcel/quadratic-equations.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/edexcel/trigonometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/integration.html</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/mechanics-dynamics-and-kinematics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ocr/algebraic-expressions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ocr/coordinate-geometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ocr/differentiation.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ocr/integration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ocr/quadratic-equations.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/ocr/trigonometry.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1758,36 +613,6 @@
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/trigonometry.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/wjec/algebraic-expressions.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/wjec/coordinate-geometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/wjec/differentiation.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/wjec/integration.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/wjec/quadratic-equations.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/mathematics/wjec/trigonometry.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -1811,81 +636,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/aqa/electricity-and-circuits.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/aqa/mechanics-and-motion.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/aqa/particles-and-quantum-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/aqa/thermal-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/aqa/waves.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ccea/electricity-and-circuits.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ccea/mechanics-and-motion.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ccea/particles-and-quantum-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ccea/thermal-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ccea/waves.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/edexcel/electricity-and-circuits.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/edexcel/mechanics-and-motion.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/edexcel/particles-and-quantum-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/edexcel/thermal-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/edexcel/waves.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/electricity-and-circuits.html</loc>
     <lastmod>2026-09-01</lastmod>
     <priority>0.7</priority>
@@ -1902,31 +652,6 @@
   </url>
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/nuclear-physics-radioactivity-and-thermal-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ocr/electricity-and-circuits.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ocr/mechanics-and-motion.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ocr/particles-and-quantum-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ocr/thermal-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/ocr/waves.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
@@ -1956,31 +681,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/wjec/electricity-and-circuits.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/wjec/mechanics-and-motion.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/wjec/particles-and-quantum-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/wjec/thermal-physics.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/physics/wjec/waves.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/politics/uk-and-us-government-constitutions-and-ideologies.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
@@ -1991,108 +691,8 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/aqa/approaches-and-perspectives.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/aqa/memory-and-cognitive-psychology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/aqa/psychopathology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/aqa/research-methods.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/aqa/social-influence-and-attachment.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ccea/approaches-and-perspectives.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ccea/memory-and-cognitive-psychology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ccea/psychopathology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ccea/research-methods.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ccea/social-influence-and-attachment.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/edexcel/approaches-and-perspectives.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/edexcel/memory-and-cognitive-psychology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/edexcel/psychopathology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/edexcel/research-methods.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/edexcel/social-influence-and-attachment.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/memory-and-cognitive-psychology.html</loc>
     <lastmod>2026-09-01</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ocr/approaches-and-perspectives.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ocr/memory-and-cognitive-psychology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ocr/psychopathology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ocr/research-methods.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/ocr/social-influence-and-attachment.html</loc>
-    <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
@@ -2112,31 +712,6 @@
   </url>
   <url>
     <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/social-influence-and-memory-models.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/wjec/approaches-and-perspectives.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/wjec/memory-and-cognitive-psychology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/wjec/psychopathology.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/wjec/research-methods.html</loc>
-    <lastmod>2026-08-30</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.scottrix.co.uk/alevelrevise/topics/psychology/wjec/social-influence-and-attachment.html</loc>
     <lastmod>2026-08-30</lastmod>
     <priority>0.7</priority>
   </url>
