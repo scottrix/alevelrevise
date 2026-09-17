@@ -99,6 +99,10 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>Product Rule:</strong> d/dx[uv] = u(dv/dx) + v(du/dx).</div>
 <div class="key-point"><strong>Integration by Parts:</strong> ∫ u (dv/dx) dx = uv - ∫ v (du/dx) dx.</div>
+<div class="key-point"><strong>Chain Rule:</strong> dy/dx = (dy/du) × (du/dx); used to differentiate composite (function of a function) expressions such as (3x + 1)⁵.</div>
+<div class="key-point"><strong>Quotient Rule:</strong> d/dx[u/v] = [v(du/dx) − u(dv/dx)] / v².</div>
+<div class="key-point"><strong>Implicit Differentiation:</strong> Differentiate each term with respect to x, applying the chain rule to terms involving y (each y term produces a factor dy/dx), then rearrange to make dy/dx the subject.</div>
+<div class="key-point"><strong>Integration by Substitution:</strong> The reverse of the chain rule: choose u = g(x), rewrite the integral entirely in terms of u and du, integrate, then substitute back to express the result in x.</div>
 </section>
 
 <section class="section">
@@ -142,6 +146,24 @@
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> ∫ (1/y) dy = ∫ 2x dx => ln y = x² + C => y = 3e^{x²}.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> A curve has equation x² + y² = 25. Find dy/dx at the point (3, 4).</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Differentiate both sides implicitly with respect to x: 2x + 2y(dy/dx) = 0. Rearranging: dy/dx = −x/y. At (3, 4): dy/dx = −3/4.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> Use the substitution u = x² to find ∫ x cos(x²) dx.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Let u = x², so du/dx = 2x and x dx = ½ du. The integral becomes ½∫cos u du = ½ sin u + C. Substituting back: ∫ x cos(x²) dx = ½ sin(x²) + C.</p>
     </div>
   </details>
 </div>

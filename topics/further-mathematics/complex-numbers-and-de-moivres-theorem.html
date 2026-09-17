@@ -99,6 +99,10 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>De Moivre's Theorem:</strong> [r(cos θ + i sin θ)]ⁿ = rⁿ(cos nθ + i sin nθ) for all n ∈ ℤ.</div>
 <div class="key-point"><strong>Roots of Unity:</strong> Solutions to zⁿ = 1: z_k = e^{i 2kπ/n} for k = 0, 1, ..., n-1.</div>
+<div class="key-point"><strong>Modulus-Argument (Polar) Form:</strong> z = r(cos θ + i sin θ) where r = |z| = √(a² + b²) and θ = arg(z), chosen so that a = r cos θ and b = r sin θ (check the quadrant of a + bi).</div>
+<div class="key-point"><strong>Exponential Form:</strong> z = re^{iθ} by Euler's formula e^{iθ} = cos θ + i sin θ; multiplication and powers then follow the usual index laws, e.g. z₁z₂ = r₁r₂ e^{i(θ₁+θ₂)}.</div>
+<div class="key-point"><strong>Geometry of nth Roots:</strong> The n nth roots of re^{iθ} lie on a circle of radius r^{1/n} centred at the origin, equally spaced by angle 2π/n — the vertices of a regular n-gon.</div>
+<div class="key-point"><strong>Conjugate Pair Rule:</strong> If a real polynomial has a non-real root z, then its conjugate z̄ is also a root; the pair combines into a real quadratic factor (z - z)(z - z̄) = z² - 2Re(z)z + |z|².</div>
 </section>
 
 <section class="section">
@@ -142,6 +146,24 @@ Real part: cos 3θ = cos³θ - 3 cos θ (1 - cos²θ) = 4 cos³θ - 3 cos θ.</p
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> A circle with centre (0, 3) and radius 2.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Use De Moivre's theorem to find all five fifth roots of 32, giving your answers in exponential form.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> 32 = 32e^{i0}. Roots: z_k = 32^{1/5} e^{i(0 + 2kpi)/5} = 2e^{i2kpi/5} for k = 0, 1, 2, 3, 4, i.e. 2, 2e^{2pii/5}, 2e^{4pii/5}, 2e^{6pii/5}, 2e^{8pii/5}. The five roots are equally spaced by 2pi/5 on a circle of radius 2.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> Describe and sketch the locus given by arg(z - 2) = pi/4.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> arg(z - 2) is the angle that the vector from the point (2, 0) to z makes with the positive real axis. The locus is a half-line (ray) starting at the point (2, 0) (but not including it), making an angle of pi/4 (45 degrees) with the positive real direction, i.e. the line y = x - 2 for x > 2.</p>
     </div>
   </details>
 </div>

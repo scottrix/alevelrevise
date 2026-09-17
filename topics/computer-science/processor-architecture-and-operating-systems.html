@@ -99,6 +99,11 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>Von Neumann Architecture:</strong> Computer architecture where instructions and data share the same memory space and system bus.</div>
 <div class="key-point"><strong>Pipelining:</strong> Instruction execution technique where multiple instruction phases (Fetch, Decode, Execute) overlap concurrently.</div>
+<div class="key-point"><strong>Fetch-Decode-Execute Cycle:</strong> PC copied to MAR; instruction read from memory into MDR then CIR; PC incremented; the CU decodes the opcode and the ALU executes it (stored program concept).</div>
+<div class="key-point"><strong>Special-Purpose Registers:</strong> PC (address of next instruction), MAR (address placed on address bus), MDR (data on data bus), ACC (ALU results), CIR (current instruction), SR (status/flag register).</div>
+<div class="key-point"><strong>Cache and Memory Hierarchy:</strong> Registers > L1 > L2 > L3 > RAM > secondary storage — decreasing speed, increasing capacity; cache exploits locality of reference (recently and frequently used data kept close to the CPU).</div>
+<div class="key-point"><strong>Interrupts:</strong> Signals that pause the current program; the OS saves the process state (context switch), runs the interrupt service routine, then resumes — enables multitasking and efficient I/O handling.</div>
+<div class="key-point"><strong>CISC vs RISC:</strong> CISC: complex variable-length instructions executed via microcode, fewer registers; RISC: simple fixed-length instructions, load/store architecture, more registers, easier to pipeline.</div>
 </section>
 
 <section class="section">
@@ -143,6 +148,24 @@
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> Contrast competing perspectives, discuss empirical evidence or theoretical limitations, and synthesize a balanced, well-reasoned conclusion.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Describe the fetch stage of the fetch-decode-execute cycle, naming the registers involved.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> The contents of the PC are copied to the MAR; the address travels along the address bus; the instruction at that address is read from main memory into the MDR along the data bus; the MDR contents are copied to the CIR; finally the PC is incremented to point to the next instruction.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> Explain what a data hazard is and how it affects a pipelined processor, using an example.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> A data hazard occurs when an instruction needs a result that an earlier instruction has not yet written back, e.g. ADD R1, R2, R3 immediately followed by SUB R4, R1, R5. The SUB cannot execute until R1 holds the new value, so the pipeline stalls (a bubble is inserted), reducing throughput. Remedies include operand forwarding and reordering instructions.</p>
     </div>
   </details>
 </div>

@@ -120,6 +120,33 @@
 <p><strong>Questions:</strong></p>
 <ul><li>Implement stack using list<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Write binary search recursive<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Trace merge sort on [38,27,43,3,9,82,10]<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Implement BFS for shortest path in unweighted graph<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Design hash function for string keys<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
 </div>
+<div class="question">
+  <p><strong>Q1:</strong> Write pseudocode to implement a stack using a list, showing the push and pop operations.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> stack = []. Push: stack.append(item) — adds to the end. Pop: check the stack is not empty (underflow), then return stack.pop() — removes and returns the last item added (LIFO). Both operations are O(1) on a list.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Write a recursive binary search and state its time complexity.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Base case: if low > high, return None (not found). Recursive case: mid = (low + high) // 2; if list[mid] == target return mid; if list[mid] < target recurse with low = mid + 1, otherwise recurse with high = mid - 1. Time complexity O(log n) because the search space halves with each call.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Trace merge sort on the list [38, 27, 43, 3], showing the splits and merges.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Split [38, 27, 43, 3] into [38, 27] and [43, 3], then into singletons [38], [27], [43], [3]. Merge [38] + [27] → [27, 38] and [43] + [3] → [3, 43]. Final merge [27, 38] + [3, 43] → [3, 27, 38, 43]. Complexity O(n log n): log₂ 4 = 2 levels of splits, each merge pass does O(n) comparisons.</p>
+    </div>
+  </details>
+</div>
 </div>
 </section>
 <section class="section">

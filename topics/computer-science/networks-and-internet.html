@@ -120,6 +120,33 @@
 <p><strong>Questions:</strong></p>
 <ul><li>Subnet 192.168.1.0/24 into 4 subnets<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Compare TCP vs UDP for video streaming<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Explain DNS resolution steps<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Describe SQL injection prevention<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>How does RSA key exchange work?<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
 </div>
+<div class="question">
+  <p><strong>Q1:</strong> Subnet 192.168.1.0/24 into 4 equal subnets. Give the new subnet mask and the network address of the first two subnets.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> 4 subnets need 2 extra bits: /24 becomes /26, subnet mask 255.255.255.192. Each subnet spans 64 addresses: 192.168.1.0 (hosts .1-.62, broadcast .63) and 192.168.1.64 (hosts .65-.126, broadcast .127) — then .128 and .192.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Explain why UDP rather than TCP is often used for live video streaming.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> UDP is connectionless: no 3-way handshake, no acknowledgements, no sequencing or retransmission, so it has much lower latency and overhead. A lost packet causes only a momentary glitch, whereas TCP's retransmissions would stall the stream and cause buffering — for live media, low delay matters more than perfect reliability.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Describe the steps a DNS resolver takes to translate www.example.co.uk into an IP address.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> The client queries its local recursive resolver (usually the ISP's); if not cached, the resolver asks a root name server, which returns the TLD server for .uk/.co.uk; the TLD server returns the authoritative name server for example.co.uk; the authoritative server returns the A record (IPv4) or AAAA record (IPv6); the resolver caches the result and returns the IP address to the client.</p>
+    </div>
+  </details>
+</div>
 </div>
 </section>
 <section class="section">

@@ -120,6 +120,33 @@
 <p><strong>Questions:</strong></p>
 <ul><li>Simplify: A·(A+B) + A·B<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Design full adder from half adders<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Draw ER for library system<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Write SQL: students with avg grade &gt; 70<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Explain ACID with examples<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
 </div>
+<div class="question">
+  <p><strong>Q1:</strong> Simplify the Boolean expression A·(A + B) + A·B, naming the laws used.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> A·(A + B) = A·A + A·B (distributive law) = A + A·B (idempotent law, A·A = A). Then A + A·B = A (absorption law). The whole expression simplifies to A.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Write an SQL query to list the names of students whose average grade is above 70.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> SELECT name FROM students GROUP BY name HAVING AVG(grade) > 70; — the aggregate condition must go in HAVING (used after GROUP BY); WHERE filters individual rows and cannot contain aggregate functions.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Explain the difference between 2NF and 3NF in normalisation.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> 2NF: the relation is in 1NF and has no partial dependencies — every non-key attribute depends on the whole composite primary key, not part of it. 3NF: additionally no transitive dependencies — no non-key attribute depends on another non-key attribute; each must depend on "the key, the whole key, and nothing but the key".</p>
+    </div>
+  </details>
+</div>
 </div>
 </section>
 <section class="section">

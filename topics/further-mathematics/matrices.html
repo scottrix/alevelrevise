@@ -120,6 +120,33 @@
 <p><strong>Questions:</strong></p>
 <ul><li>Find det and inverse of [2 1 3; 0 1 4; 5 6 0]<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Solve using matrix inverse: 2x+y-z=1, x+2y+z=2, 3x-y+2z=3<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find matrix for rotation by 90 deg  about origin followed by reflection in y=x<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find eigenvalues of [4 1; 2 3] and corresponding eigenvectors<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Show [1 2; 2 1] is diagonalisable<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
 </div>
+<div class="question">
+  <p><strong>Q1:</strong> Given A = [[2, 1], [3, 4]], find det(A) and A&#8315;&#185;, and hence solve the system A x = [4; 1].</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> det(A) = (2)(4) - (1)(3) = 8 - 3 = 5 (&#8800; 0, so invertible). A&#8315;&#185; = (1/5)[4, -1; -3, 2]. Then x = A&#8315;&#185;[4; 1] = (1/5)[(4)(4) + (-1)(1); (-3)(4) + (2)(1)] = (1/5)[15; -10] = [3; -2].</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Find the eigenvalues and corresponding eigenvectors of M = [[3, 1], [1, 3]].</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Characteristic equation: det(M - &#955;I) = (3 - &#955;)&#178; - 1 = 0, so (3 - &#955;)&#178; = 1, giving &#955; = 2 or &#955; = 4. For &#955; = 2: (M - 2I)v = [1, 1; 1, 1]v = 0, so v = (1, -1) (or any multiple). For &#955; = 4: (M - 4I)v = [-1, 1; 1, -1]v = 0, so v = (1, 1) (or any multiple).</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> The matrix M = [[0, -1], [1, 0]] represents a geometric transformation of the plane. Describe the transformation and state M&#8308;.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> M maps (1, 0) to (0, 1) and (0, 1) to (-1, 0), matching the rotation matrix [[cos&#952;, -sin&#952;], [sin&#952;, cos&#952;]] with &#952; = 90&#176;: an anticlockwise rotation of 90&#176; about the origin. M&#8308; represents four such rotations, i.e. a rotation of 360&#176;, so M&#8308; = I (the identity matrix).</p>
+    </div>
+  </details>
+</div>
 </div>
 </section>
 <section class="section">

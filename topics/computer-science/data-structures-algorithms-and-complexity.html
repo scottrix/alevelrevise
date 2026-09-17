@@ -99,6 +99,11 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>Big-O Notation:</strong> Mathematical classification of algorithmic efficiency in terms of time and space scaling with input size n.</div>
 <div class="key-point"><strong>Dijkstra's Algorithm:</strong> Single-source shortest path algorithm on weighted graphs using a priority queue.</div>
+<div class="key-point"><strong>Complexity Classes:</strong> O(1) < O(log n) < O(n) < O(n log n) < O(n²) < O(2ⁿ); binary search is O(log n), merge/quick sort O(n log n), bubble/insertion sort O(n²).</div>
+<div class="key-point"><strong>Linear vs Binary Search:</strong> Linear search checks each item in turn on any list — O(n); binary search needs a sorted list and halves the search space each comparison — O(log n).</div>
+<div class="key-point"><strong>Stacks and Queues:</strong> A stack is LIFO (push/pop) — used for call stacks and depth-first search; a queue is FIFO (enqueue/dequeue) — used for print buffers and breadth-first search.</div>
+<div class="key-point"><strong>Tree Traversals:</strong> Pre-order (root, left, right), in-order (left, root, right — outputs a BST in sorted order), post-order (left, right, root); graphs are traversed by BFS (queue) or DFS (stack/recursion).</div>
+<div class="key-point"><strong>Hash Tables:</strong> Average O(1) lookup by applying a hash function to the key; collisions resolved by chaining or open addressing; a high load factor triggers resizing to keep performance.</div>
 </section>
 
 <section class="section">
@@ -143,6 +148,24 @@
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> Contrast competing perspectives, discuss empirical evidence or theoretical limitations, and synthesize a balanced, well-reasoned conclusion.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> State the time complexity of binary search and explain why the list must be sorted first.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> O(log n): each comparison halves the remaining search interval, so k comparisons can locate a target among 2^k items. The list must be sorted because discarding one half is only valid if the target cannot lie in it — with unsorted data the target could be in the discarded half, so the halving logic breaks down.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> Compare the number of comparisons made by merge sort and bubble sort when sorting a list of 1024 items.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Merge sort ≈ n log₂ n = 1024 × 10 = about 10,240 comparisons. Bubble sort ≈ n²/2 = 1024²/2 ≈ 524,000 comparisons in the worst case — roughly 50 times more. Merge sort's O(n log n) growth means the gap widens rapidly as n increases.</p>
     </div>
   </details>
 </div>

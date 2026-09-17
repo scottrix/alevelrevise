@@ -99,6 +99,10 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>Binomial Distribution:</strong> X ~ B(n, p) for n independent trials with constant success probability p.</div>
 <div class="key-point"><strong>Normal Distribution:</strong> X ~ N(μ, σ²) continuous symmetric distribution standardised via Z = (X - μ)/σ.</div>
+<div class="key-point"><strong>Hypothesis Test:</strong> A procedure comparing a null hypothesis H₀ against an alternative hypothesis H₁ using a test statistic; a significant result provides evidence in favour of H₁.</div>
+<div class="key-point"><strong>Critical Region:</strong> The set of values of the test statistic for which H₀ is rejected; its boundary is the critical value, determined by the significance level α.</div>
+<div class="key-point"><strong>Central Limit Theorem:</strong> For a large random sample of size n from any distribution with mean μ and variance σ², the sample mean X̄ is approximately N(μ, σ²/n).</div>
+<div class="key-point"><strong>Binomial Mean and Variance:</strong> For X ~ B(n, p): E(X) = np and Var(X) = np(1 − p).</div>
 </section>
 
 <section class="section">
@@ -143,6 +147,24 @@ X ~ B(20, 0.5). P(X ≥ 15) = 1 - P(X ≤ 14) = 0.0207.
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> Fixed number of trials n, two outcomes, constant probability p, independent trials.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> X ~ B(10, 0.5). Find P(X ≥ 8).</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> P(X = 8) = ¹⁰C₈(0.5)⁸(0.5)² = 45/1024. P(X = 9) = ¹⁰C₉(0.5)⁹(0.5) = 10/1024. P(X = 10) = (0.5)¹⁰ = 1/1024. So P(X ≥ 8) = (45 + 10 + 1)/1024 = 56/1024 = 0.0547 (3 s.f.).</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> X ~ N(μ, σ²). Given that P(X < 60) = 0.2119 and μ = 70, find the value of σ.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Standardise: Z = (X − μ)/σ = (60 − 70)/σ. From tables, Φ(−0.8) = 0.2119, so (60 − 70)/σ = −0.8. Hence −10 = −0.8σ, giving σ = 12.5.</p>
     </div>
   </details>
 </div>

@@ -120,6 +120,33 @@
 <p><strong>Questions:</strong></p>
 <ul><li>List registers and their purposes<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Draw FDE cycle diagram<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Explain cache hit/miss<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Compare CISC vs RISC<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Calculate speedup: 30 percent serial, 8 cores<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
 </div>
+<div class="question">
+  <p><strong>Q1:</strong> State the purpose of the PC, MAR, MDR and ACC registers in the CPU.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> PC (program counter) holds the address of the next instruction; MAR (memory address register) holds the address of the memory location to be read or written, connecting to the address bus; MDR (memory data register) holds the data just read from or about to be written to memory, connecting to the data bus; ACC (accumulator) holds the results of ALU calculations.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Explain the difference between a cache hit and a cache miss, and why cache improves performance.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Cache hit: the required data is found in cache, so it is fetched quickly without accessing slower RAM. Cache miss: the data is not in cache, so it must be fetched from RAM (slower) and copied into cache for next time. Cache works because of locality of reference — programs tend to reuse recently accessed data and nearby addresses, so a high hit rate cuts average memory access time.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> A program is 30% serial and 70% parallelisable. Using Amdahl's law, calculate the maximum speedup when run on 8 cores.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Speedup = 1/((1 - p) + p/n) = 1/(0.30 + 0.70/8) = 1/(0.30 + 0.0875) = 1/0.3875 ≈ 2.58. The serial portion limits the speedup no matter how many cores are added.</p>
+    </div>
+  </details>
+</div>
 </div>
 </section>
 <section class="section">

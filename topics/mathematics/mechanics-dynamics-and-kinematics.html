@@ -99,6 +99,10 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>Newton's 2nd Law:</strong> Resultant Force ΣF = ma (in Newtons).</div>
 <div class="key-point"><strong>Friction:</strong> F_max = μR where μ is coefficient of friction and R is normal reaction.</div>
+<div class="key-point"><strong>SUVAT Equations:</strong> The five constant-acceleration formulae, e.g. v = u + at, s = ut + ½at², v² = u² + 2as; only valid when acceleration is constant.</div>
+<div class="key-point"><strong>Variable Acceleration:</strong> When acceleration is not constant, use calculus: v = ds/dt, a = dv/dt; conversely s = ∫v dt and v = ∫a dt, using initial conditions for constants of integration.</div>
+<div class="key-point"><strong>Projectile Motion:</strong> Horizontal and vertical motion are independent: horizontal velocity is constant (u cos θ) and vertical acceleration is −g; at maximum height the vertical velocity is zero.</div>
+<div class="key-point"><strong>Newton's 3rd Law:</strong> Forces between two interacting bodies are equal in magnitude, opposite in direction and of the same type; this underpins the tension acting on connected particles.</div>
 </section>
 
 <section class="section">
@@ -144,6 +148,24 @@ Weight down slope = 4(9.8) sin 30° = 19.6 N.
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> 5g - T = 5a, T - 3g = 3a => 2g = 8a => a = 2.45 m/s².</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> A car travelling at 25 m/s brakes uniformly and comes to rest in 50 m. Find the deceleration and the braking time.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Constant acceleration, so use SUVAT. v² = u² + 2as: 0 = 25² + 2a(50) = 625 + 100a, giving a = −6.25 m/s², i.e. deceleration 6.25 m/s². Then v = u + at: 0 = 25 − 6.25t, so t = 4 s.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> A ball is projected from ground level with speed 20 m/s at 30° above the horizontal. Find the maximum height reached (g = 9.8 m/s²).</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Resolve vertically: u_y = 20 sin 30° = 10 m/s. At maximum height the vertical velocity is zero. Using v² = u² + 2as vertically (taking upwards as positive): 0 = 10² − 2(9.8)s, so s = 100/19.6 = 5.10 m (3 s.f.).</p>
     </div>
   </details>
 </div>

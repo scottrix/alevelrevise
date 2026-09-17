@@ -99,6 +99,10 @@
 <h2>📋 Key Definitions and Core Concepts</h2>
 <div class="key-point"><strong>Determinant:</strong> Scalar scale factor for area/volume. det(A) = ad - bc for 2x2.</div>
 <div class="key-point"><strong>Eigenvector:</strong> Non-zero vector v satisfying Av = λv for eigenvalue λ.</div>
+<div class="key-point"><strong>Matrix of a Linear Transformation:</strong> A 2x2 matrix M maps position vectors under a linear transformation; the columns of M are the images of the unit vectors i and j.</div>
+<div class="key-point"><strong>Inverse Matrix:</strong> A⁻¹ reverses the transformation, with A⁻¹ = adj(A)/det(A); it exists only when det(A) ≠ 0 (a singular matrix has no inverse).</div>
+<div class="key-point"><strong>Combined Transformations:</strong> Applying transformation M then N is represented by the matrix product NM — order matters, since NM ≠ MN in general.</div>
+<div class="key-point"><strong>Invariant Points:</strong> Points unchanged by a transformation satisfy Mx = x; every point on the mirror line is invariant under a reflection, and the origin is invariant under any linear transformation.</div>
 </section>
 
 <section class="section">
@@ -142,6 +146,24 @@ Eigenvalues: λ₁ = 2, λ₂ = 5.</pre>
     <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
     <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
       <p><strong>Answer:</strong> Area scale factor is 1, but orientation is reversed (reflection).</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Find the 2x2 matrix representing a rotation of 45&#176; anticlockwise about the origin followed by a reflection in the x-axis, and describe the single transformation this represents.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> Rotation matrix R = [[cos 45&#176;, -sin 45&#176;], [sin 45&#176;, cos 45&#176;]] = [[&#8730;2/2, -&#8730;2/2], [&#8730;2/2, &#8730;2/2]]. Reflection in the x-axis: F = [[1, 0], [0, -1]]. Combined transformation = FR (reflection applied to the rotated image) = [[&#8730;2/2, -&#8730;2/2], [-&#8730;2/2, -&#8730;2/2]]. Comparing with the reflection matrix [[cos 2&#952;, sin 2&#952;], [sin 2&#952;, -cos 2&#952;]]: cos 2&#952; = &#8730;2/2 and sin 2&#952; = &#8730;2/2, so 2&#952; = 45&#176;, i.e. &#952; = 22.5&#176;. The combined transformation is a single reflection in the line y = x tan 22.5&#176;.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q4:</strong> The matrix M = [[2, 0], [0, 3]] represents a transformation of the plane. Describe the transformation and state its area scale factor.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> M maps (1, 0) to (2, 0) and (0, 1) to (0, 3): a stretch with scale factor 2 parallel to the x-axis and scale factor 3 parallel to the y-axis. The area scale factor is det(M) = (2)(3) - (0)(0) = 6, so areas are multiplied by 6.</p>
     </div>
   </details>
 </div>

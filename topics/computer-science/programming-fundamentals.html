@@ -126,6 +126,33 @@
 <p><strong>Questions:</strong></p>
 <ul><li>Write a program that validates email format using regex<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Implement a recursive factorial function<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Create a menu-driven calculator with functions<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Write a function to count word frequencies in a text file<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Handle division by zero with try/except<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
 </div>
+<div class="question">
+  <p><strong>Q1:</strong> Write a recursive function to calculate n! (factorial), and explain the role of the base case.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> def factorial(n): return 1 if n == 0 else n * factorial(n - 1). Base case factorial(0) = 1 stops the recursion; each call reduces n towards it. Without the base case the function never terminates and the call stack overflows (stack overflow error).</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q2:</strong> Write code that safely divides two numbers read from the user, handling division by zero.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> try: result = a / b except ZeroDivisionError: print("Cannot divide by zero"). The except block runs instead of the program crashing; an optional else block runs when no exception occurred, and finally runs regardless for cleanup.</p>
+    </div>
+  </details>
+</div>
+<div class="question">
+  <p><strong>Q3:</strong> Write a function that counts word frequencies in a text file and returns the counts.</p>
+  <details style="margin-top: 0.5rem;">
+    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
+    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
+      <p><strong>Answer:</strong> def word_counts(filename): counts = {}; with open(filename) as f: for line in f: for word in line.split(): counts[word] = counts.get(word, 0) + 1; return counts. The with statement closes the file even on error; dictionary lookup is O(1) average, so the whole pass is O(n) in the number of words.</p>
+    </div>
+  </details>
+</div>
 </div>
 </section>
 <section class="section">
