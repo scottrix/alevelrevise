@@ -1,0 +1,107 @@
+name: Refresh sitemap
+
+# Regenerate sitemap.xml daily with per-URL lastmod derived from each file's
+# last git commit date. Commit + push the result if anything changed, then
+# notify IndexNow so Bing/Yandex/Seznam re-prioritise crawling.
+#
+# Schedule: 03:00 UTC daily (off-peak for UK-based traffic) plus on every
+# push to master (so a content edit triggers immediate re-generation).
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [master, main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # need full history for accurate git lastmod dates
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate sitemap
+        run: python3 sitemap_gen.py
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if [ -n "$(git status --porcelain sitemap.xml sitemap-1.xml 2>/dev/null)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit & push updated sitemap
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add sitemap.xml sitemap-1.xml 2>/dev/null || git add sitemap.xml
+          git commit -m "Auto-refresh sitemap (scheduled daily update) [skip ci]"
+          git push
+
+      - name: Notify IndexNow
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          INDEXNOW_KEY: a07cbf5c3cc787b087a172571cf323c7
+          KEY_LOCATION: https://scottrix.github.io/a07cbf5c3cc787b087a172571cf323c7.txt
+        run: |
+          set -e
+          # Determine this repo's URL prefix
+          REPO="${GITHUB_REPOSITORY##*/}"
+          case "$REPO" in
+            scottrix.github.io) PREFIX="" ;;
+            devtools)           PREFIX="/devtools" ;;
+            fintools)           PREFIX="/fintools" ;;
+            gcserevise)         PREFIX="/gcserevise" ;;
+            alevelrevise)       PREFIX="/alevelrevise" ;;
+            alevellessons)      PREFIX="/alevellessons" ;;
+            *) echo "Unknown repo: $REPO"; exit 1 ;;
+          esac
+          # Submit every URL listed in the fresh sitemap to IndexNow in batches of 10K.
+          # For repos with a single page, we POST that one URL. For gcserevise (~1,254 URLs)
+          # we POST the first 10K (well under the cap). If a future repo exceeds 10K, the
+          # script submit_indexnow.py in the root repo should be used instead.
+          python3 - << 'PYEOF'
+          import json, os, re, urllib.request
+          PREFIX = os.environ['PREFIX']
+          KEY = os.environ['INDEXNOW_KEY']
+          KEY_LOCATION = os.environ['KEY_LOCATION']
+          SITEMAP = 'sitemap.xml' if PREFIX else 'sitemap-1.xml'
+          with open(SITEMAP) as f: text = f.read()
+          cleaned = re.findall(r'<loc>([^<]+)</loc>', text)
+          if not cleaned:
+              print('No URLs found in', SITEMAP)
+              raise SystemExit(0)
+          body = {
+              'host': 'scottrix.github.io',
+              'key': KEY,
+              'keyLocation': KEY_LOCATION,
+              'urlList': cleaned[:10000],
+          }
+          data = json.dumps(body).encode('utf-8')
+          req = urllib.request.Request(
+              'https://api.indexnow.org/IndexNow',
+              data=data,
+              headers={'Content-Type': 'application/json; charset=utf-8'},
+              method='POST',
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=60) as r:
+                  print(f'IndexNow HTTP {r.status} - submitted {len(cleaned)} URLs')
+          except urllib.error.HTTPError as e:
+              print(f'IndexNow HTTP {e.code} - {e.reason}')
+              print(e.read().decode('utf-8', errors='replace')[:300])
+              raise SystemExit(1)
+          PYEOF
