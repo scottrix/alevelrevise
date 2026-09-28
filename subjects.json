@@ -8,7 +8,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -277,7 +277,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -466,7 +466,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -598,7 +598,9 @@
     {
       "name": "English Language",
       "boards": [
-        "General"
+        "AQA",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "english-language",
       "category": "Core",
@@ -622,7 +624,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -812,7 +814,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -1023,7 +1025,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -1242,10 +1244,8 @@
       "category": "Sciences",
       "boards": [
         "AQA",
-        "Edexcel",
         "OCR",
-        "WJEC",
-        "CCEA"
+        "WJEC/Eduqas"
       ],
       "topics": [
         {
@@ -1429,9 +1429,7 @@
       "boards": [
         "AQA",
         "Edexcel",
-        "OCR",
-        "WJEC",
-        "CCEA"
+        "OCR"
       ],
       "topics": [
         {
@@ -1585,9 +1583,7 @@
       "boards": [
         "AQA",
         "Edexcel",
-        "OCR",
-        "WJEC",
-        "CCEA"
+        "OCR"
       ],
       "topics": [
         {
@@ -1749,7 +1745,9 @@
     {
       "name": "Sociology",
       "boards": [
-        "General"
+        "AQA",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "sociology",
       "category": "Social Sciences",
@@ -1773,8 +1771,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
-        "CCEA"
+        "WJEC/Eduqas"
       ],
       "topics": [
         {
@@ -1942,7 +1939,8 @@
     {
       "name": "Politics",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel"
       ],
       "id": "politics",
       "category": "Social Sciences",
@@ -1961,7 +1959,9 @@
     {
       "name": "Law",
       "boards": [
-        "General"
+        "AQA",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "law",
       "category": "Social Sciences",
@@ -1985,7 +1985,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -2117,7 +2117,7 @@
         "AQA",
         "Edexcel",
         "OCR",
-        "WJEC",
+        "WJEC/Eduqas",
         "CCEA"
       ],
       "topics": [
@@ -2251,7 +2251,10 @@
     {
       "name": "Religious Studies",
       "boards": [
-        "General"
+        "AQA",
+        "OCR",
+        "WJEC/Eduqas",
+        "CCEA"
       ],
       "id": "religious-studies",
       "category": "Humanities",
@@ -2270,7 +2273,7 @@
     {
       "name": "Philosophy",
       "boards": [
-        "General"
+        "AQA"
       ],
       "id": "philosophy",
       "category": "Humanities",
@@ -2289,7 +2292,10 @@
     {
       "name": "French",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel",
+        "WJEC/Eduqas",
+        "CCEA"
       ],
       "id": "french",
       "category": "Languages",
@@ -2308,7 +2314,10 @@
     {
       "name": "Spanish",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel",
+        "WJEC/Eduqas",
+        "CCEA"
       ],
       "id": "spanish",
       "category": "Languages",
@@ -2327,7 +2336,10 @@
     {
       "name": "German",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel",
+        "WJEC/Eduqas",
+        "CCEA"
       ],
       "id": "german",
       "category": "Languages",
@@ -2346,7 +2358,8 @@
     {
       "name": "Latin",
       "boards": [
-        "General"
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "latin",
       "category": "Languages",
@@ -2365,7 +2378,10 @@
     {
       "name": "Art and Design",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "art-and-design",
       "category": "Creative & Physical",
@@ -2384,7 +2400,9 @@
     {
       "name": "Music",
       "boards": [
-        "General"
+        "Edexcel",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "music",
       "category": "Creative & Physical",
@@ -2403,7 +2421,10 @@
     {
       "name": "Drama and Theatre",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "drama-and-theatre",
       "category": "Creative & Physical",
@@ -2422,7 +2443,8 @@
     {
       "name": "Media Studies",
       "boards": [
-        "General"
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "media-studies",
       "category": "Creative & Physical",
@@ -2441,7 +2463,10 @@
     {
       "name": "Physical Education",
       "boards": [
-        "General"
+        "AQA",
+        "Edexcel",
+        "OCR",
+        "WJEC/Eduqas"
       ],
       "id": "physical-education",
       "category": "Creative & Physical",
@@ -2460,7 +2485,7 @@
     {
       "name": "Accounting",
       "boards": [
-        "General"
+        "AQA"
       ],
       "id": "accounting",
       "category": "Other",
@@ -2473,6 +2498,232 @@
           "modelAnswer": "",
           "practiceQuestions": [],
           "page": "topics/accounting/financial-statements-ratio-analysis-and-costing.html"
+        }
+      ]
+    },
+    {
+      "name": "Ancient History",
+      "id": "ancient-history",
+      "category": "Humanities",
+      "boards": [
+        "OCR"
+      ],
+      "topics": [
+        {
+          "title": "Persia and the Greek World",
+          "page": "topics/ancient-history/persia-and-the-greek-world.html"
+        },
+        {
+          "title": "Athens in the Age of Pericles",
+          "page": "topics/ancient-history/athens-in-the-age-of-pericles.html"
+        },
+        {
+          "title": "Sparta",
+          "page": "topics/ancient-history/sparta.html"
+        },
+        {
+          "title": "Alexander the Great",
+          "page": "topics/ancient-history/alexander-the-great.html"
+        },
+        {
+          "title": "The Late Republic",
+          "page": "topics/ancient-history/the-late-republic.html"
+        },
+        {
+          "title": "Julio-Claudian Rome",
+          "page": "topics/ancient-history/julio-claudian-rome.html"
+        }
+      ]
+    },
+    {
+      "name": "Classical Civilisation",
+      "id": "classical-civilisation",
+      "category": "Humanities",
+      "boards": [
+        "OCR"
+      ],
+      "topics": [
+        {
+          "title": "The World of the Hero",
+          "page": "topics/classical-civilisation/the-world-of-the-hero.html"
+        },
+        {
+          "title": "Greek Theatre",
+          "page": "topics/classical-civilisation/greek-theatre.html"
+        },
+        {
+          "title": "Imperial Image",
+          "page": "topics/classical-civilisation/imperial-image.html"
+        },
+        {
+          "title": "Greek Religion",
+          "page": "topics/classical-civilisation/greek-religion.html"
+        },
+        {
+          "title": "Greek Art",
+          "page": "topics/classical-civilisation/greek-art.html"
+        },
+        {
+          "title": "Love and Relationships",
+          "page": "topics/classical-civilisation/love-and-relationships.html"
+        }
+      ]
+    },
+    {
+      "name": "Geology",
+      "id": "geology",
+      "category": "Sciences",
+      "boards": [
+        "WJEC/Eduqas"
+      ],
+      "topics": [
+        {
+          "title": "Earth Structure and Plate Tectonics",
+          "page": "topics/geology/earth-structure-and-plate-tectonics.html"
+        },
+        {
+          "title": "Rock Forming Processes",
+          "page": "topics/geology/rock-forming-processes.html"
+        },
+        {
+          "title": "Geological Time and Stratigraphy",
+          "page": "topics/geology/geological-time-and-stratigraphy.html"
+        },
+        {
+          "title": "Geological Mapwork",
+          "page": "topics/geology/geological-mapwork.html"
+        },
+        {
+          "title": "Geological Hazards",
+          "page": "topics/geology/geological-hazards.html"
+        },
+        {
+          "title": "Geological Resources",
+          "page": "topics/geology/geological-resources.html"
+        }
+      ]
+    },
+    {
+      "name": "Statistics",
+      "id": "statistics",
+      "category": "Core",
+      "boards": [
+        "Edexcel"
+      ],
+      "topics": [
+        {
+          "title": "Sampling and Data",
+          "page": "topics/statistics/sampling-and-data.html"
+        },
+        {
+          "title": "Probability",
+          "page": "topics/statistics/probability.html"
+        },
+        {
+          "title": "Probability Distributions",
+          "page": "topics/statistics/probability-distributions.html"
+        },
+        {
+          "title": "Correlation and Regression",
+          "page": "topics/statistics/correlation-and-regression.html"
+        },
+        {
+          "title": "Hypothesis Testing",
+          "page": "topics/statistics/hypothesis-testing.html"
+        },
+        {
+          "title": "Time Series",
+          "page": "topics/statistics/time-series.html"
+        }
+      ]
+    },
+    {
+      "name": "Film Studies",
+      "id": "film-studies",
+      "category": "Creative & Physical",
+      "boards": [
+        "WJEC/Eduqas"
+      ],
+      "topics": [
+        {
+          "title": "Film Language and Meaning",
+          "page": "topics/film-studies/film-language-and-meaning.html"
+        },
+        {
+          "title": "Hollywood: Classical and New",
+          "page": "topics/film-studies/hollywood-classical-and-new.html"
+        },
+        {
+          "title": "British Film",
+          "page": "topics/film-studies/british-film.html"
+        },
+        {
+          "title": "Global Film",
+          "page": "topics/film-studies/global-film.html"
+        },
+        {
+          "title": "Documentary Film",
+          "page": "topics/film-studies/documentary-film.html"
+        },
+        {
+          "title": "Filmmaking and Screenwriting (NEA)",
+          "page": "topics/film-studies/filmmaking-and-screenwriting.html"
+        }
+      ]
+    },
+    {
+      "name": "Dance",
+      "id": "dance",
+      "category": "Creative & Physical",
+      "boards": [
+        "AQA"
+      ],
+      "topics": [
+        {
+          "title": "Choreography",
+          "page": "topics/dance/choreography.html"
+        },
+        {
+          "title": "Performance",
+          "page": "topics/dance/performance.html"
+        },
+        {
+          "title": "Dance Appreciation",
+          "page": "topics/dance/dance-appreciation.html"
+        },
+        {
+          "title": "Set Works and Anthology",
+          "page": "topics/dance/set-works-and-anthology.html"
+        }
+      ]
+    },
+    {
+      "name": "Design and Technology",
+      "id": "design-and-technology",
+      "category": "Creative & Physical",
+      "boards": [
+        "AQA"
+      ],
+      "topics": [
+        {
+          "title": "Materials and Performance",
+          "page": "topics/design-and-technology/materials-and-performance.html"
+        },
+        {
+          "title": "Designing and Making Principles",
+          "page": "topics/design-and-technology/designing-and-making-principles.html"
+        },
+        {
+          "title": "Digital Design and Manufacture",
+          "page": "topics/design-and-technology/digital-design-and-manufacture.html"
+        },
+        {
+          "title": "Design in Society",
+          "page": "topics/design-and-technology/design-in-society.html"
+        },
+        {
+          "title": "Non-Exam Assessment (NEA) Portfolio",
+          "page": "topics/design-and-technology/nea-portfolio.html"
         }
       ]
     }
