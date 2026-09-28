@@ -603,7 +603,7 @@ function initTopicTargetTests() {
     if (tests.length > 0) {
       renderer.render();
     } else {
-      container.innerHTML = '<p class="target-empty">Target tests coming soon for this topic.</p>';
+      var sec=container.closest(".section,section"); if(sec) sec.style.display="none"; else container.innerHTML='<p class="target-empty">Target tests coming soon for this topic.</p>';
     }
   });
 }

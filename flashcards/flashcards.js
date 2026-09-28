@@ -490,7 +490,7 @@ function initTopicFlashcards() {
     if (cards.length > 0) {
       renderer.render();
     } else {
-      container.innerHTML = '<p class="flashcard-empty">Flashcards coming soon for this topic.</p>';
+      var sec=container.closest(".section,section"); if(sec) sec.style.display="none"; else container.innerHTML='<p class="flashcard-empty">Flashcards coming soon for this topic.</p>';
     }
   });
 }

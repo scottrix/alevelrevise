@@ -132,7 +132,7 @@ function initTopicLessons() {
   if (!info) return;
   var url = '/alevelrevise/smart-lessons/' + info.subject + '-' + info.topic + '.json';
   var renderer = new SmartLessonRenderer('#smart-lesson-container');
-  renderer.loadLesson(url, info).then(function() { renderer.render(); });
+  renderer.loadLesson(url, info).then(function() { renderer.render(); }).catch(function() { var sec=container.closest(".section,section"); if(sec) sec.style.display="none";  });
 }
 
 document.addEventListener('DOMContentLoaded', initTopicLessons);
