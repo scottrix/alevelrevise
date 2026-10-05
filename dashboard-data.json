@@ -1,1 +1,939 @@
-{"topics":{"la-societe-francaise-immigration-et-culture":{"u":"topics/french/la-societe-francaise-immigration-et-culture.html","t":"La Société Française, Immigration et Culture","s":"French"},"financial-statements-ratio-analysis-and-costing":{"u":"topics/accounting/financial-statements-ratio-analysis-and-costing.html","t":"Financial Statements, Ratio Analysis and Costing","s":"Accounting"},"biomechanics-exercise-physiology-and-sports-psychology":{"u":"topics/physical-education/biomechanics-exercise-physiology-and-sports-psychology.html","t":"Biomechanics, Exercise Physiology and Sports Psychology","s":"Physical Education"},"language-diversity-sociolects-and-child-acquisition":{"u":"topics/english-language/language-diversity-sociolects-and-child-acquisition.html","t":"Language Diversity, Sociolects and Child Acquisition","s":"English Language"},"epistemology-moral-philosophy-and-metaphysics-of-mind":{"u":"topics/philosophy/epistemology-moral-philosophy-and-metaphysics-of-mind.html","t":"Epistemology, Moral Philosophy and Metaphysics of Mind","s":"Philosophy"},"people-and-leadership":{"u":"topics/business-studies/people-and-leadership.html","t":"People and Leadership","s":"Business Studies"},"marketing":{"u":"topics/business-studies/marketing.html","t":"Marketing","s":"Business Studies"},"operations-management":{"u":"topics/business-studies/operations-management.html","t":"Operations Management","s":"Business Studies"},"finance-and-accounts":{"u":"topics/business-studies/finance-and-accounts.html","t":"Finance and Accounts","s":"Business Studies"},"strategy-and-the-external-environment":{"u":"topics/business-studies/strategy-and-the-external-environment.html","t":"Strategy and the External Environment","s":"Business Studies"},"strategic-management-financial-analysis-and-marketing":{"u":"topics/business-studies/strategic-management-financial-analysis-and-marketing.html","t":"Strategic Management, Financial Analysis and Marketing","s":"Business Studies"},"gesellschaft-im-wandel-und-deutsche-geschichte":{"u":"topics/german/gesellschaft-im-wandel-und-deutsche-geschichte.html","t":"Gesellschaft im Wandel und Deutsche Geschichte","s":"German"},"themed-study-key-eras":{"u":"topics/history/themed-study:-key-eras.html","t":"Themed Study: Key Eras","s":"History"},"depth-study-a-period-in-detail":{"u":"topics/history/depth-study:-a-period-in-detail.html","t":"Depth Study: a Period in Detail","s":"History"},"interpretation-and-sources":{"u":"topics/history/interpretation-and-sources.html","t":"Interpretation and Sources","s":"History"},"revolutions-authoritarianism-and-historical-historiography":{"u":"topics/history/revolutions-authoritarianism-and-historical-historiography.html","t":"Revolutions, Authoritarianism and Historical Historiography","s":"History"},"historical-enquiry-and-essay-skills":{"u":"topics/history/historical-enquiry-and-essay-skills.html","t":"Historical Enquiry and Essay Skills","s":"History"},"philosophy-of-religion-ethical-theories-and-theology":{"u":"topics/religious-studies/philosophy-of-religion-ethical-theories-and-theology.html","t":"Philosophy of Religion, Ethical Theories and Theology","s":"Religious Studies"},"algebraic-expressions":{"u":"topics/mathematics/algebraic-expressions.html","t":"Algebraic Expressions","s":"Mathematics"},"statistical-distributions-and-hypothesis-testing":{"u":"topics/mathematics/statistical-distributions-and-hypothesis-testing.html","t":"Statistical Distributions and Hypothesis Testing","s":"Mathematics"},"differentiation":{"u":"topics/mathematics/differentiation.html","t":"Differentiation","s":"Mathematics"},"integration":{"u":"topics/mathematics/integration.html","t":"Integration","s":"Mathematics"},"calculus-differentiation-and-integration":{"u":"topics/mathematics/calculus-differentiation-and-integration.html","t":"Calculus: Differentiation and Integration","s":"Mathematics"},"mechanics-dynamics-and-kinematics":{"u":"topics/mathematics/mechanics-dynamics-and-kinematics.html","t":"Mechanics: Dynamics and Kinematics","s":"Mathematics"},"trigonometry":{"u":"topics/mathematics/trigonometry.html","t":"Trigonometry","s":"Mathematics"},"coordinate-geometry":{"u":"topics/mathematics/coordinate-geometry.html","t":"Coordinate Geometry","s":"Mathematics"},"coordinate-geometry-and-circles":{"u":"topics/mathematics/coordinate-geometry-and-circles.html","t":"Coordinate Geometry and Circles","s":"Mathematics"},"algebraic-methods-and-proof":{"u":"topics/mathematics/algebraic-methods-and-proof.html","t":"Algebraic Methods and Proof","s":"Mathematics"},"quadratic-equations":{"u":"topics/mathematics/quadratic-equations.html","t":"Quadratic Equations","s":"Mathematics"},"western-classical-harmony-sonata-form-and-score-analysis":{"u":"topics/music/western-classical-harmony-sonata-form-and-score-analysis.html","t":"Western Classical Harmony, Sonata Form and Score Analysis","s":"Music"},"organic-chemistry":{"u":"topics/chemistry/organic-chemistry.html","t":"Organic Chemistry","s":"Chemistry"},"atomic-structure-and-bonding":{"u":"topics/chemistry/atomic-structure-and-bonding.html","t":"Atomic Structure and Bonding","s":"Chemistry"},"redox-and-electrochemistry":{"u":"topics/chemistry/redox-and-electrochemistry.html","t":"Redox and Electrochemistry","s":"Chemistry"},"organic-synthesis-and-spectroscopic-analysis":{"u":"topics/chemistry/organic-synthesis-and-spectroscopic-analysis.html","t":"Organic Synthesis and Spectroscopic Analysis","s":"Chemistry"},"kinetics-and-equilibria":{"u":"topics/chemistry/kinetics-and-equilibria.html","t":"Kinetics and Equilibria","s":"Chemistry"},"thermodynamics-and-born-haber-cycles":{"u":"topics/chemistry/thermodynamics-and-born-haber-cycles.html","t":"Thermodynamics and Born-Haber Cycles","s":"Chemistry"},"energetics":{"u":"topics/chemistry/energetics.html","t":"Energetics","s":"Chemistry"},"aromatic-chemistry-and-reaction-mechanisms":{"u":"topics/chemistry/aromatic-chemistry-and-reaction-mechanisms.html","t":"Aromatic Chemistry and Reaction Mechanisms","s":"Chemistry"},"equilibria-kp-ph-and-buffer-solutions":{"u":"topics/chemistry/equilibria-kp-ph-and-buffer-solutions.html","t":"Equilibria, Kp, pH and Buffer Solutions","s":"Chemistry"},"uk-and-us-government-constitutions-and-ideologies":{"u":"topics/politics/uk-and-us-government-constitutions-and-ideologies.html","t":"UK and US Government, Constitutions and Ideologies","s":"Politics"},"media-language-representation-industries-and-audiences":{"u":"topics/media-studies/media-language-representation-industries-and-audiences.html","t":"Media Language, Representation, Industries and Audiences","s":"Media Studies"},"the-english-legal-system-criminal-and-tort-law":{"u":"topics/law/the-english-legal-system-criminal-and-tort-law.html","t":"The English Legal System, Criminal and Tort Law","s":"Law"},"thermal-physics":{"u":"topics/physics/thermal-physics.html","t":"Thermal Physics","s":"Physics"},"electricity-and-circuits":{"u":"topics/physics/electricity-and-circuits.html","t":"Electricity and Circuits","s":"Physics"},"waves-optics-and-superposition":{"u":"topics/physics/waves-optics-and-superposition.html","t":"Waves, Optics and Superposition","s":"Physics"},"mechanics-and-motion":{"u":"topics/physics/mechanics-and-motion.html","t":"Mechanics and Motion","s":"Physics"},"particle-physics-and-quantum-phenomena":{"u":"topics/physics/particle-physics-and-quantum-phenomena.html","t":"Particle Physics and Quantum Phenomena","s":"Physics"},"waves":{"u":"topics/physics/waves.html","t":"Waves","s":"Physics"},"gravitational-electric-and-magnetic-fields":{"u":"topics/physics/gravitational-electric-and-magnetic-fields.html","t":"Gravitational, Electric and Magnetic Fields","s":"Physics"},"particles-and-quantum-physics":{"u":"topics/physics/particles-and-quantum-physics.html","t":"Particles and Quantum Physics","s":"Physics"},"nuclear-physics-radioactivity-and-thermal-physics":{"u":"topics/physics/nuclear-physics-radioactivity-and-thermal-physics.html","t":"Nuclear Physics, Radioactivity and Thermal Physics","s":"Physics"},"international-trade-and-development":{"u":"topics/economics/international-trade-and-development.html","t":"International Trade and Development","s":"Economics"},"market-failure-and-government-intervention":{"u":"topics/economics/market-failure-and-government-intervention.html","t":"Market Failure and Government Intervention","s":"Economics"},"macroeconomic-policy-inflation-and-globalisation":{"u":"topics/economics/macroeconomic-policy-inflation-and-globalisation.html","t":"Macroeconomic Policy, Inflation and Globalisation","s":"Economics"},"macroeconomics":{"u":"topics/economics/macroeconomics.html","t":"Macroeconomics","s":"Economics"},"market-mechanisms-elasticity-and-market-failure":{"u":"topics/economics/market-mechanisms-elasticity-and-market-failure.html","t":"Market Mechanisms, Elasticity and Market Failure","s":"Economics"},"microeconomics-and-markets":{"u":"topics/economics/microeconomics-and-markets.html","t":"Microeconomics and Markets","s":"Economics"},"prose-and-the-novel":{"u":"topics/english-literature/prose-and-the-novel.html","t":"Prose and the Novel","s":"English Literature"},"shakespeare-poetry-traditions-and-comparative-criticism":{"u":"topics/english-literature/shakespeare-poetry-traditions-and-comparative-criticism.html","t":"Shakespeare, Poetry Traditions and Comparative Criticism","s":"English Literature"},"critical-writing-and-context":{"u":"topics/english-literature/critical-writing-and-context.html","t":"Critical Writing and Context","s":"English Literature"},"drama-and-shakespeare":{"u":"topics/english-literature/drama-and-shakespeare.html","t":"Drama and Shakespeare","s":"English Literature"},"poetry-analysis":{"u":"topics/english-literature/poetry-analysis.html","t":"Poetry Analysis","s":"English Literature"},"theatre-practitioners-devising-and-textual-interpretation":{"u":"topics/drama-and-theatre/theatre-practitioners-devising-and-textual-interpretation.html","t":"Theatre Practitioners, Devising and Textual Interpretation","s":"Drama And Theatre"},"biochemistry-and-respiration":{"u":"topics/biology/biochemistry-and-respiration.html","t":"Biochemistry and Respiration","s":"Biology"},"cell-structure-transport-and-immunology":{"u":"topics/biology/cell-structure-transport-and-immunology.html","t":"Cell Structure, Transport and Immunology","s":"Biology"},"genetics-gene-expression-and-recombinant-dna":{"u":"topics/biology/genetics-gene-expression-and-recombinant-dna.html","t":"Genetics, Gene Expression and Recombinant DNA","s":"Biology"},"genetics-and-inheritance":{"u":"topics/biology/genetics-and-inheritance.html","t":"Genetics and Inheritance","s":"Biology"},"ecology-and-ecosystems":{"u":"topics/biology/ecology-and-ecosystems.html","t":"Ecology and Ecosystems","s":"Biology"},"biological-molecules-and-enzyme-kinetics":{"u":"topics/biology/biological-molecules-and-enzyme-kinetics.html","t":"Biological Molecules and Enzyme Kinetics","s":"Biology"},"homeostasis-and-the-nervous-system":{"u":"topics/biology/homeostasis-and-the-nervous-system.html","t":"Homeostasis and the Nervous System","s":"Biology"},"respiration-photosynthesis-and-bioenergetics":{"u":"topics/biology/respiration-photosynthesis-and-bioenergetics.html","t":"Respiration, Photosynthesis and Bioenergetics","s":"Biology"},"cell-structure-and-function":{"u":"topics/biology/cell-structure-and-function.html","t":"Cell Structure and Function","s":"Biology"},"critical-context-material-exploration-and-creative-synthesis":{"u":"topics/art-and-design/critical-context-material-exploration-and-creative-synthesis.html","t":"Critical Context, Material Exploration and Creative Synthesis","s":"Art And Design"},"sociedad-hispanica-tradiciones-y-movimientos-sociales":{"u":"topics/spanish/sociedad-hispanica-tradiciones-y-movimientos-sociales.html","t":"Sociedad Hispánica, Tradiciones y Movimientos Sociales","s":"Spanish"},"physical-geography":{"u":"topics/geography/physical-geography.html","t":"Physical Geography","s":"Geography"},"fieldwork-and-data-collection":{"u":"topics/geography/fieldwork-and-data-collection.html","t":"Fieldwork and Data Collection","s":"Geography"},"water-and-carbon-cycles-hazards-and-global-governance":{"u":"topics/geography/water-and-carbon-cycles-hazards-and-global-governance.html","t":"Water and Carbon Cycles, Hazards and Global Governance","s":"Geography"},"hazards-and-global-issues":{"u":"topics/geography/hazards-and-global-issues.html","t":"Hazards and Global Issues","s":"Geography"},"human-geography":{"u":"topics/geography/human-geography.html","t":"Human Geography","s":"Geography"},"sociological-theories-education-and-crime":{"u":"topics/sociology/sociological-theories-education-and-crime.html","t":"Sociological Theories, Education and Crime","s":"Sociology"},"matrices":{"u":"topics/further-mathematics/matrices.html","t":"Matrices","s":"Further Mathematics"},"hyperbolic-functions":{"u":"topics/further-mathematics/hyperbolic-functions.html","t":"Hyperbolic Functions","s":"Further Mathematics"},"complex-numbers-and-de-moivres-theorem":{"u":"topics/further-mathematics/complex-numbers-and-de-moivres-theorem.html","t":"Complex Numbers and De Moivre's Theorem","s":"Further Mathematics"},"matrices-and-linear-transformations":{"u":"topics/further-mathematics/matrices-and-linear-transformations.html","t":"Matrices and Linear Transformations","s":"Further Mathematics"},"polar-coordinates":{"u":"topics/further-mathematics/polar-coordinates.html","t":"Polar Coordinates","s":"Further Mathematics"},"complex-numbers":{"u":"topics/further-mathematics/complex-numbers.html","t":"Complex Numbers","s":"Further Mathematics"},"vectors":{"u":"topics/further-mathematics/vectors.html","t":"Vectors","s":"Further Mathematics"},"advanced-latin-syntax-cicero-and-virgil":{"u":"topics/latin/advanced-latin-syntax-cicero-and-virgil.html","t":"Advanced Latin Syntax, Cicero and Virgil","s":"Latin"},"processor-architecture-and-operating-systems":{"u":"topics/computer-science/processor-architecture-and-operating-systems.html","t":"Processor Architecture and Operating Systems","s":"Computer Science"},"programming-fundamentals":{"u":"topics/computer-science/programming-fundamentals.html","t":"Programming Fundamentals","s":"Computer Science"},"data-structures-and-algorithms":{"u":"topics/computer-science/data-structures-and-algorithms.html","t":"Data Structures and Algorithms","s":"Computer Science"},"data-structures-algorithms-and-complexity":{"u":"topics/computer-science/data-structures-algorithms-and-complexity.html","t":"Data Structures, Algorithms and Complexity","s":"Computer Science"},"boolean-logic-and-relational-databases":{"u":"topics/computer-science/boolean-logic-and-relational-databases.html","t":"Boolean Logic and Relational Databases","s":"Computer Science"},"networks-and-internet":{"u":"topics/computer-science/networks-and-internet.html","t":"Networks and Internet","s":"Computer Science"},"computer-systems-and-architecture":{"u":"topics/computer-science/computer-systems-and-architecture.html","t":"Computer Systems and Architecture","s":"Computer Science"},"social-influence-and-attachment":{"u":"topics/psychology/social-influence-and-attachment.html","t":"Social Influence and Attachment","s":"Psychology"},"social-influence-and-memory-models":{"u":"topics/psychology/social-influence-and-memory-models.html","t":"Social Influence and Memory Models","s":"Psychology"},"psychopathology":{"u":"topics/psychology/psychopathology.html","t":"Psychopathology","s":"Psychology"},"research-methods":{"u":"topics/psychology/research-methods.html","t":"Research Methods","s":"Psychology"},"approaches-and-perspectives":{"u":"topics/psychology/approaches-and-perspectives.html","t":"Approaches and Perspectives","s":"Psychology"},"memory-and-cognitive-psychology":{"u":"topics/psychology/memory-and-cognitive-psychology.html","t":"Memory and Cognitive Psychology","s":"Psychology"}}}
+{
+ "topics": {
+  "mathematics-algebraic-expressions": {
+   "u": "topics/mathematics/algebraic-expressions.html",
+   "t": "Algebraic Expressions",
+   "s": "Mathematics"
+  },
+  "mathematics-quadratic-equations": {
+   "u": "topics/mathematics/quadratic-equations.html",
+   "t": "Quadratic Equations",
+   "s": "Mathematics"
+  },
+  "mathematics-coordinate-geometry": {
+   "u": "topics/mathematics/coordinate-geometry.html",
+   "t": "Coordinate Geometry",
+   "s": "Mathematics"
+  },
+  "mathematics-trigonometry": {
+   "u": "topics/mathematics/trigonometry.html",
+   "t": "Trigonometry",
+   "s": "Mathematics"
+  },
+  "mathematics-differentiation": {
+   "u": "topics/mathematics/differentiation.html",
+   "t": "Differentiation",
+   "s": "Mathematics"
+  },
+  "mathematics-integration": {
+   "u": "topics/mathematics/integration.html",
+   "t": "Integration",
+   "s": "Mathematics"
+  },
+  "mathematics-vectors": {
+   "u": "topics/mathematics/vectors.html",
+   "t": "Vectors",
+   "s": "Mathematics"
+  },
+  "mathematics-algebraic-methods-and-proof": {
+   "u": "topics/mathematics/algebraic-methods-and-proof.html",
+   "t": "Algebraic Methods and Proof",
+   "s": "Mathematics"
+  },
+  "mathematics-probability-distributions": {
+   "u": "topics/mathematics/probability-distributions.html",
+   "t": "Probability and Distributions",
+   "s": "Mathematics"
+  },
+  "mathematics-statistics-data": {
+   "u": "topics/mathematics/statistics-data.html",
+   "t": "The Large Data Set",
+   "s": "Mathematics"
+  },
+  "mathematics-mechanics-dynamics-and-kinematics": {
+   "u": "topics/mathematics/mechanics-dynamics-and-kinematics.html",
+   "t": "Mechanics: Dynamics and Kinematics",
+   "s": "Mathematics"
+  },
+  "further-mathematics-complex-numbers": {
+   "u": "topics/further-mathematics/complex-numbers.html",
+   "t": "Complex Numbers",
+   "s": "Further Mathematics"
+  },
+  "further-mathematics-matrices": {
+   "u": "topics/further-mathematics/matrices.html",
+   "t": "Matrices",
+   "s": "Further Mathematics"
+  },
+  "further-mathematics-vectors": {
+   "u": "topics/further-mathematics/vectors.html",
+   "t": "Vectors",
+   "s": "Further Mathematics"
+  },
+  "further-mathematics-polar-coordinates": {
+   "u": "topics/further-mathematics/polar-coordinates.html",
+   "t": "Polar Coordinates",
+   "s": "Further Mathematics"
+  },
+  "further-mathematics-hyperbolic-functions": {
+   "u": "topics/further-mathematics/hyperbolic-functions.html",
+   "t": "Hyperbolic Functions",
+   "s": "Further Mathematics"
+  },
+  "further-mathematics-complex-numbers-and-de-moivres-theorem": {
+   "u": "topics/further-mathematics/complex-numbers-and-de-moivres-theorem.html",
+   "t": "Complex Numbers and De Moivre's Theorem",
+   "s": "Further Mathematics"
+  },
+  "further-mathematics-matrices-and-linear-transformations": {
+   "u": "topics/further-mathematics/matrices-and-linear-transformations.html",
+   "t": "Matrices and Linear Transformations",
+   "s": "Further Mathematics"
+  },
+  "english-literature-poetry-analysis": {
+   "u": "topics/english-literature/poetry-analysis.html",
+   "t": "Poetry Analysis",
+   "s": "English Literature"
+  },
+  "english-literature-prose-and-the-novel": {
+   "u": "topics/english-literature/prose-and-the-novel.html",
+   "t": "Prose and the Novel",
+   "s": "English Literature"
+  },
+  "english-literature-drama-and-shakespeare": {
+   "u": "topics/english-literature/drama-and-shakespeare.html",
+   "t": "Drama and Shakespeare",
+   "s": "English Literature"
+  },
+  "english-literature-critical-writing-and-context": {
+   "u": "topics/english-literature/critical-writing-and-context.html",
+   "t": "Critical Writing and Context",
+   "s": "English Literature"
+  },
+  "english-literature-shakespeare-poetry-traditions-and-comparative-criticism": {
+   "u": "topics/english-literature/shakespeare-poetry-traditions-and-comparative-criticism.html",
+   "t": "Shakespeare, Poetry Traditions and Comparative Criticism",
+   "s": "English Literature"
+  },
+  "english-language-textual-variations": {
+   "u": "topics/english-language/textual-variations.html",
+   "t": "Textual Variations and Representations",
+   "s": "English Language"
+  },
+  "english-language-language-frameworks": {
+   "u": "topics/english-language/language-frameworks.html",
+   "t": "Language Frameworks and Methods",
+   "s": "English Language"
+  },
+  "english-language-language-and-gender": {
+   "u": "topics/english-language/language-and-gender.html",
+   "t": "Language and Gender",
+   "s": "English Language"
+  },
+  "english-language-language-and-power": {
+   "u": "topics/english-language/language-and-power.html",
+   "t": "Language and Power and Technology",
+   "s": "English Language"
+  },
+  "english-language-child-language-acquisition": {
+   "u": "topics/english-language/child-language-acquisition.html",
+   "t": "Child Language Acquisition",
+   "s": "English Language"
+  },
+  "english-language-language-change": {
+   "u": "topics/english-language/language-change.html",
+   "t": "Language Change",
+   "s": "English Language"
+  },
+  "english-language-language-discourses": {
+   "u": "topics/english-language/language-discourses.html",
+   "t": "Language Discourses",
+   "s": "English Language"
+  },
+  "english-language-language-investigation-nea": {
+   "u": "topics/english-language/language-investigation-nea.html",
+   "t": "Language Investigation and Original Writing (NEA)",
+   "s": "English Language"
+  },
+  "biology-cell-structure": {
+   "u": "topics/biology/cell-structure.html",
+   "t": "Cell Structure",
+   "s": "Biology"
+  },
+  "biology-biochemistry-and-respiration": {
+   "u": "topics/biology/biochemistry-and-respiration.html",
+   "t": "Biological Molecules and Respiration",
+   "s": "Biology"
+  },
+  "biology-exchange-and-transport": {
+   "u": "topics/biology/exchange-and-transport.html",
+   "t": "Exchange and Transport",
+   "s": "Biology"
+  },
+  "biology-dna-and-protein-synthesis": {
+   "u": "topics/biology/dna-and-protein-synthesis.html",
+   "t": "DNA, Genes and Protein Synthesis",
+   "s": "Biology"
+  },
+  "biology-gene-expression": {
+   "u": "topics/biology/gene-expression.html",
+   "t": "Gene Expression and Technology",
+   "s": "Biology"
+  },
+  "biology-immunity": {
+   "u": "topics/biology/immunity.html",
+   "t": "Immunity",
+   "s": "Biology"
+  },
+  "biology-photosynthesis": {
+   "u": "topics/biology/photosynthesis.html",
+   "t": "Photosynthesis",
+   "s": "Biology"
+  },
+  "biology-homeostasis": {
+   "u": "topics/biology/homeostasis.html",
+   "t": "Homeostasis and Nervous System",
+   "s": "Biology"
+  },
+  "biology-ecology-and-ecosystems": {
+   "u": "topics/biology/ecology-and-ecosystems.html",
+   "t": "Ecology and Ecosystems",
+   "s": "Biology"
+  },
+  "chemistry-atomic-structure": {
+   "u": "topics/chemistry/atomic-structure.html",
+   "t": "Atomic Structure and the Periodic Table",
+   "s": "Chemistry"
+  },
+  "chemistry-bonding": {
+   "u": "topics/chemistry/bonding.html",
+   "t": "Bonding and Structure",
+   "s": "Chemistry"
+  },
+  "chemistry-energetics": {
+   "u": "topics/chemistry/energetics.html",
+   "t": "Energetics and Kinetics",
+   "s": "Chemistry"
+  },
+  "chemistry-equilibria": {
+   "u": "topics/chemistry/equilibria.html",
+   "t": "Equilibria and Redox",
+   "s": "Chemistry"
+  },
+  "chemistry-acids-bases": {
+   "u": "topics/chemistry/acids-bases.html",
+   "t": "Acids, Bases and Buffers",
+   "s": "Chemistry"
+  },
+  "chemistry-periodicity": {
+   "u": "topics/chemistry/periodicity.html",
+   "t": "Periodicity and Group Chemistry",
+   "s": "Chemistry"
+  },
+  "chemistry-organic-chemistry": {
+   "u": "topics/chemistry/organic-chemistry.html",
+   "t": "Organic Chemistry: Mechanisms",
+   "s": "Chemistry"
+  },
+  "chemistry-analysis": {
+   "u": "topics/chemistry/analysis.html",
+   "t": "Analysis: NMR, IR and Mass Spectrometry",
+   "s": "Chemistry"
+  },
+  "chemistry-titrations": {
+   "u": "topics/chemistry/titrations.html",
+   "t": "Titrations and Analytical Techniques",
+   "s": "Chemistry"
+  },
+  "physics-mechanics-and-motion": {
+   "u": "topics/physics/mechanics-and-motion.html",
+   "t": "Mechanics and Motion",
+   "s": "Physics"
+  },
+  "physics-electricity-and-circuits": {
+   "u": "topics/physics/electricity-and-circuits.html",
+   "t": "Electricity and Circuits",
+   "s": "Physics"
+  },
+  "physics-waves": {
+   "u": "topics/physics/waves.html",
+   "t": "Waves",
+   "s": "Physics"
+  },
+  "physics-particles-and-quantum-physics": {
+   "u": "topics/physics/particles-and-quantum-physics.html",
+   "t": "Particles and Quantum Physics",
+   "s": "Physics"
+  },
+  "physics-thermal-physics": {
+   "u": "topics/physics/thermal-physics.html",
+   "t": "Thermal Physics",
+   "s": "Physics"
+  },
+  "physics-gravitational-electric-and-magnetic-fields": {
+   "u": "topics/physics/gravitational-electric-and-magnetic-fields.html",
+   "t": "Gravitational, Electric and Magnetic Fields",
+   "s": "Physics"
+  },
+  "physics-nuclear-physics-radioactivity-and-thermal-physics": {
+   "u": "topics/physics/nuclear-physics-radioactivity-and-thermal-physics.html",
+   "t": "Nuclear Physics, Radioactivity and Thermal Physics",
+   "s": "Physics"
+  },
+  "physics-particle-physics-and-quantum-phenomena": {
+   "u": "topics/physics/particle-physics-and-quantum-phenomena.html",
+   "t": "Particle Physics and Quantum Phenomena",
+   "s": "Physics"
+  },
+  "physics-waves-optics-and-superposition": {
+   "u": "topics/physics/waves-optics-and-superposition.html",
+   "t": "Waves, Optics and Superposition",
+   "s": "Physics"
+  },
+  "computer-science-programming-fundamentals": {
+   "u": "topics/computer-science/programming-fundamentals.html",
+   "t": "Programming Fundamentals",
+   "s": "Computer Science"
+  },
+  "computer-science-data-structures-and-algorithms": {
+   "u": "topics/computer-science/data-structures-and-algorithms.html",
+   "t": "Data Structures and Algorithms",
+   "s": "Computer Science"
+  },
+  "computer-science-computer-systems-and-architecture": {
+   "u": "topics/computer-science/computer-systems-and-architecture.html",
+   "t": "Computer Systems and Architecture",
+   "s": "Computer Science"
+  },
+  "computer-science-networks-and-internet": {
+   "u": "topics/computer-science/networks-and-internet.html",
+   "t": "Networks and Internet",
+   "s": "Computer Science"
+  },
+  "computer-science-boolean-logic-and-relational-databases": {
+   "u": "topics/computer-science/boolean-logic-and-relational-databases.html",
+   "t": "Boolean Logic and Relational Databases",
+   "s": "Computer Science"
+  },
+  "computer-science-data-structures-algorithms-and-complexity": {
+   "u": "topics/computer-science/data-structures-algorithms-and-complexity.html",
+   "t": "Data Structures, Algorithms and Complexity",
+   "s": "Computer Science"
+  },
+  "computer-science-processor-architecture-and-operating-systems": {
+   "u": "topics/computer-science/processor-architecture-and-operating-systems.html",
+   "t": "Processor Architecture and Operating Systems",
+   "s": "Computer Science"
+  },
+  "economics-microeconomics-and-markets": {
+   "u": "topics/economics/microeconomics-and-markets.html",
+   "t": "Microeconomics and Markets",
+   "s": "Economics"
+  },
+  "economics-macroeconomics": {
+   "u": "topics/economics/macroeconomics.html",
+   "t": "Macroeconomics",
+   "s": "Economics"
+  },
+  "economics-market-failure-and-government-intervention": {
+   "u": "topics/economics/market-failure-and-government-intervention.html",
+   "t": "Market Failure and Government Intervention",
+   "s": "Economics"
+  },
+  "economics-international-trade-and-development": {
+   "u": "topics/economics/international-trade-and-development.html",
+   "t": "International Trade and Development",
+   "s": "Economics"
+  },
+  "economics-macroeconomic-policy-inflation-and-globalisation": {
+   "u": "topics/economics/macroeconomic-policy-inflation-and-globalisation.html",
+   "t": "Macroeconomic Policy, Inflation and Globalisation",
+   "s": "Economics"
+  },
+  "economics-market-mechanisms-elasticity-and-market-failure": {
+   "u": "topics/economics/market-mechanisms-elasticity-and-market-failure.html",
+   "t": "Market Mechanisms, Elasticity and Market Failure",
+   "s": "Economics"
+  },
+  "psychology-approaches-and-perspectives": {
+   "u": "topics/psychology/approaches-and-perspectives.html",
+   "t": "Approaches and Perspectives",
+   "s": "Psychology"
+  },
+  "psychology-research-methods": {
+   "u": "topics/psychology/research-methods.html",
+   "t": "Research Methods",
+   "s": "Psychology"
+  },
+  "psychology-memory-and-cognitive-psychology": {
+   "u": "topics/psychology/memory-and-cognitive-psychology.html",
+   "t": "Memory and Cognitive Psychology",
+   "s": "Psychology"
+  },
+  "psychology-social-influence-and-attachment": {
+   "u": "topics/psychology/social-influence-and-attachment.html",
+   "t": "Social Influence and Attachment",
+   "s": "Psychology"
+  },
+  "psychology-psychopathology": {
+   "u": "topics/psychology/psychopathology.html",
+   "t": "Psychopathology",
+   "s": "Psychology"
+  },
+  "psychology-social-influence-and-memory-models": {
+   "u": "topics/psychology/social-influence-and-memory-models.html",
+   "t": "Social Influence and Memory Models",
+   "s": "Psychology"
+  },
+  "sociology-sociological-theories": {
+   "u": "topics/sociology/sociological-theories.html",
+   "t": "Sociological Theories and Perspectives",
+   "s": "Sociology"
+  },
+  "sociology-research-methods": {
+   "u": "topics/sociology/research-methods.html",
+   "t": "Research Methods",
+   "s": "Sociology"
+  },
+  "sociology-methods-in-context": {
+   "u": "topics/sociology/methods-in-context.html",
+   "t": "Methods in Context and Theory",
+   "s": "Sociology"
+  },
+  "sociology-families": {
+   "u": "topics/sociology/families.html",
+   "t": "Families and Households",
+   "s": "Sociology"
+  },
+  "sociology-education": {
+   "u": "topics/sociology/education.html",
+   "t": "Education",
+   "s": "Sociology"
+  },
+  "sociology-crime-and-deviance": {
+   "u": "topics/sociology/crime-and-deviance.html",
+   "t": "Crime and Deviance",
+   "s": "Sociology"
+  },
+  "sociology-beliefs": {
+   "u": "topics/sociology/beliefs.html",
+   "t": "Beliefs in Society",
+   "s": "Sociology"
+  },
+  "sociology-stratification": {
+   "u": "topics/sociology/stratification.html",
+   "t": "Social Stratification and Class",
+   "s": "Sociology"
+  },
+  "sociology-media": {
+   "u": "topics/sociology/media.html",
+   "t": "Media",
+   "s": "Sociology"
+  },
+  "sociology-globalisation": {
+   "u": "topics/sociology/globalisation.html",
+   "t": "Globalisation and Development",
+   "s": "Sociology"
+  },
+  "business-studies-marketing": {
+   "u": "topics/business-studies/marketing.html",
+   "t": "Marketing",
+   "s": "Business Studies"
+  },
+  "business-studies-finance-and-accounts": {
+   "u": "topics/business-studies/finance-and-accounts.html",
+   "t": "Finance and Accounts",
+   "s": "Business Studies"
+  },
+  "business-studies-operations-management": {
+   "u": "topics/business-studies/operations-management.html",
+   "t": "Operations Management",
+   "s": "Business Studies"
+  },
+  "business-studies-people-and-leadership": {
+   "u": "topics/business-studies/people-and-leadership.html",
+   "t": "People and Leadership",
+   "s": "Business Studies"
+  },
+  "business-studies-strategy-and-the-external-environment": {
+   "u": "topics/business-studies/strategy-and-the-external-environment.html",
+   "t": "Strategy and the External Environment",
+   "s": "Business Studies"
+  },
+  "business-studies-strategic-management-financial-analysis-and-marketing": {
+   "u": "topics/business-studies/strategic-management-financial-analysis-and-marketing.html",
+   "t": "Strategic Management, Financial Analysis and Marketing",
+   "s": "Business Studies"
+  },
+  "politics-uk-constitution": {
+   "u": "topics/politics/uk-constitution.html",
+   "t": "The UK Constitution",
+   "s": "Politics"
+  },
+  "politics-parliament": {
+   "u": "topics/politics/parliament.html",
+   "t": "Parliament",
+   "s": "Politics"
+  },
+  "politics-prime-minister-and-cabinet": {
+   "u": "topics/politics/prime-minister-and-cabinet.html",
+   "t": "The Prime Minister and Cabinet",
+   "s": "Politics"
+  },
+  "politics-judiciary": {
+   "u": "topics/politics/judiciary.html",
+   "t": "The Judiciary and Civil Liberties",
+   "s": "Politics"
+  },
+  "politics-democracy-and-participation": {
+   "u": "topics/politics/democracy-and-participation.html",
+   "t": "Democracy and Participation",
+   "s": "Politics"
+  },
+  "politics-political-parties": {
+   "u": "topics/politics/political-parties.html",
+   "t": "Political Parties",
+   "s": "Politics"
+  },
+  "politics-liberalism": {
+   "u": "topics/politics/liberalism.html",
+   "t": "Liberalism: Classical and Modern",
+   "s": "Politics"
+  },
+  "politics-conservatism": {
+   "u": "topics/politics/conservatism.html",
+   "t": "Conservatism: Traditional and New Right",
+   "s": "Politics"
+  },
+  "politics-socialism": {
+   "u": "topics/politics/socialism.html",
+   "t": "Socialism: Revolutionary and Democratic",
+   "s": "Politics"
+  },
+  "politics-usa-comparison": {
+   "u": "topics/politics/usa-comparison.html",
+   "t": "US Politics: Comparative Politics",
+   "s": "Politics"
+  },
+  "law-english-legal-system": {
+   "u": "topics/law/english-legal-system.html",
+   "t": "The English Legal System",
+   "s": "Law"
+  },
+  "law-law-making": {
+   "u": "topics/law/law-making.html",
+   "t": "Parliamentary Law Making and Delegated Legislation",
+   "s": "Law"
+  },
+  "law-statutory-interpretation": {
+   "u": "topics/law/statutory-interpretation.html",
+   "t": "Statutory Interpretation",
+   "s": "Law"
+  },
+  "law-judicial-precedent": {
+   "u": "topics/law/judicial-precedent.html",
+   "t": "Judicial Precedent",
+   "s": "Law"
+  },
+  "law-criminal-law": {
+   "u": "topics/law/criminal-law.html",
+   "t": "Criminal Law: Actus Reus and Mens Rea",
+   "s": "Law"
+  },
+  "law-non-fatal-offences": {
+   "u": "topics/law/non-fatal-offences.html",
+   "t": "Non-Fatal Offences Against the Person",
+   "s": "Law"
+  },
+  "law-tort-negligence": {
+   "u": "topics/law/tort-negligence.html",
+   "t": "Tort: Negligence and Occupiers' Liability",
+   "s": "Law"
+  },
+  "law-defences": {
+   "u": "topics/law/defences.html",
+   "t": "Defences",
+   "s": "Law"
+  },
+  "law-remedies": {
+   "u": "topics/law/remedies.html",
+   "t": "Remedies and Sentencing",
+   "s": "Law"
+  },
+  "law-contract-and-human-rights": {
+   "u": "topics/law/contract-and-human-rights.html",
+   "t": "Contract and Human Rights",
+   "s": "Law"
+  },
+  "history-interpretation-and-sources": {
+   "u": "topics/history/interpretation-and-sources.html",
+   "t": "Interpretation and Sources",
+   "s": "History"
+  },
+  "history-themed-study:-key-eras": {
+   "u": "topics/history/themed-study:-key-eras.html",
+   "t": "Themed Study: Key Eras",
+   "s": "History"
+  },
+  "history-depth-study:-a-period-in-detail": {
+   "u": "topics/history/depth-study:-a-period-in-detail.html",
+   "t": "Depth Study: a Period in Detail",
+   "s": "History"
+  },
+  "history-historical-enquiry-and-essay-skills": {
+   "u": "topics/history/historical-enquiry-and-essay-skills.html",
+   "t": "Historical Enquiry and Essay Skills",
+   "s": "History"
+  },
+  "history-revolutions-authoritarianism-and-historical-historiography": {
+   "u": "topics/history/revolutions-authoritarianism-and-historical-historiography.html",
+   "t": "Revolutions, Authoritarianism and Historical Historiography",
+   "s": "History"
+  },
+  "geography-physical-geography": {
+   "u": "topics/geography/physical-geography.html",
+   "t": "Physical Geography",
+   "s": "Geography"
+  },
+  "geography-human-geography": {
+   "u": "topics/geography/human-geography.html",
+   "t": "Human Geography",
+   "s": "Geography"
+  },
+  "geography-fieldwork-and-data-collection": {
+   "u": "topics/geography/fieldwork-and-data-collection.html",
+   "t": "Fieldwork and Data Collection",
+   "s": "Geography"
+  },
+  "geography-hazards-and-global-issues": {
+   "u": "topics/geography/hazards-and-global-issues.html",
+   "t": "Hazards and Global Issues",
+   "s": "Geography"
+  },
+  "geography-water-and-carbon-cycles-hazards-and-global-governance": {
+   "u": "topics/geography/water-and-carbon-cycles-hazards-and-global-governance.html",
+   "t": "Water and Carbon Cycles, Hazards and Global Governance",
+   "s": "Geography"
+  },
+  "religious-studies-arguments-for-god": {
+   "u": "topics/religious-studies/arguments-for-god.html",
+   "t": "Arguments for the Existence of God",
+   "s": "Religious Studies"
+  },
+  "religious-studies-problem-of-evil": {
+   "u": "topics/religious-studies/problem-of-evil.html",
+   "t": "The Problem of Evil",
+   "s": "Religious Studies"
+  },
+  "religious-studies-religious-experience": {
+   "u": "topics/religious-studies/religious-experience.html",
+   "t": "Religious Experience and Miracles",
+   "s": "Religious Studies"
+  },
+  "religious-studies-religious-language": {
+   "u": "topics/religious-studies/religious-language.html",
+   "t": "Religious Language",
+   "s": "Religious Studies"
+  },
+  "religious-studies-utilitarianism": {
+   "u": "topics/religious-studies/utilitarianism.html",
+   "t": "Utilitarianism",
+   "s": "Religious Studies"
+  },
+  "religious-studies-kantian-ethics": {
+   "u": "topics/religious-studies/kantian-ethics.html",
+   "t": "Kantian Ethics",
+   "s": "Religious Studies"
+  },
+  "religious-studies-natural-law": {
+   "u": "topics/religious-studies/natural-law.html",
+   "t": "Natural Law and Situation Ethics",
+   "s": "Religious Studies"
+  },
+  "religious-studies-applied-ethics": {
+   "u": "topics/religious-studies/applied-ethics.html",
+   "t": "Applied Ethics: Business, Sexual Ethics and Euthanasia",
+   "s": "Religious Studies"
+  },
+  "religious-studies-christianity-developments": {
+   "u": "topics/religious-studies/christianity-developments.html",
+   "t": "Christianity: Death and the Afterlife, Developments and Dialogues",
+   "s": "Religious Studies"
+  },
+  "philosophy-epistemology": {
+   "u": "topics/philosophy/epistemology.html",
+   "t": "Epistemology: Perception, Knowledge and Gettier",
+   "s": "Philosophy"
+  },
+  "philosophy-scepticism": {
+   "u": "topics/philosophy/scepticism.html",
+   "t": "Scepticism and Descartes' Meditations",
+   "s": "Philosophy"
+  },
+  "philosophy-moral-philosophy": {
+   "u": "topics/philosophy/moral-philosophy.html",
+   "t": "Moral Philosophy: Utilitarianism, Kant and Aristotelian Virtue Ethics",
+   "s": "Philosophy"
+  },
+  "philosophy-metaethics": {
+   "u": "topics/philosophy/metaethics.html",
+   "t": "Metaethics: Cognitivism, Realism and Moral Language",
+   "s": "Philosophy"
+  },
+  "philosophy-metaphysics-of-god": {
+   "u": "topics/philosophy/metaphysics-of-god.html",
+   "t": "Metaphysics of God: Divine Attributes, Arguments and Religious Language",
+   "s": "Philosophy"
+  },
+  "philosophy-metaphysics-of-mind": {
+   "u": "topics/philosophy/metaphysics-of-mind.html",
+   "t": "Metaphysics of Mind: Dualism, Physicalism and Functionalism",
+   "s": "Philosophy"
+  },
+  "french-la-societe-francaise-immigration-et-culture": {
+   "u": "topics/french/la-societe-francaise-immigration-et-culture.html",
+   "t": "La Société Française, Immigration et Culture",
+   "s": "French"
+  },
+  "spanish-sociedad-hispanica-tradiciones-y-movimientos-sociales": {
+   "u": "topics/spanish/sociedad-hispanica-tradiciones-y-movimientos-sociales.html",
+   "t": "Sociedad Hispánica, Tradiciones y Movimientos Sociales",
+   "s": "Spanish"
+  },
+  "german-gesellschaft-im-wandel-und-deutsche-geschichte": {
+   "u": "topics/german/gesellschaft-im-wandel-und-deutsche-geschichte.html",
+   "t": "Gesellschaft im Wandel und Deutsche Geschichte",
+   "s": "German"
+  },
+  "latin-advanced-latin-syntax-cicero-and-virgil": {
+   "u": "topics/latin/advanced-latin-syntax-cicero-and-virgil.html",
+   "t": "Advanced Latin Syntax, Cicero and Virgil",
+   "s": "Latin"
+  },
+  "art-and-design-critical-context-material-exploration-and-creative-synthesis": {
+   "u": "topics/art-and-design/critical-context-material-exploration-and-creative-synthesis.html",
+   "t": "Critical Context, Material Exploration and Creative Synthesis",
+   "s": "Art and Design"
+  },
+  "music-western-classical-harmony-sonata-form-and-score-analysis": {
+   "u": "topics/music/western-classical-harmony-sonata-form-and-score-analysis.html",
+   "t": "Western Classical Harmony, Sonata Form and Score Analysis",
+   "s": "Music"
+  },
+  "drama-and-theatre-theatre-practitioners-devising-and-textual-interpretation": {
+   "u": "topics/drama-and-theatre/theatre-practitioners-devising-and-textual-interpretation.html",
+   "t": "Theatre Practitioners, Devising and Textual Interpretation",
+   "s": "Drama and Theatre"
+  },
+  "media-studies-media-language-representation-industries-and-audiences": {
+   "u": "topics/media-studies/media-language-representation-industries-and-audiences.html",
+   "t": "Media Language, Representation, Industries and Audiences",
+   "s": "Media Studies"
+  },
+  "physical-education-biomechanics-exercise-physiology-and-sports-psychology": {
+   "u": "topics/physical-education/biomechanics-exercise-physiology-and-sports-psychology.html",
+   "t": "Biomechanics, Exercise Physiology and Sports Psychology",
+   "s": "Physical Education"
+  },
+  "accounting-financial-statements-ratio-analysis-and-costing": {
+   "u": "topics/accounting/financial-statements-ratio-analysis-and-costing.html",
+   "t": "Financial Statements, Ratio Analysis and Costing",
+   "s": "Accounting"
+  },
+  "ancient-history-persia-and-the-greek-world": {
+   "u": "topics/ancient-history/persia-and-the-greek-world.html",
+   "t": "Persia and the Greek World",
+   "s": "Ancient History"
+  },
+  "ancient-history-athens-in-the-age-of-pericles": {
+   "u": "topics/ancient-history/athens-in-the-age-of-pericles.html",
+   "t": "Athens in the Age of Pericles",
+   "s": "Ancient History"
+  },
+  "ancient-history-sparta": {
+   "u": "topics/ancient-history/sparta.html",
+   "t": "Sparta",
+   "s": "Ancient History"
+  },
+  "ancient-history-alexander-the-great": {
+   "u": "topics/ancient-history/alexander-the-great.html",
+   "t": "Alexander the Great",
+   "s": "Ancient History"
+  },
+  "ancient-history-the-late-republic": {
+   "u": "topics/ancient-history/the-late-republic.html",
+   "t": "The Late Republic",
+   "s": "Ancient History"
+  },
+  "ancient-history-julio-claudian-rome": {
+   "u": "topics/ancient-history/julio-claudian-rome.html",
+   "t": "Julio-Claudian Rome",
+   "s": "Ancient History"
+  },
+  "classical-civilisation-the-world-of-the-hero": {
+   "u": "topics/classical-civilisation/the-world-of-the-hero.html",
+   "t": "The World of the Hero",
+   "s": "Classical Civilisation"
+  },
+  "classical-civilisation-greek-theatre": {
+   "u": "topics/classical-civilisation/greek-theatre.html",
+   "t": "Greek Theatre",
+   "s": "Classical Civilisation"
+  },
+  "classical-civilisation-imperial-image": {
+   "u": "topics/classical-civilisation/imperial-image.html",
+   "t": "Imperial Image",
+   "s": "Classical Civilisation"
+  },
+  "classical-civilisation-greek-religion": {
+   "u": "topics/classical-civilisation/greek-religion.html",
+   "t": "Greek Religion",
+   "s": "Classical Civilisation"
+  },
+  "classical-civilisation-greek-art": {
+   "u": "topics/classical-civilisation/greek-art.html",
+   "t": "Greek Art",
+   "s": "Classical Civilisation"
+  },
+  "classical-civilisation-love-and-relationships": {
+   "u": "topics/classical-civilisation/love-and-relationships.html",
+   "t": "Love and Relationships",
+   "s": "Classical Civilisation"
+  },
+  "geology-earth-structure-and-plate-tectonics": {
+   "u": "topics/geology/earth-structure-and-plate-tectonics.html",
+   "t": "Earth Structure and Plate Tectonics",
+   "s": "Geology"
+  },
+  "geology-rock-forming-processes": {
+   "u": "topics/geology/rock-forming-processes.html",
+   "t": "Rock Forming Processes",
+   "s": "Geology"
+  },
+  "geology-geological-time-and-stratigraphy": {
+   "u": "topics/geology/geological-time-and-stratigraphy.html",
+   "t": "Geological Time and Stratigraphy",
+   "s": "Geology"
+  },
+  "geology-geological-mapwork": {
+   "u": "topics/geology/geological-mapwork.html",
+   "t": "Geological Mapwork",
+   "s": "Geology"
+  },
+  "geology-geological-hazards": {
+   "u": "topics/geology/geological-hazards.html",
+   "t": "Geological Hazards",
+   "s": "Geology"
+  },
+  "geology-geological-resources": {
+   "u": "topics/geology/geological-resources.html",
+   "t": "Geological Resources",
+   "s": "Geology"
+  },
+  "statistics-sampling-and-data": {
+   "u": "topics/statistics/sampling-and-data.html",
+   "t": "Sampling and Data",
+   "s": "Statistics"
+  },
+  "statistics-probability": {
+   "u": "topics/statistics/probability.html",
+   "t": "Probability",
+   "s": "Statistics"
+  },
+  "statistics-probability-distributions": {
+   "u": "topics/statistics/probability-distributions.html",
+   "t": "Probability Distributions",
+   "s": "Statistics"
+  },
+  "statistics-correlation-and-regression": {
+   "u": "topics/statistics/correlation-and-regression.html",
+   "t": "Correlation and Regression",
+   "s": "Statistics"
+  },
+  "statistics-hypothesis-testing": {
+   "u": "topics/statistics/hypothesis-testing.html",
+   "t": "Hypothesis Testing",
+   "s": "Statistics"
+  },
+  "statistics-time-series": {
+   "u": "topics/statistics/time-series.html",
+   "t": "Time Series",
+   "s": "Statistics"
+  },
+  "film-studies-film-language-and-meaning": {
+   "u": "topics/film-studies/film-language-and-meaning.html",
+   "t": "Film Language and Meaning",
+   "s": "Film Studies"
+  },
+  "film-studies-hollywood-classical-and-new": {
+   "u": "topics/film-studies/hollywood-classical-and-new.html",
+   "t": "Hollywood: Classical and New",
+   "s": "Film Studies"
+  },
+  "film-studies-british-film": {
+   "u": "topics/film-studies/british-film.html",
+   "t": "British Film",
+   "s": "Film Studies"
+  },
+  "film-studies-global-film": {
+   "u": "topics/film-studies/global-film.html",
+   "t": "Global Film",
+   "s": "Film Studies"
+  },
+  "film-studies-documentary-film": {
+   "u": "topics/film-studies/documentary-film.html",
+   "t": "Documentary Film",
+   "s": "Film Studies"
+  },
+  "film-studies-filmmaking-and-screenwriting": {
+   "u": "topics/film-studies/filmmaking-and-screenwriting.html",
+   "t": "Filmmaking and Screenwriting (NEA)",
+   "s": "Film Studies"
+  },
+  "dance-choreography": {
+   "u": "topics/dance/choreography.html",
+   "t": "Choreography",
+   "s": "Dance"
+  },
+  "dance-performance": {
+   "u": "topics/dance/performance.html",
+   "t": "Performance",
+   "s": "Dance"
+  },
+  "dance-dance-appreciation": {
+   "u": "topics/dance/dance-appreciation.html",
+   "t": "Dance Appreciation",
+   "s": "Dance"
+  },
+  "dance-set-works-and-anthology": {
+   "u": "topics/dance/set-works-and-anthology.html",
+   "t": "Set Works and Anthology",
+   "s": "Dance"
+  },
+  "design-and-technology-materials-and-performance": {
+   "u": "topics/design-and-technology/materials-and-performance.html",
+   "t": "Materials and Performance",
+   "s": "Design and Technology"
+  },
+  "design-and-technology-designing-and-making-principles": {
+   "u": "topics/design-and-technology/designing-and-making-principles.html",
+   "t": "Designing and Making Principles",
+   "s": "Design and Technology"
+  },
+  "design-and-technology-digital-design-and-manufacture": {
+   "u": "topics/design-and-technology/digital-design-and-manufacture.html",
+   "t": "Digital Design and Manufacture",
+   "s": "Design and Technology"
+  },
+  "design-and-technology-design-in-society": {
+   "u": "topics/design-and-technology/design-in-society.html",
+   "t": "Design in Society",
+   "s": "Design and Technology"
+  },
+  "design-and-technology-nea-portfolio": {
+   "u": "topics/design-and-technology/nea-portfolio.html",
+   "t": "Non-Exam Assessment (NEA) Portfolio",
+   "s": "Design and Technology"
+  }
+ }
+}
