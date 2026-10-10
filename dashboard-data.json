@@ -680,54 +680,314 @@
    "t": "Metaphysics of Mind: Dualism, Physicalism and Functionalism",
    "s": "Philosophy"
   },
-  "french-la-societe-francaise-immigration-et-culture": {
-   "u": "topics/french/la-societe-francaise-immigration-et-culture.html",
-   "t": "La Société Française, Immigration et Culture",
+  "french-french-society": {
+   "u": "topics/french/french-society.html",
+   "t": "La Famille en Voie de Changement",
    "s": "French"
   },
-  "spanish-sociedad-hispanica-tradiciones-y-movimientos-sociales": {
-   "u": "topics/spanish/sociedad-hispanica-tradiciones-y-movimientos-sociales.html",
-   "t": "Sociedad Hispánica, Tradiciones y Movimientos Sociales",
+  "french-french-culture": {
+   "u": "topics/french/french-culture.html",
+   "t": "La Musique Francophone Contemporaine",
+   "s": "French"
+  },
+  "french-french-immigration": {
+   "u": "topics/french/french-immigration.html",
+   "t": "L'Immigration et la Societe Multiculturelle Francaise",
+   "s": "French"
+  },
+  "french-french-occupation": {
+   "u": "topics/french/french-occupation.html",
+   "t": "L'Occupation et la Resistance",
+   "s": "French"
+  },
+  "french-french-film": {
+   "u": "topics/french/french-film.html",
+   "t": "Film Study: La Haine (Kassovitz, 1995)",
+   "s": "French"
+  },
+  "french-french-book": {
+   "u": "topics/french/french-book.html",
+   "t": "Literature Study: No et Moi (Delphine de Vigan)",
+   "s": "French"
+  },
+  "french-french-grammar": {
+   "u": "topics/french/french-grammar.html",
+   "t": "Grammar Bank",
+   "s": "French"
+  },
+  "french-french-speaking-essay": {
+   "u": "topics/french/french-speaking-essay.html",
+   "t": "Speaking (IRP) and Essay Skills",
+   "s": "French"
+  },
+  "spanish-spanish-society": {
+   "u": "topics/spanish/spanish-society.html",
+   "t": "Los Cambios en la Familia",
    "s": "Spanish"
   },
-  "german-gesellschaft-im-wandel-und-deutsche-geschichte": {
-   "u": "topics/german/gesellschaft-im-wandel-und-deutsche-geschichte.html",
-   "t": "Gesellschaft im Wandel und Deutsche Geschichte",
+  "spanish-spanish-culture": {
+   "u": "topics/spanish/spanish-culture.html",
+   "t": "La Cultura y la Música Hispana",
+   "s": "Spanish"
+  },
+  "spanish-spanish-immigration": {
+   "u": "topics/spanish/spanish-immigration.html",
+   "t": "La Inmigración y el Racismo",
+   "s": "Spanish"
+  },
+  "spanish-spanish-history": {
+   "u": "topics/spanish/spanish-history.html",
+   "t": "La Guerra Civil y la Dictadura",
+   "s": "Spanish"
+  },
+  "spanish-spanish-film": {
+   "u": "topics/spanish/spanish-film.html",
+   "t": "Film Study: Volver (Almodóvar, 2006)",
+   "s": "Spanish"
+  },
+  "spanish-spanish-film-ocho": {
+   "u": "topics/spanish/spanish-film-ocho.html",
+   "t": "Film Study: Ocho Apellidos Vascos (2014)",
+   "s": "Spanish"
+  },
+  "spanish-spanish-grammar": {
+   "u": "topics/spanish/spanish-grammar.html",
+   "t": "Grammar Bank",
+   "s": "Spanish"
+  },
+  "spanish-spanish-speaking-essay": {
+   "u": "topics/spanish/spanish-speaking-essay.html",
+   "t": "Speaking (IRP) and Essay Skills",
+   "s": "Spanish"
+  },
+  "german-german-society": {
+   "u": "topics/german/german-society.html",
+   "t": "Familie im Wandel",
    "s": "German"
   },
-  "latin-advanced-latin-syntax-cicero-and-virgil": {
-   "u": "topics/latin/advanced-latin-syntax-cicero-and-virgil.html",
-   "t": "Advanced Latin Syntax, Cicero and Virgil",
+  "german-german-culture": {
+   "u": "topics/german/german-culture.html",
+   "t": "Digitale Welt und Musik",
+   "s": "German"
+  },
+  "german-german-immigration": {
+   "u": "topics/german/german-immigration.html",
+   "t": "Einwanderung und Integration",
+   "s": "German"
+  },
+  "german-german-history": {
+   "u": "topics/german/german-history.html",
+   "t": "Die Wiedervereinigung und ihre Folgen",
+   "s": "German"
+  },
+  "german-german-film": {
+   "u": "topics/german/german-film.html",
+   "t": "Film Study: Good Bye, Lenin! (Becker, 2003)",
+   "s": "German"
+  },
+  "german-german-book": {
+   "u": "topics/german/german-book.html",
+   "t": "Literature Study: Der Vorleser (Schlink)",
+   "s": "German"
+  },
+  "german-german-grammar": {
+   "u": "topics/german/german-grammar.html",
+   "t": "Grammar Bank",
+   "s": "German"
+  },
+  "german-german-speaking-essay": {
+   "u": "topics/german/german-speaking-essay.html",
+   "t": "Speaking (IRP) and Essay Skills",
+   "s": "German"
+  },
+  "latin-latin-unseen-prose": {
+   "u": "topics/latin/latin-unseen-prose.html",
+   "t": "Unseen Prose Translation",
    "s": "Latin"
   },
-  "art-and-design-critical-context-material-exploration-and-creative-synthesis": {
-   "u": "topics/art-and-design/critical-context-material-exploration-and-creative-synthesis.html",
-   "t": "Critical Context, Material Exploration and Creative Synthesis",
+  "latin-latin-unseen-verse": {
+   "u": "topics/latin/latin-unseen-verse.html",
+   "t": "Unseen Verse Translation and Scansion",
+   "s": "Latin"
+  },
+  "latin-latin-grammar-bank": {
+   "u": "topics/latin/latin-grammar-bank.html",
+   "t": "Grammar and Accidence",
+   "s": "Latin"
+  },
+  "latin-latin-set-texts": {
+   "u": "topics/latin/latin-set-texts.html",
+   "t": "Set Texts",
+   "s": "Latin"
+  },
+  "latin-latin-literary-technique": {
+   "u": "topics/latin/latin-literary-technique.html",
+   "t": "Literary Technique and Essay Writing",
+   "s": "Latin"
+  },
+  "art-and-design-personal-investigation": {
+   "u": "topics/art-and-design/personal-investigation.html",
+   "t": "The Personal Investigation (Component 1)",
    "s": "Art and Design"
   },
-  "music-western-classical-harmony-sonata-form-and-score-analysis": {
-   "u": "topics/music/western-classical-harmony-sonata-form-and-score-analysis.html",
-   "t": "Western Classical Harmony, Sonata Form and Score Analysis",
+  "art-and-design-esa": {
+   "u": "topics/art-and-design/esa.html",
+   "t": "The Externally Set Assignment (Component 2)",
+   "s": "Art and Design"
+  },
+  "art-and-design-critical-contextual": {
+   "u": "topics/art-and-design/critical-contextual.html",
+   "t": "Critical and Contextual Study",
+   "s": "Art and Design"
+  },
+  "art-and-design-materials-techniques": {
+   "u": "topics/art-and-design/materials-techniques.html",
+   "t": "Materials, Techniques and Processes",
+   "s": "Art and Design"
+  },
+  "art-and-design-annotation": {
+   "u": "topics/art-and-design/annotation.html",
+   "t": "Annotation and Visual Language",
+   "s": "Art and Design"
+  },
+  "music-harmony": {
+   "u": "topics/music/harmony.html",
+   "t": "Western Classical Harmony",
    "s": "Music"
   },
-  "drama-and-theatre-theatre-practitioners-devising-and-textual-interpretation": {
-   "u": "topics/drama-and-theatre/theatre-practitioners-devising-and-textual-interpretation.html",
-   "t": "Theatre Practitioners, Devising and Textual Interpretation",
+  "music-sonata-form": {
+   "u": "topics/music/sonata-form.html",
+   "t": "Sonata Form and Instrumental Genres",
+   "s": "Music"
+  },
+  "music-set-works": {
+   "u": "topics/music/set-works.html",
+   "t": "Set Works (Edexcel Areas of Study)",
+   "s": "Music"
+  },
+  "music-aural-dictation": {
+   "u": "topics/music/aural-dictation.html",
+   "t": "Aural and Dictation",
+   "s": "Music"
+  },
+  "music-composition": {
+   "u": "topics/music/composition.html",
+   "t": "Composition Briefs",
+   "s": "Music"
+  },
+  "music-performance": {
+   "u": "topics/music/performance.html",
+   "t": "Performance and Repertoire",
+   "s": "Music"
+  },
+  "drama-and-theatre-practitioners": {
+   "u": "topics/drama-and-theatre/practitioners.html",
+   "t": "Theatre Practitioners: Brecht, Stanislavski and Artaud",
    "s": "Drama and Theatre"
   },
-  "media-studies-media-language-representation-industries-and-audiences": {
-   "u": "topics/media-studies/media-language-representation-industries-and-audiences.html",
-   "t": "Media Language, Representation, Industries and Audiences",
+  "drama-and-theatre-devising": {
+   "u": "topics/drama-and-theatre/devising.html",
+   "t": "Devising Theatre",
+   "s": "Drama and Theatre"
+  },
+  "drama-and-theatre-text-interpretation": {
+   "u": "topics/drama-and-theatre/text-interpretation.html",
+   "t": "Interpreting Set Texts",
+   "s": "Drama and Theatre"
+  },
+  "drama-and-theatre-live-review": {
+   "u": "topics/drama-and-theatre/live-review.html",
+   "t": "Live Theatre Review",
+   "s": "Drama and Theatre"
+  },
+  "drama-and-theatre-design": {
+   "u": "topics/drama-and-theatre/design.html",
+   "t": "Design Elements: Set, Costume, Lighting and Sound",
+   "s": "Drama and Theatre"
+  },
+  "media-studies-media-language": {
+   "u": "topics/media-studies/media-language.html",
+   "t": "Media Language",
    "s": "Media Studies"
   },
-  "physical-education-biomechanics-exercise-physiology-and-sports-psychology": {
-   "u": "topics/physical-education/biomechanics-exercise-physiology-and-sports-psychology.html",
-   "t": "Biomechanics, Exercise Physiology and Sports Psychology",
+  "media-studies-representation": {
+   "u": "topics/media-studies/representation.html",
+   "t": "Representation",
+   "s": "Media Studies"
+  },
+  "media-studies-industries": {
+   "u": "topics/media-studies/industries.html",
+   "t": "Media Industries",
+   "s": "Media Studies"
+  },
+  "media-studies-audiences": {
+   "u": "topics/media-studies/audiences.html",
+   "t": "Audiences",
+   "s": "Media Studies"
+  },
+  "media-studies-theories": {
+   "u": "topics/media-studies/theories.html",
+   "t": "Media Theories",
+   "s": "Media Studies"
+  },
+  "media-studies-media-production": {
+   "u": "topics/media-studies/media-production.html",
+   "t": "Media Production (NEA)",
+   "s": "Media Studies"
+  },
+  "physical-education-anatomy-physiology": {
+   "u": "topics/physical-education/anatomy-physiology.html",
+   "t": "Applied Anatomy and Exercise Physiology",
    "s": "Physical Education"
   },
-  "accounting-financial-statements-ratio-analysis-and-costing": {
-   "u": "topics/accounting/financial-statements-ratio-analysis-and-costing.html",
-   "t": "Financial Statements, Ratio Analysis and Costing",
+  "physical-education-biomechanics": {
+   "u": "topics/physical-education/biomechanics.html",
+   "t": "Biomechanics",
+   "s": "Physical Education"
+  },
+  "physical-education-skill-acquisition": {
+   "u": "topics/physical-education/skill-acquisition.html",
+   "t": "Skill Acquisition",
+   "s": "Physical Education"
+  },
+  "physical-education-sport-psychology": {
+   "u": "topics/physical-education/sport-psychology.html",
+   "t": "Sport Psychology",
+   "s": "Physical Education"
+  },
+  "physical-education-socio-cultural": {
+   "u": "topics/physical-education/socio-cultural.html",
+   "t": "Socio-cultural Issues in Sport",
+   "s": "Physical Education"
+  },
+  "physical-education-performance-data": {
+   "u": "topics/physical-education/performance-data.html",
+   "t": "Performance Data and NEA",
+   "s": "Physical Education"
+  },
+  "accounting-double-entry": {
+   "u": "topics/accounting/double-entry.html",
+   "t": "Double Entry and the Ledger",
+   "s": "Accounting"
+  },
+  "accounting-financial-statements": {
+   "u": "topics/accounting/financial-statements.html",
+   "t": "Financial Statements",
+   "s": "Accounting"
+  },
+  "accounting-ratio-analysis": {
+   "u": "topics/accounting/ratio-analysis.html",
+   "t": "Ratio Analysis",
+   "s": "Accounting"
+  },
+  "accounting-costing-budgeting": {
+   "u": "topics/accounting/costing-budgeting.html",
+   "t": "Costing and Budgeting",
+   "s": "Accounting"
+  },
+  "accounting-ethics-technology": {
+   "u": "topics/accounting/ethics-technology.html",
+   "t": "Ethics, Technology and Society",
    "s": "Accounting"
   },
   "ancient-history-persia-and-the-greek-world": {

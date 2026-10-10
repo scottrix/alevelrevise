@@ -861,52 +861,312 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/french/la-societe-francaise-immigration-et-culture.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-society.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/sociedad-hispanica-tradiciones-y-movimientos-sociales.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-culture.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/german/gesellschaft-im-wandel-und-deutsche-geschichte.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-immigration.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/latin/advanced-latin-syntax-cicero-and-virgil.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-occupation.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/art-and-design/critical-context-material-exploration-and-creative-synthesis.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-film.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/music/western-classical-harmony-sonata-form-and-score-analysis.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-book.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/drama-and-theatre/theatre-practitioners-devising-and-textual-interpretation.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-grammar.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/media-language-representation-industries-and-audiences.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/french/french-speaking-essay.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/biomechanics-exercise-physiology-and-sports-psychology.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-society.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://scottrix.github.io/alevelrevise/topics/accounting/financial-statements-ratio-analysis-and-costing.html</loc>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-culture.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-immigration.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-history.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-film.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-film-ocho.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-grammar.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/spanish/spanish-speaking-essay.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-society.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-culture.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-immigration.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-history.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-film.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-book.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-grammar.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/german/german-speaking-essay.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/latin/latin-unseen-prose.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/latin/latin-unseen-verse.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/latin/latin-grammar-bank.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/latin/latin-set-texts.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/latin/latin-literary-technique.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/art-and-design/personal-investigation.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/art-and-design/esa.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/art-and-design/critical-contextual.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/art-and-design/materials-techniques.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/art-and-design/annotation.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/music/harmony.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/music/sonata-form.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/music/set-works.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/music/aural-dictation.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/music/composition.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/music/performance.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/drama-and-theatre/practitioners.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/drama-and-theatre/devising.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/drama-and-theatre/text-interpretation.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/drama-and-theatre/live-review.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/drama-and-theatre/design.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/media-language.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/representation.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/industries.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/audiences.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/theories.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/media-studies/media-production.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/anatomy-physiology.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/biomechanics.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/skill-acquisition.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/sport-psychology.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/socio-cultural.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/physical-education/performance-data.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/accounting/double-entry.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/accounting/financial-statements.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/accounting/ratio-analysis.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/accounting/costing-budgeting.html</loc>
+    <lastmod>2026-10-10</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scottrix.github.io/alevelrevise/topics/accounting/ethics-technology.html</loc>
     <lastmod>2026-10-10</lastmod>
     <priority>0.7</priority>
   </url>
