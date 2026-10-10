@@ -62,12 +62,12 @@
   },
   "further-mathematics-matrices": {
    "u": "topics/further-mathematics/matrices.html",
-   "t": "Matrices",
+   "t": "Matrices and Linear Transformations",
    "s": "Further Mathematics"
   },
   "further-mathematics-vectors": {
    "u": "topics/further-mathematics/vectors.html",
-   "t": "Vectors",
+   "t": "Further Vectors",
    "s": "Further Mathematics"
   },
   "further-mathematics-polar-coordinates": {
@@ -80,39 +80,29 @@
    "t": "Hyperbolic Functions",
    "s": "Further Mathematics"
   },
-  "further-mathematics-complex-numbers-and-de-moivres-theorem": {
-   "u": "topics/further-mathematics/complex-numbers-and-de-moivres-theorem.html",
-   "t": "Complex Numbers and De Moivre's Theorem",
-   "s": "Further Mathematics"
-  },
-  "further-mathematics-matrices-and-linear-transformations": {
-   "u": "topics/further-mathematics/matrices-and-linear-transformations.html",
-   "t": "Matrices and Linear Transformations",
-   "s": "Further Mathematics"
-  },
-  "english-literature-poetry-analysis": {
-   "u": "topics/english-literature/poetry-analysis.html",
-   "t": "Poetry Analysis",
+  "english-literature-shakespeare": {
+   "u": "topics/english-literature/shakespeare.html",
+   "t": "Shakespeare",
    "s": "English Literature"
   },
-  "english-literature-prose-and-the-novel": {
-   "u": "topics/english-literature/prose-and-the-novel.html",
-   "t": "Prose and the Novel",
+  "english-literature-poetry": {
+   "u": "topics/english-literature/poetry.html",
+   "t": "Poetry: Pre-1900 and Post-1900 Anthologies",
    "s": "English Literature"
   },
-  "english-literature-drama-and-shakespeare": {
-   "u": "topics/english-literature/drama-and-shakespeare.html",
-   "t": "Drama and Shakespeare",
+  "english-literature-prose": {
+   "u": "topics/english-literature/prose.html",
+   "t": "Prose: Modern Novel and Set Texts",
    "s": "English Literature"
   },
-  "english-literature-critical-writing-and-context": {
-   "u": "topics/english-literature/critical-writing-and-context.html",
-   "t": "Critical Writing and Context",
+  "english-literature-drama": {
+   "u": "topics/english-literature/drama.html",
+   "t": "Drama: Modern and Set Plays",
    "s": "English Literature"
   },
-  "english-literature-shakespeare-poetry-traditions-and-comparative-criticism": {
-   "u": "topics/english-literature/shakespeare-poetry-traditions-and-comparative-criticism.html",
-   "t": "Shakespeare, Poetry Traditions and Comparative Criticism",
+  "english-literature-comparative-critical": {
+   "u": "topics/english-literature/comparative-critical.html",
+   "t": "Comparative and Critical Reading",
    "s": "English Literature"
   },
   "english-language-textual-variations": {
@@ -245,9 +235,19 @@
    "t": "Titrations and Analytical Techniques",
    "s": "Chemistry"
   },
-  "physics-mechanics-and-motion": {
-   "u": "topics/physics/mechanics-and-motion.html",
-   "t": "Mechanics and Motion",
+  "physics-mechanics": {
+   "u": "topics/physics/mechanics.html",
+   "t": "Mechanics: Motion, Forces and Energy",
+   "s": "Physics"
+  },
+  "physics-materials": {
+   "u": "topics/physics/materials.html",
+   "t": "Materials",
+   "s": "Physics"
+  },
+  "physics-waves": {
+   "u": "topics/physics/waves.html",
+   "t": "Waves and Optics",
    "s": "Physics"
   },
   "physics-electricity-and-circuits": {
@@ -255,44 +255,34 @@
    "t": "Electricity and Circuits",
    "s": "Physics"
   },
-  "physics-waves": {
-   "u": "topics/physics/waves.html",
-   "t": "Waves",
+  "physics-particles-and-quantum": {
+   "u": "topics/physics/particles-and-quantum.html",
+   "t": "Particles and Quantum Phenomena",
    "s": "Physics"
   },
-  "physics-particles-and-quantum-physics": {
-   "u": "topics/physics/particles-and-quantum-physics.html",
-   "t": "Particles and Quantum Physics",
+  "physics-fields-gravitation": {
+   "u": "topics/physics/fields-gravitation.html",
+   "t": "Gravitation and Fields",
    "s": "Physics"
   },
-  "physics-thermal-physics": {
-   "u": "topics/physics/thermal-physics.html",
-   "t": "Thermal Physics",
+  "physics-fields-electric": {
+   "u": "topics/physics/fields-electric.html",
+   "t": "Electric Fields and Capacitance",
    "s": "Physics"
   },
-  "physics-gravitational-electric-and-magnetic-fields": {
-   "u": "topics/physics/gravitational-electric-and-magnetic-fields.html",
-   "t": "Gravitational, Electric and Magnetic Fields",
+  "physics-fields-magnetic": {
+   "u": "topics/physics/fields-magnetic.html",
+   "t": "Magnetic Fields and Electromagnetic Induction",
    "s": "Physics"
   },
-  "physics-nuclear-physics-radioactivity-and-thermal-physics": {
-   "u": "topics/physics/nuclear-physics-radioactivity-and-thermal-physics.html",
-   "t": "Nuclear Physics, Radioactivity and Thermal Physics",
+  "physics-thermal-uncertainty": {
+   "u": "topics/physics/thermal-uncertainty.html",
+   "t": "Thermal Physics and Uncertainty",
    "s": "Physics"
   },
-  "physics-particle-physics-and-quantum-phenomena": {
-   "u": "topics/physics/particle-physics-and-quantum-phenomena.html",
-   "t": "Particle Physics and Quantum Phenomena",
-   "s": "Physics"
-  },
-  "physics-waves-optics-and-superposition": {
-   "u": "topics/physics/waves-optics-and-superposition.html",
-   "t": "Waves, Optics and Superposition",
-   "s": "Physics"
-  },
-  "computer-science-programming-fundamentals": {
-   "u": "topics/computer-science/programming-fundamentals.html",
-   "t": "Programming Fundamentals",
+  "computer-science-fundamentals-of-programming": {
+   "u": "topics/computer-science/fundamentals-of-programming.html",
+   "t": "Fundamentals of Programming",
    "s": "Computer Science"
   },
   "computer-science-data-structures-and-algorithms": {
@@ -300,79 +290,74 @@
    "t": "Data Structures and Algorithms",
    "s": "Computer Science"
   },
+  "computer-science-theory-of-computation": {
+   "u": "topics/computer-science/theory-of-computation.html",
+   "t": "Theory of Computation",
+   "s": "Computer Science"
+  },
+  "computer-science-data-representation": {
+   "u": "topics/computer-science/data-representation.html",
+   "t": "Data Representation",
+   "s": "Computer Science"
+  },
   "computer-science-computer-systems-and-architecture": {
    "u": "topics/computer-science/computer-systems-and-architecture.html",
    "t": "Computer Systems and Architecture",
    "s": "Computer Science"
   },
-  "computer-science-networks-and-internet": {
-   "u": "topics/computer-science/networks-and-internet.html",
-   "t": "Networks and Internet",
+  "computer-science-networks-and-databases": {
+   "u": "topics/computer-science/networks-and-databases.html",
+   "t": "Networks and Databases",
    "s": "Computer Science"
   },
-  "computer-science-boolean-logic-and-relational-databases": {
-   "u": "topics/computer-science/boolean-logic-and-relational-databases.html",
-   "t": "Boolean Logic and Relational Databases",
+  "computer-science-software-development": {
+   "u": "topics/computer-science/software-development.html",
+   "t": "Software Development and Legal Issues",
    "s": "Computer Science"
   },
-  "computer-science-data-structures-algorithms-and-complexity": {
-   "u": "topics/computer-science/data-structures-algorithms-and-complexity.html",
-   "t": "Data Structures, Algorithms and Complexity",
-   "s": "Computer Science"
+  "economics-markets": {
+   "u": "topics/economics/markets.html",
+   "t": "Markets: Supply and Demand",
+   "s": "Economics"
   },
-  "computer-science-processor-architecture-and-operating-systems": {
-   "u": "topics/computer-science/processor-architecture-and-operating-systems.html",
-   "t": "Processor Architecture and Operating Systems",
-   "s": "Computer Science"
-  },
-  "economics-microeconomics-and-markets": {
-   "u": "topics/economics/microeconomics-and-markets.html",
-   "t": "Microeconomics and Markets",
+  "economics-market-failure": {
+   "u": "topics/economics/market-failure.html",
+   "t": "Market Failure and Government Intervention",
    "s": "Economics"
   },
   "economics-macroeconomics": {
    "u": "topics/economics/macroeconomics.html",
-   "t": "Macroeconomics",
+   "t": "Macroeconomics: AD-AS and Objectives",
    "s": "Economics"
   },
-  "economics-market-failure-and-government-intervention": {
-   "u": "topics/economics/market-failure-and-government-intervention.html",
-   "t": "Market Failure and Government Intervention",
+  "economics-inflation-unemployment": {
+   "u": "topics/economics/inflation-unemployment.html",
+   "t": "Inflation, Unemployment and Growth",
    "s": "Economics"
   },
-  "economics-international-trade-and-development": {
-   "u": "topics/economics/international-trade-and-development.html",
+  "economics-policy": {
+   "u": "topics/economics/policy.html",
+   "t": "Policy: Fiscal, Monetary and Supply-Side",
+   "s": "Economics"
+  },
+  "economics-international": {
+   "u": "topics/economics/international.html",
    "t": "International Trade and Development",
    "s": "Economics"
   },
-  "economics-macroeconomic-policy-inflation-and-globalisation": {
-   "u": "topics/economics/macroeconomic-policy-inflation-and-globalisation.html",
-   "t": "Macroeconomic Policy, Inflation and Globalisation",
-   "s": "Economics"
-  },
-  "economics-market-mechanisms-elasticity-and-market-failure": {
-   "u": "topics/economics/market-mechanisms-elasticity-and-market-failure.html",
-   "t": "Market Mechanisms, Elasticity and Market Failure",
-   "s": "Economics"
-  },
-  "psychology-approaches-and-perspectives": {
-   "u": "topics/psychology/approaches-and-perspectives.html",
-   "t": "Approaches and Perspectives",
+  "psychology-social-influence": {
+   "u": "topics/psychology/social-influence.html",
+   "t": "Social Influence",
    "s": "Psychology"
   },
-  "psychology-research-methods": {
-   "u": "topics/psychology/research-methods.html",
-   "t": "Research Methods",
+  "psychology-memory": {
+   "u": "topics/psychology/memory.html",
+   "t": "Memory",
    "s": "Psychology"
   },
-  "psychology-memory-and-cognitive-psychology": {
-   "u": "topics/psychology/memory-and-cognitive-psychology.html",
-   "t": "Memory and Cognitive Psychology",
-   "s": "Psychology"
-  },
-  "psychology-social-influence-and-attachment": {
-   "u": "topics/psychology/social-influence-and-attachment.html",
-   "t": "Social Influence and Attachment",
+  "psychology-attachment": {
+   "u": "topics/psychology/attachment.html",
+   "t": "Attachment",
    "s": "Psychology"
   },
   "psychology-psychopathology": {
@@ -380,9 +365,14 @@
    "t": "Psychopathology",
    "s": "Psychology"
   },
-  "psychology-social-influence-and-memory-models": {
-   "u": "topics/psychology/social-influence-and-memory-models.html",
-   "t": "Social Influence and Memory Models",
+  "psychology-research-methods": {
+   "u": "topics/psychology/research-methods.html",
+   "t": "Research Methods and Statistics",
+   "s": "Psychology"
+  },
+  "psychology-biopsychology": {
+   "u": "topics/psychology/biopsychology.html",
+   "t": "Biopsychology",
    "s": "Psychology"
   },
   "sociology-sociological-theories": {
@@ -435,19 +425,24 @@
    "t": "Globalisation and Development",
    "s": "Sociology"
   },
+  "business-studies-business-growth": {
+   "u": "topics/business-studies/business-growth.html",
+   "t": "Business Growth and Objectives",
+   "s": "Business Studies"
+  },
   "business-studies-marketing": {
    "u": "topics/business-studies/marketing.html",
    "t": "Marketing",
    "s": "Business Studies"
   },
-  "business-studies-finance-and-accounts": {
-   "u": "topics/business-studies/finance-and-accounts.html",
-   "t": "Finance and Accounts",
+  "business-studies-operations": {
+   "u": "topics/business-studies/operations.html",
+   "t": "Operations Management",
    "s": "Business Studies"
   },
-  "business-studies-operations-management": {
-   "u": "topics/business-studies/operations-management.html",
-   "t": "Operations Management",
+  "business-studies-finance": {
+   "u": "topics/business-studies/finance.html",
+   "t": "Finance and Accounts",
    "s": "Business Studies"
   },
   "business-studies-people-and-leadership": {
@@ -455,14 +450,9 @@
    "t": "People and Leadership",
    "s": "Business Studies"
   },
-  "business-studies-strategy-and-the-external-environment": {
-   "u": "topics/business-studies/strategy-and-the-external-environment.html",
-   "t": "Strategy and the External Environment",
-   "s": "Business Studies"
-  },
-  "business-studies-strategic-management-financial-analysis-and-marketing": {
-   "u": "topics/business-studies/strategic-management-financial-analysis-and-marketing.html",
-   "t": "Strategic Management, Financial Analysis and Marketing",
+  "business-studies-strategy": {
+   "u": "topics/business-studies/strategy.html",
+   "t": "Business Strategy",
    "s": "Business Studies"
   },
   "politics-uk-constitution": {
@@ -565,54 +555,54 @@
    "t": "Contract and Human Rights",
    "s": "Law"
   },
-  "history-interpretation-and-sources": {
-   "u": "topics/history/interpretation-and-sources.html",
-   "t": "Interpretation and Sources",
+  "history-tudors": {
+   "u": "topics/history/tudors.html",
+   "t": "The Tudors: 1485-1603",
    "s": "History"
   },
-  "history-themed-study:-key-eras": {
-   "u": "topics/history/themed-study:-key-eras.html",
-   "t": "Themed Study: Key Eras",
+  "history-russian-revolution": {
+   "u": "topics/history/russian-revolution.html",
+   "t": "Russia: Tsardom to Communism, 1917-1991",
    "s": "History"
   },
-  "history-depth-study:-a-period-in-detail": {
-   "u": "topics/history/depth-study:-a-period-in-detail.html",
-   "t": "Depth Study: a Period in Detail",
+  "history-civil-rights": {
+   "u": "topics/history/civil-rights.html",
+   "t": "USA: Civil Rights and the Making of Modern America",
    "s": "History"
   },
-  "history-historical-enquiry-and-essay-skills": {
-   "u": "topics/history/historical-enquiry-and-essay-skills.html",
-   "t": "Historical Enquiry and Essay Skills",
+  "history-germany": {
+   "u": "topics/history/germany.html",
+   "t": "Germany: Kaiser to Hitler, 1871-1945",
    "s": "History"
   },
-  "history-revolutions-authoritarianism-and-historical-historiography": {
-   "u": "topics/history/revolutions-authoritarianism-and-historical-historiography.html",
-   "t": "Revolutions, Authoritarianism and Historical Historiography",
+  "history-cold-war": {
+   "u": "topics/history/cold-war.html",
+   "t": "The Cold War",
    "s": "History"
   },
-  "geography-physical-geography": {
-   "u": "topics/geography/physical-geography.html",
-   "t": "Physical Geography",
+  "geography-water-and-carbon": {
+   "u": "topics/geography/water-and-carbon.html",
+   "t": "Water and Carbon Cycles",
    "s": "Geography"
   },
-  "geography-human-geography": {
-   "u": "topics/geography/human-geography.html",
-   "t": "Human Geography",
+  "geography-coasts": {
+   "u": "topics/geography/coasts.html",
+   "t": "Coastal Systems and Landscapes",
    "s": "Geography"
   },
-  "geography-fieldwork-and-data-collection": {
-   "u": "topics/geography/fieldwork-and-data-collection.html",
-   "t": "Fieldwork and Data Collection",
+  "geography-hazards": {
+   "u": "topics/geography/hazards.html",
+   "t": "Hazards",
    "s": "Geography"
   },
-  "geography-hazards-and-global-issues": {
-   "u": "topics/geography/hazards-and-global-issues.html",
-   "t": "Hazards and Global Issues",
+  "geography-global-systems": {
+   "u": "topics/geography/global-systems.html",
+   "t": "Global Systems and Governance",
    "s": "Geography"
   },
-  "geography-water-and-carbon-cycles-hazards-and-global-governance": {
-   "u": "topics/geography/water-and-carbon-cycles-hazards-and-global-governance.html",
-   "t": "Water and Carbon Cycles, Hazards and Global Governance",
+  "geography-changing-places": {
+   "u": "topics/geography/changing-places.html",
+   "t": "Changing Places",
    "s": "Geography"
   },
   "religious-studies-arguments-for-god": {
