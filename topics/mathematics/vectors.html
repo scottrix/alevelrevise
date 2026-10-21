@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vectors - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Vectors in 2D and 3D: components, magnitude, unit vectors, position vectors, the scalar product, vector equations of lines and geometric applications - A-Level pure maths vectors (Edexcel 9MA0 Topic 10, AQA 7357 Section J) revised with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Mathematics, Vectors, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Vectors - A-Level Mathematics">
+<meta property="og:description" content="Vectors in 2D and 3D: components, magnitude, unit vectors, position vectors, the scalar product, vector equations of lines and geometric applications - A-Level pure maths vectors (Edexcel 9MA0 Topic 10, AQA 7357 Section J) revised with worked examples and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/mathematics/vectors.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/mathematics/vectors.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I need 3D vectors for single A-level Maths, or only Further Maths?", "acceptedAnswer": {"@type": "Answer", "text": "All the main boards include 2D and 3D vectors in single A-level Maths: Edexcel 9MA0 Topic 10, AQA 7357 Section J and OCR A H640 14.01 all cover magnitude in 3D, position vectors and the scalar product, and vector equations of lines. What belongs to Further Maths is the vector (cross) product, shortest distances between skew lines and planes - know the boundary, and do not carry cross-product methods into single Maths papers."}}{"@type": "Question", "name": "Why did my 3D line intersection answer lose marks?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always the third equation was never checked. Two component equations give candidate values of t and s, but the lines only intersect if the third component agrees too - otherwise they are skew. State the check explicitly and conclude with the intersection point or the word skew."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/vectors.html" class="active">Vectors</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/probability-distributions.html">Probability and Distributions</a></li><li><a href="../../topics/mathematics/statistics-data.html">The Large Data Set</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../mathematics.html">Mathematics</a> <span>›</span>
+<span>Vectors</span>
+</nav>
+
+<article class="topic-header">
+<h1>Vectors</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">Vectors in 2D and 3D: components, magnitude, unit vectors, position vectors, the scalar product, vector equations of lines and geometric applications - A-Level pure maths vectors (Edexcel 9MA0 Topic 10, AQA 7357 Section J) revised with worked examples and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Represent vectors in 2D and 3D using components and unit vectors, and calculate magnitudes and direction angles (AO1) - Edexcel 9MA0 Topic 10, AQA 7357 Section J, OCR A H640 14.01</li>
+<li>Add, subtract and scalar-multiply vectors, and use position vectors to find displacements, midpoints and collinear points (AO1/AO2) - Edexcel 9MA0 Topic 10, AQA 7357 J1-J2</li>
+<li>Calculate the scalar (dot) product in component and magnitude form, and determine angles between vectors and conditions for perpendicularity and parallelism (AO1/AO2) - Edexcel 9MA0 Topic 10, AQA 7357 J2-J3</li>
+<li>Find the vector and Cartesian equations of a line in 2D and 3D, and determine whether lines are parallel, intersecting or skew (AO2) - Edexcel 9MA0 Topic 10, AQA 7357 J3</li>
+<li>Solve geometric problems using vectors, proving properties such as right angles, parallelograms and collinearity (AO2/AO3) - Edexcel 9MA0 Topic 10, OCR A H640 14.01</li>
+<li>Connect vectors to kinematics (velocity and displacement as vector quantities) and understand scalar triple product contexts as a Further Mathematics extension (AO2)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Vector:</strong> A quantity with magnitude and direction, written as a column or in component form xi + yj + zk; distinguished from a scalar, which has magnitude only.</div>
+<div class="key-point"><strong>Magnitude:</strong> The length of a vector: for a = (x, y) it is sqrt(x^2 + y^2), and for a = (x, y, z) it is sqrt(x^2 + y^2 + z^2), denoted |a|.</div>
+<div class="key-point"><strong>Unit vector:</strong> A vector of magnitude 1; the unit vector in the direction of a is a/|a|. The standard unit vectors i, j and k point along the coordinate axes.</div>
+<div class="key-point"><strong>Position vector:</strong> The vector from the origin to a point, written OP or p; the displacement from A to B is AB = b - a, the difference of position vectors.</div>
+<div class="key-point"><strong>Scalar (dot) product:</strong> a . b = |a||b|cos(theta) = x1x2 + y1y2 + z1z2; a scalar measuring how much two vectors align, zero exactly when they are perpendicular.</div>
+<div class="key-point"><strong>Direction vector:</strong> Any vector parallel to a line, giving its direction; the line through point A with direction d has vector equation r = a + t d.</div>
+<div class="key-point"><strong>Vector equation of a line:</strong> r = a + t d, where a is the position vector of a point on the line, d a direction vector and t a scalar parameter.</div>
+<div class="key-point"><strong>Skew lines:</strong> Lines in three dimensions that are not parallel but never meet; they have no common solution despite having non-parallel directions.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Magnitude: |a| = sqrt(x^2 + y^2) in 2D and sqrt(x^2 + y^2 + z^2) in 3D; unit vector in the direction of a: a/|a|.</div>
+<div class="key-point">Displacement from A to B: AB = b - a (subtract position vectors: end minus start).</div>
+<div class="key-point">Scalar product: a . b = |a||b|cos(theta) = x1x2 + y1y2 + z1z2; perpendicular exactly when a . b = 0; parallel when components are in the same ratio.</div>
+<div class="key-point">Vector equation of a line: r = a + t d (or r = a + t(b - a) through two points); Cartesian form (x - x1)/l = (y - y1)/m = (z - z1)/n.</div>
+<div class="key-point">In 3D, intersecting lines: solve two equations for t and s, then CHECK the third equation - failure means the lines are skew.</div>
+</section>
+<section class="section">
+<h2>Vectors in 2D and 3D: components, magnitude and direction</h2>
+<p>A vector carries magnitude and direction; a scalar carries magnitude only. In component form, a vector in the plane is a = x i + y j (or the column (x, y)), and in three dimensions a = x i + y j + z k (Edexcel 9MA0 Topic 10; AQA 7357 Section J; OCR A H640 14.01; WJEC/Eduqas and CCEA include 3D vectors at A-level). The <strong>magnitude</strong> is the length: |a| = sqrt(x^2 + y^2) in 2D, extending to sqrt(x^2 + y^2 + z^2) in 3D by three-dimensional Pythagoras. The <strong>unit vector</strong> in the direction of a is a/|a| - dividing by the magnitude keeps the direction but gives length 1. Questions ask for a unit vector in a given direction, or for the direction angle: in 2D, tan(theta) = y/x with the quadrant read from the signs of the components.</p><p>Two vectors are <strong>equal</strong> exactly when all corresponding components match - the algebraic statement behind geometric arguments. The standard unit vectors i, j, k point along the axes, so (3, 2, 4) = 3i + 2j + 4k; converting between the two notations is routine but worth doing carefully, since a dropped component is a silent error.</p><details><summary>Worked example: magnitude and direction</summary><p>Find the magnitude of a = 2i - j + 2k, and a unit vector in the direction of a.</p><p><strong>Line 1:</strong> |a| = sqrt(2^2 + (-1)^2 + 2^2) = sqrt(4 + 1 + 4) = sqrt(9) = 3 (M1 A1).</p><p><strong>Line 2:</strong> Unit vector: a/|a| = (2i - j + 2k)/3 = (2/3)i - (1/3)j + (2/3)k (A1).</p><p><strong>Line 3:</strong> Check: the magnitude of the unit vector is sqrt(4/9 + 1/9 + 4/9) = 1 (A1: verified).</p></details>
+</section>
+<section class="section">
+<h2>Vector arithmetic and position vectors</h2>
+<p>Vector addition is component-wise, with the <strong>triangle law</strong> as its picture: a + b takes you along a then along b. Subtraction reverses the second vector; <strong>scalar multiplication</strong> scales the length (and reverses the direction when the scalar is negative). Two results do the geometric work: the displacement from A to B is <strong>AB = b - a</strong> (end position minus start position), and a point M is the <strong>midpoint</strong> of AB when its position vector is m = (a + b)/2.</p><p><strong>Position vectors</strong> turn geometry into algebra. Three points are <strong>collinear</strong> when the displacement between one pair is a scalar multiple of the displacement between another pair, AND the lines share a point - AB = t BC for some scalar t. Parallelogram problems use the property that diagonals bisect each other, or that opposite sides are equal as vectors: ABCD is a parallelogram when AB = DC.</p><details><summary>Worked example: displacement, distance and collinearity</summary><p>The points P, Q and R have position vectors p = (1, 2), q = (3, 4) and r = (5, 6). Show that P, Q and R are collinear.</p><p><strong>Line 1:</strong> PQ = q - p = (3 - 1, 4 - 2) = (2, 2) (M1).</p><p><strong>Line 2:</strong> QR = r - q = (5 - 3, 6 - 4) = (2, 2) (M1).</p><p><strong>Line 3:</strong> QR = 1 x PQ, so the displacements are parallel (A1).</p><p><strong>Line 4:</strong> The displacements share the point Q, so P, Q and R lie on one straight line (A1: collinearity concluded).</p></details><p>Watch the direction discipline: AB means from A to B, so it is b - a, not a - b - reversing it loses the direction and, in angle questions, the sign of the answer. In mechanics, the same arithmetic drives displacement and velocity vectors, so this section is shared ground with the applied papers.</p>
+</section>
+<section class="section">
+<h2>The scalar (dot) product: angles and perpendicularity</h2>
+<p>The <strong>scalar (dot) product</strong> (Edexcel 9MA0 Topic 10; AQA 7357 J2-J3; OCR A H640 14.01) has two equivalent forms: <strong>a . b = |a||b|cos(theta)</strong> and <strong>a . b = x1x2 + y1y2 + z1z2</strong> (the sum of the products of corresponding components). Equating them gives the angle between vectors: cos(theta) = (a . b)/(|a||b|). The dot product is a <em>scalar</em>, not a vector - a common confusion in definitions.</p><p>Two special cases do the geometric work: vectors are <strong>perpendicular</strong> exactly when a . b = 0 (cos(90 degrees) = 0), and <strong>parallel</strong> when their components are in the same ratio (b = t a, giving |cos(theta)| = 1). Perpendicularity questions ask for an unknown component: set the dot product to zero and solve.</p><details><summary>Worked example: angle between two 3D vectors</summary><p>Find the angle between a = (1, 2, 2) and b = (2, 1, 0).</p><p><strong>Line 1:</strong> a . b = (1)(2) + (2)(1) + (2)(0) = 4 (M1).</p><p><strong>Line 2:</strong> |a| = sqrt(1 + 4 + 4) = 3 and |b| = sqrt(4 + 1) = sqrt(5) (M1).</p><p><strong>Line 3:</strong> cos(theta) = 4/(3sqrt(5)) = 0.5963 (A1).</p><p><strong>Line 4:</strong> theta = arccos(0.5963) = 0.932 radians = 53.4 degrees (A1).</p></details><details><summary>Worked example: perpendicular vectors with an unknown</summary><p>Find the value of x for which a = (2, -1, 3) and b = (1, x, -2) are perpendicular.</p><p><strong>Line 1:</strong> Perpendicular requires a . b = 0 (M1).</p><p><strong>Line 2:</strong> (2)(1) + (-1)(x) + (3)(-2) = 2 - x - 6 = -x - 4 (A1).</p><p><strong>Line 3:</strong> -x - 4 = 0, so x = -4 (A1).</p></details><p>The dot product also powers geometric proofs: a right angle in a triangle is proved by showing two side vectors have zero dot product, which is often faster than gradients or Pythagoras, and it works in 3D where gradients do not.</p>
+</section>
+<section class="section">
+<h2>Vector equation of a line: 2D and 3D</h2>
+<p>The line through point A with position vector a and direction d has <strong>vector equation r = a + t d</strong>, where t is a scalar parameter: as t runs over all reals, r runs along the line. Through two points A and B, the direction is d = b - a, so r = a + t(b - a). The <strong>Cartesian form</strong> converts the components: for d = (l, m, n), the line is (x - x1)/l = (y - y1)/m = (z - z1)/n - each component divided by its direction component. A zero direction component means that coordinate is constant on the line, so the Cartesian fraction for it is omitted.</p><p>In 3D, <strong>intersecting lines</strong> are found by equating components: two equations solve for t and s, and the <strong>third equation must be checked</strong> - if it fails, the lines are <strong>skew</strong> (not parallel, never meeting). The third-equation check is the mark-winning step: skipping it, or claiming intersection from two equations alone, loses the conclusion mark.</p><details><summary>Worked example: intersection of two 3D lines</summary><p>Line 1: r1 = (1, 2, 2) + t(1, 1, 0). Line 2: r2 = (1, 5, 1) + s(2, -1, 1). Find their intersection or show they are skew.</p><p><strong>Line 1:</strong> Equate components: 1 + t = 1 + 2s and 2 + t = 5 - s (M1: equations formed).</p><p><strong>Line 2:</strong> From the first: t = 2s. Substituting into the second: 2 + 2s = 5 - s, so 3s = 3, s = 1 and t = 2 (A1).</p><p><strong>Line 3:</strong> Check the third equation: z-coordinate of r1 at t = 2 is 2 + 0 = 2; of r2 at s = 1 is 1 + 1 = 2. They agree (A1: third equation verified).</p><p><strong>Line 4:</strong> The lines intersect at r = (3, 4, 2) (A1: point stated).</p></details><p>Parallel lines have proportional direction vectors; identical lines have proportional directions AND a shared point - check whether one line's point satisfies the other's equation to distinguish parallel from coincident. These line ideas feed directly into Further Mathematics (where the scalar product finds angles between lines and the shortest-distance problems live) and into mechanics, where velocity vectors follow r = r0 + v t.</p>
+</section>
+<section class="section">
+<h2>Applications, triple product contexts and exam technique</h2>
+<p>Vector questions reward clean algebra and correct notation. Typical applications: proving a quadrilateral is a parallelogram (show AB = DC as vectors), proving a right angle (zero dot product), finding a midpoint or a ratio point (m = (a + b)/2, or r = (b a + a b)/(a + b) style weighted averages for ratio divisions), and kinematics links - a velocity vector v means position moves as r(t) = r0 + v t, so speed is |v| and displacement over time t is v t.</p><p><strong>Scalar triple product contexts</strong>: the product a . (b x c), where b x c is the vector (cross) product, measures the <strong>volume of the parallelepiped</strong> spanned by a, b and c - and it is zero exactly when the three vectors are coplanar. The cross product itself, with |b x c| = |b||c|sin(theta), gives the area of the parallelogram spanned by two vectors (half of it, a triangle). The cross product and triple product are formally assessed in <strong>Further Mathematics</strong>, not single A-level Maths - but the contexts appear as motivation, and knowing that |a||b|sin(theta) measures parallelogram area helps with geometry questions that ask for areas from two side vectors.</p><details><summary>Worked example: geometry with position vectors</summary><p>A(1, 1), B(4, 2) and C(6, 5) are three vertices of parallelogram ABCD, in order. Find D.</p><p><strong>Line 1:</strong> In parallelogram ABCD, AB = DC as vectors (opposite sides equal and parallel) (M1: property quoted).</p><p><strong>Line 2:</strong> AB = b - a = (4 - 1, 2 - 1) = (3, 1) (A1).</p><p><strong>Line 3:</strong> DC = c - d = (3, 1), so d = c - (3, 1) = (6, 5) - (3, 1) = (3, 4) (A1).</p><p><strong>Line 4:</strong> Check with the diagonals: midpoint of AC = ((1 + 6)/2, (1 + 5)/2) = (3.5, 3) and midpoint of BD = ((4 + 3)/2, (2 + 4)/2) = (3.5, 3) - equal, confirming D = (3, 4) (A1: verified).</p></details><p>Exam technique: (1) write AB as b - a before doing anything else - direction errors are the biggest single loss; (2) keep surds exact; (3) in 3D line intersections, always check the third equation and state skew or intersecting explicitly; (4) quote the property used (parallelogram, perpendicular, collinear) before the algebra; (5) for angle questions, give the answer in degrees or radians as the question demands, to 1 d.p. or 3 s.f. Board coverage: Edexcel 9MA0 Topic 10, AQA 7357 Section J, OCR A H640 14.01, WJEC/Eduqas AS/A2 vectors, CCEA AS1/A21 - all include 2D and 3D vectors, the scalar product and vector equations of lines.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> The points A and B have position vectors a = (2, 1, 3) and b = (5, 3, 7). Find the vector AB, the distance AB, and a unit vector in the direction of AB. (Edexcel 9MA0-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> AB = b - a = (5 - 2, 3 - 1, 7 - 3) = (3, 2, 4) (M1: subtract position vectors, A1). Distance: |AB| = sqrt(3^2 + 2^2 + 4^2) = sqrt(9 + 4 + 16) = sqrt(29) (M1 A1). Unit vector: AB/|AB| = (1/sqrt(29))(3, 2, 4), i.e. (3/sqrt(29), 2/sqrt(29), 4/sqrt(29)) (A1 A1: direction preserved, magnitude 1).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Find the angle between a = (1, 2, 2) and b = (2, 1, 0), in degrees to 1 d.p.</summary><div class="answer"><strong>Answer:</strong> a . b = (1)(2) + (2)(1) + (2)(0) = 4 (M1). |a| = 3, |b| = sqrt(5) (M1). cos(theta) = 4/(3sqrt(5)) = 0.5963 (A1). theta = arccos(0.5963) = 53.4 degrees (A1).</div></details>
+<details><summary>Find the value of x for which a = (2, -1, 3) and b = (1, x, -2) are perpendicular.</summary><div class="answer"><strong>Answer:</strong> Perpendicular requires a . b = 0 (M1). 2 - x - 6 = 0 (A1). So x = -4 (A1).</div></details>
+<details><summary>Find the vector equation of the line through A(1, 2, 0) with direction (2, -1, 4), and its Cartesian form.</summary><div class="answer"><strong>Answer:</strong> Vector equation: r = (1, 2, 0) + t(2, -1, 4) (M1 A1). Cartesian form: (x - 1)/2 = (y - 2)/(-1) = z/4 (A1: each component over its direction component).</div></details>
+<details><summary>Show that the points P(1, 2), Q(3, 4) and R(5, 6) are collinear.</summary><div class="answer"><strong>Answer:</strong> PQ = (2, 2) and QR = (2, 2) (M1: displacements). QR = 1 x PQ, so the displacements are parallel (A1). They share the point Q, so all three points lie on one line (A1: conclusion).</div></details>
+<details><summary>Lines L1: r = (1, 2, 2) + t(1, 1, 0) and L2: r = (1, 5, 1) + s(2, -1, 1). Determine whether they intersect, and if so find the point.</summary><div class="answer"><strong>Answer:</strong> Equate components: 1 + t = 1 + 2s and 2 + t = 5 - s (M1). From the first, t = 2s; substituting: 2 + 2s = 5 - s, so s = 1, t = 2 (A1). Third equation check: z of L1 at t = 2 is 2; z of L2 at s = 1 is 1 + 1 = 2 - they agree (A1). The lines intersect at (3, 4, 2) (A1).</div></details>
+<details><summary>A(1, 1), B(4, 2) and C(6, 5) are three vertices of parallelogram ABCD. Find the position vector of D.</summary><div class="answer"><strong>Answer:</strong> In a parallelogram the diagonals bisect each other, so the midpoint of AC equals the midpoint of BD (M1). d = a + c - b = (1, 1) + (6, 5) - (4, 2) = (3, 4) (A1). Check: AB = (3, 1) and DC = c - d = (3, 1), equal as vectors (A1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+maths+vectors+3D+scalar+product+vector+equation+of+a+line+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level maths vectors 3D scalar product vector equation of a line Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - AQA vectors topic pages with past paper questions and worked solutions</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - Edexcel vectors past paper questions arranged by topic (2D and 3D)</a></li>
+<li data-board="OCR"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - OCR A vectors past paper questions by topic</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT Maths revision site - vector questions transferable to WJEC/Eduqas and CCEA papers</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision - vectors notes, worksheets and solutions by board</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths revision hub - all A-Level Maths topics with past paper questions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT - past papers and mark schemes for AQA, Edexcel and OCR A-Level Maths</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/mathematics/integration.html">&larr; Integration</a><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Integration - A-Level Mathematics Revise Notes</title>
-<meta name="description" content="A-Level Mathematics revision: Integration. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
-<meta name="keywords" content="A-Level Mathematics, Integration, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<title>Integration - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Standard results, reverse chain rule, substitution, integration by parts, areas between curves, volumes of revolution and differential equations - A-Level pure maths calculus (Edexcel 9MA0 Topic 8, AQA 7357 Section H) revised with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Mathematics, Integration, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
 <meta property="og:title" content="Integration - A-Level Mathematics">
-<meta property="og:description" content="A-Level Mathematics revision: Integration. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta property="og:description" content="Standard results, reverse chain rule, substitution, integration by parts, areas between curves, volumes of revolution and differential equations - A-Level pure maths calculus (Edexcel 9MA0 Topic 8, AQA 7357 Section H) revised with worked examples and mark-scheme logic.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/mathematics/integration.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/mathematics/integration.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/mathematics/integration.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/mathematics/integration.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Integration">
-<meta name="twitter:description" content="Integration -- A-Level Mathematics revision notes.">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I spot whether to substitute or integrate by parts?", "acceptedAnswer": {"@type": "Answer", "text": "Look for the reverse chain pattern first: if the derivative of an inner function (up to a constant) multiplies the outer function, substitute or use the reverse chain rule directly. If the integrand is a product of unrelated function types (x with ln x, x with e^x, x with cos x), integrate by parts. A quotient with no matching derivative often needs substitution after rewriting."}}{"@type": "Question", "name": "Why does my area answer come out negative?", "acceptedAnswer": {"@type": "Answer", "text": "The definite integral measures signed area: below the axis counts negatively. Find where the curve crosses the axis, split the integral there, and add the absolute value of each piece. For area between curves, integrate top minus bottom - if the answer is negative, the curves were the wrong way round in that interval."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -25,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../mathematics.html">Mathematics</a>
-<a href="../../../alevellessons/topics/mathematics/integration.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html" class="active">Integration</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/calculus-differentiation-and-integration.html">Calculus: Differentiation and Integration</a></li><li><a href="../../topics/mathematics/coordinate-geometry-and-circles.html">Coordinate Geometry and Circles</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li><li><a href="../../topics/mathematics/statistical-distributions-and-hypothesis-testing.html">Statistical Distributions and Hypothesis Testing</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=scientific+calculator+A-Level&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Scientific Calculators</div>
-<div class="affiliate-card-desc">Essential for A-Level Maths exams</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=graph+paper+a4+pad&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Graph Paper Pads</div>
-<div class="affiliate-card-desc">A4 squared paper for maths</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=A-Level+Maths+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Maths Revision Guides</div>
-<div class="affiliate-card-desc">CGP and other revision guides</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html" class="active">Integration</a></li><li><a href="../../topics/mathematics/vectors.html">Vectors</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/probability-distributions.html">Probability and Distributions</a></li><li><a href="../../topics/mathematics/statistics-data.html">The Large Data Set</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -57,7 +45,7 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -69,122 +57,128 @@
 <h1>Integration</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">A-Level Mathematics revision: Integration. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.</p>
+<p class="topic-desc">Standard results, reverse chain rule, substitution, integration by parts, areas between curves, volumes of revolution and differential equations - A-Level pure maths calculus (Edexcel 9MA0 Topic 8, AQA 7357 Section H) revised with worked examples and mark-scheme logic.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
-<section class="section">
-<h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Power rule: ∫xⁿ dx = xⁿ⁺¹/(n+1) + C (n != -1)</div><div class="key-point"><strong>Key Fact:</strong> Special: ∫1/x dx = ln|x| + C, ∫eˣ dx = eˣ + C</div><div class="key-point"><strong>Key Fact:</strong> Trig: ∫sin x dx = -cos x + C, ∫cos x dx = sin x + C, ∫sec^2x dx = tan x + C</div><div class="key-point"><strong>Key Fact:</strong> Reverse chain: ∫f&#x27;(x)[f(x)]ⁿ dx = [f(x)]ⁿ⁺¹/(n+1) + C</div><div class="key-point"><strong>Key Fact:</strong> Substitution: let u = f(x), dx = du/f&#x27;(x), change limits if definite</div><div class="key-point"><strong>Key Fact:</strong> By parts: ∫u dv = uv - ∫v du (LIATE for choosing u)</div><div class="key-point"><strong>Key Fact:</strong> Definite: ∫ₐᵇ f(x)dx = F(b) - F(a), area = ∫|f(x)|dx</div><div class="key-point"><strong>Key Fact:</strong> Area between curves: ∫(top - bottom)dx over intersection interval</div><div class="key-point"><strong>Key Fact:</strong> Volume of revolution: V = pi∫y^2 dx (about x-axis) or pi∫x^2 dy (about y-axis)</div>
-</section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Integrate polynomials, rational and negative powers</li><li>Use reverse chain rule for composite functions</li><li>Integrate trigonometric, exponential and logarithmic functions</li><li>Apply substitution and integration by parts</li><li>Evaluate definite integrals and find area under curves</li><li>Find area between two curves</li><li>Calculate volumes of revolution (disc/washer method)</li><li>Solve differential equations by separation of variables</li></ul>
+<ul>
+<li>Integrate polynomials and negative powers with the power rule, and recall the standard results for 1/x, e^x and basic trigonometric functions (AO1) - Edexcel 9MA0 8.1, AQA 7357 H1</li>
+<li>Integrate composite functions using the reverse chain rule and substitution, changing limits correctly in definite integrals (AO1/AO2) - Edexcel 9MA0 8.2/8.5, AQA 7357 H2</li>
+<li>Apply integration by parts, choosing u sensibly and repeating where needed (AO1/AO2) - Edexcel 9MA0 8.5, AQA 7357 H3</li>
+<li>Evaluate definite integrals and find areas under and between curves, splitting where the curve crosses the axis (AO2) - Edexcel 9MA0 8.3, AQA 7357 H4</li>
+<li>Calculate volumes of revolution about the x-axis and y-axis (AO1/AO2) - Edexcel 9MA0 8.4, AQA 7357 H4</li>
+<li>Form and solve differential equations by separation of variables, finding particular solutions from initial conditions (AO2/AO3) - Edexcel 9MA0 8.6, AQA 7357 H5</li>
+</ul>
 </section>
-
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Indefinite integral:</strong> The reverse of differentiation: a family of functions differing by a constant, written with the + C.</div>
+<div class="key-point"><strong>Constant of integration:</strong> The arbitrary constant C added to every indefinite integral, since differentiating any constant gives zero.</div>
+<div class="key-point"><strong>Definite integral:</strong> The integral with limits, evaluated as F(b) - F(a); it measures signed area between the curve and the axis.</div>
+<div class="key-point"><strong>Integration by substitution:</strong> Reversing the chain rule: let u = f(x), rewrite dx = du/f&#x27;(x), and change the limits when the integral is definite.</div>
+<div class="key-point"><strong>Integration by parts:</strong> The reverse of the product rule: the integral of u (dv/dx) = uv - the integral of v (du/dx); choose u by the LIATE order.</div>
+<div class="key-point"><strong>Volume of revolution:</strong> The volume formed by rotating a curve about an axis: V = (pi) times the integral of y^2 dx about the x-axis, or (pi) times the integral of x^2 dy about the y-axis.</div>
+<div class="key-point"><strong>Differential equation:</strong> An equation involving a derivative, such as dy/dx = 2xy; solved by separating the variables and integrating both sides.</div>
+<div class="key-point"><strong>Particular solution:</strong> The member of the solution family fixed by an initial or boundary condition, which determines the constant of integration.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Power rule: the integral of x^n dx = x^(n+1)/(n+1) + C for n not -1; special: 1/x gives ln|x| + C, e^x gives e^x + C.</div>
+<div class="key-point">Trig: the integral of sin x dx = -cos x + C; cos x dx = sin x + C; sec^2 x dx = tan x + C - always check the sign on sine.</div>
+<div class="key-point">Reverse chain rule: the integral of f&#x27;(x)[f(x)]^n dx = [f(x)]^(n+1)/(n+1) + C; the integral of f&#x27;(x)e^(f(x)) dx = e^(f(x)) + C.</div>
+<div class="key-point">Substitution: u = f(x), dx = du/f&#x27;(x), and CHANGE the limits for definite integrals. By parts: the integral of u dv = uv - the integral of v du; choose u by LIATE.</div>
+<div class="key-point">Definite integral F(b) - F(a) measures signed area: split where f crosses the axis. Area between curves: the integral of (top - bottom) dx. Volumes: V = (pi) times the integral of y^2 dx (x-axis) or (pi) times the integral of x^2 dy (y-axis).</div>
+</section>
+<section class="section">
+<h2>Integration fundamentals: reversing differentiation</h2>
+<p>Integration is the reverse of differentiation plus a <strong>constant of integration</strong> (Edexcel 9MA0 8.1; AQA 7357 H1; OCR A H640 12.01). The power rule: the integral of x^n dx = x^(n+1)/(n+1) + C for any n except -1 - raise the power by one and divide by the new power. The two exceptions and extras are recall material: the integral of 1/x dx = ln|x| + C (note the modulus); the integral of e^x dx = e^x + C; and the trigonometric results the integral of sin x dx = -cos x + C, the integral of cos x dx = sin x + C, and the integral of sec^2 x dx = tan x + C. The sign on the sine integral is the classic slip - check it by differentiating your answer, since d/dx(-cos x) = sin x confirms it.</p><p>A <strong>definite integral</strong> has limits and evaluates to a number: the integral from a to b of f(x) dx = F(b) - F(a), with no constant needed. It measures <em>signed</em> area: regions below the axis contribute negatively, so area questions split the integral where the curve crosses the axis. Polynomials integrate term by term exactly as they differentiate, so fluency here is mechanical - the marks are lost in the exceptions (the modulus in ln|x|, the sign on -cos x) and in the techniques that follow. Writing the antiderivative line explicitly before substituting limits earns the method mark - jumping straight to a number is where marks are lost.</p><details><summary>Worked example: basic definite integral</summary><p>Evaluate the integral from 1 to 3 of (2x + 1/x) dx.</p><p><strong>Line 1:</strong> Antiderivative: x^2 + ln|x| (M1: power rule plus ln result).</p><p><strong>Line 2:</strong> Substitute limits: (9 + ln 3) - (1 + ln 1) = 8 + ln 3 (A1).</p><p><strong>Line 3:</strong> = 8 + 1.0986 = 9.10 (A1: 3 s.f. if decimals requested; 8 + ln 3 is the exact form).</p></details>
+</section>
+<section class="section">
+<h2>Reverse chain rule and substitution</h2>
+<p>The <strong>reverse chain rule</strong> handles integrals where a derivative sits alongside a function of itself: the integral of f'(x)[f(x)]^n dx = [f(x)]^(n+1)/(n+1) + C, and the integral of f'(x)e^(f(x)) dx = e^(f(x)) + C. Spot the pattern first - if the derivative of the inner function (up to a constant) multiplies the outer function, the reverse chain rule is the fast route, no substitution needed.</p><p><strong>Substitution</strong> (Edexcel 9MA0 8.5; AQA 7357 H2; OCR A H640 17.01) is the general version: let u = f(x), compute du/dx, rewrite dx = du/(du/dx), and replace every x in the integrand. For definite integrals, <strong>change the limits</strong> from x-values to u-values - then the integral is entirely in u and no back-substitution is needed. Forgetting the limit change is the most common error, and it silently produces a wrong answer if the integrand is also back-substituted inconsistently.</p><details><summary>Worked example: substitution with limit change</summary><p>Evaluate the integral from 0 to 2 of x sqrt(4 - x^2) dx using the substitution u = 4 - x^2.</p><p><strong>Line 1:</strong> du/dx = -2x, so x dx = -du/2 (M1: substitution set up).</p><p><strong>Line 2:</strong> Limits: x = 0 gives u = 4; x = 2 gives u = 0 (M1: limits changed).</p><p><strong>Line 3:</strong> Integral becomes the integral from 4 to 0 of u^(1/2) (-1/2) du = (1/2) times the integral from 0 to 4 of u^(1/2) du (A1: flipped and simplified).</p><p><strong>Line 4:</strong> = (1/2)[(2/3)u^(3/2)] from 0 to 4 = (1/3)(8) = 8/3 (A1: exact answer).</p></details><details><summary>Worked example: reverse chain rule spot</summary><p>Evaluate the integral from 0 to 1 of x/(1 + x^2)^2 dx.</p><p><strong>Line 1:</strong> The derivative of 1 + x^2 is 2x, which matches the numerator up to a constant (M1: reverse chain spot).</p><p><strong>Line 2:</strong> Antiderivative: -1/(2(1 + x^2)) (A1).</p><p><strong>Line 3:</strong> Limits: [-1/(2(1 + x^2))] from 0 to 1 = -1/4 - (-1/2) = 1/4 (A1).</p></details>
+</section>
+<section class="section">
+<h2>Integration by parts</h2>
+<p><strong>Integration by parts</strong> (Edexcel 9MA0 8.5; AQA 7357 H3; OCR A H640 17.01) reverses the product rule: the integral of u (dv/dx) dx = uv - the integral of v (du/dx) dx. Choosing u follows the <strong>LIATE</strong> order - Logs, Inverse trig, Algebraic, Trig, Exponential - pick u as the earliest category present, because u must simplify when differentiated and dv/dx must survive integration. Logs go first: ln x differentiates to the clean 1/x; exponentials go last: e^x integrates to itself without simplifying.</p><details><summary>Worked example: log first</summary><p>Use integration by parts to find the integral of x ln x dx.</p><p><strong>Line 1:</strong> u = ln x, dv/dx = x, so du/dx = 1/x and v = x^2/2 (M1: LIATE choice of u).</p><p><strong>Line 2:</strong> Integral = (x^2/2) ln x - the integral of (x^2/2)(1/x) dx (M1: formula applied).</p><p><strong>Line 3:</strong> = (x^2/2) ln x - the integral of x/2 dx = (x^2/2) ln x - x^2/4 + C (A1).</p></details><details><summary>Worked example: algebraic before trig</summary><p>Find the integral of x cos x dx.</p><p><strong>Line 1:</strong> u = x (algebraic), dv/dx = cos x, so du/dx = 1 and v = sin x (M1).</p><p><strong>Line 2:</strong> Integral = x sin x - the integral of sin x dx (M1).</p><p><strong>Line 3:</strong> = x sin x + cos x + C (A1: sign on the sine integral).</p></details><p>Some integrals need <strong>by parts twice</strong>: the integral of x^2 e^x dx = x^2 e^x - the integral of 2x e^x dx, and the remaining integral needs by parts again, giving x^2 e^x - 2x e^x + 2 e^x + C = e^x(x^2 - 2x + 2) + C. The classic cyclic case is the integral of e^x sin x dx, where applying by parts twice returns the original integral, which is then solved algebraically. Keep the same u-type on the second application, or the algebra cycles without progress.</p>
+</section>
+<section class="section">
+<h2>Areas between curves and volumes of revolution</h2>
+<p>The definite integral measures signed area, so <strong>area questions</strong> need care where the curve crosses the axis (Edexcel 9MA0 8.3; AQA 7357 H4; OCR A H640 12.01/17.01). Find where f(x) = 0, split the integral at those points, and add the absolute values. The <strong>area between two curves</strong> is the integral of (top - bottom) dx over the interval between their intersections - find the intersections first, and check which curve is on top in that interval.</p><details><summary>Worked example: area under a curve crossing the axis</summary><p>The region R is bounded by y = 4 - x^2 and the x-axis. Find the exact area of R.</p><p><strong>Line 1:</strong> Intersections: 4 - x^2 = 0, so x = -2 and x = 2 (M1: limits found).</p><p><strong>Line 2:</strong> The curve is above the axis throughout (-2, 2), so area = the integral from -2 to 2 of (4 - x^2) dx (M1).</p><p><strong>Line 3:</strong> Antiderivative: 4x - x^3/3; at 2: 8 - 8/3 = 16/3; at -2: -8 + 8/3 = -16/3 (A1).</p><p><strong>Line 4:</strong> Area = 16/3 - (-16/3) = 32/3 (A1: exact).</p></details><details><summary>Worked example: volume of revolution</summary><p>The curve y = sqrt(x) from x = 0 to x = 4 is rotated a full turn about the x-axis. Find the exact volume formed.</p><p><strong>Line 1:</strong> V = (pi) times the integral from 0 to 4 of y^2 dx = (pi) times the integral from 0 to 4 of x dx (M1: formula, y^2 = x).</p><p><strong>Line 2:</strong> = (pi)[x^2/2] from 0 to 4 = (pi)(8) = 8(pi) (A1: exact volume, units cubed).</p></details><p>For rotation about the y-axis, use V = (pi) times the integral of x^2 dy with the y-limits, rewriting the curve as x = f(y) first. Volumes always carry the (pi) factor and units cubed - dropping the (pi) or integrating y instead of y^2 are the two standard errors. For a region between two curves rotated about the axis, the <strong>washer method</strong> applies: V = (pi) times the integral of (R^2 - r^2) dx, where R is the outer radius (the top curve) and r the inner radius (the bottom curve) - integrate the difference of the <em>squares</em>, not the square of the difference.</p>
+</section>
+<section class="section">
+<h2>Differential equations and exam technique</h2>
+<p>A <strong>differential equation</strong> involving dy/dx is solved by <strong>separation of variables</strong> (Edexcel 9MA0 8.6; AQA 7357 H5; OCR A H640 17.01): move every y term to the dy side and every x term to the dx side, integrate both sides, and use an initial condition to find C. A <strong>general solution</strong> keeps C arbitrary; a <strong>particular solution</strong> fixes it from the condition.</p><details><summary>Worked example: separable equation with an initial condition</summary><p>Solve dy/dx = 2xy, given that y = 3 when x = 0.</p><p><strong>Line 1:</strong> Separate: (1/y) dy = 2x dx (M1: variables separated).</p><p><strong>Line 2:</strong> Integrate: ln|y| = x^2 + C (A1: both sides integrated).</p><p><strong>Line 3:</strong> Exponentiate: y = A e^(x^2), absorbing the constant (M1: general solution).</p><p><strong>Line 4:</strong> Initial condition: y(0) = 3 gives A = 3, so y = 3e^(x^2) (A1: particular solution).</p></details><p>Exam technique across the topic: (1) write the antiderivative line explicitly before substituting limits - the method mark lives there; (2) change limits when substituting in a definite integral, or back-substitute consistently - mixing the two produces silent errors; (3) check every indefinite integral by differentiating the answer (the -cos x check); (4) in area questions, split at axis crossings and add absolute values; (5) in volume questions, keep the (pi) and integrate y^2, not y; (6) in differential equations, separate cleanly, keep ln|y| with the modulus, and state the particular solution in the form asked. Board coverage: Edexcel 9MA0 Topic 8, AQA 7357 H1-H5, OCR A H640 12.01 and 17.01, WJEC/Eduqas AS/A2 Units, CCEA AS1/A21 - identical techniques, differing wording.</p>
+</section>
 <section class="section">
 <h2>💡 Worked Example</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Evaluate ∫₀^2 xsqrt(4 - x^2) dx using substitution u = 4 - x^2</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Answer:</strong></p>
-<p>u = 4 - x^2, du = -2x dx -&gt; x dx = -½ du. Limits: x=0-&gt;u=4, x=2-&gt;u=0. ∫₄⁰ sqrtu (-½)du = ½∫₀⁴ u^½ du = ½[⅔u^⅔]₀⁴ = ⅓(8) = 8/3</p>
-</div>
-</div>
+<div class="question"><strong>Exam-style:</strong> Evaluate the integral from 0 to 2 of x sqrt(4 - x^2) dx using the substitution u = 4 - x^2. (Edexcel 9MA0-style, 5 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> u = 4 - x^2, so du/dx = -2x and x dx = -du/2 (M1: substitution and differential). Change the limits: x = 0 gives u = 4, and x = 2 gives u = 0 (B1: limits changed). The integral becomes the integral from 4 to 0 of u^(1/2) (-1/2) du = (1/2) times the integral from 0 to 4 of u^(1/2) du (M1: rewritten, flipped). Evaluating: (1/2)[(2/3)u^(3/2)] from 0 to 4 = (1/3)(4^(3/2)) = (1/3)(8) = 8/3 (A1: exact answer).</div>
 </section>
 <section class="section">
-<h2>❓ Practice Questions</h2><p class="q-note">Model answers are being added progressively - questions marked &#10007; don't have one yet. Cross-check with your teacher or the official mark scheme.</p>
-<div class="practice-questions">
-<div class="question">
-<p><strong>Questions:</strong></p>
-<ul><li>∫(3x^2 - 2x + 5)e^{x^3-x^2+5x} dx<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>∫x cos x dx (by parts)<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>∫₀¹ x/(1+x^2)^2 dx<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Area between y = x^2 and y = 2x - x^2<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Volume when y = sqrtx, 0&lt;=x&lt;=4 rotated about x-axis<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Solve dy/dx = 2xy, y(0)=3<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
-</div>
-<div class="question">
-  <p><strong>Q1:</strong> Evaluate the definite integral &#8747;&#8320;&#178; x(x&#178; + 1)&#179; dx.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Reverse chain rule: the derivative of x&#178; + 1 is 2x, so &#8747;x(x&#178; + 1)&#179; dx = (x&#178; + 1)&#8308;/8 + C. Evaluating from 0 to 2: [(2&#178; + 1)&#8308;/8] - [(0&#178; + 1)&#8308;/8] = (625 - 1)/8 = 624/8 = 78.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> Use integration by parts to find &#8747; x ln x dx.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> By parts with u = ln x and dv/dx = x: du/dx = 1/x, v = x&#178;/2. &#8747;x ln x dx = (x&#178;/2)ln x - &#8747;(x&#178;/2)(1/x) dx = (x&#178;/2)ln x - &#8747;x/2 dx = (x&#178;/2)ln x - x&#178;/4 + C.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> The region R is bounded by the curve y = 4 - x&#178; and the x-axis. Find the exact area of R.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> The curve meets the x-axis where 4 - x&#178; = 0, i.e. x = &#177;2. Area = &#8747;&#8331;&#8322;&#178; (4 - x&#178;) dx = [4x - x&#179;/3] from -2 to 2 = (8 - 8/3) - (-8 + 8/3) = 16 - 16/3 = 32/3.</p>
-    </div>
-  </details>
-</div>
-</div>
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Find the integral of (3x^2 - 2x + 5)e^(x^3 - x^2 + 5x) dx.</summary><div class="answer"><strong>Answer:</strong> The derivative of the exponent x^3 - x^2 + 5x is 3x^2 - 2x + 5, which matches the multiplier (M1: reverse chain spot). So the integral = e^(x^3 - x^2 + 5x) + C (A1).</div></details>
+<details><summary>Use integration by parts to find the integral of x cos x dx.</summary><div class="answer"><strong>Answer:</strong> u = x (algebraic before trig), dv/dx = cos x; du/dx = 1, v = sin x (M1). Integral = x sin x - the integral of sin x dx (M1). = x sin x + cos x + C (A1: check the sign).</div></details>
+<details><summary>Evaluate the integral from 0 to 1 of x/(1 + x^2)^2 dx.</summary><div class="answer"><strong>Answer:</strong> The derivative of 1 + x^2 is 2x, matching the numerator up to a constant (M1). Antiderivative: -1/(2(1 + x^2)) (A1). Limits: -1/4 - (-1/2) = 1/4 (A1).</div></details>
+<details><summary>Find the area of the region bounded by y = x^2 and y = 2x - x^2.</summary><div class="answer"><strong>Answer:</strong> Intersections: x^2 = 2x - x^2, so 2x^2 - 2x = 0, x = 0 or 1 (M1). Between 0 and 1, 2x - x^2 &gt; x^2, so area = the integral from 0 to 1 of (2x - 2x^2) dx (M1: top minus bottom). = [x^2 - (2/3)x^3] from 0 to 1 = 1 - 2/3 = 1/3 (A1).</div></details>
+<details><summary>The curve y = sqrt(x) from x = 0 to x = 4 is rotated a full turn about the x-axis. Find the exact volume formed.</summary><div class="answer"><strong>Answer:</strong> V = (pi) times the integral from 0 to 4 of y^2 dx = (pi) times the integral from 0 to 4 of x dx (M1: formula with y^2). = (pi)[x^2/2] from 0 to 4 = (pi)(8) = 8(pi) (A1: exact, units cubed).</div></details>
+<details><summary>Use integration by parts twice to find the integral of x^2 e^x dx.</summary><div class="answer"><strong>Answer:</strong> u = x^2, dv/dx = e^x: integral = x^2 e^x - the integral of 2x e^x dx (M1). Second application: the integral of 2x e^x dx = 2x e^x - the integral of 2e^x dx = 2x e^x - 2e^x (M1). Combining: x^2 e^x - 2x e^x + 2e^x + C = e^x(x^2 - 2x + 2) + C (A1).</div></details>
 </section>
 <section class="section">
 <h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Integration+A-Level" target="_blank" rel="noopener">Integration - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Integration+exam+questions" target="_blank" rel="noopener">Integration - Exam Questions</a> -- YouTube Search</li></ul>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+maths+integration+by+parts+substitution+volumes+of+revolution+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level maths integration by parts substitution volumes of revolution Edexcel revision</a></li></ul>
 </section>
 <section class="section">
 <h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Mathematics - Integration</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level Mathematics - Integration</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level Mathematics - Integration</a> -- OCR</li></ul>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - AQA integration topic pages with past paper questions and worked solutions</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - Edexcel integration past paper questions arranged by topic</a></li>
+<li data-board="OCR"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - OCR A integration and area past paper questions by topic</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT Maths revision site - integration questions transferable to WJEC/Eduqas and CCEA papers</a></li>
+</ul>
 </section>
 <section class="section">
 <h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/pure-maths/integration/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - Integration</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths - Integration</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize/search?q=Integration" target="_blank" rel="noopener">BBC Bitesize - Integration</a> -- BBC Bitesize revision resources</li></ul>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision - integration notes, worksheets and solutions by board</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths revision hub - all A-Level Maths topics with past paper questions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT - past papers and mark schemes for AQA, Edexcel and OCR A-Level Maths</a></li>
+</ul>
 </section>
-
-
 
 <section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/mathematics/differentiation.html">← Differentiation</a>
-<a href="../../mathematics.html">← Back to Mathematics Overview</a>
-<a href="../../topics/mathematics/trigonometry.html">Trigonometry →</a>
-</nav>
 
-
-
-
+<nav class="topic-nav"><a href="../../topics/mathematics/differentiation.html">&larr; Differentiation</a><a href="../../topics/mathematics/vectors.html">Vectors &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
@@ -205,13 +199,12 @@ if (localStorage.getItem('alevelrevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -229,27 +222,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
 </body></html>

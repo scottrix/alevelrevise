@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Trigonometry - A-Level Mathematics Revise Notes</title>
-<meta name="description" content="A-Level Mathematics revision: Trigonometry. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
-<meta name="keywords" content="A-Level Mathematics, Trigonometry, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<title>Trigonometry - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Radians, exact values, identities, compound and double angles, the R-formula, sine and cosine rules and trigonometric equations - A-Level pure maths trigonometry (Edexcel 9MA0 Topic 5, AQA 7357 Section E) revised with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Mathematics, Trigonometry, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
 <meta property="og:title" content="Trigonometry - A-Level Mathematics">
-<meta property="og:description" content="A-Level Mathematics revision: Trigonometry. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta property="og:description" content="Radians, exact values, identities, compound and double angles, the R-formula, sine and cosine rules and trigonometric equations - A-Level pure maths trigonometry (Edexcel 9MA0 Topic 5, AQA 7357 Section E) revised with worked examples and mark-scheme logic.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/mathematics/trigonometry.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/mathematics/trigonometry.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/mathematics/trigonometry.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/mathematics/trigonometry.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Trigonometry">
-<meta name="twitter:description" content="Trigonometry -- A-Level Mathematics revision notes.">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I avoid losing solutions when solving trig equations?", "acceptedAnswer": {"@type": "Answer", "text": "Never divide both sides by a trig function - factorise instead, so the factor you would have divided by contributes its own solutions (cos(theta) = 0 gives theta = pi/2 + k(pi)). Then sketch or CAST to find every solution in the stated interval before answering."}}{"@type": "Question", "name": "Radians or degrees - which should I use?", "acceptedAnswer": {"@type": "Answer", "text": "Default to radians: A-level calculus and the R-formula questions assume radians, and arc length s = r(theta) only works in radians. Switch to degrees only when the question states degrees, and change the calculator mode to match - a mode mismatch is one of the most common silent mark losses."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -25,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../mathematics.html">Mathematics</a>
-<a href="../../../alevellessons/topics/mathematics/trigonometry.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/trigonometry.html" class="active">Trigonometry</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/calculus-differentiation-and-integration.html">Calculus: Differentiation and Integration</a></li><li><a href="../../topics/mathematics/coordinate-geometry-and-circles.html">Coordinate Geometry and Circles</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li><li><a href="../../topics/mathematics/statistical-distributions-and-hypothesis-testing.html">Statistical Distributions and Hypothesis Testing</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=scientific+calculator+A-Level&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Scientific Calculators</div>
-<div class="affiliate-card-desc">Essential for A-Level Maths exams</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=graph+paper+a4+pad&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Graph Paper Pads</div>
-<div class="affiliate-card-desc">A4 squared paper for maths</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=A-Level+Maths+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Maths Revision Guides</div>
-<div class="affiliate-card-desc">CGP and other revision guides</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/trigonometry.html" class="active">Trigonometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/vectors.html">Vectors</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/probability-distributions.html">Probability and Distributions</a></li><li><a href="../../topics/mathematics/statistics-data.html">The Large Data Set</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -57,7 +45,7 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -69,122 +57,130 @@
 <h1>Trigonometry</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">A-Level Mathematics revision: Trigonometry. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.</p>
+<p class="topic-desc">Radians, exact values, identities, compound and double angles, the R-formula, sine and cosine rules and trigonometric equations - A-Level pure maths trigonometry (Edexcel 9MA0 Topic 5, AQA 7357 Section E) revised with worked examples and mark-scheme logic.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
-<section class="section">
-<h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Exact values table: sin/cos/tan for 0, pi/6, pi/4, pi/3, pi/2</div><div class="key-point"><strong>Key Fact:</strong> Compound angles: sin(A+/-B), cos(A+/-B), tan(A+/-B)</div><div class="key-point"><strong>Key Fact:</strong> Double angle: sin 2A = 2 sin A cos A, cos 2A = cos^2A - sin^2A = 2cos^2A-1 = 1-2sin^2A</div><div class="key-point"><strong>Key Fact:</strong> R-formula: a sin θ + b cos θ = R sin(θ + α) where R = sqrt(a^2+b^2), tan α = b/a</div><div class="key-point"><strong>Key Fact:</strong> Sine rule: a/sin A = b/sin B = c/sin C (ambiguous case SSA)</div><div class="key-point"><strong>Key Fact:</strong> Cosine rule: a^2 = b^2 + c^2 - 2bc cos A</div><div class="key-point"><strong>Key Fact:</strong> Area = ½ab sin C = ½bc sin A = ½ca sin B</div><div class="key-point"><strong>Key Fact:</strong> Graph transformations: y = a sin(bx + c) + d: amplitude |a|, period 2pi/|b|, phase -c/b, vertical shift d</div><div class="key-point"><strong>Key Fact:</strong> Inverse: arcsin x ∈ [-pi/2, pi/2], arccos x ∈ [0, pi], arctan x ∈ (-pi/2, pi/2)</div>
-</section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Use exact values for 0 deg , 30 deg , 45 deg , 60 deg , 90 deg  and radian equivalents</li><li>Apply compound angle, double angle, and half-angle formulae</li><li>Solve trigonometric equations in given intervals</li><li>Prove trigonometric identities</li><li>Apply sine rule, cosine rule, and area = ½ab sin C</li><li>Sketch graphs of sin, cos, tan and their transformations</li><li>Understand inverse trigonometric functions and their domains/ranges</li><li>Express a sin θ +/- b cos θ in the form R sin(θ +/- α)</li></ul>
+<ul>
+<li>Work in radians and degrees, using s = r(theta) and A = 1/2 r^2 (theta) for arcs and sectors, and recall exact values for 0, pi/6, pi/4, pi/3, pi/2 (AO1) - Edexcel 9MA0 5.1-5.2, AQA 7357 E1</li>
+<li>Sketch sin, cos and tan graphs and their transformations y = a sin(bx + c) + d, stating amplitude, period and phase (AO1/AO2) - Edexcel 9MA0 5.1, AQA 7357 E1</li>
+<li>Use the core identities sin^2 + cos^2 = 1 and tan = sin/cos to solve equations and prove identities (AO1/AO2) - Edexcel 9MA0 5.4, AQA 7357 E4</li>
+<li>Apply compound angle, double angle and R-formula results, including expressing a sin(theta) + b cos(theta) as R sin(theta + alpha) (AO1/AO2) - Edexcel 9MA0 5.5, AQA 7357 E6</li>
+<li>Solve trigonometric equations in a given interval, using the CAST diagram or graphs and rejecting impossible solutions (AO2) - Edexcel 9MA0 5.4, AQA 7357 E4</li>
+<li>Apply the sine rule (including the ambiguous case), cosine rule and area = 1/2 ab sin C to triangles (AO2) - Edexcel 9MA0 5.3, AQA 7357 E3</li>
+<li>Use inverse trigonometric functions with their domains and ranges, and small-angle approximations (AO1/AO2)</li>
+</ul>
 </section>
-
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Radian:</strong> The angle subtended at the centre of a circle by an arc equal in length to the radius; pi radians = 180 degrees.</div>
+<div class="key-point"><strong>Exact value:</strong> The precise surd or rational form of a trigonometric ratio at a standard angle, such as sin(pi/6) = 1/2 and cos(pi/3) = 1/2, tan(pi/4) = 1.</div>
+<div class="key-point"><strong>Compound angle formulae:</strong> sin(A +/- B) = sin A cos B +/- cos A sin B; cos(A +/- B) = cos A cos B -/+ sin A sin B; tan(A +/- B) = (tan A +/- tan B)/(1 -/+ tan A tan B).</div>
+<div class="key-point"><strong>Double angle formulae:</strong> sin 2A = 2 sin A cos A; cos 2A = cos^2 A - sin^2 A = 2cos^2 A - 1 = 1 - 2sin^2 A; tan 2A = 2 tan A/(1 - tan^2 A).</div>
+<div class="key-point"><strong>R-formula:</strong> a sin(theta) + b cos(theta) = R sin(theta + alpha) with R = sqrt(a^2 + b^2) and tan(alpha) = b/a; exposes the maximum R and minimum -R.</div>
+<div class="key-point"><strong>Sine rule:</strong> a/sin A = b/sin B = c/sin C; used when two angles and a side, or two sides and a non-included angle, are known.</div>
+<div class="key-point"><strong>Cosine rule:</strong> a^2 = b^2 + c^2 - 2bc cos A; used when two sides and the included angle are known, or all three sides to find an angle.</div>
+<div class="key-point"><strong>Ambiguous case:</strong> In the sine rule with two sides and a non-included angle (SSA), two different triangles can satisfy the data - check for a second solution.</div>
+<div class="key-point"><strong>Inverse trigonometric functions:</strong> arcsin has range [-pi/2, pi/2], arccos has range [0, pi], arctan has range (-pi/2, pi/2); each returns the principal value.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Exact values: sin: 0, 1/2, sqrt(2)/2, sqrt(3)/2, 1; cos: 1, sqrt(3)/2, sqrt(2)/2, 1/2, 0 for pi/6 steps from 0 to pi/2; tan = sin/cos.</div>
+<div class="key-point">Core identity: sin^2(theta) + cos^2(theta) = 1; tan(theta) = sin(theta)/cos(theta) when cos(theta) is not 0.</div>
+<div class="key-point">Compound angles: sin(A +/- B) = sin A cos B +/- cos A sin B; cos(A +/- B) = cos A cos B -/+ sin A sin B; double angle: sin 2A = 2 sin A cos A, cos 2A in three forms.</div>
+<div class="key-point">R-formula: a sin(theta) + b cos(theta) = R sin(theta + alpha), R = sqrt(a^2 + b^2), tan(alpha) = b/a; maximum R, minimum -R.</div>
+<div class="key-point">Sine rule a/sin A = b/sin B = c/sin C (ambiguous case SSA); cosine rule a^2 = b^2 + c^2 - 2bc cos A; area = 1/2 ab sin C.</div>
+</section>
+<section class="section">
+<h2>Radians, exact values and graphs</h2>
+<p>A-level trigonometry is done in <strong>radians</strong> by default (Edexcel 9MA0 5.1-5.2; AQA 7357 E1-E2; OCR A H640 9.01; WJEC/Eduqas and CCEA AS Pure Mathematics): pi radians = 180 degrees, so pi/6 = 30 degrees, pi/4 = 45 degrees, pi/3 = 60 degrees, pi/2 = 90 degrees. Radians make arc length and sector area clean: arc length s = r(theta) and sector area A = 1/2 r^2 (theta), with theta in radians - no 360-degree factor needed. Convert always when a question mixes degrees and radians, and keep the calculator in the right mode: degree-mode calculators silently give wrong values in calculus questions.</p><p>Exact values are recall material, not derivation material. The sin row climbs 0, 1/2, sqrt(2)/2, sqrt(3)/2, 1 across 0, pi/6, pi/4, pi/3, pi/2; the cos row runs in reverse; tan = sin/cos gives 0, 1/sqrt(3), 1, sqrt(3), undefined. Answers demanding exact form must keep the surds - 0.866 loses the mark.</p><p>The graphs: y = sin x and y = cos x have amplitude 1 and period 2pi, with cos x = sin(x + pi/2); y = tan x has period pi and vertical asymptotes where cos x = 0, at pi/2 + k(pi). Transformations follow the general pattern y = a sin(bx + c) + d: amplitude |a|, period 2pi/|b|, phase shift -c/b, vertical shift d. So y = 2cos(2x - pi/3) has amplitude 2, period pi and phase shift pi/6 to the right - a max of 2 occurs at x = pi/6 + k(pi).</p><p>Inverse functions restrict to principal values: arcsin x has range [-pi/2, pi/2], arccos x has range [0, pi], arctan x has range (-pi/2, pi/2). These restrictions matter when solving equations involving inverse functions, since the inverse only returns one branch.</p>
+</section>
+<section class="section">
+<h2>Core identities and solving equations</h2>
+<p>Two identities drive almost everything (Edexcel 9MA0 5.4; AQA 7357 E4; OCR A H640 10.01): <strong>sin^2(theta) + cos^2(theta) = 1</strong> and <strong>tan(theta) = sin(theta)/cos(theta)</strong>. The identity is used in two directions: to replace sin^2 with 1 - cos^2 (or vice versa) when an equation mixes both, and to prove identities. The solving routine: (1) isolate or factorise to get a single trig function equal to a constant; (2) find the reference (acute) angle; (3) use the CAST diagram or a graph to find all solutions in the interval; (4) check every solution lies in the required interval.</p><details><summary>Worked example: factorising a trig equation</summary><p>Solve 2cos^2(theta) + sin(theta) - 1 = 0 for 0 <= theta < 2pi, giving exact answers.</p><p><strong>Line 1:</strong> Replace cos^2(theta) with 1 - sin^2(theta): 2(1 - sin^2(theta)) + sin(theta) - 1 = 0 (M1: identity substitution).</p><p><strong>Line 2:</strong> -2sin^2(theta) + sin(theta) + 1 = 0, i.e. 2sin^2(theta) - sin(theta) - 1 = 0 (A1).</p><p><strong>Line 3:</strong> Factorising: (2sin(theta) + 1)(sin(theta) - 1) = 0, so sin(theta) = -1/2 or sin(theta) = 1 (M1).</p><p><strong>Line 4:</strong> sin(theta) = 1: theta = pi/2 (A1). sin(theta) = -1/2: reference angle pi/6, sine negative in quadrants 3 and 4, so theta = 7pi/6 and theta = 11pi/6 (A1 A1).</p></details><p>Two habits protect marks: <strong>never divide by a trig factor</strong> - cos(theta)(4sin(theta) - sqrt(3)) = 0 must be factorised, not divided by cos(theta), because dividing destroys the cos(theta) = 0 solutions; and always sketch or CAST before listing solutions, since the interval determines how many there are.</p><details><summary>Worked example: never divide by a trig factor</summary><p>Solve 2sin(2theta) = sqrt(3)cos(theta) for 0 <= theta < 2pi.</p><p><strong>Line 1:</strong> 2(2sin(theta)cos(theta)) = sqrt(3)cos(theta) (M1: double angle).</p><p><strong>Line 2:</strong> 4sin(theta)cos(theta) - sqrt(3)cos(theta) = 0, so cos(theta)(4sin(theta) - sqrt(3)) = 0 (M1: factorise, do not divide).</p><p><strong>Line 3:</strong> cos(theta) = 0: theta = pi/2, 3pi/2 (A1).</p><p><strong>Line 4:</strong> sin(theta) = sqrt(3)/4 = 0.4330: theta = arcsin(0.4330) = 0.448 and theta = pi - 0.448 = 2.694 (A1 A1).</p></details>
+</section>
+<section class="section">
+<h2>Compound angles, double angles and the R-formula</h2>
+<p>The <strong>compound angle formulae</strong> (Edexcel 9MA0 5.5; AQA 7357 E6; OCR A H640 10.01) expand sin(A +/- B), cos(A +/- B) and tan(A +/- B); the <strong>double angle formulae</strong> follow by setting B = A. sin 2A = 2 sin A cos A; cos 2A = cos^2 A - sin^2 A = 2cos^2 A - 1 = 1 - 2sin^2 A (three interchangeable forms - choose the one matching the rest of the equation); tan 2A = 2 tan A/(1 - tan^2 A), derived by substituting A = B into the tan compound formula and using tan(theta) = sin(theta)/cos(theta).</p><p>The <strong>R-formula</strong> converts a sin(theta) + b cos(theta) into a single shifted wave: a sin(theta) + b cos(theta) = R sin(theta + alpha) with R = sqrt(a^2 + b^2) and tan(alpha) = b/a. The payoffs: the maximum of the expression is R, the minimum is -R, and equations of the form a sin(theta) + b cos(theta) = c become one-step inverse sine problems. For a cos form, use R cos(theta - alpha) with tan(alpha) = b/a.</p><details><summary>Worked example: R-formula with max and min</summary><p>Write 5cos(theta) - 12sin(theta) in the form R cos(theta + alpha) with R > 0 and 0 < alpha < pi/2, and hence find the maximum value.</p><p><strong>Line 1:</strong> R cos(theta + alpha) = R cos(theta)cos(alpha) - R sin(theta)sin(alpha) (M1: expand).</p><p><strong>Line 2:</strong> Compare: R cos(alpha) = 5 and R sin(alpha) = 12 (M1).</p><p><strong>Line 3:</strong> R^2 = 5^2 + 12^2 = 169, so R = 13 (A1). tan(alpha) = 12/5, so alpha = arctan(12/5) = 1.176 radians (A1).</p><p><strong>Line 4:</strong> 5cos(theta) - 12sin(theta) = 13cos(theta + 1.176); maximum of cos is 1, so the maximum value is 13 (A1).</p></details><p>Know the direction of the shift: R sin(theta + alpha) shifts the sine wave left by alpha; using the wrong sign flips the quadrant of alpha and loses the accuracy marks. When a question asks where the maximum occurs, set theta + alpha = pi/2 and solve.</p>
+</section>
+<section class="section">
+<h2>Triangles: sine rule, cosine rule and area</h2>
+<p>Non-right-angled triangles (Edexcel 9MA0 5.3; AQA 7357 E3; OCR A H640 9.01; CCEA AS1/A21) use three results. The <strong>sine rule</strong> a/sin A = b/sin B = c/sin C applies when you know two angles and a side, or two sides and a non-included angle - the latter is the <strong>ambiguous case</strong>, where two triangles can fit the data. The <strong>cosine rule</strong> a^2 = b^2 + c^2 - 2bc cos A applies when two sides and the included angle are known, or all three sides (to find an angle by rearranging to cos A = (b^2 + c^2 - a^2)/2bc). The <strong>area</strong> is 1/2 ab sin C for any pair of sides and the included angle.</p><details><summary>Worked example: cosine rule and area</summary><p>In triangle ABC, AB = 8 cm, BC = 11 cm and angle ABC = 72 degrees. Find AC and the area.</p><p><strong>Line 1:</strong> The included angle at B sits between AB and BC: AC^2 = 8^2 + 11^2 - 2(8)(11)cos(72 degrees) (M1: cosine rule).</p><p><strong>Line 2:</strong> = 64 + 121 - 176(0.3090) = 185 - 54.4 = 130.6 (M1).</p><p><strong>Line 3:</strong> AC = sqrt(130.6) = 11.4 cm (A1: 3 s.f.).</p><p><strong>Line 4:</strong> Area = 1/2 (8)(11)sin(72 degrees) = 44(0.9511) = 41.8 cm^2 (A1).</p></details><details><summary>Worked example: sine rule with two sides and a non-included angle</summary><p>In triangle ABC, a = 7, b = 9 and angle C = 60 degrees. Find c and the area.</p><p><strong>Line 1:</strong> The angle is included between a and b, so use the cosine rule: c^2 = 7^2 + 9^2 - 2(7)(9)cos(60 degrees) = 49 + 81 - 63 = 67 (M1 A1).</p><p><strong>Line 2:</strong> c = sqrt(67) = 8.19 (A1).</p><p><strong>Line 3:</strong> Area = 1/2 ab sin C = 1/2 (7)(9)sin(60 degrees) = 31.5 x (sqrt(3)/2) = 27.3 (A1).</p></details><p>Ambiguous-case discipline: with the sine rule in the form sin B = b sin A/a, the acute solution for B may not be the only one - the obtuse supplement 180 degrees - B is also valid provided the angles still sum below 180 degrees. State both when the data allows, or justify the single solution.</p>
+</section>
+<section class="section">
+<h2>Identity proofs and exam technique</h2>
+<p>Identity proofs follow one discipline: start from the more complicated side and reduce it to the other, never moving terms across the equals sign as if solving. The universal strategy: <strong>convert everything to sin and cos</strong> using tan(theta) = sin(theta)/cos(theta), then look for the sin^2 + cos^2 = 1 substitution.</p><details><summary>Worked example: proving a double angle identity</summary><p>Prove that tan(2theta) = 2tan(theta)/(1 - tan^2(theta)).</p><p><strong>Line 1:</strong> sin(2theta) = 2sin(theta)cos(theta) and cos(2theta) = cos^2(theta) - sin^2(theta) (M1: double angles).</p><p><strong>Line 2:</strong> tan(2theta) = sin(2theta)/cos(2theta) = 2sin(theta)cos(theta)/(cos^2(theta) - sin^2(theta)) (M1: tan as sin/cos).</p><p><strong>Line 3:</strong> Divide numerator and denominator by cos^2(theta): 2tan(theta)/(1 - tan^2(theta)) (A1: reduction complete, valid where cos(theta) is not 0).</p></details><p>Exact values with inverse functions combine the ideas: sin(arcsin(3/5) + arccos(4/5)) - both inverse values equal the same angle (36.87 degrees, since sin = 3/5 and cos = 4/5 there), so the expression is sin(2 x 36.87 degrees) = 2(3/5)(4/5) = 24/25. Convert inverse values to a right triangle, then apply a compound or double angle formula.</p><p>Exam technique: (1) keep the calculator in the mode the question uses - radians unless degrees are stated; (2) never divide by a trig factor; (3) give exact surd answers unless decimals are requested, and give decimals to 3 s.f. otherwise; (4) check all solutions lie in the interval, including the boundary behaviour at pi/2 asymptotes; (5) for R-formula questions, state R and alpha explicitly before using them. Small-angle approximations (sin(theta) = theta, cos(theta) = 1 - theta^2/2, tan(theta) = theta for small theta in radians) appear in derivation questions - know them. Board coverage: Edexcel 9MA0 Topic 5, AQA 7357 E1-E6, OCR A H640 9.01 and 10.01, WJEC/Eduqas AS Unit 1 trigonometry, CCEA AS1/A21 - identical techniques, differing wording.</p>
+</section>
 <section class="section">
 <h2>💡 Worked Example</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Solve 2 sin 2θ = sqrt3 cos θ for 0 &lt;= θ &lt; 2pi</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Answer:</strong></p>
-<p>2(2 sin θ cos θ) = sqrt3 cos θ -&gt; cos θ(4 sin θ - sqrt3) = 0. cos θ = 0 -&gt; θ = pi/2, 3pi/2. sin θ = sqrt3/4 ≈ 0.433 -&gt; θ ≈ 0.448, 2.694</p>
-</div>
-</div>
+<div class="question"><strong>Exam-style:</strong> Solve 2sin(2theta) = sqrt(3)cos(theta) for 0 &lt;= theta &lt; 2pi. (Edexcel 9MA0-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Expand sin(2theta) = 2sin(theta)cos(theta): 2(2sin(theta)cos(theta)) = sqrt(3)cos(theta) (M1: double angle). Rearrange and factorise: 4sin(theta)cos(theta) - sqrt(3)cos(theta) = 0, so cos(theta)(4sin(theta) - sqrt(3)) = 0 (M1: factorise rather than divide, preserving all solutions). Case 1: cos(theta) = 0 gives theta = pi/2 and theta = 3pi/2 (A1). Case 2: sin(theta) = sqrt(3)/4 = 0.4330 (M1: reference angle), giving theta = arcsin(0.4330) = 0.448 and theta = pi - 0.448 = 2.694 (A1 A1). All four solutions lie in the interval.</div>
 </section>
 <section class="section">
-<h2>❓ Practice Questions</h2><p class="q-note">Model answers are being added progressively - questions marked &#10007; don't have one yet. Cross-check with your teacher or the official mark scheme.</p>
-<div class="practice-questions">
-<div class="question">
-<p><strong>Questions:</strong></p>
-<ul><li>Prove: tan 2θ = 2tan θ/(1 - tan^2θ)<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Solve 3 cos 2θ + sin θ = 1 for 0 &lt;= θ &lt; 360 deg <span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Express 3 sin θ + 4 cos θ as R sin(θ + α)<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>In triangle ABC, a=7, b=9, ∠C=60 deg . Find c and area<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Sketch y = 2 cos(2x - pi/3) for 0 &lt;= x &lt;= 2pi<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find exact value: sin(arcsin ⅗ + arccos ⁴/₅)<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
-</div>
-<div class="question">
-  <p><strong>Q1:</strong> Solve 2cos&#178;&#952; + sin&#952; - 1 = 0 for 0 &#8804; &#952; < 2pi, giving exact answers.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Replace cos&#178;&#952; with 1 - sin&#178;&#952;: 2(1 - sin&#178;&#952;) + sin&#952; - 1 = 0, so -2sin&#178;&#952; + sin&#952; + 1 = 0, i.e. 2sin&#178;&#952; - sin&#952; - 1 = 0. Factorising: (2sin&#952; + 1)(sin&#952; - 1) = 0, so sin&#952; = -1/2 or sin&#952; = 1. For sin&#952; = 1: &#952; = pi/2. For sin&#952; = -1/2: &#952; = pi + pi/6 = 7pi/6 and 2pi - pi/6 = 11pi/6. Solutions: &#952; = pi/2, 7pi/6, 11pi/6.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> Write 5cos&#952; - 12sin&#952; in the form R cos(&#952; + &#945;), where R > 0 and 0 < &#945; < pi/2, and hence state the maximum value of 5cos&#952; - 12sin&#952;.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> R cos(&#952; + &#945;) = R cos&#952; cos&#945; - R sin&#952; sin&#945;. Comparing: R cos&#945; = 5 and R sin&#945; = 12. So R&#178; = 5&#178; + 12&#178; = 169, giving R = 13. tan &#945; = 12/5, so &#945; = arctan(12/5) &#8776; 1.176 radians. Hence 5cos&#952; - 12sin&#952; = 13cos(&#952; + 1.176). The maximum value of cos is 1, so the maximum of the expression is 13.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> In triangle ABC, AB = 8 cm, BC = 11 cm and angle ABC = 72&#176;. Find the length AC and the area of the triangle.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Cosine rule: AC&#178; = 8&#178; + 11&#178; - 2(8)(11)cos 72&#176; = 64 + 121 - 176(0.3090) = 185 - 54.4 = 130.6, so AC = &#8730;130.6 &#8776; 11.4 cm. Area = &#189;ab sin C = &#189;(8)(11)sin 72&#176; = 44(0.9511) &#8776; 41.8 cm&#178;.</p>
-    </div>
-  </details>
-</div>
-</div>
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Prove that tan(2theta) = 2tan(theta)/(1 - tan^2(theta)).</summary><div class="answer"><strong>Answer:</strong> tan(2theta) = sin(2theta)/cos(2theta) = 2sin(theta)cos(theta)/(cos^2(theta) - sin^2(theta)) (M1: double angle formulae). Divide top and bottom by cos^2(theta) (M1): 2tan(theta)/(1 - tan^2(theta)) (A1), valid where cos(theta) is not 0.</div></details>
+<details><summary>Solve 3cos(2theta) + sin(theta) = 1 for 0 &lt;= theta &lt; 360 degrees.</summary><div class="answer"><strong>Answer:</strong> Use cos(2theta) = 1 - 2sin^2(theta): 3(1 - 2sin^2(theta)) + sin(theta) - 1 = 0 (M1). So -6sin^2(theta) + sin(theta) + 2 = 0, i.e. 6sin^2(theta) - sin(theta) - 2 = 0 (A1). Factorising: (3sin(theta) - 2)(2sin(theta) + 1) = 0, so sin(theta) = 2/3 or -1/2 (M1). sin(theta) = 2/3: theta = 41.8 degrees, 138.2 degrees (A1). sin(theta) = -1/2: theta = 210 degrees, 330 degrees (A1).</div></details>
+<details><summary>Express 3sin(theta) + 4cos(theta) in the form R sin(theta + alpha), R &gt; 0, and state the minimum value.</summary><div class="answer"><strong>Answer:</strong> R = sqrt(3^2 + 4^2) = 5 (M1). tan(alpha) = 4/3, so alpha = arctan(4/3) = 0.927 radians (A1). So 3sin(theta) + 4cos(theta) = 5sin(theta + 0.927) (A1). Minimum value -5, when sin(theta + 0.927) = -1 (A1).</div></details>
+<details><summary>In triangle ABC, a = 7, b = 9 and angle C = 60 degrees. Find c and the area of the triangle.</summary><div class="answer"><strong>Answer:</strong> Cosine rule: c^2 = 7^2 + 9^2 - 2(7)(9)cos(60 degrees) = 49 + 81 - 63 = 67 (M1 A1). c = sqrt(67) = 8.19 (A1). Area = 1/2 (7)(9)sin(60 degrees) = 31.5(sqrt(3)/2) = 27.3 (A1).</div></details>
+<details><summary>Sketch y = 2cos(2x - pi/3) for 0 &lt;= x &lt;= 2pi, stating the amplitude, period and the x-coordinate of the first maximum.</summary><div class="answer"><strong>Answer:</strong> Amplitude |2| = 2 (B1). Period 2pi/2 = pi (B1). Phase: 2x - pi/3 = 0 at x = pi/6, so the curve is shifted pi/6 right (M1). First maximum at x = pi/6, value 2; further maxima at x = pi/6 + pi, pi/6 + 2pi (A1). Curve oscillates between 2 and -2 with period pi.</div></details>
+<details><summary>Find the exact value of sin(arcsin(3/5) + arccos(4/5)).</summary><div class="answer"><strong>Answer:</strong> arcsin(3/5) and arccos(4/5) are the same angle theta, since sin(theta) = 3/5 and cos(theta) = 4/5 for theta = 36.87 degrees (M1). So the expression is sin(2theta) = 2sin(theta)cos(theta) = 2(3/5)(4/5) = 24/25 (M1 A1: exact value).</div></details>
 </section>
 <section class="section">
 <h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Trigonometry+A-Level" target="_blank" rel="noopener">Trigonometry - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Trigonometry+exam+questions" target="_blank" rel="noopener">Trigonometry - Exam Questions</a> -- YouTube Search</li></ul>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+maths+trigonometry+R+formula+double+angle+sine+cosine+rule+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level maths trigonometry R formula double angle sine cosine rule Edexcel revision</a></li></ul>
 </section>
 <section class="section">
 <h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Mathematics - Trigonometry</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level Mathematics - Trigonometry</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level Mathematics - Trigonometry</a> -- OCR</li></ul>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - AQA trigonometry topic pages with past paper questions and worked solutions</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - Edexcel trigonometric identities and equations past paper questions by topic</a></li>
+<li data-board="OCR"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - OCR A trigonometry and triangle problems past paper questions by topic</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT Maths revision site - trigonometry questions transferable to WJEC/Eduqas and CCEA papers</a></li>
+</ul>
 </section>
 <section class="section">
 <h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/pure-maths/trigonometry/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - Trigonometry</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths - Trigonometry</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize/search?q=Trigonometry" target="_blank" rel="noopener">BBC Bitesize - Trigonometry</a> -- BBC Bitesize revision resources</li></ul>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision - trigonometry notes, worksheets and solutions by board</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths revision hub - all A-Level Maths topics with past paper questions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT - past papers and mark schemes for AQA, Edexcel and OCR A-Level Maths</a></li>
+</ul>
 </section>
-
-
 
 <section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/mathematics/integration.html">← Integration</a>
-<a href="../../mathematics.html">← Back to Mathematics Overview</a>
-<a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof →</a>
-</nav>
 
-
-
-
+<nav class="topic-nav"><a href="../../topics/mathematics/coordinate-geometry.html">&larr; Coordinate Geometry</a><a href="../../topics/mathematics/differentiation.html">Differentiation &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
@@ -205,13 +201,12 @@ if (localStorage.getItem('alevelrevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -229,27 +224,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
 </body></html>

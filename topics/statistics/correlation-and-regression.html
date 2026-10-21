@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Correlation and Regression - A-Level Statistics Revision Notes</title>
+<meta name="description" content="PMCC, Spearman&#x27;s rank correlation, least squares regression lines and the interpretation of gradients, predictions and causation - Edexcel 9ST0 Topic 6 revised with exam-style questions and mark-scheme logic.">
+<meta name="keywords" content="A-Level Statistics, Correlation and Regression, revision notes, Edexcel, past papers">
+<meta property="og:title" content="Correlation and Regression - A-Level Statistics">
+<meta property="og:description" content="PMCC, Spearman&#x27;s rank correlation, least squares regression lines and the interpretation of gradients, predictions and causation - Edexcel 9ST0 Topic 6 revised with exam-style questions and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/statistics/correlation-and-regression.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/statistics/correlation-and-regression.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does a correlation coefficient close to zero mean there is no relationship?", "acceptedAnswer": {"@type": "Answer", "text": "No. The PMCC measures linear association only, so a strong curved relationship can give r close to 0. Always plot the scatter diagram first; if the pattern is monotonic but non-linear, Spearman's rank correlation is the appropriate measure instead."}}{"@type": "Question", "name": "Why is extrapolation unreliable when using a regression line?", "acceptedAnswer": {"@type": "Answer", "text": "The line describes the linear pattern only within the range of the observed data. Outside that range the relationship may curve, flatten or reverse, so predicted values based on extending the line should be treated with caution. State this caveat explicitly whenever a question asks you to predict outside the observed x-values."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/statistics/sampling-and-data.html">Sampling and Data</a></li><li><a href="../../topics/statistics/probability.html">Probability</a></li><li><a href="../../topics/statistics/probability-distributions.html">Probability Distributions</a></li><li><a href="../../topics/statistics/correlation-and-regression.html" class="active">Correlation and Regression</a></li><li><a href="../../topics/statistics/hypothesis-testing.html">Hypothesis Testing</a></li><li><a href="../../topics/statistics/time-series.html">Time Series</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Correlation and Regression</span>
+</nav>
+
+<article class="topic-header">
+<h1>Correlation and Regression</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">Edexcel</span>
+</div>
+<p class="topic-desc">PMCC, Spearman&#x27;s rank correlation, least squares regression lines and the interpretation of gradients, predictions and causation - Edexcel 9ST0 Topic 6 revised with exam-style questions and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="edexcel">Pearson Edexcel</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Calculate and interpret the product moment correlation coefficient (PMCC) in context, recognising that it measures only linear association (AO1/AO2)</li>
+<li>Rank data, handle tied ranks, and calculate and interpret Spearman&#x27;s rank correlation coefficient (AO1/AO2)</li>
+<li>Determine the least squares regression line of y on x and interpret the gradient and intercept in context (AO1/AO2)</li>
+<li>Use a regression line to make predictions and distinguish reliable interpolation from unreliable extrapolation (AO2/AO3)</li>
+<li>Explain why correlation does not imply causation and identify possible confounding variables (AO2/AO3)</li>
+<li>Recognise when the PMCC is misleading (non-linear patterns, outliers) and suggest appropriate checks (AO3)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Bivariate data:</strong> Paired observations of two variables recorded for each item, e.g. height and weight of each person.</div>
+<div class="key-point"><strong>Explanatory variable:</strong> The variable x plotted on the horizontal axis, used to explain or predict the response variable.</div>
+<div class="key-point"><strong>Response variable:</strong> The variable y plotted on the vertical axis, whose values may be explained by the explanatory variable.</div>
+<div class="key-point"><strong>Product moment correlation coefficient (PMCC):</strong> r, measuring the strength and direction of linear association: r = Sxy / sqrt(Sxx Syy), with r always between -1 and 1.</div>
+<div class="key-point"><strong>Spearman&#x27;s rank correlation coefficient:</strong> A rank-based measure of monotonic association, rs = 1 - (6 x sum of d squared) / (n(n squared - 1)), where d is the difference in ranks.</div>
+<div class="key-point"><strong>Least squares regression line:</strong> The line y = a + bx minimising the sum of squared vertical residuals, with b = Sxy/Sxx, passing through the mean point (mean of x, mean of y).</div>
+<div class="key-point"><strong>Interpolation:</strong> Using the regression line to predict within the range of the observed x-values; generally reliable.</div>
+<div class="key-point"><strong>Extrapolation:</strong> Using the regression line to predict outside the range of the observed x-values; unreliable because the linear pattern may not continue.</div>
+<div class="key-point"><strong>Confounding variable:</strong> A third variable associated with both x and y that could explain an observed correlation between them.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">PMCC: r = Sxy / sqrt(Sxx Syy), always between -1 and 1; it measures linear association only.</div>
+<div class="key-point">Spearman: rs = 1 - (6 x sum of d squared) / (n(n squared - 1)); use for ordinal data or monotonic non-linear patterns.</div>
+<div class="key-point">Regression of y on x: y = a + bx with b = Sxy/Sxx; passes through (mean of x, mean of y).</div>
+<div class="key-point">Gradient b = predicted change in y per unit increase in x; intercept a = predicted y when x = 0, sensible only in context.</div>
+<div class="key-point">Correlation is not causation: x could cause y, y could cause x, a confounding variable could drive both, or the pattern could be coincidence.</div>
+</section>
+<section class="section">
+<h2>The PMCC and scatter diagrams</h2>
+<p><strong>Bivariate data</strong> record two variables per item. Plot them first: the <strong>explanatory variable</strong> x goes on the horizontal axis and the <strong>response variable</strong> y on the vertical. The scatter diagram reveals the shape of any relationship - linear or curved, tight or loose - and exposes outliers that would distort summary statistics. Exam questions often ask what the scatter diagram shows before any calculation: describe direction, strength and shape, always naming the variables.</p><p>The <strong>product moment correlation coefficient</strong> quantifies linear association: r = Sxy / sqrt(Sxx Syy), where Sxy, Sxx and Syy are the sums of squared deviations. In practice r comes from the calculator statistics mode. It always lies between -1 and 1: r = 1 means perfect positive linear correlation, r = -1 perfect negative, r = 0 no linear correlation. Interpretation must be in context with both words - direction and strength: for example, r = 0.82 for hours of revision and exam score indicates strong positive linear correlation, so students who revise for longer tend to score higher.</p><p>Two limits of r are examined directly. First, r measures <strong>linear</strong> association only: a perfect curved relationship (e.g. y = x squared) can give r close to 0, so r near 0 does not mean no relationship - plot the data. Second, r is sensitive to outliers: one extreme point can change r dramatically, so check the scatter diagram and consider recalculating without the outlier, stating what you did. A further AO3 point: a large sample can make a tiny r significant, so statistical significance is not the same as a strong relationship - interpret the size of r as well as testing it.</p><p>Interpreting the size of r is a skill in its own right. Common conventions describe values above about 0.8 as very strong, 0.6 to 0.8 strong, 0.4 to 0.6 moderate, and below 0.4 weak - but the mark scheme rewards the direction plus a contextual sentence rather than a memorised band. Exam questions also ask you to compare two coefficients (e.g. r = 0.62 for one pair of variables and r = 0.31 for another): state which indicates the stronger linear association and what that means in context, and be ready to explain that different strengths in different samples do not contradict each other. When r is calculated by hand from Sxy, Sxx and Syy, quote intermediate sums - the substituted formula line is the method mark.</p>
+</section>
+<section class="section">
+<h2>Spearman&#x27;s rank correlation</h2>
+<p><strong>Spearman's rank correlation coefficient</strong>, rs, measures monotonic association on the ranks of the data. Rank each variable separately from 1 (smallest or best, state your convention and use it consistently), compute the differences d between paired ranks, then rs = 1 - (6 x sum of d squared) / (n(n squared - 1)). It lies between -1 and 1 and is interpreted like r, but it detects any consistent increasing or decreasing relationship, not just linear ones.</p><p>Use Spearman rather than the PMCC in three standard situations: the data are <strong>ordinal</strong> (ranks, grades, ratings) rather than genuine measurements; the relationship is <strong>monotonic but not linear</strong> (consistently increasing but curved); or the data contain <strong>outliers</strong>, because ranking limits their influence. Exam questions test the choice: state which coefficient and justify with the data type or shape of the scatter diagram. Spearman is also robust when one variable is subjective, e.g. judges' placements in a competition.</p><p><strong>Tied ranks</strong> need care: when two values share a rank, give each the average of the ranks they would have occupied (e.g. two values tied for 3rd and 4th place both get 3.5). The formula is then approximate, so quote rs to 2 or 3 significant figures and note that ties make the formula inexact. A classic high-mark item gives ranks with ties and asks for rs plus an interpretation; show the d column and the sum of d squared explicitly - that table is the method mark.</p><p>The workflow for a full Spearman answer is mechanical and worth automating in revision. (i) Rank both variables, stating the convention (e.g. rank 1 = smallest). (ii) Build the d column and its squares. (iii) Substitute into rs = 1 - (6 x sum of d squared)/(n(n squared - 1)). (iv) Interpret in context with direction and strength. Marks appear at each stage, and the most commonly dropped is the final interpretation sentence. Note also that Spearman uses ranks only, so the actual size of differences between values is ignored - two datasets with the same ranks give the same rs however different the underlying numbers are, which is both the strength of the method (robustness) and its weakness (loss of information).</p>
+</section>
+<section class="section">
+<h2>Least squares regression</h2>
+<p>The <strong>least squares regression line</strong> of y on x is y = a + bx, chosen to minimise the sum of squared vertical distances (residuals) from the points to the line. The gradient is b = Sxy/Sxx, and the line always passes through the mean point (mean of x, mean of y) - a fact used to find the missing coefficient in exam questions. It exists and is meaningful only when the scatter diagram shows a roughly linear pattern, so check the correlation first.</p><p><strong>Interpret the coefficients in context, every time</strong>. The gradient b is the predicted change in y per unit increase in x: for y = 22.0 + 4.8x with x = hours of revision and y = exam score, each additional hour of revision predicts 4.8 more marks. The intercept a is the predicted value of y when x = 0: here 22 marks, sensible in context; but for a line predicting plant height from days, an intercept could be negative and meaningless physically - state that a should be interpreted only where x = 0 is meaningful in the context.</p><p>Predictions use the line directly: substitute the given x. The reliability distinction is examined every year: <strong>interpolation</strong> (predicting within the range of observed x-values) is generally reliable; <strong>extrapolation</strong> (predicting outside it) is unreliable because the linear pattern may not continue beyond the data. When asked to predict and comment, give the value and then one sentence - the prediction is an interpolation/extrapolation, and extrapolated values should be treated with caution. Never swap the variables: the regression line of y on x predicts y from x; predicting x from y needs a different line.</p><p>Two regression facts are directly examinable and worth memorising. First, the line of y on x passes through the mean point (mean of x, mean of y): given a gradient and the means, the intercept follows immediately - a = mean of y - b x (mean of x). Second, the gradient satisfies b = Sxy/Sxx, and r and b are linked: r = b x (sd of x / sd of y), so the gradient and the correlation have the same sign. Questions occasionally ask for the regression line from summary statistics alone (means, Sxy, Sxx) without the raw data - set up both formulas, substitute, and state the line in the form y = a + bx with the context variables named.</p>
+</section>
+<section class="section">
+<h2>Correlation, causation and exam interpretation</h2>
+<p><strong>Correlation does not imply causation</strong> - the most examined AO2 sentence in this topic. An observed correlation between x and y has four possible explanations: x causes y; y causes x (reverse causation); a <strong>confounding variable</strong> drives both (e.g. temperature drives both ice-cream sales and drowning incidents); or the pattern is coincidence. A full-mark answer names the correlation in context, states that correlation alone does not establish a causal link, and gives at least one plausible alternative explanation tied to the context.</p><p>Interpretation questions have a fixed skeleton worth rehearsing. For a correlation: direction, strength, context. For a regression line: gradient meaning, intercept meaning (if sensible), prediction with the interpolation/extrapolation caveat. For a comparison of two coefficients or two lines: say which indicates the stronger association and what changes in gradient imply. Every sentence should contain the context nouns - bare numbers and bare adjectives (strong, weak) without the variables named typically score zero.</p><p>Two technical traps to close the topic. First, the regression line should not be used when the scatter diagram shows a non-linear pattern: fitting a straight line to curved data gives misleading predictions even if r is moderate - say the relationship is not linear and suggest a change of variable or a curve. Second, correlation coefficients measure association in the observed sample only; different samples (different countries, time periods) can show different strengths, so be cautious about generalising a conclusion beyond the data - another standard AO3 mark.</p><p>When a question asks whether two variables are related, structure the answer around what you have: the scatter diagram (shape, direction), the PMCC or Spearman coefficient (strength of linear or monotonic association), and any regression line (a model for prediction). A complete AO2 paragraph uses at least two of these together: for example, the scatter diagram shows a linear pattern and r = 0.82, indicating strong positive linear correlation between the variables, so the regression line y = 22.0 + 4.8x is appropriate for prediction within the observed range. Practice pairing the evidence with the conclusion in one sentence - that habit converts calculation marks into interpretation marks and is the difference between grade B and A/A* answers on this topic.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A study of 60 students records hours of revision, x, and exam score, y. The scatter diagram shows a linear pattern and the regression line of y on x is y = 22.0 + 4.8x, with r = 0.82. (a) Interpret the gradient and the intercept of the regression line. (2 marks) (b) Predict the exam score for a student who revised for 8 hours and comment on the reliability of your prediction. (2 marks) (c) Explain why the value of r does not prove that revision causes higher scores. (2 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Gradient: each additional hour of revision predicts an increase of 4.8 marks in exam score (1). Intercept: a student who revised for 0 hours is predicted to score 22 marks, which is meaningful in this context (1). (b) y = 22.0 + 4.8 x 8 = 60.4, so a prediction of about 60 marks (1). Comment: 8 hours is within the range of the data, so this is interpolation and generally reliable (1). (c) Correlation does not imply causation: confounding variables such as motivation or ability could lead to both more revision and higher scores, or higher ability could cause both; the association alone does not establish that revision causes the higher scores (1-2 marks for the statement plus a contextual alternative explanation).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Six competitors are ranked by two judges. The ranks given by judge A are 1, 2, 3, 4, 5, 6 and by judge B are 2, 1, 4, 3, 6, 5. Calculate Spearman&#x27;s rank correlation coefficient and interpret your answer. (4 marks)</summary><div class="answer"><strong>Answer:</strong> Differences d = -1, 1, -1, 1, -1, 1, so sum of d squared = 6 (1). rs = 1 - (6 x 6)/(6 x (36 - 1)) = 1 - 36/210 = 0.829 (2 marks: formula and answer). Interpretation: strong positive rank agreement - the judges rank the competitors in broadly the same order, in context (1).</div></details>
+<details><summary>The PMCC between the price of a product and the quantity demanded is r = -0.94 based on 40 observations. Interpret this value in context. (2 marks)</summary><div class="answer"><strong>Answer:</strong> r = -0.94 indicates strong negative linear correlation (1): as price increases, the quantity demanded tends to decrease, with the points lying close to a downward-sloping straight line, in context (1). Both the direction and the strength with the context words price/demand are needed for both marks.</div></details>
+<details><summary>A regression line of y on x is y = 12 + 2.5x, based on data with x-values from 1 to 10. (a) Predict y when x = 8. (b) Predict y when x = 25 and comment on the reliability of this prediction. (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) y = 12 + 2.5 x 8 = 32 (1). (b) y = 12 + 2.5 x 25 = 74.5 (1). Comment: x = 25 is outside the range of the observed x-values (1 to 10), so this is extrapolation and is unreliable - the linear pattern may not continue beyond the data (2 marks: identification and the caution).</div></details>
+<details><summary>A scatter diagram of 12 points shows a strong positive linear pattern, but the PMCC for all 12 points is r = 0.55 while the PMCC with one point removed is r = 0.91. Comment on this and state what should be done. (3 marks)</summary><div class="answer"><strong>Answer:</strong> The removed point is an outlier that is pulling r down and distorting the measured linear association (1). Always plot the data first so outliers are visible (1). Recalculate r and the regression line without the outlier if there is a justifiable reason (e.g. recording error) or report both values with a comment, stating clearly which data were used (1).</div></details>
+<details><summary>A researcher finds r = 0.85 between weekly ice-cream sales and the number of swimming-pool incidents, and claims that ice cream causes the incidents. Comment on this claim. (3 marks)</summary><div class="answer"><strong>Answer:</strong> Correlation does not imply causation (1). A plausible confounding variable is temperature or summer weather, which increases both ice-cream sales and swimming (and hence incidents) (1). The claim is not justified by the correlation alone; further investigation would be needed to establish any causal link, in context (1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=correlation+and+regression+PMCC+Spearman+rank+A+level+statistics+Edexcel+revision" target="_blank" rel="noopener">YouTube: correlation and regression PMCC Spearman rank A level statistics Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics qualification page - specification, specimen and past papers for 9ST0 (see Key Documents tab)</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel past papers and mark schemes - filter the qualification page above for Statistics (9ST0)</a></li>
+<li data-board="PMT"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">Physics &amp; Maths Tutor A-Level Statistics - correlation and regression notes and past paper questions by topic</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics (9ST0) qualification page - spec, SAMs, past papers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics revision - correlation, regression and rank correlation by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics past paper questions arranged by specification topic</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/statistics/probability-distributions.html">&larr; Probability Distributions</a><a href="../../topics/statistics/hypothesis-testing.html">Hypothesis Testing &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

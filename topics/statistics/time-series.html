@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Time Series - A-Level Statistics Revision Notes</title>
+<meta name="description" content="Trends, moving averages, seasonal variation and the additive and multiplicative models with forecasting - Edexcel 9ST0 Topic 7 revised with exam-style questions and mark-scheme logic.">
+<meta name="keywords" content="A-Level Statistics, Time Series, revision notes, Edexcel, past papers">
+<meta property="og:title" content="Time Series - A-Level Statistics">
+<meta property="og:description" content="Trends, moving averages, seasonal variation and the additive and multiplicative models with forecasting - Edexcel 9ST0 Topic 7 revised with exam-style questions and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/statistics/time-series.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/statistics/time-series.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I decide between the additive and multiplicative models?", "acceptedAnswer": {"@type": "Answer", "text": "Compare the absolute size of the seasonal swing early and late in the series. If the swing stays roughly constant (e.g. always about plus-or-minus 3) while the trend rises, use the additive model. If the swing grows with the trend (e.g. from about 3 to about 12), the seasonal effect is proportional to the trend and the multiplicative model is appropriate. State the evidence from the data when justifying your choice."}}{"@type": "Question", "name": "Why must even-order moving averages be centred?", "acceptedAnswer": {"@type": "Answer", "text": "A 4-point moving average of quarterly data is calculated from four quarters and therefore sits between two of them. To align it with an actual time period, average two consecutive 4-point moving averages and plot the result against the middle quarter. Odd-order averages (3-point, 7-point) already sit on an observation, so no centring is needed."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/statistics/sampling-and-data.html">Sampling and Data</a></li><li><a href="../../topics/statistics/probability.html">Probability</a></li><li><a href="../../topics/statistics/probability-distributions.html">Probability Distributions</a></li><li><a href="../../topics/statistics/correlation-and-regression.html">Correlation and Regression</a></li><li><a href="../../topics/statistics/hypothesis-testing.html">Hypothesis Testing</a></li><li><a href="../../topics/statistics/time-series.html" class="active">Time Series</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Time Series</span>
+</nav>
+
+<article class="topic-header">
+<h1>Time Series</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">Edexcel</span>
+</div>
+<p class="topic-desc">Trends, moving averages, seasonal variation and the additive and multiplicative models with forecasting - Edexcel 9ST0 Topic 7 revised with exam-style questions and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="edexcel">Pearson Edexcel</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Plot a time series graph and describe the trend and seasonal pattern in context (AO1/AO2)</li>
+<li>Calculate moving averages of a given order, including centred averages for even-order smoothing (AO1)</li>
+<li>Calculate seasonal variations for the additive model and average them per season (AO1/AO2)</li>
+<li>Calculate seasonal ratios for the multiplicative model and explain when it is preferable to the additive model (AO2/AO3)</li>
+<li>Use a time series model to forecast future values, stating the method and the assumptions (AO2/AO3)</li>
+<li>Comment on the limitations of forecasts, including extrapolation and changing patterns (AO3)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Time series:</strong> A set of observations recorded at regular intervals over time, e.g. monthly sales or quarterly output.</div>
+<div class="key-point"><strong>Trend:</strong> The long-term underlying direction of a time series - rising, falling or level - after seasonal effects are removed.</div>
+<div class="key-point"><strong>Seasonal variation:</strong> A regular, repeating pattern within a fixed period (usually a year), e.g. higher sales every December.</div>
+<div class="key-point"><strong>Cyclical variation:</strong> Longer-term rises and falls over periods longer than a year, such as economic cycles; not examined numerically but distinguishable from seasonal effects.</div>
+<div class="key-point"><strong>Residual variation:</strong> The irregular, unpredictable component left after the trend and seasonal effects are accounted for.</div>
+<div class="key-point"><strong>Moving average:</strong> The mean of a fixed number of consecutive observations, used to smooth out seasonal variation and reveal the trend.</div>
+<div class="key-point"><strong>Additive model:</strong> The model X = Trend + Seasonal + Residual, used when the size of the seasonal swing is roughly constant; seasonal variation = actual value - trend value.</div>
+<div class="key-point"><strong>Multiplicative model:</strong> The model X = Trend x Seasonal x Residual, used when the seasonal swing is proportional to the trend; seasonal variation = actual value / trend value.</div>
+<div class="key-point"><strong>Seasonal effect:</strong> The average seasonal variation (additive) or average seasonal ratio (multiplicative) for a given season, used to adjust data or forecast.</div>
+<div class="key-point"><strong>Centred moving average:</strong> For an even-order moving average, the mean of two consecutive moving averages, plotted against the middle time period.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Four components: trend, seasonal variation, cyclical variation, residual variation.</div>
+<div class="key-point">Moving averages smooth seasonal variation to reveal the trend; even-order averages need centring.</div>
+<div class="key-point">Additive model: X = Trend + Seasonal + Residual; seasonal variation = actual - trend; average seasonal effects sum to about 0.</div>
+<div class="key-point">Multiplicative model: X = Trend x Seasonal x Residual; seasonal ratio = actual / trend; average ratios average about 1.</div>
+<div class="key-point">Additive when the seasonal swing is roughly constant in size; multiplicative when it is proportional to the trend.</div>
+<div class="key-point">Forecast = trend estimate for the future period + seasonal effect (additive), or trend x seasonal effect (multiplicative).</div>
+</section>
+<section class="section">
+<h2>Components of a time series</h2>
+<p>A <strong>time series</strong> records observations at regular intervals. Its variation is split into four components, and the classification is directly examinable: the <strong>trend</strong> - the long-term direction, rising, falling or level; <strong>seasonal variation</strong> - a regular pattern that repeats within a fixed period, normally a year (higher sales every December, lower output every August); <strong>cyclical variation</strong> - longer-term rises and falls over periods greater than a year, such as economic booms and recessions; and <strong>residual (random) variation</strong> - the irregular remainder once the other components are removed.</p><p>A <strong>time series graph</strong> plots the values against time with the points joined by straight lines. Describing it is a guaranteed AO2 skill: state the overall trend in context (sales are generally rising over the period), then any seasonal pattern (values peak in the fourth quarter of each year), and any unusual points (an anomalous spike in one quarter). Every description must name the variable and the time periods - bare statements such as it goes up and down score zero.</p><p>The distinction between seasonal and cyclical variation is tested: seasonal effects repeat over a fixed, known period (a year) with a stable pattern; cyclical effects vary in length and are irregular. In 9ST0 the numerical work focuses on seasonal variation over a year, with cyclical variation appearing only in interpretation questions. When asked to identify the components in a given series, justify each: a repeating annual peak is seasonal, a steady rise over several years is trend, an unexplained one-off jump is residual.</p><p>Reading a time series graph for an exam answer has a fixed order: overall trend first (rising, falling or level, over the whole period, in context), then the seasonal pattern (which quarters or months are consistently high or low), then unusual points (anomalous observations that break the pattern). Be precise about the period when describing seasonality: a peak every fourth quarter with quarterly data is annual seasonality; the peak repeating every 12 points with monthly data is the same annual pattern. When a question asks whether a value is unusual, compare it with the same period in other years rather than with its neighbours - seasonality makes neighbouring periods naturally different.</p>
+</section>
+<section class="section">
+<h2>Moving averages and the trend line</h2>
+<p>A <strong>moving average</strong> smooths out seasonal variation to reveal the trend. Choose the order to match the period of the seasonal pattern: a <strong>4-point moving average</strong> for quarterly data (one full year), a 12-point for monthly data, a 7-point for daily data with a weekly pattern. Each average is the mean of that number of consecutive observations, and the sequence of moving averages traces the trend - exam questions ask for the first few values and a comment on what they show.</p><p><strong>Centring</strong> is needed for even-order averages. A 4-point moving average of quarterly data sits between two quarters, so it is centred: take the mean of two consecutive 4-point averages and plot that <strong>centred average</strong> against the middle time period. Odd-order averages (3-point, 7-point) need no centring - they sit on an actual observation. The centring step is a named method mark; forgetting it, or plotting the uncentred average against a data point, is the classic error.</p><p>Worked structure: quarterly sales 39, 40, 41, 42, 43 (thousands) centred step by step - the 4-point averages are 39.0, 40.0, 41.0, 42.0; the centred averages are 39.5, 40.5, 41.5, plotted against the third, fourth and fifth quarters respectively. Comment on the trend from the centred averages: the trend is rising steadily by about 1 (thousand) per quarter. A trend line can also be drawn by eye on the graph or fitted by regression on time; either way it provides the trend values needed for seasonal analysis.</p><p>Checking a moving-average calculation is quick and prevents cascading errors: each average must be the mean of exactly the stated number of consecutive values, and the sequence should look smooth - a jumpy sequence signals an arithmetic slip. For even-order averages, write out the placement explicitly (this average sits between Q2 and Q3 2023, so the centred average is plotted at Q3 2023); the placement sentence is itself a marking point. Also be ready to answer questions about what moving averages cannot do: they shorten the series by the order of the average (no moving average at the start or end for even orders), they assume the seasonal pattern is stable, and they cannot by themselves produce forecasts without the seasonal effects.</p>
+</section>
+<section class="section">
+<h2>Seasonal variation: additive and multiplicative models</h2>
+<p>The <strong>additive model</strong> is X = Trend + Seasonal + Residual: the seasonal swing is roughly constant in size whatever the trend level. The seasonal variation for a period is <strong>actual value - trend value</strong>, found by subtracting the (centred) moving average at that point from the actual observation. Average the variations for each season across all available years to get the <strong>seasonal effects</strong>; these should sum to approximately 0 - if they do not, adjust them by sharing the discrepancy equally (a named adjustment step in mark schemes).</p><p>The <strong>multiplicative model</strong> is X = Trend x Seasonal x Residual: the seasonal swing is proportional to the trend, so busy seasons produce proportionally larger swings as the series grows. The seasonal variation is a <strong>ratio: actual value / trend value</strong>; average the ratios per season to get seasonal effects, which should average approximately 1. Ratios above 1 mark above-trend seasons, below 1 below-trend seasons.</p><p>Choosing between the models is an examined AO2/AO3 decision: if the size of the seasonal swing stays roughly constant as the trend rises, the additive model fits; if the swing grows with the trend (e.g. December sales increasingly above the trend as the business grows), the multiplicative model fits. Quote the evidence: compare the absolute seasonal variations from early and late periods - similar sizes suggest additive, growing sizes suggest multiplicative. In an exam, state the model, the evidence from the data, and the consequence for forecasting.</p><p>The full workflow for seasonal analysis is mechanical and worth automating. (i) Calculate the (centred) moving averages - these are the trend values. (ii) For each period where a trend value exists, find the seasonal variation: actual - trend (additive) or actual / trend (multiplicative). (iii) Average the variations for each season across all available years. (iv) Check the averages sum to about 0 (additive) or average about 1 (multiplicative) and adjust if needed. Marks appear at every stage, and the most commonly dropped are the checking and adjustment steps. Note that the number of seasonal variations available is fewer than the number of data points - the first (and last) half-periods have no trend value - so seasonal effects are averages over however many years the data allow.</p>
+</section>
+<section class="section">
+<h2>Forecasting and model choice</h2>
+<p>Forecasting combines the trend with the seasonal effect. For the <strong>additive model</strong>: estimate the trend value for the future period (extend the trend by its average increase per period) and add the seasonal effect for that season: forecast = trend estimate + seasonal effect. For the <strong>multiplicative model</strong>: forecast = trend estimate x seasonal effect. Show both parts separately - the trend estimate and the seasonal adjustment are separate method marks - and give the answer in context with units.</p><p>Worked structure: if the trend rises by 1 (thousand) per quarter and the seasonal effect for the first quarter is +4.5, then for a first quarter four periods ahead the trend estimate is 41.5 + 4 x 1 = 45.5, giving a forecast of 45.5 + 4.5 = 50 (thousand). For a multiplicative model with the same trend and a first-quarter ratio of 1.1, the forecast is 45.5 x 1.1 = 50.1 (thousand).</p><p>Every forecast should end with a caveat, and the caveat is examinable: forecasts assume the trend and seasonal pattern continue unchanged, so they are extrapolations into the future and should be treated with caution; the further ahead the forecast, the less reliable it becomes; and residual variation means actual values will differ from forecasts. Also expect AO3 questions on the model itself: the components are estimates from past data, a structural change (a new competitor, a policy change) can break the pattern, and unusual past values distort the seasonal effects. State at least two limitations, each in context, when asked.</p><p>Choosing the model and forecasting often appear as one structured question. Read the given information carefully: some questions supply the trend values and seasonal effects directly, others require you to compute them first - both routes use the same forecasting arithmetic. When extending the trend, use the average increase per period from the centred averages or the given trend values, and count the number of periods forward exactly (a common slip is being one period out when the forecast date is stated in words, e.g. the first quarter of next year). Finally, present the answer in the units and rounding the question demands - thousands of units, whole units, or 3 significant figures - and end with the caution sentence, which is a standard final mark.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> Quarterly sales (thousands of units) for 2023 and 2024 are: 2023 Q1 42, Q2 36, Q3 30, Q4 48; 2024 Q1 46, Q2 40, Q3 34, Q4 52. Four-point moving averages of these data are 39, 40, 41, 42, 43. (a) Calculate the centred moving averages and state what they indicate about the trend. (3 marks) (b) Calculate the seasonal variation for the first quarter using the 2024 data. (2 marks) (c) Using the additive model, forecast the sales for the first quarter of 2025. (3 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Centred averages: (39+40)/2 = 39.5, (40+41)/2 = 40.5, (41+42)/2 = 41.5, (42+43)/2 = 42.5, each plotted against the middle quarter (2 marks: values and centring/placement). The trend is rising steadily, by about 1 (thousand) per quarter (1). (b) Trend value for 2024 Q1 is the centred average 41.5; seasonal variation = actual - trend = 46 - 41.5 = +4.5 (thousand) (2 marks: identification of the trend value and the subtraction). (c) 2025 Q1 is four quarters after 2024 Q1, so the trend estimate is 41.5 + 4 x 1 = 45.5 (1). Forecast = trend + seasonal effect = 45.5 + 4.5 = 50 (thousand units) (1). The forecast assumes the trend and seasonal pattern continue; it is an extrapolation so should be treated with caution (1).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Monthly attendance (hundreds) at a gym is: 10, 14, 12, 16, 14, 18. Calculate the 3-point moving averages and comment on the trend. (4 marks)</summary><div class="answer"><strong>Answer:</strong> 3-point averages: (10+14+12)/3 = 12; (14+12+16)/3 = 14; (12+16+14)/3 = 14; (16+14+18)/3 = 16 (3 marks: one per average up to the stated cap, method shown). Odd-order averages need no centring and are plotted against the middle month (part of the method mark). Comment: the moving averages rise from 12 to 16, so attendance shows a rising trend, in context (1).</div></details>
+<details><summary>A time series has trend values 50, 52, 54, 56 in year 1 and 58, 60, 62, 64 in year 2 (four quarters). The actual values are 54, 50, 46, 66 (year 1) and 63, 57, 51, 75 (year 2). Calculate the seasonal variations and the average seasonal effect for each quarter under the additive model, and adjust them so they sum to zero. (6 marks)</summary><div class="answer"><strong>Answer:</strong> Seasonal variation = actual - trend: year 1: +4, -2, -8, +10; year 2: +5, -3, -11, +11 (2 marks for the eight values). Averages: Q1 (4+5)/2 = +4.5; Q2 (-2-3)/2 = -2.5; Q3 (-8-11)/2 = -9.5; Q4 (10+11)/2 = +10.5 (2 marks). Sum = +3, which is not zero, so adjust by subtracting 3/4 = 0.75 from each (1): adjusted effects are +3.75, -3.25, -10.25, +9.75 (1). Interpretation: the fourth quarter is strongly above trend, the third strongly below, in context.</div></details>
+<details><summary>For a multiplicative model, a season has actual value 66 and trend value 55. (a) Calculate the seasonal ratio. (b) The average seasonal ratios for the four quarters are 1.1, 0.9, 0.8 and 1.2. Explain what these indicate and state the property they should approximately satisfy. (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) Ratio = actual / trend = 66/55 = 1.2 (1). (b) Ratios above 1 indicate quarters above trend and below 1 below trend: the fourth quarter is 20 percent above trend, the third 20 percent below, in context (2 marks). The four ratios should average approximately 1 (1) - if they do not, adjust them so they do.</div></details>
+<details><summary>A trend rises by 2 (thousand) per month. The seasonal effect for December under the additive model is +15 (thousand). The trend value for the current December is 120 (thousand). Forecast the sales for the December three months later, and state one limitation of the forecast. (4 marks)</summary><div class="answer"><strong>Answer:</strong> Trend estimate for the December three months later: 120 + 3 x 2 = 126 (thousand) (1). Forecast = trend + seasonal effect = 126 + 15 = 141 (thousand) (2 marks: additive combination and answer, in context). Limitation: the forecast is an extrapolation assuming the trend and seasonal pattern continue unchanged; the further ahead, the less reliable, and residual variation or a structural change could make actual sales differ (1).</div></details>
+<details><summary>A time series of quarterly revenue shows a rising trend. The absolute seasonal variations (actual - trend) in the early years are about plus-or-minus 3 (thousand), but in recent years about plus-or-minus 12 (thousand). State which model is more appropriate and justify your choice. (3 marks)</summary><div class="answer"><strong>Answer:</strong> The multiplicative model (1). Justification: the size of the seasonal swing grows as the trend rises (from about 3 to about 12 thousand), which is the pattern the multiplicative model captures - seasonal effects proportional to the trend - whereas the additive model assumes a roughly constant swing (1). Consequence: seasonal variation should be measured as a ratio (actual/trend) and forecasts made as trend x seasonal effect, in context (1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=time+series+moving+averages+seasonal+variation+additive+multiplicative+A+level+statistics+Edexcel" target="_blank" rel="noopener">YouTube: time series moving averages seasonal variation additive multiplicative A level statistics Edexcel</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics qualification page - specification, specimen and past papers for 9ST0 (see Key Documents tab)</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel past papers and mark schemes - filter the qualification page above for Statistics (9ST0)</a></li>
+<li data-board="PMT"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">Physics &amp; Maths Tutor A-Level Statistics - time series notes and past paper questions by topic</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics (9ST0) qualification page - spec, SAMs, past papers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics revision - time series, moving averages and seasonal variation by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics past paper questions arranged by specification topic</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/statistics/hypothesis-testing.html">&larr; Hypothesis Testing</a><span>&nbsp;</span></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

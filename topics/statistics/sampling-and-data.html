@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sampling and Data - A-Level Statistics Revision Notes</title>
+<meta name="description" content="Sampling methods, data types, measures of location and dispersion, outliers, box plots and histograms - Edexcel 9ST0 Topics 2-3 revised with exam-style questions and mark-scheme logic.">
+<meta name="keywords" content="A-Level Statistics, Sampling and Data, revision notes, Edexcel, past papers">
+<meta property="og:title" content="Sampling and Data - A-Level Statistics">
+<meta property="og:description" content="Sampling methods, data types, measures of location and dispersion, outliers, box plots and histograms - Edexcel 9ST0 Topics 2-3 revised with exam-style questions and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/statistics/sampling-and-data.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/statistics/sampling-and-data.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why is my standard deviation different from my friend's for the same data?", "acceptedAnswer": {"@type": "Answer", "text": "Edexcel 9ST0 uses the (n - 1) divisor formula, but many calculators offer both population and sample SD modes. Check you are using s = sqrt(sum of (x - mean)^2 / (n - 1)), quote the formula in your working, and give answers to 3 significant figures - the mark scheme rewards the method as well as the value."}}{"@type": "Question", "name": "When do I use a histogram rather than a bar chart or box plot?", "acceptedAnswer": {"@type": "Answer", "text": "Use a histogram for continuous, grouped data, with class widths on the horizontal axis and frequency density on the vertical. Use bar charts for discrete or categorical data, and box plots when you have the five key summary values or need to compare distributions and spot outliers quickly."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/statistics/sampling-and-data.html" class="active">Sampling and Data</a></li><li><a href="../../topics/statistics/probability.html">Probability</a></li><li><a href="../../topics/statistics/probability-distributions.html">Probability Distributions</a></li><li><a href="../../topics/statistics/correlation-and-regression.html">Correlation and Regression</a></li><li><a href="../../topics/statistics/hypothesis-testing.html">Hypothesis Testing</a></li><li><a href="../../topics/statistics/time-series.html">Time Series</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Sampling and Data</span>
+</nav>
+
+<article class="topic-header">
+<h1>Sampling and Data</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">Edexcel</span>
+</div>
+<p class="topic-desc">Sampling methods, data types, measures of location and dispersion, outliers, box plots and histograms - Edexcel 9ST0 Topics 2-3 revised with exam-style questions and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="edexcel">Pearson Edexcel</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Select and justify an appropriate sampling method for a given context, and criticise unsuitable methods for bias (AO2/AO3)</li>
+<li>Draw a random sample using random numbers generated on a calculator or from tables (AO1)</li>
+<li>Calculate the mean, median, mode, range, interquartile range and standard deviation from raw data and frequency tables (AO1)</li>
+<li>Apply the 1.5 x IQR rule to identify outliers and justify whether they should be discarded (AO2)</li>
+<li>Construct and interpret box plots and histograms, calculating frequency density for unequal class widths (AO1/AO2)</li>
+<li>Compare two distributions in context, commenting on location, dispersion and skewness (AO2)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Population:</strong> The entire set of items or individuals relevant to the statistical enquiry; every member must be identifiable to take a census or use a sampling frame.</div>
+<div class="key-point"><strong>Sampling frame:</strong> A numbered list of all members of the population from which a sample is drawn, e.g. an electoral register or class register.</div>
+<div class="key-point"><strong>Simple random sample:</strong> A sample in which every member of the population has an equal chance of selection, chosen using random numbers so there is no bias.</div>
+<div class="key-point"><strong>Systematic sample:</strong> Selecting every kth member of an ordered sampling frame after a random start, where k = N/n; simple but risks periodicity in the list.</div>
+<div class="key-point"><strong>Stratified sample:</strong> The population is split into strata that differ in a relevant way, and each stratum is sampled in proportion to its size: n_h = (N_h / N) x n.</div>
+<div class="key-point"><strong>Quota sample:</strong> A non-random sample where interviewers fill quotas of respondents in each group; needs no sampling frame but is prone to interviewer bias.</div>
+<div class="key-point"><strong>Cluster sample:</strong> Randomly selecting whole groups (clusters, e.g. schools or streets) and sampling within them; cheap for geographically spread populations but clusters may be unrepresentative.</div>
+<div class="key-point"><strong>Standard deviation:</strong> The root mean square deviation from the mean, s = sqrt( sum of (x - mean)^2 / (n - 1) ), measuring spread in the same units as the data.</div>
+<div class="key-point"><strong>Frequency density:</strong> For a histogram, frequency divided by class width; the area of each bar is proportional to frequency.</div>
+<div class="key-point"><strong>Outlier:</strong> A value lying more than 1.5 x IQR beyond the quartiles, i.e. below Q1 - 1.5 x IQR or above Q3 + 1.5 x IQR; discard only with a justifiable reason such as a recording error.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Stratified sample size for a stratum: n_h = (N_h / N) x n, rounded to whole people.</div>
+<div class="key-point">Edexcel 9ST0 standard deviation uses divisor (n - 1): s = sqrt(sum of (x - mean)^2 / (n - 1)).</div>
+<div class="key-point">Histogram: frequency density = frequency / class width; never plot raw frequency with unequal widths.</div>
+<div class="key-point">Outlier fences: Q1 - 1.5 x IQR and Q3 + 1.5 x IQR.</div>
+<div class="key-point">Mean is pulled by outliers and skew; median and IQR are resistant.</div>
+</section>
+<section class="section">
+<h2>Sampling methods: choosing and justifying</h2>
+<p>A <strong>census</strong> measures every member of the population; a <strong>sample</strong> measures only a subset. Exams expect you to weigh these up: a census gives complete information and no sampling variation, but is expensive, time-consuming, and destructive testing (e.g. crash-testing cars) rules it out entirely. A sample is cheaper and quicker, but smaller samples give less precise estimates.</p><p>Random methods need a <strong>sampling frame</strong>. <strong>Simple random sampling</strong> uses random numbers from a calculator or tables to pick n members, giving equal selection probability and no bias; its weakness is the requirement for a complete, up-to-date frame, which is impractical for large or scattered populations. <strong>Systematic sampling</strong> picks every kth item after a random start (k = N/n); it is quick and spreads through the frame, but if the list has a periodic pattern the sample can be badly biased. <strong>Stratified sampling</strong> divides the population into strata that differ in a way relevant to the enquiry (e.g. year group, region) and samples each in proportion to its size, guaranteeing every stratum is represented and often improving precision.</p><p><strong>Quota sampling</strong> is non-random: interviewers fill predetermined quotas (e.g. 20 men over 60). It needs no sampling frame and is fast, but the choice of respondents within a quota is left to the interviewer, introducing bias. <strong>Cluster sampling</strong> randomly selects whole clusters and samples within them, cutting travel costs, but a cluster may not resemble the population. <strong>Opportunity (convenience) sampling</strong> and self-selected samples (volunteers) are almost always biased towards particular types of respondent and attract easy marks when asked to criticise a design.</p><details><summary>Worked stratified calculation</summary><p>A school of 800 students has 300 in Year 12 and 500 in Year 13. For a stratified sample of 40: Year 12 gives (300/800) x 40 = 15 students; Year 13 gives (500/800) x 40 = 25 students. Check: 15 + 25 = 40. State the method, the formula, the arithmetic and the total - that sequence earns full marks.</p></details><p>Method-choice questions follow a decision order. Ask: does a sampling frame exist? If not, quota or opportunity sampling is forced. If yes, do distinct groups matter to the enquiry? If so, stratify. Otherwise, is the frame large and ordered? Systematic sampling may then be the efficient choice. Whatever you choose, the highest marks come from a two-part justification: a correct property of the method (e.g. random, unbiased, proportionally representative) linked to the specific context of the question. Also be ready to calculate k = N/n for a systematic sample and to explain why a random start is needed - without it the sample could systematically miss part of the frame.</p>
+</section>
+<section class="section">
+<h2>Data types and data quality</h2>
+<p><strong>Categorical (qualitative) data</strong> are descriptions (blood group, brand); if the categories can be ordered they are <strong>ordinal</strong> (exam grade, satisfaction rating). <strong>Quantitative data</strong> are numerical: <strong>discrete</strong> data take exact, countable values (number of siblings, goals scored), while <strong>continuous</strong> data arise from measurement and can take any value in an interval (height, time). Choosing the right chart and the right average depends on this classification, so state the type explicitly when asked.</p><p><strong>Primary data</strong> are collected first-hand by the enquirer: fully relevant, defined for the purpose, and you control the method - but collection is slow and costly. <strong>Secondary data</strong> were collected by someone else (government statistics, published surveys): instantly available and often large-scale, but possibly out of date, collected for a different purpose, and of unknown reliability. Questions frequently ask for one advantage and one disadvantage of each - learn those pairs.</p><p>Three quality words carry precise meanings in 9ST0. <strong>Reliability</strong>: the method would give consistent results if repeated. <strong>Validity</strong>: the data actually measure what the enquiry intends to measure. <strong>Bias</strong>: systematic distortion in one direction, from a poor sampling frame, leading questions, non-response or unrepresentative sampling. A <strong>pilot study</strong> is a small-scale trial run used to check that questions are understood, test the timing of the collection process, and refine the design before the main enquiry - quote at least two of these purposes.</p><p>When asked to <strong>criticise</strong> a data collection method, scan a checklist: sample size too small; sampling frame incomplete or absent; non-random selection; leading or ambiguous question wording; low response rate; data recorded inaccurately; secondary data of unknown reliability or age. One developed criticism per mark, each tied to the specific context.</p><p>Two further ideas appear in 9ST0 questions on data quality. <strong>Accuracy</strong> concerns how close a measurement is to the true value, while <strong>precision</strong> concerns the level of detail recorded (e.g. heights to the nearest centimetre); more precision is not automatically more accurate. <strong>Data cleaning</strong> - removing impossible values, correcting mis-keyed entries, deciding what to do about missing responses - should be done before any calculation, and exam questions expect you to state a rule (e.g. discard if clearly a recording error, otherwise keep) rather than silently delete. Link every quality discussion back to its effect on conclusions: biased or invalid data make estimates untrustworthy however large the sample.</p>
+</section>
+<section class="section">
+<h2>Measures of location and dispersion</h2>
+<p>The three averages have distinct jobs. The <strong>mean</strong>, sum of x divided by n, uses every data value and is needed for standard deviation, but is distorted by outliers and skew. The <strong>median</strong> is the middle value when ordered - resistant to outliers, so preferred for skewed data. The <strong>mode</strong> is the most frequent value, the only sensible average for categorical data. For a frequency table the mean is sum of fx divided by sum of f; for grouped data use class midpoints and state that the answer is an estimate.</p><p>Dispersion measures: the <strong>range</strong> uses only two values and is distorted by outliers; the <strong>interquartile range</strong> (Q3 - Q1) is resistant; the <strong>standard deviation</strong> uses every value and pairs with the mean. Edexcel 9ST0 uses the sample formula s = sqrt( sum of (x - mean)^2 / (n - 1) ) - the (n - 1) divisor is a mark-scheme point; calculator SD functions may default to a different divisor, so quote 3 significant figures and state the formula used.</p><p><strong>Coding</strong> appears in exam questions: if y = (x - a)/b then the mean of y is (mean of x - a)/b and the SD of y is SD of x divided by the absolute value of b. Division affects spread; subtraction does not. Expect a question asking you to recover the original mean or SD from coded summary statistics.</p><p><strong>Skewness</strong> is measured from the averages: if mean > median the distribution has positive (right) skew; if mean < median, negative skew. The formula 3(mean - median)/sd quantifies this, and the quartile measure (Q3 + Q1 - 2Q2)/(Q3 - Q1) works from a box plot. In an exam, describe skew in context - e.g. incomes usually show positive skew, so report the median.</p><p>Choosing the measure for an exam answer is a two-step decision. First, is the data categorical? Then the mode is the only option. Second, is the distribution skewed or does it contain outliers? Then pair the median with the IQR. Only for roughly symmetric data without outliers should the mean with standard deviation be reported. A quick sanity check that earns marks: compare mean and median - if they differ noticeably, the distribution is skewed and the median should be quoted. A typical exam item gives coded or summary statistics and asks which average is appropriate and why; the answer is graded on the reasoning, not the choice alone.</p>
+</section>
+<section class="section">
+<h2>Outliers, box plots, histograms and comparison</h2>
+<p>An <strong>outlier</strong> is any value below Q1 - 1.5 x IQR or above Q3 + 1.5 x IQR. Show the fence calculations explicitly, then decide: discard an outlier only with a justifiable reason (mis-keyed data, impossible value), otherwise keep it and say why (a genuine extreme value still part of the population). A discarded outlier changes the mean and SD but not the median or IQR.</p><p>A <strong>box plot</strong> displays the five key values - minimum, Q1, median, Q3, maximum - with outliers marked as crosses beyond the whiskers. It makes location (position of the median), dispersion (width of the box = IQR) and skew (asymmetry of the box and whiskers) visible at a glance. Comparison questions are guaranteed marks if you write in context: state which group has the higher average (median), which is more consistent (smaller IQR or range), and comment on skew - never just quote numbers without interpretation.</p><p><strong>Histograms</strong> represent continuous, grouped data. The vertical axis is <strong>frequency density = frequency / class width</strong>, and the area of each bar is proportional to frequency. With unequal class widths, plotting raw frequency is a classic error; with equal widths the densities are proportional to frequencies anyway. You can estimate how many observations lie in any interval by finding the corresponding area, and you should describe the shape: unimodal, symmetric, or positively/negatively skewed.</p><p>A high-mark comparison paragraph has a fixed skeleton: (i) compare medians in context - on average...; (ii) compare spread in context - the IQR/SD for... is smaller, so more consistent; (iii) comment on outliers or skew and what they imply for the choice of average. Practise writing all three sentences with the context nouns in every one.</p><p>Box plots can also be constructed from a <strong>cumulative frequency curve</strong>: read the quartiles at cumulative frequencies of n/4 and 3n/4 and the median at n/2, then draw the box plot from those five values. Edexcel marks quartiles from cumulative frequency graphs leniently for reading accuracy but strictly for method - plot points at class upper boundaries, join with a smooth curve, and draw horizontal and vertical construction lines. Finally, remember the two marks that most candidates drop in comparison questions: interpreting every number in context (the mark scheme usually rejects uninterpreted values), and stating which distribution is more consistent rather than only which has the greater spread.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A town council records the daily journey times, in minutes, of 11 bus drivers on one route. The times are: 2, 4, 4, 5, 6, 6, 7, 8, 9, 9, 34. (a) Find the mean, standard deviation, median and interquartile range of the times. (4 marks) (b) Identify any outliers using the 1.5 x IQR rule and state, with a reason, whether the value 34 should be discarded. (3 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Sum = 94, so mean = 94/11 = 8.55 minutes (1). Sum of x squared = 1564, so s = sqrt((1564 - 94^2/11)/10) = sqrt(76.1) = 8.72 minutes (1). Median is the 6th value = 6 minutes (1). Q1 = 3rd value = 4, Q3 = 9th value = 9, so IQR = 5 minutes (1). (b) Upper fence = Q3 + 1.5 x IQR = 9 + 7.5 = 16.5; lower fence = 4 - 7.5 = -3.5 (1). Since 34 &gt; 16.5 it is an outlier (1). It should be discarded only if there is a reason to believe it was recorded in error or is impossible for the route; if it is a genuine (e.g. breakdown-related) journey time it must be kept (1). Accept any justified decision; marks are for fences, comparison and justification.</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>A school of 800 students has 300 in Year 12 and 500 in Year 13. A researcher takes a stratified sample of 40 students, stratified by year group. (a) State one advantage of stratified sampling over simple random sampling here. (b) Calculate how many Year 12 and Year 13 students should be sampled. (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) It guarantees each year group is represented in proportion to its size, so both groups are definitely included (any valid advantage). (b) Year 12: (300/800) x 40 = 15 students; Year 13: (500/800) x 40 = 25 students. Working: n_h = (N_h/N) x n for each stratum; check total 15 + 25 = 40. (1 mark advantage, 1 mark each calculation, 1 mark total/check.)</div></details>
+<details><summary>A dataset of 11 measurements has mean 8.55, s = 8.72, Q1 = 4, median = 6 and Q3 = 9. A proposed additional value of 2.8 is added to the dataset. Without recalculating, state the effect on (i) the mean, (ii) the standard deviation, (iii) the median, (iv) the IQR. (4 marks)</summary><div class="answer"><strong>Answer:</strong> 2.8 lies below the mean (8.55), so (i) the mean decreases (1). (ii) The standard deviation changes slightly - since 2.8 is close to the existing bulk of the data and within the fences (lower fence -3.5), the change is small; it is not an outlier so spread stays similar (1). (iii) With 12 values the median becomes the mean of the 6th and 7th ordered values, so it may change slightly; 2.8 is the smallest value so it cannot lower the position of the middle - the median stays 6 or changes only marginally (1). (iv) Q1 and Q3 may shift because quartile positions depend on n, but since 2.8 is not an outlier the IQR changes little; the key mark is recognising resistant vs non-resistant measures (1).</div></details>
+<details><summary>The times, t minutes, taken by 95 customers at a bank are grouped: 0 &lt; t &lt;= 10 (frequency 20), 10 &lt; t &lt;= 15 (frequency 25), 15 &lt; t &lt;= 20 (frequency 30), 20 &lt; t &lt;= 40 (frequency 20). (a) Calculate the frequency density of each class. (b) Estimate how many customers took more than 18 minutes. (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) Frequency density = frequency / class width: 20/10 = 2; 25/5 = 5; 30/5 = 6; 20/20 = 1. (1 mark for method, 1 for all four values.) (b) More than 18 minutes spans the last 2 minutes of the 15-20 class plus the whole 20-40 class: area = 30 x (2/5) + 20 = 12 + 20 = 32 customers (estimated). (1 mark method - proportional area within the class, 1 mark answer 32.)</div></details>
+<details><summary>Box plots of the daily screen time (hours) of 50 boys and 50 girls show: boys - median 3.2, IQR 1.1; girls - median 3.9, IQR 2.4. Compare the screen times of boys and girls. (3 marks)</summary><div class="answer"><strong>Answer:</strong> Location: the median for girls (3.9 hours) is higher than for boys (3.2), so on average girls spend more time on screens per day (1). Dispersion: the IQR for girls (2.4) is larger than for boys (1.1), so girls screen times are more varied and boys more consistent (1). Any valid comment on skew/outliers if shown, stated in context (1). Marks require the context words (screen time, boys, girls) with each comparison - bare numbers score zero.</div></details>
+<details><summary>A researcher stands outside one supermarket on a Tuesday morning and asks 50 shoppers to fill in a quota sample about the shopping habits of the whole town. Criticise the sampling method and suggest an improvement. (3 marks)</summary><div class="answer"><strong>Answer:</strong> The sample is quota/opportunity based, so the respondents are chosen non-randomly by the interviewer and may not represent the town (1). The sample is biased by time and place: Tuesday-morning shoppers are disproportionately retired people and non-workers, and one supermarket misses other areas (1). Improvement: take a stratified random sample of the residents using a sampling frame (e.g. the electoral register), stratified by age group or district, selecting members with random numbers (1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+statistics+sampling+methods+box+plots+histograms+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level statistics sampling methods box plots histograms Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics qualification page - specification, specimen and past papers for 9ST0 (see Key Documents tab)</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel past papers and mark schemes - filter the qualification page above for Statistics (9ST0)</a></li>
+<li data-board="PMT"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">Physics &amp; Maths Tutor A-Level Statistics - topic notes, worked examples and past paper questions by topic</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics (9ST0) qualification page - spec, SAMs, past papers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics revision - sampling, averages, box plots and histograms by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics past paper questions arranged by specification topic</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><span>&nbsp;</span><a href="../../topics/statistics/probability.html">Probability &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

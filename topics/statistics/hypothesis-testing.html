@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hypothesis Testing - A-Level Statistics Revision Notes</title>
+<meta name="description" content="Null and alternative hypotheses, critical regions, significance levels, p-values and one- and two-tailed tests for binomial and normal models - Edexcel 9ST0 Topic 8 revised with exam-style questions and mark-scheme logic.">
+<meta name="keywords" content="A-Level Statistics, Hypothesis Testing, revision notes, Edexcel, past papers">
+<meta property="og:title" content="Hypothesis Testing - A-Level Statistics">
+<meta property="og:description" content="Null and alternative hypotheses, critical regions, significance levels, p-values and one- and two-tailed tests for binomial and normal models - Edexcel 9ST0 Topic 8 revised with exam-style questions and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/statistics/hypothesis-testing.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/statistics/hypothesis-testing.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I decide between a one-tailed and a two-tailed test?", "acceptedAnswer": {"@type": "Answer", "text": "Read the question wording. A directional claim (increased, improved, biased towards, fewer) gives a one-tailed test with H1 in the claimed direction. Non-directional wording (different, changed, biased with no direction) gives a two-tailed test with H1: not equal, and the significance level is split as alpha/2 in each tail. Misreading this loses every mark in the question, so underline the wording before starting."}}{"@type": "Question", "name": "Why do I quote the actual significance level rather than 5 percent?", "acceptedAnswer": {"@type": "Answer", "text": "For discrete test statistics such as the binomial, the tail probability rarely equals alpha exactly, so the true probability of rejecting a true H0 - the actual significance level - is the computed tail probability (e.g. 0.0207, about 2.1 percent). Exam questions ask for it explicitly whenever a critical region has been found from discrete tables."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/statistics/sampling-and-data.html">Sampling and Data</a></li><li><a href="../../topics/statistics/probability.html">Probability</a></li><li><a href="../../topics/statistics/probability-distributions.html">Probability Distributions</a></li><li><a href="../../topics/statistics/correlation-and-regression.html">Correlation and Regression</a></li><li><a href="../../topics/statistics/hypothesis-testing.html" class="active">Hypothesis Testing</a></li><li><a href="../../topics/statistics/time-series.html">Time Series</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Hypothesis Testing</span>
+</nav>
+
+<article class="topic-header">
+<h1>Hypothesis Testing</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">Edexcel</span>
+</div>
+<p class="topic-desc">Null and alternative hypotheses, critical regions, significance levels, p-values and one- and two-tailed tests for binomial and normal models - Edexcel 9ST0 Topic 8 revised with exam-style questions and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="edexcel">Pearson Edexcel</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Set up null and alternative hypotheses in symbols and words, choosing a one- or two-tailed test as appropriate (AO1/AO2)</li>
+<li>Conduct a hypothesis test for the parameter p of a binomial distribution using cumulative tables (AO1)</li>
+<li>Conduct a hypothesis test for the mean of a normal distribution using the standardised test statistic (AO1)</li>
+<li>Find critical regions and critical values, and calculate the actual significance level for a discrete test (AO1/AO2)</li>
+<li>Calculate and interpret p-values and reach a correct statistical decision (AO1/AO2)</li>
+<li>Write conclusions in context with the appropriate level of caution, never claiming proof (AO2/AO3)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Null hypothesis H0:</strong> The default assumption being tested, usually of no change or no effect, always containing an equality, e.g. p = 0.5 or mu = 20.</div>
+<div class="key-point"><strong>Alternative hypothesis H1:</strong> What is being tested for: p &gt; or &lt; a value (one-tailed) or p is not equal to a value (two-tailed).</div>
+<div class="key-point"><strong>Significance level:</strong> The probability threshold alpha (usually 0.05 or 0.01) below which H0 is rejected; the probability of rejecting a true H0.</div>
+<div class="key-point"><strong>Test statistic:</strong> The statistic computed from the sample and compared with the hypothesised value, e.g. the observed number of successes X or z = (mean of x - mu)/(sigma/sqrt(n)).</div>
+<div class="key-point"><strong>Critical value:</strong> The boundary value of the test statistic at which the decision changes; the first value at which the tail probability falls to alpha or below.</div>
+<div class="key-point"><strong>Critical region:</strong> The set of values of the test statistic leading to rejection of H0; for a two-tailed test it has two parts, one in each tail.</div>
+<div class="key-point"><strong>p-value:</strong> The probability of obtaining a result at least as extreme as the one observed, assuming H0 is true; reject H0 when the p-value is less than the significance level.</div>
+<div class="key-point"><strong>Actual significance level:</strong> The true probability of rejecting a true H0 with a discrete test statistic, e.g. P(X less or equal c1) + P(X greater or equal c2) for a two-tailed binomial test.</div>
+<div class="key-point"><strong>One-tailed test:</strong> A test with a directional alternative hypothesis (H1: p &gt; value or p &lt; value); the whole significance level sits in one tail.</div>
+<div class="key-point"><strong>Two-tailed test:</strong> A test with H1: parameter is not equal to the value; the significance level is split between both tails, alpha/2 each.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">H0 always contains equality; H1 is directional (one-tailed) or not-equal (two-tailed).</div>
+<div class="key-point">Two-tailed test: significance level alpha split as alpha/2 in each tail.</div>
+<div class="key-point">p-value = probability of a result at least as extreme as observed, assuming H0; reject H0 if p-value &lt; alpha.</div>
+<div class="key-point">Binomial test: X ~ B(n, p0) under H0; critical regions from cumulative binomial tables.</div>
+<div class="key-point">Normal test for a mean (sigma known): z = (mean of x - mu)/(sigma/sqrt(n)); compare with z critical values.</div>
+<div class="key-point">Conclusions: insufficient evidence to suggest H0 is false (keep H0) or sufficient evidence to suggest H1 (reject H0) - always in context, never proof.</div>
+</section>
+<section class="section">
+<h2>The framework: hypotheses, tails and decisions</h2>
+<p>Every hypothesis test follows the same five-step structure, and exam marks map directly onto the steps. (i) Define the parameter and state H0 and H1 - H0 is the default position (no change, no bias, no correlation) and always contains an equality; H1 is what the question asks you to test for. Read the wording carefully: suspected of being biased towards heads gives a directional H1 (p > 0.5, one-tailed); whether the coin is biased at all gives H1: p is not equal to 0.5 (two-tailed). (ii) State the significance level alpha, usually 5 percent or 1 percent.</p><p>(iii) State the distribution of the test statistic under H0. (iv) Compute either the p-value - the probability of a result at least as extreme as the observed one, assuming H0 - or the critical region. (v) Decide and conclude: reject H0 if the p-value is less than alpha (or the test statistic falls in the critical region), otherwise do not reject H0. The conclusion must be in context with the right caution: there is sufficient evidence at the 5 percent level to suggest... when rejecting, and there is insufficient evidence at the 5 percent level to suggest... when not. Never write prove - hypothesis tests establish evidence, not proof.</p><p>The tails matter arithmetically. A one-tailed test puts the whole significance level in one tail; a two-tailed test splits it as alpha/2 in each tail. The wording that signals each is examinable: changed, different, biased (unqualified) all imply two-tailed; improved, increased, biased towards, fewer imply one-tailed with the direction matching the claim. Misreading the tail is the most common way to lose every mark in the question, so underline the wording before starting.</p><p>Connecting the two decision routes is worth a moment: the p-value route and the critical-region route always agree. The p-value is the probability of the observed result or something more extreme; the critical region is the set of results whose probability is at most alpha. If the observed value lies in the critical region, its p-value is below alpha by construction. Exams accept either route, but state the rule you are using - one sentence such as since 0.0059 is less than 0.05, reject H0 secures the decision mark. Also note what H0 and H1 look like in words as well as symbols: questions frequently ask for both, and the parameter must be defined (where p is the probability of...).</p>
+</section>
+<section class="section">
+<h2>Binomial tests and critical regions</h2>
+<p>For a test about a proportion, the number of successes X is modelled as X ~ B(n, p0) under H0, where p0 is the hypothesised probability. Compute the tail probability with cumulative binomial tables or a calculator. Worked example: a coin is tossed 20 times and lands heads 16 times; test at the 5 percent level whether the coin is biased towards heads. H0: p = 0.5; H1: p > 0.5; X ~ B(20, 0.5). P(X greater or equal 16) = 1 - P(X less or equal 15) = 1 - 0.9941 = 0.0059. Since 0.0059 < 0.05, reject H0: there is sufficient evidence at the 5 percent level that the coin is biased towards heads.</p><p><strong>Critical regions</strong> are found from the tables directly: the critical value is the first value at which the tail probability falls to alpha or below, and the critical region is the set of values beyond it. For the coin test above, P(X greater or equal 15) = 1 - 0.9793 = 0.0207, which is at most 0.05, while P(X greater or equal 14) = 0.0577 exceeds 0.05 - so the critical region is X greater or equal 15. For a two-tailed test, split alpha as alpha/2 in each tail and find both boundaries.</p><p>Because the binomial is discrete, tail probabilities rarely equal alpha exactly, so the <strong>actual significance level</strong> - the true probability of rejecting a true H0 - is quoted: here 0.0207 (about 2.1 percent), not 5 percent. Exam questions ask for it explicitly: state the actual significance level of your test and always answer with the computed tail probability, not the nominal alpha. Also expect the reverse task: given a critical region, find the significance level, or state whether an observed value lies inside the critical region and conclude accordingly.</p><p>Practice the critical-value search until it is automatic. From cumulative tables, scan down the tail until the probability first falls to alpha or below: that row is the critical value, and everything beyond it is the critical region. Show the two table reads either side of the boundary (the last probability above alpha and the first at or below it) - examiners award a method mark for demonstrating the boundary was located rather than guessed. For a two-tailed binomial test, repeat the search in the other tail with alpha/2, and check the two parts of the region are on opposite sides of the hypothesised mean np. When asked whether an observed value is significant, state whether it lies inside the region, then conclude in context.</p>
+</section>
+<section class="section">
+<h2>Normal tests for a mean</h2>
+<p>When the population standard deviation sigma is known and the sample is large (or the population normal), the sample mean is used as the test statistic. Under H0: mu = mu0, the sample mean has distribution N(mu0, sigma squared/n) - the variance is divided by n, so the standard deviation of the sample mean is sigma divided by the square root of n. The standardised test statistic is z = (mean of x - mu0)/(sigma/sqrt(n)), compared with critical values from normal tables: 1.6449 for a 5 percent one-tailed test, 1.9600 for 5 percent two-tailed, 2.3263 for 1 percent one-tailed.</p><p>Worked structure: a machine fills packets with a mean of 500 g and sigma = 12 g; a sample of 36 packets has mean 505 g. Test at the 5 percent level whether the mean fill has increased. H0: mu = 500; H1: mu > 500 (one-tailed). z = (505 - 500)/(12/sqrt(36)) = 5/2 = 2.5. Since 2.5 > 1.6449, reject H0: there is sufficient evidence at the 5 percent level that the mean fill has increased. Equivalently the p-value is P(Z > 2.5) = 1 - 0.9938 = 0.0062 < 0.05, giving the same decision.</p><p>Two details are examined repeatedly. First, the standard error sigma/sqrt(n) - forgetting to divide by the square root of n is the single most common error in this topic; state the distribution of the sample mean explicitly before standardising. Second, the conclusion must name the parameter and context: the mean fill of packets, not just reject H0. Also be ready to work with the p-value route and the critical-value route interchangeably - examiners accept either, but the decision rule (p-value less than alpha, or z beyond the critical value) must be stated.</p><p>Reverse tasks appear regularly: given a critical value, find the significance level; or given the required significance level, find the critical value. Both are the same table work run backwards. Also expect questions that vary the setup: testing whether a mean has decreased (one-tailed, negative z compared with -1.6449), or whether it has changed (two-tailed, compared with plus-or-minus 1.9600). Keep the direction consistent between H1, the tail you compute and the comparison you make - a mismatch between the direction in H1 and the tail computed is an automatic loss. And always draw the normal curve sketch with the tail shaded: it prevents sign errors and demonstrates method.</p>
+</section>
+<section class="section">
+<h2>Correlation tests and writing conclusions</h2>
+<p>Hypothesis tests extend to correlation: to test for positive (or negative, or non-zero) correlation between two variables, set H0: rho = 0 and the corresponding H1, then compare the calculated coefficient - r for the PMCC or rs for Spearman - with the critical value from the tables for the sample size n and significance level. If the calculated value exceeds the critical value in the direction of H1, reject H0 and conclude there is evidence of correlation in context. Example: with n = 25 and r = 0.42, the 5 percent one-tailed critical value is about 0.323; since 0.42 > 0.323, reject H0 - there is sufficient evidence at the 5 percent level of positive correlation.</p><p>Writing conclusions is a marked skill with fixed rules. When rejecting: there is sufficient evidence at the [level] to suggest [H1 in context]. When not rejecting: there is insufficient evidence at the [level] to suggest [H1 in context]. Never write the parameter is proven or accept H0 - the technical phrasing is do not reject H0, because absence of evidence is not evidence of absence. Conclusions should also carry the caveat that the result is based on the assumed model and the sample taken.</p><p>Auditing the whole topic, the recurring mark-losers are: misreading one- versus two-tailed from the wording; using alpha instead of alpha/2 in one tail of a two-tailed test; forgetting the off-by-one when converting at-least to less-or-equal; quoting the nominal significance level when the actual level is asked for; and writing conclusions without context or with the word prove. Practise writing full conclusions for both outcomes of the same test - the wording changes predictably, and the exam rewards that precision.</p><p>Finally, connect hypothesis testing back to the earlier topics: the test statistic comes from the sample summary statistics (Topic 2), the model from the probability distributions (Topic 5), and the conclusion is an interpretation (Topic 6 style). A complete 9ST0 answer threads them together: define the parameter, state the model under H0, compute the evidence, decide, and conclude in context with the significance level named. Practise writing the full conclusion sentence for both outcomes of the same scenario - there is sufficient evidence at the 5 percent level to suggest the mean fill has increased, versus there is insufficient evidence at the 5 percent level to suggest the mean fill has changed - until the wording is automatic.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A coin is suspected of being biased towards heads. It is tossed 20 times and lands heads 16 times. (a) State suitable null and alternative hypotheses for this test. (2 marks) (b) Using a 5 percent significance level, find the critical region for the test. (3 marks) (c) State the actual significance level of the test and carry out the test, concluding in context. (3 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) H0: p = 0.5, where p is the probability of the coin landing heads; H1: p &gt; 0.5 (biased towards heads, one-tailed) (2 marks: both hypotheses with the parameter defined). (b) X ~ B(20, 0.5) under H0 (1). P(X greater or equal 15) = 1 - P(X less or equal 14) = 1 - 0.9793 = 0.0207, which is at most 0.05, and P(X greater or equal 14) = 0.0577 &gt; 0.05 (1). Critical region: X greater or equal 15 (1). (c) Actual significance level = 0.0207 (about 2.1 percent) (1). Since 16 lies in the critical region (or P(X greater or equal 16) = 0.0059 &lt; 0.05), reject H0 (1). Conclusion in context: there is sufficient evidence at the 5 percent level that the coin is biased towards heads (1).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>A die is claimed to be fair. It is rolled 60 times and lands six 16 times. Test, at the 5 percent significance level, whether there is evidence that the die is biased in favour of sixes. (6 marks)</summary><div class="answer"><strong>Answer:</strong> H0: p = 1/6, where p is the probability of rolling a six; H1: p &gt; 1/6 (one-tailed, biased in favour) (2 marks). Under H0, X ~ B(60, 1/6). P(X greater or equal 16) = 1 - P(X less or equal 15) = 1 - 0.9662 = 0.0338 (2 marks: method and value). Since 0.0338 &lt; 0.05, reject H0 (1 mark): there is sufficient evidence at the 5 percent level that the die is biased in favour of sixes (1 mark for the contextual conclusion).</div></details>
+<details><summary>The masses of packets are normally distributed. A machine is set to fill packets with a mean of 500 g; the standard deviation is 12 g. A random sample of 36 packets has mean 505 g. Test at the 5 percent level whether the mean fill has increased. (6 marks)</summary><div class="answer"><strong>Answer:</strong> H0: mu = 500; H1: mu &gt; 500 (one-tailed) (2 marks). Under H0 the sample mean is N(500, 144/36) = N(500, 4), so the standard error is 2 g (1). z = (505 - 500)/2 = 2.5 (1). Since 2.5 &gt; 1.6449 (the 5 percent one-tailed critical value), reject H0 (1 mark). Equivalently, p-value = P(Z &gt; 2.5) = 0.0062 &lt; 0.05. Conclusion in context: there is sufficient evidence at the 5 percent level that the mean fill of packets has increased (1 mark).</div></details>
+<details><summary>A spinner is claimed to land red half the time. In 30 spins it lands red 8 times. Using a two-tailed test at the 5 percent level, test whether the spinner is biased. (6 marks)</summary><div class="answer"><strong>Answer:</strong> H0: p = 0.5; H1: p is not equal to 0.5 (two-tailed) (2 marks). Under H0, X ~ B(30, 0.5). Lower tail: P(X less or equal 8) = 0.0081, which is below alpha/2 = 0.025, so the lower critical region is X less or equal 8 (2 marks: alpha/2 split and value). Since 8 lies in the critical region (equivalently the two-tailed p-value is 2 x 0.0081 = 0.016 &lt; 0.05), reject H0 (1 mark). Conclusion: there is sufficient evidence at the 5 percent level that the spinner is biased (does not land red half the time) (1 mark).</div></details>
+<details><summary>A sample of 25 pairs of observations gives a product moment correlation coefficient of r = 0.42. The 5 percent one-tailed critical value for n = 25 is approximately 0.323. Test, at the 5 percent level, for positive correlation between the variables, concluding in context. (4 marks)</summary><div class="answer"><strong>Answer:</strong> H0: rho = 0; H1: rho &gt; 0 (one-tailed) (2 marks). Since 0.42 &gt; 0.323, r falls in the critical region, so reject H0 (1 mark). Conclusion: there is sufficient evidence at the 5 percent level of positive linear correlation between the two variables, in context (1 mark). Note the coefficient itself is compared with the critical value - no further calculation is needed.</div></details>
+<details><summary>Ten products are ranked by an expert and by a new automated system, giving Spearman&#x27;s rank correlation coefficient rs = 0.64. The 5 percent two-tailed critical value for n = 10 is approximately 0.636. Test, at the 5 percent level, whether there is any correlation between the rankings. (4 marks)</summary><div class="answer"><strong>Answer:</strong> H0: rho = 0 (no correlation); H1: rho is not equal to 0 (two-tailed) (2 marks). Since 0.64 &gt; 0.636, the coefficient falls just inside the critical region, so reject H0 (1 mark). Conclusion: there is sufficient evidence, at the 5 percent level, of correlation between the expert&#x27;s rankings and the automated system&#x27;s rankings - although the result is marginal, so the evidence is only just strong enough (1 mark).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=hypothesis+testing+binomial+critical+regions+A+level+statistics+Edexcel" target="_blank" rel="noopener">YouTube: hypothesis testing binomial critical regions A level statistics Edexcel</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics qualification page - specification, specimen and past papers for 9ST0 (see Key Documents tab)</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel past papers and mark schemes - filter the qualification page above for Statistics (9ST0)</a></li>
+<li data-board="PMT"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">Physics &amp; Maths Tutor A-Level Statistics - hypothesis testing notes and past paper questions by topic</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics (9ST0) qualification page - spec, SAMs, past papers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics revision - hypothesis testing, critical regions and p-values by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics past paper questions arranged by specification topic</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/statistics/correlation-and-regression.html">&larr; Correlation and Regression</a><a href="../../topics/statistics/time-series.html">Time Series &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

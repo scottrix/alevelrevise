@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magnetic Fields and Electromagnetic Induction - A-Level Physics Revision Notes</title>
+<meta name="description" content="A-Level Physics revision: magnetic flux density, F = BIL, force on moving charges, induced EMF, Faraday&#x27;s and Lenz&#x27;s laws, transformers, alternating currents and RMS values - AQA 7408 3.7.5, OCR A H556 6.3, Edexcel 9PH0 Topic 7.">
+<meta name="keywords" content="A-Level Physics, Magnetic Fields and Electromagnetic Induction, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Magnetic Fields and Electromagnetic Induction - A-Level Physics">
+<meta property="og:description" content="A-Level Physics revision: magnetic flux density, F = BIL, force on moving charges, induced EMF, Faraday&#x27;s and Lenz&#x27;s laws, transformers, alternating currents and RMS values - AQA 7408 3.7.5, OCR A H556 6.3, Edexcel 9PH0 Topic 7.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/physics/fields-magnetic.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/physics/fields-magnetic.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why is the EMF of a rotating coil zero when the flux through it is maximum?", "acceptedAnswer": {"@type": "Answer", "text": "Faraday's law gives the EMF from the rate of change of flux, not the flux itself. When the coil's plane is perpendicular to the field, the flux linkage N\u03a6 = BAN is at its maximum, but momentarily it is neither increasing nor decreasing - d\u03a6/dt = 0 - so the EMF is zero. A quarter-turn later the plane is parallel to the field: flux is zero but changing fastest, so the EMF peaks (\u03b5_max = BAN\u03c9). EMF and flux are 90 degrees out of phase."}}{"@type": "Question", "name": "Why are transformer cores laminated?", "acceptedAnswer": {"@type": "Answer", "text": "The changing flux in the iron core induces eddy currents - circulating currents within the core itself - which waste energy as heat. Laminating the core (thin sheets insulated from each other) breaks up the eddy paths: each layer has a much larger resistance, so the eddy currents and their heating are drastically reduced. This is one of the four standard transformer losses (with winding resistance, hysteresis and flux leakage) and the one lamination specifically fixes."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/physics/mechanics.html">Mechanics: Motion, Forces and Energy</a></li><li><a href="../../topics/physics/materials.html">Materials</a></li><li><a href="../../topics/physics/waves.html">Waves and Optics</a></li><li><a href="../../topics/physics/electricity-and-circuits.html">Electricity and Circuits</a></li><li><a href="../../topics/physics/particles-and-quantum.html">Particles and Quantum Phenomena</a></li><li><a href="../../topics/physics/fields-gravitation.html">Gravitation and Fields</a></li><li><a href="../../topics/physics/fields-electric.html">Electric Fields and Capacitance</a></li><li><a href="../../topics/physics/fields-magnetic.html" class="active">Magnetic Fields and Electromagnetic Induction</a></li><li><a href="../../topics/physics/thermal-uncertainty.html">Thermal Physics and Uncertainty</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../physics.html">Physics</a> <span>›</span>
+<span>Magnetic Fields and Electromagnetic Induction</span>
+</nav>
+
+<article class="topic-header">
+<h1>Magnetic Fields and Electromagnetic Induction</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">A-Level Physics revision: magnetic flux density, F = BIL, force on moving charges, induced EMF, Faraday&#x27;s and Lenz&#x27;s laws, transformers, alternating currents and RMS values - AQA 7408 3.7.5, OCR A H556 6.3, Edexcel 9PH0 Topic 7.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Define magnetic flux density and calculate the force on a current-carrying wire F = BIL sin θ (AO1/AO2) - AQA 7408 3.7.5.1, Edexcel 9PH0 Topic 7</li>
+<li>Analyse charged particles in magnetic fields: F = BQv, circular motion r = mv/(BQ), cyclotron and velocity selector (AO2) - AQA 7408 3.7.5.1-3.7.5.2</li>
+<li>Define magnetic flux and flux linkage; apply Faraday&#x27;s law and Lenz&#x27;s law to induced EMF (AO1/AO2) - AQA 7408 3.7.5.3, OCR A H556 6.3</li>
+<li>Derive the EMF of a rotating coil ε = BANω sin(ωt) and the transformer equation from Faraday&#x27;s law (AO2/AO3) - AQA 7408 3.7.5.4</li>
+<li>Use alternating currents: peak and RMS values with the √2 derivation, and oscilloscope readings (AO2) - AQA 7408 3.7.5.4</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Magnetic flux density (B):</strong> Force per unit current per unit length on a wire at right angles to the field: B = F/(IL), in tesla (T); the strength of the field.</div>
+<div class="key-point"><strong>Magnetic flux (Φ):</strong> Φ = BA cos θ - the field component perpendicular to an area, in webers (1 Wb = 1 T m^2).</div>
+<div class="key-point"><strong>Flux linkage:</strong> The product NΦ for a coil of N turns, in weber-turns; the quantity whose rate of change determines the induced EMF.</div>
+<div class="key-point"><strong>Faraday&#x27;s law:</strong> The induced EMF is proportional to the rate of change of flux linkage: ε = -N dΦ/dt.</div>
+<div class="key-point"><strong>Lenz&#x27;s law:</strong> The direction of the induced EMF (or current) opposes the change in flux causing it - energy conservation for induction.</div>
+<div class="key-point"><strong>Tesla (T):</strong> The SI unit of magnetic flux density: 1 T gives a 1 N force on a 1 m wire carrying 1 A perpendicular to the field.</div>
+<div class="key-point"><strong>RMS value:</strong> The DC-equivalent value of an alternating quantity: V_rms = V_0/√2 - delivers the same power as a DC supply of that value.</div>
+<div class="key-point"><strong>Transformer:</strong> Two coils on a shared iron core; the changing flux in the primary induces an EMF in the secondary: V_s/V_p = N_s/N_p.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Force on a wire: F = BIL sin θ (θ between wire and field); direction from Fleming&#x27;s left hand (motor) rule.</div>
+<div class="key-point">Force on a moving charge: F = BQv sin θ, always perpendicular to v - circular paths, r = mv/(BQ).</div>
+<div class="key-point">Flux Φ = BA cos θ (Wb); flux linkage = NΦ; rotating coil: ε = BANω sin(ωt), peak ε_max = BANω.</div>
+<div class="key-point">Faraday: ε = -N dΦ/dt (rate of change of flux linkage); Lenz: induced effects oppose the change causing them.</div>
+<div class="key-point">Transformer: V_s/V_p = N_s/N_p (ideal); efficiency losses: eddy currents (laminate the core), winding resistance, hysteresis.</div>
+<div class="key-point">AC: V_rms = V_0/√2, I_rms = I_0/√2; UK mains 230 V rms ≈ 325 V peak, 50 Hz.</div>
+</section>
+<section class="section">
+<h2>Magnetic flux density and force on a wire</h2>
+<p><strong>Magnetic flux density</strong> B is defined by the force on a current-carrying wire: <strong>F = BIL sin θ</strong>, where θ is the angle between the wire and the field - B is the force per unit current per unit length on a wire perpendicular to the field, in tesla (AQA 7408 3.7.5.1; Edexcel 9PH0 Topic 7; OCR A H556 6.3). Full force when perpendicular (θ = 90), zero when parallel to the field (θ = 0). <strong>Direction</strong> from <strong>Fleming's left-hand rule</strong>: first finger = field (N to S), second finger = current, thumb = force (motion) - all three mutually perpendicular. This is the motor principle: the force on the coil sides of a motor makes it rotate (commutator reverses the current each half-turn to keep the rotation going).</p><p><strong>Flux:</strong> Φ = BA cos θ - the perpendicular component of the field through an area, in webers (1 Wb = 1 T m^2). For a coil of N turns the <strong>flux linkage</strong> is NΦ. Tilting a coil relative to the field changes cos θ, hence the flux - the geometry that drives induction (section 3).</p><details><summary>Worked example: force on a wire</summary><p>A wire of length 0.50 m carries 3.0 A at 30 degrees to a uniform field of 0.20 T. Find the force.</p><p><strong>Line 1:</strong> F = BIL sin θ (M1: equation with the angle).</p><p><strong>Line 2:</strong> F = 0.20 × 3.0 × 0.50 × sin 30 = 0.20 × 3.0 × 0.50 × 0.5 = 0.15 N (M1 A1), direction from Fleming's left-hand rule.</p><p><strong>Line 3:</strong> Parallel to the field (θ = 0): F = 0 - the sine factor carries the geometry (A1: interpretation).</p></details>
+</section>
+<section class="section">
+<h2>Charged particles in magnetic fields</h2>
+<p>A charge Q moving at speed v perpendicular to a field experiences <strong>F = BQv</strong> (AQA 7408 3.7.5.1-3.7.5.2). Derivation from the wire force: a wire of length L with n carriers per volume (area A) carrying current I contains nAL carriers, each moving at drift speed v; the total charge moving is nALq, and the current I = nqAv. The force on the wire F = BIL = B(nqAv)L = (nALq)Bv - the force on the total moving charge. Per charge: <strong>F = BQv</strong>. The force is always <em>perpendicular to the velocity</em>, so it changes direction but not speed - it does no work. Result: <strong>circular motion</strong> in a uniform field, with the magnetic force as the centripetal force:</p><p><strong>BQv = mv^2/r</strong>, so <strong>r = mv/(BQ)</strong> - radius grows with momentum and falls with charge and field strength. This is how the mass of ions is measured in mass spectrometers (r ∝ m at fixed v, Q, B) and how particles are steered in accelerators.</p><p><strong>Cyclotron:</strong> two D-shaped electrodes (dees) with an alternating pd across the gap in a perpendicular field: the field bends each particle into a semicircle of radius r = mv/(BQ) inside a dee; the alternating pd accelerates it across the gap each crossing, increasing v and hence r - but the <strong>period is independent of speed</strong> (T = 2πm/(BQ)), so the alternating pd frequency stays fixed even as the orbits grow: the key design fact. <strong>Velocity selector:</strong> crossed E and B fields give electric force qE and magnetic force BQv in opposition; particles pass undeflected when qE = BQv, i.e. v = E/B - a speed filter.</p><details><summary>Worked example: electron radius</summary><p>An electron (m = 9.11 × 10^-31 kg, e = 1.60 × 10^-19 C) travels at 2.0 × 10^7 m/s at right angles to a field of 0.50 mT. Find the radius of its circular path.</p><p><strong>Line 1:</strong> Magnetic force provides the centripetal force: BQv = mv^2/r (M1: force balance).</p><p><strong>Line 2:</strong> r = mv/(BQ) (M1: rearrangement).</p><p><strong>Line 3:</strong> r = (9.11 × 10^-31 × 2.0 × 10^7)/(0.50 × 10^-3 × 1.60 × 10^-19) = 1.82 × 10^-23/8.0 × 10^-23 = 0.23 m (A1) - 23 cm.</p></details>
+</section>
+<section class="section">
+<h2>Electromagnetic induction: Faraday and Lenz</h2>
+<p><strong>Faraday's law:</strong> the induced EMF is proportional to the <em>rate of change of flux linkage</em>: ε = -N dΦ/dt (AQA 7408 3.7.5.3; OCR A H556 6.3). <strong>Lenz's law:</strong> the direction of the induced current opposes the change in flux causing it (the minus sign) - push a magnet towards a coil and the coil's face becomes the same pole, repelling the magnet. Lenz's law is <strong>energy conservation</strong>: if the induced current aided the change, it would amplify motion and create free energy. Induction experiments: magnet moved in/out of a coil (EMF only while moving - faster motion gives larger EMF because dΦ/dt is larger), a wire moving through a field (ε = BLv, derivation: flux swept per second = BLv, so EMF = rate of flux cutting), a coil rotating in a field (the generator, below).</p><p><strong>Derivation of ε = BLv (straight wire):</strong> a wire of length L moving at speed v perpendicular to a field B sweeps out an area Lv each second, cutting flux Φ = BLv per second. Flux linkage change per second is the induced EMF: <strong>ε = BLv</strong>.</p><p><strong>Derivation of the rotating-coil EMF:</strong> a coil of N turns, area A, rotating at angular speed ω in field B: the angle between the field and the coil's normal is θ = ωt, so flux linkage NΦ = BAN cos(ωt). Faraday's law: ε = -d(NΦ)/dt = -d[BAN cos(ωt)]/dt = <strong>BANω sin(ωt)</strong> - a sinusoidal EMF with peak <strong>ε_max = BANω</strong>, maximum when the coil's plane is parallel to the field (flux zero but changing fastest), zero when the plane is perpendicular (flux maximum, rate of change zero). This is the AC generator: slip rings output the alternating EMF.</p><details><summary>Worked example: peak EMF of a rotating coil</summary><p>A 200-turn coil of area 0.05 m^2 rotates at 50 Hz in a 0.4 T field. Find the peak EMF.</p><p><strong>Line 1:</strong> ω = 2πf = 2π × 50 = 314 rad/s (M1: angular speed from frequency).</p><p><strong>Line 2:</strong> ε_max = BANω (M1: generator equation).</p><p><strong>Line 3:</strong> ε_max = 0.4 × 200 × 0.05 × 314 = 1257 V ≈ 1.26 kV (A1).</p><p><strong>Line 4:</strong> The EMF is zero when the coil plane is perpendicular to B (flux maximum, dΦ/dt = 0) - a standard interpretation point (A1).</p></details>
+</section>
+<section class="section">
+<h2>Transformers and alternating currents</h2>
+<p>A <strong>transformer</strong> couples two coils on a shared laminated iron core (AQA 7408 3.7.5.4): alternating current in the primary creates a changing flux; the core carries the changing flux through the secondary, where Faraday's law induces an EMF.</p><p><strong>Transformer equation derivation:</strong> the same changing flux passes through both coils, so each turn links dΦ/dt. Primary: V_p = N_p dΦ/dt; secondary: V_s = N_s dΦ/dt (ideal, no losses). Dividing: <strong>V_s/V_p = N_s/N_p</strong> - the voltage ratio equals the turns ratio. Step-up (N_s > N_p) raises voltage and lowers current (power conservation for an ideal transformer: V_pI_p = V_sI_s); step-down does the reverse. <strong>Efficiency losses:</strong> eddy currents induced in the iron core (minimised by laminating - thin insulated layers break the eddy paths), resistance of the windings (thick copper), hysteresis in the core (soft iron magnetises and demagnetises easily), and flux leakage (close-wound coils on a continuous core). Real transformers reach 99%+ efficiency.</p><p><strong>Why high-voltage transmission:</strong> power = VI; for a fixed transmitted power, raising V lowers I, and the cable loss P_loss = I^2R_cable falls as the square - the standard argument with a calculation.</p><p><strong>Alternating currents:</strong> I = I_0 sin(ωt), V = V_0 sin(ωt). The <strong>RMS value</strong> is the DC-equivalent: V_rms = V_0/√2. <strong>Derivation:</strong> power is proportional to V^2; averaging sin^2(ωt) over a cycle gives ½, so the mean power with peak V_0 equals the DC power at V_0/√2 - hence <strong>V_rms = V_0/√2</strong> (same for current). UK mains: 230 V rms at 50 Hz means peak V_0 = √2 × 230 = 325 V and period 0.020 s. <strong>Oscilloscope:</strong> y-gain (V/division) measures peak pd from the trace height; time base (s/division) measures the period (peak-to-peak time) and hence frequency; DC traces are flat lines, AC sinusoids.</p><details><summary>Worked example: transformer and transmission</summary><p>A transformer steps 12,000 V down to 230 V with 95% efficiency. The secondary supplies 13 A.</p><p><strong>Line 1:</strong> Ideal turns ratio: V_s/V_p = N_s/N_p = 230/12000 = 0.0192 (M1 A1) - so N_s/N_p = 1:52.</p><p><strong>Line 2:</strong> Ideal primary current: I_p = I_s × V_s/V_p = 13 × 0.0192 = 0.25 A (M1: power conservation).</p><p><strong>Line 3:</strong> With 95% efficiency, input power = output/0.95: I_p = 13 × 230/(0.95 × 12000) = 0.26 A (A1).</p><p><strong>Line 4:</strong> Losses: eddy currents (lamination), winding resistance, hysteresis (A1).</p></details>
+</section>
+<section class="section">
+<h2>Required practical: measuring magnetic flux density (AQA RP8)</h2>
+<p>The standard practical measures the flux density of a magnet (AQA required practical 8; OCR PAG-style; Edexcel practical work on fields): a rigid current-carrying wire (or a wire 'cradle') of measured length L sits on a <strong>top-pan balance</strong> inside the uniform field of a magnet (or Helmholtz coils), perpendicular to the field. When current flows, the magnetic force F = BIL acts on the wire; by Newton's third law an equal and opposite force acts on the magnet, changing the balance reading.</p><p><strong>Method:</strong> with the wire clamped rigidly to a stand (not touching the balance), zero the balance with the magnet on it, then vary the current I (ammeter, rheostat, power supply) and record the balance reading at each current. The apparent mass change Δm corresponds to force Δmg = BIL. Plot force (Δmg) against current: a straight line through the origin of <strong>gradient BL</strong>, so B = gradient/L. Using the gradient across all data averages random error and tests the model (a straight line confirms F ∝ I). Reverse the current to check the force reverses (balance reading moves the other way).</p><p><strong>Uncertainty and evaluation:</strong> the balance resolution (±0.01 g on a two-decimal-place balance = ±0.0001 N in force) sets the smallest measurable force - use the largest possible current and length (within the field) to increase Δm. Length L measured with a rule (±1 mm); current from an ammeter resolution. Percentage uncertainty in B = Δgradient/gradient + ΔL/L. Systematic errors: the wire not perpendicular to the field (F = BIL sin θ - use a set-square to align), the wire touching the balance (friction corrupts the reading), zero drift of the balance (re-zero between readings), and heating of the wire changing its resistance (take readings promptly). Quote B ± ΔB and compare with the manufacturer's value.</p><details><summary>Worked example: flux density from balance data</summary><p>A wire of length 0.050 m on a balance: current 2.0 A gives a reading change of 0.0040 kg; 4.0 A gives 0.0080 kg.</p><p><strong>Line 1:</strong> Force = Δmg: 0.0040 × 9.81 = 0.039 N; 0.0080 × 9.81 = 0.078 N (M1: force from balance reading).</p><p><strong>Line 2:</strong> Gradient of force against current = 0.078/4.0 = 0.0196 N/A (M1 A1: straight line through origin).</p><p><strong>Line 3:</strong> B = gradient/L = 0.0196/0.050 = 0.39 T (A1).</p><p><strong>Line 4:</strong> With balance resolution ±0.0001 kg, the force uncertainty is ±0.001 N, about 2.5% - repeat and average to reduce it (A1: evaluation).</p></details>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> An electron (m = 9.11 × 10^-31 kg, e = 1.60 × 10^-19 C) travels at 2.0 × 10^7 m/s at right angles to a uniform magnetic field of flux density 0.50 mT. Calculate the radius of its circular path and state why the path is circular. (AQA 7408-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> The magnetic force on a moving charge is F = BQv = 0.50 × 10^-3 × 1.60 × 10^-19 × 2.0 × 10^7 (M1: force on moving charge) = 1.6 × 10^-15 N (A1). The force is always perpendicular to the velocity, so it changes the direction of motion but not the speed - no work is done by the force (A1: perpendicular force explanation). It therefore acts as the centripetal force: BQv = mv^2/r (M1: force balance set up). r = mv/(BQ) = (9.11 × 10^-31 × 2.0 × 10^7)/(0.50 × 10^-3 × 1.60 × 10^-19) (M1: rearrangement) = 0.23 m (A1) - a circular path of radius 23 cm.</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>A wire of length 0.50 m carries 3.0 A at 30 degrees to a uniform field of 0.20 T. Calculate the force on it.</summary><div class="answer"><strong>Answer:</strong> F = BIL sin θ = 0.20 × 3.0 × 0.50 × sin 30 (M1: sine factor for the angle) = 0.15 N (A1), direction from Fleming&#x27;s left-hand rule (A1).</div></details>
+<details><summary>An electron (m = 9.11 × 10^-31 kg, e = 1.60 × 10^-19 C) travels at 2.0 × 10^7 m/s at right angles to a 0.50 mT field. Calculate the radius of its path.</summary><div class="answer"><strong>Answer:</strong> BQv = mv^2/r gives r = mv/(BQ) (M1: centripetal balance). r = (9.11 × 10^-31 × 2.0 × 10^7)/(0.50 × 10^-3 × 1.60 × 10^-19) (M1 A1) = 0.23 m (A1).</div></details>
+<details><summary>A 200-turn coil of area 0.05 m^2 rotates at 50 Hz in a 0.4 T field. Calculate the peak EMF and state when the EMF is zero.</summary><div class="answer"><strong>Answer:</strong> ω = 2πf = 314 rad/s (M1). ε_max = BANω = 0.4 × 200 × 0.05 × 314 (M1 A1) = 1257 V ≈ 1.26 kV (A1). EMF is zero when the coil plane is perpendicular to the field - flux maximum, rate of change zero (A1).</div></details>
+<details><summary>Derive the transformer equation V_s/V_p = N_s/N_p.</summary><div class="answer"><strong>Answer:</strong> The same changing flux passes through both coils; each turn links dΦ/dt (M1). Primary EMF per Faraday: V_p = N_p dΦ/dt; secondary: V_s = N_s dΦ/dt (M1 A1). Dividing: V_s/V_p = N_s/N_p (A1). Ideal: V_pI_p = V_sI_s (power conserved).</div></details>
+<details><summary>UK mains is 230 V rms at 50 Hz. Calculate the peak voltage and period, and derive V_rms = V_0/√2.</summary><div class="answer"><strong>Answer:</strong> V_0 = √2 × V_rms = 1.414 × 230 = 325 V (A1); T = 1/f = 1/50 = 0.020 s (A1). Derivation: power ∝ V^2; mean of sin^2(ωt) over a cycle is ½, so mean AC power at peak V_0 equals DC power at V_0/√2 (M1 A1).</div></details>
+<details><summary>A wire of length 0.050 m on a top-pan balance: current 2.0 A changes the reading by 0.0040 kg; 4.0 A by 0.0080 kg. Calculate B and describe how the apparatus works.</summary><div class="answer"><strong>Answer:</strong> Force = Δmg: 0.039 N at 2.0 A, 0.078 N at 4.0 A (M1). Gradient of F against I = 0.0196 N/A (M1 A1). B = gradient/L = 0.39 T (A1). Apparatus: wire fixed above the balance inside the field; magnetic force on the wire gives an equal opposite force on the magnet (Newton&#x27;s third law), changing the balance reading (A1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+physics+magnetic+fields+F=BIL+flux+density+electromagnetic+induction+Faraday+Lenz+transformers+alternating+current+RMS+revision" target="_blank" rel="noopener">YouTube: A level physics magnetic fields F=BIL flux density electromagnetic induction Faraday Lenz transformers alternating current RMS revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA find past papers and mark schemes - A-Level Physics 7408 fields papers (magnetic fields)</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR qualifications - OCR A Level Physics A H556 past papers (Module 6 electromagnetism)</a></li>
+<li data-board="All boards"><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor physics revision - magnetic fields and induction topic questions by board</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor - A-Level Physics magnetic fields revision notes and exam questions by board</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA - find past papers and mark schemes for A-Level Physics 7408</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR - Physics A H556 qualification page with past papers, mark schemes and practical materials</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/physics/fields-electric.html">&larr; Electric Fields and Capacitance</a><a href="../../topics/physics/thermal-uncertainty.html">Thermal Physics and Uncertainty &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

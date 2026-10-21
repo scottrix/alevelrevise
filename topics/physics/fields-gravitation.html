@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gravitation and Fields - A-Level Physics Revision Notes</title>
+<meta name="description" content="A-Level Physics gravitation revision: field concept, Newton&#x27;s law of gravitation, g field strength, gravitational potential with derivations, orbits, satellites, Kepler&#x27;s laws and escape velocity - AQA 7408 3.7.2, OCR A H556 5.4, Edexcel 9PH0 Topic 12.">
+<meta name="keywords" content="A-Level Physics, Gravitation and Fields, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Gravitation and Fields - A-Level Physics">
+<meta property="og:description" content="A-Level Physics gravitation revision: field concept, Newton&#x27;s law of gravitation, g field strength, gravitational potential with derivations, orbits, satellites, Kepler&#x27;s laws and escape velocity - AQA 7408 3.7.2, OCR A H556 5.4, Edexcel 9PH0 Topic 12.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/physics/fields-gravitation.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/physics/fields-gravitation.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why is gravitational potential always negative?", "acceptedAnswer": {"@type": "Answer", "text": "The zero of potential is chosen at infinity, where the field is zero. Because gravity is attractive, the field does positive work as a mass moves in from infinity - so the work done by an external agent is negative, and the potential (work per unit mass) is negative everywhere, reaching its most negative value -GM/r at the surface of the mass. It rises towards zero with distance but never reaches it at finite r."}}{"@type": "Question", "name": "Why do astronauts in the ISS float if gravity there is still about 87% of the surface value?", "acceptedAnswer": {"@type": "Answer", "text": "They float because they are in free fall: the station and everything in it accelerate towards Earth at g = v^2/r with no normal force opposing the motion - the same state as a lift with its cable cut. The sensation of weight comes from the contact force pushing back (normal reaction), not from gravity itself. Gravity provides exactly the centripetal force for the orbit, so nothing needs to 'hold up' the astronauts."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/physics/mechanics.html">Mechanics: Motion, Forces and Energy</a></li><li><a href="../../topics/physics/materials.html">Materials</a></li><li><a href="../../topics/physics/waves.html">Waves and Optics</a></li><li><a href="../../topics/physics/electricity-and-circuits.html">Electricity and Circuits</a></li><li><a href="../../topics/physics/particles-and-quantum.html">Particles and Quantum Phenomena</a></li><li><a href="../../topics/physics/fields-gravitation.html" class="active">Gravitation and Fields</a></li><li><a href="../../topics/physics/fields-electric.html">Electric Fields and Capacitance</a></li><li><a href="../../topics/physics/fields-magnetic.html">Magnetic Fields and Electromagnetic Induction</a></li><li><a href="../../topics/physics/thermal-uncertainty.html">Thermal Physics and Uncertainty</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../physics.html">Physics</a> <span>›</span>
+<span>Gravitation and Fields</span>
+</nav>
+
+<article class="topic-header">
+<h1>Gravitation and Fields</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">A-Level Physics gravitation revision: field concept, Newton&#x27;s law of gravitation, g field strength, gravitational potential with derivations, orbits, satellites, Kepler&#x27;s laws and escape velocity - AQA 7408 3.7.2, OCR A H556 5.4, Edexcel 9PH0 Topic 12.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Describe the field concept and apply Newton&#x27;s law of gravitation F = GMm/r^2 as an inverse-square law (AO1/AO2) - AQA 7408 3.7.2.1, OCR A H556 5.4</li>
+<li>Calculate gravitational field strength g = GM/r^2 and use g = F/m (AO2) - AQA 7408 3.7.2.2</li>
+<li>Use gravitational potential V = -GM/r, potential energy mV, and the field-potential gradient relation (AO2) - AQA 7408 3.7.2.3</li>
+<li>Derive orbital speed and period for circular orbits, explain Kepler&#x27;s third law, geostationary satellites and total orbital energy (AO2/AO3) - AQA 7408 3.7.2.4</li>
+<li>Derive escape velocity and analyse orbital data with uncertainty (AO3)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Force field:</strong> A region where a body experiences a non-contact force; a gravitational field acts on mass, an electric field on charge.</div>
+<div class="key-point"><strong>Newton&#x27;s law of gravitation:</strong> F = GMm/r^2 - the attractive force between two point masses, an inverse-square law with G = 6.67 × 10^-11 N m^2 kg^-2.</div>
+<div class="key-point"><strong>Gravitational field strength (g):</strong> Force per unit mass, g = F/m = GM/r^2, in N/kg; 9.81 N/kg at Earth&#x27;s surface.</div>
+<div class="key-point"><strong>Gravitational potential (V):</strong> Work done per unit mass bringing a mass from infinity to a point: V = -GM/r, always negative, zero at infinity.</div>
+<div class="key-point"><strong>Equipotential surface:</strong> A surface of constant potential; no work is done moving along one, and field lines cross them at right angles.</div>
+<div class="key-point"><strong>Geostationary satellite:</strong> A satellite with period 24 hours orbiting above the equator in the same direction as Earth&#x27;s rotation, so it stays above a fixed point.</div>
+<div class="key-point"><strong>Escape velocity:</strong> The minimum launch speed for a body to just reach infinity with zero speed: v_esc = √(2GM/R).</div>
+<div class="key-point"><strong>Inverse-square law:</strong> A law where the quantity falls as 1/r^2; doubling the distance quarters the force (flux spreading over a sphere of area 4πr^2).</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Newton&#x27;s law: F = GMm/r^2 - always attractive, inverse-square; G = 6.67 × 10^-11 N m^2 kg^-2.</div>
+<div class="key-point">Field strength: g = F/m = GM/r^2 (N/kg); uniform near Earth&#x27;s surface (9.81 N/kg).</div>
+<div class="key-point">Potential: V = -GM/r (always negative, zero at infinity); ΔW = mΔV; field strength = potential gradient, g = -dV/dr.</div>
+<div class="key-point">Circular orbits: GMm/r^2 = mv^2/r gives v = √(GM/r) and T^2 = 4π^2r^3/GM (Kepler: T^2 ∝ r^3).</div>
+<div class="key-point">Orbital kinetic energy = GMm/2r; total energy = -GMm/2r (negative - bound).</div>
+<div class="key-point">Escape velocity: v_esc = √(2GM/R); independent of the launched mass.</div>
+</section>
+<section class="section">
+<h2>Fields and Newton&#x27;s law of gravitation</h2>
+<p>A <strong>force field</strong> is a region in which a body experiences a non-contact force - a useful bookkeeping idea that lets us assign a value (field strength) to every point in space (AQA 7408 3.7.1). Gravity is always attractive and acts on mass (AQA 7408 3.7.2.1; OCR A H556 5.4; Edexcel 9PH0 Topic 12).</p><p><strong>Newton's law of gravitation: F = GMm/r^2</strong> - the force between two point (or spherically symmetric) masses is proportional to each mass and to the inverse square of their separation. G = 6.67 × 10^-11 N m^2 kg^-2. <strong>Why inverse square?</strong> The field lines spread out radially, crossing spheres of area 4πr^2 - the same 'flux' crosses a sphere twice the radius, spread over four times the area, so the force per unit mass falls as 1/r^2. The same geometry underlies Coulomb's law and the intensity of light - a favourite comparison question.</p><p><strong>Derivation of field strength:</strong> field strength is force per unit mass, g = F/m. Substitute Newton's law: g = GMm/r^2 ÷ m = <strong>GM/r^2</strong> - independent of the test mass m, which is why all objects fall with the same acceleration in a vacuum. At Earth's surface (M = 5.97 × 10^24 kg, R = 6.37 × 10^6 m): g = 6.67 × 10^-11 × 5.97 × 10^24/(6.37 × 10^6)^2 = 9.81 N/kg. Higher altitude: g falls as 1/r^2 from the centre - at height h, use r = R + h.</p><details><summary>Worked example: g at satellite height</summary><p>Find g at the altitude of the ISS, 400 km above Earth's surface (M = 5.97 × 10^24 kg, R = 6.37 × 10^6 m).</p><p><strong>Line 1:</strong> r = R + h = 6.37 × 10^6 + 4.0 × 10^5 = 6.77 × 10^6 m (M1: distance from the centre).</p><p><strong>Line 2:</strong> g = GM/r^2 = (6.67 × 10^-11 × 5.97 × 10^24)/(6.77 × 10^6)^2 (M1 A1).</p><p><strong>Line 3:</strong> g = 3.98 × 10^14/4.58 × 10^13 = 8.7 N/kg (A1) - only ~11% less than the surface value; astronauts float because they are in free fall, not because gravity is absent.</p></details>
+</section>
+<section class="section">
+<h2>Gravitational potential and potential energy</h2>
+<p><strong>Gravitational potential</strong> at a point is the work done per unit mass bringing a small mass from infinity to that point: <strong>V = -GM/r</strong> (AQA 7408 3.7.2.3). Negative because gravity attracts - you do negative work (the field does the work) moving a mass in from infinity; V = 0 at infinity, the zero of potential by convention. <strong>Gravitational potential energy</strong> of a mass m at that point: E_p = mV = -GMm/r.</p><p><strong>Derivation of V = -GM/r:</strong> the work done moving mass m from radius r_1 to r_2 against the force F = GMm/r^2 is W = ∫F dr = ∫GMm/r^2 dr from r_1 to r_2 = GMm(1/r_1 - 1/r_2). Bringing the mass from infinity (r_1 = ∞) to r (r_2 = r): W = -GMm/r - the potential energy. Per unit mass: V = -GM/r.</p><p><strong>Field strength is the potential gradient:</strong> g = -dV/dr - the field points down the potential 'slope' (from high to low potential, i.e. towards the mass where V is more negative). Graphically, V against r for a point mass is a curve rising from -GM/r at small r towards zero; the <em>gradient</em> at any r gives -g. Moving between two points: <strong>ΔW = mΔV</strong> - work done equals mass times the change in potential. <strong>Equipotential surfaces</strong> are spheres of constant V: moving along one does no work (ΔV = 0), and field lines meet them at right angles - the two facts tested in diagram questions.</p><details><summary>Worked example: work done lifting a satellite</summary><p>Find the work done moving a 1000 kg satellite from Earth's surface to a 400 km orbit (M = 5.97 × 10^24 kg, R = 6.37 × 10^6 m).</p><p><strong>Line 1:</strong> V_surface = -GM/R = -(6.67 × 10^-11 × 5.97 × 10^24)/6.37 × 10^6 = -6.25 × 10^7 J/kg (M1 A1).</p><p><strong>Line 2:</strong> V_orbit = -GM/(R + h) = -3.98 × 10^14/6.77 × 10^6 = -5.88 × 10^7 J/kg (A1).</p><p><strong>Line 3:</strong> ΔV = -5.88 × 10^7 - (-6.25 × 10^7) = +3.7 × 10^6 J/kg (M1: potential increases, less negative).</p><p><strong>Line 4:</strong> W = mΔV = 1000 × 3.7 × 10^6 = 3.7 × 10^9 J (A1) - the minimum energy input (no kinetic energy included).</p></details>
+</section>
+<section class="section">
+<h2>Orbits, satellites and Kepler&#x27;s laws</h2>
+<p>For a circular orbit, gravity supplies the centripetal force (AQA 7408 3.7.2.4; OCR A H556 5.2/5.4):</p><p><strong>Derivation of orbital speed:</strong> GMm/r^2 = mv^2/r. Cancel m and one r: v^2 = GM/r, so <strong>v = √(GM/r)</strong> - orbital speed falls with orbit radius (outer satellites move slower). Orbital angular speed: v = ωr gives ω = √(GM/r^3).</p><p><strong>Derivation of Kepler's third law:</strong> period T = 2πr/v = 2πr/√(GM/r) = 2π√(r^3/GM). Square: <strong>T^2 = 4π^2r^3/GM</strong> - T^2 ∝ r^3, so a log-log or T^2 against r^3 plot of planetary data gives a straight line - how Kepler's law is verified and G or the central mass found. The constant T^2/r^3 = 4π^2/GM is the same for all satellites of one central body.</p><p><strong>Orbital energy:</strong> KE = ½mv^2 = GMm/2r (substituting v^2 = GM/r); PE = -GMm/r. Total energy = KE + PE = -GMm/2r - negative, meaning the satellite is bound to the planet; lower orbits are more strongly bound (more negative total energy, but faster and higher KE).</p><p><strong>Geostationary satellites</strong>: period 24 hours, above the equator, same rotation direction - fixed above one point on the surface for communications. Derivation of the orbit radius: T^2 = 4π^2r^3/GM with T = 24 × 3600 = 86,400 s gives r = (GMT^2/4π^2)^(1/3) ≈ 4.23 × 10^7 m - about 36,000 km altitude (6.6 Earth radii). All geostationary satellites share this radius - a standard one-mark fact. <strong>Polar orbits</strong> (over the poles) scan the whole surface - used for weather and mapping.</p><details><summary>Worked example: geostationary radius</summary><p>Find the orbital radius of a geostationary satellite (M = 5.97 × 10^24 kg, T = 86,400 s).</p><p><strong>Line 1:</strong> r^3 = GMT^2/4π^2 (M1: from T^2 = 4π^2r^3/GM).</p><p><strong>Line 2:</strong> r^3 = (6.67 × 10^-11 × 5.97 × 10^24 × 86400^2)/(4π^2) = 7.54 × 10^22 m^3 (M1 A1).</p><p><strong>Line 3:</strong> r = 4.23 × 10^7 m (A1) - altitude 4.23 × 10^7 - 6.37 × 10^6 ≈ 3.6 × 10^7 m above the surface.</p></details>
+</section>
+<section class="section">
+<h2>Escape velocity and orbital analysis</h2>
+<p><strong>Escape velocity</strong> is the minimum launch speed for a body to just reach infinity with zero speed (all KE spent against gravity).</p><p><strong>Derivation:</strong> energy conservation. Launch from a planet's surface (radius R) with speed v: KE + PE = ½mv^2 - GMm/R. At infinity: KE = 0 and PE = 0. So ½mv^2 - GMm/R = 0, giving <strong>v_esc = √(2GM/R)</strong> - independent of the launched mass. For Earth: v_esc = √(2 × 6.67 × 10^-11 × 5.97 × 10^24/6.37 × 10^6) = 11.2 km/s. Comparison: v_esc = √2 × v_orbit at the same radius (since v_orbit = √(GM/r)) - a favourite link. Note also that escape velocity is independent of launch direction in the idealised model (energy, not vector direction, decides) - though launching eastward from the equator borrows Earth's rotation (~465 m/s), a small practical gain rockets exploit.</p><p><strong>Energy changes in orbit:</strong> a satellite in a decaying orbit (drag from the thin upper atmosphere) loses total energy, so it moves to a lower orbit - where its speed is <em>higher</em> (v = √(GM/r)) even though it lost energy. The apparent paradox resolves through the PE: the drop in PE (-GMm/r becomes more negative) exceeds the gain in KE (GMm/2r), with the difference dissipated as heat by drag. A satellite boosted to a higher orbit by a rocket burn gains PE and loses speed - the standard explanation question.</p><p><strong>Analysing orbital data:</strong> planetary periods and radii: plot T^2 against r^3 - straight line through the origin with gradient 4π^2/GM, so the central mass M = 4π^2/(G × gradient). Satellite speed data against radius: v^2 against 1/r gives a straight line of gradient GM. This is how the mass of the Sun (from planetary data) or of a planet (from its moons) is found. Uncertainty practice: orbital radii and periods are large, well-measured quantities; the derived mass uncertainty is dominated by the scatter of the line fit and by G's precision; quote the percentage difference of the derived mass from the accepted value in the conclusion.</p><details><summary>Worked example: escape velocity and orbital link</summary><p>A planet has M = 6.4 × 10^23 kg and R = 3.4 × 10^6 m. Find v_esc and the orbital speed at the surface.</p><p><strong>Line 1:</strong> v_esc = √(2GM/R) = √(2 × 6.67 × 10^-11 × 6.4 × 10^23/3.4 × 10^6) (M1 A1).</p><p><strong>Line 2:</strong> v_esc = √(2.51 × 10^7) = 5.0 km/s (A1).</p><p><strong>Line 3:</strong> Orbital speed at the surface: v = √(GM/R) = √(1.25 × 10^7) = 3.5 km/s (M1 A1).</p><p><strong>Line 4:</strong> Check: v_esc = √2 × 3.5 = 5.0 km/s - consistent (A1).</p></details>
+</section>
+<section class="section">
+<h2>Comparing gravitational and electric fields</h2>
+<p>The gravitational and electric field topics are deliberately parallel - exam boards set six-mark synthesis questions on the comparison, so learn the pairs (AQA 7408 3.7.1-3.7.3; OCR A H556 5.4/6.2; Edexcel 9PH0 Topics 7/12):</p><table><tr><th>Quantity</th><th>Gravitational</th><th>Electric</th></tr><tr><td>Source</td><td>Mass (always positive)</td><td>Charge (±)</td></tr><tr><td>Force law</td><td>F = GMm/r^2</td><td>F = q1q2/(4πε0r^2)</td></tr><tr><td>Field strength</td><td>g = GM/r^2 (N/kg)</td><td>E = Q/(4πε0r^2) (V/m or N/C)</td></tr><tr><td>Potential</td><td>V = -GM/r (always negative)</td><td>V = Q/(4πε0r) (either sign)</td></tr><tr><td>Gradient relation</td><td>g = -dV/dr</td><td>E = -dV/dr</td></tr><tr><td>Equipotentials</td><td>Spheres; no work along them; field ⊥ to them</td><td>Same geometry</td></tr><tr><td>Attraction</td><td>Always attractive</td><td>Attract or repel</td></tr><tr><td>Shielding</td><td>Impossible</td><td>Conductors shield electric fields</td></tr><tr><td>Relative strength</td><td>Weak between particles</td><td>Vastly stronger between particles (~10^36 times for two protons)</td></tr></table><p>The pattern: every quantity maps one-to-one (source, force, field strength, potential, gradient, equipotentials), and the differences are exactly two - the sign of the source (making electric forces either attractive or repulsive, and electric potential either sign) and shielding. Both forces are inverse-square because field lines from a point source spread over spheres of area 4πr^2 - the same geometry argument serves both. Uniform versions also pair: a uniform gravitational field near Earth's surface (g constant) and a uniform electric field between parallel plates (E = V/d) - both give parabolic trajectories for projectiles and charged particles respectively, the deepest symmetry of the pair.</p><details><summary>Worked example: relative strength</summary><p>Compare the gravitational and electric forces between two protons 1.0 × 10^-10 m apart.</p><p><strong>Line 1:</strong> Electric: F = e^2/(4πε0r^2) = (1.60 × 10^-19)^2/(4π × 8.85 × 10^-12 × (1.0 × 10^-10)^2) = 2.3 × 10^-8 N (M1 A1).</p><p><strong>Line 2:</strong> Gravitational: F = Gm_p^2/r^2 = 6.67 × 10^-11 × (1.67 × 10^-27)^2/(1.0 × 10^-10)^2 = 1.9 × 10^-44 N (M1 A1).</p><p><strong>Line 3:</strong> Ratio ≈ 1.2 × 10^36 - the electric force is enormously stronger; gravity only dominates for astronomical bodies because they are electrically neutral in bulk (A1: interpretation).</p></details>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A satellite orbits Earth in a circular orbit of radius 8.0 × 10^6 m. Calculate its orbital speed and period. (M = 5.97 × 10^24 kg, G = 6.67 × 10^-11 N m^2 kg^-2) (AQA 7408-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Gravity provides the centripetal force: GMm/r^2 = mv^2/r (M1: force equation set equal to centripetal). Cancel m and r: v^2 = GM/r (M1 A1: algebra to v^2 = GM/r). v = √(6.67 × 10^-11 × 5.97 × 10^24/8.0 × 10^6) = √(4.98 × 10^7) = 7.1 × 10^3 m/s (A1). Period: T = 2πr/v = 2π × 8.0 × 10^6/7.1 × 10^3 (M1) = 7.1 × 10^3 s ≈ 1.97 hours (A1).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Calculate g at the altitude of the ISS, 400 km above Earth&#x27;s surface (M = 5.97 × 10^24 kg, R = 6.37 × 10^6 m).</summary><div class="answer"><strong>Answer:</strong> r = R + h = 6.77 × 10^6 m (M1: distance from centre, not altitude). g = GM/r^2 = 3.98 × 10^14/4.58 × 10^13 (M1 A1) = 8.7 N/kg (A1). Astronauts float due to free fall, not zero gravity.</div></details>
+<details><summary>Derive escape velocity from a planet of mass M and radius R, and calculate it for Earth.</summary><div class="answer"><strong>Answer:</strong> Energy conservation: ½mv^2 - GMm/R = 0 at infinity (KE = 0, PE = 0) (M1: both energies set up). v^2 = 2GM/R, so v_esc = √(2GM/R) (A1). Earth: √(2 × 6.67 × 10^-11 × 5.97 × 10^24/6.37 × 10^6) = 11.2 km/s (A1).</div></details>
+<details><summary>Find the orbital radius of a geostationary satellite (T = 86,400 s, M = 5.97 × 10^24 kg) and state why it must orbit above the equator.</summary><div class="answer"><strong>Answer:</strong> T^2 = 4π^2r^3/GM, so r^3 = GMT^2/4π^2 (M1) = 7.54 × 10^22 m^3 (M1 A1), r = 4.23 × 10^7 m (A1). Above the equator and moving with Earth&#x27;s rotation so it stays fixed above one point - required for communications (A1).</div></details>
+<details><summary>A 1000 kg satellite is moved from Earth&#x27;s surface to a 400 km orbit. Calculate the minimum work done (V_surface = -6.25 × 10^7 J/kg, V_orbit = -5.88 × 10^7 J/kg).</summary><div class="answer"><strong>Answer:</strong> ΔV = -5.88 × 10^7 - (-6.25 × 10^7) = 3.7 × 10^6 J/kg (M1 A1: potential change from the two values). W = mΔV = 1000 × 3.7 × 10^6 = 3.7 × 10^9 J (A1). This excludes the kinetic energy of orbit - a full launch needs more.</div></details>
+<details><summary>Show that the orbital speed of a satellite is inversely proportional to √r, and explain why outer planets move more slowly.</summary><div class="answer"><strong>Answer:</strong> GMm/r^2 = mv^2/r gives v^2 = GM/r (M1 A1: centripetal argument), so v ∝ 1/√r (A1). Outer planets are further from the central mass; gravity is weaker (inverse square) so less centripetal force is needed - slower speeds, longer periods (T^2 ∝ r^3) (A1).</div></details>
+<details><summary>Two planets orbit the same star: planet A at r = 1.0 × 10^11 m with T = 3.2 × 10^7 s. Find the star&#x27;s mass.</summary><div class="answer"><strong>Answer:</strong> T^2 = 4π^2r^3/GM, so M = 4π^2r^3/(GT^2) (M1: rearrangement). M = 4π^2 × (1.0 × 10^11)^3/(6.67 × 10^-11 × (3.2 × 10^7)^2) (M1 A1). M = 3.95 × 10^34/6.83 × 10^4 = 5.8 × 10^29 kg (A1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+physics+gravitation+gravitational+field+strength+potential+orbits+geostationary+satellites+Kepler+escape+velocity+revision" target="_blank" rel="noopener">YouTube: A level physics gravitation gravitational field strength potential orbits geostationary satellites Kepler escape velocity revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA find past papers and mark schemes - A-Level Physics 7408 fields papers (gravitational fields section)</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR qualifications - OCR A Level Physics A H556 past papers (Module 5 Newtonian world and astrophysics)</a></li>
+<li data-board="All boards"><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor physics revision - gravitational fields topic questions and past papers by board</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor - A-Level Physics gravitational fields revision notes and exam questions by board</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA - find past papers and mark schemes for A-Level Physics 7408</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR - Physics A H556 qualification page with past papers, mark schemes and practical materials</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/physics/particles-and-quantum.html">&larr; Particles and Quantum Phenomena</a><a href="../../topics/physics/fields-electric.html">Electric Fields and Capacitance &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probability - A-Level Statistics Revision Notes</title>
+<meta name="description" content="Addition and multiplication rules, conditional probability, Venn and tree diagrams, independence and Bayes-style questions - Edexcel 9ST0 Topic 4 revised with exam-style questions and mark-scheme logic.">
+<meta name="keywords" content="A-Level Statistics, Probability, revision notes, Edexcel, past papers">
+<meta property="og:title" content="Probability - A-Level Statistics">
+<meta property="og:description" content="Addition and multiplication rules, conditional probability, Venn and tree diagrams, independence and Bayes-style questions - Edexcel 9ST0 Topic 4 revised with exam-style questions and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/statistics/probability.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/statistics/probability.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is the difference between mutually exclusive and independent events?", "acceptedAnswer": {"@type": "Answer", "text": "Mutually exclusive events cannot both happen (P(A intersection B) = 0); independent events do not affect each other (P(A intersection B) = P(A)P(B)). For two events with non-zero probabilities the two conditions cannot both hold, because exclusivity forces P(A given B) = 0 while independence forces P(A given B) = P(A). Exams frequently test exactly this distinction."}}{"@type": "Question", "name": "How do I answer a question that asks for P(A given B) when B happened first in time?", "acceptedAnswer": {"@type": "Answer", "text": "This is a Bayes-style reversal. Build the tree in natural time order, list all complete paths that make up the later outcome B, add their probabilities for the denominator, then divide the probability of the path containing A by that total: P(A given B) = P(A and B) / P(B)."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/statistics/sampling-and-data.html">Sampling and Data</a></li><li><a href="../../topics/statistics/probability.html" class="active">Probability</a></li><li><a href="../../topics/statistics/probability-distributions.html">Probability Distributions</a></li><li><a href="../../topics/statistics/correlation-and-regression.html">Correlation and Regression</a></li><li><a href="../../topics/statistics/hypothesis-testing.html">Hypothesis Testing</a></li><li><a href="../../topics/statistics/time-series.html">Time Series</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Probability</span>
+</nav>
+
+<article class="topic-header">
+<h1>Probability</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">Edexcel</span>
+</div>
+<p class="topic-desc">Addition and multiplication rules, conditional probability, Venn and tree diagrams, independence and Bayes-style questions - Edexcel 9ST0 Topic 4 revised with exam-style questions and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="edexcel">Pearson Edexcel</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Apply the addition rule P(A union B) = P(A) + P(B) - P(A intersection B) and handle mutually exclusive and exhaustive events (AO1)</li>
+<li>Read and construct Venn diagrams, translating written descriptions into region probabilities (AO1/AO2)</li>
+<li>Calculate conditional probabilities from Venn diagrams, two-way tables and formulae (AO1)</li>
+<li>Test whether two events are independent using P(A intersection B) = P(A)P(B) and interpret the result (AO2/AO3)</li>
+<li>Complete tree diagrams with and without replacement and combine branch probabilities (AO1)</li>
+<li>Answer Bayes-style given-that questions by reversing conditioning, with full working (AO2)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Trial:</strong> A single performance of an experiment whose outcome is uncertain, e.g. one roll of a die.</div>
+<div class="key-point"><strong>Sample space:</strong> The set of all possible outcomes of an experiment; probabilities of all outcomes sum to 1.</div>
+<div class="key-point"><strong>Mutually exclusive:</strong> Events that cannot occur together: P(A intersection B) = 0, so P(A union B) = P(A) + P(B).</div>
+<div class="key-point"><strong>Exhaustive:</strong> Events that together cover the whole sample space: their union has probability 1.</div>
+<div class="key-point"><strong>Complement:</strong> The event A-prime (not A): P(A-prime) = 1 - P(A); used to convert at-least-one questions into one-minus-none.</div>
+<div class="key-point"><strong>Conditional probability:</strong> The probability of A given that B has occurred: P(A given B) = P(A intersection B) / P(B), for P(B) &gt; 0.</div>
+<div class="key-point"><strong>Independence:</strong> Events A and B are independent if P(A intersection B) = P(A)P(B), equivalently P(A given B) = P(A) and P(B given A) = P(B).</div>
+<div class="key-point"><strong>Union:</strong> The event that A or B (or both) occurs; probability found with the addition rule.</div>
+<div class="key-point"><strong>Intersection:</strong> The event that both A and B occur; found with the multiplication rule or read from a Venn overlap.</div>
+<div class="key-point"><strong>Tree diagram:</strong> A diagram with branches whose first level carries unconditional probabilities and later levels carry conditional probabilities; multiply along branches and add between complete cases.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Addition rule: P(A union B) = P(A) + P(B) - P(A intersection B).</div>
+<div class="key-point">Conditional probability: P(A given B) = P(A intersection B) / P(B).</div>
+<div class="key-point">Independent means P(A intersection B) = P(A)P(B); mutually exclusive and independent are different ideas.</div>
+<div class="key-point">Multiply along tree branches; add between separate cases.</div>
+<div class="key-point">For P(A given B) where B came first in time, use Bayes reversal from the full tree.</div>
+</section>
+<section class="section">
+<h2>The rules of probability and Venn diagrams</h2>
+<p>Probabilities live on a scale from 0 (impossible) to 1 (certain). Two structural facts do most of the early work: the <strong>complement</strong>, P(A-prime) = 1 - P(A), which converts questions such as at least one into one minus none; and the <strong>addition rule</strong>, P(A union B) = P(A) + P(B) - P(A intersection B), which requires the overlap to be subtracted because it is counted twice. If A and B are <strong>mutually exclusive</strong> the overlap is zero, so P(A union B) = P(A) + P(B). If events are <strong>exhaustive</strong> their union is the whole sample space, probability 1.</p><p><strong>Venn diagrams</strong> turn wordy descriptions into region arithmetic. Draw the universal set, place the intersection first when it is known, and label every region including outside both circles. Learn the standard translations: only A means P(A) minus the overlap; A or B means the union; both means the intersection; neither means 1 minus the union; exactly one means the two non-overlapping parts of A and B added. Exam questions often describe frequencies (e.g. of 60 students, 35 study French...) - convert frequencies to probabilities only when the question asks, and otherwise work in counts and divide at the end.</p><p>A recurring mark-earning skill is finding the intersection from a conditional statement. If the question gives P(A given B) and P(B), then P(A intersection B) = P(A given B) x P(B); write that multiplication down explicitly - it is usually a dedicated method mark. Check any finished Venn by adding all region probabilities: the total must equal 1 (or the total frequency).</p><p><strong>Two-way tables</strong> are the Venn diagram's twin and often quicker when data are given as counts. Rows and columns carry the marginal totals; each cell is an intersection. The same translations apply: only A is a single cell, neither is the grand total minus the row-plus-column sum. When a question gives a table and asks for a conditional probability, cover the rows outside the condition and read within the condition row or column - this physical restriction is what conditioning means, and writing the restricted fraction (e.g. 30 out of 55) before simplifying earns the method mark. Be ready to complete a partially given table first, using the fact that rows and columns sum to their totals.</p>
+</section>
+<section class="section">
+<h2>Conditional probability and independence</h2>
+<p><strong>Conditional probability</strong> restricts the sample space. Given that B has occurred, only outcomes inside B are possible, and A given B is the part of A inside B relative to B: P(A given B) = P(A intersection B) / P(B). Rearranged, this is the <strong>multiplication rule</strong>: P(A intersection B) = P(A given B) x P(B). In Venn or two-way table questions, conditioning physically means covering up the rest of the table: P(tea given female) is the tea column read only within the female row.</p><p><strong>Independence</strong> is tested, not assumed. A and B are independent if and only if P(A intersection B) = P(A)P(B), equivalently P(A given B) = P(A) or P(B given A) = P(B) - knowing one event gives no information about the other. Exam questions supply numbers and expect you to compute both sides and state a conclusion in context: since P(A given B) = 0.545 but P(A) = 0.45, the events are not independent. Show both computations; the comparison alone is the answer.</p><p>The most reliable mark-earner in this topic is the distinction between <strong>mutually exclusive</strong> and <strong>independent</strong>. They are different conditions and cannot both hold for two non-zero probabilities: if A and B are exclusive then P(A given B) = 0, but independence would demand P(A given B) = P(A) > 0. Questions deliberately test whether you know that exclusive events are dependent, and that independence requires the multiplication rule to hold exactly.</p><p>A second family of questions asks you to find a conditional probability when the conditioning event has already happened in the data. Two classic setups: sampling without replacement, where the second draw is made from a reduced population and every branch probability must be updated; and given-that questions on two-way tables, where the denominator is the condition total rather than the grand total. In both, state what the sample space has become before calculating - the sentence for the second draw there are 7 counters remaining is itself a marking point. Finally, use complements inside conditional questions too: P(at least one red given the first was red) is 1 minus the probability of no red on the second draw, which is often a one-step calculation.</p>
+</section>
+<section class="section">
+<h2>Tree diagrams and Bayes-style questions</h2>
+<p>A <strong>tree diagram</strong> is the safest machine for multi-step problems. The first level of branches carries unconditional probabilities; every later level carries conditional probabilities (the probability of the new outcome given the path taken so far). <strong>Multiply along</strong> a complete path to get the probability of that case; <strong>add between</strong> paths when a final event can occur in several ways. With <strong>replacement</strong>, the branch probabilities stay constant; <strong>without replacement</strong>, they change because the population shrinks - e.g. from a bag of 5 red and 3 blue counters, the second draw is from 7 counters, so P(red then blue) = (5/8)(3/7).</p><p>Bayes-style questions reverse the conditioning: the natural order of the tree gives P(path), but the question asks P(early event given late outcome). The method is fixed and full marks are available for writing it out: list the complete cases that make up the late outcome, add their probabilities to get the denominator, and divide the relevant case by that total. For a disease test with P(positive given disease) = 0.98 and P(positive given no disease) = 0.05 in a population where 2 percent have the disease: P(disease and positive) = 0.02 x 0.98 = 0.0196, P(no disease and positive) = 0.98 x 0.05 = 0.049, so P(positive) = 0.0686 and P(disease given positive) = 0.0196 / 0.0686 = 0.286.</p><p>Two habits make tree answers bulletproof. First, label every branch with its event and its probability, and annotate the end of each complete path with the product - examiners award method marks for structure even if arithmetic slips. Second, work in exact fractions where possible and round only the final answer to 3 significant figures; premature decimal rounding in the denominator is the most common cause of lost accuracy marks.</p><p>Choosing between a tree and a Venn is itself an exam skill. Use a tree when events happen in stages or when you need to reverse a conditional (Bayes); use a Venn or two-way table when a single collection is split by two characteristics and the question gives counts. If a question offers a choice, state yours in one sentence - the examiner cannot award structure marks for a method you did not show. And when a tree grows beyond two levels, do not multiply across everything blindly: identify which complete paths correspond to the event asked about, add only those, and check that the selected cases are exhaustive for that event.</p>
+</section>
+<section class="section">
+<h2>Exam technique: avoiding the classic traps</h2>
+<p>This topic punishes rushed reading, so audit every answer against a fixed checklist. (i) Did you answer the conditioning the right way round? P(A given B) and P(B given A) are different numbers, and Bayes questions exist precisely because they differ. (ii) Did you use the addition rule when events overlap? Subtracting the intersection is a named method mark. (iii) Did you confuse mutually exclusive with independent? Test with the multiplication rule and say so in context. (iv) Did your tree keep conditional probabilities on later levels? Constant probabilities throughout the tree only apply with replacement.</p><p>Context sentences carry marks in 9ST0 probability. Conclusions should name the events: for example, the probability that a customer buys tea given that she is female is 0.545, which is higher than the overall probability of 0.45, so buying tea and gender are not independent. Numbers without the context nouns typically score zero for interpretation marks.</p><p>Finally, exploit the checking structure that examiners build in. All probabilities in a distribution or Venn must sum to 1 - verify before moving on. Complements convert hard questions into easy ones: P(at least one) = 1 - P(none) is almost always faster than adding the individual cases. And when a question chains conditionals (given that the first draw was red, find...), do not recompute from scratch: the condition has changed the sample space, so work within it.</p><p>A final word on presentation. Examiners reward answers that set out notation before calculation: define A, B, write the rule you will use, substitute, then answer. This costs seconds and secures method marks even when arithmetic slips later. In longer questions, keep each part of the working on its own line - merged working hides where the marks are. Practise writing the conclusion sentence for every interpretation mark: name the events, give the probability, and say what it means in the context of the question.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A screening test for a medical condition behaves as follows: 2 percent of a population have the condition, P(positive result given the condition) = 0.98 and P(positive result given no condition) = 0.05. A person chosen at random from the population tests positive. Find the probability that the person has the condition, and interpret your answer in context. (6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Define C = has the condition, Pos = positive result. P(C) = 0.02 (or tree with first-level branches 0.02, 0.98) (1). P(C and Pos) = P(C) x P(Pos given C) = 0.02 x 0.98 = 0.0196 (1). P(C-prime and Pos) = 0.98 x 0.05 = 0.049 (1). Total: P(Pos) = 0.0196 + 0.049 = 0.0686 (1). Conditional: P(C given Pos) = 0.0196 / 0.0686 = 0.286 (3 sf) (1). Interpretation: despite the test being 98 percent accurate for people with the condition, because the condition is rare (2 percent), only about 28.6 percent of positive results are true positives - most positive results come from the large disease-free group (1). Method marks are for the tree or case listing; the final mark requires the context sentence about rarity.</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Of 60 students, 35 study French (F), 24 study Spanish (S) and 12 study both. One student is chosen at random. Find (a) P(F union S), (b) P(neither subject), (c) P(F but not S). (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) Addition rule: P(F union S) = (35 + 24 - 12)/60 = 47/60 (2 marks: method and answer). (b) Neither = 60 - 47 = 13, so 13/60 (1 mark). (c) F only = 35 - 12 = 23, so 23/60 (1 mark). Accept decimals to 3 sf; fractions are safer and avoid rounding issues.</div></details>
+<details><summary>Of 100 employees, 45 are male, of whom 30 prefer coffee and 15 prefer tea; 55 are female, of whom 25 prefer coffee and 30 prefer tea. One employee is chosen at random. (a) Find P(tea given female). (b) Find P(female given coffee). (c) Determine whether gender and drink preference are independent. (6 marks)</summary><div class="answer"><strong>Answer:</strong> (a) Restrict to females: 30/55 = 6/11 = 0.545 (2 marks). (b) Restrict to coffee drinkers: 25/55 = 5/11 = 0.455 (2 marks). (c) P(tea) = 45/100 = 0.45; since P(tea given female) = 0.545 is not equal to P(tea) = 0.45, the events are not independent (equivalently P(tea and female) = 0.30 but P(tea)P(female) = 0.45 x 0.55 = 0.2475) (2 marks: both computations and the contextual conclusion).</div></details>
+<details><summary>A bag contains 5 red and 3 blue counters. Two counters are drawn at random, one after the other, with the first replaced before the second draw. Find the probability that the two counters are the same colour. (3 marks)</summary><div class="answer"><strong>Answer:</strong> With replacement the probabilities are constant: P(both red) = (5/8) x (5/8) = 25/64; P(both blue) = (3/8) x (3/8) = 9/64 (1 mark each case). Same colour means red-red or blue-blue, which are mutually exclusive: 25/64 + 9/64 = 34/64 = 17/32 = 0.531 (1 mark).</div></details>
+<details><summary>The same bag (5 red, 3 blue) is used, but now the first counter is not replaced. Find the probability that the two counters are different colours. (3 marks)</summary><div class="answer"><strong>Answer:</strong> Without replacement the second draw is from 7 counters: P(red then blue) = (5/8) x (3/7) = 15/56; P(blue then red) = (3/8) x (5/7) = 15/56 (1 mark per case). Different colours: 15/56 + 15/56 = 30/56 = 15/28 = 0.536 (1 mark). Note the change in branch probabilities is the key marking point.</div></details>
+<details><summary>In a factory, machine A produces 60 percent of items and 2 percent of its items are defective; machine B produces 40 percent of items and 5 percent of its items are defective. An item chosen at random is found to be defective. Find the probability that it came from machine B. (5 marks)</summary><div class="answer"><strong>Answer:</strong> Cases making up defective: P(A and D) = 0.6 x 0.02 = 0.012 (1); P(B and D) = 0.4 x 0.05 = 0.020 (1). Total: P(D) = 0.012 + 0.020 = 0.032 (1). Reverse the conditioning: P(B given D) = 0.020 / 0.032 = 0.625 (2 marks: method and answer). Working via a labelled tree earns the same marks; state the conclusion in context if asked.</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=conditional+probability+tree+diagrams+Venn+diagrams+A+level+statistics+Edexcel+revision" target="_blank" rel="noopener">YouTube: conditional probability tree diagrams Venn diagrams A level statistics Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics qualification page - specification, specimen and past papers for 9ST0 (see Key Documents tab)</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel past papers and mark schemes - filter the qualification page above for Statistics (9ST0)</a></li>
+<li data-board="PMT"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">Physics &amp; Maths Tutor A-Level Statistics - probability notes, worked examples and past paper questions by topic</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics (9ST0) qualification page - spec, SAMs, past papers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics revision - probability, Venn diagrams and tree diagrams by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics past paper questions arranged by specification topic</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/statistics/sampling-and-data.html">&larr; Sampling and Data</a><a href="../../topics/statistics/probability-distributions.html">Probability Distributions &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

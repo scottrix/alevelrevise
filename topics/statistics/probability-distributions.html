@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probability Distributions - A-Level Statistics Revision Notes</title>
+<meta name="description" content="Discrete random variables, expected values, the binomial and normal distributions, standardising with Z and the normal approximation to the binomial - Edexcel 9ST0 Topic 5 revised with exam-style questions and mark-scheme logic.">
+<meta name="keywords" content="A-Level Statistics, Probability Distributions, revision notes, Edexcel, past papers">
+<meta property="og:title" content="Probability Distributions - A-Level Statistics">
+<meta property="og:description" content="Discrete random variables, expected values, the binomial and normal distributions, standardising with Z and the normal approximation to the binomial - Edexcel 9ST0 Topic 5 revised with exam-style questions and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/statistics/probability-distributions.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/statistics/probability-distributions.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does the continuity correction move the boundary outward for at-least questions?", "acceptedAnswer": {"@type": "Answer", "text": "The binomial value a is a whole number, but the normal is continuous. At least a means a, a+1, a+2 and so on; the boundary between a-1 and a in the continuous model sits at a - 0.5, so P(X greater or equal a) becomes P(Y > a - 0.5). Inclusive events expand the region; exact equality P(X = a) brackets a - 0.5 to a + 0.5."}}{"@type": "Question", "name": "When can I not use the normal approximation to the binomial?", "acceptedAnswer": {"@type": "Answer", "text": "When n is small, or when np or n(1 - p) is not greater than 5 - the binomial is then noticeably skewed and the symmetric normal model is a poor fit. State both conditions when justifying the approximation, and if they fail, use exact binomial tables or a calculator instead."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/statistics/sampling-and-data.html">Sampling and Data</a></li><li><a href="../../topics/statistics/probability.html">Probability</a></li><li><a href="../../topics/statistics/probability-distributions.html" class="active">Probability Distributions</a></li><li><a href="../../topics/statistics/correlation-and-regression.html">Correlation and Regression</a></li><li><a href="../../topics/statistics/hypothesis-testing.html">Hypothesis Testing</a></li><li><a href="../../topics/statistics/time-series.html">Time Series</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../statistics.html">Statistics</a> <span>›</span>
+<span>Probability Distributions</span>
+</nav>
+
+<article class="topic-header">
+<h1>Probability Distributions</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">Edexcel</span>
+</div>
+<p class="topic-desc">Discrete random variables, expected values, the binomial and normal distributions, standardising with Z and the normal approximation to the binomial - Edexcel 9ST0 Topic 5 revised with exam-style questions and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="edexcel">Pearson Edexcel</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Form and check a probability distribution for a discrete random variable, including finding an unknown constant k (AO1)</li>
+<li>Calculate E(X), Var(X) and E(aX + b) using the standard results (AO1)</li>
+<li>Model a real situation with a binomial distribution, checking the four conditions (AO2/AO3)</li>
+<li>Calculate binomial probabilities using cumulative tables or a calculator, including P(X greater or equal) and between-values (AO1)</li>
+<li>Calculate normal probabilities by standardising with Z = (X - mu)/sigma, and find inverse-normal values (AO1)</li>
+<li>Use the normal approximation to the binomial with a continuity correction, stating the conditions np &gt; 5 and n(1 - p) &gt; 5 (AO2)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Random variable:</strong> A variable whose value is a numerical outcome of a random experiment, conventionally denoted by a capital letter such as X.</div>
+<div class="key-point"><strong>Discrete random variable:</strong> A random variable taking countable values, described by a probability function p(x) with p(x) at least 0 for all x and the sum of p(x) = 1.</div>
+<div class="key-point"><strong>Expected value E(X):</strong> The mean of a random variable over many repetitions: E(X) = sum of x times p(x).</div>
+<div class="key-point"><strong>Variance of a random variable:</strong> Var(X) = E(X squared) - (E(X)) squared; the standard deviation is its square root.</div>
+<div class="key-point"><strong>Binomial distribution:</strong> The distribution of the number of successes in n independent trials, each with success probability p: X ~ B(n, p), with mean np and variance np(1 - p).</div>
+<div class="key-point"><strong>Bernoulli trial:</strong> A single trial with exactly two outcomes, success (probability p) and failure (probability 1 - p).</div>
+<div class="key-point"><strong>Normal distribution:</strong> A continuous, symmetric, bell-shaped distribution X ~ N(mu, sigma squared) determined by its mean and standard deviation.</div>
+<div class="key-point"><strong>Standard normal variable Z:</strong> Z = (X - mu)/sigma for X ~ N(mu, sigma squared); Z ~ N(0, 1) and is used with normal tables.</div>
+<div class="key-point"><strong>Continuity correction:</strong> The adjustment made when a discrete distribution is approximated by a continuous one, e.g. P(X less or equal a) becomes P(Y &lt; a + 0.5).</div>
+<div class="key-point"><strong>Inverse normal:</strong> Working backwards from a probability to the value of X, using x = mu + sigma z with the z-value from normal tables.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">E(X) = sum of x p(x); Var(X) = E(X squared) - (E(X)) squared.</div>
+<div class="key-point">Binomial: X ~ B(n, p), mean np, variance np(1 - p); conditions: fixed n, two outcomes, independence, constant p.</div>
+<div class="key-point">P(X greater or equal a) = 1 - P(X less or equal a - 1) from cumulative binomial tables.</div>
+<div class="key-point">Normal: Z = (X - mu)/sigma; sketch the curve and shade the required area every time.</div>
+<div class="key-point">Normal approximation to binomial: X ~ B(n, p) is approximately N(np, np(1 - p)) when n is large with np &gt; 5 and n(1 - p) &gt; 5; always apply the continuity correction.</div>
+</section>
+<section class="section">
+<h2>Discrete random variables</h2>
+<p>A <strong>discrete random variable</strong> X takes countable values, each with a probability. Two conditions define a valid distribution: every probability is between 0 and 1, and the probabilities sum to 1. Exam questions typically give a distribution with one probability written as k, ask you to find k using the sum-to-1 condition, then calculate E(X) = sum of x times p(x) and Var(X) = E(X squared) - (E(X)) squared. Write the tables out with a row for x and a row for p(x); the sum-to-1 equation is always a method mark.</p><p>The linear results save time and are directly examinable: E(aX + b) = a E(X) + b, and Var(aX + b) = a squared times Var(X) - the shift b does not affect spread, the scale a does. The standard deviation is the square root of the variance, and it is Var(X), not E(X squared) minus something else - state which you are quoting. A typical high-mark part asks for the expected value of a transformed variable, e.g. E(5X - 2): apply the rules to the E(X) you found first.</p><p>Remember what expectation means in context: E(X) is the long-run average per trial, so an answer of 2.1 goals per match is sensible even though no single match can score 2.1 goals - a favourite interpretation point. Similarly, Var(X) measures the spread of the distribution over many repetitions, in squared units.</p><p>Some questions build the distribution from a situation rather than presenting it: for the sum of two fair dice, list the 36 outcomes, count the ways for each total, and divide by 36 - the sample space listing is the method mark. Others ask for the distribution of a transformed variable or for probabilities from a described game. In every case the workflow is identical: identify the values, find each probability with the rules of probability, check the two conditions, then compute E(X) and Var(X). Keep the distribution table visible throughout; answers computed from an unlisted distribution usually lose the structure marks even when the arithmetic is right.</p><p>A distinct family of 9ST0 questions gives E(X) or Var(X) and asks for a missing probability or for E of a function of X. Work backwards through the same formulae: if you know E(X) and E(X squared), the variance follows; if you know E(2X + 1) = 7, then E(X) = 3 by reversing the linear rule. Keep the two conditions (probabilities between 0 and 1, summing to 1) in mind throughout - a found value of k that violates either signals an earlier slip. State the standard deviation separately from the variance, with units, and quote 3 significant figures unless the value is exact.</p>
+</section>
+<section class="section">
+<h2>The binomial distribution</h2>
+<p>The <strong>binomial distribution</strong> X ~ B(n, p) counts successes in n independent trials, each with the same success probability p. Four conditions, all examinable: a fixed number n of trials; each trial has exactly two outcomes (success/failure); trials are independent; p is constant. Typical binomial contexts: number of defective items in a batch, number of sixes in a set of dice rolls, number of patients responding to treatment. When asked to state why the binomial model applies, quote the conditions in context - e.g. each item is defective independently with the same probability.</p><p>The formula is P(X = r) = C(n, r) p to the power r times (1 - p) to the power (n - r), but in practice you use the <strong>cumulative binomial tables</strong> in the formula booklet or a calculator. Three standard conversions from cumulative values: P(X greater or equal a) = 1 - P(X less or equal a - 1); P(X greater a) = 1 - P(X less or equal a); P(a less or equal X less or equal b) = P(X less or equal b) - P(X less or equal a - 1). The off-by-one in each is the classic error - always rewrite the event in terms of less-or-equal before touching the tables.</p><p>The mean and variance follow immediately: E(X) = np and Var(X) = np(1 - p). Questions ask you to state or use them - e.g. find the expected number of successes in 50 trials with p = 0.3 (answer 15). Note the variance uses (1 - p), not p squared, and that for a binomial variable the mean, variance and their relationship to the mode can be examined; know that the distribution is skewed when p is far from 0.5 and becomes more symmetric as n grows with p near 0.5.</p><p>Two table habits avoid lost marks. First, always rewrite the event as less-or-equal before reading: examiners set the off-by-one deliberately, and the rewritten inequality line is a method mark in its own right. Second, when the tables in the booklet do not cover the required n and p, use the binomial cumulative function on the calculator instead - but show the converted inequality either way. For context questions, connect the model to the situation: if trials might not be independent (e.g. sweets eaten from the same bag without replacement), the binomial model is questionable and saying so earns the AO3 mark.</p>
+</section>
+<section class="section">
+<h2>The normal distribution</h2>
+<p>The <strong>normal distribution</strong> N(mu, sigma squared) is continuous, symmetric about the mean, bell-shaped, with tails that approach the horizontal axis without touching it. It models naturally symmetric measurements - heights, masses, times in large populations. Every normal calculation should start with a sketch: draw the curve, mark mu, shade the required area. The notation matters: the second parameter is the variance, so N(52, 9) has standard deviation 3.</p><p>Probabilities are found by <strong>standardising</strong>: Z = (X - mu)/sigma converts to the standard normal N(0, 1), whose probabilities come from normal tables or a calculator. For P(X < a) compute z = (a - mu)/sigma; for P(a < X < b) standardise both endpoints and subtract; for P(X > a) use the complement 1 - P(X < a) or read the upper-tail area directly. Show the standardisation line each time - it is a dedicated method mark - and keep at least 4 decimal places for z before reading tables.</p><p><strong>Inverse normal</strong> questions reverse the flow: given a probability, find the value of X. Find the z-value from the tables for the given tail probability, then convert back with x = mu + sigma z. Example: for X ~ N(40, 36), the value exceeded with probability 0.10 has z = 1.2816, so x = 40 + 6 x 1.2816 = 47.7. Percentages must be converted to probabilities first (10 percent becomes 0.10), and symmetrical phrasings (the middle 90 percent) need two z-values or one with the symmetry of the curve.</p><p>Symmetry questions are frequent and worth practising as a set. For the middle 90 percent of a distribution, the two tails each hold 5 percent, so find z for an upper-tail probability of 0.05 (z = 1.6449) and state both endpoints x = mu plus-or-minus sigma z. For within-one-standard-deviation questions, z = plus-or-minus 1 and the answer is 2 x 0.8413 - 1 = 0.6826, a value worth memorising as a check. When a question mixes units (masses in grams, times in minutes) standardise in the units given and never convert the distribution parameters themselves; and when a value is described in words (two standard deviations above the mean), translate it into a z-value before any table work.</p>
+</section>
+<section class="section">
+<h2>Normal approximation to the binomial</h2>
+<p>When n is large, binomial calculations by formula or tables become impractical, so X ~ B(n, p) is approximated by a normal distribution: X approximately N(np, np(1 - p)) - the mean and variance of the binomial become the parameters of the normal. The standard conditions quoted by Edexcel are that n is large with np > 5 and n(1 - p) > 5; state both when asked to justify the approximation, and expect an AO3 mark for explaining why: the binomial becomes symmetric and bell-shaped for large n, matching the normal shape.</p><p>Because the binomial is discrete and the normal continuous, a <strong>continuity correction</strong> is essential: whole-number values become intervals of width 1. The three conversions: P(X less or equal a) becomes P(Y < a + 0.5); P(X greater or equal a) becomes P(Y > a - 0.5); P(X = a) becomes P(a - 0.5 < Y < a + 0.5). Getting the direction of the 0.5 right is the most examined detail in this topic - between-and-inclusive moves the boundary outward, exact-equality brackets the value.</p><p>Worked structure for a full-mark answer: (i) state the approximation with its parameters, e.g. X ~ B(120, 0.4) is approximately N(48, 28.8); (ii) apply the continuity correction to rewrite the event; (iii) standardise and use tables; (iv) answer to 3 significant figures. For X ~ B(120, 0.4), P(X greater or equal 55): mu = 48, sigma = the square root of 28.8 = 5.37 (3 sf); the event becomes P(Y > 54.5); z = (54.5 - 48)/5.37 = 1.21; P(Z > 1.21) = 1 - 0.8939 = 0.106.</p><p>Accuracy questions compare the approximation with the exact binomial answer and ask for a comment. The approximation is close for large n but slightly out because the normal is continuous; the continuity correction removes most but not all of the gap, and as n grows the approximation improves. Expect an AO3 mark for explaining why the approximation is needed (tables impractical, computation heavy) and one for the conditions. Also be ready to reverse the process: given a normal model claimed as an approximation to a binomial, recover n and p from the parameters - the mean np and variance np(1 - p) give two equations in two unknowns, since the variance divided by the mean equals 1 - p.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> The number of defective items in a batch of 120 items follows a binomial distribution with probability 0.4 of any item being defective. (a) State two conditions required for a binomial model and find the mean and variance of the number of defective items. (3 marks) (b) Using a normal approximation with a continuity correction, estimate the probability that at least 55 items are defective. (5 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Conditions in context: each item is defective independently of the others, with the same probability 0.4 (any two of: fixed n, two outcomes, independence, constant p) (1). X ~ B(120, 0.4): mean = np = 120 x 0.4 = 48; variance = np(1 - p) = 120 x 0.4 x 0.6 = 28.8 (1). (b) Since n is large with np = 48 &gt; 5 and n(1 - p) = 72 &gt; 5, X is approximately N(48, 28.8) (1). Continuity correction: at least 55 means P(X greater or equal 55), which becomes P(Y &gt; 54.5) (1). Standardise: z = (54.5 - 48)/5.367 = 1.21; P(Z &gt; 1.21) = 1 - 0.8939 = 0.106 (3 sf) (1). Final accuracy mark requires the standardisation line and the correct continuity correction direction.</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>The discrete random variable X has the distribution: x = 1, 2, 3 with p(x) = 0.2, 0.5, 0.3. Find (a) E(X), (b) Var(X), (c) the standard deviation of X. (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) E(X) = sum of x p(x) = 1(0.2) + 2(0.5) + 3(0.3) = 2.1 (1). (b) E(X squared) = 1(0.2) + 4(0.5) + 9(0.3) = 4.9, so Var(X) = 4.9 - 2.1 squared = 4.9 - 4.41 = 0.49 (2 marks: method for E(X squared) and subtraction). (c) sd = the square root of 0.49 = 0.7 (1). Check the probabilities sum to 1 before starting.</div></details>
+<details><summary>X ~ B(8, 0.25). Find the probability that X = 3, giving your answer to 3 significant figures. (2 marks)</summary><div class="answer"><strong>Answer:</strong> P(X = 3) = C(8,3) x (0.25) cubed x (0.75) to the fifth = 56 x 0.015625 x 0.23730 = 0.208 (2 marks: formula with correct binomial coefficient, and answer). Calculator or table route also earns full marks if the value is correct.</div></details>
+<details><summary>X ~ B(10, 0.3). Use cumulative binomial tables to find (a) P(X less or equal 3), (b) P(X greater or equal 4), (c) P(2 less or equal X less or equal 4), given that P(X less or equal 2) = 0.3828. (4 marks)</summary><div class="answer"><strong>Answer:</strong> (a) Read directly: P(X less or equal 3) = 0.6496 (1). (b) P(X greater or equal 4) = 1 - P(X less or equal 3) = 1 - 0.6496 = 0.3504 (1). (c) P(2 less or equal X less or equal 4) = P(X less or equal 4) - P(X less or equal 1); P(X less or equal 4) = 0.8497 and P(X less or equal 1) = 0.1493, giving 0.7004 (2 marks: conversion with the a - 1 off-by-one, and answer).</div></details>
+<details><summary>X ~ N(52, 9). Find (a) P(X &lt; 47), (b) P(47 &lt; X &lt; 56), giving your answers to 3 significant figures. (4 marks)</summary><div class="answer"><strong>Answer:</strong> sigma = 3. (a) z = (47 - 52)/3 = -1.67 (4 dp); P(Z &lt; -1.67) = 1 - 0.9525 = 0.0475 (2 marks: standardisation and answer). (b) z for 56: (56 - 52)/3 = 1.33; P(Z &lt; 1.33) = 0.9082; P(47 &lt; X &lt; 56) = 0.9082 - 0.0475 = 0.861 (2 marks). Keep z to 4 decimal places before reading tables; the sketch-and-shade habit prevents complement errors.</div></details>
+<details><summary>The masses of bags of flour are normally distributed with mean 1000 g and standard deviation 15 g. A bag is chosen at random. Find the probability that its mass exceeds 1025 g, and find the mass exceeded by 5 percent of bags. (5 marks)</summary><div class="answer"><strong>Answer:</strong> (a) z = (1025 - 1000)/15 = 1.67 (4 dp); P(Z &gt; 1.67) = 1 - 0.9525 = 0.0475 (2 marks). (b) Inverse normal: z for upper tail 0.05 is 1.6449, so x = 1000 + 15 x 1.6449 = 1025 g (to 3 sf: 1024.7 g) (2 marks: z from tables and conversion back). State answers in context (mass in grams) for the interpretation mark.</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=binomial+and+normal+distribution+normal+approximation+A+level+statistics+Edexcel+revision" target="_blank" rel="noopener">YouTube: binomial and normal distribution normal approximation A level statistics Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics qualification page - specification, specimen and past papers for 9ST0 (see Key Documents tab)</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel past papers and mark schemes - filter the qualification page above for Statistics (9ST0)</a></li>
+<li data-board="PMT"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">Physics &amp; Maths Tutor A-Level Statistics - probability distributions notes and past paper questions by topic</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Edexcel A-Level Statistics (9ST0) qualification page - spec, SAMs, past papers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics revision - binomial and normal distributions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-statistics/" target="_blank" rel="noopener">PMT A-Level Statistics past paper questions arranged by specification topic</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/statistics/probability.html">&larr; Probability</a><a href="../../topics/statistics/correlation-and-regression.html">Correlation and Regression &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

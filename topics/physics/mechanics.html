@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mechanics: Motion, Forces and Energy - A-Level Physics Revision Notes</title>
+<meta name="description" content="A-Level Physics mechanics revision: SUVAT equations with derivations, projectile motion, Newton&#x27;s laws, momentum conservation, work-energy-power, moments and the free-fall required practical - mapped to AQA 7408 3.4, OCR A H556 Module 3, Edexcel 9PH0 Topic 2, WJEC/Eduqas and CCEA.">
+<meta name="keywords" content="A-Level Physics, Mechanics: Motion, Forces and Energy, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Mechanics: Motion, Forces and Energy - A-Level Physics">
+<meta property="og:description" content="A-Level Physics mechanics revision: SUVAT equations with derivations, projectile motion, Newton&#x27;s laws, momentum conservation, work-energy-power, moments and the free-fall required practical - mapped to AQA 7408 3.4, OCR A H556 Module 3, Edexcel 9PH0 Topic 2, WJEC/Eduqas and CCEA.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/physics/mechanics.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/physics/mechanics.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When can I use SUVAT and when not?", "acceptedAnswer": {"@type": "Answer", "text": "Only when acceleration is constant - the question says uniform, constant or steady, or the v-t graph is straight. Variable acceleration needs calculus (v = ds/dt, a = dv/dt) or a graph-area method. Using SUVAT with air resistance or changing acceleration is a method error that scores zero for the calculation."}}{"@type": "Question", "name": "Why is momentum conserved but kinetic energy sometimes not?", "acceptedAnswer": {"@type": "Answer", "text": "Momentum conservation follows directly from Newton's third law: the internal forces between colliding bodies are equal, opposite and act for the same time, so the total impulse on the system is zero. Kinetic energy has no such constraint - it is a scalar that can transfer to deformation, heat and sound in inelastic collisions. Only elastic collisions conserve KE; all isolated collisions conserve momentum."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/physics/mechanics.html" class="active">Mechanics: Motion, Forces and Energy</a></li><li><a href="../../topics/physics/materials.html">Materials</a></li><li><a href="../../topics/physics/waves.html">Waves and Optics</a></li><li><a href="../../topics/physics/electricity-and-circuits.html">Electricity and Circuits</a></li><li><a href="../../topics/physics/particles-and-quantum.html">Particles and Quantum Phenomena</a></li><li><a href="../../topics/physics/fields-gravitation.html">Gravitation and Fields</a></li><li><a href="../../topics/physics/fields-electric.html">Electric Fields and Capacitance</a></li><li><a href="../../topics/physics/fields-magnetic.html">Magnetic Fields and Electromagnetic Induction</a></li><li><a href="../../topics/physics/thermal-uncertainty.html">Thermal Physics and Uncertainty</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../physics.html">Physics</a> <span>›</span>
+<span>Mechanics: Motion, Forces and Energy</span>
+</nav>
+
+<article class="topic-header">
+<h1>Mechanics: Motion, Forces and Energy</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">A-Level Physics mechanics revision: SUVAT equations with derivations, projectile motion, Newton&#x27;s laws, momentum conservation, work-energy-power, moments and the free-fall required practical - mapped to AQA 7408 3.4, OCR A H556 Module 3, Edexcel 9PH0 Topic 2, WJEC/Eduqas and CCEA.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Use the SUVAT equations for constant acceleration and derive them from the definitions of velocity and acceleration (AO1/AO2) - AQA 7408 3.4.1.3, OCR A H556 3.1, Edexcel 9PH0 Topic 2</li>
+<li>Analyse projectile motion by resolving into independent horizontal and vertical components and derive the range formula (AO2/AO3) - AQA 7408 3.4.1.4</li>
+<li>Apply Newton&#x27;s three laws, calculate momentum and impulse, and use conservation of momentum in collisions and explosions (AO2) - AQA 7408 3.4.1.5-3.4.1.6, OCR A H556 3.5</li>
+<li>Calculate work, energy and power, use conservation of energy, and solve moments and equilibrium problems for rigid bodies (AO2) - AQA 7408 3.4.1.2, OCR A H556 3.3</li>
+<li>Determine g by free fall and evaluate measurement uncertainty in mechanics practicals (AO3) - AQA required practical 3, OCR PAG1, Edexcel CP1</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Displacement (s):</strong> Distance in a stated direction from a fixed origin; a vector, measured in m.</div>
+<div class="key-point"><strong>Acceleration:</strong> Rate of change of velocity, a = Δv/Δt; a vector, measured in m/s^2.</div>
+<div class="key-point"><strong>SUVAT equations:</strong> The five constant-acceleration formulae v = u + at, s = ut + ½at^2, s = ½(u + v)t, v^2 = u^2 + 2as, s = vt - ½at^2; valid only when a is constant.</div>
+<div class="key-point"><strong>Projectile:</strong> A body moving under gravity alone: constant horizontal velocity, vertical acceleration -g, with the two motions independent.</div>
+<div class="key-point"><strong>Momentum (p):</strong> p = mv; a vector in kg m/s. The conservation law: in an isolated system the total momentum is unchanged.</div>
+<div class="key-point"><strong>Impulse (J):</strong> Impulse = force × time = FΔt = Δp (change in momentum); equals the area under a force-time graph.</div>
+<div class="key-point"><strong>Work (W):</strong> W = Fs cos θ, the energy transferred when a force moves its point of application; measured in joules.</div>
+<div class="key-point"><strong>Power (P):</strong> Rate of energy transfer, P = W/t = Fv; measured in watts (1 W = 1 J/s).</div>
+<div class="key-point"><strong>Moment of a force:</strong> Moment = force × perpendicular distance from the line of action to the pivot (M = Fd); measured in N m.</div>
+<div class="key-point"><strong>Principle of moments:</strong> For a body in equilibrium, the sum of clockwise moments about any point equals the sum of anticlockwise moments.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">SUVAT: v = u + at, s = ut + ½at^2, v^2 = u^2 + 2as, s = ½(u + v)t - only for constant a.</div>
+<div class="key-point">Newton&#x27;s 1st: equilibrium → net force zero; 2nd: F = ma = Δ(mv)/Δt; 3rd: action-reaction pairs equal, opposite, same type.</div>
+<div class="key-point">Momentum p = mv; impulse J = FΔt = Δp; conservation: Σp_before = Σp_after for an isolated system.</div>
+<div class="key-point">Work W = Fs cos θ; KE = ½mv^2; GPE = mgh; elastic PE = ½kx^2; power = W/t = Fv.</div>
+<div class="key-point">Projectiles: horizontal velocity constant, vertical a = -g; range = u^2 sin 2θ/g, max height = u^2 sin^2 θ/(2g).</div>
+<div class="key-point">Moments: M = F × d (perpendicular distance); equilibrium: ΣF = 0 and ΣM = 0; couple = two equal, opposite forces.</div>
+</section>
+<section class="section">
+<h2>Kinematics and the SUVAT equations (derivations)</h2>
+<p>Kinematics is the description of motion: displacement s, velocity v and acceleration a. On a displacement-time graph the gradient is velocity; on a velocity-time graph the gradient is acceleration and the <strong>area under the graph is displacement</strong> (AQA 7408 3.4.1.3; OCR A H556 3.1; Edexcel 9PH0 Topic 2; WJEC/Eduqas and CCEA AS mechanics). The five SUVAT equations connect s, u, v, a and t when acceleration is <strong>constant</strong> - and you should be able to derive them, not just quote them.</p><p><strong>Derivation 1: v = u + at.</strong> Acceleration is defined as a = (v - u)/t for uniform acceleration. Multiply both sides by t: at = v - u, so <strong>v = u + at</strong>.</p><p><strong>Derivation 2: s = ut + ½at^2.</strong> Displacement is the area under the v-t graph: a rectangle of height u and width t (area ut) plus a triangle of base t and height at (area ½ × t × at). So <strong>s = ut + ½at^2</strong>. The same result follows by integrating: s = ∫v dt = ∫(u + at) dt = ut + ½at^2 with s(0) = 0.</p><p><strong>Derivation 3: s = ½(u + v)t.</strong> For a straight-line v-t graph the area is the mean velocity times time: s = ((u + v)/2)t.</p><p><strong>Derivation 4: v^2 = u^2 + 2as.</strong> Rearrange derivation 1 for t = (v - u)/a and substitute into derivation 2: s = u(v - u)/a + ½a(v - u)^2/a^2. Expand: s = (uv - u^2)/a + (v^2 - 2uv + u^2)/2a. Put over a common denominator: 2as = 2uv - 2u^2 + v^2 - 2uv + u^2 = v^2 - u^2, so <strong>v^2 = u^2 + 2as</strong>.</p><p>Selection routine: list knowns, list the unknown, use the equation that omits the quantity you do not need. Choose a positive direction and keep signs consistent; convert km/h to m/s by dividing by 3.6. Free fall is the standard application: with u = 0 downward, s = ½gt^2.</p><details><summary>Required practical: g by free fall (AQA RP3, OCR PAG1, Edexcel CP1)</summary><p>Drop a ball bearing through a measured height s past a light gate (or use two gates, or a video with a metre rule in shot). Timing starts when the ball is released (u = 0) and stops when it breaks the gate, so human reaction time - roughly 0.2 s, a large systematic error in stopwatch methods - is eliminated. Rearrange s = ½gt^2 to g = 2s/t^2, or better, plot s against t^2: a straight line through the origin with <strong>gradient g/2</strong>, so g = 2 × gradient. Using many heights and a best-fit line averages random error. Uncertainty in the gradient comes from the scatter and the resolution of the rule (±1 mm on a metre rule read to 1 mm gives about 0.1% per metre). Percentage difference from the accepted value 9.81 m/s^2 concludes the evaluation.</p></details>
+</section>
+<section class="section">
+<h2>Projectile motion</h2>
+<p>A projectile moves under gravity alone, so the two components are independent (AQA 7408 3.4.1.4): <strong>horizontal</strong> velocity stays constant at u cos θ (no horizontal force), and <strong>vertical</strong> velocity starts at u sin θ with acceleration -g. Resolve first, then apply SUVAT to each component separately; the link between them is time.</p><p><strong>Derivation: range on level ground.</strong> At maximum height the vertical velocity is zero, so from v = u + at: 0 = u sin θ - gt_half, giving t_half = u sin θ/g. By symmetry the total flight time is T = 2u sin θ/g. The range is the constant horizontal velocity times the flight time: R = u cos θ × 2u sin θ/g. Since 2 sin θ cos θ = sin 2θ, <strong>R = u^2 sin 2θ/g</strong>. Maximum range on level ground occurs at θ = 45 degrees because sin 2θ peaks at 1 when 2θ = 90 degrees - a favourite one-mark question.</p><p><strong>Maximum height:</strong> using v^2 = u^2 + 2as vertically with v = 0: 0 = u^2 sin^2 θ - 2gh, so h = u^2 sin^2 θ/(2g).</p><p><strong>Trajectory shape:</strong> eliminating t between x = u cos θ × t and y = u sin θ × t - ½gt^2 gives y = x tan θ - gx^2/(2u^2 cos^2 θ) - a parabola (y is quadratic in x). The path is symmetric only when launch and landing are at the same height; with air resistance the path shortens and steepens after the peak.</p><details><summary>Worked example: components and range</summary><p>A ball is projected at 20 m/s at 30 degrees above the horizontal from level ground (g = 9.8 m/s^2).</p><p><strong>Line 1:</strong> u_x = 20 cos 30 = 17.3 m/s, u_y = 20 sin 30 = 10.0 m/s (M1: resolve into components).</p><p><strong>Line 2:</strong> Vertical, at max height v = 0: 0 = 10.0^2 - 2(9.8)h, so h = 100/19.6 = 5.10 m (M1 A1).</p><p><strong>Line 3:</strong> T = 2u_y/g = 2 × 10.0/9.8 = 2.04 s (A1: symmetry).</p><p><strong>Line 4:</strong> R = u_x T = 17.3 × 2.04 = 35.3 m (A1).</p></details><p>Typical follow-ups: state the modelling assumptions (no air resistance so horizontal velocity constant; the ball is a particle; g uniform) and describe the effect of removing one - naming the assumption and its consequence earns the mark.</p>
+</section>
+<section class="section">
+<h2>Newton&#x27;s laws, momentum and impulse (derivations)</h2>
+<p><strong>Newton's first law:</strong> a body remains at rest or in uniform motion unless acted on by a resultant force - equilibrium means ΣF = 0. <strong>Second law:</strong> the resultant force equals the rate of change of momentum; for constant mass this reduces to F = ma. <strong>Third law:</strong> if A exerts a force on B, B exerts an equal and opposite force on A of the same type (AQA 7408 3.4.1.5; OCR A H556 3.5; Edexcel 9PH0 Topic 2).</p><p><strong>Derivation: F = ma from F = Δp/Δt.</strong> Momentum p = mv. If the mass is constant and velocity changes from u to v in time t: F = Δp/Δt = (mv - mu)/t = m(v - u)/t = ma. For changing mass (a rocket) or changing velocity you must use the full F = Δp/Δt form.</p><p><strong>Derivation: conservation of momentum from Newton's third law.</strong> Consider two bodies A and B interacting. By the third law, F_AB = -F_AB (action on B equals minus reaction on A), and they act for the same time Δt. Impulse on A: Δp_A = F_AB Δt; impulse on B: Δp_B = -F_AB Δt. Adding: Δp_A + Δp_B = 0, so the total momentum change is zero and <strong>Σp_before = Σp_after</strong> - momentum is conserved provided no external resultant force acts.</p><p><strong>Impulse:</strong> J = FΔt = Δp, measured in N s; it equals the area under a force-time graph. This is the physics of safety design: crumple zones and air bags increase the collision time Δt, so for a fixed Δp the force F = Δp/Δt is smaller.</p><p><strong>Collisions:</strong> momentum is always conserved, but kinetic energy only in <em>elastic</em> collisions. In an <em>inelastic</em> collision KE decreases (transferred to deformation, heat, sound); an explosion converts stored energy into KE so total KE increases while momentum stays zero overall.</p><details><summary>Worked example: coupling collision</summary><p>A 1200 kg car at 10 m/s hits a stationary 800 kg car and they couple together. Find the common speed and the KE lost.</p><p><strong>Line 1:</strong> 1200 × 10 + 800 × 0 = 2000v (M1: conservation of momentum).</p><p><strong>Line 2:</strong> v = 12000/2000 = 6.0 m/s (A1).</p><p><strong>Line 3:</strong> KE before = ½ × 1200 × 10^2 = 6.0 × 10^4 J; KE after = ½ × 2000 × 6^2 = 3.6 × 10^4 J (M1).</p><p><strong>Line 4:</strong> KE lost = 2.4 × 10^4 J to deformation and heat (A1: inelastic).</p></details>
+</section>
+<section class="section">
+<h2>Work, energy, power and moments</h2>
+<p><strong>Work</strong> is energy transferred by a force: W = Fs cos θ, where θ is the angle between force and displacement - only the component of force along the displacement does work (AQA 7408 3.4.1.1/3.4.1.1 energy; OCR A H556 3.3).</p><p><strong>Derivation: KE = ½mv^2.</strong> Work-energy theorem: the work done by the resultant force equals the gain in KE. From Newton's second law F = ma and the constant-acceleration equation v^2 = u^2 + 2as with u = 0: a = v^2/2s. So W = Fs = m(v^2/2s)s = ½mv^2. Starting from rest, the work done on the body is <strong>W = ½mv^2</strong>, which is therefore the kinetic energy.</p><p>Gravitational PE near Earth's surface is GPE = mgh (work done lifting mass m through height h against weight mg). <strong>Conservation of energy:</strong> in the absence of friction, ΣE is constant - falling converts GPE to KE: mgh = ½mv^2, giving v = √(2gh) independent of mass. With friction, the 'missing' mechanical energy equals work done against friction (heat).</p><p><strong>Power</strong> is the rate of energy transfer: P = W/t, and since W = Fs, P = Fv. A car at steady top speed has engine driving force equal to total resistance, and P = Fv sets the limit. Efficiency = useful output/total input (× 100%).</p><p><strong>Moments</strong> (AQA 7408 3.4.1.2): the moment of a force about a point is M = Fd, where d is the <em>perpendicular</em> distance from the line of action to the point. A <strong>couple</strong> is a pair of equal, opposite, parallel forces; its moment is one force × separation and it produces rotation only. <strong>Equilibrium of a rigid body</strong> requires both ΣF = 0 and ΣM = 0 about any point. The centre of mass is the point where the weight appears to act; for a uniform body it is at the geometric centre. Take moments about a support to eliminate its (unknown) reaction.</p><details><summary>Worked example: reactions on a beam</summary><p>A uniform 4.0 m beam of mass 20 kg rests on supports at 0.5 m and 3.0 m from its left end (g = 9.8 m/s^2).</p><p><strong>Line 1:</strong> Weight 196 N acts at the centre, 2.0 m from the left end (B1: uniform beam).</p><p><strong>Line 2:</strong> Moments about the left support (at 0.5 m): weight is 1.5 m to the right of it, right support is 2.5 m to the right of it: R_2 × 2.5 = 196 × 1.5 (M1: principle of moments).</p><p><strong>Line 3:</strong> R_2 = 294/2.5 = 117.6 N (A1).</p><p><strong>Line 4:</strong> Vertical equilibrium: R_1 + R_2 = 196, so R_1 = 78.4 N (M1 A1).</p></details>
+</section>
+<section class="section">
+<h2>Practicals and uncertainty in mechanics</h2>
+<p>Beyond the free-fall practical (AQA RP3, OCR PAG1, Edexcel CP1), mechanics practicals measure g with a simple pendulum (T = 2π√(L/g), so g = 4π^2L/T^2 from the gradient of T^2 against L - the pendulum belongs properly to oscillations but is a standard g method), terminal velocity with falling filters or ball bearings (weight equals drag at terminal velocity, so the graph of velocity against time plateaus), and force-extension work with springs (elastic PE = ½kx^2 = area under the F-x graph).</p><p><strong>Uncertainty rules</strong> (AQA 7408 3.1.2; Edexcel 9PH0 Topic 1; OCR Module 1): the uncertainty in a single reading is at least half the resolution (±0.5 mm on a mm rule); for repeated readings use half the range of the repeats. Combining: <strong>adding/subtracting</strong> quantities - add absolute uncertainties; <strong>multiplying/dividing</strong> - add percentage uncertainties; <strong>raising to a power n</strong> - multiply the percentage uncertainty by n. Percentage error against an accepted value: |experimental - accepted|/accepted × 100%.</p><details><summary>Worked example: uncertainty in g from s = ½gt^2</summary><p>A ball falls s = 1.200 ± 0.002 m in t = 0.495 ± 0.005 s. Find g and its uncertainty.</p><p><strong>Line 1:</strong> g = 2s/t^2 = 2 × 1.200/0.495^2 = 9.80 m/s^2 (M1 A1).</p><p><strong>Line 2:</strong> Percentage uncertainty: s contributes 0.002/1.200 = 0.17%; t^2 contributes 2 × (0.005/0.495) = 2.0% (M1: power rule for t^2).</p><p><strong>Line 3:</strong> Total: 0.17% + 2.0% = 2.2%, so Δg = 0.022 × 9.80 = 0.22 m/s^2 (A1).</p><p><strong>Line 4:</strong> g = 9.8 ± 0.2 m/s^2 - the timing uncertainty dominates, so improving the timing (light gates, video analysis) is the evaluation point (A1: conclusion).</p></details><p>Exam evaluation points for mechanics: reaction time (eliminate with light gates), parallax in length measurement (read at eye level, use a set square to mark heights), air resistance on falling objects (limits the accuracy of g), and repeating measurements to average random error. State which uncertainty is largest and how to reduce it - that comparison earns the top evaluation mark.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A 0.5 kg ball is projected at 20 m/s at 30 degrees above the horizontal from level ground. Find the maximum height, the range, and the speed at impact. (g = 9.8 m/s^2) (AQA 7408-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Resolve the launch velocity: u_x = 20 cos 30 = 17.3 m/s and u_y = 20 sin 30 = 10.0 m/s (M1 A1: correct components). Vertical motion to maximum height, v_y = 0: 0 = u_y^2 - 2gh gives 0 = 100 - 19.6h, so h = 5.10 m (M1 A1: SUVAT applied vertically). Time of flight from symmetry: t = 2u_y/g = 20/9.8 = 2.04 s (A1). Range = u_x × t = 17.3 × 2.04 = 35.3 m (A1). At impact, by symmetry the vertical velocity is again 10.0 m/s downward while the horizontal velocity is unchanged at 17.3 m/s, so v = √(17.3^2 + 10.0^2) = 20 m/s at 30 degrees below the horizontal - speed equals the launch speed because energy is conserved (no air resistance).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>A car accelerates uniformly from rest at 3.0 m/s^2 for 8.0 s. Calculate its final speed and the distance travelled.</summary><div class="answer"><strong>Answer:</strong> v = u + at = 0 + 3.0 × 8.0 = 24 m/s (M1 A1). s = ut + ½at^2 = 0 + ½ × 3.0 × 8.0^2 = 96 m (A1). Check with v^2 = u^2 + 2as: 576 = 2 × 3.0 × s, s = 96 m - consistent.</div></details>
+<details><summary>A 1200 kg car moving at 10 m/s collides with a stationary 800 kg car and they couple together. Calculate their common speed after the impact, and state why kinetic energy is not conserved.</summary><div class="answer"><strong>Answer:</strong> Momentum conservation: 1200 × 10 + 800 × 0 = (1200 + 800)v (M1), v = 12000/2000 = 6.0 m/s (A1). KE falls from 60 kJ to 36 kJ (A1): the collision is inelastic - energy transfers to deformation of the bodywork, heat and sound (A1).</div></details>
+<details><summary>A 2.0 kg mass moves in a horizontal circle of radius 0.50 m at a constant speed of 4.0 m/s. Calculate the centripetal force acting on it.</summary><div class="answer"><strong>Answer:</strong> F = mv^2/r = (2.0 × 4.0^2)/0.50 (M1) = 32/0.50 = 64 N (A1), directed towards the centre of the circle (A1).</div></details>
+<details><summary>A projectile launched at 45 degrees on level ground has a range of 100 m. Find its initial speed. (g = 9.8 m/s^2)</summary><div class="answer"><strong>Answer:</strong> R = u^2 sin 2θ/g with θ = 45 degrees so sin 2θ = sin 90 = 1 (M1: range formula recalled/derived). u^2 = Rg = 100 × 9.8 = 980 (M1), u = 31.3 m/s (A1).</div></details>
+<details><summary>A uniform 4.0 m beam of mass 20 kg rests on supports at 0.5 m and 3.0 m from its left end. Calculate the reaction at each support. (g = 9.8 m/s^2)</summary><div class="answer"><strong>Answer:</strong> Weight 196 N at the centre, 2.0 m from the left end (B1). Moments about the left support: R_2 × 2.5 = 196 × 1.5 (M1), R_2 = 117.6 N (A1). Vertical equilibrium: R_1 = 196 - 117.6 = 78.4 N (M1 A1).</div></details>
+<details><summary>A 0.16 kg cricket ball hits a wall horizontally at 25 m/s and rebounds at 15 m/s. Contact lasts 0.020 s. Calculate the impulse and the average force.</summary><div class="answer"><strong>Answer:</strong> Taking the rebound direction as positive: Δp = 0.16 × 15 - 0.16 × (-25) = 2.4 + 4.0 = 6.4 N s (M1 A1: sign change handled). Impulse J = Δp = 6.4 N s (A1). F = Δp/Δt = 6.4/0.020 = 320 N (M1 A1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+physics+mechanics+SUVAT+projectiles+momentum+conservation+moments+free+fall+required+practical+revision" target="_blank" rel="noopener">YouTube: A level physics mechanics SUVAT projectiles momentum conservation moments free fall required practical revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA find past papers and mark schemes - A-Level Physics 7408 mechanics and materials papers</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR qualifications - OCR A Level Physics A H556 past papers and mark schemes (Module 3 forces and motion)</a></li>
+<li data-board="All boards"><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor physics revision - mechanics topic questions and past papers arranged by board</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor - A-Level Physics mechanics revision notes and topic questions by board</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA - find past papers and mark schemes for A-Level Physics 7408</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR - Physics A H556 qualification page with past papers, mark schemes and the practical skills handbook</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><span>&nbsp;</span><a href="../../topics/physics/materials.html">Materials &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

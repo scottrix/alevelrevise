@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software Development and Legal Issues - A-Level Computer Science Revision Notes</title>
+<meta name="description" content="Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for software development and legal issues: SDLC models, programming paradigms and OOP, translators, testing, and the legal/ethical framework (Data Protection, Computer Misuse) with evaluation points.">
+<meta name="keywords" content="A-Level Computer Science, Software Development and Legal Issues, revision notes, AQA, OCR, WJEC/Eduqas, past papers">
+<meta property="og:title" content="Software Development and Legal Issues - A-Level Computer Science">
+<meta property="og:description" content="Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for software development and legal issues: SDLC models, programming paradigms and OOP, translators, testing, and the legal/ethical framework (Data Protection, Computer Misuse) with evaluation points.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/computer-science/software-development.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/computer-science/software-development.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which SDLC model should I argue for in a 9-marker?", "acceptedAnswer": {"@type": "Answer", "text": "Argue from the scenario's defining characteristic, not personal preference: fixed well-understood requirements \u2192 waterfall; changing/unclear requirements or need for early delivery \u2192 agile (or prototyping); high-risk \u2192 spiral. Top marks require conceding one weakness of your chosen model and why it is tolerable."}}{"@type": "Question", "name": "How much legal detail is examined?", "acceptedAnswer": {"@type": "Answer", "text": "Four UK Acts (OCR 1.5): Data Protection Act 2018, Computer Misuse Act 1990, Copyright Designs and Patents Act 1988, RIPA 2000. Learn each Act's name with year, one-line scope, and a scenario \u2014 exam questions ask you to apply the Act to a situation, not recite sections."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/computer-science/fundamentals-of-programming.html">Fundamentals of Programming</a></li><li><a href="../../topics/computer-science/data-structures-and-algorithms.html">Data Structures and Algorithms</a></li><li><a href="../../topics/computer-science/theory-of-computation.html">Theory of Computation</a></li><li><a href="../../topics/computer-science/data-representation.html">Data Representation</a></li><li><a href="../../topics/computer-science/computer-systems-and-architecture.html">Computer Systems and Architecture</a></li><li><a href="../../topics/computer-science/networks-and-databases.html">Networks and Databases</a></li><li><a href="../../topics/computer-science/software-development.html" class="active">Software Development and Legal Issues</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Software Development and Legal Issues</span>
+</nav>
+
+<article class="topic-header">
+<h1>Software Development and Legal Issues</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, OCR, WJEC/Eduqas</span>
+</div>
+<p class="topic-desc">Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for software development and legal issues: SDLC models, programming paradigms and OOP, translators, testing, and the legal/ethical framework (Data Protection, Computer Misuse) with evaluation points.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Compare SDLC models (waterfall, agile, spiral, incremental) and justify a choice for a given project scenario (OCR 1.2.4, AQA 4.9/4.12)</li>
+<li>Explain the stages of a systematic approach to problem solving: analysis, design, implementation, testing, evaluation (AQA 4.9)</li>
+<li>Describe programming paradigms — procedural and object-oriented — and apply OOP: classes, encapsulation, inheritance, polymorphism (OCR 1.2.6, WJEC Unit 4)</li>
+<li>Compare compilers, interpreters and assemblers, and explain bytecode and virtual machines (OCR 1.2.3, AQA 4.4)</li>
+<li>Describe testing levels (unit, integration, alpha, beta, acceptance) and types (white box, black box), and select test data (normal, boundary, erroneous) (OCR 1.2.4, AQA 4.9)</li>
+<li>Explain the legal framework: Data Protection Act 2018, Computer Misuse Act 1990, Copyright Designs and Patents Act 1988, Regulation of Investigatory Powers Act 2000 (OCR 1.5)</li>
+<li>Discuss ethical and professional issues in software development, including privacy and non-functional requirements (AQA 4.10, OCR 1.5)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>SDLC:</strong> Software Development Life Cycle: the structured stages a software project passes through — analysis, design, implementation, testing, evaluation/maintenance.</div>
+<div class="key-point"><strong>Waterfall model:</strong> A linear SDLC where each stage completes before the next begins; requirements are fixed up front, so change is expensive.</div>
+<div class="key-point"><strong>Agile development:</strong> An iterative SDLC delivering working software in short sprints, embracing changing requirements and continuous customer feedback.</div>
+<div class="key-point"><strong>Prototype:</strong> An early, partial version of a system built to clarify requirements or demonstrate feasibility before full development (AQA 4.12).</div>
+<div class="key-point"><strong>Paradigm:</strong> A style or model of programming: procedural (sequence of subroutine calls), object-oriented (objects exchanging messages), declarative/functional.</div>
+<div class="key-point"><strong>Class:</strong> A template defining the attributes (data) and methods (behaviour) of a type; an object is an instance of a class.</div>
+<div class="key-point"><strong>Encapsulation:</strong> Binding attributes and methods together in a class and hiding internal state (private attributes) behind a public interface.</div>
+<div class="key-point"><strong>Inheritance:</strong> A subclass deriving attributes and methods from a superclass, adding or overriding behaviour; an is-a relationship.</div>
+<div class="key-point"><strong>Polymorphism:</strong> The same method call behaving differently depending on the object&#x27;s actual class — each subclass overrides the method with its own implementation.</div>
+<div class="key-point"><strong>Compiler vs interpreter:</strong> A compiler translates the whole program to machine code before execution (fast execution, one build); an interpreter translates and executes line by line at run time (slower, immediate errors).</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">SDLC stages: analysis (requirements), design (data structures, interfaces, modules), implementation, testing, evaluation (AQA 4.9, OCR 1.2.4)</div>
+<div class="key-point">Waterfall: linear, fixed requirements, cheap to manage — but change is expensive and feedback comes late</div>
+<div class="key-point">Agile: iterative sprints, working software early, embraces changing requirements — needs constant customer involvement</div>
+<div class="key-point">Spiral: risk-driven iterations (risk analysis each loop); incremental: deliver in stages, each adding functionality</div>
+<div class="key-point">OOP: class = attributes + methods; encapsulation hides state, inheritance reuses (is-a), polymorphism = one call, many behaviours (OCR 1.2.6)</div>
+<div class="key-point">Compiler: whole-program translation before run — fast execution; interpreter: line-by-line at run time — immediate error reporting; assembler: assembly to machine code (OCR 1.2.3)</div>
+<div class="key-point">Testing levels: unit (one subroutine), integration (modules together), alpha (in-house), beta (real users), acceptance (customer sign-off) (OCR 1.2.4)</div>
+<div class="key-point">Test data: normal (valid), boundary (edges of valid ranges), erroneous (invalid — must be rejected); white box tests internal paths, black box tests behaviour only</div>
+<div class="key-point">Legal: Data Protection Act 2018 (data principles), Computer Misuse Act 1990 (unauthorised access), Copyright Designs &amp; Patents Act 1988, RIPA 2000 (OCR 1.5)</div>
+</section>
+<section class="section">
+<h2>SDLC models: waterfall, agile, spiral, incremental</h2>
+<p>The SDLC (OCR 1.2.4, AQA 4.9) is the sequence of stages every project passes through: <strong>analysis</strong> (establish requirements with the client — the problem, not the solution), <strong>design</strong> (data structures, algorithms, module structure, UI), <strong>implementation</strong> (coding to the design), <strong>testing</strong> (verifying against the requirements), <strong>evaluation</strong> (does it meet the original goals?) and <strong>maintenance</strong> (AQA 4.11: <em>corrective</em> — fixing bugs found in use; <em>adaptive</em> — responding to changed environments; <em>perfective</em> — improving it beyond the original spec).</p><p><strong>Waterfall</strong> runs the stages linearly, each completing before the next begins. Strengths: simple to manage, clear milestones, thorough documentation, suits projects with fixed, well-understood requirements (contracted, safety-critical, regulatory). Weaknesses: requirements are frozen up front, so late feedback; a wrong decision in analysis propagates; the customer sees nothing working until the end; change is expensive. The exam one-liner: waterfall assumes requirements are known and stable — it fails when they change.</p><p><strong>Agile</strong> develops in short iterations (<em>sprints</em>, typically 1–4 weeks), each delivering a working increment reviewed by the customer; requirements are re-prioritised every sprint. Strengths: working software early and often, welcomes changing requirements, continuous customer feedback, risks surface early. Weaknesses: needs constant customer involvement, less predictable final cost/timeline, documentation can be thin, harder to contract. Exam one-liner: agile assumes requirements will change — it embraces that with iteration.</p><p><strong>Spiral</strong> loops through planning, risk analysis, engineering and evaluation — each loop addressing the biggest current risk; suited to large, high-risk projects where risk analysis per iteration is worth its cost. <strong>Incremental</strong> delivers the system in stages, each adding functionality to a working core; overlaps with agile but without mandating short sprints or customer ceremonies. <strong>Prototyping</strong> (AQA 4.12) builds an early partial version — <em>throwaway</em> prototypes clarify requirements and are discarded; <em>evolutionary</em> prototypes grow into the final system; both reduce the risk of building the wrong thing.</p><p>The 9-marker this topic almost always takes: <em>'Explain why organisation X should use [model] for project Y.'</em> The full-credit structure: (1) identify Y's defining characteristic — requirements stable or changing? deadline or budget fixed? high-risk? (2) match the model: fixed requirements → waterfall; changing requirements/unclear needs → agile or prototyping; high-risk → spiral; (3) justify with two consequences of the match (e.g. agile delivers working increments early so the client can course-correct, avoiding building the wrong product); (4) concede one weakness and why it is tolerable here. An A* answer argues <em>both sides</em> before concluding. Example conclusion: a startup building an app with unclear market fit should use agile — requirements will change as users give feedback, and short sprints mean the product pivots cheaply; waterfall's frozen requirements would bake in early guesses, and its single end-of-project delivery would arrive after the market moved.</p>
+</section>
+<section class="section">
+<h2>Programming paradigms and OOP</h2>
+<p>A <strong>paradigm</strong> (OCR 1.2.6) is a style of programming. The examinable set: <em>procedural</em> — programs as sequences of subroutine calls over shared data; <em>object-oriented</em> — programs as interacting objects, each bundling data and behaviour; <em>declarative/functional</em> — programs as expressions and function applications (AQA 4.8: map, filter, fold/reduce), stating <em>what</em> not <em>how</em>. The comparison to quote: procedural suits problems modelled as step-by-step algorithms; OOP suits systems with many entity types interacting (GUIs, simulations, games); functional suits data transformation pipelines.</p><p><strong>OOP concepts</strong> (OCR 1.2.6, WJEC Unit 4) — learn each with its one-line benefit:</p><ul><li><strong>Class and object:</strong> a class defines attributes + methods; an object is an instance. Benefit: one definition, many instances.</li><li><strong>Encapsulation:</strong> attributes are private; access goes through public methods (getters/setters). Benefit: internal state cannot be corrupted by outside code; the implementation can change without breaking callers — the class maintains its own invariants (e.g. a setter rejects negative balances).</li><li><strong>Inheritance:</strong> a subclass extends a superclass (an is-a relationship), reusing its attributes and methods and adding/overriding. Benefit: code reuse; a common interface over related types.</li><li><strong>Polymorphism:</strong> the same method call behaves differently per actual class — each subclass overrides the method. Benefit: code written against the superclass works for all subclasses without conditionals.</li></ul><p>Worked example — the classic exam design (vehicles):</p><pre>class Vehicle:
+    def __init__(self, wheels):
+        self.wheels = wheels          # private in spirit
+    def describe(self):
+        return 'Vehicle with ' + str(self.wheels) + ' wheels'
+
+class Car(Vehicle):                   # Car is-a Vehicle (inheritance)
+    def __init__(self, wheels, plates):
+        super().__init__(wheels)
+        self.plates = plates
+    def describe(self):               # overridden (polymorphism)
+        return 'Car, ' + str(self.wheels) + ' wheels, plate ' + self.plates
+
+vehicles = [Car(4, 'AB12 CDE'), Vehicle(2)]
+for v in vehicles:
+    print(v.describe())               # one call, two behaviours</pre><p>Trace: the loop calls <code>describe()</code> on each element without knowing its class; Python dispatches to the actual class's method — output <em>'Car, 4 wheels, plate AB12 CDE'</em> then <em>'Vehicle with 2 wheels'</em>. That is polymorphism: the call site is unchanged whether the list holds cars, bikes or trucks — adding a new subclass requires <em>no change</em> to this code, which is the evaluation point examiners want (open/closed principle in spirit).</p><p>Exam patterns: <em>'Explain the difference between a class and an object'</em> (class is the template, object is an instance of it); <em>'Explain why encapsulation improves maintainability'</em> (state is accessed only through methods, so the representation can change freely and invalid values are rejected at the boundary); <em>'Explain what is meant by inheritance and state one benefit'</em> (subclass derives from superclass, is-a; benefit: reuse of attributes/methods and a common interface). Full marks consistently require the <em>benefit</em> sentence, not just the definition.</p>
+</section>
+<section class="section">
+<h2>Translators: compilers, interpreters, assemblers</h2>
+<p>High-level languages must be translated to machine code (OCR 1.2.3, AQA 4.4). The three translators and their trade-offs:</p><ul><li><strong>Compiler:</strong> translates the <em>whole program</em> to machine code before execution. Fast execution (native code, translated once); reports all syntax errors after a full compile; errors listed with line numbers; the executable runs without the compiler or source. Slower development loop — recompile after every change; error messages can be less immediate.</li><li><strong>Interpreter:</strong> translates and executes <em>line by line</em> at run time. Execution is slower (re-translated every run); stops at the first error — excellent for debugging and learning; needs the interpreter present on every machine. Development is fast: run immediately, no build step.</li><li><strong>Assembler:</strong> translates assembly language (mnemonics such as LDA, ADD) one-to-one into machine code — low level, processor-specific.</li></ul><p>The comparison to reproduce: <em>'Explain the difference between a compiler and an interpreter.'</em> Model phrasing: a compiler translates the entire source program into machine code before execution, producing an executable that runs quickly and independently of the compiler, and reporting syntax errors after a full pass; an interpreter translates and executes statements one at a time at run time, so execution is slower but errors are reported immediately and no build step is needed.</p><p><strong>Bytecode and virtual machines</strong> — the A* extension: languages such as Java compile source to <em>bytecode</em>, an intermediate representation executed by the Java Virtual Machine (a bytecode interpreter/JIT compiler). The benefit: <em>platform independence</em> — 'write once, run anywhere': one compiled artefact runs on any machine with a JVM, because the JVM adapts the final translation to each processor. The cost: an extra execution layer, so slower than fully native compilation (partly recovered by JIT). Exam pattern: <em>'Explain why Java programs can run on many different processors.'</em> Answer: source is compiled to bytecode, an intermediate form not tied to any processor; the JVM on each platform translates bytecode to that processor's machine code at run time, so the same bytecode runs wherever a JVM exists.</p><p>Also be ready to link translators to the FDE cycle: whatever the translator, the processor ultimately executes machine code fetched instruction by instruction — assembly language is the human-readable form of exactly those instructions (opcode + operand), one mnemonic per machine instruction for the target architecture.</p>
+</section>
+<section class="section">
+<h2>Testing: levels, types and test data</h2>
+<p><strong>Testing levels</strong> (OCR 1.2.4, AQA 4.9) — learn the ladder and what each catches:</p><ul><li><strong>Unit testing:</strong> each subroutine tested in isolation with known inputs and expected outputs — catches logic errors early, where they are cheapest to fix.</li><li><strong>Integration testing:</strong> modules tested together — catches interface errors: mismatched parameters, wrong data formats between modules, assumptions one module makes about another.</li><li><strong>Alpha testing:</strong> in-house testing by the development team on the complete system.</li><li><strong>Beta testing:</strong> released to real users outside the team — catches usage patterns and environment differences in-house testing cannot reproduce.</li><li><strong>Acceptance testing:</strong> the customer verifies the system meets the agreed requirements before sign-off.</li></ul><p>The exam pattern: <em>'Explain why unit testing alone is not sufficient.'</em> Answer: units can each pass while the system fails — interface errors between them (mismatched parameters, incompatible data formats, misread return values) are only found when modules are tested together, which is integration testing's purpose; and only beta/acceptance testing exposes real-user conditions.</p><p><strong>Test types:</strong> <em>black box</em> testing supplies inputs and checks outputs without seeing the code — testing the specified behaviour; <em>white box</em> (structural) testing designs tests from the code itself, aiming to exercise every branch and path (each if-side, each loop exit). The comparison: white box can prove all paths execute but only tests what the code does (bugs of omission escape); black box tests the requirement but may miss internal branches. <strong>Test data</strong> — three categories, the guaranteed exam question:</p><ul><li><strong>Normal:</strong> valid, typical values — a mark of 65 in 0–100.</li><li><strong>Boundary:</strong> the edges of validity — 0, 1, 99, 100 for the range 0–100 (and just outside: −1, 101, catching off-by-one errors).</li><li><strong>Erroneous:</strong> invalid input that must be rejected — 'abc', 150, −5; the program must reject gracefully, not crash.</li></ul><p>Exam pattern: <em>'A program validates an age between 13 and 19 inclusive. State the test data you would use and the expected outcome for each.'</em> Answer: normal — 16 (accepted); boundary — 13, 19 (accepted), 12, 20 (rejected — just outside catches off-by-one comparison errors); erroneous — 'abc', negative numbers (rejected with an error message). The boundary-just-outside values are what earn the top marks, because they detect the classic <code><</code> vs <code><=</code> error.</p><p><strong>Test-driven development (TDD)</strong> — write the test first, watch it fail, write the minimum code to pass, refactor. The benefit to quote: tests encode the requirements before implementation, so the code is verified against the spec continuously and regressions are caught the moment they appear; the cost: more up-front effort, and tests can encode a wrong understanding of the spec as faithfully as the code would.</p>
+</section>
+<section class="section">
+<h2>Legal and ethical issues</h2>
+<p>Four UK laws cover the examined ground (OCR 1.5, WJEC 1.10) — learn each with its scope and a scenario:</p><ul><li><strong>Data Protection Act 2018 / UK GDPR:</strong> governs personal data — data relating to identifiable living individuals. Principles: data must be processed lawfully, fairly and transparently; collected for specified purposes; kept accurate and up to date; kept no longer than necessary; kept secure; and transferred only with adequate protection. Individuals' rights: access their data, correction, erasure. Scenario: a company storing customer records must secure them and delete them when no longer needed; a breach must be reported.</li><li><strong>Computer Misuse Act 1990:</strong> three offences: unauthorised access (accessing someone else's account/system — even without damage); unauthorised access with intent to commit further crime; unauthorised modification (viruses, ransomware, altering data). Scenario: guessing a friend's password is the first offence; deploying ransomware is the third.</li><li><strong>Copyright, Designs and Patents Act 1988:</strong> protects creative works including software — copying or distributing software without a licence is illegal; proprietary licences restrict use/copying, open-source licences (GPL, MIT) grant it under conditions.</li><li><strong>Regulation of Investigatory Powers Act 2000 (RIPA):</strong> governs surveillance and interception of communications by public bodies — when and how communications data may be accessed and warrants obtained.</li></ul><p>Exam pattern: <em>'State the legislation that covers [scenario] and explain its relevance.'</em> Answer structure: name the Act precisely (with year), state its scope in one line, apply it: e.g. an employee accessing customer records without authorisation — Computer Misuse Act 1990, unauthorised access offence; if they then copy the records, Data Protection Act 2018 governs how that personal data may be processed.</p><p><strong>Ethical issues beyond the law</strong> — the evaluation questions ('discuss the ethical issues...') reward balance. The standard axes: <em>privacy</em> (collecting more personal data than necessary; tracking; surveillance vs security benefits), <em>employment</em> (automation displacing roles while creating others), <em>bias and fairness</em> (machine-learning systems trained on biased data making discriminatory decisions), <em>digital divide</em> (unequal access to technology), <em>environmental</em> (energy use of data centres and crypto-mining), and <em>professional behaviour</em> (ACM/BCS codes of conduct: competence, honesty, public interest). The A* structure: give both sides (benefit and harm), then a reasoned judgement: e.g. a facial-recognition system in schools — benefit: security and safeguarding; harms: privacy of minors, consent issues, biased accuracy across demographics; judgement: the intrusion must be proportionate to the benefit, with consent and independent oversight.</p><p><strong>Non-functional requirements</strong> (AQA 4.10) tie the section together: the qualities beyond function the system must meet — performance (response times), usability, security, reliability, capacity, maintainability. The exam point: functional requirements say what the system does; non-functional say how well it must do it, and they are measurable — 'respond within 2 seconds' is testable, 'must be fast' is not. Ethical and legal compliance (DPA security principle, accessibility) are themselves non-functional requirements a design must state explicitly to be evaluated.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A charity is commissioning a database-driven membership system. Requirements are expected to change frequently as the charity grows, and the trustees want to see working software early.
+(a) Explain why an agile SDLC is more suitable than a waterfall model for this project. [6 marks]
+(b) State one weakness of the agile approach and explain how the charity could mitigate it. [2 marks]</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Agile develops the system in short iterative sprints, each delivering working software reviewed by the customer (1). This matches the scenario: requirements are expected to change frequently, and agile re-prioritises requirements each sprint so change is embraced rather than treated as a costly deviation (1). The trustees want early visibility: each sprint ends with a working increment, so they see progress within weeks rather than at a single end-of-project delivery (1). By contrast, waterfall freezes requirements in analysis and completes each stage fully before the next (1), so frequent change would force expensive rework and the charity would not see working software until the end (1). Conclusion: agile&#x27;s iteration aligns with both the changing requirements and the desire for early, reviewable deliveries (1).
+(b) Agile&#x27;s documentation can be thinner and final cost/timeline less predictable (1). Mitigation: agree a fixed sprint budget with review gates each sprint, and maintain minimal living documentation (e.g. up-to-date requirements backlog) so knowledge is not lost between iterations (1).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Explain the difference between a compiler and an interpreter. [4 marks]</summary><div class="answer"><strong>Answer:</strong> A compiler translates the entire source program into machine code before execution (1), producing an executable that runs fast, translated once, and reporting syntax errors after a full compile pass (1). An interpreter translates and executes statements one at a time at run time (1), so execution is slower and the interpreter must be present to run the program, but errors are reported immediately as each line is reached — useful for debugging and development (1).</div></details>
+<details><summary>A program validates a mark between 0 and 100 inclusive. State the normal, boundary and erroneous test data you would use, with the expected outcome for each. [6 marks]</summary><div class="answer"><strong>Answer:</strong> Normal: 65 — valid and typical, accepted (2 marks: normal data + outcome). Boundary: 0 and 100 — the edges of validity, accepted; also −1 and 101 — just outside, rejected; these catch off-by-one errors such as using &lt; instead of &lt;= (2 marks: boundary values including just-outside + outcomes). Erroneous: &#x27;abc&#x27; or 150 — invalid input that must be rejected gracefully with an error message, not crash (2 marks: erroneous data + rejection behaviour).</div></details>
+<details><summary>Explain what is meant by polymorphism in object-oriented programming and state one benefit. [4 marks]</summary><div class="answer"><strong>Answer:</strong> Polymorphism is when the same method call behaves differently depending on the actual class of the object — each subclass overrides the superclass&#x27;s method with its own implementation (2 marks: overriding + dispatch on actual class). Benefit: code written against the superclass works for every subclass without conditional checks, so new subclasses can be added without modifying the calling code (1), improving extensibility and reducing duplicated selection logic (1).</div></details>
+<details><summary>State the three offences under the Computer Misuse Act 1990 and give an example of each. [3 marks]</summary><div class="answer"><strong>Answer:</strong> Unauthorised access — e.g. accessing another person&#x27;s account or system without permission (1). Unauthorised access with intent to commit a further offence — e.g. hacking into a system in order to steal banking details (1). Unauthorised modification — e.g. deploying a virus or ransomware that alters or destroys data (1).</div></details>
+<details><summary>Explain why unit testing alone is not sufficient to verify a complete system. [3 marks]</summary><div class="answer"><strong>Answer:</strong> Unit tests check each subroutine in isolation, so each can pass while the assembled system fails (1). Interface errors between modules — mismatched parameters, incompatible data formats, wrong assumptions about return values — only appear when modules are tested together (1). Integration testing (and later alpha/beta testing) is needed to expose those interaction faults and real-usage conditions (1).</div></details>
+<details><summary>A company stores customer records including names, addresses and purchase history. Name the legislation governing this data and explain two of its principles the company must follow. [4 marks]</summary><div class="answer"><strong>Answer:</strong> Data Protection Act 2018 / UK GDPR (1). Principle 1: personal data must be processed lawfully, fairly and transparently and collected for specified purposes — the company must have a lawful basis and tell customers what is collected and why (1). Principle 2: data must be kept accurate, secure and no longer than necessary — records must be corrected on request, protected against breach, and deleted when no longer needed (1). One further point: individuals have rights of access, correction and erasure the company must honour (1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A-Level+Computer+Science+SDLC+waterfall+agile+OOP+polymorphism+testing" target="_blank" rel="noopener">YouTube: A-Level Computer Science SDLC waterfall agile OOP polymorphism testing</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Computer Science (7517) past papers and mark schemes</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR A-Level Computer Science (H446) — qualifications and assessment materials</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">Physics &amp; Maths Tutor — Computer Science revision hub</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/computer-science-revision/" target="_blank" rel="noopener">Physics &amp; Maths Tutor — Computer Science revision (notes and topic questions)</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA — find past papers and mark schemes (7517)</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR — A-Level Computer Science H446 qualifications page</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/computer-science/networks-and-databases.html">&larr; Networks and Databases</a><span>&nbsp;</span></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

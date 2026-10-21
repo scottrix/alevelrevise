@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Electricity and Circuits - A-Level Physics Revise Notes</title>
-<meta name="description" content="A-Level Physics revision: Electricity and Circuits. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
-<meta name="keywords" content="A-Level Physics, Electricity and Circuits, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<title>Electricity and Circuits - A-Level Physics Revision Notes</title>
+<meta name="description" content="A-Level Physics electricity revision: current, pd, resistance, drift velocity, EMF and internal resistance, Kirchhoff&#x27;s laws, potential dividers, resistivity and practical circuits with derivations - AQA 7408 3.5, OCR A H556 4.1-4.2, Edexcel 9PH0 Topic 3.">
+<meta name="keywords" content="A-Level Physics, Electricity and Circuits, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
 <meta property="og:title" content="Electricity and Circuits - A-Level Physics">
-<meta property="og:description" content="A-Level Physics revision: Electricity and Circuits. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta property="og:description" content="A-Level Physics electricity revision: current, pd, resistance, drift velocity, EMF and internal resistance, Kirchhoff&#x27;s laws, potential dividers, resistivity and practical circuits with derivations - AQA 7408 3.5, OCR A H556 4.1-4.2, Edexcel 9PH0 Topic 3.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/physics/electricity-and-circuits.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/physics/electricity-and-circuits.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/physics/electricity-and-circuits.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/physics/electricity-and-circuits.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Electricity and Circuits">
-<meta name="twitter:description" content="Electricity and Circuits -- A-Level Physics revision notes.">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why does a filament lamp's resistance increase with current, but a thermistor's resistance decrease?", "acceptedAnswer": {"@type": "Answer", "text": "In a metal the number of charge carriers is fixed; higher temperature makes lattice ions vibrate more, so electrons collide more often - resistance rises. In a semiconductor, higher temperature (or light for an LDR) releases many more charge carriers, and this increase in n outweighs the extra lattice vibration - resistance falls. Same heating, different dominant effect because of how charge carriers are supplied."}}{"@type": "Question", "name": "Why is the terminal pd of a battery less than its EMF, and when are they equal?", "acceptedAnswer": {"@type": "Answer", "text": "The EMF is the energy per coulomb supplied by the cell; some of it (Ir, the lost volts) is dissipated inside the cell driving current through its internal resistance. So V = \u03b5 - Ir whenever current flows - and the higher the current (the lower the load resistance), the bigger the gap. With no current flowing (open circuit, or balanced potentiometer), no volts are lost and the terminal pd equals the EMF."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -25,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../physics.html">Physics</a>
-<a href="../../../alevellessons/topics/physics/electricity-and-circuits.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/physics/mechanics-and-motion.html">Mechanics and Motion</a></li><li><a href="../../topics/physics/electricity-and-circuits.html" class="active">Electricity and Circuits</a></li><li><a href="../../topics/physics/waves.html">Waves</a></li><li><a href="../../topics/physics/particles-and-quantum-physics.html">Particles and Quantum Physics</a></li><li><a href="../../topics/physics/thermal-physics.html">Thermal Physics</a></li><li><a href="../../topics/physics/gravitational-electric-and-magnetic-fields.html">Gravitational, Electric and Magnetic Fields</a></li><li><a href="../../topics/physics/nuclear-physics-radioactivity-and-thermal-physics.html">Nuclear Physics, Radioactivity and Thermal Physics</a></li><li><a href="../../topics/physics/particle-physics-and-quantum-phenomena.html">Particle Physics and Quantum Phenomena</a></li><li><a href="../../topics/physics/waves-optics-and-superposition.html">Waves, Optics and Superposition</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=A-Level+Physics+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Physics Revision Guides</div>
-<div class="affiliate-card-desc">CGP, Oxford, and more</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=data+logger+physics+education&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Data Loggers</div>
-<div class="affiliate-card-desc">For required practicals</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=digital+multimeter+student&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Multimeters</div>
-<div class="affiliate-card-desc">Essential for electricity practicals</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/physics/mechanics.html">Mechanics: Motion, Forces and Energy</a></li><li><a href="../../topics/physics/materials.html">Materials</a></li><li><a href="../../topics/physics/waves.html">Waves and Optics</a></li><li><a href="../../topics/physics/electricity-and-circuits.html" class="active">Electricity and Circuits</a></li><li><a href="../../topics/physics/particles-and-quantum.html">Particles and Quantum Phenomena</a></li><li><a href="../../topics/physics/fields-gravitation.html">Gravitation and Fields</a></li><li><a href="../../topics/physics/fields-electric.html">Electric Fields and Capacitance</a></li><li><a href="../../topics/physics/fields-magnetic.html">Magnetic Fields and Electromagnetic Induction</a></li><li><a href="../../topics/physics/thermal-uncertainty.html">Thermal Physics and Uncertainty</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -57,7 +45,7 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -69,122 +57,131 @@
 <h1>Electricity and Circuits</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">A-Level Physics revision: Electricity and Circuits. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.</p>
+<p class="topic-desc">A-Level Physics electricity revision: current, pd, resistance, drift velocity, EMF and internal resistance, Kirchhoff&#x27;s laws, potential dividers, resistivity and practical circuits with derivations - AQA 7408 3.5, OCR A H556 4.1-4.2, Edexcel 9PH0 Topic 3.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
-<section class="section">
-<h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Ohm: V = IR (ohmic) vs non-ohmic (filament, diode); I-V curves</div><div class="key-point"><strong>Key Fact:</strong> Series: I same, V splits, R_total = ΣR; Parallel: V same, I splits, 1/R_total = Σ1/R</div><div class="key-point"><strong>Key Fact:</strong> Power: P = IV = I^2R = V^2/R; Energy: E = Pt = IVt</div><div class="key-point"><strong>Key Fact:</strong> Kirchhoff 1st (junction): ΣI_in = ΣI_out (charge conservation); 2nd (loop): ΣV = 0 (energy conservation)</div><div class="key-point"><strong>Key Fact:</strong> EMF ε = I(R + r); Terminal PD V = ε - Ir; r = internal resistance</div><div class="key-point"><strong>Key Fact:</strong> Potential divider: V_out = V_in x R₂/(R₁+R₂); used for sensors</div><div class="key-point"><strong>Key Fact:</strong> AC: I = I₀sin(ωt), V = V₀sin(ωt+φ); V_rms = V₀/sqrt2, I_rms = I₀/sqrt2</div><div class="key-point"><strong>Key Fact:</strong> Capacitive reactance Xc = 1/(ωC); Inductive Xl = ωL; Impedance Z = sqrt(R^2+(Xl-Xc)^2)</div><div class="key-point"><strong>Key Fact:</strong> Resonance: Xl = Xc -&gt; Z_min = R, ω₀ = 1/sqrt(LC)</div>
-</section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Apply Ohm&#x27;s law and understand I-V characteristics</li><li>Analyse series and parallel circuits with resistors</li><li>Calculate power and energy in DC circuits</li><li>Use Kirchhoff&#x27;s laws for complex circuits</li><li>Understand internal resistance and EMF of cells</li><li>Analyse potential divider circuits</li><li>Understand AC circuits: RMS values, phase, reactance, impedance</li><li>Use oscilloscopes to measure voltage, frequency, phase</li></ul>
+<ul>
+<li>Define current, potential difference and resistance; use I = nqvA to explain conduction (AO1/AO2) - AQA 7408 3.5.1.1, OCR A H556 4.1</li>
+<li>Interpret I-V characteristics of ohmic and non-ohmic conductors (filament lamp, diode) and explain temperature effects on resistance (AO2) - AQA 7408 3.5.1.2</li>
+<li>Calculate resistivity and determine it experimentally (AO2/AO3) - AQA 7408 3.5.1.3, required practical 5, Edexcel CP2</li>
+<li>Apply Kirchhoff&#x27;s laws and series/parallel resistor rules with conservation derivations (AO2) - AQA 7408 3.5.1.4</li>
+<li>Determine EMF and internal resistance from V = ε - Ir and evaluate the experiment (AO2/AO3) - AQA 7408 3.5.1.6, required practical 6, Edexcel CP3, OCR PAG7</li>
+<li>Design and analyse potential divider circuits with LDRs and thermistors (AO2) - AQA 7408 3.5.1.5</li>
+</ul>
 </section>
-
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Current (I):</strong> Rate of flow of charge, I = ΔQ/Δt, in amperes (1 A = 1 C/s); conventional current flows from + to - (opposite to electrons).</div>
+<div class="key-point"><strong>Potential difference (V):</strong> Work done per unit charge moving between two points, V = W/Q, in volts (1 V = 1 J/C).</div>
+<div class="key-point"><strong>Resistance (R):</strong> R = V/I, in ohms (Ω); a measure of opposition to current flow.</div>
+<div class="key-point"><strong>Ohm&#x27;s law:</strong> For an ohmic conductor at constant temperature, current is proportional to pd: V = IR; a straight I-V line through the origin.</div>
+<div class="key-point"><strong>Resistivity (ρ):</strong> A material property: R = ρL/A, in Ω m; resistance of a sample increases with length and decreases with cross-sectional area.</div>
+<div class="key-point"><strong>EMF (ε):</strong> The electrical energy given to each coulomb by a source: ε = W/Q; for a cell with internal resistance r, ε = I(R + r).</div>
+<div class="key-point"><strong>Internal resistance (r):</strong> The resistance inside a source, causing terminal pd V = ε - Ir to fall as load current rises.</div>
+<div class="key-point"><strong>Kirchhoff&#x27;s first law:</strong> At a junction, ΣI_in = ΣI_out - conservation of charge.</div>
+<div class="key-point"><strong>Kirchhoff&#x27;s second law:</strong> Around any closed loop, Σε = ΣIR - conservation of energy.</div>
+<div class="key-point"><strong>Potential divider:</strong> Two resistors in series sharing a supply: V_out = V_in × R_2/(R_1 + R_2) across R_2; the basis of sensor circuits.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">I = ΔQ/Δt; V = W/Q; R = V/I; drift velocity I = nqvA (n = charge carriers per m^3).</div>
+<div class="key-point">Ohm: V = IR (ohmic, straight I-V line) vs non-ohmic (filament curves down, diode conducts one way above ~0.7 V).</div>
+<div class="key-point">Series: I same, V shares, R_total = ΣR. Parallel: V same, I shares, 1/R_total = Σ1/R (always less than the smallest R).</div>
+<div class="key-point">Power: P = IV = I^2R = V^2/R; energy E = Pt = IVt.</div>
+<div class="key-point">Kirchhoff: junction rule (charge conservation); loop rule (energy conservation).</div>
+<div class="key-point">EMF ε = I(R + r); terminal PD V = ε - Ir; maximum power transfer when R = r.</div>
+<div class="key-point">Potential divider: V_out = V_in × R_2/(R_1 + R_2); LDR (resistance falls with light) and thermistor (falls with temperature) for sensor circuits.</div>
+</section>
+<section class="section">
+<h2>Current, pd, resistance and drift velocity</h2>
+<p><strong>Current</strong> is the rate of flow of charge: I = ΔQ/Δt (AQA 7408 3.5.1.1; OCR A H556 4.1; Edexcel 9PH0 Topic 3), measured in amperes. <strong>Potential difference</strong> is work done per unit charge, V = W/Q, in volts - 1 V means each coulomb gains 1 J of energy passing through. <strong>Resistance</strong> R = V/I in ohms; <strong>Ohm's law</strong> states that for an ohmic conductor at constant temperature, I ∝ V (straight I-V line through the origin) - the constant temperature condition is part of the law, so quote it.</p><p><strong>Drift velocity derivation (I = nqvA):</strong> in a wire of cross-sectional area A with n charge carriers per cubic metre, each of charge q moving at drift velocity v, in time Δt all carriers within a length vΔt pass a point. The volume is AvΔt, containing nAvΔt carriers with total charge Q = nqAvΔt. Current I = Q/Δt = <strong>nqvA</strong>. Typical drift velocities are ~mm/s (slow!), because n is enormous (~10^28-10^29 per m^3 in metals) - lights turn on instantly because the electric field propagates near light speed, not the electrons.</p><p><strong>I-V characteristics:</strong> ohmic conductor - straight line, constant R; <strong>filament lamp</strong> - curve flattening at higher V, because current heats the filament, lattice ions vibrate more, electrons collide more often and R increases; <strong>diode</strong> - zero current in reverse and below the forward threshold (~0.7 V for silicon), then steep conduction. <strong>Resistivity</strong>: R = ρL/A, in Ω m - resistance rises with length, falls with area; ρ is a material property. Semiconductors (thermistors, LDRs) behave oppositely to metals: resistance falls as temperature rises because more charge carriers are released, outweighing increased lattice vibration.</p><details><summary>Worked example: drift velocity</summary><p>A copper wire carries 5.0 A with n = 8.5 × 10^28 carriers per m^3 and area 1.0 mm^2. Find the drift velocity.</p><p><strong>Line 1:</strong> I = nqvA, so v = I/(nqA) (M1: rearrangement).</p><p><strong>Line 2:</strong> v = 5.0/(8.5 × 10^28 × 1.60 × 10^-19 × 1.0 × 10^-6) (A1: unit conversion of area).</p><p><strong>Line 3:</strong> v = 5.0/1.36 × 10^4 = 3.7 × 10^-4 m/s ≈ 0.4 mm/s (A1) - millimetres per second, the standard contrast point.</p></details>
+</section>
+<section class="section">
+<h2>Series, parallel and Kirchhoff&#x27;s laws</h2>
+<p><strong>Kirchhoff's first law</strong> (junction): the total current into a junction equals the total current out - <strong>conservation of charge</strong> (charge cannot pile up at a point) (AQA 7408 3.5.1.4). <strong>Second law</strong> (loop): around any closed loop the sum of EMFs equals the sum of IR products - <strong>conservation of energy</strong> (a coulomb gains energy in the source and loses exactly that amount around the loop).</p><p><strong>Series rule derivation:</strong> the same current I flows through each resistor (junction rule: no charge leaves the path). Total pd = V_1 + V_2 + ... = IR_1 + IR_2 + ... = I(R_1 + R_2 + ...), so <strong>R_total = ΣR</strong> - resistances add, and pds share in proportion to resistance.</p><p><strong>Parallel rule derivation:</strong> each branch has the same pd V (both ends of each branch connect to the same two nodes). Currents add: I_total = V/R_1 + V/R_2 + ... = V(1/R_1 + 1/R_2 + ...), so <strong>1/R_total = Σ1/R</strong> - and the total is always <em>less</em> than the smallest individual resistance (a standard check). Two equal resistors in parallel halve the resistance; adding branches always lowers total resistance and raises total current.</p><details><summary>Worked example: mixed circuit analysis</summary><p>A 12 V battery of negligible internal resistance drives 4.0 Ω in series with a parallel pair of 6.0 Ω and 3.0 Ω.</p><p><strong>Line 1:</strong> Parallel pair: 1/R_p = 1/6 + 1/3 = 0.5, R_p = 2.0 Ω (M1 A1).</p><p><strong>Line 2:</strong> Total: R = 4.0 + 2.0 = 6.0 Ω (A1).</p><p><strong>Line 3:</strong> Total current: I = 12/6.0 = 2.0 A (A1).</p><p><strong>Line 4:</strong> pd across parallel pair: V_p = 2.0 × 2.0 = 4.0 V (M1).</p><p><strong>Line 5:</strong> Branch currents: 4.0/6.0 = 0.67 A and 4.0/3.0 = 1.33 A - sum 2.0 A, checking the junction rule (A1: Kirchhoff check).</p></details>
+</section>
+<section class="section">
+<h2>EMF, internal resistance and practical measurement</h2>
+<p>A real cell has <strong>internal resistance r</strong>: the EMF ε drives current through both the external circuit (R) and the cell itself (r), so the energy per coulomb divides: <strong>ε = I(R + r)</strong> (AQA 7408 3.5.1.6; OCR PAG7; Edexcel CP3). The <strong>terminal pd</strong> - what the circuit actually sees - is V = IR = ε - Ir: it falls below ε whenever current flows, by the 'lost volts' Ir. High current (low R) → large lost volts → dim lamps and flattened batteries; with no current (open circuit) the terminal pd equals ε.</p><p><strong>Maximum power transfer:</strong> P = I^2R with I = ε/(R + r); differentiating shows power peaks when <strong>R = r</strong> - the matched-load condition (efficiency is then only 50%, half the energy lost inside the source).</p><p><strong>Measuring ε and r (required practical):</strong> vary the load resistance (or a variable resistor) and record V and I with a voltmeter (high resistance, across the cell) and ammeter (low resistance, in series). Rearrange V = ε - Ir as V = -rI + ε: plot V against I - a straight line with <strong>gradient -r</strong> and <strong>y-intercept ε</strong>. Using the gradient and intercept averages random error across all data. Errors: the voltmeter draws some current (high-resistance voltmeter minimises this), contact resistance, heating of the cell changing r during the experiment (take readings quickly, switch off between readings), and zero errors on meters (check before starting).</p><details><summary>Worked example: V-I analysis</summary><p>Varying the load gives: I = 0.10 A, V = 1.44 V; I = 0.50 A, V = 1.20 V.</p><p><strong>Line 1:</strong> V = ε - Ir (M1: equation quoted).</p><p><strong>Line 2:</strong> Two points determine the line: gradient = (1.20 - 1.44)/(0.50 - 0.10) = -0.60, so r = 0.60 Ω (M1 A1).</p><p><strong>Line 3:</strong> ε = V + Ir = 1.44 + 0.10 × 0.60 = 1.50 V (A1).</p><p><strong>Line 4:</strong> Check with the second point: 1.20 + 0.50 × 0.60 = 1.50 V - consistent (A1: verification).</p></details>
+</section>
+<section class="section">
+<h2>Potential dividers and sensor circuits</h2>
+<p>A <strong>potential divider</strong> is two resistors in series sharing a supply (AQA 7408 3.5.1.5): the same current flows through both, so V_out (across R_2) = IR_2 = V_in × <strong>R_2/(R_1 + R_2)</strong> - the output is the input scaled by the resistance fraction. Derivation: I = V_in/(R_1 + R_2) from the loop rule; multiply by R_2.</p><p><strong>Sensor circuits</strong> replace one resistor with a component whose resistance depends on the environment: an <strong>LDR</strong> (resistance falls as light intensity rises) or a <strong>thermistor</strong> (resistance falls as temperature rises). Putting the sensor as R_2 makes V_out rise when the sensed quantity rises (light/temperature up → R_2 down → wait: R_2 down means V_out <em>falls</em> - the share follows the resistance). Getting the direction right is the examinable logic: <strong>V_out across a component rises when that component's resistance rises relative to the other</strong>. So for a light-activated circuit that switches on when dark, put the LDR as R_1 (dark → LDR resistance rises → V_out across R_2 falls... trace it carefully for the required behaviour).</p><p>The potentiometer (a continuously variable divider) can compare EMFs: sliding the contact until the galvanometer reads zero gives a balance point where the pd per unit length equals the unknown EMF - no current drawn, so no lost volts, hence more accurate than a voltmeter.</p><details><summary>Worked example: divider with load</summary><p>V_in = 12 V, R_1 = 2.0 kΩ, R_2 = 4.0 kΩ; a load of 4.0 kΩ is connected across R_2.</p><p><strong>Line 1:</strong> Unloaded: V_out = 12 × 4/6 = 8.0 V (M1 A1).</p><p><strong>Line 2:</strong> Loaded: R_2 ∥ load = (4.0 × 4.0)/(4.0 + 4.0) = 2.0 kΩ (M1: parallel combination).</p><p><strong>Line 3:</strong> V_out = 12 × 2.0/(2.0 + 2.0) = 6.0 V (A1).</p><p><strong>Line 4:</strong> Loading pulls the output down - high-resistance loads (or low-resistance divider legs) minimise the loading effect (A1: conclusion).</p></details>
+</section>
+<section class="section">
+<h2>Power, energy and required practicals</h2>
+<p><strong>Power</strong>: P = IV, and with V = IR the alternatives P = I^2R (best when current is common, e.g. series) and P = V^2/R (best when pd is common, e.g. parallel) follow by substitution (AQA 7408 3.5.1.1). <strong>Energy</strong>: E = Pt = IVt, in joules; domestic units are kWh (1 kWh = 3.6 × 10^6 J). <strong>Fuses and power ratings:</strong> a fuse melts when I^2R_heat exceeds its rating - choose a fuse just above the appliance's normal current: a 230 V, 900 W kettle draws I = P/V ≈ 3.9 A, so a 5 A fuse. Power dissipated in transmission lines: P_loss = I^2R_lines motivates high-voltage, low-current transmission.</p><p><strong>Required practicals in this topic:</strong> (1) <strong>Resistivity of a wire</strong> (AQA RP5, Edexcel CP2, OCR PAG6-style): measure diameter at many points with a micrometer (A ∝ d^2 doubles its percentage uncertainty), length with a rule, resistance with an ammeter-voltmeter or multimeter; plot R against L - gradient = ρ/A, so ρ = gradient × A. Length and diameter are the dominant uncertainties; check the wire stays near room temperature (heating changes ρ). (2) <strong>EMF and internal resistance</strong> (AQA RP6, Edexcel CP3, OCR PAG7): V against I analysis as in section 3. (3) I-V characteristics: vary the supply, record I and V for a lamp, diode and fixed resistor; plot I-V curves - reverse the diode to show one-way conduction; keep the lamp's temperature from changing too fast by taking readings promptly.</p><details><summary>Worked example: resistivity with uncertainty</summary><p>A nichrome wire: L = 1.000 ± 0.001 m, d = 0.31 ± 0.01 mm, R measured 5.4 ± 0.1 Ω.</p><p><strong>Line 1:</strong> A = πd^2/4 = π × (0.31 × 10^-3)^2/4 = 7.55 × 10^-8 m^2 (M1 A1).</p><p><strong>Line 2:</strong> ρ = RA = 5.4 × 7.55 × 10^-8 = 4.1 × 10^-7 Ω m (A1) - the accepted value for nichrome, ≈1.1 × 10^-6 Ω m, is a little higher; check against data books.</p><p><strong>Line 3:</strong> Percentage uncertainties: d: 0.01/0.31 = 3.2%, doubled (power rule) = 6.5%; L: 0.1%; R: 0.1/5.4 = 1.9% (M1).</p><p><strong>Line 4:</strong> Total ≈ 8.5%, so ρ = (4.1 ± 0.3) × 10^-7 Ω m - diameter dominates, measure at more points (A1: evaluation).</p></details>
+</section>
 <section class="section">
 <h2>💡 Worked Example</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> A 12 V battery with internal resistance 0.5 Ω is connected to a 5.5 Ω resistor. Find current, terminal PD, power delivered to load, and power wasted in battery</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Answer:</strong></p>
-<p>Total R = 6 Ω. I = 12/6 = 2 A. Terminal V = IR_load = 2x5.5 = 11 V. P_load = I^2R = 4x5.5 = 22 W. P_battery = I^2r = 4x0.5 = 2 W. Check: P_total = εI = 24 W = 22+2</p>
-</div>
-</div>
+<div class="question"><strong>Exam-style:</strong> A cell of EMF 1.5 V and internal resistance 0.60 Ω is connected to a resistor of 4.4 Ω. Calculate the current, the terminal pd, and the power wasted inside the cell. (AQA 7408-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Whole circuit: ε = I(R + r) (M1: Kirchhoff&#x27;s second law/EMF equation applied), so I = 1.5/(4.4 + 0.60) = 1.5/5.0 = 0.30 A (M1 A1: total resistance found then current). Terminal pd: V = ε - Ir = 1.5 - 0.30 × 0.60 = 1.32 V (M1 A1: lost volts subtracted), equivalently V = IR = 0.30 × 4.4 = 1.32 V - check agrees. Power wasted inside the cell: P = I^2r = 0.30^2 × 0.60 = 0.054 W (M1 A1: power in the internal resistance only).</div>
 </section>
 <section class="section">
-<h2>❓ Practice Questions</h2><p class="q-note">Model answers are being added progressively - questions marked &#10007; don't have one yet. Cross-check with your teacher or the official mark scheme.</p>
-<div class="practice-questions">
-<div class="question">
-<p><strong>Questions:</strong></p>
-<ul><li>Three resistors 2Ω, 3Ω, 6Ω in parallel. Find equivalent resistance<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>In a potential divider, V_in=12V, R₁=2kΩ, R₂=4kΩ. Find V_out<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>An AC supply 230V RMS, 50Hz. Find peak voltage and period<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>A 10 μF capacitor connected to 240V RMS, 50Hz. Find reactance and current<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>At resonance, a series RLC circuit has R=10Ω, L=0.1H. Find C and Q-factor<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
-</div>
-<div class="question">
-  <p><strong>Q1:</strong> Three resistors of 2.0 Ω, 3.0 Ω and 6.0 Ω are connected in parallel. Calculate the total resistance of the combination.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> For parallel resistors 1/R_total = 1/R₁ + 1/R₂ + 1/R₃ = 1/2.0 + 1/3.0 + 1/6.0 = 0.5 + 0.333 + 0.167 = 1.0 => R_total = 1.0 Ω. (Note: parallel resistance is always smaller than the smallest resistor.)</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> A potential divider has V_in = 12 V, R₁ = 2.0 kΩ and R₂ = 4.0 kΩ. Calculate the output voltage V_out taken across R₂.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> V_out = V_in × R₂/(R₁ + R₂) = 12 × 4.0kΩ / (2.0kΩ + 4.0kΩ) = 12 × 4/6 = 8.0 V.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> An AC supply is quoted as 230 V rms at 50 Hz. Calculate the peak voltage and the period of the supply.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> V₀ = √2 × V_rms = 1.414 × 230 = 325 V. Period T = 1/f = 1/50 = 0.020 s.</p>
-    </div>
-  </details>
-</div>
-</div>
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Three resistors of 2.0 Ω, 3.0 Ω and 6.0 Ω are connected in parallel. Calculate the total resistance.</summary><div class="answer"><strong>Answer:</strong> 1/R_total = 1/2.0 + 1/3.0 + 1/6.0 = 0.5 + 0.333 + 0.167 = 1.0 (M1 A1), so R_total = 1.0 Ω (A1). Note: always smaller than the smallest resistor (2.0 Ω) - a standard check.</div></details>
+<details><summary>A potential divider has V_in = 12 V, R_1 = 2.0 kΩ and R_2 = 4.0 kΩ. Calculate V_out across R_2, and V_out if R_2 is an LDR whose resistance falls to 1.0 kΩ in bright light.</summary><div class="answer"><strong>Answer:</strong> V_out = V_in × R_2/(R_1 + R_2) = 12 × 4.0/6.0 = 8.0 V (M1 A1). Bright light: R_2 = 1.0 kΩ, V_out = 12 × 1.0/3.0 = 4.0 V (M1 A1) - output falls as light rises because the LDR&#x27;s resistance share falls.</div></details>
+<details><summary>Varying the load on a cell gives V = 1.44 V at I = 0.10 A and V = 1.20 V at I = 0.50 A. Determine ε and r.</summary><div class="answer"><strong>Answer:</strong> V = ε - Ir; gradient = (1.20 - 1.44)/(0.50 - 0.10) = -0.60, so r = 0.60 Ω (M1 A1). ε = V + Ir = 1.44 + 0.06 = 1.50 V (M1 A1); check with the second point: 1.20 + 0.30 = 1.50 V.</div></details>
+<details><summary>A copper wire (n = 8.5 × 10^28 m^-3, q = 1.6 × 10^-19 C) of area 1.5 mm^2 carries 3.0 A. Calculate the drift velocity.</summary><div class="answer"><strong>Answer:</strong> v = I/(nqA) (M1) = 3.0/(8.5 × 10^28 × 1.6 × 10^-19 × 1.5 × 10^-6) (A1: unit conversion) = 3.0/20.4 = 0.15 mm/s (A1).</div></details>
+<details><summary>A 230 V, 900 W kettle operates from a supply with 0.50 Ω total cable resistance. Calculate the kettle current and the power wasted in the cables.</summary><div class="answer"><strong>Answer:</strong> Current: I = P/V = 900/230 = 3.9 A (M1 A1). Power wasted: P_loss = I^2R = 3.9^2 × 0.50 = 7.6 W (M1 A1) - small because the current is low; this is why kettles are high-power but the cable loss stays modest.</div></details>
+<details><summary>A 12 V battery of negligible internal resistance drives 4.0 Ω in series with 6.0 Ω and 3.0 Ω in parallel. Find the total current and the pd across the parallel pair.</summary><div class="answer"><strong>Answer:</strong> Parallel pair: 1/R_p = 1/6 + 1/3 = 0.5, R_p = 2.0 Ω (M1 A1). Total R = 6.0 Ω, I = 12/6.0 = 2.0 A (M1 A1). V_p = 2.0 × 2.0 = 4.0 V (A1); branch currents 0.67 A + 1.33 A = 2.0 A check the junction rule.</div></details>
 </section>
 <section class="section">
 <h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Electricity+and+Circuits+A-Level" target="_blank" rel="noopener">Electricity and Circuits - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Electricity+and+Circuits+exam+questions" target="_blank" rel="noopener">Electricity and Circuits - Exam Questions</a> -- YouTube Search</li></ul>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+physics+electricity+EMF+internal+resistance+Kirchhoff+laws+potential+divider+drift+velocity+resistivity+required+practical+revision" target="_blank" rel="noopener">YouTube: A level physics electricity EMF internal resistance Kirchhoff laws potential divider drift velocity resistivity required practical revision</a></li></ul>
 </section>
 <section class="section">
 <h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Physics - Electricity and Circuits</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level Physics - Electricity and Circuits</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level Physics - Electricity and Circuits</a> -- OCR</li></ul>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA find past papers and mark schemes - A-Level Physics 7408 electricity papers</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR qualifications - OCR A Level Physics A H556 past papers (Module 4 electrons, waves and photons)</a></li>
+<li data-board="All boards"><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor physics revision - electricity topic questions and past papers by board</a></li>
+</ul>
 </section>
 <section class="section">
 <h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/pure-maths/electricity-and-circuits/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - Electricity and Circuits</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths - Electricity and Circuits</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize/search?q=Electricity+and+Circuits" target="_blank" rel="noopener">BBC Bitesize - Electricity and Circuits</a> -- BBC Bitesize revision resources</li></ul>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor - A-Level Physics electricity revision notes and exam questions by board</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA - find past papers and mark schemes for A-Level Physics 7408</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR - Physics A H556 qualification page with past papers, mark schemes and practical materials</a></li>
+</ul>
 </section>
-
-
 
 <section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/physics/mechanics-and-motion.html">← Mechanics and Motion</a>
-<a href="../../physics.html">← Back to Physics Overview</a>
-<a href="../../topics/physics/waves.html">Waves →</a>
-</nav>
 
-
-
-
+<nav class="topic-nav"><a href="../../topics/physics/waves.html">&larr; Waves and Optics</a><a href="../../topics/physics/particles-and-quantum.html">Particles and Quantum Phenomena &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
@@ -205,13 +202,12 @@ if (localStorage.getItem('alevelrevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -229,27 +225,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
 </body></html>

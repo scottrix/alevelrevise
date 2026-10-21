@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Polar Coordinates - A-Level Further Mathematics Revise Notes</title>
-<meta name="description" content="A-Level Further Mathematics revision: Polar Coordinates. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
-<meta name="keywords" content="A-Level Further Mathematics, Polar Coordinates, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<title>Polar Coordinates - A-Level Further Mathematics Revision Notes</title>
+<meta name="description" content="Polar coordinates for Edexcel 9FM0 Core Pure 2 and OCR MEI: converting between polar and cartesian form, sketching cardioids, limacons and rose curves, and finding enclosed areas with the half r-squared integral - revision with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Further Mathematics, Polar Coordinates, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
 <meta property="og:title" content="Polar Coordinates - A-Level Further Mathematics">
-<meta property="og:description" content="A-Level Further Mathematics revision: Polar Coordinates. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta property="og:description" content="Polar coordinates for Edexcel 9FM0 Core Pure 2 and OCR MEI: converting between polar and cartesian form, sketching cardioids, limacons and rose curves, and finding enclosed areas with the half r-squared integral - revision with worked examples and mark-scheme logic.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/further-mathematics/polar-coordinates.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/further-mathematics/polar-coordinates.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/further-mathematics/polar-coordinates.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/further-mathematics/polar-coordinates.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Polar Coordinates">
-<meta name="twitter:description" content="Polar Coordinates -- A-Level Further Mathematics revision notes.">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which polar coordinate formulas are printed in the Edexcel exam?", "acceptedAnswer": {"@type": "Answer", "text": "The 9FM0 formula booklet gives the area of a sector formula, A = (1/2) integral of r^2 d theta. The polar gradient formula for dy/dx is not printed, so you must derive it quickly from x = r cos theta and y = r sin theta using the chain rule - practise this until it takes under a minute. Choosing correct limits for the integral, and sketching the standard curves, are always unaided skills."}}{"@type": "Question", "name": "How do negative r values affect sketching and area calculations?", "acceptedAnswer": {"@type": "Answer", "text": "In sketching, (-r, theta) is plotted at (r, theta + pi) on the opposite ray - this is how a limacon r = a + b cos theta with a < b traces its inner loop between the two angles where r = 0. In area calculations the r^2 makes negative r harmless, but the limits must match the interval over which the loop or region is traced once. For the classic inner-loop area, integrate between the two pole angles and quote the positive result."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -25,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../further-mathematics.html">Further Mathematics</a>
-<a href="../../../alevellessons/topics/further-mathematics/polar-coordinates.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/further-mathematics/complex-numbers.html">Complex Numbers</a></li><li><a href="../../topics/further-mathematics/matrices.html">Matrices</a></li><li><a href="../../topics/further-mathematics/vectors.html">Vectors</a></li><li><a href="../../topics/further-mathematics/polar-coordinates.html" class="active">Polar Coordinates</a></li><li><a href="../../topics/further-mathematics/hyperbolic-functions.html">Hyperbolic Functions</a></li><li><a href="../../topics/further-mathematics/complex-numbers-and-de-moivres-theorem.html">Complex Numbers and De Moivre&#x27;s Theorem</a></li><li><a href="../../topics/further-mathematics/matrices-and-linear-transformations.html">Matrices and Linear Transformations</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=A-Level+Further+Maths+revision&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Further Maths Guides</div>
-<div class="affiliate-card-desc">Core Pure and option guides</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=graphic+calculator+student&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Graphic Calculators</div>
-<div class="affiliate-card-desc">CAS and graphing calculators</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=A-Level+Maths+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Maths Revision Guides</div>
-<div class="affiliate-card-desc">CGP and other revision guides</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/further-mathematics/complex-numbers.html">Complex Numbers</a></li><li><a href="../../topics/further-mathematics/matrices.html">Matrices and Linear Transformations</a></li><li><a href="../../topics/further-mathematics/vectors.html">Further Vectors</a></li><li><a href="../../topics/further-mathematics/polar-coordinates.html" class="active">Polar Coordinates</a></li><li><a href="../../topics/further-mathematics/hyperbolic-functions.html">Hyperbolic Functions</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -57,7 +45,7 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -69,122 +57,121 @@
 <h1>Polar Coordinates</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">A-Level Further Mathematics revision: Polar Coordinates. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.</p>
+<p class="topic-desc">Polar coordinates for Edexcel 9FM0 Core Pure 2 and OCR MEI: converting between polar and cartesian form, sketching cardioids, limacons and rose curves, and finding enclosed areas with the half r-squared integral - revision with worked examples and mark-scheme logic.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
-<section class="section">
-<h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> x = r cos θ, y = r sin θ; r = sqrt(x^2+y^2), tan θ = y/x (check quadrant)</div><div class="key-point"><strong>Key Fact:</strong> r = a (circle centred at origin), r = 2a cos θ (circle on x-axis), r = 2a sin θ (circle on y-axis)</div><div class="key-point"><strong>Key Fact:</strong> r = a(1 + cos θ) (cardioid), r = a cos(nθ) (n-petal rose if n odd, 2n-petal if n even)</div><div class="key-point"><strong>Key Fact:</strong> r = aθ (Archimedean spiral), r^2 = a^2 cos 2θ (lemniscate)</div><div class="key-point"><strong>Key Fact:</strong> Area = ½∫_{α}^{β} r^2 dθ; Area between curves = ½∫(r₁^2 - r₂^2) dθ</div><div class="key-point"><strong>Key Fact:</strong> Tangents: dy/dθ = sin θ dr/dθ + r cos θ, dx/dθ = cos θ dr/dθ - r sin θ; dy/dx = (dy/dθ)/(dx/dθ)</div><div class="key-point"><strong>Key Fact:</strong> Horizontal tangent: dy/dθ = 0 (r cos θ + sin θ dr/dθ = 0); Vertical: dx/dθ = 0</div>
-</section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Convert between polar (r,θ) and Cartesian (x,y) coordinates</li><li>Sketch standard polar curves: circles, cardioids, roses, spirals, lemniscates</li><li>Find area enclosed by polar curves</li><li>Find tangents to polar curves (horizontal/vertical)</li><li>Understand symmetry in polar graphs</li></ul>
+<ul>
+<li>Convert confidently between cartesian and polar coordinates, finding r and the angle theta with quadrant care, and express polar equations in cartesian form (AO1) - Edexcel 9FM0 Core Pure 2; OCR MEI H645 Further Pure</li>
+<li>Sketch the standard polar curves - circles, cardioids, limacons (with and without inner loops) and rose curves - marking maxima, pole crossings and symmetry (AO2)</li>
+<li>Determine the tangent at the pole as the half-line theta = theta0 where r = 0, and identify where a curve passes through the pole (AO2)</li>
+<li>Calculate areas using A = (1/2) integral of r^2 d theta, including symmetric curves, single petals and regions between two curves, with justified limits (AO2/AO3)</li>
+<li>Derive and use the polar gradient dy/dx = (r&#x27; sin theta + r cos theta)/(r&#x27; cos theta - r sin theta) to find tangents at a given point (AO1/AO2)</li>
+</ul>
 </section>
-
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Pole:</strong> The origin O of the polar coordinate system; distances are measured from it.</div>
+<div class="key-point"><strong>Initial line:</strong> The positive x-axis; the angle theta is measured anticlockwise from it, in radians.</div>
+<div class="key-point"><strong>Polar coordinates:</strong> The pair (r, theta): r is the distance from the pole, theta the anticlockwise angle from the initial line. Not unique: (r, theta) = (r, theta + 2pi) = (-r, theta + pi).</div>
+<div class="key-point"><strong>Negative r convention:</strong> The point (-r, theta) is plotted at (r, theta + pi), on the opposite ray. Curves with negative r values over some interval trace an inner loop.</div>
+<div class="key-point"><strong>Cardioid:</strong> r = a(1 + cos theta) - cusp at the pole where theta = pi, maximum r = 2a on the initial line; the sin versions point up or down, and r = a(1 - cos theta) points left.</div>
+<div class="key-point"><strong>Limacon:</strong> r = a + b cos theta. If a &gt;= b there is no inner loop (dimple or oval); if a &lt; b there is an inner loop, entered where r = 0 at cos theta = -a/b.</div>
+<div class="key-point"><strong>Rose curve:</strong> r = a cos n theta (or r = a sin n theta): n odd gives n petals, n even gives 2n petals; petal tips are at distance a from the pole.</div>
+<div class="key-point"><strong>Tangent at the pole:</strong> If r = 0 at theta = theta0, the tangent to the curve at the pole is the half-line theta = theta0.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">x = r cos theta, y = r sin theta; r^2 = x^2 + y^2; tan theta = y/x - fix the quadrant from the signs of x and y before quoting theta.</div>
+<div class="key-point">Area: A = (1/2) integral of r^2 d theta between the correct limits - the formula is given in the Edexcel booklet, the limits are not.</div>
+<div class="key-point">Between two curves: A = (1/2) integral of (r_outer^2 - r_inner^2) d theta over the interval where the outer curve encloses the region.</div>
+<div class="key-point">Rose r = a cos n theta: n petals if n is odd, 2n petals if n is even.</div>
+<div class="key-point">The polar gradient formula is NOT printed in the booklet - derive it from x = r cos theta, y = r sin theta: dy/dx = (r&#x27; sin theta + r cos theta)/(r&#x27; cos theta - r sin theta).</div>
+</section>
+<section class="section">
+<h2>Polar Coordinates and Conversion to Cartesian Form</h2>
+<p><strong>The polar system.</strong> A point P is fixed by two numbers: r, its distance from the origin O (called the <strong>pole</strong>), and theta, the angle measured anticlockwise from the positive x-axis, the <strong>initial line</strong>. The link with cartesian coordinates is <strong>x = r cos theta, y = r sin theta</strong>; going the other way, <strong>r<sup>2</sup> = x<sup>2</sup> + y<sup>2</sup></strong> and tan theta = y/x. Because tan theta fixes theta only up to a multiple of pi, always settle the quadrant from the signs of x and y before quoting a final angle, and give theta in the range the question specifies (usually -pi < theta <= pi or 0 <= theta < 2pi), in radians.</p><p><strong>Worked example (cartesian to polar).</strong> Express (-1, root3) in polar form. r = root(1 + 3) = 2. The point (-1, root3) is in the second quadrant, and tan theta = -root3 has reference angle pi/3, so theta = pi - pi/3 = 2pi/3. Hence (-1, root3) = (2, 2pi/3). Check: 2cos(2pi/3) = -1 and 2sin(2pi/3) = root3 ✓. Quoting theta = pi/3 (the raw arctan) loses the accuracy mark - this quadrant check is the single most examined detail in conversions.</p><p><strong>Non-uniqueness and negative r.</strong> Polar coordinates are not unique: (2, 2pi/3) is the same point as (2, -4pi/3) and, using a negative radius, (-2, -pi/3). The convention for negative r is to plot the point on the opposite ray: (-r, theta) means (r, theta + pi). This matters when sketching, because limacons take negative r values over some theta-intervals and those points trace an inner loop.</p><p><strong>Polar equations to cartesian.</strong> Multiply through by a suitable power of r so that r cos theta and r sin theta appear, then substitute. <strong>Worked example:</strong> r = 4cos theta becomes r<sup>2</sup> = 4r cos theta, i.e. x<sup>2</sup> + y<sup>2</sup> = 4x, so (x - 2)<sup>2</sup> + y<sup>2</sup> = 4 - a circle of centre (2, 0) and radius 2. Two substitutions do all the work: r cos theta to x, r sin theta to y, r<sup>2</sup> to x<sup>2</sup> + y<sup>2</sup>. If an equation involves only r (for example r = 3), squaring gives x<sup>2</sup> + y<sup>2</sup> = 9 with no loss here, but in general squaring can introduce spurious points, so convert with the smallest multiplication that works.</p><details><summary>Exam technique</summary><p>Keep radians throughout and leave exact surds and pi in answers unless a decimal is demanded. Sketch the point roughly before working out theta: the sketch settles the quadrant instantly and protects you from the arctan trap. If a question asks for coordinates in the range 0 <= theta < 2pi, convert whatever you get into that range - marks are attached to the specified range, not to any valid description. Points on the vertical axis have theta = pi/2 or 3pi/2 directly, since tan theta = y/x cannot be formed when x = 0.</p></details>
+</section>
+<section class="section">
+<h2>Sketching Polar Curves: Cardioids, Limacons and Roses</h2>
+<p><strong>A reliable sketching routine.</strong> For any polar equation r = f(theta), build a table of r at standard angles (0, pi/6, pi/4, pi/3, pi/2, and onwards), then exploit symmetry: if only cos theta appears the curve is symmetric about the initial line (theta to -theta leaves r unchanged); if only sin theta appears it is symmetric about the line theta = pi/2. Mark three things on every sketch: the maximum value of r and where it occurs, every point where the curve passes through the pole (solve f(theta) = 0), and the tangent at the pole - when r = 0 at theta = theta0, the tangent there is the half-line theta = theta0.</p><p><strong>The standard families.</strong> These shapes are examinable by name:</p><table><tr><th>Equation</th><th>Curve</th></tr><tr><td>r = 2a cos theta</td><td>Circle, centre (a, 0), radius a (r = 2a sin theta: centre (0, a))</td></tr><tr><td>r = a(1 + cos theta)</td><td>Cardioid, cusp at the pole, max r = 2a on the initial line; -cos points left, +sin points up</td></tr><tr><td>r = a + b cos theta</td><td>Limacon; a >= b: no inner loop (dimple or oval); a < b: inner loop, pole where cos theta = -a/b</td></tr><tr><td>r = a cos n theta</td><td>Rose; n odd gives n petals, n even gives 2n petals; petal tips at distance a</td></tr></table><p><strong>Worked example (rose).</strong> Sketch r = 2cos 3theta. The curve passes through the pole when 3theta = ±pi/2, i.e. theta = ±pi/6, and again every half-turn. One petal is traced for -pi/6 <= theta <= pi/6, centred on the initial line with tip at (2, 0). Since cos 3(theta + 2pi/3) = cos 3theta, the pattern repeats every 2pi/3, giving three petals with tips at (2, 0), (2, 2pi/3) and (2, 4pi/3). Odd n always yields n petals; r = 2cos 4theta would give eight.</p><p><strong>Worked example (limacon).</strong> Sketch r = 1 + 2cos theta. Here a = 1 < b = 2, so there is an inner loop. The pole is reached when cos theta = -1/2, at theta = 2pi/3 and 4pi/3; between these angles r is negative, tracing the small inner loop on the left. Maximum r = 3 at theta = 0. This exact question type - identify the loop, find the pole angles, quote the maximum - appears regularly, and the pole angles also become the limits in loop-area questions (see Section 3).</p><details><summary>Exam technique</summary><p>Sketch marks are typically B1 for overall shape, B1 for symmetry, B1 for pole behaviour and B1 for labelled key points such as (2a, 0) on a cardioid. Always label the initial line and mark r values on the axes. A table of values with the r = 0 rows included is acceptable working and banks partial credit even if the final sketch wobbles.</p></details>
+</section>
+<section class="section">
+<h2>Areas Enclosed by Polar Curves and Tangent Lines</h2>
+<p><strong>The area formula.</strong> The area swept out by the radius vector from theta = alpha to theta = beta is <strong>A = (1/2) integral of r<sup>2</sup> d theta</strong> - given in the Edexcel 9FM0 formula booklet, but you must choose the correct limits yourself. Limits come from the region in the question, the pole (r = 0), or intersections with another curve (equate the two r expressions). For curves symmetric about the initial line, compute half and double. For a region between two curves use <strong>A = (1/2) integral of (r_outer<sup>2</sup> - r_inner<sup>2</sup>) d theta</strong> over the interval where the outer curve encloses the region.</p><p><strong>Worked example (full cardioid).</strong> Find the area enclosed by r = a(1 + cos theta). By symmetry about the initial line: A = 2 × (1/2) integral from 0 to pi of a<sup>2</sup>(1 + cos theta)<sup>2</sup> d theta = a<sup>2</sup> integral of (1 + 2cos theta + cos<sup>2</sup> theta) d theta. Use cos<sup>2</sup> theta = (1 + cos 2theta)/2: the integral evaluates to a<sup>2</sup>[theta + 2sin theta + theta/2 + sin 2theta/4] from 0 to pi = a<sup>2</sup>(pi + pi/2) = 3pi a<sup>2</sup>/2. Exact answers in terms of pi are expected.</p><p><strong>Worked example (between two curves).</strong> Region inside r = 2(1 + cos theta) but outside the circle r = 2: intersections where 2(1 + cos theta) = 2, i.e. cos theta = 0, so theta = ±pi/2. Then A = (1/2) integral from -pi/2 to pi/2 of [4(1 + cos theta)<sup>2</sup> - 4] d theta = (1/2) integral of (8cos theta + 4cos<sup>2</sup> theta) d theta = (1/2)[8sin theta + 2theta + sin 2theta] from -pi/2 to pi/2 = (1/2)(16 + 2pi) = 8 + pi. The cos theta and sin 2theta terms are antisymmetric and vanish across the symmetric interval - a built-in accuracy check.</p><p><strong>Tangents to polar curves.</strong> The polar gradient formula is not printed in the booklet - derive it: x = r cos theta and y = r sin theta, so <strong>dy/dx = (dy/d theta)/(dx/d theta) = (r' sin theta + r cos theta)/(r' cos theta - r sin theta)</strong>, where r' = dr/d theta. <strong>Worked example:</strong> for r = a(1 + cos theta) at theta = 0: r' = -a sin theta, so dx/d theta = -a sin theta cos theta - a(1 + cos theta) sin theta = 0, while dy/d theta = -a sin<sup>2</sup> theta + a(1 + cos theta) cos theta = 2a at theta = 0. Zero denominator with non-zero numerator: the tangent is vertical, the line x = 2a, at the furthest point (2a, 0). Also remember the tangent at the pole: r = 0 at theta = theta0 gives the line theta = theta0.</p><details><summary>Exam technique</summary><p>State the limits and justify them (from r = 0 or from an intersection) - method marks hang on the limits, not just the integration. When subtracting r<sup>2</sup> values, put the outer curve first, and never integrate r instead of r<sup>2</sup>. For single petals, find the two angles where r = 0 and integrate between them. If both dx/d theta and dy/d theta are zero at a point, that is the tangent-at-the-pole case - use the half-line rule.</p></details>
+</section>
 <section class="section">
 <h2>💡 Worked Example</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Find the area enclosed by one petal of r = 2 cos 3θ</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Answer:</strong></p>
-<p>r = 0 when cos 3θ = 0 -&gt; 3θ = pi/2 -&gt; θ = pi/6. One petal from -pi/6 to pi/6. Area = ½∫_{-pi/6}^{pi/6} (2 cos 3θ)^2 dθ = 2∫_{-pi/6}^{pi/6} cos^2 3θ dθ = ∫(1+cos 6θ) dθ = [θ + ⅙ sin 6θ]_{-pi/6}^{pi/6} = pi/3</p>
-</div>
-</div>
+<div class="question"><strong>Exam-style:</strong> The curve C has polar equation r = 2(1 + cos theta), -pi &lt; theta &lt;= pi, and the circle D has polar equation r = 2.
+(a) Find the polar coordinates of the points where C meets D. (2 marks)
+(b) The region R lies inside C but outside D. Find the exact area of R. (6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) M1: solve 2(1 + cos theta) = 2, giving cos theta = 0 and theta = ±pi/2. A1: the points are (2, pi/2) and (2, -pi/2) - cartesian (0, 2) and (0, -2) if converted.
+(b) M1: area = (1/2) integral from -pi/2 to pi/2 of (r_C^2 - r_D^2) d theta. M1: r_C^2 - r_D^2 = 4(1 + cos theta)^2 - 4 = 8cos theta + 4cos^2 theta. M1: use cos^2 theta = (1 + cos 2theta)/2. M1: integrate to 8sin theta + 2theta + sin 2theta. A1: evaluate from -pi/2 to pi/2: (8 + pi) - (-8 - pi) = 16 + 2pi. A1: area = (1/2)(16 + 2pi) = 8 + pi.</div>
 </section>
 <section class="section">
-<h2>❓ Practice Questions</h2><p class="q-note">Model answers are being added progressively - questions marked &#10007; don't have one yet. Cross-check with your teacher or the official mark scheme.</p>
-<div class="practice-questions">
-<div class="question">
-<p><strong>Questions:</strong></p>
-<ul><li>Convert r = 2 sin θ to Cartesian, identify the curve<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Sketch r = 1 + 2 cos θ<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Area inside r = 2 and outside r = 1 + cos θ<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find horizontal tangents of r = 2 sin 2θ<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Area of one loop of r^2 = 4 cos 2θ<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
-</div>
-<div class="question">
-  <p><strong>Q1:</strong> Convert the cartesian equation x&#178; + y&#178; = 4x into polar form, and describe the curve.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Substitute x = r cos &#952; and y = r sin &#952;: r&#178; = 4r cos &#952;. Dividing by r (r &#8800; 0): r = 4cos &#952;. This is a circle: completing the square in cartesian form gives (x - 2)&#178; + y&#178; = 4, a circle of radius 2 centred at (2, 0) on the x-axis.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> Find the area enclosed by the cardioid r = a(1 + cos &#952;).</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Area = &#189;&#8747;&#8320;^{2pi} r&#178; d&#952; = &#189;a&#178;&#8747;&#8320;^{2pi} (1 + cos &#952;)&#178; d&#952; = &#189;a&#178;&#8747;&#8320;^{2pi} (1 + 2cos &#952; + cos&#178;&#952;) d&#952;. Using cos&#178;&#952; = (1 + cos 2&#952;)/2: the integral of 1 over 0 to 2pi is 2pi, of 2cos &#952; is 0, and of cos&#178;&#952; is pi. So Area = &#189;a&#178;(2pi + 0 + pi) = 3pi a&#178;/2.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> For the curve r = 3cos 2&#952;, state the number of petals and find the area of one petal.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Since n = 2 is even, the curve r = 3cos 2&#952; has 2n = 4 petals. One petal is traced for -pi/4 &#8804; &#952; &#8804; pi/4. Area of one petal = &#189;&#8747;&#8331;&#960;/&#8324;^{pi/4} 9cos&#178;2&#952; d&#952; = (9/2)&#8747;(1 + cos 4&#952;)/2 d&#952; = (9/4)[&#952; + sin 4&#952;/4] from -pi/4 to pi/4 = (9/4)[(pi/4 + 0) - (-pi/4 + 0)] = (9/4)(pi/2) = 9pi/8.</p>
-    </div>
-  </details>
-</div>
-</div>
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>The point P has cartesian coordinates (-3, 3) and the point Q has polar coordinates (4, 2pi/3). Find polar coordinates of P (with the principal angle) and cartesian coordinates of Q. (4 marks)</summary><div class="answer"><strong>Answer:</strong> P: r = root(9 + 9) = 3 root2. The point (-3, 3) is in the second quadrant, tan theta = -1 gives reference angle pi/4, so theta = pi - pi/4 = 3pi/4: P = (3 root2, 3pi/4). Q: x = 4cos(2pi/3) = -2 and y = 4sin(2pi/3) = 2 root3, so Q = (-2, 2 root3).</div></details>
+<details><summary>Convert the polar equation r = 4 sin theta into cartesian form and state the centre and radius of the curve. (3 marks)</summary><div class="answer"><strong>Answer:</strong> Multiply by r: r^2 = 4r sin theta. Substitute r^2 = x^2 + y^2 and r sin theta = y: x^2 + y^2 = 4y, so x^2 + (y - 2)^2 = 4. This is a circle of centre (0, 2) and radius 2. Check with the area formula: (1/2) integral from 0 to pi of 16 sin^2 theta d theta = 4 pi, matching pi × 2^2 ✓.</div></details>
+<details><summary>Sketch the curve with polar equation r = 1 + 2 cos theta, finding the values of theta at which it passes through the pole and describing its key features. (4 marks)</summary><div class="answer"><strong>Answer:</strong> The pole is reached where 1 + 2cos theta = 0, i.e. cos theta = -1/2, giving theta = 2pi/3 and theta = 4pi/3. Since a = 1 &lt; b = 2, the curve is a limacon with an inner loop: r is negative for 2pi/3 &lt; theta &lt; 4pi/3, tracing a small loop on the left, with a larger loop passing through (3, 0). The curve is symmetric about the initial line, maximum r = 3 at theta = 0, and the tangents at the pole are the half-lines theta = 2pi/3 and theta = 4pi/3.</div></details>
+<details><summary>Find the exact area of one petal of the rose curve r = 2 cos 3 theta. (5 marks)</summary><div class="answer"><strong>Answer:</strong> One petal is traced between the consecutive zeros r = 0: 3 theta = ±pi/2, so theta = ±pi/6. Area = (1/2) integral from -pi/6 to pi/6 of 4 cos^2 3theta d theta = 2 × integral of cos^2 3theta d theta. Substitute u = 3 theta, d theta = du/3, limits u = ±pi/2: area = (2/3) × integral from -pi/2 to pi/2 of cos^2 u du. Using cos^2 u = (1 + cos 2u)/2, this is (2/3)[u/2 + sin 2u/4] from -pi/2 to pi/2 = (2/3)(pi/2) = pi/3. Sanity check: three petals give a total area of pi ✓.</div></details>
+<details><summary>For the curve r = 2 cos theta, find dy/dx at the point where theta = pi/6. (4 marks)</summary><div class="answer"><strong>Answer:</strong> At theta = pi/6: r = 2cos(pi/6) = root3 and dr/d theta = -2 sin(pi/6) = -1. Using dy/dx = (r&#x27; sin theta + r cos theta)/(r&#x27; cos theta - r sin theta): numerator = (-1)(1/2) + (root3)(root3/2) = -1/2 + 3/2 = 1; denominator = (-1)(root3/2) - (root3)(1/2) = -root3. So dy/dx = -1/root3. Check: the curve is the circle (x - 1)^2 + y^2 = 1; at (3/2, root3/2) the radius from the centre has gradient root3, so the tangent has gradient -1/root3 ✓.</div></details>
 </section>
 <section class="section">
 <h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Polar+Coordinates+A-Level" target="_blank" rel="noopener">Polar Coordinates - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Polar+Coordinates+exam+questions" target="_blank" rel="noopener">Polar Coordinates - Exam Questions</a> -- YouTube Search</li></ul>
+<ul><li><a href="https://www.youtube.com/results?search_query=polar+curves+sketching+area+cardioid+limacon+rose+A-level+Further+Maths+Edexcel+Core+Pure+2" target="_blank" rel="noopener">YouTube: polar curves sketching area cardioid limacon rose A-level Further Maths Edexcel Core Pure 2</a></li></ul>
 </section>
 <section class="section">
 <h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Further Mathematics - Polar Coordinates</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level Further Mathematics - Polar Coordinates</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level Further Mathematics - Polar Coordinates</a> -- OCR</li></ul>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-level Further Maths revision hub - past papers by unit</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-further-pure-2/" target="_blank" rel="noopener">PMT Further Pure 2 revision - polar coordinate questions</a></li>
+<li data-board="OCR (MEI)"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT maths revision hub - OCR MEI past papers and topic questions</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Pearson Edexcel A-levels - 9FM0 specification, past papers and mark schemes</a></li>
+</ul>
 </section>
 <section class="section">
 <h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - Polar Coordinates</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths - Polar Coordinates</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize/search?q=Polar+Coordinates" target="_blank" rel="noopener">BBC Bitesize - Polar Coordinates</a> -- BBC Bitesize revision resources</li></ul>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-further-pure-2/" target="_blank" rel="noopener">PMT Further Pure 2 revision - polar curves, area and tangents</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-further-pure-1/" target="_blank" rel="noopener">PMT Further Pure 1 revision - coordinate systems and curve sketching</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths A-level revision hub</a></li>
+</ul>
 </section>
-
-
 
 <section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/further-mathematics/vectors.html">← Vectors</a>
-<a href="../../further-mathematics.html">← Back to Further Mathematics Overview</a>
-<a href="../../topics/further-mathematics/hyperbolic-functions.html">Hyperbolic Functions →</a>
-</nav>
 
-
-
-
+<nav class="topic-nav"><a href="../../topics/further-mathematics/vectors.html">&larr; Further Vectors</a><a href="../../topics/further-mathematics/hyperbolic-functions.html">Hyperbolic Functions &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
@@ -205,13 +192,12 @@ if (localStorage.getItem('alevelrevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -229,27 +215,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
 </body></html>

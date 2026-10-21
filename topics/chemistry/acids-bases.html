@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Acids, Bases and Buffers - A-Level Chemistry Revision Notes</title>
+<meta name="description" content="A* revision for Brønsted-Lowry acids and bases, pH calculations, Ka and pKa, buffers and titration curves, with worked examples and practice questions for AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta name="keywords" content="A-Level Chemistry, Acids, Bases and Buffers, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Acids, Bases and Buffers - A-Level Chemistry">
+<meta property="og:description" content="A* revision for Brønsted-Lowry acids and bases, pH calculations, Ka and pKa, buffers and titration curves, with worked examples and practice questions for AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/chemistry/acids-bases.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/chemistry/acids-bases.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "When is the weak acid approximation invalid?", "acceptedAnswer": {"@type": "Answer", "text": "When dissociation is no longer small relative to the concentration: if [H\u207a] exceeds 5% of [HA] (very dilute or very weak acids), the [HA] \u2248 [HA]initial approximation fails and the quadratic must be solved. Always state and check the 5% condition for the evaluation marks."}}{"@type": "Question", "name": "Why does pH = pKa at half-equivalence?", "acceptedAnswer": {"@type": "Answer", "text": "At half the equivalence volume, half the acid has been neutralised, so [HA] = [A\u207b]. Substituting into [H\u207a] = Ka([HA]/[A\u207b]) gives [H\u207a] = Ka, so pH = pKa. This makes the titration curve an experimental route to Ka."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/chemistry/atomic-structure.html">Atomic Structure and the Periodic Table</a></li><li><a href="../../topics/chemistry/bonding.html">Bonding and Structure</a></li><li><a href="../../topics/chemistry/energetics.html">Energetics and Kinetics</a></li><li><a href="../../topics/chemistry/equilibria.html">Equilibria and Redox</a></li><li><a href="../../topics/chemistry/acids-bases.html" class="active">Acids, Bases and Buffers</a></li><li><a href="../../topics/chemistry/periodicity.html">Periodicity and Group Chemistry</a></li><li><a href="../../topics/chemistry/organic-chemistry.html">Organic Chemistry: Mechanisms</a></li><li><a href="../../topics/chemistry/analysis.html">Analysis: NMR, IR and Mass Spectrometry</a></li><li><a href="../../topics/chemistry/titrations.html">Titrations and Analytical Techniques</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../chemistry.html">Chemistry</a> <span>›</span>
+<span>Acids, Bases and Buffers</span>
+</nav>
+
+<article class="topic-header">
+<h1>Acids, Bases and Buffers</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">A* revision for Brønsted-Lowry acids and bases, pH calculations, Ka and pKa, buffers and titration curves, with worked examples and practice questions for AQA, Edexcel, OCR, WJEC and CCEA.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Apply Brønsted-Lowry theory, identify conjugate pairs and amphoteric species</li>
+<li>Calculate pH of strong acids and strong bases using Kw, including diprotic acids and Ba(OH)₂</li>
+<li>Calculate weak acid pH and Ka from pH data using the √(Ka·[HA]) approximation and state its validity</li>
+<li>Explain buffer action with equations and calculate buffer pH using [H⁺] = Ka([HA]/[A⁻])</li>
+<li>Describe blood buffering by the carbonic acid/hydrogencarbonate system</li>
+<li>Interpret pH titration curves, justify indicator choice and determine Ka from the half-equivalence point</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Brønsted-Lowry acid:</strong> A proton (H⁺) donor, e.g. HCl, CH₃COOH.</div>
+<div class="key-point"><strong>Brønsted-Lowry base:</strong> A proton (H⁺) acceptor, e.g. NH₃, OH⁻.</div>
+<div class="key-point"><strong>Conjugate pair:</strong> Two species differing by one H⁺, e.g. CH₃COOH/CH₃COO⁻; the stronger the acid, the weaker its conjugate base.</div>
+<div class="key-point"><strong>Kw (ionic product of water):</strong> Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K; increases with temperature as ionisation is endothermic.</div>
+<div class="key-point"><strong>Ka (acid dissociation constant):</strong> Ka = [H⁺][A⁻]/[HA] for a weak acid HA ⇌ H⁺ + A⁻; larger Ka = stronger acid.</div>
+<div class="key-point"><strong>pKa:</strong> −log₁₀ Ka; smaller pKa = stronger acid. At half-equivalence pH = pKa.</div>
+<div class="key-point"><strong>Buffer solution:</strong> A solution that maintains approximately constant pH when small quantities of acid or base are added; a weak acid plus its conjugate base.</div>
+<div class="key-point"><strong>Equivalence point:</strong> The volume at which acid and base have reacted exactly — the near-vertical section of the pH curve.</div>
+<div class="key-point"><strong>Amphoteric species:</strong> A species that can act as both an acid and a base, e.g. H₂O, HCO₃⁻.</div>
+</section>
+<section class="section">
+<h2>Brønsted-Lowry Acids and Bases, pH and Kw</h2>
+<p><strong>Brønsted-Lowry</strong>: an acid is a proton (H⁺) donor, a base is a proton acceptor. In the equilibrium CH₃COOH + H₂O ⇌ CH₃COO⁻ + H₃O⁺, ethanoic acid donates a proton and water accepts it. <strong>Conjugate pairs</strong> differ by one H⁺: CH₃COOH/CH₃COO⁻ and H₃O⁺/H₂O. An amphoteric species can act as both — water donates to bases (H₂O → OH⁻) and accepts from acids (H₂O → H₃O⁺). Strong acids (HCl, HNO₃, H₂SO₄) dissociate completely; weak acids (ethanoic, carbonic) dissociate partially — the ⇌ arrow distinguishes them.</p><p><strong>pH = −log₁₀[H⁺]</strong>; [H⁺] = 10⁻ᵖʰ. Strong acid calculations: [H⁺] equals the acid concentration (for HCl) or twice it (H₂SO₄ gives 2H⁺ — check whether the question intends full dissociation of both protons). <strong>Strong bases</strong>: [OH⁻] equals concentration for NaOH, twice for Ba(OH)₂. <strong>Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K</strong> — the ionic product of water. Convert [OH⁻] to [H⁺] via Kw, then to pH. Worked example: pH of 0.050 mol dm⁻³ Ba(OH)₂ at 298 K: [OH⁻] = 2 × 0.050 = 0.100; [H⁺] = 1.0 × 10⁻¹⁴/0.100 = 1.0 × 10⁻¹³; pH = 13.00.</p><p>Water's ionisation (2H₂O ⇌ H₃O⁺ + OH⁻) is <strong>endothermic</strong>, so <strong>Kw increases with temperature</strong> and the pH of pure water falls below 7 at higher temperature — water stays <em>neutral</em> because [H⁺] = [OH⁻]; neutrality is defined by equality, not by pH 7. This distinction is a classic A* point: pH 7 is neutral only at 298 K.</p><p>Further pH calculation examples to rehearse: <em>(1)</em> pH of 0.010 mol dm⁻³ HCl: [H⁺] = 0.010, pH = 2.00. <em>(2)</em> pH of 0.0050 mol dm⁻³ H₂SO₄ (assume full dissociation): [H⁺] = 0.010, pH = 2.00 — the factor of 2 matters; check whether the question specifies both protons dissociate. <em>(3)</em> dilution: diluting 0.100 mol dm⁻³ HCl by ×100 gives 0.00100 mol dm⁻³, pH rises from 1.00 to 3.00 — each ×10 dilution raises pH by 1 for strong acids. <em>(4)</em> [H⁺] from pH: pH 4.20 → [H⁺] = 10⁻⁴·²⁰ = 6.3 × 10⁻⁵. For strong bases, the two-step Kw route is always required — writing pH = 14 + log[OH⁻] without the Kw step loses the working marks; state Kw = 1.0 × 10⁻¹⁴ explicitly and quote units (mol² dm⁻⁶). At temperatures other than 298 K the question gives the new Kw — use it as given; do not assume 1.0 × 10⁻¹⁴.</p>
+</section>
+<section class="section">
+<h2>Weak Acids, Ka and pKa</h2>
+<p>The <strong>acid dissociation constant</strong> for HA ⇌ H⁺ + A⁻: <strong>Ka = [H⁺][A⁻]/[HA]</strong>; <strong>pKa = −log₁₀ Ka</strong>. Larger Ka (smaller pKa) = stronger acid. For a weak acid, the approximation [H⁺] = [A⁻] (dissociation is tiny compared with [HA]) gives <strong>[H⁺] ≈ √(Ka × [HA])</strong>, so pH = −log₁₀[H⁺] and Ka ≈ [H⁺]²/[HA].</p><p>Worked examples: <em>(1)</em> pH of 0.100 mol dm⁻³ ethanoic acid (Ka = 1.74 × 10⁻⁵): [H⁺] = √(1.74 × 10⁻⁵ × 0.100) = √(1.74 × 10⁻⁶) = 1.32 × 10⁻³; pH = 2.88. <em>(2)</em> Ka from pH: 0.150 mol dm⁻³ propanoic acid has pH 2.82: [H⁺] = 10⁻²·⁸² = 1.51 × 10⁻³; Ka = (1.51 × 10⁻³)²/0.150 = 1.52 × 10⁻⁵.</p><p><strong>Approximation validity</strong> — the standard 4-marker: two approximations are made. <em>(1)</em> [H⁺] from water is negligible (Kw tiny) — valid for all but very weak/very dilute acids. <em>(2)</em> [HA] at equilibrium ≈ [HA] initial — valid only when dissociation is small: if [H⁺] > 5% of [HA], the approximation fails and the quadratic must be solved properly. Very dilute weak acids (e.g. 0.001 mol dm⁻³ ethanoic) violate approximation (2) — state the check: (5 × [H⁺]/[HA]) < 5%. Exam answers that quote and check the approximation earn the evaluation marks that A* requires.</p>
+</section>
+<section class="section">
+<h2>Buffer Solutions: Action and pH Calculations</h2>
+<p>A <strong>buffer solution</strong> maintains approximately constant pH when small quantities of acid or base are added. An acidic buffer is made from a weak acid plus its conjugate base — either a salt (e.g. CH₃COOH + CH₃COONa) or partial neutralisation (excess weak acid + NaOH). The buffer contains large, roughly equal reservoirs of HA and A⁻, with the equilibrium HA ⇌ H⁺ + A⁻ pushed far left by the added A⁻.</p><p><strong>Buffer action</strong> — the mechanism in words: when <em>acid</em> is added, the H⁺ reacts with the conjugate base reservoir: <strong>CH₃COO⁻ + H⁺ → CH₃COOH</strong> — equilibrium shifts left, removing most added H⁺, so [H⁺] (and pH) barely change. When <em>base</em> is added, the OH⁻ reacts with the weak acid reservoir: <strong>CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O</strong> — equilibrium shifts right, replacing H⁺. The pH changes only slightly as long as both reservoirs remain large; a buffer is exhausted when one reservoir is consumed.</p><p><strong>Buffer pH calculation</strong>: [H⁺] = Ka × ([HA]/[A⁻]), so <strong>pH = pKa + log₁₀([A⁻]/[HA])</strong> (Henderson-Hasselbalch). Worked example (from the specification style): calculate the pH of a buffer with 0.20 mol dm⁻³ ethanoic acid (Ka = 1.74 × 10⁻⁵) and 0.15 mol dm⁻³ sodium ethanoate: [H⁺] = 1.74 × 10⁻⁵ × (0.20/0.15) = 2.32 × 10⁻⁵; pH = 4.63. Made-by-neutralisation questions: work out moles of HA remaining (initial minus reacted) and moles of A⁻ formed, then substitute into [H⁺] = Ka × n(HA)/n(A⁻) — mole ratios replace concentrations (same volume cancels).</p><p><strong>Blood buffering</strong>: blood pH is controlled at 7.35-7.45 by the carbonic acid/hydrogencarbonate buffer (H₂CO₃ ⇌ H⁺ + HCO₃⁻, carbonic acid formed from dissolved CO₂). Acidosis (excess H⁺) is countered by HCO₃⁻ removing it (H⁺ + HCO₃⁻ → H₂CO₃ → H₂O + CO₂ exhaled); alkalosis (excess OH⁻) is countered by H₂CO₃ neutralising it. The link between respiration rate and blood pH (CO₂ levels) is the standard applied question: faster breathing removes CO₂, shifting equilibrium left, lowering [H⁺] and raising pH.</p><p>Buffer capacity and dilution — the finer points examiners test: diluting a buffer with water scales [HA] and [A⁻] by the same factor, so the <strong>ratio [HA]/[A⁻] is unchanged and the pH stays the same</strong> — but the buffer capacity falls (smaller reservoirs of each species, so fewer moles of added acid/base can be absorbed before exhaustion). Strong acid/concentrated-base additions beyond the capacity overwhelm the buffer and the pH changes substantially — buffers resist <em>small</em> additions only. When a buffer is made by partial neutralisation, check that neither reservoir is fully consumed: if the NaOH moles exceed the HA moles, no buffer forms (excess strong base, pH from [OH⁻] via Kw instead). Comparing two buffers of the same pH but different concentrations: same pH (same ratio) but the more concentrated one has greater capacity — a standard A* discrimination. Writing buffer answers: state the reservoirs present, give the reaction with the added species, state the equilibrium shift and conclude 'pH changes only slightly' — the full chain earns all marks.</p>
+</section>
+<section class="section">
+<h2>pH Curves, Indicators and Determining Ka Experimentally</h2>
+<p>A <strong>pH titration curve</strong> plots pH against titrant volume. The <strong>equivalence point</strong> is the near-vertical section; curve shapes depend on the acid-base pair: strong-strong (pH 1 → 13, huge vertical section centred at 7); weak acid-strong base (vertical section above 7 — salt hydrolysis: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻); strong acid-weak base (vertical below 7); weak-weak (shallow, no vertical section). The flat region before equivalence is the buffer zone — in a weak acid titration the HA/A⁻ pair formed in the flask buffers the solution around half-equivalence.</p><p><strong>Indicator choice</strong>: the indicator's colour-change range must lie entirely within the vertical section — <strong>phenolphthalein (8.3-10.0)</strong> for weak acid-strong base; <strong>methyl orange (3.1-4.4)</strong> for strong acid-weak base; either for strong-strong; neither for weak-weak. Indicators are themselves weak acids whose conjugate pair has different colours (HIn ⇌ H⁺ + In⁻); the range is where both colours coexist.</p><p><strong>Determining Ka experimentally</strong> (standard 6-marker): titrate a weak acid with a strong base, measuring pH with a calibrated pH meter. At <strong>half the equivalence volume, [HA] = [A⁻]</strong>, so <strong>pH = pKa</strong> — read the pH at half-equivalence and take Ka = 10⁻ᵖᵏᵃ. Method: find the equivalence volume from the vertical section (or from a preliminary titration), halve it, read the pH there, convert. Improvements: pH meter calibrated with buffers, temperature controlled (Ka depends on T), small increments near equivalence. Cross-links: this is the experimental side of the titration page's curve analysis, and the buffer zone explanation mirrors the buffer section above.</p>
+</section>
+<section class="section">
+<h2>Salt Hydrolysis and Multi-Step pH Calculations</h2>
+<p>Salt solutions are not all neutral: the ions can hydrolyse water. <strong>NaCl</strong> (from strong acid + strong base) is neutral — neither ion reacts with water. <strong>CH₃COONa</strong> (weak acid + strong base) is <em>basic</em>: the ethanoate ion accepts a proton — CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ — so [OH⁻] rises and pH > 7. <strong>NH₄Cl</strong> (strong acid + weak base) is <em>acidic</em>: NH₄⁺ donates a proton — NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ — so pH < 7. The rule: the ion from the weaker partner hydrolyses; the salt of a strong acid/strong base does not. This explains why the equivalence-point pH of a weak acid titration is above 7 and a weak base titration below 7 — the standard link between salt hydrolysis and titration curves.</p><p>Multi-step calculation style (AQA Paper 1 favourite): a buffer made by mixing solutions, or a titration part-way to equivalence. Method: <em>(1)</em> moles of each species from concentration × volume/1000; <em>(2)</em> apply the reaction (neutralisation) to find remaining HA and formed A⁻; <em>(3)</em> substitute mole ratios into [H⁺] = Ka × n(HA)/n(A⁻) — volumes cancel because both species share the flask volume; <em>(4)</em> convert to pH. Example: 25.0 cm³ of 0.100 mol dm⁻³ CH₃COOH mixed with 10.0 cm³ of 0.100 mol dm⁻³ NaOH: moles HA = 2.50 × 10⁻³, OH⁻ = 1.00 × 10⁻³; remaining HA = 1.50 × 10⁻³, A⁻ formed = 1.00 × 10⁻³; [H⁺] = 1.74 × 10⁻⁵ × (1.50/1.00) = 2.61 × 10⁻⁵; pH = 4.58.</p><p>Exam technique: read whether the question wants pH, pKa or Ka and answer exactly that; keep unrounded values through the calculation and round only at the end (quoting pH to 2 decimal places); state assumptions ([H⁺] from water negligible; [HA] unchanged — valid when dissociation < 5%). For explanation marks, use the causal chain: more A⁻ relative to HA → equilibrium pushed left → lower [H⁺] → higher pH. Weak acid vs strong acid comparison answers must mention partial vs complete dissociation — 'weak acids have higher pH at the same concentration because they dissociate only partially'.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> Calculate the pH of a buffer solution containing 0.20 mol dm⁻³ ethanoic acid (Ka = 1.74 × 10⁻⁵) and 0.15 mol dm⁻³ sodium ethanoate, and explain how the pH changes when a small amount of dilute HCl is added.</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> [H⁺] = Ka × ([HA]/[A⁻]) = (1.74 × 10⁻⁵) × (0.20/0.15) = 2.32 × 10⁻⁵ mol dm⁻³; pH = −log₁₀(2.32 × 10⁻⁵) = 4.63. On adding HCl: the added H⁺ reacts with the ethanoate reservoir — CH₃COO⁻ + H⁺ → CH₃COOH; the equilibrium CH₃COOH ⇌ H⁺ + CH₃COO⁻ shifts left, removing most of the added H⁺, so pH changes only slightly (as long as the CH₃COO⁻ reservoir remains large). Mark points: buffer equation; correct [H⁺]; pH with units-free value; buffer action equation; equilibrium shift.</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Calculate the pH of 0.050 mol dm⁻³ Ba(OH)₂ at 298 K (Kw = 1.0 × 10⁻¹⁴).</summary><div class="answer"><strong>Answer:</strong> [OH⁻] = 2 × 0.050 = 0.100 mol dm⁻³ (each Ba(OH)₂ gives 2 OH⁻). [H⁺] = 1.0 × 10⁻¹⁴/0.100 = 1.0 × 10⁻¹³; pH = 13.00.</div></details>
+<details><summary>Calculate the pH of 0.100 mol dm⁻³ ethanoic acid (Ka = 1.74 × 10⁻⁵).</summary><div class="answer"><strong>Answer:</strong> Weak acid: [H⁺] ≈ √(Ka × [HA]) = √(1.74 × 10⁻⁵ × 0.100) = √(1.74 × 10⁻⁶) = 1.32 × 10⁻³ mol dm⁻³. pH = −log₁₀(1.32 × 10⁻³) = 2.88.</div></details>
+<details><summary>A 0.150 mol dm⁻³ solution of propanoic acid has pH 2.82. Calculate Ka.</summary><div class="answer"><strong>Answer:</strong> [H⁺] = 10⁻²·⁸² = 1.51 × 10⁻³ mol dm⁻³. Ka = [H⁺]²/[HA] = (1.51 × 10⁻³)²/0.150 = 1.52 × 10⁻⁵ (units: mol dm⁻³). Approximation valid: [H⁺] is ~1% of [HA].</div></details>
+<details><summary>Explain why the pH of pure water falls below 7 at higher temperatures but the water remains neutral.</summary><div class="answer"><strong>Answer:</strong> Water ionisation (2H₂O ⇌ H₃O⁺ + OH⁻) is endothermic, so Kw increases with T, raising [H⁺] — pH falls. It remains neutral because neutrality means [H⁺] = [OH⁻], which still holds; pH 7 is neutral only at 298 K.</div></details>
+<details><summary>A buffer is made by neutralising half of 0.20 mol of CH₃COOH (Ka = 1.74 × 10⁻⁵) with NaOH. Calculate the pH.</summary><div class="answer"><strong>Answer:</strong> Moles reacted: 0.10 → CH₃COOH remaining 0.10, CH₃COO⁻ formed 0.10. [H⁺] = Ka × n(HA)/n(A⁻) = 1.74 × 10⁻⁵ × (0.10/0.10) = 1.74 × 10⁻⁵. pH = 4.76 (= pKa, since [HA] = [A⁻]).</div></details>
+<details><summary>Describe how a titration curve can be used to determine Ka of a weak acid experimentally.</summary><div class="answer"><strong>Answer:</strong> Titrate with a strong base measuring pH with a calibrated pH meter. Find the equivalence volume from the vertical section; take half that volume. At half-equivalence [HA] = [A⁻], so pH = pKa; read the pH at that volume and calculate Ka = 10⁻ᵖᵏᵃ. Controls: calibrated meter, constant temperature (Ka is temperature-dependent).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+chemistry+acids+bases+buffers+Ka+pH+titration+curves+revision" target="_blank" rel="noopener">YouTube: A level chemistry acids bases buffers Ka pH titration curves revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="General"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA 7405 past papers and mark schemes (acids, bases and buffers in Paper 1)</a></li>
+<li data-board="General"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR A Level Chemistry A H432/H032 qualifications and past papers</a></li>
+<li data-board="General"><a href="https://www.physicsandmathstutor.com/chemistry-revision/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - chemistry revision: acids, bases and buffers topic questions</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.chemguide.co.uk/physical/acidbaseeqmenu.html" target="_blank" rel="noopener">ChemGuide - acid-base equilibria and buffers</a></li>
+<li><a href="https://www.physicsandmathstutor.com/chemistry-revision/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - acids and bases revision</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA - find past papers and mark schemes</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR - qualifications and past paper resources</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/chemistry/equilibria.html">&larr; Equilibria and Redox</a><a href="../../topics/chemistry/periodicity.html">Periodicity and Group Chemistry &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

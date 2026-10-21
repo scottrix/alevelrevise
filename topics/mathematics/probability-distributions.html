@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Probability and Distributions - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Probability rules, conditional probability, tree and Venn diagrams, the binomial and normal distributions, and hypothesis testing with critical regions - A-Level Maths statistics (Edexcel 9MA0 Topics 13-15, AQA 7357 M-O) revised with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Mathematics, Probability and Distributions, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Probability and Distributions - A-Level Mathematics">
+<meta property="og:description" content="Probability rules, conditional probability, tree and Venn diagrams, the binomial and normal distributions, and hypothesis testing with critical regions - A-Level Maths statistics (Edexcel 9MA0 Topics 13-15, AQA 7357 M-O) revised with worked examples and mark-scheme logic.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/mathematics/probability-distributions.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/mathematics/probability-distributions.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I know whether to use the binomial or the normal distribution?", "acceptedAnswer": {"@type": "Answer", "text": "Binomial for a COUNT of successes in a fixed number of independent trials with two outcomes and constant p; normal for a CONTINUOUS, symmetric measurement. If n is large with np and n(1 - p) both above about 5, the binomial can be approximated by the normal N(np, np(1 - p)) - otherwise stick with binomial tables or calculator functions."}}{"@type": "Question", "name": "Why did I lose marks on the hypothesis test conclusion?", "acceptedAnswer": {"@type": "Answer", "text": "The conclusion must be in context and tied to the significance comparison. Marks are awarded for: stating the hypotheses with the parameter, splitting the significance correctly for a two-tailed test, comparing the p-value with the tail significance, and ending with a sentence such as 'there is significant evidence at the 5% level that the coin is biased'. A bare 'reject H0' drops the context mark."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/vectors.html">Vectors</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/probability-distributions.html" class="active">Probability and Distributions</a></li><li><a href="../../topics/mathematics/statistics-data.html">The Large Data Set</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../mathematics.html">Mathematics</a> <span>›</span>
+<span>Probability and Distributions</span>
+</nav>
+
+<article class="topic-header">
+<h1>Probability and Distributions</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">Probability rules, conditional probability, tree and Venn diagrams, the binomial and normal distributions, and hypothesis testing with critical regions - A-Level Maths statistics (Edexcel 9MA0 Topics 13-15, AQA 7357 M-O) revised with worked examples and mark-scheme logic.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Use Venn diagrams, tree diagrams and the addition and multiplication laws, including conditional probability P(A|B) = P(A and B)/P(B) (AO1/AO2) - Edexcel 9MA0 Topic 13, AQA 7357 M1-M3</li>
+<li>Determine whether two events are independent (P(A and B) = P(A)P(B)) or mutually exclusive, and use these conditions in problems (AO2) - Edexcel 9MA0 Topic 13, AQA 7357 M3</li>
+<li>Model a situation with the binomial distribution B(n, p), checking the four conditions, and calculate probabilities and E(X) = np, Var(X) = np(1 - p) (AO1/AO2) - Edexcel 9MA0 Topic 14, AQA 7357 N1-N2</li>
+<li>Model with the normal distribution N(mu, sigma^2), standardising with Z = (X - mu)/sigma, and solve forward and inverse problems (AO1/AO2) - Edexcel 9MA0 Topic 14, AQA 7357 N3</li>
+<li>Conduct hypothesis tests on a binomial model: state H0 and H1, find the critical region or p-value, and conclude in context (AO2/AO3) - Edexcel 9MA0 Topic 15, AQA 7357 O1-O2</li>
+<li>Select an appropriate distribution for a context and justify the choice; understand the central limit theorem idea for large samples (AO2) - Edexcel 9MA0 Topic 14, AQA 7357 N1</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Mutually exclusive:</strong> Events that cannot occur together: P(A and B) = 0, so P(A or B) = P(A) + P(B).</div>
+<div class="key-point"><strong>Independent events:</strong> Events where one does not affect the other: P(A and B) = P(A) x P(B), equivalently P(A|B) = P(A).</div>
+<div class="key-point"><strong>Conditional probability:</strong> The probability of A given that B has occurred: P(A|B) = P(A and B)/P(B), read from a restricted sample space or a tree diagram.</div>
+<div class="key-point"><strong>Binomial distribution:</strong> X ~ B(n, p) models n independent trials with a constant probability p of success and two outcomes per trial.</div>
+<div class="key-point"><strong>Binomial mean and variance:</strong> For X ~ B(n, p): E(X) = np and Var(X) = np(1 - p).</div>
+<div class="key-point"><strong>Normal distribution:</strong> X ~ N(mu, sigma^2): a continuous, symmetric, bell-shaped distribution fully described by its mean and variance, standardised via Z = (X - mu)/sigma.</div>
+<div class="key-point"><strong>Hypothesis test:</strong> A procedure comparing a null hypothesis H0 against an alternative H1 using a test statistic; a significant result provides statistical evidence for H1.</div>
+<div class="key-point"><strong>Critical region:</strong> The set of values of the test statistic for which H0 is rejected; its boundary is the critical value, fixed by the significance level.</div>
+<div class="key-point"><strong>Significance level:</strong> The probability threshold for rejecting H0, typically 5% or 1%; for a two-tailed test it is split between the two tails.</div>
+<div class="key-point"><strong>Central limit theorem:</strong> For a large random sample of size n from any distribution with mean mu and variance sigma^2, the sample mean is approximately N(mu, sigma^2/n) - the idea underpinning tests on sample means.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Addition law: P(A or B) = P(A) + P(B) - P(A and B); mutually exclusive events simplify it to P(A) + P(B).</div>
+<div class="key-point">Conditional probability: P(A|B) = P(A and B)/P(B); independence: P(A and B) = P(A) x P(B), equivalently P(A|B) = P(A).</div>
+<div class="key-point">Binomial X ~ B(n, p): P(X = r) = nCr p^r (1 - p)^(n-r); E(X) = np, Var(X) = np(1 - p); conditions: fixed n, two outcomes, constant p, independent trials.</div>
+<div class="key-point">Normal X ~ N(mu, sigma^2): standardise Z = (X - mu)/sigma; the 68-95-99.7 rule: about 68.3% within 1 sigma, 95.4% within 2 sigma, 99.7% within 3 sigma.</div>
+<div class="key-point">Hypothesis test: H0 (no change) against H1 (one- or two-tailed); reject H0 when the test statistic falls in the critical region or the p-value is below the significance level; conclude in context.</div>
+</section>
+<section class="section">
+<h2>Probability rules: Venn diagrams, conditional probability and independence</h2>
+<p>Probability at A-level runs on three laws (Edexcel 9MA0 Topic 13; AQA 7357 M1-M3; OCR A H640 18.01). The <strong>addition law</strong>: P(A or B) = P(A) + P(B) - P(A and B), simplifying to P(A) + P(B) when the events are <strong>mutually exclusive</strong> (cannot both happen). The <strong>conditional probability</strong>: P(A|B) = P(A and B)/P(B) - the probability of A given B occurred, found by restricting the sample space to B. The <strong>independence</strong> condition: P(A and B) = P(A) x P(B), equivalently P(A|B) = P(A) - knowing B occurred changes nothing about A. Exam questions often ask you to test independence from a table or Venn diagram: compute P(A)P(B) and P(A and B) separately and compare.</p><p><strong>Venn diagrams</strong> organise overlapping events: fill from the intersection outwards, and read probabilities as region sizes over the total. <strong>Tree diagrams</strong> organise sequential events: multiply along branches (the multiplication law) and add across branches (the addition law) - and remember the second-level branches are conditional probabilities.</p><details><summary>Worked example: tree diagram and conditional probability</summary><p>Machine A produces 60% of a factory's items with a 2% defect rate; machine B produces the other 40% with a 5% defect rate. Find P(defective) and P(A | defective).</p><p><strong>Line 1:</strong> P(A and D) = 0.6 x 0.02 = 0.012 and P(B and D) = 0.4 x 0.05 = 0.020 (M1: multiply along branches).</p><p><strong>Line 2:</strong> P(D) = 0.012 + 0.020 = 0.032 (A1: add across branches).</p><p><strong>Line 3:</strong> P(A | D) = P(A and D)/P(D) = 0.012/0.032 = 0.375 (M1 A1: conditional probability).</p></details><details><summary>Worked example: Venn diagram reading</summary><p>Of 100 students, 60 study maths, 45 study physics and 20 study both. Find P(maths or physics), P(neither) and P(maths | physics).</p><p><strong>Line 1:</strong> P(M or P) = 0.60 + 0.45 - 0.20 = 0.85 (M1 A1: addition law).</p><p><strong>Line 2:</strong> P(neither) = 1 - 0.85 = 0.15 (A1: complement).</p><p><strong>Line 3:</strong> P(M | P) = P(M and P)/P(P) = 0.20/0.45 = 4/9 (A1: restricted sample space).</p></details>
+</section>
+<section class="section">
+<h2>The binomial distribution B(n, p)</h2>
+<p>The <strong>binomial distribution</strong> X ~ B(n, p) models a count of successes in n independent trials, each with success probability p and two outcomes (Edexcel 9MA0 Topic 14; AQA 7357 N1-N2; OCR A H640 19.01). The four <strong>conditions</strong> are examinable and worth a mark: a fixed number of trials n, two outcomes per trial (success/failure), a constant probability p, and independent trials. If any condition fails, the binomial is the wrong model - a question asking why a binomial model may not be appropriate wants the failed condition named in context (e.g. trials not independent when sampling without replacement from a small population).</p><p>The probability formula: <strong>P(X = r) = nCr p^r (1 - p)^(n-r)</strong>. The <strong>mean and variance</strong>: E(X) = np and Var(X) = np(1 - p) - both formulae are in the booklet but are recalled constantly. Probabilities come from the formula, from statistical tables, or from calculator functions (binomial PD for single values, binomial CD for cumulative) - know which your calculator offers and check a known value like P(X = 0) = (1 - p)^n before trusting it.</p><details><summary>Worked example: cumulative binomial probability</summary><p>X ~ B(10, 0.5). Find P(X >= 8).</p><p><strong>Line 1:</strong> P(X = 8) = 10C8 (0.5)^8 (0.5)^2 = 45/1024 (M1: formula).</p><p><strong>Line 2:</strong> P(X = 9) = 10C9 (0.5)^9 (0.5) = 10/1024; P(X = 10) = (0.5)^10 = 1/1024 (A1: remaining terms).</p><p><strong>Line 3:</strong> P(X >= 8) = (45 + 10 + 1)/1024 = 56/1024 = 0.0547 (3 s.f.) (A1).</p></details><p>Watch the inequality direction: P(X >= 8) needs 1 - P(X <= 7) when working from cumulative tables - off-by-one errors at the boundary are the most common binomial slip, so write the boundary explicitly. In context questions, the expected-value result earns interpretation marks: for 50 rolls of a fair die modelled binomially (rolling a six), E(X) = 50 x (1/6) = 8.33 sixes on average, and Var(X) = 50 x (1/6) x (5/6) = 6.94 - quote the units (a count) and interpret in context rather than leaving bare numbers.</p>
+</section>
+<section class="section">
+<h2>The normal distribution N(mu, sigma^2)</h2>
+<p>The <strong>normal distribution</strong> X ~ N(mu, sigma^2) is continuous, symmetric and bell-shaped, fully described by its mean mu and variance sigma^2 (Edexcel 9MA0 Topic 14; AQA 7357 N3; OCR A H640 21.01). It is standardised via <strong>Z = (X - mu)/sigma</strong>, converting any normal to the standard normal Z ~ N(0, 1) read from tables or the calculator's inverse normal function. The <strong>68-95-99.7 rule</strong> gives the shape: about 68.3% of values lie within 1 sigma of the mean, 95.4% within 2 sigma and 99.7% within 3 sigma - use it to sanity-check answers.</p><p>Forward problems: given X values, standardise and read probabilities. Inverse problems: given a probability, find the X value (or sigma, or mu) by reversing - locate the z-value from the probability, then convert back. Inverse questions are where marks are won: set up the standardisation equation carefully and keep the sign of z consistent with the direction of the inequality.</p><details><summary>Worked example: symmetric interval</summary><p>If X ~ N(100, 15^2), find P(85 < X < 115).</p><p><strong>Line 1:</strong> Standardise: z = (85 - 100)/15 = -1 and z = (115 - 100)/15 = 1 (M1: both limits).</p><p><strong>Line 2:</strong> P(-1 < Z < 1) = 0.8413 - 0.1587 = 0.6826 (A1: agreeing with the 68.3% rule).</p></details><details><summary>Worked example: finding sigma from a probability</summary><p>X ~ N(mu, sigma^2). Given that P(X < 60) = 0.2119 and mu = 70, find sigma.</p><p><strong>Line 1:</strong> Standardise: P(Z < (60 - 70)/sigma) = 0.2119 (M1).</p><p><strong>Line 2:</strong> From tables, the z-value with 0.2119 below it is -0.8 (A1: inverse read).</p><p><strong>Line 3:</strong> (60 - 70)/sigma = -0.8, so -10 = -0.8 sigma, giving sigma = 12.5 (A1).</p></details><p>Since the normal is symmetric, P(X < mu) = 0.5, and probabilities mirror: P(X > mu + a) = P(X < mu - a) - exploiting symmetry halves the table-reading in many questions.</p>
+</section>
+<section class="section">
+<h2>Hypothesis testing: framework and critical regions</h2>
+<p>A <strong>hypothesis test</strong> (Edexcel 9MA0 Topic 15; AQA 7357 O1-O2; OCR A H640 20.01) compares a null hypothesis H0 (no change, the assumed model) against an alternative H1 (the claimed change) using a test statistic. The language is examinable: the <strong>significance level</strong> is the threshold for rejecting H0 (5% or 1%); a <strong>one-tailed</strong> test has H1 with a direction (p > 0.5 or p < 0.5) and puts all the significance in one tail; a <strong>two-tailed</strong> test has H1 without direction (p is not 0.5) and splits the significance between the tails - 5% two-tailed means 2.5% per tail. The <strong>critical region</strong> is the set of test statistic values for which H0 is rejected, with the boundary the <strong>critical value</strong>.</p><p>The routine: (1) state H0 and H1 in terms of the parameter; (2) state the distribution of the test statistic under H0; (3) compute the p-value or critical region; (4) compare with the significance level; (5) conclude in context - reject or accept H0 with a sentence about what the evidence suggests.</p><details><summary>Worked example: two-tailed binomial test</summary><p>A fair coin is tossed 20 times and 15 heads are observed. Test at the 5% level whether the coin is biased.</p><p><strong>Line 1:</strong> H0: p = 0.5; H1: p is not 0.5 (two-tailed, so 2.5% per tail) (M1 B1: hypotheses, tail split).</p><p><strong>Line 2:</strong> Under H0, X ~ B(20, 0.5) (B1: model stated).</p><p><strong>Line 3:</strong> P(X >= 15) = 1 - P(X <= 14) = 0.0207 (M1 A1: p-value).</p><p><strong>Line 4:</strong> 0.0207 < 0.025, so the result falls in the critical region: reject H0 (A1: comparison).</p><p><strong>Line 5:</strong> There is significant evidence at the 5% level that the coin is biased (A1: conclusion in context).</p></details><p>Critical region questions run the test in reverse: find the largest c such that P(X <= c) < 0.025 (or the full region for a two-tailed test), stating both tails - and remember the actual significance may not be exactly 5%, since the binomial is discrete; questions ask for the actual significance level as the sum of both tail probabilities.</p>
+</section>
+<section class="section">
+<h2>Choosing a model and exam technique</h2>
+<p>Model selection is examinable: a <strong>binomial</strong> fits a count of successes in fixed independent trials; a <strong>normal</strong> fits continuous symmetric measurements. When n is large and p is not too close to 0 or 1, the binomial is well approximated by the normal N(np, np(1 - p)) - a standard rule of thumb is that np and n(1 - p) should exceed 5 - so a binomial with n = 50, p = 0.5 can be worked with the normal, while n = 50, p = 0.05 cannot. The <strong>central limit theorem</strong> extends the idea: for a large random sample from any distribution, the sample mean is approximately N(mu, sigma^2/n) - the idea underpinning tests on sample means in some specifications and in Further Mathematics.</p><p>Exam technique across the topic: (1) write conditions for a binomial model in context, not in the abstract - name the trials and the success event; (2) state H0 and H1 with the parameter and the tail direction before computing anything - the hypotheses carry method marks; (3) halve the significance level for two-tailed tests and say so; (4) write probabilities to 4 decimal places from tables or calculator before rounding the final answer to 3 s.f.; (5) conclude in context: reject H0 with a sentence naming what the evidence suggests, not just reject H0; (6) use symmetry in normal questions to halve the work and check answers against the 68-95-99.7 rule. Board coverage: Edexcel 9MA0 Topics 13-15, AQA 7357 M1-O2, OCR A H640 18.01, 19.01, 20.01 and 21.01, WJEC/Eduqas and CCEA AS/A2 statistics - identical techniques, differing wording and table provision.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> A coin is tossed 20 times and 15 heads are observed. Test, at the 5% level of significance, whether the coin is biased. State your hypotheses clearly and conclude in context. (Edexcel 9MA0-style, 7 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Let p be the probability of heads. H0: p = 0.5 (the coin is fair); H1: p is not 0.5 (the coin is biased) (B1 M1: hypotheses with the parameter). Two-tailed test, so the significance is 2.5% in each tail (B1: tail split stated). Under H0, X ~ B(20, 0.5), where X is the number of heads (B1: model stated). P(X &gt;= 15) = 1 - P(X &lt;= 14) = 0.0207 (M1 A1: p-value from tables or calculator). Since 0.0207 &lt; 0.025, the result falls in the critical region, so reject H0 (A1: comparison and decision). There is significant evidence at the 5% level that the coin is biased towards heads (A1: conclusion in context).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>If X ~ N(100, 15^2), find P(85 &lt; X &lt; 115).</summary><div class="answer"><strong>Answer:</strong> Standardise both limits: z = (85 - 100)/15 = -1 and z = (115 - 100)/15 = 1 (M1). P(-1 &lt; Z &lt; 1) = 0.8413 - 0.1587 = 0.6826 (A1). Sanity check: this is the 1-sigma interval, about 68.3%.</div></details>
+<details><summary>State the four conditions required for a binomial model, and give a situation where one fails.</summary><div class="answer"><strong>Answer:</strong> A fixed number of trials n; two outcomes per trial (success/failure); a constant probability of success p; independent trials (B1 B1: any four stated). Failure example: drawing cards without replacement from a small deck - the probability changes between trials, so the trials are not independent (B1: context).</div></details>
+<details><summary>X ~ B(10, 0.5). Find P(X &gt;= 8).</summary><div class="answer"><strong>Answer:</strong> P(X = 8) = 10C8 (0.5)^8 (0.5)^2 = 45/1024; P(X = 9) = 10/1024; P(X = 10) = 1/1024 (M1 A1: terms listed). Sum: (45 + 10 + 1)/1024 = 56/1024 = 0.0547 (3 s.f.) (A1).</div></details>
+<details><summary>X ~ N(mu, sigma^2). Given that P(X &lt; 60) = 0.2119 and mu = 70, find the value of sigma.</summary><div class="answer"><strong>Answer:</strong> Standardise: P(Z &lt; (60 - 70)/sigma) = 0.2119 (M1). The z-value with 0.2119 below it is -0.8 (A1: inverse read). So (60 - 70)/sigma = -0.8, giving -10 = -0.8 sigma and sigma = 12.5 (A1).</div></details>
+<details><summary>Machine A produces 60% of items with a 2% defect rate; machine B produces 40% with a 5% defect rate. An item is chosen at random. Find the probability it is defective, and the probability it came from A given that it is defective.</summary><div class="answer"><strong>Answer:</strong> P(A and D) = 0.6 x 0.02 = 0.012; P(B and D) = 0.4 x 0.05 = 0.020 (M1: tree diagram). P(D) = 0.012 + 0.020 = 0.032 (A1). P(A | D) = 0.012/0.032 = 0.375 (M1 A1: conditional probability).</div></details>
+<details><summary>Of 100 students, 60 study maths, 45 study physics and 20 study both. Find P(maths or physics), P(neither) and P(maths | physics).</summary><div class="answer"><strong>Answer:</strong> P(M or P) = 0.60 + 0.45 - 0.20 = 0.85 (M1 A1: addition law). P(neither) = 1 - 0.85 = 0.15 (A1: complement). P(M | P) = 0.20/0.45 = 4/9 (A1: restricted sample space).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+maths+binomial+normal+distribution+hypothesis+testing+critical+region+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level maths binomial normal distribution hypothesis testing critical region Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - AQA probability and statistical distributions topic pages with past paper questions and worked solutions</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - Edexcel probability, distributions and hypothesis testing past paper questions by topic</a></li>
+<li data-board="OCR"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - OCR A binomial, normal and hypothesis testing past paper questions by topic</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT Maths revision site - probability and distribution questions transferable to WJEC/Eduqas and CCEA papers</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision - probability and statistical distributions notes by board</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths revision hub - all A-Level Maths topics with past paper questions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT - past papers and mark schemes for AQA, Edexcel and OCR A-Level Maths</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/mathematics/algebraic-methods-and-proof.html">&larr; Algebraic Methods and Proof</a><a href="../../topics/mathematics/statistics-data.html">The Large Data Set &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

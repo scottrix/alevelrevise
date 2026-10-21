@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Electric Fields and Capacitance - A-Level Physics Revision Notes</title>
+<meta name="description" content="A-Level Physics revision: Coulomb&#x27;s law, electric field strength, potential, charged particle motion, capacitance, energy stored, and exponential capacitor charge/discharge with the time constant - AQA 7408 3.7.3-3.7.4, OCR A H556 6.1-6.2, Edexcel 9PH0 Topic 7.">
+<meta name="keywords" content="A-Level Physics, Electric Fields and Capacitance, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Electric Fields and Capacitance - A-Level Physics">
+<meta property="og:description" content="A-Level Physics revision: Coulomb&#x27;s law, electric field strength, potential, charged particle motion, capacitance, energy stored, and exponential capacitor charge/discharge with the time constant - AQA 7408 3.7.3-3.7.4, OCR A H556 6.1-6.2, Edexcel 9PH0 Topic 7.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/physics/fields-electric.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/physics/fields-electric.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why do capacitors combine the opposite way to resistors?", "acceptedAnswer": {"@type": "Answer", "text": "It depends which quantity is common. In series, the same current delivers the same charge to each capacitor (charge is common), and the pds add (Kirchhoff's loop rule), so Q/C_total = \u03a3Q/C_i giving 1/C_total = \u03a31/C_i. In parallel, the pds are common and the charges add, so C_total V = \u03a3C_iV giving C_total = \u03a3C. Resistors share current in parallel and pd in series - the opposite, because V = IR rises with current instead of falling."}}{"@type": "Question", "name": "What does the time constant RC physically mean?", "acceptedAnswer": {"@type": "Answer", "text": "\u03c4 = RC is the time for the charge, pd or current on a discharging capacitor to fall to 1/e (about 37%) of its initial value. Physically it is the product of the two things slowing the decay: a bigger C stores more charge to remove, and a bigger R limits the discharge current - either one increases the time constant. After 5 time constants (Q < 1%) the capacitor is effectively fully discharged."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/physics/mechanics.html">Mechanics: Motion, Forces and Energy</a></li><li><a href="../../topics/physics/materials.html">Materials</a></li><li><a href="../../topics/physics/waves.html">Waves and Optics</a></li><li><a href="../../topics/physics/electricity-and-circuits.html">Electricity and Circuits</a></li><li><a href="../../topics/physics/particles-and-quantum.html">Particles and Quantum Phenomena</a></li><li><a href="../../topics/physics/fields-gravitation.html">Gravitation and Fields</a></li><li><a href="../../topics/physics/fields-electric.html" class="active">Electric Fields and Capacitance</a></li><li><a href="../../topics/physics/fields-magnetic.html">Magnetic Fields and Electromagnetic Induction</a></li><li><a href="../../topics/physics/thermal-uncertainty.html">Thermal Physics and Uncertainty</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../physics.html">Physics</a> <span>›</span>
+<span>Electric Fields and Capacitance</span>
+</nav>
+
+<article class="topic-header">
+<h1>Electric Fields and Capacitance</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
+</div>
+<p class="topic-desc">A-Level Physics revision: Coulomb&#x27;s law, electric field strength, potential, charged particle motion, capacitance, energy stored, and exponential capacitor charge/discharge with the time constant - AQA 7408 3.7.3-3.7.4, OCR A H556 6.1-6.2, Edexcel 9PH0 Topic 7.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Apply Coulomb&#x27;s law F = q1q2/(4πε0r^2) and compare with gravity (AO1/AO2) - AQA 7408 3.7.3.1, Edexcel 9PH0 Topic 7</li>
+<li>Calculate electric field strength for point charges and uniform fields (E = V/d) (AO2) - AQA 7408 3.7.3.2</li>
+<li>Use electric potential V = Q/(4πε0r), equipotentials and the field-potential gradient (AO2) - AQA 7408 3.7.3.3</li>
+<li>Analyse the motion of charged particles in uniform electric fields (parabolic paths) (AO2) - AQA 7408 3.7.3.2, OCR A H556 6.2</li>
+<li>Define capacitance, calculate energy stored, and combine capacitors (AO2) - AQA 7408 3.7.4.1</li>
+<li>Describe and calculate exponential charge/discharge with the time constant RC (AO2/AO3) - AQA 7408 3.7.4.2-3.7.4.3, OCR PAG8, Edexcel CP9</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Electric field strength (E):</strong> Force per unit positive charge, E = F/q, in N/C or V/m; a vector pointing from high to low potential (away from positive charges).</div>
+<div class="key-point"><strong>Coulomb&#x27;s law:</strong> F = q1q2/(4πε0r^2) - the force between two point charges; like charges repel; ε0 = 8.85 × 10^-12 F/m.</div>
+<div class="key-point"><strong>Electric potential (V):</strong> Work done per unit charge bringing a small positive charge from infinity: V = Q/(4πε0r); positive near positive charges, zero at infinity.</div>
+<div class="key-point"><strong>Capacitance (C):</strong> Charge stored per unit pd: C = Q/V, in farads (1 F = 1 C/V); practical capacitors are μF or pF.</div>
+<div class="key-point"><strong>Time constant (RC):</strong> The time for the charge (or current) on a discharging capacitor to fall to 1/e (≈37%) of its initial value; RC has units of seconds.</div>
+<div class="key-point"><strong>Permittivity (ε):</strong> A measure of how an electric field is affected by a medium; ε = ε0εr with εr the relative permittivity (dielectric constant).</div>
+<div class="key-point"><strong>Equipotential surface:</strong> A surface of constant potential; no work is done moving a charge along one; field lines cross at right angles.</div>
+<div class="key-point"><strong>Dielectric:</strong> An insulating material between capacitor plates that increases capacitance: its molecules polarise, reducing the field for the same charge.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Coulomb: F = q1q2/(4πε0r^2) - inverse square, like charges repel; compare with F = GMm/r^2.</div>
+<div class="key-point">Point charge field: E = Q/(4πε0r^2); uniform field between plates: E = V/d.</div>
+<div class="key-point">Potential: V = Q/(4πε0r); field = potential gradient, E = -dV/dr; ΔW = qΔV.</div>
+<div class="key-point">Capacitance C = Q/V (farad); parallel plate C = Aε0εr/d; series: 1/C_total = Σ1/C; parallel: C_total = ΣC.</div>
+<div class="key-point">Energy stored: W = ½QV = ½CV^2 = ½Q^2/C (area under the Q-V graph).</div>
+<div class="key-point">Discharge: Q = Q0e^(-t/RC); time constant RC = time to fall to 37%; after n time constants, Q = Q0e^-n.</div>
+<div class="key-point">Charging: Q = Q0(1 - e^(-t/RC)).</div>
+</section>
+<section class="section">
+<h2>Coulomb&#x27;s law and electric fields</h2>
+<p><strong>Coulomb's law: F = q1q2/(4πε0r^2)</strong> - the force between two point charges is proportional to each charge and to the inverse square of their separation; like charges repel, unlike attract (AQA 7408 3.7.3.1; Edexcel 9PH0 Topic 7; OCR A H556 6.2). ε0 = 8.85 × 10^-12 F/m (permittivity of free space); in a medium, replace with ε = ε0εr. The inverse-square form matches gravity (F = GMm/r^2) - same geometry (field lines spreading over spheres of area 4πr^2) - but charge has two signs, so electric forces attract <em>or</em> repel while gravity only attracts, and the electric force between subatomic particles is vastly stronger than gravity.</p><p><strong>Electric field strength</strong> is force per unit positive charge: E = F/q, in N/C (= V/m). For a point charge, substitute Coulomb's law: <strong>E = Q/(4πε0r^2)</strong> - radially outward from a positive charge, inward for negative. Field lines point in the direction of the force on a positive test charge; denser lines mean stronger field. Between two parallel plates the field is <strong>uniform</strong>: <strong>E = V/d</strong> (derivation: work done moving charge q between plates = qV; also W = Eqd; equate: Eqd = qV, so E = V/d) - field lines parallel, evenly spaced, from the positive to the negative plate.</p><details><summary>Worked example: field between plates</summary><p>Two parallel plates 5.0 mm apart are connected to a 200 V supply. Find E, and the force and acceleration on an electron between them (m = 9.11 × 10^-31 kg).</p><p><strong>Line 1:</strong> E = V/d = 200/5.0 × 10^-3 = 4.0 × 10^4 V/m (M1 A1: uniform field).</p><p><strong>Line 2:</strong> F = eE = 1.60 × 10^-19 × 4.0 × 10^4 = 6.4 × 10^-15 N (M1 A1), towards the positive plate.</p><p><strong>Line 3:</strong> a = F/m = 6.4 × 10^-15/9.11 × 10^-31 = 7.0 × 10^15 m/s^2 (A1) - enormous compared with g.</p></details>
+</section>
+<section class="section">
+<h2>Electric potential and equipotentials</h2>
+<p><strong>Electric potential</strong> at a point is the work done per unit charge bringing a small positive test charge from infinity: for a point charge Q, <strong>V = Q/(4πε0r)</strong> (AQA 7408 3.7.3.3). Positive near positive charges (repulsive - you do positive work pushing in), negative near negative charges, zero at infinity. <strong>Potential energy</strong> of charge q: E_p = qV = q1q2/(4πε0r). Moving a charge between two points: <strong>ΔW = qΔV</strong> - work done equals charge times potential difference; the pd <em>is</em> the energy per coulomb.</p><p><strong>Field strength is the potential gradient:</strong> E = -dV/dr - the field points down the potential slope. Graphically, V against r for a point charge is a curve falling as 1/r from large values at small r; the gradient at any r gives -E. <strong>Equipotential surfaces</strong> are spheres of constant V around a point charge (parallel planes between plates): moving a charge along one does no work (ΔV = 0), and field lines cross them at right angles - the two diagram facts always tested. Between parallel plates, equipotentials are evenly spaced planes because E is uniform.</p><p><strong>Comparison table with gravity</strong> (standard six-mark synthesis): force inverse-square in both; field strength force per unit charge/mass; potential zero at infinity in both; E/g = -dV/dr in both; gravity always attractive (V_g = -GM/r always negative) while electric potential has either sign; electric field can be shielded by conductors, gravity cannot.</p><details><summary>Worked example: potential and work done</summary><p>Find the potential 0.30 m from a +5.0 μC point charge, and the work done moving a +2.0 μC charge from 0.50 m to 0.30 m.</p><p><strong>Line 1:</strong> V = Q/(4πε0r) = (5.0 × 10^-6)/(4π × 8.85 × 10^-12 × 0.30) (M1) = 1.5 × 10^5 V (A1).</p><p><strong>Line 2:</strong> V at 0.50 m: = 9.0 × 10^4 V (same expression, r = 0.50) (A1).</p><p><strong>Line 3:</strong> ΔV = 1.5 × 10^5 - 9.0 × 10^4 = 6.0 × 10^4 V (M1: potential rises moving towards the positive charge).</p><p><strong>Line 4:</strong> ΔW = qΔV = 2.0 × 10^-6 × 6.0 × 10^4 = 0.12 J (A1: work done against the repulsive force).</p></details>
+</section>
+<section class="section">
+<h2>Motion of charged particles in uniform fields</h2>
+<p>A charged particle between parallel plates behaves exactly like a projectile (AQA 7408 3.7.3.2; OCR A H556 6.2): constant velocity parallel to the plates (no force that way) and constant acceleration perpendicular (force qE). The path is a <strong>parabola</strong>. Standard analysis: enter with speed v parallel to the plates; acceleration a = qE/m = qV/(md) perpendicular; time between plates t = L/v (length of plates over horizontal speed); vertical deflection y = ½at^2 = qVL^2/(2mdv^2).</p><p><strong>Work-energy route:</strong> a particle accelerated through a pd V gains kinetic energy qV: ½mv^2 = qV, so v = √(2qV/m) - the standard electron-gun calculation (used for the de Broglie and specific-charge questions too). Between deflecting plates, the exit velocity has components: parallel v unchanged, perpendicular v_y = at.</p><details><summary>Worked example: electron deflection</summary><p>An electron enters at 2.0 × 10^7 m/s midway between plates 5.0 mm apart, 200 V, of length 40 mm. Find its vertical deflection on exit.</p><p><strong>Line 1:</strong> E = V/d = 200/5.0 × 10^-3 = 4.0 × 10^4 V/m (M1 A1).</p><p><strong>Line 2:</strong> a = eE/m = 1.60 × 10^-19 × 4.0 × 10^4/9.11 × 10^-31 = 7.0 × 10^15 m/s^2 (M1 A1).</p><p><strong>Line 3:</strong> t = L/v = 0.040/2.0 × 10^7 = 2.0 × 10^-9 s (M1: time from horizontal motion).</p><p><strong>Line 4:</strong> y = ½at^2 = ½ × 7.0 × 10^15 × (2.0 × 10^-9)^2 = 1.4 × 10^-2 m = 14 mm (A1) - more than half the plate gap, so the electron would hit a plate; check the geometry.</p></details>
+</section>
+<section class="section">
+<h2>Capacitors: capacitance, energy and combinations</h2>
+<p>A <strong>capacitor</strong> stores charge on two plates separated by an insulator (AQA 7408 3.7.4.1; OCR A H556 6.1; Edexcel 9PH0 Topic 7). <strong>Capacitance</strong> is charge stored per unit pd: <strong>C = Q/V</strong>, in farads (1 F = 1 C/V); practical values are μF (10^-6) or pF (10^-12). For a parallel-plate capacitor with plate area A, separation d and dielectric of relative permittivity εr: <strong>C = Aε0εr/d</strong> - larger plates and closer separation store more charge (εr for air ≈ 1, ceramics and oxides much larger).</p><p><strong>Dielectric behaviour:</strong> the insulator's molecules polarise in the field - negative ends shift towards the positive plate - reducing the field inside for the same charge, so a lower pd is needed for the same Q and C increases by εr.</p><p><strong>Energy stored derivation:</strong> as the capacitor charges, the pd rises linearly from 0 to V while charge builds to Q, so the average pd during charging is V/2. Energy stored = ∫V dQ = ½QV - the area under the Q-V graph. Substituting Q = CV gives the useful forms <strong>W = ½CV^2</strong> and <strong>W = ½Q^2/C</strong>.</p><p><strong>Combinations:</strong> capacitors in <strong>parallel</strong> share the pd and add their charges: C_total = ΣC (opposite to resistors); in <strong>series</strong> each stores the same charge and the pds add: <strong>1/C_total = Σ1/C</strong> - series capacitors always give less than the smallest capacitance. Remember by which quantity is common: charge common in series, pd common in parallel.</p><details><summary>Worked example: energy stored and combinations</summary><p>Capacitors of 100 μF and 300 μF are connected in series across a 24 V supply. Find the charge stored, the pd across each, and the total energy stored.</p><p><strong>Line 1:</strong> Series: 1/C_total = 1/100 + 1/300 (μF) = 0.0133, C_total = 75 μF (M1 A1).</p><p><strong>Line 2:</strong> Series charge is common: Q = C_total V = 75 × 10^-6 × 24 = 1.8 × 10^-3 C (M1 A1).</p><p><strong>Line 3:</strong> Pds: V_1 = Q/C_1 = 1.8 × 10^-3/100 × 10^-6 = 18 V; V_2 = 6 V - sum 24 V, checking Kirchhoff's loop rule (A1: verification).</p><p><strong>Line 4:</strong> Total energy W = ½C_total V^2 = ½ × 75 × 10^-6 × 24^2 = 2.2 × 10^-2 J (A1) - less than a single 100 μF at 24 V would store (½CV^2 = 2.9 × 10^-2 J), because series capacitance is smaller.</p></details>
+</section>
+<section class="section">
+<h2>Capacitor charge and discharge (exponential decay)</h2>
+<p>Discharging a capacitor C through a resistor R (AQA 7408 3.7.4.2-3.7.4.3; OCR PAG8; Edexcel CP9): the pd drives current I = V/R, which falls as the charge (and pd) falls - an <strong>exponential decay</strong>.</p><p><strong>Derivation of Q = Q0e^(-t/RC):</strong> at any moment Q = CV and the discharge current I = -dQ/dt = V/R = Q/(RC). This is a differential equation: dQ/dt = -Q/(RC). Separating variables and integrating: ∫dQ/Q = -∫dt/(RC), so ln(Q/Q0) = -t/RC, giving <strong>Q = Q0e^(-t/RC)</strong>. Non-calculus version: in each small time step the charge loses a <em>constant fraction</em> proportional to itself - the defining property of exponential decay (like radioactive decay).</p><p><strong>Time constant:</strong> τ = RC - the time for Q, V or I to fall to 1/e ≈ 37% of the initial value (set t = RC: Q = Q0/e). After 2RC: 13.5%; after 3RC: 5%; effectively discharged after ~5RC. <strong>Charging:</strong> Q = Q0(1 - e^(-t/RC)) - rises to 63% after one time constant, asymptotically to full. <strong>Half-life:</strong> t_½ = RC ln 2 = 0.693RC - the time to halve, constant like radioactivity.</p><p><strong>Practical (required practical):</strong> charge a capacitor, discharge through a known R, and record V (or Q, via a data logger or multimeter) at timed intervals. Plot ln V against t: a straight line of <strong>gradient -1/RC</strong>, so C = -1/(R × gradient) - the log-graph method averages random error and tests the exponential model (a curve on a linear V-t plot, straight on ln V-t). Errors: multimeter resistance in parallel with R (use a high-impedance meter or data logger), timing resolution, capacitor tolerance (often ±20% - compare with the marked value using percentage difference).</p><details><summary>Worked example: time constant and capacitance</summary><p>A capacitor discharges through 47 kΩ. Its pd falls from 9.0 V to 3.3 V in 5.0 s.</p><p><strong>Line 1:</strong> 3.3/9.0 = 0.37 ≈ 1/e, so t = 5.0 s is one time constant: RC = 5.0 s (M1 A1: recognition of 37%).</p><p><strong>Line 2:</strong> C = RC/R = 5.0/47 × 10^3 = 1.06 × 10^-4 F ≈ 106 μF (M1 A1).</p><p><strong>Line 3:</strong> Log-graph check: ln(9.0/3.3) = 1.0, gradient = 1.0/5.0 = 0.20 s^-1 = 1/RC (A1: consistent).</p></details>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> Two parallel plates 5.0 mm apart are connected to a 200 V supply. An electron (m = 9.11 × 10^-31 kg, e = 1.60 × 10^-19 C) is placed midway between them. Calculate the electric field strength, the force on the electron, and its acceleration. (AQA 7408-style, 6 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Electric field strength: E = V/d = 200/5.0 × 10^-3 (M1: uniform field equation) = 4.0 × 10^4 V/m (A1: unit V/m or N/C). Force on the electron: F = eE = 1.60 × 10^-19 × 4.0 × 10^4 (M1: F = qE) = 6.4 × 10^-15 N (A1), directed towards the positive plate (A1: direction stated). Acceleration: a = F/m = 6.4 × 10^-15/9.11 × 10^-31 (M1: Newton&#x27;s second law) = 7.0 × 10^15 m/s^2 (A1) - vastly greater than g, so gravity is negligible.</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Two parallel metal plates 5.0 mm apart are connected to a 200 V supply. Calculate E between the plates, and the force and acceleration on an electron (m = 9.11 × 10^-31 kg).</summary><div class="answer"><strong>Answer:</strong> E = V/d = 200/5.0 × 10^-3 = 4.0 × 10^4 V/m (M1 A1). F = eE = 1.60 × 10^-19 × 4.0 × 10^4 = 6.4 × 10^-15 N (M1 A1), towards the positive plate. a = F/m = 7.0 × 10^15 m/s^2 (A1).</div></details>
+<details><summary>Find the potential 0.30 m from a +5.0 μC point charge and the work done moving a +2.0 μC charge from 0.50 m to 0.30 m.</summary><div class="answer"><strong>Answer:</strong> V = Q/(4πε0r) = 1.5 × 10^5 V at 0.30 m; 9.0 × 10^4 V at 0.50 m (M1 A1). ΔV = 6.0 × 10^4 V (M1). ΔW = qΔV = 2.0 × 10^-6 × 6.0 × 10^4 = 0.12 J (A1) - work done against repulsion.</div></details>
+<details><summary>A 100 μF capacitor charged to 12 V discharges through a 47 kΩ resistor. Calculate the initial energy stored, the time constant, and the pd after 10 s.</summary><div class="answer"><strong>Answer:</strong> W = ½CV^2 = ½ × 100 × 10^-6 × 12^2 = 7.2 × 10^-3 J (M1 A1). τ = RC = 47 × 10^3 × 100 × 10^-6 = 4.7 s (A1). V = V_0e^(-t/RC) = 12e^(-10/4.7) = 12 × 0.119 = 1.4 V (M1 A1: exponential substituted with correct initial pd).</div></details>
+<details><summary>Derive the exponential discharge equation Q = Q0e^(-t/RC).</summary><div class="answer"><strong>Answer:</strong> Q = CV and discharge current I = -dQ/dt = V/R = Q/(RC) (M1: circuit equations combined into the differential equation). dQ/dt = -Q/(RC); separate and integrate: ln(Q/Q0) = -t/RC (M1 A1). Exponentiate: Q = Q0e^(-t/RC) (A1).</div></details>
+<details><summary>An electron enters at 2.0 × 10^7 m/s midway between deflecting plates (200 V, 5.0 mm apart, 40 mm long). Calculate its vertical deflection on exit.</summary><div class="answer"><strong>Answer:</strong> E = 4.0 × 10^4 V/m; a = eE/m = 7.0 × 10^15 m/s^2 (M1 A1). t = L/v = 0.040/2.0 × 10^7 = 2.0 × 10^-9 s (M1). y = ½at^2 = 1.4 × 10^-2 m = 14 mm (A1) - exceeds half the plate separation (2.5 mm), so the electron strikes a plate before exiting: state this.</div></details>
+<details><summary>Capacitors of 100 μF and 300 μF are connected in series across a 24 V supply. Calculate the charge stored and the pd across each.</summary><div class="answer"><strong>Answer:</strong> 1/C_total = 1/100 + 1/300 = 0.0133 (μF^-1), C_total = 75 μF (M1 A1). Series: charge common, Q = C_total V = 75 × 10^-6 × 24 = 1.8 × 10^-3 C (M1 A1). Pds: V1 = Q/C1 = 1.8 × 10^-3/100 × 10^-6 = 18 V and V2 = 6 V - sum 24 V checks Kirchhoff (A1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+physics+electric+fields+Coulomb+law+capacitance+energy+stored+capacitor+charge+discharge+time+constant+revision" target="_blank" rel="noopener">YouTube: A level physics electric fields Coulomb law capacitance energy stored capacitor charge discharge time constant revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA find past papers and mark schemes - A-Level Physics 7408 fields papers (electric fields and capacitance)</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR qualifications - OCR A Level Physics A H556 past papers (Module 6 capacitors and electric fields)</a></li>
+<li data-board="All boards"><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor physics revision - electric fields and capacitors topic questions by board</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/physics-revision/" target="_blank" rel="noopener">Physics and Maths Tutor - A-Level Physics electric fields and capacitance revision by board</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA - find past papers and mark schemes for A-Level Physics 7408</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR - Physics A H556 qualification page with past papers, mark schemes and practical materials</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/physics/fields-gravitation.html">&larr; Gravitation and Fields</a><a href="../../topics/physics/fields-magnetic.html">Magnetic Fields and Electromagnetic Induction &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

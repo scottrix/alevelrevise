@@ -1,23 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Algebraic Methods and Proof - A-Level Mathematics Revision Notes</title>
-<meta name="description" content="Proof by deduction, contradiction, exhaustion; algebraic fractions and partial fractions. Complete revision notes for A-Level Mathematics.">
-<meta name="keywords" content="A-Level Mathematics, Algebraic Methods and Proof, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<meta name="description" content="Proof by deduction, exhaustion, counter-example and contradiction, algebraic identities and partial fractions - A-Level pure maths proof (Edexcel 9MA0 Topics 1-2, AQA 7357 A1/B8) revised with full worked proofs and mark-scheme logic.">
+<meta name="keywords" content="A-Level Mathematics, Algebraic Methods and Proof, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
 <meta property="og:title" content="Algebraic Methods and Proof - A-Level Mathematics">
-<meta property="og:description" content="Proof by deduction, contradiction, exhaustion; algebraic fractions and partial fractions. Complete revision notes for A-Level Mathematics.">
+<meta property="og:description" content="Proof by deduction, exhaustion, counter-example and contradiction, algebraic identities and partial fractions - A-Level pure maths proof (Edexcel 9MA0 Topics 1-2, AQA 7357 A1/B8) revised with full worked proofs and mark-scheme logic.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/mathematics/algebraic-methods-and-proof.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/mathematics/algebraic-methods-and-proof.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/mathematics/algebraic-methods-and-proof.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/mathematics/algebraic-methods-and-proof.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Algebraic Methods and Proof">
-<meta name="twitter:description" content="Proof by deduction, contradiction, exhaustion; algebraic fractions and partial fractions.">
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Prove by contradiction that there are infinitely many primes.", "acceptedAnswer": {"@type": "Answer", "text": "Assume finitely many primes p₁..pₙ. Let N = p₁p₂..pₙ + 1. N is prime or has a prime factor not in the list, contradicting finiteness."}}, {"@type": "Question", "name": "Express (3x² + 7x - 2) / ((x - 1)(x + 2)²) in partial fractions.", "acceptedAnswer": {"@type": "Answer", "text": "A/(x-1) + B/(x+2) + C/(x+2)². A = 8/9, B = 19/9, C = -4/3."}}]}</script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do all exam boards require proof by contradiction?", "acceptedAnswer": {"@type": "Answer", "text": "AQA 7357 A1 requires it explicitly, and OCR A, WJEC/Eduqas and CCEA include it in their proof requirements. Edexcel 9MA0 Topic 1 centres on deduction, exhaustion and counter-example, but contradiction-style arguments appear in Edexcel past papers, so learn the sqrt(2) and primes proofs regardless of board."}}{"@type": "Question", "name": "Why do I lose the last mark on proof questions?", "acceptedAnswer": {"@type": "Answer", "text": "Almost always the conclusion is missing or unstated. Examiners award the final mark for a sentence: 'this contradicts the assumption, therefore the statement is true.' A proof ending in algebra with no concluding statement, or a counter-example that is not shown to satisfy the conditions, drops the final A1."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -26,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../mathematics.html">Mathematics</a>
-<a href="../../../alevellessons/topics/mathematics/algebraic-methods-and-proof.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html" class="active">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/calculus-differentiation-and-integration.html">Calculus: Differentiation and Integration</a></li><li><a href="../../topics/mathematics/coordinate-geometry-and-circles.html">Coordinate Geometry and Circles</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li><li><a href="../../topics/mathematics/statistical-distributions-and-hypothesis-testing.html">Statistical Distributions and Hypothesis Testing</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=scientific+calculator+A-Level&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Scientific Calculators</div>
-<div class="affiliate-card-desc">Essential for A-Level Maths exams</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=graph+paper+a4+pad&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Graph Paper Pads</div>
-<div class="affiliate-card-desc">A4 squared paper for maths</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=A-Level+Maths+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Maths Revision Guides</div>
-<div class="affiliate-card-desc">CGP and other revision guides</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/vectors.html">Vectors</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html" class="active">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/probability-distributions.html">Probability and Distributions</a></li><li><a href="../../topics/mathematics/statistics-data.html">The Large Data Set</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -58,163 +45,147 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
 <a href="../../mathematics.html">Mathematics</a> <span>›</span>
-<a href="../../mathematics.html#pure-mathematics">Pure Mathematics</a> <span>›</span>
 <span>Algebraic Methods and Proof</span>
 </nav>
 
 <article class="topic-header">
-<h1>M1: Algebraic Methods and Proof</h1>
+<h1>Algebraic Methods and Proof</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">Proof by deduction, contradiction, exhaustion; algebraic fractions and partial fractions.</p>
+<p class="topic-desc">Proof by deduction, exhaustion, counter-example and contradiction, algebraic identities and partial fractions - A-Level pure maths proof (Edexcel 9MA0 Topics 1-2, AQA 7357 A1/B8) revised with full worked proofs and mark-scheme logic.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Understand and use the structure of mathematical proof, proceeding from given assumptions through a chain of valid logical steps to the conclusion (AO2) - Edexcel 9MA0 Topic 1, AQA 7357 A1, OCR A H640 1.01</li>
+<li>Prove statements by deduction and by exhaustion, and prove algebraic identities using the equivalence sign (AO2) - AQA 7357 A1, Edexcel 9MA0 1.1-1.2</li>
+<li>Disprove a statement by counter-example, selecting one value satisfying the conditions for which the claim fails (AO2) - Edexcel 9MA0 1.3, AQA 7357 A1</li>
+<li>Carry out proofs by contradiction, including the irrationality of sqrt(2) and the infinitude of the primes (AO2) - AQA 7357 A1, OCR A H640 1.01; Edexcel tests contradiction-style arguments in past papers</li>
+<li>Decompose proper rational functions into partial fractions with distinct and repeated linear factors, dividing improper fractions first (AO1/AO2) - Edexcel 9MA0 2.5, AQA 7357 B8</li>
+<li>Select and justify the correct proof technique and write arguments in full sentences showing every logical step (AO2/AO3)</li>
+</ul>
+</section>
 <section class="section">
 <h2>📋 Key Definitions and Core Concepts</h2>
-<div class="key-point"><strong>Proof by Contradiction:</strong> Establishing truth by demonstrating that assuming the statement to be false leads to a logical contradiction.</div>
-<div class="key-point"><strong>Partial Fractions:</strong> Decomposing rational fractions P(x)/Q(x) into sums of simpler terms with linear or quadratic denominators.</div>
-<div class="key-point"><strong>Proof by Deduction:</strong> Starting from known facts, definitions or established results and using a chain of valid logical steps to reach the required conclusion.</div>
-<div class="key-point"><strong>Proof by Exhaustion:</strong> Splitting a statement into a finite number of cases that cover all possibilities and proving each case separately.</div>
-<div class="key-point"><strong>Disproof by Counter-Example:</strong> Finding one specific value that satisfies the conditions of a statement but for which the statement fails; this disproves the statement.</div>
-<div class="key-point"><strong>Identity:</strong> A statement that is true for all values of the variable, denoted ≡; each side is simplified or manipulated independently when proving an identity.</div>
+<div class="key-point"><strong>Proof by deduction:</strong> Starting from known facts, definitions or established results and using a chain of valid logical steps to reach the required conclusion.</div>
+<div class="key-point"><strong>Proof by exhaustion:</strong> Splitting a statement into a finite number of cases that cover all possibilities and proving each case separately.</div>
+<div class="key-point"><strong>Disproof by counter-example:</strong> Finding one specific value that satisfies the conditions of a statement but for which the statement fails; one counter-example disproves the claim outright.</div>
+<div class="key-point"><strong>Proof by contradiction:</strong> Establishing that a statement is true by assuming it is false and deriving a logical contradiction from that assumption.</div>
+<div class="key-point"><strong>Identity:</strong> A statement true for all values of the variable, denoted with the equivalence sign; each side is manipulated independently rather than solved.</div>
+<div class="key-point"><strong>Partial fractions:</strong> Expressing a rational function P(x)/Q(x) as a sum of simpler fractions with linear or repeated linear denominators, typically to prepare for integration.</div>
+<div class="key-point"><strong>Proper rational function:</strong> A fraction whose numerator has smaller degree than its denominator; only proper fractions can be split into partial fractions directly.</div>
+<div class="key-point"><strong>Improper rational function:</strong> A fraction whose numerator has degree greater than or equal to its denominator; it must first be divided using polynomial long division.</div>
+<div class="key-point"><strong>Repeated linear factor:</strong> A factor of the form (ax + b) appearing to a power higher than one; it generates one fraction for each power up to the highest.</div>
 </section>
-
 <section class="section">
-<h2>🔍 Key Principles & Specification Requirements</h2>
+<h2>📌 Key Points</h2>
+<div class="key-point">Deduction chains known facts into the conclusion; exhaustion proves every case in a finite split; a single counter-example disproves a general claim.</div>
+<div class="key-point">Contradiction: assume the statement false, derive an impossible consequence, conclude the original statement is true.</div>
+<div class="key-point">Identities use the equivalence sign and hold for all values of the variable; manipulate each side independently.</div>
+<div class="key-point">Partial fraction forms: A/(ax+b) + B/(cx+d) for distinct linear factors; A/(ax+b) + B/(ax+b)^2 for a repeated factor; divide improper fractions first.</div>
+<div class="key-point">Proofs are marked on structure: state the assumption or case split, show every logical step, state the contradiction or conclusion explicitly.</div>
+</section>
+<section class="section">
+<h2>The structure of mathematical proof</h2>
+<p>A proof is a chain of logical steps from given assumptions to a conclusion, and examiners mark the chain, not just the destination. Four techniques appear at A-level (Edexcel 9MA0 Topic 1; AQA 7357 A1; OCR A H640 1.01; WJEC/Eduqas and CCEA AS/A2 Pure Mathematics), and the first skill is choosing the right one. <strong>Proof by deduction</strong> is the default: start from algebra you know, manipulate validly, land on the result - used for statements that are genuinely always true. <strong>Proof by exhaustion</strong> applies when the domain splits into a small finite number of cases. <strong>Disproof by counter-example</strong> applies to universal claims that are false: one failing value is enough. <strong>Proof by contradiction</strong> applies when direct deduction is awkward but assuming the opposite produces something impossible.</p><p>Distinguish an <strong>identity</strong> from an equation. An equation such as 2x = 6 is true for particular values of x and is solved. An identity such as (x + 1)^2 = x^2 + 2x + 1 is true for <em>all</em> values and is proved, with each side simplified independently - you never subtract one side from the other as if solving. Identities are proved by expanding or factorising one side into the other, and the equivalence sign should be used once the equivalence is established.</p><p>Mark schemes award specific marks for specific structural moves: M1 for stating the assumption or setting up the cases, M1 for valid manipulation, A1 for the contradiction or conclusion, often with a final B1 requiring the conclusion to be stated in words. A proof that ends in algebra with no concluding sentence routinely drops the last mark.</p>
+</section>
+<section class="section">
+<h2>Proof by deduction and algebraic identities</h2>
+<p>Deduction proofs at this level are short algebraic arguments. Two standard patterns cover most questions: factorisation patterns (showing an expression is a multiple of something) and parity patterns (showing an expression is even or odd).</p><details><summary>Worked example: a deduction proof by factorisation</summary><p>Prove that n^3 - n is divisible by 3 for all positive integers n.</p><p><strong>Line 1:</strong> n^3 - n = n(n^2 - 1) (M1: factor out n).</p><p><strong>Line 2:</strong> n^2 - 1 = (n - 1)(n + 1), so n^3 - n = (n - 1)n(n + 1) (M1: difference of two squares).</p><p><strong>Line 3:</strong> This is a product of three consecutive integers, so exactly one of the factors is a multiple of 3 (A1: valid argument).</p><p><strong>Line 4:</strong> Hence the product is divisible by 3 for every positive integer n (A1: conclusion stated).</p></details><details><summary>Worked example: a parity deduction proof</summary><p>Prove that the sum of the squares of two consecutive integers is always odd.</p><p><strong>Line 1:</strong> Let the integers be n and n + 1. Sum of squares: n^2 + (n + 1)^2 = n^2 + n^2 + 2n + 1 = 2n^2 + 2n + 1 (M1).</p><p><strong>Line 2:</strong> 2n^2 + 2n + 1 = 2n(n + 1) + 1 (M1: factor out 2).</p><p><strong>Line 3:</strong> 2n(n + 1) is even, so the sum is one more than an even number, hence odd (A1: conclusion).</p></details><p>Identity proofs follow the same algebra but work side-by-side. The classic A* identity: prove that (x + 1)(x + 2)(x + 3)(x + 4) + 1 = (x^2 + 5x + 5)^2 for all real x. Group (x + 1)(x + 4) = x^2 + 5x + 4 and (x + 2)(x + 3) = x^2 + 5x + 6; writing u = x^2 + 5x, the product is (u + 4)(u + 6) = u^2 + 10u + 24, so adding 1 gives u^2 + 10u + 25 = (u + 5)^2 = (x^2 + 5x + 5)^2. The substitution u = x^2 + 5x is the A* step that keeps the algebra short.</p>
+</section>
+<section class="section">
+<h2>Disproof by counter-example and proof by exhaustion</h2>
+<p>To disprove a universal claim, you do not need an argument - you need one example. The value must <strong>satisfy the conditions of the statement</strong> but fail the conclusion. Two classics: the claim that n^2 + n + 41 is prime for all positive integers n holds for n = 1 to 39 but fails at n = 40, since 40^2 + 40 + 41 = 1681 = 41^2; and the claim that x^2 > x for all real x fails at x = 1/2, where x^2 = 1/4 < 1/2. In an exam, state the counter-example, verify it satisfies the conditions, and evaluate it to show the claim fails - one line each.</p><p>Proof by exhaustion is the correct technique when the domain splits into a small number of cases. The standard example: prove that every perfect square ends in the digit 0, 1, 4, 5, 6 or 9. Every integer has one of ten possible last digits, so there are ten cases, checked in a table:</p><table><tr><th>Last digit n</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr><tr><th>Last digit of n^2</th><td>0</td><td>1</td><td>4</td><td>9</td><td>6</td><td>5</td><td>6</td><td>9</td><td>4</td><td>1</td></tr></table><p>The ten cases are exhausted: no last digit produces a square ending in 2, 3, 7 or 8, so the claim is proved. Another exhaustion pattern: for 1 <= n <= 6, check each value of n against the claim individually - legitimate because the list is finite and complete.</p><p>The mark-scheme discipline: a counter-example must be <em>specific</em> (n = 40, not some large n) and exhaustion must be <em>complete</em> (all cases, explicitly listed). Partial exhaustion or a vague counter-example earns zero on the disproof mark.</p>
+</section>
+<section class="section">
+<h2>Proof by contradiction: full rigour</h2>
+<p>Contradiction proofs have a fixed skeleton: (1) assume the statement is false; (2) deduce consequences validly until something impossible appears; (3) conclude the assumption was wrong, so the statement is true. AQA 7357 A1 requires this technique explicitly, and it appears in OCR A, WJEC and CCEA specifications; Edexcel 9MA0 centres on deduction, exhaustion and counter-example, but contradiction-style arguments appear in past paper extensions.</p><details><summary>Worked example: sqrt(2) is irrational</summary><p><strong>Line 1:</strong> Assume sqrt(2) is rational, so sqrt(2) = a/b where a, b are integers with no common factor (fraction in lowest terms) (M1: assumption stated).</p><p><strong>Line 2:</strong> Squaring: 2 = a^2/b^2, so a^2 = 2b^2 (M1: valid algebra).</p><p><strong>Line 3:</strong> a^2 is even, so a is even; write a = 2k (A1: justified - if a were odd, a^2 would be odd).</p><p><strong>Line 4:</strong> Substituting: 2b^2 = 4k^2, so b^2 = 2k^2, hence b is also even (A1).</p><p><strong>Line 5:</strong> a and b are both even, so they share the factor 2 - contradicting the choice of a/b in lowest terms (A1: contradiction identified).</p><p><strong>Line 6:</strong> The assumption is false, so sqrt(2) is irrational (A1: conclusion stated).</p></details><details><summary>Worked example: infinitely many primes</summary><p><strong>Line 1:</strong> Assume there are finitely many primes, listed p_1, p_2, ..., p_n (M1).</p><p><strong>Line 2:</strong> Let N = p_1 p_2 ... p_n + 1 (M1: construction).</p><p><strong>Line 3:</strong> N leaves remainder 1 when divided by each p_i, so no listed prime divides N (A1).</p><p><strong>Line 4:</strong> So N is either itself prime or has a prime factor outside the list - either way a prime exists beyond the finite list, contradicting the assumption (A1: contradiction).</p><p><strong>Line 5:</strong> Hence there are infinitely many primes (A1: conclusion).</p></details><p>Two further contradiction patterns to know: to prove that if n^2 is even then n is even, assume n is odd, write n = 2k + 1, so n^2 = 4k^2 + 4k + 1 is odd - contradicting n^2 even. And to prove that the sum of a rational and an irrational number is irrational, assume it is rational and subtract to force the irrational number to be rational. Each follows the same skeleton: assumption, valid steps, impossible consequence, conclusion.</p>
+</section>
+<section class="section">
+<h2>Partial fractions: forms, division and the checks</h2>
+<p>Partial fractions (Edexcel 9MA0 2.5; AQA 7357 B8; OCR A H640 6.01) reverse the process of adding fractions, and they matter because Year 2 integration requires them. First, classify the fraction. A <strong>proper</strong> fraction (numerator degree below denominator degree) is split directly. An <strong>improper</strong> fraction (numerator degree at or above denominator degree) must be divided first, leaving a polynomial plus a proper remainder.</p><p>Forms: for distinct linear factors (x - a)(x + b), write A/(x - a) + B/(x + b). For a repeated linear factor (x + c)^2, write A/(x + c) + B/(x + c)^2. The <strong>cover-up and substitution</strong> method finds constants quickly: multiply through by the denominator and substitute the root of each factor in turn.</p><details><summary>Worked example: distinct linear factors</summary><p>Express (5x - 2)/((x - 2)(x + 1)) in partial fractions.</p><p><strong>Line 1:</strong> 5x - 2 = A(x + 1) + B(x - 2) (M1: correct form).</p><p><strong>Line 2:</strong> x = 2: 8 = 3A, so A = 8/3 (A1).</p><p><strong>Line 3:</strong> x = -1: -7 = -3B, so B = 7/3 (A1).</p><p><strong>Line 4:</strong> (5x - 2)/((x - 2)(x + 1)) = 8/(3(x - 2)) + 7/(3(x + 1)) (A1).</p></details><details><summary>Worked example: repeated factor with an improper fraction</summary><p>Express (2x^2 + 3x + 5)/(x + 1)^2 in partial fractions.</p><p><strong>Line 1:</strong> Improper (both degrees 2), so divide: 2(x + 1)^2 = 2x^2 + 4x + 2, and (2x^2 + 3x + 5) - (2x^2 + 4x + 2) = -x + 3 (M1).</p><p><strong>Line 2:</strong> So the fraction = 2 + (-x + 3)/(x + 1)^2 (A1).</p><p><strong>Line 3:</strong> -x + 3 = A(x + 1) + B. Setting x = -1: 4 = B (A1). Comparing coefficients of x: -1 = A.</p><p><strong>Line 4:</strong> Answer: 2 - 1/(x + 1) + 4/(x + 1)^2 (A1).</p></details><p>Always check by substituting one value of x into both sides - if they disagree, a constant is wrong. Note the sign trap: when a substitution gives a negative product, solve carefully (a frequent source of wrong constants). AQA and OCR also expect the form (Ax + B)/(irreducible quadratic) for quadratic denominators; Edexcel 9MA0 restricts to linear and repeated linear factors.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> Prove by contradiction that there are infinitely many prime numbers. (AQA 7357-style, 5 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Assume, for contradiction, that there are finitely many primes, listed p_1, p_2, ..., p_n (M1: assumption stated). Let N = p_1 p_2 ... p_n + 1 (M1: construction). When N is divided by any listed prime p_i, the remainder is 1, so no p_i divides N (A1: valid deduction). Therefore N is either prime itself or has a prime factor that is not in the list - in both cases a prime exists outside the assumed complete list (A1: contradiction identified). This contradicts the assumption that the list contained all primes, so there must be infinitely many primes (A1: conclusion stated in words).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Prove by contradiction that sqrt(2) is irrational.</summary><div class="answer"><strong>Answer:</strong> Assume sqrt(2) = a/b in lowest terms (M1). Squaring: a^2 = 2b^2, so a^2 is even, hence a is even; write a = 2k (A1). Then 2b^2 = 4k^2, so b^2 = 2k^2 and b is even (A1). Both a and b even contradicts lowest terms (A1), so sqrt(2) is irrational (A1: conclusion).</div></details>
+<details><summary>Disprove by counter-example the statement: for all real x, x^2 &gt; x.</summary><div class="answer"><strong>Answer:</strong> Take x = 1/2 (M1: value satisfies the condition, real x). Then x^2 = 1/4, which is less than 1/2, so the statement fails (A1). One counter-example is sufficient to disprove the universal claim.</div></details>
+<details><summary>Prove that n^3 - n is divisible by 3 for all positive integers n.</summary><div class="answer"><strong>Answer:</strong> n^3 - n = n(n^2 - 1) = n(n - 1)(n + 1) (M1 A1: full factorisation). This is a product of three consecutive integers, so exactly one factor is a multiple of 3 (A1). Hence n^3 - n is divisible by 3 for every positive integer n (A1: conclusion).</div></details>
+<details><summary>Express (3x^2 + 7x - 2)/((x - 1)(x + 2)^2) in partial fractions.</summary><div class="answer"><strong>Answer:</strong> Form: A/(x - 1) + B/(x + 2) + C/(x + 2)^2 (M1). Multiply through: 3x^2 + 7x - 2 = A(x + 2)^2 + B(x - 1)(x + 2) + C(x - 1). x = 1: 8 = 9A, so A = 8/9 (A1). x = -2: -4 = -3C, so C = 4/3 (A1). Comparing x^2 coefficients: A + B = 3, so B = 3 - 8/9 = 19/9 (A1). Check constant: 4A - 2B - C = 32/9 - 38/9 - 12/9 = -18/9 = -2, as required.</div></details>
+<details><summary>Express (2x^2 + 3x + 5)/(x + 1)^2 in partial fractions.</summary><div class="answer"><strong>Answer:</strong> Improper fraction, so divide first: 2(x + 1)^2 = 2x^2 + 4x + 2; remainder (2x^2 + 3x + 5) - (2x^2 + 4x + 2) = -x + 3 (M1 A1). Write (-x + 3)/(x + 1)^2 = A/(x + 1) + B/(x + 1)^2, so -x + 3 = A(x + 1) + B. x = -1: B = 4 (A1). Coefficient of x: A = -1 (A1). Answer: 2 - 1/(x + 1) + 4/(x + 1)^2.</div></details>
+<details><summary>Prove by exhaustion that every perfect square ends in the digit 0, 1, 4, 5, 6 or 9.</summary><div class="answer"><strong>Answer:</strong> Every integer has one of ten possible last digits n = 0 to 9, so exhaust all ten cases (M1). Squaring each: 0 to 0, 1 to 1, 2 to 4, 3 to 9, 4 to 6, 5 to 5, 6 to 6, 7 to 9, 8 to 4, 9 to 1 (A1: complete table of cases). The only final digits appearing are 0, 1, 4, 5, 6, 9, so the claim holds for every integer (A1: conclusion).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+maths+proof+by+contradiction+counter+example+partial+fractions+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level maths proof by contradiction counter example partial fractions Edexcel revision</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - AQA proof and algebra topic pages with past paper questions and worked solutions</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - Edexcel algebraic methods and proof past paper questions arranged by topic</a></li>
+<li data-board="OCR"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - OCR A proof questions including contradiction-style arguments by topic</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT Maths revision site - proof and partial fractions questions transferable to WJEC/Eduqas and CCEA papers</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
 <ul>
-<li>To prove √2 is irrational, assume √2 = a/b in lowest terms, square to get 2b² = a², deduce a and b are both even, contradicting lowest terms.</li>
-<li>Partial fraction forms: A/(ax+b) + B/(cx+d) for distinct linear factors; A/(ax+b) + B/(ax+b)² for repeated factors.</li>
-<li>Improper fractions (deg numerator ≥ deg denominator) must first be divided by polynomial division.</li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision - algebraic methods and proof notes and worksheets by board</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths revision hub - all A-Level Maths topics with past paper questions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT - past papers and mark schemes for AQA, Edexcel and OCR A-Level Maths</a></li>
 </ul>
 </section>
 
 <section class="section">
-<h2>💡 Worked Example Question</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong></p>
-<p>Express (5x - 2) / ((x - 2)(x + 1)) in partial fractions.</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Solution & Mark Scheme:</strong></p>
-<pre style="white-space: pre-wrap; font-family: inherit; color: var(--text-primary);">Set 5x - 2 = A(x + 1) + B(x - 2).
-x = 2: 8 = 3A => A = 8/3.
-x = -1: -7 = -3B => B = 7/3.
-Result: 8/(3(x - 2)) + 7/(3(x + 1)).</pre>
-</div>
-</div>
-</section>
-
-<section class="section">
-<h2>❓ Practice Questions & Mark Schemes</h2>
-<div class="practice-questions">
-<div class="question">
-  <p><strong>Q1:</strong> Prove by contradiction that there are infinitely many primes.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Assume finitely many primes p₁..pₙ. Let N = p₁p₂..pₙ + 1. N is prime or has a prime factor not in the list, contradicting finiteness.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> Express (3x² + 7x - 2) / ((x - 1)(x + 2)²) in partial fractions.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> A/(x-1) + B/(x+2) + C/(x+2)². A = 8/9, B = 19/9, C = -4/3.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> Prove that n³ − n is divisible by 3 for all positive integers n.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> n³ − n = n(n² − 1) = n(n − 1)(n + 1). This is a product of three consecutive integers, so exactly one of the factors is a multiple of 3. Hence the product is divisible by 3 for every positive integer n. ∎</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q4:</strong> Express (2x² + 3x + 5) / (x + 1)² in partial fractions.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> The fraction is improper (numerator degree 2 = denominator degree 2), so divide first: 2(x + 1)² = 2x² + 4x + 2, and (2x² + 3x + 5) − (2x² + 4x + 2) = −x + 3. So the fraction = 2 + (−x + 3)/(x + 1)². Write (−x + 3)/(x + 1)² = A/(x + 1) + B/(x + 1)², so −x + 3 = A(x + 1) + B. Setting x = −1: B = 4. Comparing coefficients of x: A = −1. Result: 2 − 1/(x + 1) + 4/(x + 1)².</p>
-    </div>
-  </details>
-</div>
-</div>
-</section>
-
-<div class="topic-nav">
-<a href="../../mathematics.html">← Back to Mathematics Overview</a>
-<a href="../../index.html">All Subjects →</a>
-</div>
-
-
-
-<section class="section">
-<h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Algebraic+Methods+and+Proof+A-Level" target="_blank" rel="noopener">Algebraic Methods and Proof - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Algebraic+Methods+and+Proof+exam+questions" target="_blank" rel="noopener">Algebraic Methods and Proof - Exam Questions</a> -- YouTube Search</li></ul>
-</section><section class="section">
-<h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level - Past Papers</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level - Past Papers</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level - Past Papers</a> -- OCR</li></ul>
-</section><section class="section">
-<h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">Physics & Maths Tutor</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize" target="_blank" rel="noopener">BBC Bitesize</a> -- BBC Bitesize revision resources</li></ul>
-</section>
-
-
-
-<section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/mathematics/trigonometry.html">← Trigonometry</a>
-<a href="../../mathematics.html">← Back to Mathematics Overview</a>
-<a href="../../topics/mathematics/calculus-differentiation-and-integration.html">Calculus: Differentiation and Integration →</a>
-</nav>
+
+<nav class="topic-nav"><a href="../../topics/mathematics/vectors.html">&larr; Vectors</a><a href="../../topics/mathematics/probability-distributions.html">Probability and Distributions &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
 <p>Content for educational purposes only. Always cross-reference with official specifications.</p>
 <p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
-<p>© 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
 </footer>
 <script>
 document.getElementById('theme-toggle').addEventListener('click', function() {
@@ -231,10 +202,10 @@ document.documentElement.classList.add('light-mode'); document.getElementById('t
 </script>
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -252,28 +223,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
-</body>
-</html>
+</body></html>

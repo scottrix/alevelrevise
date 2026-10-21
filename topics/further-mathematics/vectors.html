@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vectors - A-Level Further Mathematics Revise Notes</title>
-<meta name="description" content="A-Level Further Mathematics revision: Vectors. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
-<meta name="keywords" content="A-Level Further Mathematics, Vectors, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
-<meta property="og:title" content="Vectors - A-Level Further Mathematics">
-<meta property="og:description" content="A-Level Further Mathematics revision: Vectors. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
+<title>Further Vectors - A-Level Further Mathematics Revision Notes</title>
+<meta name="description" content="3D vector equations of lines, scalar and vector products, angles between lines and planes, intersections and shortest distances - Edexcel 9FM0 Core Pure 2 vectors revision with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Further Mathematics, Further Vectors, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
+<meta property="og:title" content="Further Vectors - A-Level Further Mathematics">
+<meta property="og:description" content="3D vector equations of lines, scalar and vector products, angles between lines and planes, intersections and shortest distances - Edexcel 9FM0 Core Pure 2 vectors revision with worked examples and mark-scheme logic.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/further-mathematics/vectors.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/further-mathematics/vectors.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/further-mathematics/vectors.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/further-mathematics/vectors.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Vectors">
-<meta name="twitter:description" content="Vectors -- A-Level Further Mathematics revision notes.">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Why is sine used for the angle between a line and a plane but cosine between two planes?", "acceptedAnswer": {"@type": "Answer", "text": "The angle between a line and a plane is the complement of the angle between the line's direction and the plane's normal, so sin \u03b1 = |d\u00b7n|/(|d||n|). Between two planes you compare their normals directly, so cos \u03b2 = |n\u2081\u00b7n\u2082|/(|n\u2081||n\u2082|). Mixing these up is one of the most common errors in vectors questions."}}{"@type": "Question", "name": "What makes two lines skew rather than intersecting?", "acceptedAnswer": {"@type": "Answer", "text": "Skew lines are not parallel but never meet - they lie in different planes. Test: equate the two vector equations with different parameters (t and s); if no consistent solution exists for all three component equations and the direction vectors are not multiples of each other, the lines are skew. A consistent solution verified in all three equations means they intersect."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -25,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../further-mathematics.html">Further Mathematics</a>
-<a href="../../../alevellessons/topics/further-mathematics/vectors.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/further-mathematics/complex-numbers.html">Complex Numbers</a></li><li><a href="../../topics/further-mathematics/matrices.html">Matrices</a></li><li><a href="../../topics/further-mathematics/vectors.html" class="active">Vectors</a></li><li><a href="../../topics/further-mathematics/polar-coordinates.html">Polar Coordinates</a></li><li><a href="../../topics/further-mathematics/hyperbolic-functions.html">Hyperbolic Functions</a></li><li><a href="../../topics/further-mathematics/complex-numbers-and-de-moivres-theorem.html">Complex Numbers and De Moivre&#x27;s Theorem</a></li><li><a href="../../topics/further-mathematics/matrices-and-linear-transformations.html">Matrices and Linear Transformations</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=A-Level+Further+Maths+revision&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Further Maths Guides</div>
-<div class="affiliate-card-desc">Core Pure and option guides</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=graphic+calculator+student&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Graphic Calculators</div>
-<div class="affiliate-card-desc">CAS and graphing calculators</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=A-Level+Maths+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Maths Revision Guides</div>
-<div class="affiliate-card-desc">CGP and other revision guides</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/further-mathematics/complex-numbers.html">Complex Numbers</a></li><li><a href="../../topics/further-mathematics/matrices.html">Matrices and Linear Transformations</a></li><li><a href="../../topics/further-mathematics/vectors.html" class="active">Further Vectors</a></li><li><a href="../../topics/further-mathematics/polar-coordinates.html">Polar Coordinates</a></li><li><a href="../../topics/further-mathematics/hyperbolic-functions.html">Hyperbolic Functions</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -57,134 +45,135 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
 <a href="../../further-mathematics.html">Further Mathematics</a> <span>›</span>
-<span>Vectors</span>
+<span>Further Vectors</span>
 </nav>
 
 <article class="topic-header">
-<h1>Vectors</h1>
+<h1>Further Vectors</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">A-Level Further Mathematics revision: Vectors. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.</p>
+<p class="topic-desc">3D vector equations of lines, scalar and vector products, angles between lines and planes, intersections and shortest distances - Edexcel 9FM0 Core Pure 2 vectors revision with worked examples and mark-scheme logic.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
-<section class="section">
-<h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Vector form: r = a + λb (line), r = a + λb + μc (plane)</div><div class="key-point"><strong>Key Fact:</strong> Dot product: a·b = |a||b|cosθ = a₁b₁+a₂b₂+a₃b₃; perpendicular iff a·b = 0</div><div class="key-point"><strong>Key Fact:</strong> Cross product: axb = |a||b|sinθ n̂ = det[i j k; a₁ a₂ a₃; b₁ b₂ b₃]</div><div class="key-point"><strong>Key Fact:</strong> Area: triangle = ½|axb|; parallelogram = |axb|; volume = |a·(bxc)|</div><div class="key-point"><strong>Key Fact:</strong> Line eqn: r = a + λb; Cartesian: (x-x₁)/l = (y-y₁)/m = (z-z₁)/n</div><div class="key-point"><strong>Key Fact:</strong> Plane eqn: r·n = d (normal n, distance d/|n| from origin) or n₁x+n₂y+n₃z = d</div><div class="key-point"><strong>Key Fact:</strong> Intersection: substitute line into plane, solve for λ</div><div class="key-point"><strong>Key Fact:</strong> Distance point to plane: |ax₀+by₀+cz₀-d|/sqrt(a^2+b^2+c^2); point to line: |bx(a-p)|/|b|</div>
-</section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Perform vector operations in 2D and 3D</li><li>Use scalar (dot) product to find angles and test perpendicularity</li><li>Use vector (cross) product to find area and normal vectors</li><li>Find equations of lines in vector and cartesian form</li><li>Find equations of planes in vector, cartesian and parametric form</li><li>Calculate distances: point-to-line, point-to-plane, line-to-line, line-to-plane</li><li>Find intersections of lines and planes</li><li>Apply vectors to mechanics problems</li></ul>
+<ul>
+<li>Find the vector equation of a line in three dimensions and convert it to Cartesian (symmetric) form (AO1) - Edexcel 9FM0/02 Core Pure 2; OCR MEI H645 Further Pure</li>
+<li>Use the scalar (dot) product to test perpendicularity and to find angles between two lines, and between a line and a plane (AO1/AO2)</li>
+<li>Compute the vector (cross) product and use it to find a vector perpendicular to two given vectors and the area of a triangle (AO1/AO2)</li>
+<li>Find the intersection of two lines and of a line and a plane, and describe the relative positions of planes (AO2/AO3)</li>
+<li>Find the shortest distance from a point to a line and from a point to a plane (AO2)</li>
+<li>Write the equation of a plane from a normal vector and a point, and find the angle between two planes (AO1/AO2)</li>
+</ul>
 </section>
-
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Vector equation of a line:</strong> r = a + t d, where a is the position vector of any point on the line and d is a direction vector; t is a scalar parameter.</div>
+<div class="key-point"><strong>Cartesian equation of a line:</strong> (x − x₁)/l = (y − y₁)/m = (z − z₁)/n for direction vector (l, m, n); obtained by eliminating the parameter t.</div>
+<div class="key-point"><strong>Scalar (dot) product:</strong> a·b = a₁b₁ + a₂b₂ + a₃b₃ = |a||b| cos θ; a and b are perpendicular exactly when a·b = 0.</div>
+<div class="key-point"><strong>Vector (cross) product:</strong> a × b = (a₂b₃ − a₃b₂, a₃b₁ − a₁b₃, a₁b₂ − a₂b₁), a vector perpendicular to both a and b with magnitude |a × b| = |a||b| sin θ.</div>
+<div class="key-point"><strong>Normal vector:</strong> A vector perpendicular to a plane; a plane with normal n passing through the point with position vector p has equation r·n = p·n.</div>
+<div class="key-point"><strong>Skew lines:</strong> Lines that are not parallel and do not intersect - they lie in different planes, so no consistent solution for the two parameters exists.</div>
+<div class="key-point"><strong>Shortest distance from a point to a line:</strong> The perpendicular distance |AP × d|/|d|, where A is any point on the line with direction d and P is the given point.</div>
+<div class="key-point"><strong>Shortest distance from a point to a plane:</strong> The perpendicular distance |n·p₀ − c|/|n|, where the plane is r·n = c and p₀ is the position vector of the point.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">a·b = |a||b| cos θ; a·b = 0 means perpendicular; d = k b means parallel.</div>
+<div class="key-point">Angle between line and plane: sin α = |d·n|/(|d||n|); between two planes: cos β = |n₁·n₂|/(|n₁||n₂|).</div>
+<div class="key-point">a × b is perpendicular to both a and b; |a × b| is the area of the parallelogram they span.</div>
+<div class="key-point">Area of triangle with sides AB and AC: ½|AB × AC|.</div>
+<div class="key-point">Distance point-to-line: |AP × d|/|d|; point-to-plane: |n·p₀ − c|/|n|.</div>
+<div class="key-point">Two non-parallel planes meet in a line; its direction is the cross product of the two normals.</div>
+</section>
+<section class="section">
+<h2>Lines in Three Dimensions</h2>
+<p><strong>Vector equation.</strong> A line in 3D is described by <strong>r = a + t d</strong>, where a is the position vector of any point on the line, d is a direction vector, and t is a scalar parameter. Equivalently, the line through points A and B is r = a + t(b − a). Any non-zero multiple of a direction vector works, so there are infinitely many correct equations of the same line - examiners accept any valid point and direction. A point P lies on the line exactly when some t satisfies p = a + t d; solve one component and check the other two.</p><p><strong>Cartesian (symmetric) form.</strong> Writing d = (l, m, n) and eliminating t gives <strong>(x − x₁)/l = (y − y₁)/m = (z − z₁)/n</strong>, where (x₁, y₁, z₁) is the point a. Converting between the two forms is routine exam material: from the symmetric form read off the point and direction; from the vector equation set components equal and eliminate t. Note the symmetric form breaks if any direction component is zero - that coordinate is then simply constant.</p><p><strong>Worked example.</strong> The line through A(2, −1, 4) and B(5, 2, 10): direction d = AB = (3, 3, 6) = 3(1, 1, 2). A clean equation is <em>r = (2, −1, 4) + t(1, 1, 2)</em>; the Cartesian form is (x − 2)/1 = (y + 1)/1 = (z − 4)/2.</p><p><strong>Relative position of two lines.</strong> Given r = a₁ + t d₁ and r = a₂ + s d₂, use different parameters (t and s) and compare components. If d₁ = k d₂ the lines are parallel - then check whether a₂ − a₁ is also parallel to d₁: if yes the lines coincide, if no they never meet. If a consistent pair (t, s) solves all three component equations, the lines intersect at that point. If no consistent solution exists and the directions are not parallel, the lines are <strong>skew</strong> - the classic 3D-only category that a full geometric check must rule out before claiming intersection.</p><details><summary>Common trap</summary><p>Using the same parameter letter for both lines forces you to solve for one t fitting both lines simultaneously - almost never intended. Write r = a₁ + t d₁ and r = a₂ + s d₂, equate, solve for t and s, then verify the third component equation before concluding.</p></details>
+</section>
+<section class="section">
+<h2>Scalar Product and Angles</h2>
+<p><strong>Definition and uses.</strong> The scalar product of a = (a₁, a₂, a₃) and b = (b₁, b₂, b₃) is <strong>a·b = a₁b₁ + a₂b₂ + a₃b₃ = |a||b| cos θ</strong>, where θ is the angle between the vectors. It returns a scalar, not a vector. Three consequences do most of the exam work: a·b = 0 (with neither vector zero) means <em>perpendicular</em>; cos θ = (a·b)/(|a||b|) finds the angle; and a·a = |a|² gives lengths quickly. It is also distributive and commutative, so you can expand expressions like (a + b)·(a − b) = |a|² − |b|².</p><p><strong>Angle between two lines.</strong> Take the angle between their direction vectors. Convention: when cos θ comes out negative the angle between the directions is obtuse, but the <em>acute</em> angle between the lines is 180° − θ, i.e. use |cos θ|. Worked example: a = (2, −1, 3), b = (1, 4, −2). Then a·b = 2 − 4 − 6 = −8, |a| = √14, |b| = √21, so cos θ = −8/√294 = −8/(7√6) = −4√6/21 ≈ −0.4666, giving θ ≈ 117.8°; the acute angle between the lines is ≈ 62.2°.</p><p><strong>Angle between a line and a plane.</strong> For line direction d and plane normal n, the angle α between the line and the plane satisfies <strong>sin α = |d·n|/(|d||n|)</strong> - sine, not cosine, because α is the complement of the angle between d and n. Worked example: d = (2, −1, 2), n = (1, 1, 4): d·n = 2 − 1 + 8 = 9, |d| = 3, |n| = √18 = 3√2, so sin α = 9/(9√2) = 1/√2 and <em>α = 45°</em>. If d·n = 0 the line is parallel to the plane (or lies in it).</p><p><strong>Angle between two planes.</strong> Planes have normal vectors, and the angle between planes is the angle between their normals: <strong>cos β = |n₁·n₂|/(|n₁||n₂|)</strong>. Worked example: n₁ = (1, 2, 2), n₂ = (2, 1, −2): n₁·n₂ = 2 + 2 − 4 = 0, so the planes meet at <em>90°</em>. Keep normal vectors to integer or simple surd components by clearing fractions early - it keeps every later cosine clean.</p><details><summary>Exam technique</summary><p>Angle questions: state which vectors you are using (directions or normals), quote the scalar product, then the cosine/sine, then the angle to 1 d.p. or in exact form. The sine-versus-cosine distinction between line-plane and plane-plane angles is a guaranteed mark-loser if muddled.</p></details>
+</section>
+<section class="section">
+<h2>Cross Product, Intersections and Distances</h2>
+<p><strong>The vector (cross) product.</strong> For a = (a₁, a₂, a₃), b = (b₁, b₂, b₃): <strong>a × b = (a₂b₃ − a₃b₂, a₃b₁ − a₁b₃, a₁b₂ − a₂b₁)</strong>, computed componentwise or via the 3x3 determinant pattern with i, j, k in the top row. Key properties: a × b is perpendicular to both a and b; <strong>|a × b| = |a||b| sin θ</strong> is the area of the parallelogram spanned by a and b, so the triangle with sides AB and AC has area <strong>½|AB × AC|</strong>; and a × b = −b × a (anticommutative), with a × a = 0. Worked example: a = (2, −1, 3), b = (1, 4, −2): a × b = ((−1)(−2) − 3×4, 3×1 − 2×(−2), 2×4 − (−1)×1) = <em>(−10, 7, 9)</em>, |a × b| = √230 ≈ 15.17 (check: 294 − 64 = 230 from |a|²|b|² − (a·b)² ✓).</p><p><strong>Planes.</strong> A plane with normal n through point p is <strong>r·n = p·n</strong> - substitute once to get the constant. Example: normal (1, 2, 2) through (2, 1, −1): r·(1, 2, 2) = 2 + 2 − 2 = 5. A plane given in Cartesian form ax + by + cz = d has normal (a, b, c).</p><p><strong>Intersections.</strong> Line meets plane: substitute the line into r·n = c and solve for t. Worked example: r = (1, 0, 2) + t(2, 1, −1) with plane r·(1, 2, 2) = 16: ((1, 0, 2) + t(2, 1, −1))·(1, 2, 2) = 5 + 2t = 16, so t = 11/2 and the point is <em>(12, 11/2, −7/2)</em>. Two non-parallel planes meet in a line whose direction is n₁ × n₂ (find one point on it by inspection, e.g. setting z = 0). Three planes: unique point (three consistent equations, non-zero determinant in the 3x3 sense), a common line (sheaf), or no common point (triangular prism / two parallel planes).</p><p><strong>Shortest distances.</strong> Point P to line (A on line, direction d): <strong>|AP × d|/|d|</strong>, or find the foot of the perpendicular by projecting. Worked example: P(3, 2, 1), line r = (1, 0, 2) + t(1, 2, 2): AP = (2, 2, −1), AP × d = (6, −5, 2), so distance = √(36 + 25 + 4)/√9 = <em>√65/3 ≈ 2.69</em> (alternative: foot = A + (AP·d/|d|²)d = (13/9, 8/9, 26/9), and |P − foot| = √65/3 ✓). Point p₀ to plane r·n = c: <strong>|n·p₀ − c|/|n|</strong>. Worked example: point (1, 2, 3), plane r·(2, 3, 6) = 21: |2 + 6 + 18 − 21|/7 = <em>5/7</em>.</p><details><summary>Mark-scheme habit</summary><p>Distance questions award method marks for the perpendicularity argument, not just the number: state the formula you are using, define A and d (or n and c), show the substitution, then give the exact distance. Exact surd answers (√65/3, 5/7) are expected - decimals alone lose the accuracy mark.</p></details>
+</section>
 <section class="section">
 <h2>💡 Worked Example</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Find the intersection of line r = [1; 2; 3] + λ[2; -1; 4] with plane 2x - y + 3z = 10</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Answer:</strong></p>
-<p>Substitute: x=1+2λ, y=2-λ, z=3+4λ. 2(1+2λ)-(2-λ)+3(3+4λ)=10 -&gt; 2+4λ-2+λ+9+12λ=10 -&gt; 17λ+9=10 -&gt; λ=1/17. Point: [19/17; 33/17; 55/17]</p>
-</div>
-</div>
+<div class="question"><strong>Exam-style:</strong> The line l₁ has equation r = (2, 1, 3) + t(1, −1, 2) and the line l₂ has equation r = (1, 2, 1) + s(−1, 3, 1).
+(a) Show that l₁ and l₂ intersect and find the coordinates of the point of intersection. (5 marks)
+(b) Find the acute angle between l₁ and l₂. (4 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Equating components: 2 + t = 1 − s, 1 − t = 2 + 3s, 3 + 2t = 1 + s. From the first, t = −1 − s. Substituting into the second: 1 + 1 + s = 2 + 3s, so s = 0 and t = −1. Checking the third equation: 3 + 2(−1) = 1 and 1 + 0 = 1 ✓, consistent - so the lines intersect. Substituting t = −1 into l₁: (2 − 1, 1 + 1, 3 − 2) = (1, 2, 1).
+(b) Direction vectors d₁ = (1, −1, 2), d₂ = (−1, 3, 1). d₁·d₂ = −1 − 3 + 2 = −2; |d₁| = √6, |d₂| = √11. cos θ = −2/√66 &lt; 0, so the acute angle has cos α = 2/√66 ≈ 0.2462, giving α ≈ 75.7°.</div>
 </section>
 <section class="section">
-<h2>❓ Practice Questions</h2><p class="q-note">Model answers are being added progressively - questions marked &#10007; don't have one yet. Cross-check with your teacher or the official mark scheme.</p>
-<div class="practice-questions">
-<div class="question">
-<p><strong>Questions:</strong></p>
-<ul><li>Find angle between lines r = [1; 0; -1] + λ[2; 1; 3] and r = [0; 1; 1] + μ[1; -2; 2]<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find equation of plane through (1,2,3) perpendicular to vector [2; -1; 1]<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Distance from point (1,2,3) to plane 2x - 3y + 6z = 10<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find shortest distance between skew lines r = [1; 0; 0] + λ[1; 1; 0] and r = [0; 1; 1] + μ[0; 1; 1]<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Volume of tetrahedron with vertices (0,0,0), (1,0,0), (0,2,0), (0,0,3)<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
-</div>
-<div class="question">
-  <p><strong>Q1:</strong> Given a = 2i + j - k and b = i - 3j + k, find the scalar product a&#183;b and hence the angle between a and b.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> a&#183;b = (2)(1) + (1)(-3) + (-1)(1) = 2 - 3 - 1 = -2. |a| = &#8730;(4 + 1 + 1) = &#8730;6, |b| = &#8730;(1 + 9 + 1) = &#8730;11. Since a&#183;b = |a||b|cos&#952;: cos&#952; = -2/(&#8730;6 x &#8730;11) = -2/&#8730;66, so &#952; = arccos(-2/&#8730;66) &#8776; 104.2&#176;.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> Find the point of intersection of the line r = (1, 0, 2) + &#955;(1, 1, 1) with the plane r&#183;(1, 1, 2) = 7.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Substitute the line into the plane: [(1 + &#955;), &#955;, (2 + &#955;)]&#183;(1, 1, 2) = (1 + &#955;) + &#955; + 2(2 + &#955;) = 4&#955; + 5 = 7. So &#955; = 1/2. Point of intersection: r = (1, 0, 2) + 1/2(1, 1, 1) = (3/2, 1/2, 5/2).</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> Find the perpendicular distance from the point (2, -1, 3) to the plane 2x - y + 2z = 5.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Using d = |ax&#8320; + by&#8320; + cz&#8320; - k|/&#8730;(a&#178; + b&#178; + c&#178;) with (a, b, c) = (2, -1, 2), k = 5 and (x&#8320;, y&#8320;, z&#8320;) = (2, -1, 3): d = |2(2) - (-1) + 2(3) - 5|/&#8730;(4 + 1 + 4) = |4 + 1 + 6 - 5|/3 = 6/3 = 2.</p>
-    </div>
-  </details>
-</div>
-</div>
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>a = (2, −1, 3) and b = (1, 4, −2). Find a·b and the angle between a and b. (5 marks)</summary><div class="answer"><strong>Answer:</strong> a·b = 2 − 4 − 6 = −8. |a| = √14, |b| = √21. cos θ = −8/(√14 × √21) = −8/√294 = −8/(7√6) = −4√6/21 ≈ −0.4666, so θ ≈ 117.8° (obtuse; the acute angle between the directions is ≈ 62.2°).</div></details>
+<details><summary>For the same vectors, find a × b and |a × b|. (4 marks)</summary><div class="answer"><strong>Answer:</strong> a × b = ((−1)(−2) − 3×4, 3×1 − 2×(−2), 2×4 − (−1)×1) = (2 − 12, 3 + 4, 8 + 1) = (−10, 7, 9). |a × b| = √(100 + 49 + 81) = √230 ≈ 15.17. (Check: |a × b|² = |a|²|b|² − (a·b)² = 294 − 64 = 230 ✓.)</div></details>
+<details><summary>Find the shortest distance from the point P(3, 2, 1) to the line with equation r = (1, 0, 2) + t(1, 2, 2). (5 marks)</summary><div class="answer"><strong>Answer:</strong> AP = P − A = (2, 2, −1). AP × d = (2×2 − (−1)×2, (−1)×1 − 2×2, 2×2 − 2×1) = (6, −5, 2). Distance = |AP × d|/|d| = √(36 + 25 + 4)/√9 = √65/3 ≈ 2.69. (Alternative: the foot of the perpendicular is A + (AP·d/|d|²)d = (1, 0, 2) + (4/9)(1, 2, 2) = (13/9, 8/9, 26/9), and |P − foot| = √65/3 ✓.)</div></details>
+<details><summary>Find the shortest distance from the point (1, 2, 3) to the plane with equation r·(2, 3, 6) = 21. (4 marks)</summary><div class="answer"><strong>Answer:</strong> Distance = |n·p₀ − c|/|n| = |2×1 + 3×2 + 6×3 − 21|/√(4 + 9 + 36) = |5|/7 = 5/7.</div></details>
+<details><summary>The line l has equation r = (1, 0, 2) + t(2, 1, −1) and the plane Π has equation r·(1, 2, 2) = 16. Find the coordinates of the point where l meets Π. (5 marks)</summary><div class="answer"><strong>Answer:</strong> Substitute the line into the plane equation: ((1, 0, 2) + t(2, 1, −1))·(1, 2, 2) = (1 + 0 + 4) + t(2 + 2 − 2) = 5 + 2t. Setting 5 + 2t = 16 gives t = 11/2. The point is (1, 0, 2) + (11/2)(2, 1, −1) = (12, 11/2, −7/2).</div></details>
 </section>
 <section class="section">
 <h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Vectors+A-Level" target="_blank" rel="noopener">Vectors - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Vectors+exam+questions" target="_blank" rel="noopener">Vectors - Exam Questions</a> -- YouTube Search</li></ul>
+<ul><li><a href="https://www.youtube.com/results?search_query=cross+product+line+plane+intersection+shortest+distance+3D+vectors+A-level+Further+Maths+Edexcel" target="_blank" rel="noopener">YouTube: cross product line plane intersection shortest distance 3D vectors A-level Further Maths Edexcel</a></li></ul>
 </section>
 <section class="section">
 <h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Further Mathematics - Vectors</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level Further Mathematics - Vectors</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level Further Mathematics - Vectors</a> -- OCR</li></ul>
+<ul data-pp-list>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/a-level-maths-papers/FP1-edexcel/" target="_blank" rel="noopener">Edexcel A-level Further Maths past papers (PMT)</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/a-level-maths-papers/FP1-by-topic/" target="_blank" rel="noopener">Edexcel past questions by topic (PMT) - Further Pure</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels.html" target="_blank" rel="noopener">Pearson Edexcel A-levels - specification and assessment materials</a></li>
+<li data-board="Edexcel"><a href="https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/further-mathematics.html" target="_blank" rel="noopener">Pearson Edexcel A-level Further Mathematics (9FM0) qualification page</a></li>
+</ul>
 </section>
 <section class="section">
 <h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/pure-maths/vectors/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - Vectors</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths - Vectors</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize/search?q=Vectors" target="_blank" rel="noopener">BBC Bitesize - Vectors</a> -- BBC Bitesize revision resources</li></ul>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-further-pure-2/" target="_blank" rel="noopener">PMT Further Pure 2 revision - notes, worksheets and topic questions</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-further-pure-3/" target="_blank" rel="noopener">PMT Further Pure 3 revision - notes and topic questions</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths A-level revision hub</a></li>
+</ul>
 </section>
-
-
 
 <section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/further-mathematics/matrices.html">← Matrices</a>
-<a href="../../further-mathematics.html">← Back to Further Mathematics Overview</a>
-<a href="../../topics/further-mathematics/polar-coordinates.html">Polar Coordinates →</a>
-</nav>
 
-
-
-
+<nav class="topic-nav"><a href="../../topics/further-mathematics/matrices.html">&larr; Matrices and Linear Transformations</a><a href="../../topics/further-mathematics/polar-coordinates.html">Polar Coordinates &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
@@ -205,13 +194,12 @@ if (localStorage.getItem('alevelrevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -229,27 +217,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
 </body></html>

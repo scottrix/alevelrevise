@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fundamentals of Programming - A-Level Computer Science Revision Notes</title>
+<meta name="description" content="Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for programming fundamentals: data types, control flow, subroutines, parameter passing, recursion and exception handling with step-by-step code traces.">
+<meta name="keywords" content="A-Level Computer Science, Fundamentals of Programming, revision notes, AQA, OCR, WJEC/Eduqas, past papers">
+<meta property="og:title" content="Fundamentals of Programming - A-Level Computer Science">
+<meta property="og:description" content="Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for programming fundamentals: data types, control flow, subroutines, parameter passing, recursion and exception handling with step-by-step code traces.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/computer-science/fundamentals-of-programming.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/computer-science/fundamentals-of-programming.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Do I write pseudocode or a real language in the exam?", "acceptedAnswer": {"@type": "Answer", "text": "Either is accepted by all three boards as long as it is unambiguous. AQA papers use their own pseudocode convention (often 1-indexed arrays in traces) and OCR accepts pseudocode or Python-style code; match the style used in the question and state any assumption about array indexing."}}{"@type": "Question", "name": "How many marks do trace tables earn?", "acceptedAnswer": {"@type": "Answer", "text": "In 4\u20139 mark trace questions, most marks are for the method: a correct, complete table earns the marks even if your final stated output is wrong, so always show the table rather than guessing the output."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/computer-science/fundamentals-of-programming.html" class="active">Fundamentals of Programming</a></li><li><a href="../../topics/computer-science/data-structures-and-algorithms.html">Data Structures and Algorithms</a></li><li><a href="../../topics/computer-science/theory-of-computation.html">Theory of Computation</a></li><li><a href="../../topics/computer-science/data-representation.html">Data Representation</a></li><li><a href="../../topics/computer-science/computer-systems-and-architecture.html">Computer Systems and Architecture</a></li><li><a href="../../topics/computer-science/networks-and-databases.html">Networks and Databases</a></li><li><a href="../../topics/computer-science/software-development.html">Software Development and Legal Issues</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Fundamentals of Programming</span>
+</nav>
+
+<article class="topic-header">
+<h1>Fundamentals of Programming</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, OCR, WJEC/Eduqas</span>
+</div>
+<p class="topic-desc">Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for programming fundamentals: data types, control flow, subroutines, parameter passing, recursion and exception handling with step-by-step code traces.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Select and justify appropriate data types and perform type casting between integer, real, Boolean, character and string (AQA 4.1.1, OCR 2.2.1)</li>
+<li>Write and trace selection (if/elif/else, switch) and iteration (count-controlled, condition-controlled, do-while) constructs</li>
+<li>Define subroutines with parameters, distinguish parameter passing by value from by reference, and explain local and global scope</li>
+<li>Trace recursive subroutines showing call-stack frames, and identify the base and recursive cases</li>
+<li>Use integer division and modulus (DIV/MOD) for digit extraction, parity tests and rounding</li>
+<li>Handle errors with try/except/finally exception blocks and validate user input before processing</li>
+<li>Read from and write to text and CSV files using the correct file modes</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Variable:</strong> A named memory location whose value can change during program execution.</div>
+<div class="key-point"><strong>Constant:</strong> A named value fixed at definition time that cannot be reassigned; prevents accidental modification and aids readability.</div>
+<div class="key-point"><strong>Type casting:</strong> Explicit conversion of a value from one data type to another, e.g. int(&#x27;42&#x27;) or str(3.5).</div>
+<div class="key-point"><strong>Integer division (DIV):</strong> Division that discards the fractional part; 17 DIV 5 = 3. In Python: 17 // 5.</div>
+<div class="key-point"><strong>Modulus (MOD):</strong> The remainder after integer division; 17 MOD 5 = 2. Used for parity tests, digit extraction and cyclical indexing.</div>
+<div class="key-point"><strong>Parameter by value:</strong> A copy of the actual argument is passed; changes to the formal parameter inside the subroutine do not affect the caller&#x27;s variable.</div>
+<div class="key-point"><strong>Parameter by reference:</strong> A reference (address) to the caller&#x27;s variable is passed; changes inside the subroutine persist after return.</div>
+<div class="key-point"><strong>Scope:</strong> The region of a program in which an identifier is visible. Local variables exist only within their subroutine; globals exist throughout.</div>
+<div class="key-point"><strong>Exception:</strong> A run-time error condition (e.g. division by zero, invalid file) raised during execution; uncaught exceptions terminate the program.</div>
+<div class="key-point"><strong>Base case:</strong> The terminating condition of a recursive subroutine that returns without further calls; without it the call stack overflows.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Data types: int, real/float, bool, char, string; casting with int(), str(), float(); constants vs variables (AQA 4.1.1/4.1.6)</div>
+<div class="key-point">Selection: if/elif/else and switch/case; iteration: for (count-controlled), while (condition-controlled), do-while (post-tested)</div>
+<div class="key-point">Subroutines: functions return a value, procedures do not; parameters by value copy, by reference alias (OCR 2.2.1)</div>
+<div class="key-point">Integer division and modulus: 17 DIV 5 = 3, 17 MOD 5 = 2; n MOD 2 == 0 tests evenness</div>
+<div class="key-point">Exceptions: try/except/else/finally; validate input at the boundary, never trust user data</div>
+<div class="key-point">File modes: read, write (overwrite), append; close files or use a with-block so the file is released even on error</div>
+<div class="key-point">Recursion needs a reachable base case; each call pushes a new stack frame, so depth is limited by stack size</div>
+</section>
+<section class="section">
+<h2>Data types, variables, constants and operators</h2>
+<p>Every exam board expects you to <strong>choose and justify</strong> a data type, not just name it. The core set is <em>integer</em> (whole numbers), <em>real/float</em> (numbers with a fractional part), <em>Boolean</em> (True/False), <em>character</em> (a single symbol) and <em>string</em> (a sequence of characters). AQA 4.1.1 adds <em>date/time</em> and <em>records</em>; OCR 2.2.1 expects you to know that a string is stored as a sequence of character codes.</p><p>Marks are commonly lost by justifying types with tautologies ('an integer is an integer'). Give a <em>consequence-based</em> justification: a price stored as an integer loses pence in arithmetic; a Boolean flag makes a condition readable (<code>isValid</code> rather than <code>status == 1</code>); a constant for VAT rate means one change updates the whole program and prevents accidental reassignment.</p><table><tr><th>Operation</th><th>Pseudocode</th><th>Python</th><th>Example</th></tr><tr><td>Integer division</td><td>17 DIV 5</td><td>17 // 5</td><td>3</td></tr><tr><td>Modulus (remainder)</td><td>17 MOD 5</td><td>17 % 5</td><td>2</td></tr><tr><td>Exponent</td><td>2 ^ 10</td><td>2 ** 10</td><td>1024</td></tr><tr><td>Casting</td><td>stringToInt('42')</td><td>int('42')</td><td>42</td></tr></table><p><strong>DIV and MOD</strong> are heavily examined (AQA 4.1.3). Three standard idioms to memorise:</p><ul><li>Parity test: <code>n MOD 2 == 0</code> is true when n is even.</li><li>Digit extraction: <code>digit = n MOD 10</code> gives the last digit; <code>n = n DIV 10</code> removes it. Repeating this loops through the digits of 9021 as 1, 2, 0, 9.</li><li>Cyclical indexing: <code>slot = (slot + 1) MOD tableSize</code> wraps around (used again in hash-table open addressing).</li></ul><p>Rounding is a separate operation from casting: <code>int(3.9)</code> <em>truncates</em> to 3, whereas <code>round(3.9)</code> gives 4. Exams reward stating which one an algorithm uses. Also remember operator precedence: in most languages <code>MOD</code> and <code>DIV</code> bind like multiplication, so <code>10 + 3 MOD 4</code> evaluates as <code>10 + (3 MOD 4) = 13</code>, not <code>(10 + 3) MOD 4</code>.</p>
+</section>
+<section class="section">
+<h2>Selection and iteration</h2>
+<p>Selection chooses between branches; iteration repeats. For revision, the marks live in the <em>differences between constructs</em>, because 'state one difference' questions are near-guaranteed (AQA 4.1.2, OCR 2.2.1, WJEC Unit 2.1).</p><ul><li><strong>if / elif / else</strong> — multi-way selection; conditions are tested in order and only the first true branch runs.</li><li><strong>switch / case</strong> — single-branch dispatch on a discrete value; cleaner than an elif ladder when one variable is compared against many constants.</li><li><strong>for</strong> (count-controlled / definite) — used when the number of iterations is known in advance.</li><li><strong>while</strong> (condition-controlled / indefinite, pre-tested) — the condition is tested <em>before</em> each pass, so the body may run zero times.</li><li><strong>do-while / repeat-until</strong> (post-tested) — the body runs <em>at least once</em>; ideal for menu loops and input validation.</li></ul><p>The classic written question is: <em>'Explain the difference between a while loop and a do-while loop.'</em> Model phrasing: a while loop tests its condition before executing the body and so may execute it zero times, whereas a do-while/repeat-until loop tests after the body and therefore always executes at least once; choose do-when the loop must run at least once (e.g. reading a menu choice).</p><p>The classic trace trap is a <em>sentinel-controlled</em> loop where the loop condition is accidentally inverted or the sentinel is included in processing. Practice with this pattern:</p><pre>total = 0
+num = inputInt()
+while num != -1:
+    total = total + num
+    num = inputInt()
+print(total)</pre><p>Dry run with inputs 4, 9, -1: pass 1 — num=4, not -1, total=4, read 9; pass 2 — num=9, total=13, read -1; pass 3 — condition fails, loop exits, output <strong>13</strong>. The -1 is never added. A frequent error in candidates' answers is stopping the trace one iteration early and forgetting the final read that terminates the loop.</p><p>Nested selection inside iteration compounds trace difficulty. Keep a dry-run table with one column per variable and update it <em>every time</em> a value changes — examiners award method marks for a correct table even if the final answer is wrong. Also know <code>break</code> (leave the loop immediately) and <code>continue</code> (skip to the next iteration): OCR paper 2 has asked candidates to rewrite a loop that uses break as a condition-controlled loop without it.</p>
+</section>
+<section class="section">
+<h2>Subroutines, parameter passing, scope and recursion</h2>
+<p>A <strong>function</strong> returns exactly one value and is used inside an expression; a <strong>procedure</strong> performs an action and returns nothing (it may still change things through reference parameters or output). Benefits of subroutines — a 4-marker across all boards: code is written once and reused (maintainability), a large problem is decomposed into named subproblems (decomposition), each subroutine can be tested independently (unit testing), and local variables prevent accidental interference between parts of the program.</p><p><strong>Parameter passing</strong> is the highest-frequency written topic in this section (OCR 2.2.1, AQA 4.1.2). By <em>value</em>, the actual argument's value is <strong>copied</strong> into the formal parameter, so assignment inside the subroutine is invisible to the caller. By <em>reference</em>, the parameter is an <strong>alias</strong> for the caller's variable, so changes persist. Trace both versions:</p><pre>// version A — by value
+procedure doubleA(x)
+    x = x * 2
+n = 5
+doubleA(n)
+print(n)        // outputs 5
+
+// version B — by reference
+procedure doubleB(byref x)
+    x = x * 2
+n = 5
+doubleB(n)
+print(n)        // outputs 10</pre><p>Step-by-step for version A: (1) n is created holding 5; (2) doubleA is called, the value 5 is copied into local parameter x; (3) x becomes 10 — this changes only the copy; (4) subroutine ends, x is destroyed; (5) n still holds 5. For version B the only difference is step 2–3: x <em>is</em> n, so writing 10 through x writes through to n. Practical rules worth quoting in essays: pass small scalars by value when the subroutine must not alter them; pass large structures (arrays, records) by reference to avoid copying costs — but then the subroutine can modify them, which is a documented side effect.</p><p><strong>Scope:</strong> a variable declared inside a subroutine is <em>local</em> and destroyed on return; a <em>global</em> is visible everywhere. Two scope traps: (1) <em>shadowing</em> — a local parameter with the same name as a global hides the global inside that subroutine; (2) in Python, assigning to a global inside a function without a <code>global</code> declaration creates a new local instead. Exams ask you to argue why globals are poor style: any subroutine can change them, so the data flow of the program is not visible in the call structure, and debugging is harder.</p><p><strong>Recursion</strong> (AQA 4.1.2, OCR 2.2.1): a subroutine that calls itself. It must have a <em>base case</em> (terminating condition) and a <em>recursive case</em> that moves towards it. Trace factorial(4) showing the stack:</p><pre>function fact(n)
+    if n == 0 then
+        return 1
+    else
+        return n * fact(n - 1)</pre><p>Winding: fact(4) calls fact(3) calls fact(2) calls fact(1) calls fact(0). At depth 5 the base case fires and returns 1. Unwinding: fact(0)=1, so fact(1)=1*1=1, fact(2)=2*1=2, fact(3)=3*2=6, fact(4)=4*6=<strong>24</strong>. Each call pushes a new stack frame holding its own n, which is why unbounded recursion causes a <em>stack overflow</em> — the classic exam link between recursion and the call stack. Any recursive routine can also be written iteratively (using a loop and an explicit accumulator); iterative versions avoid stack-depth limits and are usually faster, but recursive versions often mirror the problem definition more clearly.</p>
+</section>
+<section class="section">
+<h2>Exception handling, validation and file I/O</h2>
+<p><strong>Validation</strong> and <strong>exception handling</strong> are different defences and exams test that distinction (OCR 2.2.1; WJEC Unit 2.1). Validation checks that input is <em>reasonable and in the right format</em> before processing: range check (0 <= mark <= 100), length check, format/pattern check, type check, presence check. Exception handling deals with errors that validation cannot prevent — a file being missing, a network dropping, division by a value that turned out to be zero.</p><p>A typical full-credit Python pattern:</p><pre>def read_mark():
+    while True:
+        try:
+            mark = int(input('Enter mark (0-100): '))
+            if 0 <= mark <= 100:
+                return mark
+            print('Out of range - try again')
+        except ValueError:
+            print('Not a whole number - try again')
+        finally:
+            pass  # runs after every attempt, success or failure</pre><p>Walking through the blocks: the <code>try</code> block wraps code that may raise; <code>except ValueError</code> catches the specific exception when the cast fails; a general <code>except</code> catches everything else but should be avoided because it hides real bugs; <code>else</code> (not shown) runs only when no exception occurred; <code>finally</code> runs regardless — its exam purpose is <em>cleanup</em> such as closing files or connections. The <code>with open(...)</code> construct is the idiomatic cleanup for files: the file is closed automatically even if an exception occurs mid-read, which is the exact point to make for a 'why use with?' question.</p><p><strong>File I/O</strong> modes: <em>read</em> (r) — file must exist; <em>write</em> (w) — creates a new file or truncates an existing one to empty; <em>append</em> (a) — writes after existing content. The write-truncates behaviour is a favourite one-marker: opening an existing data file in write mode and saving it erases the original data. Text files are read as strings, so numeric data must be cast after reading (<code>int(line)</code>) and cast to string before writing (<code>str(total)</code>) — forgetting the outbound cast is a common trace-error. CSV files split each line on a delimiter:</p><pre>with open('scores.csv') as f:
+    for line in f:
+        parts = line.strip().split(',')
+        name = parts[0]
+        score = int(parts[1])</pre><p>Exam question pattern: <em>'A program must read a file that may not exist. Describe how the program should respond.'</em> Full-credit answer: attempt the open inside a try block; catch the file-not-found exception; on failure print an error message and either terminate gracefully or fall back to an empty/default structure — the program must not crash with an unhandled exception or silently continue with no data.</p>
+</section>
+<section class="section">
+<h2>Dry-run technique: tracing programs under exam conditions</h2>
+<p>Every Paper 1/2 includes a trace worth 4–9 marks. The method that protects your marks:</p><ul><li>Draw a table with one column per variable (and one per output line) <em>before</em> you start.</li><li>Update the table only when a variable actually changes; if a branch is not taken, say so by leaving the row's condition column false.</li><li>Re-evaluate loop conditions <em>with the current values</em>, not the initial ones — most lost marks are a stale condition check.</li><li>Finish the trace with the final read/pass that terminates a sentinel loop.</li></ul><p>Worked trace — identify what this prints (AQA-style pseudo-Python):</p><pre>nums = [4, 7, 2, 9]
+total = 0
+count = 0
+for i in range(len(nums)):
+    if nums[i] > total:
+        total = total + nums[i]
+        count = count + 1
+print(total, count)</pre><p>The trap: the comparison is against the <em>running total</em>, not a fixed value. Trace table:</p><table><tr><th>i</th><th>nums[i]</th><th>nums[i] > total?</th><th>total</th><th>count</th></tr><tr><td>0</td><td>4</td><td>4 > 0 — true</td><td>4</td><td>1</td></tr><tr><td>1</td><td>7</td><td>7 > 4 — true</td><td>11</td><td>2</td></tr><tr><td>2</td><td>2</td><td>2 > 11 — false</td><td>11</td><td>2</td></tr><tr><td>3</td><td>9</td><td>9 > 11 — false</td><td>11</td><td>2</td></tr></table><p>Output: <strong>11 2</strong>. The algorithm keeps a running 'record so far' — it sums only values bigger than everything summed before them. If you traced against a fixed value such as nums[0] you would get 13 2 and lose the answer mark, though the table still earns method marks.</p><p>For 'state the output' questions on string manipulation, remember slicing is start-inclusive, end-exclusive (<code>'revision'[0:3]</code> is <code>'rev'</code>), negative indices count from the end, and <code>len</code>, <code>split</code>, <code>join</code>, <code>replace</code> are the usual toolset. For 'write an algorithm' questions (OCR 2.2/2.3, AQA 4.1): declare a clearly-named subroutine, handle the edge case first (empty input, empty file), use a for-loop over indices when you need position and a for-each when you do not, and return rather than print inside a function — examiners penalise side-effecting functions. Finally, match the board's pseudocode conventions on the day: AQA exam pseudocode commonly indexes arrays from 1 in trace questions while Python code you write is 0-indexed; state your assumption if the paper does not specify.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> The procedure mystery is defined in pseudocode below.
+procedure mystery(n)
+    x = 0
+    while n &gt; 0
+        x = x + n MOD 10
+        n = n DIV 10
+    endwhile
+    return x
+endprocedure
+(a) Trace mystery(9021), showing the values of x and n after each iteration of the loop. [4 marks]
+(b) State, with justification, the purpose of the procedure. [2 marks]</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) Trace table (1 mark per correct iteration pair, 4 marks total):
+Start: x = 0, n = 9021.
+Iteration 1: x = 0 + 9021 MOD 10 = 0 + 1 = 1;  n = 9021 DIV 10 = 902.
+Iteration 2: x = 1 + 902 MOD 10 = 1 + 2 = 3;   n = 90.
+Iteration 3: x = 3 + 90 MOD 10 = 3 + 0 = 3;    n = 9.
+Iteration 4: x = 3 + 9 MOD 10 = 3 + 9 = 12;    n = 0.
+Loop condition n &gt; 0 now fails; return 12.
+(b) The procedure returns the sum of the digits of n (1 mark). Justification: MOD 10 isolates the least significant digit and DIV 10 removes it, so the loop accumulates each digit in turn; for 9021 the digits 9+0+2+1 = 12 (1 mark).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Explain the difference between passing a parameter by value and passing a parameter by reference, and state one situation where passing by reference is preferable. [4 marks]</summary><div class="answer"><strong>Answer:</strong> By value, a copy of the actual argument is passed into the subroutine, so assignments to the formal parameter do not affect the caller&#x27;s variable (1). By reference, the parameter is a reference/alias to the caller&#x27;s variable, so changes made inside the subroutine persist after it returns (1). By reference is preferable when the subroutine must return more than one value through its parameters (1) or when the argument is a large data structure such as an array that would be expensive to copy (1).</div></details>
+<details><summary>Trace the following code and state the final output:
+total = 0
+num = inputInt()
+while num != 0
+    total = total + num
+    num = inputInt()
+endwhile
+print(total)
+The inputs are 5, 12, 8, 0. [4 marks]</summary><div class="answer"><strong>Answer:</strong> Trace: read 5 → 5 != 0 so total = 5, read 12 → total = 17, read 8 → total = 25, read 0 → condition num != 0 is false so the loop exits (3 marks for a fully correct table). Output: 25 (1). The sentinel value 0 is read but never added; candidates who add it get 25 with an extra 0 or stop one read early and lose the final-iteration mark.</div></details>
+<details><summary>Write a function isPrime(n) that returns True if the integer n is prime and False otherwise, using a loop and the modulus operator. State one edge case your function must handle. [6 marks]</summary><div class="answer"><strong>Answer:</strong> function isPrime(n)
+    if n &lt; 2 then return False          // edge case: 0, 1 (and negatives) are not prime
+    for i = 2 to n DIV 2
+        if n MOD i == 0 then return False
+    next i
+    return True
+endfunction
+Award: loop from 2 upwards (1); modulus remainder test n MOD i == 0 (1); return False on the first divisor (1); return True after the loop completes (1); guard for n &lt; 2 (1); any valid edge case stated — n = 0, 1, negative numbers, or n = 2 must return True because the loop body never runs (1).</div></details>
+<details><summary>A program reads integers from the file marks.txt and calculates their mean. The file may be missing or contain non-numeric lines. Describe how the program should use exception handling to respond robustly. [6 marks]</summary><div class="answer"><strong>Answer:</strong> Open and read the file inside a try block (1). Catch the file-not-found exception: print an error message and terminate gracefully or return a sensible default rather than crashing (1). Cast each line inside the try block and catch the value/conversion exception: skip that line (or report it) and continue with the remaining data (1). Use finally, or a with-block, so the file handle is closed whether or not an exception occurred (1). Check for division by zero before computing the mean: if the count of valid values is 0 the mean is undefined, so output an error instead of dividing (1). Points for robustness: the program never terminates with an unhandled exception and never silently produces a wrong answer (1).</div></details>
+<details><summary>Show, using integer division and modulus, how to extract the hundreds digit of a four-digit number n stored as an integer. Illustrate with n = 4729. [3 marks]</summary><div class="answer"><strong>Answer:</strong> hundreds = (n DIV 100) MOD 10 (1). Working for 4729: 4729 DIV 100 = 47 (1); 47 MOD 10 = 7, which is the hundreds digit (1). Alternative full-credit method: strip the last two digits with n DIV 100, then take the remainder on division by 10 — the order DIV-then-MOD (not MOD-then-DIV) is what makes it the hundreds digit.</div></details>
+<details><summary>Rewrite the following post-tested loop as a pre-tested loop that behaves identically for all inputs:
+repeat
+    ch = inputChar()
+until ch == &#x27;y&#x27; or ch == &#x27;n&#x27;</summary><div class="answer"><strong>Answer:</strong> ch = inputChar()
+while not (ch == &#x27;y&#x27; or ch == &#x27;n&#x27;)
+    ch = inputChar()
+endwhile
+The key marking point: because a repeat-until body always runs at least once, an equivalent while loop must perform the first read before the loop (1), then loop while the input is invalid (1), re-reading inside the body (1). A version that reads only inside the loop would test an undefined ch before the first read and is not equivalent.</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A-Level+Computer+Science+programming+fundamentals+trace+tables+parameter+passing" target="_blank" rel="noopener">YouTube: A-Level Computer Science programming fundamentals trace tables parameter passing</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Computer Science (7517) past papers and mark schemes</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR A-Level Computer Science (H446) — qualifications and assessment materials</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">Physics &amp; Maths Tutor — Computer Science revision hub</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/computer-science-revision/" target="_blank" rel="noopener">Physics &amp; Maths Tutor — Computer Science revision (notes and topic questions)</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA — find past papers and mark schemes (7517)</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR — A-Level Computer Science H446 qualifications page</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><span>&nbsp;</span><a href="../../topics/computer-science/data-structures-and-algorithms.html">Data Structures and Algorithms &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>

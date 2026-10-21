@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<script>/* gcanonical-redirect */(function(){var p=location.pathname,q=location.search,h=location.hash,m=/^(.*)\/index\.html$/.exec(p);if(m){location.replace(m[1]+"/"+q+h);return}if(!p.endsWith("/")&&!/\.[a-z0-9]{1,10}$/i.test(p)){location.replace(p+".html"+q+h)}})();</script>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Coordinate Geometry - A-Level Mathematics Revise Notes</title>
-<meta name="description" content="A-Level Mathematics revision: Coordinate Geometry. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
-<meta name="keywords" content="A-Level Mathematics, Coordinate Geometry, revision notes, past papers, AQA, Edexcel, OCR, WJEC, CCEA">
+<title>Coordinate Geometry - A-Level Mathematics Revision Notes</title>
+<meta name="description" content="Straight lines, gradients, parallel and perpendicular conditions, circle equations, tangents, chord lengths and loci - A-Level pure maths coordinate geometry (Edexcel 9MA0 Topic 3, AQA 7357 Section C) revised with worked examples and mark-scheme logic.">
+<meta name="keywords" content="A-Level Mathematics, Coordinate Geometry, revision notes, AQA, Edexcel, OCR, WJEC/Eduqas, CCEA, past papers">
 <meta property="og:title" content="Coordinate Geometry - A-Level Mathematics">
-<meta property="og:description" content="A-Level Mathematics revision: Coordinate Geometry. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.">
+<meta property="og:description" content="Straight lines, gradients, parallel and perpendicular conditions, circle equations, tangents, chord lengths and loci - A-Level pure maths coordinate geometry (Edexcel 9MA0 Topic 3, AQA 7357 Section C) revised with worked examples and mark-scheme logic.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://scottrix.github.io/alevelrevise/topics/mathematics/coordinate-geometry.html">
-<link rel="canonical" href="https://scottrix.github.io/alevelrevise/topics/mathematics/coordinate-geometry.html">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/mathematics/coordinate-geometry.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/mathematics/coordinate-geometry.html">
 <meta property="og:site_name" content="A-Level Revise">
-<meta property="og:locale" content="en_US">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Coordinate Geometry">
-<meta name="twitter:description" content="Coordinate Geometry -- A-Level Mathematics revision notes.">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I prove a line is a tangent without a diagram?", "acceptedAnswer": {"@type": "Answer", "text": "Substitute the line's equation into the circle to obtain a quadratic in one variable, and show its discriminant is zero (a repeated root). That proves exactly one intersection point, which is the definition of tangency - and it also gives the point of contact directly from the repeated root."}}{"@type": "Question", "name": "Should I answer in y = mx + c or ax + by + c = 0 form?", "acceptedAnswer": {"@type": "Answer", "text": "Either is algebraically correct unless the question specifies a form - if it does, rearrange to match it exactly, since mark schemes award the accuracy mark for the required form. When working with circles, ax + by + c = 0 form usually keeps the arithmetic cleaner."}}]}
+</script>
 <link rel="stylesheet" href="../../style.css">
 </head>
 <body>
@@ -25,30 +22,21 @@
 <a href="../../index.html" class="logo">📚 A-Level Revise</a>
 <nav class="nav">
 <a href="../../index.html#subjects">Subjects</a>
-<a href="../../mathematics.html">Mathematics</a>
-<a href="../../../alevellessons/topics/mathematics/coordinate-geometry.html" class="nav-lesson">🎓 Full lesson on Smart Lessons &rarr;</a>
+<a href="../../index.html">Home</a>
 </nav>
 <button id="theme-toggle" class="theme-btn">🌙</button>
 </div>
 </header>
 
 <div class="sidebar">
-<h3>Topics</h3>
-<ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html" class="active">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/calculus-differentiation-and-integration.html">Calculus: Differentiation and Integration</a></li><li><a href="../../topics/mathematics/coordinate-geometry-and-circles.html">Coordinate Geometry and Circles</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li><li><a href="../../topics/mathematics/statistical-distributions-and-hypothesis-testing.html">Statistical Distributions and Hypothesis Testing</a></li></ul>
-</div><div class="ad-right">
-<a href="https://www.amazon.co.uk/s?k=scientific+calculator+A-Level&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Scientific Calculators</div>
-<div class="affiliate-card-desc">Essential for A-Level Maths exams</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=graph+paper+a4+pad&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Graph Paper Pads</div>
-<div class="affiliate-card-desc">A4 squared paper for maths</div>
-<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
-</a>
-<a href="https://www.amazon.co.uk/s?k=A-Level+Maths+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
-<div class="affiliate-card-title">Maths Revision Guides</div>
-<div class="affiliate-card-desc">CGP and other revision guides</div>
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/mathematics/algebraic-expressions.html">Algebraic Expressions</a></li><li><a href="../../topics/mathematics/quadratic-equations.html">Quadratic Equations</a></li><li><a href="../../topics/mathematics/coordinate-geometry.html" class="active">Coordinate Geometry</a></li><li><a href="../../topics/mathematics/trigonometry.html">Trigonometry</a></li><li><a href="../../topics/mathematics/differentiation.html">Differentiation</a></li><li><a href="../../topics/mathematics/integration.html">Integration</a></li><li><a href="../../topics/mathematics/vectors.html">Vectors</a></li><li><a href="../../topics/mathematics/algebraic-methods-and-proof.html">Algebraic Methods and Proof</a></li><li><a href="../../topics/mathematics/probability-distributions.html">Probability and Distributions</a></li><li><a href="../../topics/mathematics/statistics-data.html">The Large Data Set</a></li><li><a href="../../topics/mathematics/mechanics-dynamics-and-kinematics.html">Mechanics: Dynamics and Kinematics</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
 <div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
 </a>
 <a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
@@ -57,7 +45,7 @@
 </div>
 
 <main class="topic-content">
-<div class="disclaimer-banner"><strong>A-Level Revise Aid:</strong> This resource is designed to support your revision and may contain errors. If you find a discrepancy with your class teaching, your teacher is correct -- please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
 
 <nav class="breadcrumb">
 <a href="../../index.html">Home</a> <span>›</span>
@@ -69,122 +57,128 @@
 <h1>Coordinate Geometry</h1>
 <div class="topic-meta">
 <span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
-<span class="badge">All Boards (AQA, Edexcel, OCR, WJEC, CCEA)</span>
-<span class="badge" id="board-badge">AQA</span>
+<span class="badge">AQA, Edexcel, OCR, WJEC/Eduqas, CCEA</span>
 </div>
-<p class="topic-desc">A-Level Mathematics revision: Coordinate Geometry. Learning objectives, key points, worked examples and practice questions across AQA, Edexcel, OCR, WJEC and CCEA.</p>
+<p class="topic-desc">Straight lines, gradients, parallel and perpendicular conditions, circle equations, tangents, chord lengths and loci - A-Level pure maths coordinate geometry (Edexcel 9MA0 Topic 3, AQA 7357 Section C) revised with worked examples and mark-scheme logic.</p>
 </article>
 
 <div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="edexcel">Pearson Edexcel</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option><option value="ccea">CCEA</option></select></div></div>
+
 <a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
-<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot — register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
 <script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
 
-
-
-
-
-
-
-<section class="section">
-<h2>📌 Key Points</h2>
-<div class="key-point"><strong>Key Fact:</strong> Gradient m = (y₂ - y₁)/(x₂ - x₁)</div><div class="key-point"><strong>Key Fact:</strong> Line equations: y - y₁ = m(x - x₁) or y = mx + c</div><div class="key-point"><strong>Key Fact:</strong> Distance d = sqrt((x₂ - x₁)^2 + (y₂ - y₁)^2)</div><div class="key-point"><strong>Key Fact:</strong> Midpoint M = ((x₁ + x₂)/2, (y₁ + y₂)/2)</div><div class="key-point"><strong>Key Fact:</strong> Parallel lines: equal gradients (m₁ = m₂)</div><div class="key-point"><strong>Key Fact:</strong> Perpendicular lines: product of gradients = -1 (m₁ x m₂ = -1)</div><div class="key-point"><strong>Key Fact:</strong> Circle: (x - a)^2 + (y - b)^2 = r^2, centre (a,b), radius r</div><div class="key-point"><strong>Key Fact:</strong> Circle properties: radius ⟂ tangent, perpendicular bisector of chord passes through centre</div><div class="key-point"><strong>Key Fact:</strong> Intersection: solve simultaneous equations of line and circle/line</div>
-</section>
 <section class="section">
 <h2>🎯 Learning Objectives</h2>
-<ul><li>Find the equation of a line given gradient and point, or two points</li><li>Compute distance between two points and midpoint of a segment</li><li>Determine parallel and perpendicular lines using gradients</li><li>Find intersection of two lines algebraically</li><li>Understand equation of a circle (x-a)^2 + (y-b)^2 = r^2</li><li>Find tangents and normals to circles and curves</li><li>Apply coordinate geometry to solve geometric problems</li></ul>
+<ul>
+<li>Find the equation of a line from a gradient and point or from two points, in y = mx + c or ax + by + c = 0 form (AO1) - Edexcel 9MA0 3.1, AQA 7357 C1</li>
+<li>Calculate distances and midpoints, and use the parallel (m1 = m2) and perpendicular (m1 m2 = -1) conditions (AO1/AO2) - Edexcel 9MA0 3.1, AQA 7357 C1</li>
+<li>Find the equation of a circle from its centre and radius, and recover centre and radius by completing the square from the expanded form (AO1/AO2) - Edexcel 9MA0 3.6, AQA 7357 C2</li>
+<li>Use circle properties: the radius is perpendicular to the tangent, and the perpendicular bisector of a chord passes through the centre (AO2) - Edexcel 9MA0 3.6, AQA 7357 C2</li>
+<li>Find intersections of lines with lines and lines with circles, interpreting a zero discriminant as tangency and deriving exact chord lengths (AO2) - Edexcel 9MA0 3.1/3.6</li>
+<li>Determine loci of points satisfying distance conditions and prove geometric facts using gradients and distances (AO2/AO3)</li>
+</ul>
 </section>
-
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Gradient:</strong> The steepness of a line: m = (y2 - y1)/(x2 - x1), the change in y per unit change in x.</div>
+<div class="key-point"><strong>Midpoint:</strong> The point halfway along a segment: M = ((x1 + x2)/2, (y1 + y2)/2).</div>
+<div class="key-point"><strong>Distance formula:</strong> The distance between (x1, y1) and (x2, y2) is sqrt((x2 - x1)^2 + (y2 - y1)^2), from Pythagoras.</div>
+<div class="key-point"><strong>Perpendicular bisector:</strong> The line through the midpoint of a segment at right angles to it; every point on it is equidistant from the segment&#x27;s endpoints, and for a chord it passes through the circle&#x27;s centre.</div>
+<div class="key-point"><strong>Equation of a circle:</strong> The circle with centre (a, b) and radius r has equation (x - a)^2 + (y - b)^2 = r^2.</div>
+<div class="key-point"><strong>Tangent:</strong> A line touching a circle or curve at exactly one point; it is perpendicular to the radius at the point of contact.</div>
+<div class="key-point"><strong>Chord:</strong> A line segment joining two points on a circle; the perpendicular bisector of any chord passes through the centre.</div>
+<div class="key-point"><strong>Locus:</strong> The set of points satisfying a geometric condition; equidistance from a point and a line gives a parabola, from two points a perpendicular bisector.</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Gradient m = (y2 - y1)/(x2 - x1); line through (x1, y1): y - y1 = m(x - x1).</div>
+<div class="key-point">Distance d = sqrt((x2 - x1)^2 + (y2 - y1)^2); midpoint M = ((x1 + x2)/2, (y1 + y2)/2).</div>
+<div class="key-point">Parallel lines have equal gradients; perpendicular lines have gradients multiplying to -1 (m1 x m2 = -1).</div>
+<div class="key-point">Circle: (x - a)^2 + (y - b)^2 = r^2 with centre (a, b), radius r; radius is perpendicular to the tangent; the perpendicular bisector of a chord passes through the centre.</div>
+<div class="key-point">Line-circle intersection: substitute and examine the resulting quadratic - discriminant zero means tangency; chord length follows from the two roots.</div>
+</section>
+<section class="section">
+<h2>Lines: gradient, equations and the perpendicular condition</h2>
+<p>Straight-line work underpins half the pure paper (Edexcel 9MA0 3.1; AQA 7357 C1; OCR A H640 4.01; WJEC/Eduqas and CCEA AS Pure Mathematics). The gradient between two points is m = (y2 - y1)/(x2 - x1), and the equation of a line comes in two interchangeable forms: point-slope y - y1 = m(x - x1) and slope-intercept y = mx + c. Exam answers usually prefer ax + by + c = 0 form when a question says give your answer in the form ax + by + c = 0 - multiply through and collect every term on one side.</p><p>Two conditions do the geometric work: <strong>parallel</strong> lines have equal gradients (m1 = m2) and <strong>perpendicular</strong> lines have gradients whose product is -1 (m1 x m2 = -1), so a perpendicular gradient is the negative reciprocal. For a line 2x + 3y = 6, rewrite as y = -2x/3 + 2 to read the gradient -2/3; any perpendicular line has gradient 3/2.</p><details><summary>Worked example: perpendicular bisector</summary><p>Find the equation of the perpendicular bisector of the line joining A(-1, 4) and B(5, -2).</p><p><strong>Line 1:</strong> Midpoint of AB = ((-1 + 5)/2, (4 - 2)/2) = (2, 1) (M1).</p><p><strong>Line 2:</strong> Gradient of AB = (-2 - 4)/(5 - (-1)) = -6/6 = -1 (M1).</p><p><strong>Line 3:</strong> Perpendicular gradient = -1/(-1) = 1 (A1).</p><p><strong>Line 4:</strong> Through (2, 1): y - 1 = 1(x - 2), so y = x - 1 (A1).</p></details><p>Check the answer: any point on y = x - 1 should be equidistant from A and B - testing (2, 1) gives distance sqrt(9 + 9) = sqrt(18) to both, confirming the bisector.</p>
+</section>
+<section class="section">
+<h2>Circles: equation, centre and radius</h2>
+<p>The circle with centre (a, b) and radius r has equation <strong>(x - a)^2 + (y - b)^2 = r^2</strong> (Edexcel 9MA0 3.6; AQA 7357 C2; OCR A H640 5.01; CCEA AS1/A21). Two directions of travel: (1) given centre and radius, write the equation; (2) given the expanded form x^2 + y^2 + 2gx + 2fy + c = 0, complete the square in x and in y to recover the centre (-g, -f) and radius sqrt(g^2 + f^2 - c). Centre and radius questions award method marks for the completing-the-square lines, so show them.</p><p>A circle can be specified without its centre: as the circle on a given <strong>diameter</strong>, where the centre is the midpoint of the diameter's endpoints and the radius is half the distance between them. This construction appears constantly in exam questions.</p><details><summary>Worked example: circle from a diameter</summary><p>Find the equation of the circle with diameter endpoints A(1, 2) and B(5, 6), and find the tangent at A.</p><p><strong>Line 1:</strong> Centre = midpoint of AB = ((1 + 5)/2, (2 + 6)/2) = (3, 4) (M1).</p><p><strong>Line 2:</strong> Radius = half of AB: AB = sqrt((5 - 1)^2 + (6 - 2)^2) = sqrt(32), so r^2 = 32/4 = 8 (M1 A1).</p><p><strong>Line 3:</strong> Circle: (x - 3)^2 + (y - 4)^2 = 8 (A1).</p><p><strong>Line 4:</strong> Gradient of the radius from centre (3, 4) to A(1, 2): (2 - 4)/(1 - 3) = 1 (M1).</p><p><strong>Line 5:</strong> Tangent gradient = -1 (perpendicular condition). Tangent at A: y - 2 = -1(x - 1), so y = -x + 3 (A1).</p></details><p>Note the efficient habit: keep r^2 as a value rather than computing r, since the equation only needs r^2. The angle in a semicircle is a right angle (Thales), which is why a diameter-endpoint question often asks to prove a triangle is right-angled.</p>
+</section>
+<section class="section">
+<h2>Circle theorems and tangency</h2>
+<p>Three circle properties are examinable (Edexcel 9MA0 3.6; AQA 7357 C2; OCR A H640 5.01): (1) the <strong>tangent is perpendicular to the radius</strong> at the point of contact - the workhorse for tangent equations; (2) the <strong>perpendicular bisector of a chord passes through the centre</strong> - the workhorse for finding a centre from a chord; (3) the angle in a semicircle is 90 degrees. Tangency can also be established algebraically: substitute the line into the circle, and a <strong>repeated root (discriminant zero)</strong> proves the line touches at exactly one point.</p><details><summary>Worked example: proving tangency algebraically</summary><p>Show that the line 3x + 4y = 25 is a tangent to the circle x^2 + y^2 = 25, and find the point of contact.</p><p><strong>Line 1:</strong> Substitute x = (25 - 4y)/3: ((25 - 4y)/3)^2 + y^2 = 25 (M1: substitution).</p><p><strong>Line 2:</strong> Multiply by 9: (25 - 4y)^2 + 9y^2 = 225, so 625 - 200y + 16y^2 + 9y^2 = 225 (M1).</p><p><strong>Line 3:</strong> 25y^2 - 200y + 400 = 0, so y^2 - 8y + 16 = 0, i.e. (y - 4)^2 = 0 (A1: repeated root).</p><p><strong>Line 4:</strong> The discriminant is zero, so there is exactly one intersection point: the line is a tangent (A1: conclusion).</p><p><strong>Line 5:</strong> Point of contact: y = 4, x = (25 - 16)/3 = 3, i.e. (3, 4) (A1).</p></details><details><summary>Worked example: tangent at a point using the radius</summary><p>Find the tangent to the circle (x - 2)^2 + (y + 1)^2 = 25 at the point (5, 3).</p><p><strong>Line 1:</strong> Radius from centre (2, -1) to (5, 3): gradient (3 - (-1))/(5 - 2) = 4/3 (M1).</p><p><strong>Line 2:</strong> Tangent gradient = -3/4 (A1: perpendicular).</p><p><strong>Line 3:</strong> y - 3 = -(3/4)(x - 5), so 4y - 12 = -3x + 15, i.e. 3x + 4y = 27 (A1).</p></details><p>To find a centre from a chord: the centre lies on the chord's perpendicular bisector - combine with a second chord (or a point and the radius) to pin down the centre by intersecting two bisectors.</p>
+</section>
+<section class="section">
+<h2>Intersections and exact chord lengths</h2>
+<p>Intersections are simultaneous equation problems. Line with line: solve the pair directly. Line with circle: substitute the line's expression for y (or x) into the circle to get a quadratic in one variable; its roots give the intersection points. Two outcomes matter: two distinct roots mean the line cuts the circle (a chord), a repeated root means tangency, and no real roots mean the line misses.</p><p>Chord lengths can be found without ever computing both points in full: if the quadratic in x has roots x1 and x2 and the line has gradient m, then the chord length is sqrt(1 + m^2) |x1 - x2| - but in practice, finding both points and using the distance formula is safer under exam pressure.</p><details><summary>Worked example: exact chord length</summary><p>The line y = 2x + 1 intersects the circle (x - 1)^2 + (y - 2)^2 = 10 at points A and B. Find the exact length AB.</p><p><strong>Line 1:</strong> Substitute: (x - 1)^2 + (2x + 1 - 2)^2 = 10, so (x - 1)^2 + (2x - 1)^2 = 10 (M1).</p><p><strong>Line 2:</strong> x^2 - 2x + 1 + 4x^2 - 4x + 1 = 10, giving 5x^2 - 6x - 8 = 0 (A1).</p><p><strong>Line 3:</strong> Factorising: (5x + 4)(x - 2) = 0, so x = 2 or x = -4/5 (A1).</p><p><strong>Line 4:</strong> Points: A(2, 5) and B(-4/5, -3/5) (M1: y = 2x + 1 for each).</p><p><strong>Line 5:</strong> AB = sqrt((2 + 4/5)^2 + (5 + 3/5)^2) = sqrt((14/5)^2 + (28/5)^2) = sqrt(980/25) = sqrt(980)/5 = 14sqrt(5)/5 (A1: exact form).</p></details><p>Keep every step exact: fractions, surds and squared terms should stay unevaluated until the final line, since rounding early destroys exact answers and drops accuracy marks. When the quadratic in x does not factorise nicely, use the quadratic formula for the two roots and continue exactly as before - the chord length method does not depend on the roots being rational.</p>
+</section>
+<section class="section">
+<h2>Loci, geometric proof and exam technique</h2>
+<p>A <strong>locus</strong> question translates a geometric condition into an equation. Equidistance from two points gives the perpendicular bisector; equidistance from a point and a line gives a <strong>parabola</strong>. The method: write the distance to each object, equate, square to remove the roots, and simplify.</p><details><summary>Worked example: a parabola locus</summary><p>Find the locus of points equidistant from the point (2, 3) and the line y = -1.</p><p><strong>Line 1:</strong> Distance to the point: sqrt((x - 2)^2 + (y - 3)^2) (M1).</p><p><strong>Line 2:</strong> Distance to the line y = -1: |y + 1| (M1).</p><p><strong>Line 3:</strong> Equate and square: (x - 2)^2 + (y - 3)^2 = (y + 1)^2 (A1).</p><p><strong>Line 4:</strong> Expand: (x - 2)^2 + y^2 - 6y + 9 = y^2 + 2y + 1, so (x - 2)^2 = 8y - 8 (A1).</p><p><strong>Line 5:</strong> y = 1 + (x - 2)^2/8: a parabola with vertex (2, 1), focus (2, 3) and directrix y = -1 (A1).</p></details><p>Geometric proof problems use gradients and distances: to prove a triangle is right-angled, either show two gradients multiply to -1 or show the sides satisfy Pythagoras (a^2 + b^2 = c^2 with the longest side as c). For A(1, 1), B(2, 2) and C(4, 0): gradient of AB is 1, gradient of BC is (0 - 2)/(4 - 2) = -1, and 1 x (-1) = -1, so the angle at B is 90 degrees.</p><p>Exam technique: (1) write the completing-the-square or gradient lines explicitly - method marks live there; (2) keep r^2 unradiquified; (3) when a question says show that a line is a tangent, the expected proof is a zero discriminant, not a sketch; (4) use exact fractions throughout; (5) finish circle questions by checking the point lies on the circle (substitute into the equation). Board coverage: Edexcel 9MA0 Topic 3, AQA 7357 C1-C2, OCR A H640 4.01 and 5.01, WJEC/Eduqas AS Unit 1 geometry, CCEA AS1/A21 - identical techniques, differing wording.</p>
+</section>
 <section class="section">
 <h2>💡 Worked Example</h2>
-<div class="example">
-<div class="example-title">Exam-Style Question</div>
-<p><strong>Question:</strong> Find the equation of the circle with diameter endpoints A(1,2) and B(5,6). Find the tangent at A.</p>
-<div style="margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);">
-<p><strong>Model Answer:</strong></p>
-<p>Centre = midpoint of AB = (3,4). Radius = half of AB = ½sqrt((5-1)^2+(6-2)^2) = ½sqrt32 = 2sqrt2. Circle: (x-3)^2+(y-4)^2=8. Gradient of radius OA = (2-4)/(1-3)=1. Tangent gradient = -1. Tangent at A: y-2 = -1(x-1) -&gt; y = -x+3</p>
-</div>
-</div>
+<div class="question"><strong>Exam-style:</strong> Find the equation of the circle with diameter endpoints A(1, 2) and B(5, 6), and find the equation of the tangent at A. (Edexcel 9MA0-style, 7 marks)</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> Centre = midpoint of AB = ((1 + 5)/2, (2 + 6)/2) = (3, 4) (M1). AB = sqrt((5 - 1)^2 + (6 - 2)^2) = sqrt(32), so r^2 = 32/4 = 8 (M1 A1). Circle: (x - 3)^2 + (y - 4)^2 = 8 (A1). Gradient of the radius from (3, 4) to A(1, 2) is (2 - 4)/(1 - 3) = 1 (M1), so the tangent gradient is -1 (perpendicular to radius). Tangent at A: y - 2 = -1(x - 1), i.e. y = -x + 3 (A1).</div>
 </section>
 <section class="section">
-<h2>❓ Practice Questions</h2><p class="q-note">Model answers are being added progressively - questions marked &#10007; don't have one yet. Cross-check with your teacher or the official mark scheme.</p>
-<div class="practice-questions">
-<div class="question">
-<p><strong>Questions:</strong></p>
-<ul><li>Find the line through (-2,3) perpendicular to 2x + 3y = 6<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find intersection of y = 2x - 1 and 3x + y = 7<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Circle C: (x-2)^2 + (y+1)^2 = 25. Find tangent at (5,3)<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Points A(1,1), B(4,5), C(6,2). Show triangle ABC is right-angled<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li><li>Find the locus of points equidistant from (2,3) and the line y = -1<span class="q-no-answer" title="Model answer not yet available - check with your teacher or the official mark scheme">&#10007; answer coming soon</span></li></ul>
-</div>
-<div class="question">
-  <p><strong>Q1:</strong> Find the equation of the perpendicular bisector of the line joining A(-1, 4) and B(5, -2).</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Midpoint of AB = ((-1 + 5)/2, (4 - 2)/2) = (2, 1). Gradient of AB = (-2 - 4)/(5 - (-1)) = -6/6 = -1. The perpendicular bisector has gradient -1/(-1) = 1. Equation: y - 1 = 1(x - 2), so y = x - 1.</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q2:</strong> Show that the line 3x + 4y = 25 is a tangent to the circle x&#178; + y&#178; = 25, and find the point of contact.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Substitute x = (25 - 4y)/3 into the circle: ((25 - 4y)/3)&#178; + y&#178; = 25. Multiplying by 9: (25 - 4y)&#178; + 9y&#178; = 225, so 625 - 200y + 16y&#178; + 9y&#178; = 225, giving 25y&#178; - 200y + 400 = 0. Divide by 25: y&#178; - 8y + 16 = 0, so (y - 4)&#178; = 0. The quadratic has a repeated root (discriminant = 0), so the line is a tangent. Point of contact: y = 4, x = (25 - 16)/3 = 3, i.e. (3, 4).</p>
-    </div>
-  </details>
-</div>
-<div class="question">
-  <p><strong>Q3:</strong> The line y = 2x + 1 intersects the circle (x - 1)&#178; + (y - 2)&#178; = 10 at points A and B. Find the exact length AB.</p>
-  <details style="margin-top: 0.5rem;">
-    <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Show Model Answer</summary>
-    <div style="margin-top: 0.5rem; padding: 0.75rem; background: var(--bg-secondary); border-left: 3px solid var(--success); border-radius: 4px;">
-      <p><strong>Answer:</strong> Substitute: (x - 1)&#178; + (2x + 1 - 2)&#178; = 10, so x&#178; - 2x + 1 + 4x&#178; - 4x + 1 = 10, giving 5x&#178; - 6x - 8 = 0. Factorising: (5x + 4)(x - 2) = 0, so x = 2 or x = -4/5. Points: A(2, 5) and B(-4/5, -3/5). AB = &#8730;((2 + 4/5)&#178; + (5 + 3/5)&#178;) = &#8730;((14/5)&#178; + (28/5)&#178;) = &#8730;(196/25 + 784/25) = &#8730;(980/25) = &#8730;980/5 = 14&#8730;5/5.</p>
-    </div>
-  </details>
-</div>
-</div>
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Find the equation of the line through (-2, 3) perpendicular to 2x + 3y = 6, in the form ax + by + c = 0.</summary><div class="answer"><strong>Answer:</strong> Rewrite 2x + 3y = 6 as y = -2x/3 + 2, so its gradient is -2/3 (M1). Perpendicular gradient: 3/2 (A1). Through (-2, 3): y - 3 = (3/2)(x + 2), so 2y - 6 = 3x + 6, i.e. 3x - 2y + 12 = 0 (A1).</div></details>
+<details><summary>Find the intersection of y = 2x - 1 and 3x + y = 7.</summary><div class="answer"><strong>Answer:</strong> Substitute y = 2x - 1 into 3x + y = 7: 3x + 2x - 1 = 7, so 5x = 8 and x = 8/5 (M1 A1). Then y = 2(8/5) - 1 = 11/5 (A1). Intersection point (8/5, 11/5).</div></details>
+<details><summary>Find the tangent to the circle (x - 2)^2 + (y + 1)^2 = 25 at the point (5, 3).</summary><div class="answer"><strong>Answer:</strong> Centre (2, -1). Radius gradient: (3 - (-1))/(5 - 2) = 4/3 (M1). Tangent gradient: -3/4 (A1). y - 3 = -(3/4)(x - 5), so 4y - 12 = -3x + 15, i.e. 3x + 4y = 27 (A1).</div></details>
+<details><summary>Points A(1, 1), B(2, 2) and C(4, 0). Show that triangle ABC is right-angled, stating the right angle.</summary><div class="answer"><strong>Answer:</strong> Gradient of AB = (2 - 1)/(2 - 1) = 1 (M1). Gradient of BC = (0 - 2)/(4 - 2) = -1 (M1). Product: 1 x (-1) = -1, so AB is perpendicular to BC (A1). The right angle is at B (A1: stated). Alternative: AB^2 = 2, BC^2 = 8, AC^2 = 10, and 2 + 8 = 10 satisfies Pythagoras.</div></details>
+<details><summary>Show that the line 3x + 4y = 25 is a tangent to the circle x^2 + y^2 = 25 and find the point of contact.</summary><div class="answer"><strong>Answer:</strong> Substitute x = (25 - 4y)/3 into the circle and multiply by 9: (25 - 4y)^2 + 9y^2 = 225 (M1). Expanding: 625 - 200y + 25y^2 = 225, so 25y^2 - 200y + 400 = 0, i.e. y^2 - 8y + 16 = 0, (y - 4)^2 = 0 (A1: repeated root). Discriminant zero, so the line touches at one point: tangent (A1). Point of contact: y = 4, x = (25 - 16)/3 = 3, i.e. (3, 4) (A1).</div></details>
+<details><summary>The line y = 2x + 1 intersects the circle (x - 1)^2 + (y - 2)^2 = 10 at A and B. Find the exact length AB.</summary><div class="answer"><strong>Answer:</strong> Substitute: (x - 1)^2 + (2x - 1)^2 = 10, giving 5x^2 - 6x - 8 = 0 (M1 A1). Factorising: (5x + 4)(x - 2) = 0, so x = 2 or -4/5 (A1). Points A(2, 5), B(-4/5, -3/5) (M1). AB = sqrt((14/5)^2 + (28/5)^2) = sqrt(980/25) = 14sqrt(5)/5 (A1: exact).</div></details>
 </section>
 <section class="section">
 <h2>🎬 Video Resources</h2>
-<ul><li><a href="https://www.youtube.com/results?search_query=Coordinate+Geometry+A-Level" target="_blank" rel="noopener">Coordinate Geometry - Overview</a> -- YouTube Search</li><li><a href="https://www.youtube.com/results?search_query=Coordinate+Geometry+exam+questions" target="_blank" rel="noopener">Coordinate Geometry - Exam Questions</a> -- YouTube Search</li></ul>
+<ul><li><a href="https://www.youtube.com/results?search_query=A+level+maths+coordinate+geometry+circles+tangents+chord+length+Edexcel+revision" target="_blank" rel="noopener">YouTube: A level maths coordinate geometry circles tangents chord length Edexcel revision</a></li></ul>
 </section>
 <section class="section">
 <h2>📄 Past Papers & Exam Resources</h2>
-<ul data-pp-list><li data-board="aqa"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Mathematics - Coordinate Geometry</a> -- AQA</li><li data-board="edexcel"><a href="https://qualifications.pearson.com/en/support/support-topics/exams/past-papers.html" target="_blank" rel="noopener">Edexcel A-Level Mathematics - Coordinate Geometry</a> -- Edexcel</li><li data-board="ocr"><a href="https://www.ocr.org.uk/qualifications/past-paper-finder/" target="_blank" rel="noopener">OCR A-Level Mathematics - Coordinate Geometry</a> -- OCR</li></ul>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - AQA coordinate geometry topic pages with past paper questions and worked solutions</a></li>
+<li data-board="Edexcel"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - Edexcel straight lines and circles past paper questions arranged by topic</a></li>
+<li data-board="OCR"><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision hub - OCR A coordinate geometry and circles past paper questions by topic</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT Maths revision site - coordinate geometry questions transferable to WJEC/Eduqas and CCEA papers</a></li>
+</ul>
 </section>
 <section class="section">
 <h2>🔗 Further Reading & Resources</h2>
-<ul><li><a href="https://www.physicsandmathstutor.com/maths-revision/a-level-edexcel/pure-maths/coordinate-geometry/" target="_blank" rel="noopener">Physics &amp; Maths Tutor - Coordinate Geometry</a> -- Free notes, worksheets, and past paper questions by topic</li><li><a href="https://drfrostmaths.com/" target="_blank" rel="noopener">Dr Frost Maths - Coordinate Geometry</a> -- Free resources, slides, and interactive questions</li><li><a href="https://www.bbc.co.uk/bitesize/search?q=Coordinate+Geometry" target="_blank" rel="noopener">BBC Bitesize - Coordinate Geometry</a> -- BBC Bitesize revision resources</li></ul>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT A-Level Maths revision - coordinate geometry notes, worksheets and solutions by board</a></li>
+<li><a href="https://www.physicsandmathstutor.com/maths-revision/" target="_blank" rel="noopener">PMT Maths revision hub - all A-Level Maths topics with past paper questions by topic</a></li>
+<li><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">PMT - past papers and mark schemes for AQA, Edexcel and OCR A-Level Maths</a></li>
+</ul>
 </section>
-
-
 
 <section class="section">
 <h2>🧠 Flashcards (Spaced Repetition)</h2>
-<div id="flashcard-container"></div>
+<div id="flashcard-container">
+</div>
 </section>
 
 <section class="section">
 <h2>📝 Exam Questions by Topic</h2>
-<div id="exam-questions-container"></div>
+<div id="exam-questions-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎯 Target Tests (Auto-Graded)</h2>
-<div id="target-tests-container"></div>
+<div id="target-tests-container">
+</div>
 </section>
 
 <section class="section">
 <h2>🎓 Smart Lesson (Guided)</h2>
-<div id="smart-lesson-container"></div>
+<div id="smart-lesson-container">
+</div>
 </section>
-<nav class="topic-nav">
-<a href="../../topics/mathematics/quadratic-equations.html">← Quadratic Equations</a>
-<a href="../../mathematics.html">← Back to Mathematics Overview</a>
-<a href="../../topics/mathematics/differentiation.html">Differentiation →</a>
-</nav>
 
-
-
-
+<nav class="topic-nav"><a href="../../topics/mathematics/quadratic-equations.html">&larr; Quadratic Equations</a><a href="../../topics/mathematics/trigonometry.html">Trigonometry &rarr;</a></nav>
 </main>
 <footer class="site-footer">
 <p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
@@ -205,13 +199,12 @@ if (localStorage.getItem('alevelrevise-theme') === 'light') {
 document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
 }
 </script>
-
 <script src="../../sidebar.js"></script>
 <script src="../../affiliate-images.js"></script>
-
-
-
-
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
 <script>
 (function(){
 var sel=document.getElementById('board-select');
@@ -229,27 +222,16 @@ function apply(board){
 var items=document.querySelectorAll('[data-pp-list] li');
 items.forEach(function(li){
 var b=li.getAttribute('data-board')||boardOf(li);
-li.setAttribute('data-board',b);
-li.style.opacity=(!b||b===board)?'1':'0.45';
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
 });
-var badge=document.getElementById('board-badge');
-if(badge){badge.textContent=sel.options[sel.selectedIndex].text;}
-try{localStorage.setItem('alevel-board',board);}catch(e){}
-var u=new URL(location.href);u.searchParams.set('board',board);
-history.replaceState(null,'',u.toString());
 }
-var init='aqa';
-try{
-var q=new URL(location.href).searchParams.get('board');
-init=q||localStorage.getItem('alevel-board')||'aqa';
-}catch(e){}
-if(sel.querySelector('option[value="'+init+'"]'))sel.value=init;
-sel.addEventListener('change',function(){apply(sel.value);});
-apply(sel.value);
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
 })();
 </script>
-<script src="../../flashcards/flashcards.js"></script>
-<script src="../../exam-questions/exam-questions.js"></script>
-<script src="../../target-tests/target-tests.js"></script>
-<script src="../../smart-lessons/smart-lessons.js"></script>
 </body></html>

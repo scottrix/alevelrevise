@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Representation - A-Level Computer Science Revision Notes</title>
+<meta name="description" content="Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for data representation: binary and hex, two&#x27;s complement, floating point, ASCII/Unicode, bitmaps, vectors, sound sampling and RLE/dictionary compression with worked conversions.">
+<meta name="keywords" content="A-Level Computer Science, Data Representation, revision notes, AQA, OCR, WJEC/Eduqas, past papers">
+<meta property="og:title" content="Data Representation - A-Level Computer Science">
+<meta property="og:description" content="Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for data representation: binary and hex, two&#x27;s complement, floating point, ASCII/Unicode, bitmaps, vectors, sound sampling and RLE/dictionary compression with worked conversions.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://scottrix.github.io/alevelrevise/computer-science/data-representation.html">
+<link rel="canonical" href="https://scottrix.github.io/alevelrevise/computer-science/data-representation.html">
+<meta property="og:site_name" content="A-Level Revise">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Which number-system conversions appear most in exams?", "acceptedAnswer": {"@type": "Answer", "text": "Two's complement encode/decode, binary addition with overflow, binary-to-hex by nibbles, and denary-to-normalised-floating-point \u2014 practise all four with working shown, since method marks dominate."}}{"@type": "Question", "name": "Do I need to memorise file size formulas?", "acceptedAnswer": {"@type": "Answer", "text": "Yes: bitmap = width x height x colour depth; sound = sample rate x resolution x seconds x channels. Conversions (/8 to bytes, /1024 to KiB/MiB) are the most commonly lost marks."}}]}
+</script>
+<link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<header class="site-header">
+<div class="header-content">
+<a href="../../index.html" class="logo">📚 A-Level Revise</a>
+<nav class="nav">
+<a href="../../index.html#subjects">Subjects</a>
+<a href="../../index.html">Home</a>
+</nav>
+<button id="theme-toggle" class="theme-btn">🌙</button>
+</div>
+</header>
+
+<div class="sidebar">
+  <h3>Topics</h3>
+  <ul><li><a href="../../topics/computer-science/fundamentals-of-programming.html">Fundamentals of Programming</a></li><li><a href="../../topics/computer-science/data-structures-and-algorithms.html">Data Structures and Algorithms</a></li><li><a href="../../topics/computer-science/theory-of-computation.html">Theory of Computation</a></li><li><a href="../../topics/computer-science/data-representation.html" class="active">Data Representation</a></li><li><a href="../../topics/computer-science/computer-systems-and-architecture.html">Computer Systems and Architecture</a></li><li><a href="../../topics/computer-science/networks-and-databases.html">Networks and Databases</a></li><li><a href="../../topics/computer-science/software-development.html">Software Development and Legal Issues</a></li></ul>
+</div>
+
+<div class="ad-right">
+<a href="https://www.amazon.co.uk/s?k=A-Level+revision+guides&tag=scottrix-21" class="affiliate-card" target="_blank" rel="nofollow noopener">
+<div class="affiliate-card-title">A-Level Revision Guides</div>
+<div class="affiliate-card-desc">All subjects covered</div>
+<div class="affiliate-card-store"><img src="../../amazon-smile.svg" alt="Amazon"> amazon.co.uk</div>
+</a>
+<a href="https://join.fastmail.com/0d63b2d52105" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Fastmail -- Private Email</div><div class="affiliate-card-desc">Privacy-first email with no ads and no tracking</div><div class="affiliate-card-store">fastmail.com</div></a>
+<a href="https://www.dynadot.com/?ref=scottrix" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Dynadot -- Domain Registration -></div><div class="affiliate-card-desc">Register or transfer domains with free SSL and affordable pricing</div><div class="affiliate-card-store">dynadot.com</div></a>
+<a href="https://zen.mention-me.com/m/ol/yv3qsjix-scott-harrison" class="affiliate-card" target="_blank" rel="nofollow noopener"><div class="affiliate-card-title">Zen Internet -- UK Broadband -></div><div class="affiliate-card-desc">Award-winning UK broadband with no data caps and great customer service</div><div class="affiliate-card-store">zen.co.uk</div></a>
+</div>
+
+<main class="topic-content">
+<div class="disclaimer-banner"><strong>A-Level Revision Aid:</strong> This resource is designed to support your revision. Content may contain errors. If you find a discrepancy with your class teaching, your teacher is correct — please let us know at <a href="mailto:alevelrevise@scott.scottrix.co.uk">alevelrevise@scott.scottrix.co.uk</a>.</div>
+
+<nav class="breadcrumb">
+<a href="../../index.html">Home</a> <span>›</span>
+<a href="../../computer-science.html">Computer Science</a> <span>›</span>
+<span>Data Representation</span>
+</nav>
+
+<article class="topic-header">
+<h1>Data Representation</h1>
+<div class="topic-meta">
+<span class="badge foundation">Year 1 / AS</span><span class="badge higher">Year 2 / A-Level</span>
+<span class="badge">AQA, OCR, WJEC/Eduqas</span>
+</div>
+<p class="topic-desc">Exam-focused AQA 7517, OCR H446 and WJEC/Eduqas revision for data representation: binary and hex, two&#x27;s complement, floating point, ASCII/Unicode, bitmaps, vectors, sound sampling and RLE/dictionary compression with worked conversions.</p>
+</article>
+
+<div class="selector-bar"><div class="selector-group"><label for="board-select">Exam Board: </label><select id="board-select"><option value="aqa">AQA</option><option value="ocr">OCR</option><option value="wjec">WJEC / Eduqas</option></select></div></div>
+
+<a class="fastmail-topbar" data-banner="fastmail" href="https://join.fastmail.com/0d63b2d52105" target="_blank" rel="noopener"><img src="../../FM Billboard 970x250.png" alt="Fastmail" loading="lazy"></a>
+<a class="fastmail-topbar" data-banner="dynadot" href="https://www.dynadot.com/?ref=scottrix" target="_blank" rel="nofollow noopener" hidden><img src="../../dynadot-banner.jpg" alt="Dynadot -- register a new domain, web hosting, SSL" loading="lazy" onerror="this.parentElement.style.display='none';document.querySelector('[data-banner=fastmail]').hidden=false"></a>
+<script>(function(){var fm=document.querySelector('[data-banner=fastmail]');var dd=document.querySelector('[data-banner=dynadot]');if(Math.random()<0.5){fm.hidden=true;dd.hidden=false}})();</script>
+
+<section class="section">
+<h2>🎯 Learning Objectives</h2>
+<ul>
+<li>Convert between binary, denary and hexadecimal, including multi-byte values and binary addition/shifts (AQA 4.3.1, OCR 1.4.1)</li>
+<li>Represent negative numbers in two&#x27;s complement, convert both directions, and perform signed binary addition (AQA 4.3.2)</li>
+<li>Convert between fixed-point and floating-point representations, normalise a floating-point number, and state the effect of mantissa/exponent sizes on range and precision (AQA 4.3.5/4.3.6)</li>
+<li>Explain character encoding in ASCII and Unicode, and calculate error detection with parity bits and checksums</li>
+<li>Describe bitmap and vector image representation, and calculate file sizes for bitmaps and sampled sound</li>
+<li>Compress and decompress data with run-length encoding and dictionary methods, explaining when each gains or loses (OCR 1.3.1)</li>
+</ul>
+</section>
+<section class="section">
+<h2>📋 Key Definitions and Core Concepts</h2>
+<div class="key-point"><strong>Two&#x27;s complement:</strong> The standard signed binary representation where negative values are formed by flipping the bits and adding 1; the leftmost bit carries a negative weight (AQA 4.3.2).</div>
+<div class="key-point"><strong>Sign and magnitude:</strong> A signed representation where the leftmost bit is the sign and the remaining bits hold the magnitude; it has two zeros, unlike two&#x27;s complement.</div>
+<div class="key-point"><strong>Mantissa and exponent:</strong> Floating-point form: value = mantissa x 2^exponent; mantissa size controls precision, exponent size controls range (AQA 4.3.5).</div>
+<div class="key-point"><strong>Normalised floating point:</strong> A floating-point number adjusted so the mantissa begins 0.1 (positive) or 1.0 (negative), giving a unique representation and maximum precision (AQA 4.3.6).</div>
+<div class="key-point"><strong>Parity bit:</strong> An extra bit added so the total number of 1s is even (even parity) or odd (odd parity); detects single-bit errors but cannot correct them.</div>
+<div class="key-point"><strong>Bitmap:</strong> An image stored as a grid of pixels, each holding a colour code; resolution = width x height, colour depth = bits per pixel.</div>
+<div class="key-point"><strong>Vector graphic:</strong> An image stored as a list of drawing objects and their properties (position, radius, colour), scaling without quality loss.</div>
+<div class="key-point"><strong>Sample resolution:</strong> The number of bits used to store one sound sample; more bits gives a closer approximation to the analogue wave.</div>
+<div class="key-point"><strong>Run-length encoding (RLE):</strong> Lossless compression storing runs as (count, value) pairs; effective on data with long runs, ineffective or lossless-negative on varied data.</div>
+<div class="key-point"><strong>Dictionary compression:</strong> Lossless compression that replaces repeated phrases with short codewords indexed in a dictionary built as the data is processed (LZ-family).</div>
+</section>
+<section class="section">
+<h2>📌 Key Points</h2>
+<div class="key-point">Binary/hex: hex digits map to 4 bits (F = 1111); conversions in both directions with 8-bit and 16-bit values (AQA 4.3.1)</div>
+<div class="key-point">Two&#x27;s complement: invert bits + 1; MSB weight is negative (-128 for 8-bit); signed addition works with normal carries, discard the overflow carry (AQA 4.3.2)</div>
+<div class="key-point">Floating point: value = mantissa x 2^exponent; more mantissa bits = precision, more exponent bits = range (AQA 4.3.5)</div>
+<div class="key-point">Normalisation: mantissa starts 0.1xxx (positive) or 1.0xxx (negative); unique representation, maximum precision (AQA 4.3.6)</div>
+<div class="key-point">ASCII is 7-bit (128 codes); Unicode (UTF-8/UTF-16) covers all world scripts and emoji</div>
+<div class="key-point">Bitmap file size = width x height x colour depth (bits); sound file size = sample rate x resolution x seconds x channels</div>
+<div class="key-point">RLE: lossless (count, value) runs — shrinks run-heavy data; dictionary (LZ): lossless codewords for repeated phrases (OCR 1.3.1)</div>
+<div class="key-point">Fixed point: fast and simple but fixed range/precision trade-off; floating point trades both dynamically (AQA 4.3.3/4.3.4)</div>
+</section>
+<section class="section">
+<h2>Binary, hexadecimal and signed arithmetic</h2>
+<p>Binary and hex conversion (AQA 4.3.1, OCR 1.4.1) must be automatic — it underpins two's complement and floating point questions. The anchor fact: one hex digit = exactly 4 bits, so split binary into nibbles:</p><pre>1101 1010  ->  D A  (0xDA)
+0x2F       ->  0010 1111</pre><p>Denary-to-binary by repeated subtraction of powers of 2 (128, 64, 32, 16, 8, 4, 2, 1), or division by 2 reading remainders upwards. Worked: 214 = 128+64+16+4+2 = 11010110. Binary addition with carries: 0110 + 0111 = 1101 (6+7=13). <strong>Overflow</strong> occurs when a result needs more bits than the register: adding 1100 (12) + 0100 (4) in 4 bits gives 1 0000 — the 5th bit is discarded, leaving 0000 (wrong, expected 16): state this in 'explain overflow' questions.</p><p><strong>Two's complement</strong> (AQA 4.3.2): negative numbers invert bits and add 1. For 8 bits the MSB carries weight −128, so values run −128 to +127:</p><pre>To encode -83 in 8 bits:
+  +83        = 01010011
+  flip bits  = 10101100
+  add 1      = 10101101  ->  -83
+
+To decode 10110100:
+  MSB negative weight: -128
+  remaining bits:      32 + 16 + 4 = 52
+  value = -128 + 52 = -76</pre><p>Alternative decode rule (faster in exams): read the MSB as negative weight and all other bits positively — one pass, no flipping. Conversion back from a negative: subtract 1 then flip, or flip then add 1 — both give the magnitude. <strong>Signed addition</strong> works with ordinary carries; the final carry out of the MSB is <em>discarded</em> and the result is correct: 11111110 (−2) + 00000011 (3) = 1 00000001 → discard carry → 00000001 (+1). Correct. <strong>Sign and magnitude</strong> contrast (one-marker): the MSB is a sign flag and the rest the magnitude; it has two representations of zero (00000000 and 10000000) and awkward addition, which is why two's complement is used.</p><p>Binary shifts (OCR 1.4.1): left shift multiplies by 2 per place, right shift divides (losing the fractional bits — rounding towards zero); in two's complement, arithmetic right shift preserves the sign bit. Overflow in signed addition is detected by carries <em>into</em> but not out of the MSB, or vice versa — the sign flips wrongly (positive + positive = negative), which is the examinable symptom.</p>
+</section>
+<section class="section">
+<h2>Floating point: range, precision, normalisation</h2>
+<p>Floating point (AQA 4.3.5/4.3.6) stores value = <strong>mantissa x 2^exponent</strong>. The single most examinable trade-off: <em>more mantissa bits = more precision; more exponent bits = more range</em> — moving a bit from mantissa to exponent increases range but loses precision, and vice versa. Quote that sentence and you have the 2-marker.</p><p><strong>Converting denary to normalised floating point.</strong> Convention used by AQA: mantissa and exponent are two's complement, mantissa written as 0.1xxxx (positive) or 1.0xxxx (negative). Worked: represent 5.5 with a 8-bit mantissa and 4-bit exponent:</p><pre>5.5 = 101.1 in binary
+normalise: 0.1011 x 2^3      (move the point 3 places left)
+mantissa  = 01011000 (0.1011 padded)
+exponent  = 0011 (3)</pre><p>Step-by-step: (1) write 5.5 in binary — 101.1; (2) shift the point so the mantissa starts 0.1: 0.1011 x 2^3 (the point moved 3 left, so exponent 3); (3) store the mantissa in two's complement, padded to 8 bits; (4) store the exponent 3 in 4-bit two's complement. A negative example: −10 = −1010 = 1.0110 x 2^4 — mantissa starts 1.0 (normalised negative), exponent 4.</p><p><strong>Converting back:</strong> read mantissa (two's complement), apply the exponent as a shift, add up the weights. Mantissa 0.1011000, exponent 0011: 0.1011 shifted 3 right = 101.1 = 5.5.</p><p><strong>Normalisation</strong> (AQA 4.3.6) exists for two reasons to quote: it gives a <em>unique representation</em> of each value (otherwise 5.5 could be 101.1x2^0 or 10.11x2^1...) and it maximises <em>precision</em> by pushing significant bits to the front of the mantissa. A number is normalised iff a positive mantissa starts 0.1 and a negative mantissa starts 1.0; exams give you a stored number and ask whether it is normalised — check the first two mantissa bits.</p><p><strong>Errors:</strong> many denary values (0.1, 0.3) have no exact binary expansion, so floating point stores an approximation — this is why 0.1 + 0.2 != 0.3 in code. <em>Absolute error</em> = |approx − exact|; <em>relative error</em> = absolute/exact, usually as a percentage (AQA 4.3.3/4.3.4). Rounding underflows precision at the mantissa's tail; very large exponents overflow to infinity, very small underflow to zero. Also know fixed-point contrast: fast, exact for a fixed scale (money in pence), but a fixed range/precision split — floating point trades both dynamically, which is why it dominates general arithmetic.</p>
+</section>
+<section class="section">
+<h2>Characters, images and sound</h2>
+<p><strong>ASCII</strong> is 7-bit: 128 codes, enough for English letters, digits, punctuation and control codes. 'A' = 65 (01000001), 'a' = 97, and the examinable trick: digit characters are codes 48–57, so <code>code - 48</code> converts a character digit to its numeric value. <strong>Unicode</strong> assigns a code point to every character in every script plus emoji; UTF-8 is variable-length (1–4 bytes, ASCII-compatible: the first 128 code points use 1 byte identical to ASCII), UTF-16 uses 2 or 4 bytes. The comparison question: ASCII cannot represent non-Latin scripts (one code set of 128); Unicode's variable-length UTF-8 keeps English text at 1 byte (backward compatible) while allowing any code point — state both halves of the trade-off.</p><p><strong>Error detection:</strong> a <em>parity bit</em> makes the count of 1s even (even parity) or odd; on receipt the parity is recomputed and a mismatch flags an error. It detects single-bit (odd numbers of) errors but cannot locate or correct them, and even numbers of errors slip through — the exact evaluation to give. A checksum goes further: arithmetic over the bytes (e.g. sum mod 256) sent with the data; stronger detection, still no correction — correction needs redundancy (e.g. retransmission, or error-correcting codes).</p><p><strong>Bitmaps</strong> store a grid of pixels, each with a colour code. Resolution = width x height in pixels; <em>colour depth</em> = bits per pixel (1-bit = 2 colours, 8-bit = 256, 24-bit = 16.7 million). File size calculation — memorise and practise:</p><pre>Bitmap: 1024 x 768 pixels at 24-bit colour
+  = 1024 x 768 x 24 bits
+  = 18,874,368 bits
+  = 2,359,296 bytes = 2.25 MiB (divide by 1024 twice)</pre><p>Bitmap drawbacks to quote: file size grows with resolution x depth regardless of image content, and scaling up loses quality (pixels become visible blocks). <strong>Vector graphics</strong> store drawing <em>objects</em>: a list such as <code>[circle, x=40, y=60, r=15, colour=red]</code>, rendered by the drawing software. Advantages: small files for simple diagrams; scaling to any size with no quality loss (objects are redrawn); each object editable independently. Limitation: unsuitable for photographs — a photo's pixel detail cannot be described as a short list of shapes, so bitmaps win there. The exam comparison is exactly that pairing.</p><p><strong>Sound</strong> is sampled: an analogue wave's amplitude is measured at a fixed <em>sample rate</em> (Hz, samples per second) and each sample stored at a fixed <em>sample resolution</em> (bits per sample). CD quality: 44,100 Hz, 16-bit, stereo (2 channels). File size:</p><pre>60 seconds at 44.1 kHz, 16-bit, stereo:
+  44100 x 16 x 60 x 2 bits = 84,672,000 bits = 10,584,000 bytes ≈ 10.1 MiB</pre><p>Trade-offs to quote: higher sample rate and resolution capture the wave more faithfully (closer approximation, higher bandwidth sounds) but increase file size proportionally; the Nyquist principle — sample at more than twice the highest frequency present — explains why 44.1 kHz covers the ~20 kHz limit of human hearing. Lower rates introduce aliasing distortion (high frequencies masquerade as low ones).</p>
+</section>
+<section class="section">
+<h2>Compression: RLE, dictionary and trade-offs</h2>
+<p>Compression reduces the number of bits needed to store or transmit data (OCR 1.3.1). <em>Lossless</em> compression reconstructs the original exactly (required for text, code, executables); <em>lossy</em> discards detail humans barely perceive (JPEG, MP3, streaming video) and achieves far higher ratios. The examinable fact: lossless for data where every bit matters, lossy where perceptual approximation is acceptable — with a reason in each case.</p><p><strong>Run-length encoding (RLE)</strong> — lossless — replaces runs of identical values with (count, value) pairs. Worked example, a 1-bit bitmap row:</p><pre>Original (24 pixels): 000000001111111100000011
+RLE: 8x0, 8x1, 6x0, 2x1
+Stored (4 bits per pair): 8,0 8,1 6,0 2,1  ->  32 bits vs 24... loss!</pre><p>Count the marking subtlety: with 4-bit counts and 1-bit values, each pair costs 5 bits, so four pairs = 20 bits < 24 bits — compressed 24→20 bits. The skill examined is knowing <em>when RLE gains</em>: long runs (flat backgrounds, scans of text, fax images). When data alternates rapidly (ABABAB...), RLE stores a pair per character and <em>expands</em> the file — still lossless, but bigger. Be ready to compute the break-even: with n-bit counts and v-bit values, a run of length k compresses when k x original-bit-depth > n + v.</p><p><strong>Dictionary (LZ-family) compression</strong> — lossless — builds a dictionary of repeated substrings as it scans, replacing each repeat with a short codeword/index. Worked sketch on <code>the cat sat on the mat</code>:</p><pre>Scan: 'the ' seen -> dictionary[254] = 'the '
+'the cat sat on the mat'
+  ->  the cat sat on [254]mat   (second 'the ' replaced by an index)</pre><p>Repeated phrases collapse to 1-byte (or few-bit) references; the dictionary itself is stored (or rebuilt during decompression, as in LZ77/LZW) so the process is fully reversible. Properties to quote: lossless; excellent on text and structured data with repetition; poor on already-compressed or random data (no repeats to factor out — and can even add overhead); decompression must be able to rebuild or reference the dictionary, so implementations either store it or derive it deterministically.</p><p>Evaluation paragraph to reuse in essays: compression trades <em>processing time</em> for <em>space/bandwidth</em> — compressing and decompressing cost CPU, so it pays off when data is stored long-term or transmitted over slow links, and can be counterproductive for data compressed once and used once on a fast local bus. Also connect to error detection: compressed data is more fragile — a single corrupted bit can derail the dictionary, which is why compressed streams carry checksums.</p>
+</section>
+<section class="section">
+<h2>💡 Worked Example</h2>
+<div class="question"><strong>Exam-style:</strong> (a) Represent -45 in 8-bit two&#x27;s complement. Show your working. [3 marks]
+(b) Add your answer to 00011010 (26) in 8-bit two&#x27;s complement, and state the denary result. [3 marks]
+(c) Explain why two&#x27;s complement is preferred over sign and magnitude for signed binary arithmetic. [2 marks]</div>
+<div class="key-point"><strong>Mark-scheme logic:</strong> (a) +45 = 00101101 (1). Flip bits: 11010010; add 1: 11010011 (1). So -45 = 11010011 (1).
+(b) 11010011 + 00011010 = 11101101 (carries discarded, 1 mark for correct binary addition). Decode: -128 + 64+32+8+4+1 = -128 + 109 = -19 (2 marks: method and result). Check: -45 + 26 = -19.
+(c) In two&#x27;s complement the same addition circuitry works for signed and unsigned values — no separate sign logic is needed (1). Sign and magnitude has two representations of zero and needs special handling of the sign bit during addition, which complicates hardware (1).</div>
+</section>
+<section class="section">
+<h2>❓ Practice Questions & Mark Schemes</h2>
+<details><summary>Convert the hexadecimal value 0x3C to denary, showing your working. [2 marks]</summary><div class="answer"><strong>Answer:</strong> 0x3C = 3 x 16 + 12 = 48 + 12 = 60 (1 mark for method, 1 for answer). Alternative: 0x3C = 0011 1100 in binary = 32+16+8+4 = 60. The nibble-splitting method generalises to 16-bit values where direct denary arithmetic is error-prone.</div></details>
+<details><summary>A floating-point number is stored with mantissa 0.1101000 and exponent 0100 (both two&#x27;s complement). Convert it to denary. [4 marks]</summary><div class="answer"><strong>Answer:</strong> Exponent 0100 = 4 (1). Mantissa 0.1101 = 1/2 + 1/4 + 1/16 = 0.8125 (2 marks for binary fractional weights). Value = 0.8125 x 2^4 = 0.8125 x 16 = 13 (1). The mantissa is normalised (starts 0.1), so this is a unique representation.</div></details>
+<details><summary>Explain the effect of moving one bit from the mantissa to the exponent of a floating-point representation. [3 marks]</summary><div class="answer"><strong>Answer:</strong> The range increases, because a larger exponent can represent much larger (and much smaller) magnitudes — exponent size controls range (1). Precision decreases, because fewer mantissa bits means fewer significant bits per value — mantissa size controls precision (1). So the trade-off shifts towards range at the cost of precision (1).</div></details>
+<details><summary>A bitmap image is 800 x 600 pixels with 16-bit colour depth. Calculate the uncompressed file size in bytes, showing your working. [3 marks]</summary><div class="answer"><strong>Answer:</strong> 800 x 600 = 480,000 pixels (1). 480,000 x 16 = 7,680,000 bits (1). 7,680,000 / 8 = 960,000 bytes (1). Method note: state the chain pixels x colour depth = bits, then bits / 8 = bytes; forgetting the /8 conversion is the common lost mark.</div></details>
+<details><summary>The row 111100001111000011110000 is stored with run-length encoding using 4-bit counts. Show the RLE form and calculate the space saving, stating one case where RLE would increase storage. [5 marks]</summary><div class="answer"><strong>Answer:</strong> Runs: 4x1, 4x0, 4x1, 4x0, 4x1, 4x0 → pairs (4,1) (4,0) (4,1) (4,0) (4,1) (4,0) (2 marks for correct runs). Each pair = 4-bit count + 1-bit value = 5 bits; 6 pairs = 30 bits vs original 24 bits — RLE expands this data (2 marks for the comparison). RLE increases storage when data alternates rapidly with no long runs (e.g. ABABAB...), because a (count, value) pair is stored per character — it is only effective on run-heavy data (1).</div></details>
+<details><summary>Explain why UTF-8 is widely used on the web rather than fixed-width Unicode encodings. [3 marks]</summary><div class="answer"><strong>Answer:</strong> UTF-8 is variable-length: the first 128 code points (ASCII) use exactly 1 byte, so English text costs no more than ASCII and is backward compatible (1). Any Unicode character — all world scripts, symbols and emoji — is still representable in 1-4 bytes (1). Fixed-width encodings waste space on predominantly-ASCII text (every character forced to 2 or 4 bytes) without gaining representable characters (1).</div></details>
+</section>
+<section class="section">
+<h2>🎬 Video Resources</h2>
+<ul><li><a href="https://www.youtube.com/results?search_query=A-Level+Computer+Science+two&#x27;s+complement+floating+point+normalisation+RLE" target="_blank" rel="noopener">YouTube: A-Level Computer Science two&#x27;s complement floating point normalisation RLE</a></li></ul>
+</section>
+<section class="section">
+<h2>📄 Past Papers & Exam Resources</h2>
+<ul data-pp-list>
+<li data-board="AQA"><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA A-Level Computer Science (7517) past papers and mark schemes</a></li>
+<li data-board="OCR"><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR A-Level Computer Science (H446) — qualifications and assessment materials</a></li>
+<li data-board="WJEC/Eduqas"><a href="https://www.physicsandmathstutor.com/" target="_blank" rel="noopener">Physics &amp; Maths Tutor — Computer Science revision hub</a></li>
+</ul>
+</section>
+<section class="section">
+<h2>🔗 Further Reading & Resources</h2>
+<ul>
+<li><a href="https://www.physicsandmathstutor.com/computer-science-revision/" target="_blank" rel="noopener">Physics &amp; Maths Tutor — Computer Science revision (notes and topic questions)</a></li>
+<li><a href="https://www.aqa.org.uk/find-past-papers-and-mark-schemes" target="_blank" rel="noopener">AQA — find past papers and mark schemes (7517)</a></li>
+<li><a href="https://www.ocr.org.uk/qualifications/" target="_blank" rel="noopener">OCR — A-Level Computer Science H446 qualifications page</a></li>
+</ul>
+</section>
+
+<section class="section">
+<h2>🧠 Flashcards (Spaced Repetition)</h2>
+<div id="flashcard-container">
+</div>
+</section>
+
+<section class="section">
+<h2>📝 Exam Questions by Topic</h2>
+<div id="exam-questions-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎯 Target Tests (Auto-Graded)</h2>
+<div id="target-tests-container">
+</div>
+</section>
+
+<section class="section">
+<h2>🎓 Smart Lesson (Guided)</h2>
+<div id="smart-lesson-container">
+</div>
+</section>
+
+<nav class="topic-nav"><a href="../../topics/computer-science/theory-of-computation.html">&larr; Theory of Computation</a><a href="../../topics/computer-science/computer-systems-and-architecture.html">Computer Systems and Architecture &rarr;</a></nav>
+</main>
+<footer class="site-footer">
+<p>A-Level Revise - Free revision notes for all subjects and exam boards</p>
+<p>Content for educational purposes only. Always cross-reference with official specifications.</p>
+<p>This site contains affiliate links. We may earn a commission if you purchase through these links.</p>
+<p>(c) 2025 | <a href="https://github.com/scottrix/alevelrevise">GitHub</a> | <a href="../../privacy.html">Privacy Policy</a> | <a href="mailto:alevelrevise@scott.scottrix.co.uk">Contact</a></p>
+</footer>
+<script>
+document.getElementById('theme-toggle').addEventListener('click', function() {
+const root = document.documentElement;
+if (root.classList.contains('light-mode')) {
+root.classList.remove('light-mode'); this.textContent = '🌙'; localStorage.setItem('alevelrevise-theme', 'dark');
+} else {
+root.classList.add('light-mode'); this.textContent = '☀️'; localStorage.setItem('alevelrevise-theme', 'light');
+}
+});
+if (localStorage.getItem('alevelrevise-theme') === 'light') {
+document.documentElement.classList.add('light-mode'); document.getElementById('theme-toggle').textContent = '☀️';
+}
+</script>
+<script src="../../sidebar.js"></script>
+<script src="../../affiliate-images.js"></script>
+<script src="../../flashcards/flashcards.js"></script>
+<script src="../../exam-questions/exam-questions.js"></script>
+<script src="../../target-tests/target-tests.js"></script>
+<script src="../../smart-lessons/smart-lessons.js"></script>
+<script>
+(function(){
+var sel=document.getElementById('board-select');
+if(!sel)return;
+function boardOf(li){
+var t=(li.textContent||'').toLowerCase();
+if(/\bwjec\b|\beduqas\b/.test(t))return 'wjec';
+if(/\bccea\b/.test(t))return 'ccea';
+if(/\bedexcel\b|\bpearson\b/.test(t))return 'edexcel';
+if(/\bocr\b/.test(t))return 'ocr';
+if(/\baqa\b/.test(t))return 'aqa';
+return '';
+}
+function apply(board){
+var items=document.querySelectorAll('[data-pp-list] li');
+items.forEach(function(li){
+var b=li.getAttribute('data-board')||boardOf(li);
+if(b&&board&&b!==board){li.style.opacity='0.35';}else{li.style.opacity='1';}
+});
+}
+sel.addEventListener('change',function(){apply(sel.value);try{localStorage.setItem('alevelrevise-board',sel.value);}catch(e){}});
+var init;
+try{init=sel.value;}catch(e){}
+try{var q=new URLSearchParams(location.search).get('board');if(q){init=q;sel.value=q;}}catch(e){}
+if(!init)init=localStorage.getItem('alevelrevise-board')||'aqa';
+if(sel.querySelector('option[value="'+init+'"]')){sel.value=init;}
+apply(init);
+})();
+</script>
+</body></html>
